@@ -113,23 +113,18 @@ async function loadQuestion() {
     $('load-state').append(retry);
   }
 }
-$('email-form').addEventListener('submit', async event => {
-  event.preventDefault();
-  const form = event.currentTarget;
-  if (!form.reportValidity()) return;
-  const button = form.querySelector('button');
-  button.disabled = true;
-  const status = $('email-status');
-  status.hidden = false;
-  status.textContent = 'Trying the preview form…';
-  try {
-    // GitHub Pages has no POST handler. Replace this endpoint with Buttondown
-    // and handle its success response before claiming an actual subscription.
-    await fetch(form.action, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ email: $('email').value }) });
-  } catch { /* The placeholder may be unavailable; the preview still completes. */ }
-  status.textContent = 'Thanks for trying SQE Daily! This is a preview, so you haven\'t been subscribed yet. Come back tomorrow for a fresh question.';
-  button.disabled = false;
-});
+// Buttondown requires a native form POST so validation and CAPTCHA can work.
+// Its saved redirects return here only after signup or opt-in confirmation.
+const subscriptionState = new URLSearchParams(location.search).get('subscription');
+if (subscriptionState === 'pending' || subscriptionState === 'confirmed') {
+  $('email-status').hidden = false;
+  $('email-status').textContent = subscriptionState === 'pending'
+    ? 'Check your inbox to confirm your subscription.'
+    : 'Your subscription is confirmed. Thanks for joining SQE Daily.';
+  // Buttondown may append the address to its redirect. Keep it out of the URL.
+  history.replaceState(null, '', `${location.pathname}#daily-email`);
+  $('daily-email').scrollIntoView();
+}
 updateDates();
 loadQuestion();
 setInterval(() => { if (updateDates() !== activeDay) loadQuestion(); }, 60000);
