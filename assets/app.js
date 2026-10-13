@@ -123,8 +123,11 @@ if (subscriptionState === 'pending' || subscriptionState === 'confirmed') {
     : 'Your subscription is confirmed. Thanks for joining SQE Daily.';
   // Buttondown may append the address to its redirect. Keep it out of the URL.
   history.replaceState(null, '', `${location.pathname}#daily-email`);
-  $('daily-email').scrollIntoView();
 }
 updateDates();
-loadQuestion();
+loadQuestion().then(() => {
+  if (subscriptionState === 'pending' || subscriptionState === 'confirmed') {
+    $('daily-email').scrollIntoView({ behavior: 'instant' });
+  }
+});
 setInterval(() => { if (updateDates() !== activeDay) loadQuestion(); }, 60000);
