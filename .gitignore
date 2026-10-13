@@ -1,2 +1,6 @@
 .DS_Store
 *.zip
+_site/
+__pycache__/
+.venv/
+node_modules/

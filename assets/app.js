@@ -14,6 +14,7 @@ function londonDay(date = new Date()) {
 function dayIndex(date) { return Math.floor(Date.parse(`${date}T00:00:00Z`) / DAY); }
 function updateDates() {
   const today = londonDay();
+  if (!$('today') || !$('days')) return today;
   $('today').dateTime = today;
   $('today').textContent = new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }).format(new Date(`${today}T00:00:00Z`));
   const days = Math.max(0, dayIndex('2027-01-11') - dayIndex(today));
@@ -22,9 +23,10 @@ function updateDates() {
   return today;
 }
 function selectQuestion(questions, today) {
-  const ordered = [...questions].sort((a, b) => a.number - b.number);
-  const offset = dayIndex(today) - dayIndex(ordered[0].publish_date);
-  return ordered[((offset % ordered.length) + ordered.length) % ordered.length];
+  return questions.filter(q => q.publish_date <= today).sort((a, b) => b.publish_date.localeCompare(a.publish_date) || b.number - a.number)[0];
+}
+function questionPath(q) {
+  return `/q/${q.number}-${q.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}/`;
 }
 function validQuestion(q) {
   return q && ['id', 'subject', 'flk', 'difficulty', 'title', 'scenario', 'stem', 'answer', 'explanation', 'key_rule', 'authority', 'verified_source_url', 'publish_date'].every(k => typeof q[k] === 'string' && q[k].trim()) && Number.isInteger(q.number) && /^[A-E]$/.test(q.answer) && ['A', 'B', 'C', 'D', 'E'].every(k => typeof q.options?.[k] === 'string') && /^https:\/\//.test(q.verified_source_url) && Number.isFinite(dayIndex(q.publish_date));
@@ -33,6 +35,8 @@ function renderQuestion(q) {
   activeQuestion = q;
   answered = false;
   $('result').hidden = true;
+  $('share-question')?.remove();
+  $('share-status')?.remove();
   $('answer-hint').hidden = false;
   $('question-number').textContent = String(q.number).padStart(2, '0');
   ['subject', 'flk', 'scenario', 'stem'].forEach(k => $(k).textContent = q[k]);
@@ -86,6 +90,30 @@ function answerQuestion(letter) {
   });
   $('authority-link').textContent = `${q.authority} ↗`;
   $('authority-link').href = q.verified_source_url;
+  if (!$('share-question')) {
+    const share = document.createElement('button');
+    share.id = 'share-question';
+    share.type = 'button';
+    share.className = 'share-button';
+    share.textContent = 'Share';
+    share.setAttribute('aria-label', 'Share this question without revealing the answer');
+    const status = document.createElement('p');
+    status.id = 'share-status';
+    status.setAttribute('role', 'status');
+    share.addEventListener('click', async () => {
+      const url = `https://sqedaily.co.uk${questionPath(q)}`;
+      const text = correct ? "I got this SQE Daily question right. Can you?" : 'Can you answer this SQE Daily question?';
+      try {
+        if (navigator.share) await navigator.share({ title: 'SQE Daily', text, url });
+        else { await navigator.clipboard.writeText(`${text} ${url}`); status.textContent = 'Link copied.'; }
+      } catch (error) {
+        if (error.name === 'AbortError') return;
+        status.replaceChildren(document.createTextNode('Copy this link: '));
+        const link = document.createElement('a'); link.href = url; link.textContent = url; status.append(link);
+      }
+    });
+    $('result').append(share, status);
+  }
   $('answer-hint').hidden = true;
   $('result').hidden = false;
   $('result-heading').focus({ preventScroll: true });
@@ -96,12 +124,14 @@ async function loadQuestion() {
   $('load-state').hidden = false;
   $('practice-content').hidden = true;
   try {
-    const response = await fetch('content/questions.json');
+    const response = await fetch('/content/questions.json');
     if (!response.ok) throw new Error('Question data unavailable');
     const questions = await response.json();
     if (!Array.isArray(questions) || !questions.length || !questions.every(validQuestion)) throw new Error('Invalid question data');
     activeDay = updateDates();
-    renderQuestion(selectQuestion(questions, activeDay));
+    const question = selectQuestion(questions, activeDay);
+    if (!question) throw new Error('No published questions');
+    renderQuestion(question);
     $('load-state').hidden = true;
     $('practice-content').hidden = false;
   } catch {
@@ -125,9 +155,19 @@ if (subscriptionState === 'pending' || subscriptionState === 'confirmed') {
   history.replaceState(null, '', `${location.pathname}#daily-email`);
 }
 updateDates();
-loadQuestion().then(() => {
+const staticData = $('question-data');
+const ready = staticData ? Promise.resolve().then(() => {
+  const question = JSON.parse(staticData.textContent);
+  if (question.publish_date > londonDay()) {
+    $('practice-content').hidden = true;
+    return;
+  }
+  activeQuestion = question;
+  [...$('options').children].forEach(button => button.addEventListener('click', () => answerQuestion(button.dataset.letter)));
+}) : loadQuestion();
+ready.then(() => {
   if (subscriptionState === 'pending' || subscriptionState === 'confirmed') {
     $('daily-email').scrollIntoView({ behavior: 'instant' });
   }
 });
-setInterval(() => { if (updateDates() !== activeDay) loadQuestion(); }, 60000);
+if (!staticData) setInterval(() => { if (updateDates() !== activeDay) loadQuestion(); }, 60000);

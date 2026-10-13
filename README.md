@@ -1,43 +1,53 @@
 # SQE Daily
 
-A fast, mobile-first landing page with one free SQE1 question per day, instant answer feedback, the complete worked explanation and a linked primary source. Plain HTML, CSS and JavaScript. No build step, dependencies, trackers or accounts.
+Free, independent SQE1 practice: one original question per publishing day, five options, a worked answer and a primary-source link. Static HTML, CSS and vanilla JavaScript, hosted on GitHub Pages at https://sqedaily.co.uk.
 
 ## Run locally
 
-From this folder:
+Python 3.9+ (with Europe/London timezone data) is required. No Python packages or website runtime dependencies are needed.
 
 ```sh
-python3 -m http.server 8765
+python3 scripts/generate.py --package
+python3 scripts/test_site.py
+node scripts/test_dates.cjs
+python3 -m http.server 8766 --directory _site
 ```
 
-Open http://localhost:8765. Use a local HTTP server rather than opening index.html directly, because the question data is loaded with fetch.
+Open http://localhost:8766. Serve `_site`, not the repository root, to preview the exact deployed package. `--date YYYY-MM-DD` is available for generator testing; do not deploy a future-date preview.
 
-## Publish with GitHub Pages
+## Add questions
 
-Put the contents of this folder at your repository root on the main branch. In GitHub, open Settings > Pages, choose Deploy from a branch, select main and / (root), then Save. The empty .nojekyll file is included. CNAME sets the custom domain to sqedaily.co.uk.
+Append valid objects to `content/questions.json`; keep all existing field names. Each question needs a unique id and integer number, ISO publish_date, subject, FLK1/FLK2, difficulty, title, scenario, stem, five A–E options, answer, explanation, key_rule, authority and verified HTTPS source URL. No other file needs editing. Hark can continue committing only this file.
 
-The repository is https://github.com/adnanali287/sqe-daily. The custom domain is https://sqedaily.co.uk/. The original GitHub Pages address is https://adnanali287.github.io/sqe-daily/.
+The home question is the newest question whose publish_date is no later than today's Europe/London date; ties use the highest number. If there is no question today, the latest past question remains available. Nothing future-dated is rendered or included in the deployed JSON, sitemap or RSS. The full authoring bank remains in the public GitHub repository, so scheduled questions are not confidential there.
 
-All asset and data paths work at the custom domain root and under a GitHub Pages repository subpath. The sharing tags and canonical URL point to sqedaily.co.uk. assets/social.png is the social sharing image; assets/social.svg is its editable source.
+`scripts/generate.py` rebuilds question URLs `/q/<number>-<title-slug>/`, the main and subject archives, About, Sponsor, Privacy, 404, sitemap and RSS. Generated pages should not be edited by hand. Home layout source is `scripts/templates/home.html`; shared styles and interactions are in `assets/`. Changing a published title changes its URL, so keep published titles stable.
 
-Cloudflare manages DNS. The apex uses GitHub Pages' four A records (185.199.108.153 through 185.199.111.153); www is a CNAME to adnanali287.github.io. Use DNS-only records so GitHub can validate the domain and provision its HTTPS certificate.
+## Publishing
 
-## Question rotation
+GitHub Pages uses **GitHub Actions**, not branch-source publishing, to deploy plain static files from `_site`. Root `CNAME` and `.nojekyll` remain intact. The workflow runs on relevant main-branch pushes, manual dispatch, and at 00:05 London time: 23:05 UTC during BST or 00:05 UTC during GMT. Two UTC schedules plus an offset guard select the appropriate run. GitHub may delay scheduled jobs; this is not an exact-time service. GitHub may disable schedules after 60 days of inactivity on public repositories; weekly question commits prevent that.
 
-content/questions.json contains the supplied 14 questions, unchanged. The page uses the Europe/London calendar date and rotates the list in number order, anchored to q001's publish_date (13 October 2026). q014 is followed by q001. An open tab refreshes the question after midnight. The countdown targets 11 January 2027 and never goes negative. Update the sitting dates for a later exam cycle.
+The workflow generates, tests, commits generated pages, then deploys its own artifact. This avoids relying on bot commits to trigger another workflow. Concurrency serialises deployments. No API keys or paid services are required. Future authoring data and internal drafts/screenshots are excluded from the deployment package.
 
-## Newsletter signup
+## Newsletter
 
-The existing form submits natively to https://buttondown.com/api/emails/embed-subscribe/sqedaily with email and embed=1 fields. Buttondown handles validation, CAPTCHA and errors, and requires double opt-in. There is no client API key or JavaScript fetch for subscription requests.
+All signup forms retain native POST to `https://buttondown.com/api/emails/embed-subscribe/sqedaily`, field `email`, hidden `embed=1`. Do not use a public API key or fake success handler. Buttondown handles validation/CAPTCHA/server errors and double opt-in. Saved redirects:
 
-Buttondown's saved After subscribing redirect is https://sqedaily.co.uk/?subscription=pending#daily-email; After confirming is https://sqedaily.co.uk/?subscription=confirmed#daily-email. The page displays the appropriate message after these redirects, removes return parameters (including any email address Buttondown appends), and scrolls to the existing email section. The site stores no addresses. Keep these redirects configured in Buttondown Settings > Subscribing. Failed subscriptions stay on Buttondown's hosted validation or error page; they do not receive the success redirect.
+- After signup: `https://sqedaily.co.uk/?subscription=pending#daily-email`
+- After confirmation: `https://sqedaily.co.uk/?subscription=confirmed#daily-email`
 
-The newsletter account is Free. Custom transactional emails cannot be activated on that plan; confirmation and welcome text are saved as unsent drafts in Buttondown. Welcome emails and automatic subscription reminders are disabled. A custom Reply-to needs a custom sending domain, which is not configured. Normal replies use Buttondown's default routing to the account owner. Signup integration does not itself schedule or send daily questions.
+The site shows the relevant confirmation message, strips personal redirect parameters, and scrolls after the question loads. Forms do not schedule or send daily newsletter campaigns. Custom automatic confirmation/welcome copy is not active on the Free plan; existing unsent Buttondown drafts remain unchanged.
 
-## Design and review
+## Analytics and Search Console
 
-DESIGN_PLAN.md records the direction, tokens, critique and two screenshot refinement loops. screenshots/ contains final full-page captures at 1440px and 390px, before and after answering. The original SVG brand mark and favicon are in assets/. Newsreader and DM Sans are self-hosted; their SIL Open Font License files are included.
+Set the **public beacon token** in `assets/config.js` under `cloudflareAnalyticsToken`. Empty means no analytics script or requests. Do not paste a Cloudflare API key. Only the cookie-free Cloudflare Web Analytics beacon is supported; no other trackers or cookie banner were added. After enabling analytics, update the Privacy wording that currently says it is disabled.
 
-The questions and legal explanations are supplied content, not a new legal accuracy audit. Review the bank as law and exam requirements change.
+Insert the Google Search Console verification meta tag at the marked head location in `scripts/generate.py` (shared pages) and regenerate. Submit https://sqedaily.co.uk/sitemap.xml to Search Console. Verification is intentionally not configured yet.
 
-Original browser verification passed for all 14 questions, with correct and incorrect answers at 1440px, 390px and 320px; keyboard activation, date rotation and midnight rollover, countdown, failed-load retry, email validation, reduced motion, and no horizontal overflow. Two visual review loops were completed before final capture.
+## Fonts and checks
+
+The three existing OFL fonts are Latin-subset WOFF2 files, with regular DM Sans and Newsreader preloaded. Original fonts and OFL licence files are retained. To reconvert, install `fonttools[woff]` in a temporary environment and use `pyftsubset` with `--flavor=woff2 --unicodes=U+0000-00FF,U+0100-024F,U+2000-206F,U+2190-21FF --layout-features='*'`.
+
+`scripts/test_site.py` checks all deployed internal links/fragments, unique ids, h1s, published-only data, RSS and sitemap coverage. It appends a future fixture in a temporary checkout, verifies exclusion and removes the whole fixture checkout automatically; it also tests the full 14-question bank at a simulated later date. `scripts/test_dates.cjs` checks selection and BST/GMT boundaries. HTML can be checked using `npx html-validate '_site/**/*.html'`; `.htmlvalidate.json` permits descriptive long question titles. The website itself needs neither Node nor npm.
+
+Cloudflare DNS, HTTPS, email forwarding and Buttondown account settings are unchanged. The supplied legal questions have not received a new legal accuracy audit.
