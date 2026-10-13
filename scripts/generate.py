@@ -124,7 +124,9 @@ def generate(day, package=False):
         body = '<section class="reading wrap"><p class="eyebrow">SQE DAILY</p><h1>' + title + '</h1>' + ''.join(f'<section class="reading-section"><h2>{heading}</h2><p>{text}</p></section>' for heading, text in sections) + '</section>'
         page('/' + name + '/', title, sections[0][1], body + (newsletter if name != 'privacy' else ''))
     page('/not-found/', 'Page not found', 'Find today’s free SQE1 question or browse the archive.', '<section class="reading wrap"><p class="eyebrow">404</p><h1>This page has moved on.</h1><p class="lead">There is still a good question waiting.</p><p><a href="/">Today’s question</a> · <a href="/archive/">Browse the archive</a></p></section>')
-    shutil.move(ROOT / 'not-found/index.html', ROOT / '404.html'); (ROOT / 'not-found').rmdir()
+    error_page = (ROOT / 'not-found/index.html').read_text().replace(BASE + '/not-found/', BASE + '/404.html').replace('</head>', '<meta name="robots" content="noindex"></head>')
+    write('404.html', error_page)
+    shutil.rmtree(ROOT / 'not-found')
     home = template.replace('<footer class="wrap">' + template.split('<footer class="wrap">')[1].split('</footer>')[0] + '</footer>', footer)
     home = home.replace('<p class="masthead-note">Independent practice.<br>A daily habit.</p>', NAV)
     home = home.replace('</head>', extras + '</head>').replace('assets/app.js?v=buttondown-2', '/assets/app.js?v=archive-1')

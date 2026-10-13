@@ -61,11 +61,15 @@ def future_test(today):
         data.append(fixture)
         (root / 'content/questions.json').write_text(json.dumps(data))
         with patch.object(generate, 'ROOT', root): generate.generate(today, True)
+        before = {str(f.relative_to(root / '_site')): f.read_bytes() for f in (root / '_site').rglob('*') if f.is_file()}
+        with patch.object(generate, 'ROOT', root): generate.generate(today, True)
+        after = {str(f.relative_to(root / '_site')): f.read_bytes() for f in (root / '_site').rglob('*') if f.is_file()}
+        assert before == after, 'Generation must be reproducible'
         for file in (root / '_site').rglob('*'):
             if file.suffix in ['.html', '.json', '.xml']:
                 assert 'FUTURE_SENTINEL_NEVER_PUBLISH' not in file.read_text()
         check_package(root / '_site', today)
-    print('PASS: appended future fixture absent from every deployed HTML/JSON/XML file')
+    print('PASS: reproducible generation; future fixture absent from every deployed HTML/JSON/XML file')
 
 if __name__ == '__main__':
     today = datetime.now(ZoneInfo('Europe/London')).date().isoformat()

@@ -15,8 +15,9 @@ function dayIndex(date) { return Math.floor(Date.parse(`${date}T00:00:00Z`) / DA
 function updateDates() {
   const today = londonDay();
   if (!$('today') || !$('days')) return today;
-  $('today').dateTime = today;
-  $('today').textContent = new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }).format(new Date(`${today}T00:00:00Z`));
+  const questionDate = activeQuestion?.publish_date || today;
+  $('today').dateTime = questionDate;
+  $('today').textContent = new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }).format(new Date(`${questionDate}T00:00:00Z`));
   const days = Math.max(0, dayIndex('2027-01-11') - dayIndex(today));
   $('days').textContent = days;
   $('days-label').textContent = days === 1 ? 'day to go' : days === 0 ? 'days to go' : 'days to go';
@@ -33,6 +34,8 @@ function validQuestion(q) {
 }
 function renderQuestion(q) {
   activeQuestion = q;
+  $('practice-heading').textContent = q.publish_date === londonDay() ? "Today's question" : 'Latest question';
+  updateDates();
   answered = false;
   $('result').hidden = true;
   $('share-question')?.remove();
@@ -124,7 +127,7 @@ async function loadQuestion() {
   $('load-state').hidden = false;
   $('practice-content').hidden = true;
   try {
-    const response = await fetch('/content/questions.json');
+    const response = await fetch('/content/questions.json', { cache: 'no-cache' });
     if (!response.ok) throw new Error('Question data unavailable');
     const questions = await response.json();
     if (!Array.isArray(questions) || !questions.length || !questions.every(validQuestion)) throw new Error('Invalid question data');
