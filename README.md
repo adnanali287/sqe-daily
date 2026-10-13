@@ -14,11 +14,13 @@ Open http://localhost:8765. Use a local HTTP server rather than opening index.ht
 
 ## Publish with GitHub Pages
 
-Put the contents of this folder at your repository root on the main branch. In GitHub, open Settings > Pages, choose Deploy from a branch, select main and / (root), then Save. The empty .nojekyll file is included. No CNAME is included; connect sqedaily.co.uk later when ready.
+Put the contents of this folder at your repository root on the main branch. In GitHub, open Settings > Pages, choose Deploy from a branch, select main and / (root), then Save. The empty .nojekyll file is included. CNAME sets the custom domain to sqedaily.co.uk.
 
-The repository is https://github.com/adnanali287/sqe-daily and the GitHub Pages address is https://adnanali287.github.io/sqe-daily/.
+The repository is https://github.com/adnanali287/sqe-daily. The custom domain is https://sqedaily.co.uk/. The original GitHub Pages address is https://adnanali287.github.io/sqe-daily/.
 
-All asset and data paths work under the GitHub Pages repository subpath. The sharing tags point to this Pages address; update them when connecting sqedaily.co.uk. assets/social.png is the social sharing image; assets/social.svg is its editable source.
+All asset and data paths work at the custom domain root and under a GitHub Pages repository subpath. The sharing tags and canonical URL point to sqedaily.co.uk. assets/social.png is the social sharing image; assets/social.svg is its editable source.
+
+Cloudflare manages DNS. The apex uses GitHub Pages' four A records (185.199.108.153 through 185.199.111.153); www is a CNAME to adnanali287.github.io. Use DNS-only records so GitHub can validate the domain and provision its HTTPS certificate.
 
 ## Question rotation
 
