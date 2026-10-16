@@ -20,7 +20,14 @@
     "authority": "Companies Act 2006, ss.168, 288(2)(a) and 312",
     "verified_source_url": "https://www.legislation.gov.uk/ukpga/2006/46/section/168",
     "number": 1,
-    "publish_date": "2026-10-13"
+    "publish_date": "2026-10-13",
+    "tags": [
+      "directors",
+      "removal of directors",
+      "special notice",
+      "members' resolutions"
+    ],
+    "last_reviewed": "2026-10-16"
   },
   {
     "id": "q002",
@@ -43,7 +50,13 @@
     "authority": "CPR 7.5(1)",
     "verified_source_url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part07",
     "number": 2,
-    "publish_date": "2026-10-14"
+    "publish_date": "2026-10-14",
+    "tags": [
+      "service",
+      "claim form",
+      "time limits"
+    ],
+    "last_reviewed": "2026-10-16"
   },
   {
     "id": "q003",
@@ -66,7 +79,13 @@
     "authority": "Hyde v Wrench (1840) 49 ER 132; [1840] EWHC Ch J90",
     "verified_source_url": "https://www.bailii.org/ew/cases/EWHC/Ch/1840/J90.html",
     "number": 3,
-    "publish_date": "2026-10-15"
+    "publish_date": "2026-10-15",
+    "tags": [
+      "offer and acceptance",
+      "counter-offer",
+      "formation"
+    ],
+    "last_reviewed": "2026-10-16"
   },
   {
     "id": "q004",
@@ -89,7 +108,13 @@
     "authority": "Occupiers' Liability Act 1957, s.2(3)(b) and s.2(4)(a); Roles v Nathan [1963] 1 WLR 1117",
     "verified_source_url": "https://www.legislation.gov.uk/ukpga/Eliz2/5-6/31/section/2",
     "number": 4,
-    "publish_date": "2026-10-16"
+    "publish_date": "2026-10-16",
+    "tags": [
+      "occupiers' liability",
+      "visitors",
+      "skilled visitors"
+    ],
+    "last_reviewed": "2026-10-16"
   },
   {
     "id": "q005",
@@ -112,7 +137,11 @@
     "authority": "CPR 54.5(1) and (2)",
     "verified_source_url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part54",
     "number": 5,
-    "publish_date": "2026-10-17"
+    "publish_date": "2026-10-17",
+    "tags": [
+      "judicial review",
+      "time limits"
+    ]
   },
   {
     "id": "q006",
@@ -135,7 +164,11 @@
     "authority": "SRA Code of Conduct for Solicitors, RELs, RFLs and RSLs, para 6.2(b)",
     "verified_source_url": "https://www.sra.org.uk/solicitors/standards-regulations/code-conduct-solicitors/",
     "number": 6,
-    "publish_date": "2026-10-18"
+    "publish_date": "2026-10-18",
+    "tags": [
+      "conflict of interest",
+      "sra code of conduct"
+    ]
   },
   {
     "id": "q007",
@@ -158,7 +191,12 @@
     "authority": "Land Registration Rules 2003 (SI 2003/1417), r.131 (definition of 'priority period'); Land Registration Act 2002, s.72",
     "verified_source_url": "https://www.legislation.gov.uk/uksi/2003/1417/rule/131",
     "number": 7,
-    "publish_date": "2026-10-19"
+    "publish_date": "2026-10-19",
+    "tags": [
+      "official search",
+      "priority period",
+      "registered land"
+    ]
   },
   {
     "id": "q008",
@@ -181,7 +219,12 @@
     "authority": "Wills Act 1837, s.15; Wills Act 1968, s.1",
     "verified_source_url": "https://www.legislation.gov.uk/ukpga/Will4and1Vict/7/26/section/15",
     "number": 8,
-    "publish_date": "2026-10-20"
+    "publish_date": "2026-10-20",
+    "tags": [
+      "witnesses",
+      "gifts",
+      "wills act 1837"
+    ]
   },
   {
     "id": "q009",
@@ -204,7 +247,12 @@
     "authority": "Administration of Estates Act 1925, s.46(1) and (2A)",
     "verified_source_url": "https://www.legislation.gov.uk/ukpga/Geo5/15-16/23/section/46",
     "number": 9,
-    "publish_date": "2026-10-21"
+    "publish_date": "2026-10-21",
+    "tags": [
+      "intestacy",
+      "survivorship",
+      "spouse"
+    ]
   },
   {
     "id": "q010",
@@ -227,7 +275,12 @@
     "authority": "SRA Accounts Rules, rules 2.1(d), 4.1 and 4.3",
     "verified_source_url": "https://www.sra.org.uk/solicitors/standards-regulations/accounts-rules/",
     "number": 10,
-    "publish_date": "2026-10-22"
+    "publish_date": "2026-10-22",
+    "tags": [
+      "client account",
+      "costs",
+      "sra accounts rules"
+    ]
   },
   {
     "id": "q011",
@@ -250,7 +303,12 @@
     "authority": "Rhone v Stephens [1994] UKHL 3; [1994] 2 AC 310",
     "verified_source_url": "https://www.bailii.org/uk/cases/UKHL/1994/3.html",
     "number": 11,
-    "publish_date": "2026-10-23"
+    "publish_date": "2026-10-23",
+    "tags": [
+      "freehold covenants",
+      "positive covenants",
+      "burden"
+    ]
   },
   {
     "id": "q012",
@@ -273,7 +331,12 @@
     "authority": "Saunders v Vautier (1841) 4 Beav 115; 49 ER 282",
     "verified_source_url": "https://www.legislation.gov.uk/ukpga/2000/29/notes/paragraph/120",
     "number": 12,
-    "publish_date": "2026-10-24"
+    "publish_date": "2026-10-24",
+    "tags": [
+      "saunders v vautier",
+      "beneficiaries",
+      "ending a trust"
+    ]
   },
   {
     "id": "q013",
@@ -296,7 +359,12 @@
     "authority": "Ivey v Genting Casinos (UK) Ltd [2017] UKSC 67; R v Barton and Booth [2020] EWCA Crim 575; Fraud Act 2006, s.2",
     "verified_source_url": "https://www.supremecourt.uk/cases/uksc-2016-0213",
     "number": 13,
-    "publish_date": "2026-10-25"
+    "publish_date": "2026-10-25",
+    "tags": [
+      "dishonesty",
+      "theft",
+      "ivey v genting"
+    ]
   },
   {
     "id": "q014",
@@ -319,7 +387,12 @@
     "authority": "Police and Criminal Evidence Act 1984, s.58",
     "verified_source_url": "https://www.legislation.gov.uk/ukpga/1984/60/section/58",
     "number": 14,
-    "publish_date": "2026-10-26"
+    "publish_date": "2026-10-26",
+    "tags": [
+      "police station",
+      "legal advice",
+      "pace"
+    ]
   },
   {
     "id": "q015",
@@ -342,7 +415,12 @@
     "authority": "Companies Act 2006, s.177",
     "verified_source_url": "https://www.legislation.gov.uk/ukpga/2006/46/section/177",
     "number": 15,
-    "publish_date": "2026-10-27"
+    "publish_date": "2026-10-27",
+    "tags": [
+      "directors",
+      "declaration of interest",
+      "directors' duties"
+    ]
   },
   {
     "id": "q016",
@@ -365,7 +443,12 @@
     "authority": "CPR 10.3, 15.4 and 12.3",
     "verified_source_url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part15",
     "number": 16,
-    "publish_date": "2026-10-28"
+    "publish_date": "2026-10-28",
+    "tags": [
+      "default judgment",
+      "acknowledgment of service",
+      "time limits"
+    ]
   },
   {
     "id": "q017",
@@ -388,7 +471,12 @@
     "authority": "Foakes v Beer (1884) 9 App Cas 605; D & C Builders Ltd v Rees [1966] 2 QB 617; Rock Advertising Ltd v MWB Business Exchange Centres Ltd [2018] UKSC 24",
     "verified_source_url": "https://www.bailii.org/uk/cases/UKHL/1884/1.html",
     "number": 17,
-    "publish_date": "2026-10-29"
+    "publish_date": "2026-10-29",
+    "tags": [
+      "consideration",
+      "part payment",
+      "promissory estoppel"
+    ]
   },
   {
     "id": "q018",
@@ -411,7 +499,12 @@
     "authority": "Paul v Royal Wolverhampton NHS Trust [2024] UKSC 1",
     "verified_source_url": "https://www.bailii.org/uk/cases/UKSC/2024/1.html",
     "number": 18,
-    "publish_date": "2026-10-30"
+    "publish_date": "2026-10-30",
+    "tags": [
+      "psychiatric injury",
+      "secondary victims",
+      "negligence"
+    ]
   },
   {
     "id": "q019",
@@ -434,7 +527,12 @@
     "authority": "Young v Bristol Aeroplane Co Ltd [1944] KB 718, [1944] EWCA Civ 1",
     "verified_source_url": "https://www.bailii.org/ew/cases/EWCA/Civ/1944/1.html",
     "number": 19,
-    "publish_date": "2026-10-31"
+    "publish_date": "2026-10-31",
+    "tags": [
+      "precedent",
+      "court of appeal",
+      "stare decisis"
+    ]
   },
   {
     "id": "q020",
@@ -457,7 +555,12 @@
     "authority": "Human Rights Act 1998, ss.3, 4 and 10",
     "verified_source_url": "https://www.legislation.gov.uk/ukpga/1998/42/section/4",
     "number": 20,
-    "publish_date": "2026-11-01"
+    "publish_date": "2026-11-01",
+    "tags": [
+      "human rights act 1998",
+      "declaration of incompatibility",
+      "parliamentary sovereignty"
+    ]
   },
   {
     "id": "q021",
@@ -480,7 +583,12 @@
     "authority": "SRA Code of Conduct for Solicitors, RELs, RFLs and RSLs, paras 6.3 to 6.5",
     "verified_source_url": "https://www.sra.org.uk/solicitors/standards-regulations/code-conduct-solicitors/",
     "number": 21,
-    "publish_date": "2026-11-02"
+    "publish_date": "2026-11-02",
+    "tags": [
+      "confidentiality",
+      "former clients",
+      "sra code of conduct"
+    ]
   },
   {
     "id": "q022",
@@ -503,7 +611,12 @@
     "authority": "Standard Conditions of Sale (Fifth Edition, 2018 Revision), conditions 1.3.2, 6.8 and 7.4",
     "verified_source_url": "https://portal.pls-solicitors.co.uk/assets/pdf/Standard%20Conditions%20of%20Sale.pdf",
     "number": 22,
-    "publish_date": "2026-11-03"
+    "publish_date": "2026-11-03",
+    "tags": [
+      "completion",
+      "notice to complete",
+      "standard conditions of sale"
+    ]
   },
   {
     "id": "q023",
@@ -526,7 +639,12 @@
     "authority": "Wills Act 1837, s.18",
     "verified_source_url": "https://www.legislation.gov.uk/ukpga/Will4and1Vict/7/26/section/18",
     "number": 23,
-    "publish_date": "2026-11-04"
+    "publish_date": "2026-11-04",
+    "tags": [
+      "revocation",
+      "marriage",
+      "wills act 1837"
+    ]
   },
   {
     "id": "q024",
@@ -549,7 +667,12 @@
     "authority": "SRA Accounts Rules, rules 2.5, 3.3, 5.1 and 7",
     "verified_source_url": "https://www.sra.org.uk/solicitors/standards-regulations/accounts-rules/",
     "number": 24,
-    "publish_date": "2026-11-05"
+    "publish_date": "2026-11-05",
+    "tags": [
+      "client account",
+      "banking facility",
+      "sra accounts rules"
+    ]
   },
   {
     "id": "q025",
@@ -572,7 +695,12 @@
     "authority": "Law of Property Act 1925, ss.2 and 27; City of London Building Society v Flegg [1988] AC 54 (HL)",
     "verified_source_url": "https://www.bailii.org/uk/cases/UKHL/1987/6.html",
     "number": 25,
-    "publish_date": "2026-11-06"
+    "publish_date": "2026-11-06",
+    "tags": [
+      "overreaching",
+      "co-ownership",
+      "actual occupation"
+    ]
   },
   {
     "id": "q026",
@@ -595,7 +723,12 @@
     "authority": "Paul v Constance [1977] 1 WLR 527 (CA)",
     "verified_source_url": "https://www.bailii.org/ew/cases/EWCA/Civ/1976/2.html",
     "number": 26,
-    "publish_date": "2026-11-07"
+    "publish_date": "2026-11-07",
+    "tags": [
+      "three certainties",
+      "certainty of intention",
+      "express trusts"
+    ]
   },
   {
     "id": "q027",
@@ -618,7 +751,12 @@
     "authority": "R v Woollin [1999] 1 AC 82 (HL)",
     "verified_source_url": "https://publications.parliament.uk/pa/ld199798/ldjudgmt/jd980722/wool.htm",
     "number": 27,
-    "publish_date": "2026-11-08"
+    "publish_date": "2026-11-08",
+    "tags": [
+      "intention",
+      "mens rea",
+      "homicide"
+    ]
   },
   {
     "id": "q028",
@@ -641,6 +779,763 @@
     "authority": "Criminal Justice and Public Order Act 1994, ss.34 and 38",
     "verified_source_url": "https://www.legislation.gov.uk/ukpga/1994/33/section/34",
     "number": 28,
-    "publish_date": "2026-11-09"
+    "publish_date": "2026-11-09",
+    "tags": [
+      "silence",
+      "adverse inferences",
+      "legal advice"
+    ]
+  },
+  {
+    "id": "q029",
+    "number": 29,
+    "publish_date": "2026-11-10",
+    "subject": "Business Law & Practice",
+    "flk": "FLK1",
+    "difficulty": "medium",
+    "title": "Substantial property transactions with a director: members' approval (CA 2006 ss.190-191)",
+    "scenario": "Kestrel Joinery Ltd is a private company whose shares are held equally by three individuals, including Daniel Osei, who is also one of its two directors. The company's most recent statutory accounts show net assets of £400,000. Daniel owns a nearly new delivery van, valued at £45,000, which he has agreed to sell to the company for that price. The other director is happy with the deal and wants to sign the purchase agreement at a board meeting next week, after Daniel has declared his interest. The company's articles contain no relevant special provisions.",
+    "stem": "Which of the following best describes what the Companies Act 2006 requires before Kestrel Joinery Ltd buys the van?",
+    "options": {
+      "A": "No approval beyond the board is needed, because the van is worth less than £100,000 and so is not a substantial asset.",
+      "B": "The board may approve the purchase on its own, provided Daniel declares the nature and extent of his interest before the contract is signed.",
+      "C": "The purchase must be approved by a special resolution of the members, because it is a transaction between the company and one of its directors.",
+      "D": "The purchase must be approved by a resolution of the members, or the agreement must be made conditional on such approval being obtained.",
+      "E": "No members' approval is needed, because the rules only apply where a director acquires an asset from the company, not where the company acquires one."
+    },
+    "answer": "D",
+    "explanation": "Under s.190(1)(b) of the Companies Act 2006 a company may not enter into an arrangement under which it acquires a substantial non-cash asset from a director unless the arrangement has been approved by a resolution of the members or is conditional on such approval being obtained. Under s.191(2) an asset is substantial if its value exceeds 10% of the company's asset value and is more than £5,000, or exceeds £100,000. The company's asset value is its net assets per its most recent statutory accounts (s.191(3)(a)), here £400,000, so the 10% threshold is £40,000. The van, at £45,000, exceeds that figure and is more than £5,000, so it is a substantial non-cash asset. Kestrel is not a wholly-owned subsidiary, so the s.190(4) exemption does not apply. Section 190 does not specify the type of resolution, so under s.281(3) an ordinary resolution suffices unless the articles require more.\n\nA is wrong: £100,000 is only one limb of the test in s.191(2); the van also qualifies under the other limb because it exceeds 10% of net assets and is more than £5,000.\nB is wrong: a declaration of interest to the board under s.177 does not replace the separate requirement for members' approval in s.190.\nC is wrong: s.190 requires only \"a resolution of the members\", which under s.281(3) means an ordinary resolution unless the articles require a higher majority.\nE is wrong: s.190(1)(b) expressly covers the company acquiring a substantial non-cash asset from a director, as well as a director acquiring one from the company.",
+    "key_rule": "A company buying from, or selling to, a director a non-cash asset worth more than £100,000, or more than 10% of its net assets and over £5,000, needs a members' resolution (ordinary unless the articles say otherwise) or a contract conditional on one.",
+    "authority": "Companies Act 2006, ss.190(1), 190(4), 191(2)-(3) and 281(3)",
+    "verified_source_url": "https://www.legislation.gov.uk/ukpga/2006/46/section/190",
+    "why_wrong": {
+      "A": "The £100,000 limb is only one test; the van exceeds 10% of net assets (£40,000) and is over £5,000, so it is substantial under s.191(2)(a).",
+      "B": "A s.177 declaration to the board does not satisfy the separate members' approval requirement in s.190.",
+      "C": "Section 190 requires only a resolution of the members, which is an ordinary resolution under s.281(3) unless the articles require more.",
+      "E": "Section 190(1)(b) applies where the company acquires a substantial non-cash asset from a director."
+    },
+    "tags": [
+      "directors",
+      "substantial property transactions",
+      "members' resolutions",
+      "non-cash assets"
+    ],
+    "last_reviewed": "2026-10-16"
+  },
+  {
+    "id": "q030",
+    "number": 30,
+    "publish_date": "2026-11-11",
+    "subject": "Dispute Resolution",
+    "flk": "FLK1",
+    "difficulty": "medium",
+    "title": "Claimant fails to beat a defendant's Part 36 offer: costs consequences (CPR 36.17(1)(a) and (3))",
+    "scenario": "Northfield Packaging Ltd sued Arden Logistics Ltd for £180,000 damages for breach of contract. On 3 March 2026 Arden served a written offer of £95,000 expressly made under Part 36, stating a relevant period of 21 days. Northfield did not accept it and the offer was never withdrawn or changed. After a trial in September 2026, the judge awarded Northfield £88,000 (inclusive of interest on the same basis as the offer). Northfield's director argues that, as it won the case and the award is close to the offer, the offer should make no difference to costs.",
+    "stem": "Which of the following best describes the order the court must make, unless it considers it unjust to do so?",
+    "options": {
+      "A": "Arden is entitled to its costs from the date on which the relevant period expired, together with interest on those costs.",
+      "B": "Northfield is entitled to indemnity costs, enhanced interest and an additional amount, because it obtained judgment in its favour.",
+      "C": "Northfield must pay all of Arden's costs of the whole proceedings, including those incurred before the offer was made.",
+      "D": "No Part 36 consequences follow, because the judgment is not substantially less advantageous to Northfield than the offer.",
+      "E": "Arden is entitled to an additional amount equal to 10% of the sum awarded, on top of its costs from the end of the relevant period."
+    },
+    "answer": "A",
+    "explanation": "CPR 36.17(1)(a) applies where, on judgment being entered, a claimant fails to obtain a judgment more advantageous than a defendant's Part 36 offer. By CPR 36.17(2), \"more advantageous\" means better in money terms by any amount, however small. Northfield recovered £88,000 against an offer of £95,000, so it failed to beat the offer. CPR 36.17(3) then provides that the court must, unless it considers it unjust to do so, order that the defendant is entitled to (a) costs (including any recoverable pre-action costs) from the date on which the relevant period expired, and (b) interest on those costs. None of the CPR 36.17(7) exceptions applies, since the offer was not withdrawn or changed and was made long before trial.\n\nB is wrong: indemnity costs, enhanced interest and the additional amount are the consequences in CPR 36.17(4), which apply only where a claimant obtains a judgment at least as advantageous as its own Part 36 offer.\nC is wrong: CPR 36.17(3)(a) gives the defendant its costs from the date the relevant period expired, not the costs of the whole proceedings.\nD is wrong: CPR 36.17(2) defines \"more advantageous\" as better in money terms by any amount, however small, so there is no requirement of a substantial difference.\nE is wrong: the additional amount under CPR 36.17(4)(d) is available only to a claimant who beats its own offer; it is not part of the defendant's entitlement under CPR 36.17(3).",
+    "key_rule": "If a claimant fails to beat a defendant's Part 36 offer by any amount, the court must, unless unjust, award the defendant its costs from expiry of the relevant period plus interest on those costs.",
+    "authority": "CPR 36.17(1)(a), (2), (3), (4) and (7)",
+    "verified_source_url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part36",
+    "why_wrong": {
+      "B": "Those enhanced consequences arise under CPR 36.17(4) only where a claimant beats its own Part 36 offer.",
+      "C": "The defendant's costs run only from the date the relevant period expired under CPR 36.17(3)(a).",
+      "D": "\"More advantageous\" means better by any amount, however small (CPR 36.17(2)), so no substantial difference is needed.",
+      "E": "The additional amount in CPR 36.17(4)(d) is a claimant-only consequence and is not available to a defendant."
+    },
+    "tags": [
+      "part 36",
+      "offers to settle",
+      "costs"
+    ],
+    "last_reviewed": "2026-10-16"
+  },
+  {
+    "id": "q031",
+    "number": 31,
+    "publish_date": "2026-11-12",
+    "subject": "Contract",
+    "flk": "FLK1",
+    "difficulty": "medium",
+    "title": "Excluding liability for negligence in a business contract (Unfair Contract Terms Act 1977 s.2)",
+    "scenario": "Agnieszka Nowak runs a bakery as a sole trader. In January 2026 she signed Ovenserve Ltd's standard terms for an annual service of her commercial oven. Clause 9 states: \"Ovenserve shall not be liable for any death, personal injury, loss or damage of any kind, however caused, including by its negligence.\" In June 2026 an Ovenserve engineer negligently refitted a gas valve. The next morning the oven caught fire, burning Agnieszka's arm and destroying £3,000 of stock. Ovenserve relies on clause 9 and points out that Agnieszka read and signed the terms.",
+    "stem": "Which of the following best describes the effect of clause 9 under the Unfair Contract Terms Act 1977?",
+    "options": {
+      "A": "Clause 9 is fully effective, because both parties were acting in the course of business and Agnieszka signed the terms.",
+      "B": "Clause 9 is wholly ineffective, because Agnieszka is a consumer and the Consumer Rights Act 2015 governs the contract.",
+      "C": "Clause 9 cannot exclude liability for her injury, and it excludes liability for the lost stock only if it satisfies the requirement of reasonableness.",
+      "D": "Clause 9 cannot exclude liability for her injury, but it is automatically effective for the lost stock because she agreed to it.",
+      "E": "Clause 9 is effective for both losses, because her signature shows she voluntarily accepted the risk of the engineer's negligence."
+    },
+    "answer": "C",
+    "explanation": "Section 2(1) of the Unfair Contract Terms Act 1977 provides that a person cannot by reference to any contract term exclude or restrict liability for death or personal injury resulting from negligence, so clause 9 is ineffective as regards Agnieszka's burnt arm. For other loss or damage, s.2(2) provides that liability for negligence can be excluded or restricted only in so far as the term satisfies the requirement of reasonableness, so the exclusion of liability for the destroyed stock stands or falls on that test. Section 2 applies here because, under s.2(4), it is disapplied only for consumer contracts, and Agnieszka contracted for the purposes of her bakery business, so she is not a consumer (Consumer Rights Act 2015, s.2(3)).\n\nA is wrong: s.2(1) is an absolute bar on excluding liability for negligently caused death or personal injury, even between businesses, and signature does not change that.\nB is wrong: a consumer is an individual acting for purposes wholly or mainly outside their trade or business (CRA 2015, s.2(3)); Agnieszka contracted for her bakery, so UCTA, not the CRA, governs the term.\nD is wrong: under s.2(2) the exclusion of liability for other loss or damage is effective only if it satisfies the requirement of reasonableness; agreement alone is not enough.\nE is wrong: s.2(3) provides that agreement to or awareness of such a term is not of itself to be taken as indicating voluntary acceptance of any risk.",
+    "key_rule": "Under UCTA 1977 s.2, liability for negligently caused death or personal injury can never be excluded, and liability for other negligently caused loss can be excluded only if the term is reasonable.",
+    "authority": "Unfair Contract Terms Act 1977, s.2(1)-(4); Consumer Rights Act 2015, s.2(3)",
+    "verified_source_url": "https://www.legislation.gov.uk/ukpga/1977/50/section/2",
+    "why_wrong": {
+      "A": "Section 2(1) absolutely bars excluding liability for negligently caused personal injury, even in business contracts.",
+      "B": "She contracted for her business, so she is not a consumer under CRA 2015 s.2(3) and UCTA s.2 applies.",
+      "D": "Under s.2(2) the exclusion for other loss is effective only if it satisfies the requirement of reasonableness.",
+      "E": "Section 2(3) says agreement to or awareness of the term is not of itself voluntary acceptance of the risk."
+    },
+    "tags": [
+      "exclusion clauses",
+      "unfair contract terms",
+      "negligence",
+      "reasonableness"
+    ],
+    "last_reviewed": "2026-10-16"
+  },
+  {
+    "id": "q032",
+    "number": 32,
+    "publish_date": "2026-11-13",
+    "subject": "Tort",
+    "flk": "FLK1",
+    "difficulty": "medium",
+    "title": "Occupiers' duty to trespassers and no recovery for property damage (Occupiers' Liability Act 1984 s.1(3), (4) and (8))",
+    "scenario": "Brightwell Homes Ltd occupies a fenced building site. Its security reports show that, for several weeks, young adults have been climbing through a gap in the fence at night to use the site as a shortcut, and the company has done nothing about it. One evening in May 2026 workers left a deep trench uncovered and unlit across the usual route, with no warning sign. Marcus Bell, aged 22, climbed through the gap in the dark, fell into the trench and broke his leg. His mobile phone was smashed in the fall.",
+    "stem": "Which of the following best describes Brightwell Homes Ltd's potential liability to Marcus?",
+    "options": {
+      "A": "It owes Marcus no duty at all, because he was a trespasser and occupiers owe duties only to lawful visitors.",
+      "B": "It owes Marcus the common duty of care under the Occupiers' Liability Act 1957, as if he were a visitor.",
+      "C": "It owes Marcus a duty only if he was a child, because adult trespassers are taken to accept all risks on the premises.",
+      "D": "It is likely to owe Marcus a duty under the 1984 Act, and he may recover for both his broken leg and his phone.",
+      "E": "It is likely to owe Marcus a duty under the 1984 Act in respect of his injury, but he cannot recover for his phone under that Act."
+    },
+    "answer": "E",
+    "explanation": "Liability to trespassers is governed by the Occupiers' Liability Act 1984. Under s.1(3) an occupier owes a duty to a non-visitor if (a) it is aware of the danger or has reasonable grounds to believe it exists, (b) it knows or has reasonable grounds to believe the other is in, or may come into, the vicinity of the danger, and (c) the risk is one against which it may reasonably be expected to offer some protection. Brightwell's own workers created the trench, its security reports showed regular night-time intruders on that route, and an unlit, unguarded deep trench is a risk against which some protection (cover, lighting or a warning) could reasonably be expected. The duty under s.1(4) is to take reasonable care to see that the trespasser does not suffer injury by reason of the danger. However, s.1(8) provides that breach of the 1984 Act duty gives no liability for loss of or damage to property, so the phone is not recoverable under the Act.\n\nA is wrong: the 1984 Act replaced the common law rules and imposes a duty to non-visitors where the s.1(3) conditions are met.\nB is wrong: the common duty of care under the 1957 Act is owed to visitors; Marcus was a trespasser, so the 1984 Act applies.\nC is wrong: s.1(3) is not limited to children, and s.1(6) excludes only risks the person willingly accepted, which is not shown on these facts.\nD is wrong: s.1(8) excludes liability under the 1984 Act for any loss of or damage to property, so the phone cannot be recovered under it.",
+    "key_rule": "An occupier owes a trespasser a duty of reasonable care against injury only where the three conditions in OLA 1984 s.1(3) are met, and that duty never covers damage to the trespasser's property (s.1(8)).",
+    "authority": "Occupiers' Liability Act 1984, s.1(1), (3), (4), (6) and (8)",
+    "verified_source_url": "https://www.legislation.gov.uk/ukpga/1984/3/section/1",
+    "why_wrong": {
+      "A": "The 1984 Act imposes a duty to non-visitors where the s.1(3) conditions are satisfied.",
+      "B": "The 1957 Act common duty of care is owed to visitors, not trespassers like Marcus.",
+      "C": "The s.1(3) duty is not confined to children, and willing acceptance of risk under s.1(6) is not shown.",
+      "D": "Section 1(8) bars recovery under the 1984 Act for loss of or damage to property such as the phone."
+    },
+    "tags": [
+      "occupiers' liability",
+      "trespassers",
+      "property damage"
+    ],
+    "last_reviewed": "2026-10-16"
+  },
+  {
+    "id": "q033",
+    "number": 33,
+    "publish_date": "2026-11-14",
+    "subject": "Legal System of England and Wales",
+    "flk": "FLK1",
+    "difficulty": "medium",
+    "title": "Using Hansard to interpret a statute: the conditions in Pepper v Hart [1993] AC 593",
+    "scenario": "In a High Court claim heard in October 2026, the parties dispute the meaning of a phrase in a section of a 2019 Act. The judge accepts that the phrase is genuinely ambiguous and can reasonably bear either party's reading. Counsel for the claimant wishes to rely on two passages from Hansard: a speech at second reading by a backbench MP, Ruth Adeyemi, giving her own view of what the phrase meant, and an answer in committee by the minister promoting the Bill, which clearly and directly stated which of the two meanings the phrase was intended to have.",
+    "stem": "Which of the following best describes the extent to which the court may consider this Parliamentary material?",
+    "options": {
+      "A": "The court may not look at either passage, because the courts are never permitted to use Hansard as an aid to interpreting legislation.",
+      "B": "The court may consider the minister's clear statement, because the provision is ambiguous, but the backbench MP's speech is unlikely to qualify.",
+      "C": "The court may consider both passages, because any statement made in Parliament is admissible evidence of what Parliament intended.",
+      "D": "The court may use the minister's statement to override the words of the section, even if those words had a clear meaning.",
+      "E": "The court may look at Hansard only if the House of Commons first grants leave, because otherwise article 9 of the Bill of Rights 1689 is breached."
+    },
+    "answer": "B",
+    "explanation": "In Pepper v Hart [1993] AC 593 the House of Lords relaxed the exclusionary rule. Lord Browne-Wilkinson held that reference to Parliamentary materials is permitted where (a) legislation is ambiguous or obscure, or leads to an absurdity; (b) the material relied upon consists of one or more statements by a Minister or other promoter of the Bill, together if necessary with such other Parliamentary material as is necessary to understand them; and (c) the statements relied upon are clear. He added that he could not foresee that any statement other than that of the Minister or other promoter of the Bill was likely to meet these criteria. Here the phrase is genuinely ambiguous and the promoting minister made a clear statement directed at the very point, so it may be considered. The backbench MP's speech is merely her own view and is unlikely to qualify.\n\nA is wrong: Pepper v Hart relaxed the previous exclusionary rule, so Hansard may be used where its three conditions are met.\nC is wrong: only clear statements by the Minister or other promoter of the Bill (plus material needed to understand them) are admissible; there can be no trawling through statements by other members.\nD is wrong: the relaxation applies only where the legislation is ambiguous or obscure or leads to an absurdity, and the court cannot give words a meaning they are incapable of bearing.\nE is wrong: the House of Lords held that using clear ministerial statements to construe ambiguous legislation does not \"question\" proceedings in Parliament under article 9, and no leave of the Commons is required.",
+    "key_rule": "Under Pepper v Hart, a court may consult Hansard only where legislation is ambiguous, obscure or leads to absurdity, and then only for clear statements by the minister or other promoter of the Bill.",
+    "authority": "Pepper (Inspector of Taxes) v Hart [1992] UKHL 3, [1993] AC 593 (Lord Browne-Wilkinson)",
+    "verified_source_url": "https://www.bailii.org/uk/cases/UKHL/1992/3.html",
+    "why_wrong": {
+      "A": "Pepper v Hart relaxed the exclusionary rule, so Hansard may be used where its conditions are met.",
+      "C": "Only clear statements by the Minister or promoter of the Bill qualify, not any member's speech.",
+      "D": "Hansard may be used only where the words are ambiguous, obscure or absurd, not to override a clear meaning.",
+      "E": "The House held that this use of Hansard does not breach article 9, and no Commons leave is needed."
+    },
+    "tags": [
+      "statutory interpretation",
+      "hansard",
+      "pepper v hart",
+      "parliamentary material"
+    ],
+    "last_reviewed": "2026-10-16"
+  },
+  {
+    "id": "q034",
+    "number": 34,
+    "publish_date": "2026-11-15",
+    "subject": "Constitutional & Administrative Law",
+    "flk": "FLK1",
+    "difficulty": "medium",
+    "title": "Passing a Bill without the consent of the House of Lords (Parliament Act 1911 s.2, as amended by the Parliament Act 1949)",
+    "scenario": "The Government introduces a Local Transport Bill in the House of Commons. It is not a Money Bill and contains nothing about the length of Parliaments. The Bill receives its Commons second reading, passes the Commons and is sent to the House of Lords several months before the end of the session, but the Lords vote it down. In the next session an identical Bill is introduced, passes the Commons and is again sent to the Lords well over a month before the session ends. The Lords reject it a second time. The Commons has not directed that the Parliament Acts should not apply.",
+    "stem": "Which of the following best describes when the Bill may be presented for Royal Assent without the consent of the House of Lords?",
+    "options": {
+      "A": "After the second rejection, provided one year has elapsed between its Commons second reading in the first session and its passing the Commons in the second session.",
+      "B": "Once one month has passed since the Bill was sent to the Lords in the second session, as the Lords' power to delay any public Bill is limited to one month.",
+      "C": "Only after the Commons has passed it in a third successive session and the Lords have rejected it on each of those three occasions.",
+      "D": "Never, because the House of Lords has an absolute veto over every public Bill that is not certified as a Money Bill.",
+      "E": "Immediately after the second rejection, however little time has passed since the Bill was first given a second reading in the Commons."
+    },
+    "answer": "A",
+    "explanation": "Section 2(1) of the Parliament Act 1911, as amended by the Parliament Act 1949, provides that if a Public Bill (other than a Money Bill or a Bill to extend the maximum duration of Parliament beyond five years) is passed by the Commons in two successive sessions and, having been sent up to the Lords at least one month before the end of the session, is rejected by the Lords in each of those sessions, it shall on its second rejection be presented for Royal Assent and become an Act notwithstanding the Lords' lack of consent, unless the Commons directs otherwise. The proviso is that this does not take effect unless one year has elapsed between the date of the Bill's second reading in the Commons in the first session and the date it passes the Commons in the second session. All the other conditions are met on these facts, so the one-year requirement is the remaining condition.\n\nB is wrong: the one-month limit applies to Money Bills under s.1 of the 1911 Act; for other public Bills s.2 requires two sessions and the one-year interval.\nC is wrong: the requirement of three successive sessions was reduced to two by the Parliament Act 1949, which substituted \"in two successive sessions\" into s.2(1).\nD is wrong: s.2(1) allows a qualifying public Bill to become law without the consent of the Lords, so the Lords have no absolute veto over it.\nE is wrong: the proviso to s.2(1) requires one year to have elapsed between the Commons second reading in the first session and the Commons passing in the second session.",
+    "key_rule": "A public Bill (not a Money Bill or one extending Parliament's life) rejected by the Lords in two successive sessions can receive Royal Assent without them, provided a year has passed between its first Commons second reading and its second Commons passage.",
+    "authority": "Parliament Act 1911, s.2(1), as amended by the Parliament Act 1949, s.1",
+    "verified_source_url": "https://www.legislation.gov.uk/ukpga/Geo5/1-2/13/section/2",
+    "why_wrong": {
+      "B": "The one-month limit applies only to Money Bills under s.1; other public Bills need two sessions and a one-year interval.",
+      "C": "The Parliament Act 1949 reduced the requirement from three successive sessions to two.",
+      "D": "Section 2(1) lets a qualifying public Bill become law without the Lords' consent, so there is no absolute veto.",
+      "E": "The proviso to s.2(1) requires one year between the first-session Commons second reading and the second-session Commons passage."
+    },
+    "tags": [
+      "parliament acts",
+      "house of lords",
+      "legislative process",
+      "parliamentary sovereignty"
+    ],
+    "last_reviewed": "2026-10-16"
+  },
+  {
+    "id": "q035",
+    "number": 35,
+    "publish_date": "2026-11-16",
+    "subject": "Ethics & Professional Conduct",
+    "flk": "FLK1",
+    "difficulty": "easy",
+    "title": "Oral undertakings and the time for performance (SRA Code of Conduct for Solicitors, para 1.3)",
+    "scenario": "Tomasz Wilk, a solicitor, acts for the seller of a house. Shortly before exchange of contracts, the buyer's solicitor, Funmi Okafor, telephones him about a missing building regulations completion certificate. Tomasz says: \"Leave it with me. I will send you the certificate as soon as the council issues it to us.\" No date is mentioned and nothing is put in writing. Relying on this, Funmi advises her client to exchange. The council issues the certificate to Tomasz's firm a week after completion, but four months later Tomasz has still not sent it, as he has been busy with other matters.",
+    "stem": "Which of the following best describes Tomasz's position under the SRA Code of Conduct for Solicitors?",
+    "options": {
+      "A": "He has given no undertaking, because an undertaking must be given in writing to be binding on a solicitor.",
+      "B": "He has given no undertaking, because he did not use the word \"undertake\" or \"undertaking\" in the telephone call.",
+      "C": "He has given an undertaking, but as no deadline was agreed he may perform it whenever it becomes convenient for him.",
+      "D": "He has given an undertaking, and as no timescale was agreed he must perform it within a reasonable amount of time.",
+      "E": "He has given an undertaking, but it binds him only once Funmi confirms in writing that she has accepted and relied on it."
+    },
+    "answer": "D",
+    "explanation": "Paragraph 1.3 of the SRA Code of Conduct for Solicitors, RELs, RFLs and RSLs requires that \"You perform all undertakings given by you, and do so within an agreed timescale or if no timescale has been agreed then within a reasonable amount of time.\" The SRA Glossary defines an undertaking as a statement, given orally or in writing, whether or not it includes the word \"undertake\" or \"undertaking\", to someone who reasonably places reliance on it, that you or a third party will do something or cause something to be done. Tomasz's oral promise to send the certificate, on which Funmi reasonably relied by advising exchange, is an undertaking. No timescale was agreed, so he had to perform it within a reasonable time of receiving the certificate. A delay of four months for something already in his firm's possession is very unlikely to be reasonable.\n\nA is wrong: the Glossary definition expressly covers statements given orally or in writing.\nB is wrong: the Glossary definition applies whether or not the statement includes the word \"undertake\" or \"undertaking\".\nC is wrong: para 1.3 requires performance within a reasonable amount of time where no timescale has been agreed, not whenever convenient.\nE is wrong: the definition requires only that the recipient reasonably places reliance on the statement; there is no requirement of written acceptance.",
+    "key_rule": "An undertaking can be oral and need not use the word \"undertake\"; it must be performed within the agreed time or, if none was agreed, within a reasonable time (SRA Code para 1.3).",
+    "authority": "SRA Code of Conduct for Solicitors, RELs, RFLs and RSLs, para 1.3; SRA Glossary, definition of \"undertaking\"",
+    "verified_source_url": "https://www.sra.org.uk/solicitors/standards-regulations/code-conduct-solicitors/",
+    "why_wrong": {
+      "A": "The SRA Glossary defines an undertaking as a statement given orally or in writing.",
+      "B": "An undertaking exists whether or not the words \"undertake\" or \"undertaking\" are used.",
+      "C": "Where no timescale is agreed, para 1.3 requires performance within a reasonable amount of time.",
+      "E": "Reasonable reliance by the recipient is enough; no written acceptance is required."
+    },
+    "tags": [
+      "undertakings",
+      "professional conduct",
+      "conveyancing"
+    ],
+    "last_reviewed": "2026-10-16"
+  },
+  {
+    "id": "q036",
+    "number": 36,
+    "publish_date": "2026-11-17",
+    "subject": "Property Practice",
+    "flk": "FLK2",
+    "difficulty": "medium",
+    "title": "Landlord's section 25 notice: timing, termination date and grounds of opposition (LTA 1954 s.25)",
+    "scenario": "Harbourside Retail Parks Ltd is the landlord of a shop let to Owain Rees for a fixed term of ten years expiring on 30 June 2027. The lease is not contracted out, and Owain occupies the shop for his bakery business, so Part II of the Landlord and Tenant Act 1954 applies. Harbourside intends to demolish and rebuild the parade and does not want to grant Owain a new lease. On 2 December 2026 its solicitor plans to serve a notice under section 25 specifying 30 June 2027 as the date of termination.",
+    "stem": "Which of the following best describes the requirements for Harbourside's section 25 notice?",
+    "options": {
+      "A": "The notice will be invalid if served on 2 December 2026, because a landlord may not serve a section 25 notice until the final six months of the contractual term.",
+      "B": "Harbourside could instead specify 31 March 2027 as the termination date, provided at least six months' notice is given.",
+      "C": "The notice need not say whether Harbourside opposes a new tenancy, because opposition is raised only once the tenant applies to court.",
+      "D": "The notice may be served now and the ground of opposition added later, once Harbourside has finalised its redevelopment plans.",
+      "E": "It may be served on 2 December 2026, but must be in the prescribed form, state Harbourside's opposition and specify its statutory ground."
+    },
+    "answer": "E",
+    "explanation": "Under s.25(1) of the Landlord and Tenant Act 1954 a landlord terminates a protected business tenancy by a notice in the prescribed form specifying the date of termination. By s.25(2) the notice must be given not more than twelve nor less than six months before that date: a notice served on 2 December 2026 specifying 30 June 2027 is about seven months ahead, so it is within the window. For a fixed-term tenancy, s.25(4) provides that the date of termination cannot be earlier than the date on which the tenancy would end by effluxion of time, so 30 June 2027 is the earliest permissible date. Section 25(6) requires the notice to state whether the landlord opposes the grant of a new tenancy, and s.25(7) provides that a notice stating opposition has no effect unless it also specifies one or more of the s.30(1) grounds. Harbourside's intention to demolish and reconstruct points to ground (f), which must be specified in the notice.\n\nA is wrong: s.25(2) allows service up to twelve months before the termination date; there is no rule confining service to the last six months of the term.\nB is wrong: s.25(4) prevents a landlord specifying a termination date earlier than the contractual expiry date of a fixed term, here 30 June 2027.\nC is wrong: s.25(6) provides that the notice has no effect unless it states whether the landlord is opposed to a new tenancy.\nD is wrong: s.25(7) provides that a notice stating opposition has no effect unless it also specifies the s.30(1) ground or grounds relied on.",
+    "key_rule": "A section 25 notice must be in the prescribed form, given 6 to 12 months before a termination date no earlier than the contractual expiry date, and must state whether the landlord opposes a new tenancy and, if so, on which s.30(1) grounds.",
+    "authority": "Landlord and Tenant Act 1954, s.25(1), (2), (4), (6) and (7)",
+    "verified_source_url": "https://www.legislation.gov.uk/ukpga/Eliz2/2-3/56/section/25",
+    "why_wrong": {
+      "A": "s.25(2) allows service up to twelve months before the termination date; there is no rule confining service to the last six months.",
+      "B": "s.25(4) bars a termination date earlier than the contractual expiry of a fixed term.",
+      "C": "s.25(6) makes the notice ineffective unless it states whether the landlord opposes a new tenancy.",
+      "D": "s.25(7) makes a notice stating opposition ineffective unless it specifies the s.30(1) ground or grounds."
+    },
+    "tags": [
+      "business tenancies",
+      "section 25 notice",
+      "security of tenure",
+      "landlord and tenant act 1954"
+    ],
+    "last_reviewed": "2026-10-16"
+  },
+  {
+    "id": "q037",
+    "number": 37,
+    "publish_date": "2026-11-18",
+    "subject": "Wills & Administration of Estates",
+    "flk": "FLK2",
+    "difficulty": "easy",
+    "title": "Gift to a child who dies before the testator leaving issue (Wills Act 1837 s.33)",
+    "scenario": "Margaret Hughes made a valid will in 2019 leaving \"£40,000 to my son Owen\" and the residue of her estate to her friend Bernadette Kaur. The will contains no other relevant provisions. Owen died in March 2025, leaving a widow, Chloe, and two children, Ella (aged 15) and Sam (aged 21). By his own will Owen left everything to Chloe. Margaret died in September 2026, survived by Chloe, Ella, Sam and Bernadette.",
+    "stem": "Which of the following best describes who is entitled to the £40,000 legacy?",
+    "options": {
+      "A": "The legacy lapses because Owen died before Margaret, so it falls into residue and passes to Bernadette.",
+      "B": "The legacy takes effect as a gift to Ella and Sam in equal shares, as Owen's issue living at Margaret's death.",
+      "C": "The legacy passes into Owen's estate and goes to Chloe under the terms of Owen's will.",
+      "D": "The legacy passes on a partial intestacy to Margaret's statutory next of kin.",
+      "E": "Sam takes the whole legacy now, because Ella is a minor and cannot take a share under a will."
+    },
+    "answer": "B",
+    "explanation": "A gift normally lapses if the beneficiary dies before the testator, but s.33(1) of the Wills Act 1837 creates an exception. Where a will contains a gift to a child or remoter descendant of the testator, that beneficiary dies before the testator leaving issue, and issue are living at the testator's death, the gift takes effect as a gift to the issue living at the testator's death, unless a contrary intention appears by the will. Under s.33(3), the issue take through all degrees, according to their stock, in equal shares, the share their parent would have taken. Owen was Margaret's child, he predeceased her, and his children Ella and Sam were alive when Margaret died. Nothing in the will shows a contrary intention, so the £40,000 goes to Ella and Sam equally. Ella's age does not prevent her from taking; her share will be held for her until she can give a valid receipt.\n\nA is wrong: s.33(1) saves a gift to a child of the testator from lapse where that child leaves issue living at the testator's death, so the gift does not fall into residue.\nC is wrong: s.33 redirects the gift to Owen's issue; it does not pass through Owen's estate, so Chloe takes nothing under Owen's will.\nD is wrong: the gift does not fail, so there is no partial intestacy; s.33(1) substitutes Owen's issue as beneficiaries.\nE is wrong: s.33(3) gives the issue equal shares, and a minor can be a beneficiary under a will; her share is simply held until she can give a receipt.",
+    "key_rule": "Unless the will shows a contrary intention, a gift to the testator's child or remoter descendant who dies first leaving issue passes to that beneficiary's issue living at the testator's death, in equal shares per stirpes.",
+    "authority": "Wills Act 1837, s.33(1) and (3)",
+    "verified_source_url": "https://www.legislation.gov.uk/ukpga/Will4and1Vict/7/26/section/33",
+    "why_wrong": {
+      "A": "s.33(1) saves the gift from lapse because Owen was the testator's child and left issue living at her death.",
+      "C": "s.33 redirects the gift to Owen's issue directly; it does not pass through Owen's estate to Chloe.",
+      "D": "The gift does not fail, so there is no partial intestacy.",
+      "E": "s.33(3) gives the issue equal shares, and a minor can take under a will."
+    },
+    "tags": [
+      "lapse",
+      "section 33",
+      "gifts to issue",
+      "predeceasing beneficiary"
+    ],
+    "last_reviewed": "2026-10-16"
+  },
+  {
+    "id": "q038",
+    "number": 38,
+    "publish_date": "2026-11-19",
+    "subject": "Solicitors Accounts",
+    "flk": "FLK2",
+    "difficulty": "easy",
+    "title": "Client account reconciliations every five weeks (SRA Accounts Rules, rule 8.3)",
+    "scenario": "Ashby Lane Solicitors LLP holds a general client account and two separate designated deposit client accounts for clients with large sums on long-term matters. The firm's cashier, Gareth Pryce, reconciles the general client account every two months by comparing the bank statement balance with the cash book balance. He signs the reconciliation himself. He does not reconcile the designated deposit accounts at all, because he says the money in them rarely moves. The firm's COFA, Leila Haddad, asks what the SRA Accounts Rules require.",
+    "stem": "Which of the following best describes the firm's obligation?",
+    "options": {
+      "A": "Reconcile each client account at least every two months, with the reconciliation signed by the cashier who prepared it.",
+      "B": "Reconcile the general client account at least every five weeks; designated deposit accounts need only be reconciled annually.",
+      "C": "Reconcile every client account at least every five weeks against the cash book and client ledger total, signed off by the COFA or a manager.",
+      "D": "Reconcile client accounts only once a year, as part of the work for the firm's accountant's report.",
+      "E": "Reconcile every client account at least every five weeks, comparing the bank statement balance with the cash book balance only."
+    },
+    "answer": "C",
+    "explanation": "Rule 8.3 of the SRA Accounts Rules requires a firm to complete at least every five weeks, for all client accounts it holds or operates, a reconciliation of the bank or building society statement balance with the cash book balance and the client ledger total. A record of the reconciliation must be signed off by the COFA or a manager of the firm, and any differences must be promptly investigated and resolved. The designated deposit accounts are client accounts, so they must be reconciled too, however rarely the money moves. Gareth's practice breaches rule 8.3 in three ways: the interval is too long, it is only a two-way comparison that leaves out the client ledger total, and the sign-off is by the cashier rather than the COFA or a manager. Under rule 6.1 the firm must correct the breach promptly on discovery.\n\nA is wrong: two months exceeds the five-week maximum interval in rule 8.3, and sign-off must be by the COFA or a manager, not the cashier.\nB is wrong: rule 8.3 applies to \"all client accounts\", which includes designated deposit client accounts.\nD is wrong: the accountant's report under rule 12 is separate; rule 8.3 requires reconciliations at least every five weeks throughout the year.\nE is wrong: rule 8.3 requires a three-way reconciliation that includes the client ledger total, not just bank against cash book.",
+    "key_rule": "At least every five weeks, every client account must be reconciled three ways (bank statement, cash book and client ledger total), with the record signed off by the COFA or a manager.",
+    "authority": "SRA Accounts Rules, rules 8.3 and 6.1",
+    "verified_source_url": "https://www.sra.org.uk/solicitors/standards-regulations/accounts-rules/",
+    "why_wrong": {
+      "A": "Two months exceeds the five-week maximum, and sign-off must be by the COFA or a manager, not the cashier.",
+      "B": "Rule 8.3 covers all client accounts, including designated deposit client accounts.",
+      "D": "The rule 12 accountant's report is separate; reconciliations are required at least every five weeks.",
+      "E": "Rule 8.3 requires a three-way reconciliation that includes the client ledger total."
+    },
+    "tags": [
+      "reconciliation",
+      "client account",
+      "cofa",
+      "accounting records"
+    ],
+    "last_reviewed": "2026-10-16"
+  },
+  {
+    "id": "q039",
+    "number": 39,
+    "publish_date": "2026-11-20",
+    "subject": "Land Law",
+    "flk": "FLK2",
+    "difficulty": "medium",
+    "title": "Legal leases of seven years or less as overriding interests (LRA 2002 Sch 3 para 1)",
+    "scenario": "Rhys Morgan is the registered proprietor of a freehold yard containing several lock-up units. In February 2026 he granted Amara Bello a six-year lease of one unit by deed, taking effect immediately, at a market rent. The lease was not registered or noted on Rhys's title. Amara uses the unit to store stock and visits it only occasionally; when it was inspected, the unit was padlocked and there was no sign of use. In September 2026 Rhys sold the freehold to Callum Price for value, and Callum was registered as proprietor. Callum had no actual knowledge of Amara's lease.",
+    "stem": "Which of the following best describes whether Callum is bound by Amara's lease?",
+    "options": {
+      "A": "Callum is bound, because a legal lease granted for seven years or less overrides a registered disposition whether or not the tenant is in actual occupation.",
+      "B": "Callum is not bound, because Amara's lease was not protected by a notice on the register before Callum's purchase was registered.",
+      "C": "Callum is bound only if Amara was in actual occupation of the unit when the freehold was transferred to him.",
+      "D": "Callum is not bound, because he had no actual knowledge of the lease and it was not obvious on a reasonably careful inspection.",
+      "E": "Callum is not bound, because a lease of more than three years must be completed by registration to operate at law."
+    },
+    "answer": "A",
+    "explanation": "Under s.29 of the Land Registration Act 2002, a registered disposition for valuable consideration postpones prior interests unless their priority is protected, and s.29(2)(a)(ii) protects any interest falling within Schedule 3. Schedule 3 para 1 lists \"a leasehold estate in land granted for a term not exceeding seven years from the date of the grant\", subject to exceptions for leases that are themselves registrable dispositions or fall within s.4(1)(d), (e) or (f). Amara's six-year lease was granted by deed and took effect in possession immediately, so it is a legal lease and not a registrable disposition: s.27(2)(b)(i) requires registration only for terms of more than seven years. It therefore overrides the transfer to Callum. Para 1 does not depend on actual occupation, on the purchaser's knowledge, or on whether the lease was discoverable on inspection.\n\nB is wrong: an interest within Schedule 3 is protected under s.29(2)(a)(ii) even though it is not noted on the register.\nC is wrong: actual occupation matters under para 2, but para 1 protects short legal leases independently of occupation.\nD is wrong: the knowledge and reasonable-inspection qualifications appear in paras 2 and 3, not para 1.\nE is wrong: under s.27(2)(b)(i) only leases for a term of more than seven years must be completed by registration; the three-year figure relates to the different question of when a lease needs a deed.",
+    "key_rule": "A legal lease granted for seven years or less (and not otherwise a registrable disposition) is an overriding interest under LRA 2002 Sch 3 para 1 and binds a registered purchaser regardless of occupation or knowledge.",
+    "authority": "Land Registration Act 2002, s.29(1) and (2)(a)(ii), s.27(2)(b)(i), Sch 3 para 1",
+    "verified_source_url": "https://www.legislation.gov.uk/ukpga/2002/9/schedule/3",
+    "why_wrong": {
+      "B": "An interest within Schedule 3 keeps its priority under s.29(2)(a)(ii) without being noted on the register.",
+      "C": "Para 1 protects short legal leases independently of actual occupation; occupation matters under para 2.",
+      "D": "The knowledge and inspection qualifications belong to paras 2 and 3, not para 1.",
+      "E": "Under s.27(2)(b)(i) only leases of more than seven years must be completed by registration."
+    },
+    "tags": [
+      "overriding interests",
+      "short leases",
+      "registered land",
+      "schedule 3"
+    ],
+    "last_reviewed": "2026-10-16"
+  },
+  {
+    "id": "q040",
+    "number": 40,
+    "publish_date": "2026-11-21",
+    "subject": "Trusts",
+    "flk": "FLK2",
+    "difficulty": "medium",
+    "title": "Statutory power of advancement: up to the whole presumptive share (Trustee Act 1925 s.32)",
+    "scenario": "Grace Adebayo died in 2021. Her will left £300,000 on trust for such of her three grandchildren, Leo, Mia and Noah, as reach 25, in equal shares. The will gives no one a prior life interest and does not exclude or vary the statutory powers. Leo is 19 and has asked the trustees, Peter Clarke and Hannah Liu, for £100,000 of capital as a deposit on a flat. The trustees think this would be for his benefit. Mia and Noah, both adults, object to the payment.",
+    "stem": "Which of the following best describes the trustees' power under section 32 of the Trustee Act 1925?",
+    "options": {
+      "A": "They may advance no more than £50,000, because an advancement is limited to one half of Leo's presumptive share.",
+      "B": "They may not advance any capital, because Leo's interest is contingent on reaching 25 and has not yet vested.",
+      "C": "They may advance the £100,000 only if Mia and Noah consent in writing to the payment.",
+      "D": "They may advance up to £100,000, and any sum advanced must be brought into account if Leo becomes absolutely entitled.",
+      "E": "They may pay Leo income for his benefit, but section 32 does not allow them to apply capital before he reaches 25."
+    },
+    "answer": "D",
+    "explanation": "Section 32(1) of the Trustee Act 1925 allows trustees, in their absolute discretion, to pay or apply capital for the advancement or benefit of any person entitled to capital, \"whether absolutely or contingently on his attaining any specified age\". Leo's contingent interest therefore qualifies. Proviso (a), as amended by the Inheritance and Trustees' Powers Act 2014, limits advancements to the whole of the beneficiary's presumptive or vested share. Under s.10(3) and (4) of the 2014 Act, that change applies to trusts created or arising after 1 October 2014, and Grace's will trust arose on her death in 2021. Leo's presumptive share is one third of £300,000, so up to £100,000 may be advanced. Under proviso (b) the advancement must be brought into account as part of his share if he becomes absolutely entitled. Proviso (c) requires consent only from someone with a prior life or other interest, and Mia and Noah have none.\n\nA is wrong: the one-half limit applies only to trusts created before 1 October 2014; for this trust the limit is the whole presumptive share.\nB is wrong: s.32(1) expressly extends to beneficiaries entitled contingently on attaining a specified age.\nC is wrong: under proviso (c) consent is needed only from a person with a prior interest; co-beneficiaries entitled to other shares have no veto.\nE is wrong: the power to apply income for maintenance is in s.31; s.32 is the power to advance capital.",
+    "key_rule": "For trusts created or arising after 1 October 2014, trustees may advance capital up to the whole of a beneficiary's presumptive share, even where the interest is contingent, subject to bringing it into account and to the consent of anyone with a prior interest.",
+    "authority": "Trustee Act 1925, s.32(1) provisos (a) to (c); Inheritance and Trustees' Powers Act 2014, ss.9 and 10",
+    "verified_source_url": "https://www.legislation.gov.uk/ukpga/Geo5/15-16/19/section/32",
+    "why_wrong": {
+      "A": "The one-half limit applies only to trusts created before 1 October 2014; here the limit is the whole presumptive share.",
+      "B": "s.32(1) expressly covers beneficiaries entitled contingently on attaining a specified age.",
+      "C": "Proviso (c) requires consent only from a person with a prior interest, not from co-beneficiaries.",
+      "E": "Income for maintenance is s.31; s.32 is a power to advance capital."
+    },
+    "tags": [
+      "power of advancement",
+      "presumptive share",
+      "contingent interest",
+      "trustee powers"
+    ],
+    "last_reviewed": "2026-10-16"
+  },
+  {
+    "id": "q041",
+    "number": 41,
+    "publish_date": "2026-11-22",
+    "subject": "Criminal Law",
+    "flk": "FLK2",
+    "difficulty": "easy",
+    "title": "Burglary where the intent to steal is formed after entry (Theft Act 1968 s.9(1)(b))",
+    "scenario": "During a storm, Marcus Reid walks into his neighbour's house through an open back door to shelter from the rain. He knows he has no permission to be there. When he enters, he intends only to stay dry. Once inside, he sees a laptop on the kitchen table, decides to take it, and leaves with it, intending to sell it. The neighbour, Joanne Fisher, never gave him permission to enter or to take anything.",
+    "stem": "Which of the following best describes Marcus's liability for burglary?",
+    "options": {
+      "A": "He is not guilty of burglary, because he had no intention to steal or commit any other relevant offence when he entered.",
+      "B": "He is guilty of burglary under section 9(1)(b), because having entered as a trespasser he stole something in the building.",
+      "C": "He is guilty of burglary under section 9(1)(a), because the intention he formed inside is treated as present on entry.",
+      "D": "He is guilty of theft only, because burglary requires a forced or unlawful breaking into the building.",
+      "E": "He is not guilty of burglary, because he entered to shelter from the storm and so was not a trespasser."
+    },
+    "answer": "B",
+    "explanation": "Section 9(1) of the Theft Act 1968 creates two forms of burglary. Under s.9(1)(a) the defendant must enter a building or part of a building as a trespasser with intent, at the time of entry, to commit one of the offences listed in s.9(2). Under s.9(1)(b) it is enough that, having entered as a trespasser, the defendant steals or attempts to steal anything in the building, or inflicts or attempts to inflict grievous bodily harm on any person in it. Marcus entered Joanne's house knowing he had no permission, so he entered as a trespasser. He had no intent to steal when he entered, so s.9(1)(a) is not made out. But he then stole the laptop while inside, which satisfies s.9(1)(b). The maximum sentence on indictment is fourteen years because the building is a dwelling (s.9(3)(a)).\n\nA is wrong: intention at the moment of entry is needed only for s.9(1)(a); s.9(1)(b) is satisfied by stealing after a trespassory entry.\nC is wrong: s.9(1)(a) requires the intent at the time of entry, and the statute does not backdate a later intention.\nD is wrong: s.9 requires entry \"as a trespasser\", not forced entry or breaking; walking through an open door without permission is enough.\nE is wrong: his reason for entering does not make the entry permitted; he knew he had no permission, so he entered as a trespasser.",
+    "key_rule": "Burglary under s.9(1)(b) needs only a trespassory entry followed by theft (or attempted theft, or GBH or attempted GBH) inside; the ulterior intent at the point of entry is required only for s.9(1)(a).",
+    "authority": "Theft Act 1968, s.9(1)(a) and (b), (2) and (3)",
+    "verified_source_url": "https://www.legislation.gov.uk/ukpga/1968/60/section/9",
+    "why_wrong": {
+      "A": "Intent at entry is required only for s.9(1)(a); s.9(1)(b) is met by stealing after a trespassory entry.",
+      "C": "s.9(1)(a) requires the intent at the time of entry, and a later intention is not backdated.",
+      "D": "s.9 requires entry as a trespasser, not forced entry or breaking.",
+      "E": "His motive does not make the entry permitted; he knew he had no permission, so he was a trespasser."
+    },
+    "tags": [
+      "burglary",
+      "trespasser",
+      "theft",
+      "mens rea"
+    ],
+    "last_reviewed": "2026-10-16"
+  },
+  {
+    "id": "q042",
+    "number": 42,
+    "publish_date": "2026-11-23",
+    "subject": "Criminal Practice",
+    "flk": "FLK2",
+    "difficulty": "medium",
+    "title": "Extending detention without charge from 24 to 36 hours (PACE 1984 ss.41 and 42)",
+    "scenario": "Hannah Brooks was arrested at her home at 08:15 on Monday 9 November 2026 on suspicion of fraud by false representation, an either-way offence. She arrived at the police station at 09:00 that day. Her detention has been reviewed twice. At 07:30 on Tuesday, officers still need to interview her about documents seized from her office. The investigation is being conducted diligently and expeditiously, and further detention is necessary to obtain evidence by questioning her. Her solicitor, Imran Shah, is at the station.",
+    "stem": "Which of the following best describes how Hannah's detention without charge may be extended?",
+    "options": {
+      "A": "The custody inspector may authorise detention until 21:00 on Tuesday, as long as the reasons are recorded in the custody record.",
+      "B": "Any detention beyond 24 hours requires a warrant of further detention from a magistrates' court, whatever the offence.",
+      "C": "No extension is possible, because continued detention under section 42 is available only for offences triable only on indictment.",
+      "D": "A superintendent may authorise detention until 20:15 on Tuesday, because the detention clock started at the time of arrest.",
+      "E": "A superintendent responsible for the station may authorise detention until 21:00 on Tuesday, after allowing representations."
+    },
+    "answer": "E",
+    "explanation": "Under s.41(1) of the Police and Criminal Evidence Act 1984, a person must not be kept in police detention for more than 24 hours without charge, subject to ss.42 and 43. For a person arrested locally, the \"relevant time\" is the time of arrival at the first police station after arrest (s.41(2)(d)), here 09:00 on Monday. Under s.42(1), an officer of the rank of superintendent or above who is responsible for the station may authorise detention for a period expiring at or before 36 hours after the relevant time. The officer must have reasonable grounds to believe that detention without charge is necessary to secure, preserve or obtain evidence by questioning, that the offence is an indictable offence, and that the investigation is being conducted diligently and expeditiously. Fraud is triable either way, and an either-way offence is an \"indictable offence\" (Interpretation Act 1978, Sch 1). The authorisation must be given within 24 hours of the relevant time and after the second review (s.42(4)), so 07:30 on Tuesday is in time. Before deciding, the superintendent must give Hannah or her available solicitor an opportunity to make representations (s.42(6)). The latest possible expiry is 21:00 on Tuesday.\n\nA is wrong: s.42(1) requires an officer of at least the rank of superintendent; an inspector cannot extend detention beyond 24 hours.\nB is wrong: a magistrates' warrant of further detention under s.43 is needed only to go beyond 36 hours; a superintendent can authorise up to 36 hours.\nC is wrong: s.42(1)(b) requires an \"indictable\" offence, which includes either-way offences such as fraud.\nD is wrong: under s.41(2)(d) the relevant time is arrival at the police station (09:00), not the time of arrest, so 36 hours runs to 21:00.",
+    "key_rule": "A superintendent or above responsible for the station may extend detention without charge for an indictable (including either-way) offence up to 36 hours from the relevant time, normally arrival at the station, after the second review and within the first 24 hours.",
+    "authority": "Police and Criminal Evidence Act 1984, s.41(1) and (2)(d), s.42(1), (4) and (6); Interpretation Act 1978, Sch 1",
+    "verified_source_url": "https://www.legislation.gov.uk/ukpga/1984/60/section/42",
+    "why_wrong": {
+      "A": "s.42(1) requires an officer of superintendent rank or above; an inspector cannot extend.",
+      "B": "A s.43 magistrates' warrant is needed only to go beyond 36 hours.",
+      "C": "'Indictable offence' includes either-way offences such as fraud.",
+      "D": "The relevant time is arrival at the station under s.41(2)(d), so 36 hours runs from 09:00 to 21:00."
+    },
+    "tags": [
+      "police detention",
+      "detention time limits",
+      "superintendent authorisation",
+      "pace"
+    ],
+    "last_reviewed": "2026-10-16"
+  },
+  {
+    "id": "q043",
+    "number": 43,
+    "publish_date": "2026-11-24",
+    "subject": "Business Law & Practice",
+    "flk": "FLK1",
+    "difficulty": "medium",
+    "title": "Changing the nature of a partnership business needs every partner's consent (Partnership Act 1890 s.24(8))",
+    "scenario": "Amara, Ben, Chloe and Dev have run a vegan catering business together as a general partnership since 2022. They have no written partnership agreement and have never agreed anything about how decisions are made. In March 2026 Amara, Ben and Chloe vote to close the catering side and turn the firm into a wedding and events venue business, using the partnership's kitchen premises as a function hall. Dev objects strongly and refuses to agree. The other three say that, as a clear majority, they are entitled to go ahead.",
+    "stem": "Which of the following best describes the legal position on the proposed change?",
+    "options": {
+      "A": "The change may go ahead, because differences between partners are decided by a simple majority where there is no partnership agreement.",
+      "B": "The change may go ahead only if partners holding at least 75% of the partnership capital vote in favour of it.",
+      "C": "The change cannot be made without Dev's consent, as a change in the nature of the business needs the consent of all existing partners.",
+      "D": "The change cannot be made over Dev's objection only if Dev contributed the largest share of the partnership capital.",
+      "E": "Amara, Ben and Chloe may expel Dev by majority vote and then make the change without his consent."
+    },
+    "answer": "C",
+    "explanation": "With no partnership agreement, the default rules in s.24 of the Partnership Act 1890 govern the partners' rights and duties. Section 24(8) provides that any difference arising as to ordinary matters connected with the partnership business may be decided by a majority of the partners, \"but no change may be made in the nature of the partnership business without the consent of all existing partners\". Turning a catering business into a wedding and events venue is a change in the nature of the business, not an ordinary matter, so it needs unanimous consent. Dev's refusal therefore blocks it.\n\nA is wrong: majority rule under s.24(8) covers only ordinary matters; a change in the nature of the business needs the consent of all existing partners.\nB is wrong: a 75% threshold is a company law concept (special resolutions); the Partnership Act 1890 contains no capital-weighted voting rule for this decision.\nD is wrong: the unanimity requirement in s.24(8) does not depend on how much capital a partner contributed; every existing partner's consent is required.\nE is wrong: under s.25 no majority of the partners can expel a partner unless a power to do so has been conferred by express agreement, and there is none here.",
+    "key_rule": "Absent contrary agreement, ordinary partnership matters are decided by majority, but a change in the nature of the business needs the consent of all existing partners (PA 1890 s.24(8)).",
+    "authority": "Partnership Act 1890, s.24(8); s.25",
+    "verified_source_url": "https://www.legislation.gov.uk/ukpga/Vict/53-54/39/section/24",
+    "why_wrong": {
+      "A": "majority rule under s.24(8) covers only ordinary matters; a change in the nature of the business needs the consent of all existing partners.",
+      "B": "a 75% threshold is a company law concept (special resolutions); the Partnership Act 1890 contains no capital-weighted voting rule for this decision.",
+      "D": "the unanimity requirement in s.24(8) does not depend on how much capital a partner contributed; every existing partner's consent is required.",
+      "E": "under s.25 no majority of the partners can expel a partner unless a power to do so has been conferred by express agreement, and there is none here."
+    },
+    "tags": [
+      "partnership",
+      "partnership act 1890",
+      "decision making",
+      "unanimity"
+    ],
+    "last_reviewed": "2026-10-16"
+  },
+  {
+    "id": "q044",
+    "number": 44,
+    "publish_date": "2026-11-25",
+    "subject": "Dispute Resolution",
+    "flk": "FLK1",
+    "difficulty": "medium",
+    "title": "Summary judgment: no real prospect and no other compelling reason for a trial (CPR 24.3 and 24.4)",
+    "scenario": "Brennan Tiles Ltd supplied £62,000 of tiles to Marlow Fit-Out Ltd, which has not paid. Brennan issued a claim in the County Court and Marlow filed an acknowledgment of service, but has not yet filed a defence. Marlow's only stated reason for not paying is that its own customer has not paid it. The contract between Brennan and Marlow makes no reference to Marlow's customer, and Marlow accepts that the tiles were delivered and were of satisfactory quality. Brennan wants to end the claim quickly without a trial.",
+    "stem": "Which of the following best describes whether Brennan can obtain summary judgment?",
+    "options": {
+      "A": "No, because a claimant may not apply for summary judgment until the defendant has filed a defence.",
+      "B": "No, because summary judgment is available only to a defendant who wants a weak claim struck out.",
+      "C": "Yes, but only if Brennan proves that Marlow's defence is certain to fail, beyond any reasonable doubt.",
+      "D": "No, because the court may give summary judgment only on the whole of a claim and never on a single issue.",
+      "E": "Yes, if the court considers Marlow has no real prospect of defending the claim and there is no other compelling reason for a trial."
+    },
+    "answer": "E",
+    "explanation": "Under CPR 24.3 the court may give summary judgment against a claimant or a defendant, on the whole of a claim or on an issue, if it considers that the party has no real prospect of succeeding on the claim, defence or issue and there is no other compelling reason why the case or issue should be disposed of at a trial. Under CPR 24.4(1) a claimant may apply once the defendant has filed an acknowledgment of service or a defence, unless the court gives permission or a rule or practice direction says otherwise. Marlow has filed an acknowledgment of service, so Brennan may apply now. Marlow admits delivery and quality, and the contract does not make payment depend on Marlow's customer paying, so its only stated reason for not paying is unlikely to give it a real prospect of defending the claim.\n\nA is wrong: CPR 24.4(1) allows a claimant to apply once an acknowledgment of service or a defence has been filed; a defence is not required.\nB is wrong: CPR 24.2 and 24.3 allow summary judgment against a claimant or a defendant.\nC is wrong: the test is whether the party has no real prospect of success, not whether its case is certain to fail beyond reasonable doubt.\nD is wrong: CPR 24.3 allows summary judgment on the whole of a claim or on a particular issue.",
+    "key_rule": "The court may give summary judgment for or against either party, on a whole claim or an issue, if the other side has no real prospect of success and there is no other compelling reason for a trial; a claimant may apply once an acknowledgment of service or defence is filed (CPR 24.3, 24.4(1)).",
+    "authority": "Civil Procedure Rules, rules 24.2, 24.3 and 24.4(1)",
+    "verified_source_url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part24",
+    "why_wrong": {
+      "A": "CPR 24.4(1) allows a claimant to apply once an acknowledgment of service or a defence has been filed.",
+      "B": "Summary judgment is available against a claimant or a defendant (CPR 24.2, 24.3).",
+      "C": "The test is no real prospect of success, not certainty of failure beyond reasonable doubt.",
+      "D": "CPR 24.3 allows summary judgment on the whole of a claim or on an issue."
+    },
+    "tags": [
+      "summary judgment",
+      "real prospect",
+      "case management"
+    ],
+    "last_reviewed": "2026-10-16"
+  },
+  {
+    "id": "q045",
+    "number": 45,
+    "publish_date": "2026-11-26",
+    "subject": "Contract",
+    "flk": "FLK1",
+    "difficulty": "medium",
+    "title": "Damages for negligent misrepresentation and the reverse burden of proof (Misrepresentation Act 1967 s.2(1))",
+    "scenario": "In January 2026 Tom Ellery agreed to buy a café business from Sunita Rao for £120,000. During negotiations Sunita told Tom that the café's annual turnover was £400,000. She took the figure from accounts that were three years old and did not check the current figures, although they were readily available to her. Relying on the figure, Tom signed the contract. The real current turnover was about £250,000, and Tom has suffered loss as a result. Sunita did not know the figure was wrong and did not intend to deceive Tom. The statement was not made a term of the contract.",
+    "stem": "Which of the following best describes Tom's position if he claims damages under the Misrepresentation Act 1967?",
+    "options": {
+      "A": "Sunita is liable unless she proves she had reasonable ground to believe, and did believe up to the contract, that the figure was true.",
+      "B": "Tom can recover damages only if he proves on the balance of probabilities that Sunita failed to take reasonable care in making the statement.",
+      "C": "Tom cannot claim damages, because the misrepresentation was not fraudulent; his only remedy is to seek rescission of the contract.",
+      "D": "Tom can recover damages only if the turnover statement became a term of the contract, because a pre-contract statement cannot found a damages claim.",
+      "E": "Tom can recover damages only if he proves that Sunita knew the figure was false or was reckless as to whether it was true."
+    },
+    "answer": "A",
+    "explanation": "Section 2(1) of the Misrepresentation Act 1967 applies where a person has entered into a contract after a misrepresentation has been made to him by another party to it and has suffered loss as a result. The representor is liable to damages as if the misrepresentation had been made fraudulently, notwithstanding that it was not, \"unless he proves that he had reasonable ground to believe and did believe up to the time the contract was made the facts represented were true\". The burden is therefore on Sunita, not Tom. Relying on three-year-old accounts when current figures were readily available is unlikely to amount to reasonable ground for belief, so Tom is likely to succeed.\n\nB is wrong: s.2(1) reverses the burden: once Tom shows a misrepresentation that induced the contract and caused loss, Sunita must prove reasonable grounds for her belief.\nC is wrong: s.2(1) gives a damages remedy for non-fraudulent misrepresentation, and rescission is not the only remedy available.\nD is wrong: s.2(1) applies to a misrepresentation that induced the contract; the statement does not need to have become a contractual term.\nE is wrong: proving knowledge or recklessness is the test for fraud; s.2(1) makes the representor liable as if fraudulent without proof of fraud.",
+    "key_rule": "Under MA 1967 s.2(1) a contracting party who made a misrepresentation is liable in damages as if it were fraudulent unless they prove reasonable grounds to believe, and actual belief up to contract, that the facts were true.",
+    "authority": "Misrepresentation Act 1967, s.2(1)",
+    "verified_source_url": "https://www.legislation.gov.uk/ukpga/1967/7/section/2",
+    "why_wrong": {
+      "B": "s.2(1) reverses the burden: once Tom shows a misrepresentation that induced the contract and caused loss, Sunita must prove reasonable grounds for her belief.",
+      "C": "s.2(1) gives a damages remedy for non-fraudulent misrepresentation, and rescission is not the only remedy available.",
+      "D": "s.2(1) applies to a misrepresentation that induced the contract; the statement does not need to have become a contractual term.",
+      "E": "proving knowledge or recklessness is the test for fraud; s.2(1) makes the representor liable as if fraudulent without proof of fraud."
+    },
+    "tags": [
+      "misrepresentation",
+      "damages",
+      "burden of proof",
+      "negligent misrepresentation"
+    ],
+    "last_reviewed": "2026-10-16"
+  },
+  {
+    "id": "q046",
+    "number": 46,
+    "publish_date": "2026-11-27",
+    "subject": "Tort",
+    "flk": "FLK1",
+    "difficulty": "medium",
+    "title": "Recoverable damage under the Consumer Protection Act 1987: the product itself is excluded (s.5)",
+    "scenario": "Megan Doyle bought a dehumidifier for £180 to use in her flat. In June 2026 a defect in its wiring caused it to catch fire while she was at home. The dehumidifier was completely destroyed, the fire damaged Megan's sofa, which will cost £900 to replace, and Megan suffered burns to her hand while putting the fire out. She brings a claim against the manufacturer under Part I of the Consumer Protection Act 1987, and it is accepted that the product was defective.",
+    "stem": "Which of the following best describes the damage Megan can recover under Part I of the Act?",
+    "options": {
+      "A": "Damages for her burns, the sofa and the £180 cost of the dehumidifier, because all of this damage was caused by the defect.",
+      "B": "Damages for her burns and the sofa, but not for the loss of the dehumidifier itself.",
+      "C": "Damages for her burns only, because Part I of the Act does not extend to any loss of or damage to property.",
+      "D": "Damages for her burns, but property damage only up to a maximum of £275 in total.",
+      "E": "Nothing unless she proves that the manufacturer failed to take reasonable care in making the dehumidifier."
+    },
+    "answer": "B",
+    "explanation": "Section 5(1) of the Consumer Protection Act 1987 defines damage as death or personal injury or any loss of or damage to any property (including land). Megan's burns are therefore recoverable. Under s.5(2), however, a person is not liable under s.2 for the loss of or any damage to the product itself, so the destroyed dehumidifier is not recoverable under Part I (Megan would need a contractual claim against the seller for that). The sofa is recoverable: it is property of a description ordinarily intended for private use and was intended by Megan mainly for her own private use (s.5(3)), and the £900 claim exceeds the £275 threshold in s.5(4).\n\nA is wrong: s.5(2) excludes liability for loss of or damage to the defective product itself, so the £180 dehumidifier cannot be recovered under Part I.\nC is wrong: s.5(1) includes loss of or damage to property, subject to the limits in s.5(2) to (4), so the sofa is recoverable.\nD is wrong: £275 is a minimum threshold in s.5(4): no property damages are awarded if the claim does not exceed £275; it is not a cap.\nE is wrong: liability under s.2 is strict; Megan need prove only damage caused wholly or partly by a defect, not negligence.",
+    "key_rule": "Under CPA 1987 s.5, damage covers personal injury and private property damage over £275, but never loss of or damage to the defective product itself.",
+    "authority": "Consumer Protection Act 1987, ss.2 and 5(1)-(4)",
+    "verified_source_url": "https://www.legislation.gov.uk/ukpga/1987/43/section/5",
+    "why_wrong": {
+      "A": "s.5(2) excludes liability for loss of or damage to the defective product itself, so the £180 dehumidifier cannot be recovered under Part I.",
+      "C": "s.5(1) includes loss of or damage to property, subject to the limits in s.5(2) to (4), so the sofa is recoverable.",
+      "D": "£275 is a minimum threshold in s.5(4): no property damages are awarded if the claim does not exceed £275; it is not a cap.",
+      "E": "liability under s.2 is strict; Megan need prove only damage caused wholly or partly by a defect, not negligence."
+    },
+    "tags": [
+      "product liability",
+      "consumer protection act 1987",
+      "strict liability",
+      "recoverable damage"
+    ],
+    "last_reviewed": "2026-10-16"
+  },
+  {
+    "id": "q047",
+    "number": 47,
+    "publish_date": "2026-11-28",
+    "subject": "Legal Services",
+    "flk": "FLK1",
+    "difficulty": "easy",
+    "title": "Which activities are reserved legal activities? Probate activities v will-writing (Legal Services Act 2007 s.12 and Sch 2)",
+    "scenario": "Kwame Asante runs Cornerstone Estate Services, a small business that is not authorised by the SRA or any other approved regulator, and none of its staff is an authorised person. He plans to expand and lists the services he would like to offer clients for a fee from 2026: drafting wills, advising on inheritance tax planning, acting as a mediator in family disputes about estates, preparing the papers needed to apply for grants of probate, and writing letters to banks on behalf of executors asking for account balances.",
+    "stem": "Which of the following best identifies the service that is a reserved legal activity under the Legal Services Act 2007?",
+    "options": {
+      "A": "Drafting wills for clients, because a will is an instrument relating to real or personal estate.",
+      "B": "Advising clients on inheritance tax planning, because it involves legal advice on the application of the law.",
+      "C": "Acting as a mediator in family disputes about estates, because mediation is a form of resolving legal disputes.",
+      "D": "Preparing the papers on which to found an application for a grant of probate.",
+      "E": "Writing letters to banks on behalf of executors asking for the balances of the deceased's accounts."
+    },
+    "answer": "D",
+    "explanation": "Section 12(1) of the Legal Services Act 2007 lists six reserved legal activities: the exercise of a right of audience, the conduct of litigation, reserved instrument activities, probate activities, notarial activities and the administration of oaths. Schedule 2, para 6 defines \"probate activities\" as preparing any probate papers for the purposes of the law of England and Wales, and \"probate papers\" as papers on which to found or oppose a grant of probate or a grant of letters of administration. Preparing probate application papers is therefore a reserved legal activity, which Kwame's unauthorised business could not carry on lawfully.\n\nA is wrong: Sch 2 para 5(3)(a) expressly provides that \"instrument\" does not include a will or other testamentary instrument, so will-writing is not reserved.\nB is wrong: giving legal advice is a \"legal activity\" under s.12(3) but is not one of the six reserved legal activities in s.12(1).\nC is wrong: s.12(4) provides that legal activity does not include activity of a judicial or quasi-judicial nature, including acting as a mediator.\nE is wrong: routine correspondence asking for information falls within none of the reserved activities, and Sch 2 para 5(3)(c) excludes letters from \"instrument\".",
+    "key_rule": "Preparing papers to found or oppose a grant of probate or letters of administration is a reserved legal activity; drafting a will is not (LSA 2007 s.12 and Sch 2 paras 5-6).",
+    "authority": "Legal Services Act 2007, s.12(1), (3), (4); Sch 2, paras 5(3) and 6",
+    "verified_source_url": "https://www.legislation.gov.uk/ukpga/2007/29/schedule/2",
+    "why_wrong": {
+      "A": "Sch 2 para 5(3)(a) expressly provides that \"instrument\" does not include a will or other testamentary instrument, so will-writing is not reserved.",
+      "B": "giving legal advice is a \"legal activity\" under s.12(3) but is not one of the six reserved legal activities in s.12(1).",
+      "C": "s.12(4) provides that legal activity does not include activity of a judicial or quasi-judicial nature, including acting as a mediator.",
+      "E": "routine correspondence asking for information falls within none of the reserved activities, and Sch 2 para 5(3)(c) excludes letters from \"instrument\"."
+    },
+    "tags": [
+      "reserved legal activities",
+      "probate activities",
+      "will writing",
+      "legal services act 2007"
+    ],
+    "last_reviewed": "2026-10-16"
+  },
+  {
+    "id": "q048",
+    "number": 48,
+    "publish_date": "2026-11-29",
+    "subject": "Constitutional & Administrative Law",
+    "flk": "FLK1",
+    "difficulty": "medium",
+    "title": "Hybrid public authorities and private acts under the Human Rights Act 1998 s.6(3)(b) and (5)",
+    "scenario": "Ferrous Secure Services Ltd is a private company. Under a contract with the Home Office it runs an immigration detention centre, holding people detained under statutory immigration powers. It also has ordinary commercial contracts, including its contract of employment with Lena Novak, an office cleaner at its head office. In 2026 Rashid, a detainee, alleges that the conditions in which the company holds him breach his Convention rights. Separately, Lena is dismissed and argues that the company is bound by s.6 of the Human Rights Act 1998 in relation to her dismissal.",
+    "stem": "Which of the following best describes the application of s.6 of the Human Rights Act 1998 to the company?",
+    "options": {
+      "A": "The company is not a public authority for any purpose, because s.6 applies only to bodies created by statute or owned by the state.",
+      "B": "The company is a public authority for all of its acts, including Lena's dismissal, because it carries out some functions of a public nature.",
+      "C": "It is a public authority when detaining Rashid, a public function, but not as regards Lena's dismissal if that act is private.",
+      "D": "The company cannot be a public authority, because under s.6 only courts, tribunals and central government departments are public authorities.",
+      "E": "The company is a public authority only if the Home Office has designated it as one by an order made under the Human Rights Act 1998."
+    },
+    "answer": "C",
+    "explanation": "Section 6(1) of the Human Rights Act 1998 makes it unlawful for a public authority to act incompatibly with a Convention right. By s.6(3)(b) \"public authority\" includes \"any person certain of whose functions are functions of a public nature\", so a private company can be a hybrid public authority. Detaining people under statutory immigration powers on behalf of the state is a function of a public nature, so the company is bound by s.6 in relation to Rashid. However, s.6(5) provides that, in relation to a particular act, a person is not a public authority by virtue only of s.6(3)(b) if the nature of the act is private. Dismissing a head-office cleaner under an ordinary employment contract is a private act, so Lena cannot rely on s.6 against the company.\n\nA is wrong: s.6(3)(b) expressly extends public authority status to any person certain of whose functions are of a public nature, which can include a private company.\nB is wrong: only a core public authority is bound for all its acts; a hybrid body under s.6(3)(b) is not a public authority for acts of a private nature (s.6(5)).\nD is wrong: courts and tribunals are included by s.6(3)(a), but s.6(3) is inclusive and also covers bodies performing functions of a public nature.\nE is wrong: s.6 contains no designation procedure; whether a body is a public authority depends on the nature of its functions and of the act concerned.",
+    "key_rule": "A private body with some functions of a public nature is a hybrid public authority under HRA 1998 s.6(3)(b), bound by s.6 when performing those functions but not for acts of a private nature (s.6(5)).",
+    "authority": "Human Rights Act 1998, s.6(1), (3) and (5); YL v Birmingham City Council [2007] UKHL 27",
+    "verified_source_url": "https://www.legislation.gov.uk/ukpga/1998/42/section/6",
+    "why_wrong": {
+      "A": "s.6(3)(b) expressly extends public authority status to any person certain of whose functions are of a public nature, which can include a private company.",
+      "B": "only a core public authority is bound for all its acts; a hybrid body under s.6(3)(b) is not a public authority for acts of a private nature (s.6(5)).",
+      "D": "courts and tribunals are included by s.6(3)(a), but s.6(3) is inclusive and also covers bodies performing functions of a public nature.",
+      "E": "s.6 contains no designation procedure; whether a body is a public authority depends on the nature of its functions and of the act concerned."
+    },
+    "tags": [
+      "human rights act 1998",
+      "public authority",
+      "hybrid authority",
+      "section 6"
+    ],
+    "last_reviewed": "2026-10-16"
+  },
+  {
+    "id": "q049",
+    "number": 49,
+    "publish_date": "2026-11-30",
+    "subject": "Ethics & Professional Conduct",
+    "flk": "FLK2",
+    "difficulty": "medium",
+    "title": "Taking will instructions from a relative: acting only on the client's own instructions (SRA Code para 3.1)",
+    "scenario": "Ravi Mehta telephones Elm Street Solicitors and asks Laura Bennett, a solicitor, to prepare a new will for his mother, Kamala, aged 88. Ravi says Kamala wants to leave her whole estate to him instead of dividing it equally between him and his sister, as her existing will does. Ravi will bring Kamala in to sign, pay the firm's fees and has emailed a typed list of 'Mum's wishes'. Laura has never spoken to Kamala, and Ravi says Kamala is too tired to come to the phone.",
+    "stem": "Which of the following best describes how Laura should proceed under the SRA Code of Conduct for Solicitors?",
+    "options": {
+      "A": "She should not act on Ravi's instructions alone and should satisfy herself, by seeing Kamala, that the instructions are Kamala's own wishes.",
+      "B": "She may prepare the will on Ravi's instructions, because he is a close family member and is paying the firm's fees.",
+      "C": "She may prepare the will on Ravi's instructions, provided Kamala signs it in the presence of two witnesses.",
+      "D": "She must refuse to act at all, because a solicitor can never accept instructions passed on by a third party.",
+      "E": "She may prepare the will on Ravi's instructions if he gives the firm a written undertaking that they reflect his mother's wishes."
+    },
+    "answer": "A",
+    "explanation": "Paragraph 3.1 of the SRA Code of Conduct for Solicitors requires a solicitor to act for clients only on instructions from the client, or from someone properly authorised to provide instructions on their behalf. If the solicitor has reason to suspect that the instructions do not represent the client's wishes, the solicitor must not act unless satisfied that they do. Kamala is the client. The instructions come from the person who would benefit from the change, Laura has never spoken to Kamala and there is no suggestion that Ravi is authorised to give instructions for her. Laura has reason to suspect the instructions may not be Kamala's, so she should see Kamala, ideally alone, and confirm her instructions before acting.\n\nB is wrong: being a relative and paying the fees does not make Ravi the client or authorise him to give instructions; he also stands to benefit.\nC is wrong: valid execution deals with formal validity, not with whether the solicitor may act on these instructions under para 3.1.\nD is wrong: para 3.1 allows instructions from someone properly authorised, and Laura may act once she is satisfied the instructions are Kamala's.\nE is wrong: an assurance from the person who benefits cannot satisfy Laura that the instructions represent Kamala's wishes.",
+    "key_rule": "Act only on instructions from the client or someone properly authorised by them; if you suspect instructions do not reflect the client's wishes, do not act until you are satisfied that they do (SRA Code para 3.1).",
+    "authority": "SRA Code of Conduct for Solicitors, RELs, RFLs and RSLs, para 3.1",
+    "verified_source_url": "https://www.sra.org.uk/solicitors/standards-regulations/code-conduct-solicitors/",
+    "why_wrong": {
+      "B": "Being a relative who pays the fees does not make Ravi the client or authorise him to instruct, and he stands to benefit.",
+      "C": "Proper execution concerns the will's formal validity, not whether Laura may act on these instructions.",
+      "D": "Para 3.1 permits instructions from someone properly authorised, and Laura may act once satisfied they are Kamala's.",
+      "E": "An assurance from the person who benefits cannot satisfy Laura that the instructions are Kamala's."
+    },
+    "tags": [
+      "client instructions",
+      "wills",
+      "vulnerable clients",
+      "client care"
+    ],
+    "last_reviewed": "2026-10-16"
   }
 ]
