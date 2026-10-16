@@ -1,8 +1,8 @@
 # Source verification: q029-q049
 
-Prepared by Hark on 16 October 2026 (Europe/London). For each new question: the primary source fetched, the exact words relied on, the currency check and any point flagged for review.
+Prepared on 16 October 2026 (Europe/London). For each new question: the primary source fetched, the exact words relied on, the currency check and any point flagged for review.
 
-These are automated source checks against the linked text. No practising solicitor or barrister has reviewed these questions.
+These are source checks against the linked text. No practising solicitor or barrister has reviewed these questions.
 
 ## q029 (2026-11-10) Business Law & Practice: Substantial property transactions with a director: members' approval (CA 2006 ss.190-191)
 
@@ -144,7 +144,7 @@ These are automated source checks against the linked text. No practising solicit
 - Answer: E
 - Source fetched: https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part24
 - Currency: Rule numbering is the post-1 October 2023 Part 24 (grounds now r.24.3, timing r.24.4), as shown on the fetched page.
-- Flagged for review: The 'real prospect' meaning (realistic, not fanciful) comes from Swain v Hillman, not fetched; the question relies only on the rule's own words. Written by Hark to replace a duplicate Part 36 topic.
+- Flagged for review: The 'real prospect' meaning (realistic, not fanciful) comes from Swain v Hillman, not fetched; the question relies only on the rule's own words. Written to replace a duplicate Part 36 topic.
 
 > 24.3 The court may give summary judgment against a claimant or defendant on the whole of a claim or on an issue if— (a) it considers that the party has no real prospect of succeeding on the claim, defence or issue; and (b) there is no other compelling reason why the case or issue should be disposed of at a trial. ... 24.4 (1) A claimant may not apply for summary judgment until the defendant against whom the application is made has filed an acknowledgment of service or a defence, unless— (a) the court gives permission; or (b) a rule or practice direction states otherwise.
 
@@ -189,6 +189,6 @@ These are automated source checks against the linked text. No practising solicit
 - Answer: A
 - Source fetched: https://www.sra.org.uk/solicitors/standards-regulations/code-conduct-solicitors/
 - Currency: Current SRA Code of Conduct for Solicitors, RELs, RFLs and RSLs on sra.org.uk, fetched 16 Oct 2026.
-- Flagged for review: 'Ideally alone' reflects good practice, not the Code's wording. Written by Hark to replace a duplicate undertakings topic (q035).
+- Flagged for review: 'Ideally alone' reflects good practice, not the Code's wording. Written to replace a duplicate undertakings topic (q035).
 
 > 3.1 You only act for clients on instructions from the client, or from someone properly authorised to provide instructions on their behalf. If you have reason to suspect that the instructions do not represent your client's wishes, you do not act unless you have satisfied yourself that they do.
