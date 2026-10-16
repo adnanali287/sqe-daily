@@ -1,0 +1,1075 @@
+[
+ {
+  "id": "lib-lan-001",
+  "subject": "Land Law",
+  "flk": "FLK2",
+  "difficulty": "easy",
+  "title": "Oral short lease at a market rent creates a legal lease (LPA 1925 s.54(2))",
+  "scenario": "Harriet owns the freehold of a lock-up shop in Leicester, England. In March 2026 she orally agreed to let the shop to Kwame for three years at the best rent reasonably obtainable, with no premium. Kwame moved in the next day and pays the agreed monthly rent. Nothing was put in writing.",
+  "stem": "Which of the following best describes the interest Kwame holds?",
+  "options": {
+   "A": "An equitable lease only, because a legal estate can be created only by deed.",
+   "B": "A tenancy at will only, because an interest in land created orally has the force of an interest at will.",
+   "C": "A legal lease for three years, because a lease taking effect in possession for not more than three years at the best rent, without a premium, can be created orally.",
+   "D": "No interest at all, because a contract for a disposition of an interest in land must be in writing signed by both parties.",
+   "E": "A legal lease, but only once it is completed by registration at HM Land Registry."
+  },
+  "answer": "C",
+  "explanation": "Section 52(1) of the Law of Property Act 1925 requires a deed to create a legal estate, but s.52(2)(d) excepts leases not required by law to be made in writing. Section 54(2) provides that nothing in the preceding provisions affects \"the creation by parol of leases taking effect in possession for a term not exceeding three years\" at the best rent reasonably obtainable without taking a fine (a premium). Kwame's lease meets each condition: it is for exactly three years, it took effect in possession immediately, it is at the best rent, and no premium was paid. It is therefore a legal lease even though it was made orally. Because it is a grant of the lease itself, not a contract to grant one, the writing requirement for contracts does not arise, and s.2(5)(a) of the 1989 Act in any case excludes contracts to grant such short leases. A three-year lease is not a registrable disposition.",
+  "why_wrong": {
+   "A": "The deed requirement in s.52(1) does not apply to leases within s.54(2), which can be created orally at law.",
+   "B": "Section 54(1) yields to the express exception in s.54(2) for short leases at the best rent in possession.",
+   "D": "Section 2 of the 1989 Act governs contracts, not the grant itself, and s.2(5)(a) excludes contracts for s.54(2) leases anyway.",
+   "E": "Only leases of more than seven years (and certain others) must be completed by registration; a three-year lease is not one of them."
+  },
+  "key_rule": "A lease taking effect in possession for not more than three years, at the best rent reasonably obtainable without a premium, can be created orally and takes effect as a legal lease.",
+  "authority": "Law of Property Act 1925, ss.52(2)(d) and 54(2)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/Geo5/15-16/20/section/54",
+  "tags": [
+   "legal leases",
+   "formalities",
+   "short leases"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Nature of Land",
+   "context_subject": "Land Law",
+   "source_type": "legislation",
+   "source_quote": "shall affect the creation by parol of leases taking effect in possession for a term not exceeding three years ... at the best rent which can be reasonably obtained without taking a fine.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-lan-002",
+  "subject": "Land Law",
+  "flk": "FLK2",
+  "difficulty": "easy",
+  "title": "Contract for the sale of land must be signed by both parties (LP(MP)A 1989 s.2)",
+  "scenario": "Owen agreed to sell a field in Shropshire, England, to Priya for £85,000. Owen's solicitor prepared a single document setting out every term the parties had agreed. Owen signed it and sent it to Priya, who read it, telephoned Owen to say she was happy with it, but never signed it or any other copy. No deposit has been paid and neither party has acted on the arrangement. Owen now has a better offer and wants to withdraw.",
+  "stem": "Which of the following best describes the legal position?",
+  "options": {
+   "A": "There is no contract, because the document incorporating the terms was not signed by or on behalf of Priya.",
+   "B": "There is a contract, but it is enforceable only against Owen, because he is the party who signed.",
+   "C": "There is a contract, because all the agreed terms were incorporated in one written document.",
+   "D": "There is a contract, because Priya's oral acceptance by telephone completed the agreement.",
+   "E": "There is a contract, but it cannot be enforced until Priya pays a deposit."
+  },
+  "answer": "A",
+  "explanation": "Under s.2(1) of the Law of Property (Miscellaneous Provisions) Act 1989, a contract for the sale or other disposition of an interest in land can only be made in writing, incorporating all the expressly agreed terms in one document (or in each part where contracts are exchanged). Section 2(3) adds that the document must be signed by or on behalf of each party to the contract. Owen's document contains all the terms, but only Owen signed it. Priya's telephone call cannot supply the missing signature. Because s.2 states the conditions under which a contract \"can only be made\", the result is not an unenforceable contract but no contract at all, so Owen is free to withdraw. Nothing in the facts suggests a resulting or constructive trust or estoppel, which s.2(5) preserves: no money was paid and neither party relied on the arrangement.",
+  "why_wrong": {
+   "B": "This reflects the old s.40 LPA 1925 approach; s.2 requires signature by each party for any contract to exist.",
+   "C": "Incorporating all terms in one document satisfies s.2(1) only; s.2(3) also requires both parties' signatures.",
+   "D": "An oral acceptance cannot create a contract for the sale of land; the writing and signature requirements are mandatory.",
+   "E": "Payment of a deposit is not a statutory condition of a land contract and cannot cure a missing signature."
+  },
+  "key_rule": "A contract for the sale of an interest in land can only be made in writing, incorporating all expressly agreed terms, signed by or on behalf of each party.",
+  "authority": "Law of Property (Miscellaneous Provisions) Act 1989, s.2(1) and (3)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1989/34/section/2",
+  "tags": [
+   "formalities",
+   "contracts for sale of land"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Nature of Land",
+   "context_subject": "Land Law",
+   "source_type": "legislation",
+   "source_quote": "The document incorporating the terms or, where contracts are exchanged, one of the documents incorporating them (but not necessarily the same one) must be signed by or on behalf of each party to the contract.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-lan-003",
+  "subject": "Land Law",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Chattel or part of the land: degree and object of annexation (Elitestone v Morris)",
+  "scenario": "Gethin has exchanged contracts to sell his freehold smallholding in Herefordshire, England, to Laila. The contract says nothing about a timber cabin in the orchard. The cabin was built on site about 30 years ago from timber frame panels and feather boarding. It rests by its own weight on concrete blocks set in the ground and is not bolted down. It has been used as a holiday home, and it cannot be taken down and rebuilt elsewhere: it could be removed only by demolishing it. Before completion, Gethin tells Laila that the cabin is his personal property and that he intends to sell it separately.",
+  "stem": "Which of the following best describes whether the cabin passes to Laila on completion?",
+  "options": {
+   "A": "It does not pass, because an object resting on the land by its own weight alone always remains a chattel.",
+   "B": "It does not pass, because Gethin regarded the cabin as his personal property and his intention decides the question.",
+   "C": "It passes only if the contract expressly lists it, because structures not mentioned in the contract remain the seller's.",
+   "D": "It passes, because the degree and object of annexation show it became part of the land: it was built to stay on site and cannot be removed except by demolition.",
+   "E": "It passes only if it is connected to mains water or electricity, because a physical connection is required."
+  },
+  "answer": "D",
+  "explanation": "Whether an object brought onto land has become part of it depends mainly on the degree of annexation and the object (purpose) of annexation, assessed objectively. In Elitestone Ltd v Morris [1997] UKHL 15 a bungalow resting by its own weight on concrete pillars was held to be part of the land. Lord Lloyd said that a house constructed so that it cannot be removed at all, save by destruction, cannot have been intended to remain a chattel. The House also held that the subjective intention of the parties is relevant only so far as it can be derived from the degree and object of annexation. Gethin's cabin was built on site as a dwelling, has stood for decades, and could be removed only by demolition. It is therefore part of the land and passes to Laila with the freehold, whatever Gethin now believes.",
+  "why_wrong": {
+   "A": "Absence of physical attachment is not decisive; in Elitestone a building resting by its own weight became part of the land.",
+   "B": "Subjective intention is irrelevant except as shown by the degree and object of annexation.",
+   "C": "Anything forming part of the land passes with it unless excluded; it need not be listed in the contract.",
+   "E": "Service connections are not required; the bungalow in Elitestone was treated as not physically attached yet still formed part of the land."
+  },
+  "key_rule": "An object becomes part of the land according to the degree and object of annexation, judged objectively; a structure that can be removed only by demolition is part of the land.",
+  "authority": "Elitestone Ltd v Morris [1997] UKHL 15; [1997] 1 WLR 687",
+  "verified_source_url": "https://www.bailii.org/uk/cases/UKHL/1997/15.html",
+  "tags": [
+   "fixtures",
+   "real and personal property"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Nature of Land",
+   "context_subject": "Land Law",
+   "source_type": "judgment",
+   "source_quote": "But a house which is constructed in such a way that it cannot be removed at all, save by destruction, cannot have been intended to remain as a chattel. It must have been intended to form part of the realty.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-lan-004",
+  "subject": "Land Law",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "First registration: gift of unregistered land not registered within two months (LRA 2002 ss.4, 6, 7)",
+  "scenario": "In February 2026 Ifeoma, who owns an unregistered freehold house in Norwich, England, transferred it to her son Chidi as a gift by a deed of gift. Chidi did not apply to HM Land Registry for registration, and no application was made to extend the period for registration. In June 2026 Chidi asks his solicitor where the legal title now lies.",
+  "stem": "Which of the following best describes the position?",
+  "options": {
+   "A": "Chidi holds the legal estate, but it is vulnerable to third parties until he registers it.",
+   "B": "The transfer has become void as regards the legal estate, which has reverted to Ifeoma, who holds it on a bare trust for Chidi.",
+   "C": "Registration was not required, because compulsory first registration is triggered only by a transfer for valuable consideration.",
+   "D": "The gift has failed completely, so Ifeoma is again the absolute legal and beneficial owner.",
+   "E": "Chidi still has time, because the period for registration is three months from the transfer."
+  },
+  "answer": "B",
+  "explanation": "Under s.4(1)(a)(i) of the Land Registration Act 2002, the requirement of registration applies on a transfer of a qualifying estate, including an unregistered freehold, \"for valuable or other consideration, by way of gift\" or under a court order. Section 6 requires the transferee to apply for registration within the period for registration, which s.6(4) sets at two months from the transfer unless the registrar extends it. Chidi made no application, so s.7(1) applies: the transfer becomes void as regards the transfer of a legal estate. Section 7(2)(a) provides that, in a case within s.4(1)(a), the title to the legal estate reverts to the transferor, who holds it on a bare trust for the transferee. Ifeoma therefore holds the legal estate on bare trust for Chidi, who keeps the whole beneficial interest. The legal title can be put right only by a fresh transfer followed by registration within time.",
+  "why_wrong": {
+   "A": "After the two-month period the transfer is void as regards the legal estate, so Chidi no longer holds it.",
+   "C": "Section 4(1)(a)(i) expressly includes transfers by way of gift.",
+   "D": "Section 7(2)(a) preserves Chidi's position: Ifeoma holds the legal estate on a bare trust for him, not as absolute owner.",
+   "E": "The period for registration is two months, not three, under s.6(4)."
+  },
+  "key_rule": "A transfer of unregistered freehold land, including a gift, must be registered within two months; otherwise the legal estate reverts to the transferor on a bare trust for the transferee.",
+  "authority": "Land Registration Act 2002, ss.4(1)(a), 6(4) and 7(1)-(2)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2002/9/section/7",
+  "tags": [
+   "registered land",
+   "first registration"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Title to Land",
+   "context_subject": "Land Law",
+   "source_type": "legislation",
+   "source_quote": "the transfer, grant or creation becomes void as regards the transfer, grant or creation of a legal estate ... the title to the legal estate reverts to the transferor who holds it on a bare trust for the transferee",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Sections 4 and 6 (also fetched 16 Oct 2026, no outstanding effects) support the gift trigger and the two-month period. The need for a fresh transfer reflects s.8 LRA 2002 (liability for retransfer costs), not separately fetched."
+  }
+ },
+ {
+  "id": "lib-lan-005",
+  "subject": "Land Law",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Express easement over registered land operates at law only when registered (LRA 2002 s.27)",
+  "scenario": "Sana is the registered proprietor of a freehold house in York, England. In January 2026 she granted her neighbour Tom, by deed, a right of way on foot and with vehicles over her driveway, for the benefit of Tom's registered freehold house, for ever. Tom paid £6,000 for the right. Neither party has made any application to HM Land Registry.",
+  "stem": "Which of the following best describes the status of Tom's right of way at present?",
+  "options": {
+   "A": "It is a legal easement, because it was granted by deed for an interest equivalent to a fee simple.",
+   "B": "It is a legal easement that overrides any later disposition of Sana's land, because legal easements are overriding interests.",
+   "C": "It is void, because an easement over registered land cannot exist unless it is registered.",
+   "D": "It is a mere licence, because it has not been entered on the register of Sana's title.",
+   "E": "It takes effect in equity only, because the express grant of a legal easement over registered land does not operate at law until the registration requirements are met."
+  },
+  "answer": "E",
+  "explanation": "Section 27(2)(d) of the Land Registration Act 2002 makes the express grant of an interest falling within s.1(2)(a) of the Law of Property Act 1925 (an easement for an interest equivalent to a fee simple absolute in possession) a disposition that must be completed by registration. Under s.27(1), such a disposition \"does not operate at law until the relevant registration requirements are met\". Tom's right was granted expressly by deed and is perpetual, so it is capable of being legal, but until it is registered it takes effect only in equity. Until it is registered, as an unprotected equitable easement it is at risk of being postponed to a later registered disposition of Sana's land for value.",
+  "why_wrong": {
+   "A": "A deed is necessary but not sufficient over registered land; s.27(1) withholds legal effect until registration.",
+   "B": "Only legal easements can override under Sch 3 para 3, and this one is not yet legal; an expressly granted easement should be registered.",
+   "C": "The grant is not void; it operates in equity until registration.",
+   "D": "A grant by deed for value of a right capable of being an easement creates a proprietary interest, at least in equity, not a mere licence."
+  },
+  "key_rule": "The express grant of a legal easement over registered land must be completed by registration; until then it does not operate at law and takes effect in equity only.",
+  "authority": "Land Registration Act 2002, s.27(1) and (2)(d)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2002/9/section/27",
+  "tags": [
+   "registered land",
+   "easements",
+   "registrable dispositions"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Title to Land",
+   "context_subject": "Land Law",
+   "source_type": "legislation",
+   "source_quote": "If a disposition of a registered estate or registered charge is required to be completed by registration, it does not operate at law until the relevant registration requirements are met.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "The detail of the registration requirements for easements is in Sch 2 para 7 LRA 2002, not separately fetched; the answer does not depend on it."
+  }
+ },
+ {
+  "id": "lib-lan-006",
+  "subject": "Land Law",
+  "flk": "FLK2",
+  "difficulty": "easy",
+  "title": "Protecting a beneficial interest under a trust of land: restriction, not notice (LRA 2002 s.33)",
+  "scenario": "Ana and her brother Femi bought a freehold flat in Leeds, England, as an investment. Ana alone is the registered proprietor, but Femi paid half the price and they agreed in writing that he owns half the beneficial interest. Femi does not live at the flat, which is let to a tenant. Femi wants to make sure that Ana cannot sell or mortgage the flat without his interest being protected.",
+  "stem": "Which entry should Femi seek on the register of Ana's title?",
+  "options": {
+   "A": "An agreed notice, because a notice is the usual way to protect a third-party interest in registered land.",
+   "B": "A restriction, because no notice may be entered in respect of an interest under a trust of land.",
+   "C": "A unilateral notice, because Ana is unlikely to consent to an agreed notice.",
+   "D": "No entry, because his interest automatically overrides any disposition by Ana.",
+   "E": "A caution against dealings, because his interest arises under a trust."
+  },
+  "answer": "B",
+  "explanation": "Section 33(a)(i) of the Land Registration Act 2002 provides that no notice may be entered in the register in respect of an interest under a trust of land. Femi's half share is a beneficial interest under a trust of land, so neither an agreed nor a unilateral notice is available. The correct protection is a restriction, which regulates the circumstances in which a disposition may be registered. Section 42(1)(b) recognises a restriction's purpose of securing that interests capable of being overreached on a disposition are overreached; in practice a restriction ensures that capital money is paid to at least two trustees, so that Femi's interest is overreached into the proceeds rather than lost. Femi cannot rely on an overriding interest, because he is not in actual occupation of the flat.",
+  "why_wrong": {
+   "A": "Section 33(a) prohibits any notice, agreed or unilateral, for an interest under a trust of land.",
+   "C": "A unilateral notice is still a notice and is barred by s.33(a).",
+   "D": "An interest can override under Sch 3 para 2 only if its owner is in actual occupation, and Femi is not.",
+   "E": "New cautions against dealings cannot be entered under the 2002 Act; restrictions and notices replaced them."
+  },
+  "key_rule": "No notice may be entered for an interest under a trust of land; a beneficiary protects the interest by a restriction on the register.",
+  "authority": "Land Registration Act 2002, ss.33(a) and 42(1)(b)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2002/9/section/33",
+  "tags": [
+   "registered land",
+   "restrictions",
+   "trusts of land"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Title to Land",
+   "context_subject": "Land Law",
+   "source_type": "legislation",
+   "source_quote": "No notice may be entered in the register in respect of any of the following— (a) an interest under— (i) a trust of land",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Option E relies on the general position that the 2002 Act does not allow new cautions against dealings; that transitional point was not separately fetched. Section 42 also fetched 16 Oct 2026."
+  }
+ },
+ {
+  "id": "lib-lan-007",
+  "subject": "Land Law",
+  "flk": "FLK2",
+  "difficulty": "hard",
+  "title": "Actual occupation: occupier who fails to disclose her interest on inquiry (LRA 2002 Sch 3 para 2(b))",
+  "scenario": "Dev is the sole registered proprietor of a freehold house in Bath, England. His partner, Rosa, contributed half the purchase price on the understanding that she would own half the house, and she has lived there with him ever since. Nothing about her interest appears on the register. Dev agreed to sell the house to Imran. Before exchange, Imran's solicitor wrote to Rosa at the house asking whether she claimed any interest in the property; Rosa, an adult who fully understood the question, replied in writing that she did not. The sale was completed, the purchase money was paid to Dev alone, and Imran was registered as proprietor. Rosa now claims a half share binding on Imran.",
+  "stem": "Which of the following best describes Rosa's position against Imran?",
+  "options": {
+   "A": "Her interest binds Imran, because she was in actual occupation at the time of the disposition.",
+   "B": "Her interest binds Imran, because the purchase money was paid to only one trustee, so her interest was not overreached.",
+   "C": "Her interest binds Imran, because he had constructive notice of her occupation.",
+   "D": "Her interest does not bind Imran, because inquiry was made of her before the disposition and she failed to disclose her right when she could reasonably have been expected to do so.",
+   "E": "Her interest does not bind Imran, because an interest under a trust can be protected only by a restriction, and none was entered."
+  },
+  "answer": "D",
+  "explanation": "Imran's registered purchase for value postpones prior interests unless their priority is protected (s.29 LRA 2002), for example as an overriding interest within Schedule 3. Rosa's beneficial interest was not overreached, because the money was paid to Dev alone. Her occupation would ordinarily make her interest overriding under Sch 3 para 2. However, para 2(b) excepts \"an interest of a person of whom inquiry was made before the disposition and who failed to disclose the right when he could reasonably have been expected to do so\". Imran's solicitor asked Rosa directly before the disposition whether she claimed an interest, and she, an adult who understood the question, denied having one. She could reasonably have been expected to disclose it. Her interest therefore falls outside para 2, is not otherwise protected, and is postponed to Imran's registered title.",
+  "why_wrong": {
+   "A": "Actual occupation is not enough where the para 2(b) exception applies because she denied her interest when asked.",
+   "B": "Non-overreaching explains why she needs another route, but it does not make her interest bind Imran once para 2 is excluded.",
+   "C": "The doctrine of constructive notice does not govern priority in registered land; ss.29-30 and Sch 3 do.",
+   "E": "A beneficiary's interest can override through actual occupation without any restriction; it fails here only because of para 2(b)."
+  },
+  "key_rule": "An occupier's interest does not override a registered disposition if inquiry was made of the occupier beforehand and they failed to disclose the right when they could reasonably have been expected to.",
+  "authority": "Land Registration Act 2002, s.29 and Sch 3 para 2(b)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2002/9/schedule/3",
+  "tags": [
+   "registered land",
+   "overriding interests",
+   "actual occupation",
+   "schedule 3"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Title to Land",
+   "context_subject": "Land Law",
+   "source_type": "legislation",
+   "source_quote": "an interest of a person of whom inquiry was made before the disposition and who failed to disclose the right when he could reasonably have been expected to do so",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Distinct from q025 (overreaching with two trustees): here money was paid to one trustee and the point tested is the para 2(b) exception. Option C's statement that notice does not govern registered land is general law, not quoted from a fetched page."
+  }
+ },
+ {
+  "id": "lib-lan-008",
+  "subject": "Land Law",
+  "flk": "FLK2",
+  "difficulty": "hard",
+  "title": "Legal easement exercised within the year before a disposition overrides (LRA 2002 Sch 3 para 3)",
+  "scenario": "In 1990, when both plots were unregistered, the owner of Plot A, in Chester, England, granted the owner of Plot B by deed a perpetual right to run foul drainage through an underground pipe across Plot A. Plot A was later registered, but the easement has never been entered on its register. Waste from the house on Plot B has flowed through the pipe every day. In May 2026 Nadia bought Plot A for value and was registered as proprietor. The pipe is entirely underground, there are no manholes or other visible signs of it on Plot A, and Nadia did not know about it. She now wants to remove the pipe.",
+  "stem": "Which of the following best describes whether Nadia is bound by the drainage easement?",
+  "options": {
+   "A": "She is bound, because the legal easement had been exercised in the year ending with the day of the disposition to her.",
+   "B": "She is not bound, because the easement was not within her actual knowledge and would not have been obvious on a reasonably careful inspection.",
+   "C": "She is not bound, because the easement was not protected by a notice on the register of Plot A.",
+   "D": "She is bound only if the owner of Plot B was in actual occupation of Plot A at the time of the disposition.",
+   "E": "She is not bound, because an easement over registered land operates at law only once it is registered."
+  },
+  "answer": "A",
+  "explanation": "Under s.29 LRA 2002, Nadia's registered purchase for value takes subject to interests within Schedule 3. Para 3(1) makes a legal easement overriding, except one which at the time of the disposition was not within the purchaser's actual knowledge and would not have been obvious on a reasonably careful inspection. Nadia did not know of the pipe and it could not be seen, so the exception in para 3(1) would apply on its own. But para 3(2) provides that the exception does not apply if the person entitled proves that the easement has been exercised in the period of one year ending with the day of the disposition. The pipe has carried waste from Plot B every day, so the easement was exercised throughout that year. It was granted by deed before Plot A was registered, so it is a legal easement and the registration requirement for new express grants over registered land did not apply to it. It therefore overrides and binds Nadia.",
+  "why_wrong": {
+   "B": "Lack of knowledge and invisibility bring the para 3(1) exception into play, but para 3(2) disapplies it because the easement was used within the year.",
+   "C": "A legal easement within Sch 3 para 3 overrides without any entry on the register.",
+   "D": "Actual occupation is the test under para 2, not para 3; legal easements override under their own paragraph.",
+   "E": "Section 27 applies to express grants out of a registered estate; this easement was granted in 1990 over unregistered land and is already legal."
+  },
+  "key_rule": "A legal easement overrides a registered disposition unless unknown and not obvious on inspection, and that exception does not apply if the easement was exercised in the year before the disposition.",
+  "authority": "Land Registration Act 2002, s.29 and Sch 3 para 3",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2002/9/schedule/3",
+  "tags": [
+   "registered land",
+   "overriding interests",
+   "easements",
+   "schedule 3"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Title to Land",
+   "context_subject": "Land Law",
+   "source_type": "legislation",
+   "source_quote": "The exception in sub-paragraph (1) does not apply if the person entitled to the easement or profit proves that it has been exercised in the period of one year ending with the day of the disposition.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Assumes the easement survived first registration of Plot A (it would have bound the first registered proprietor under Sch 1 LRA 2002, not separately fetched). Para 3(1) text on legislation.gov.uk is garbled by a Commons Act amendment marker but the structure is clear."
+  }
+ },
+ {
+  "id": "lib-lan-009",
+  "subject": "Land Law",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Rectification against a registered proprietor in possession (LRA 2002 Sch 4)",
+  "scenario": "When Caleb bought his registered freehold house in Exeter, England, in 2023, HM Land Registry mistakenly included in his title a three-metre strip of garden that belonged to his neighbour, Joan, and removed it from her title. Caleb did not know of the error, gave no misleading information, and took proper care throughout. Since moving in he has fenced the strip into his garden and used it every day. Joan has now discovered the mistake and applies to the registrar for the register to be altered to restore the strip to her title. Caleb does not consent.",
+  "stem": "Which of the following best describes how the application will be dealt with?",
+  "options": {
+   "A": "The register must be altered, because the registrar must approve an application to correct a mistake unless there are exceptional circumstances.",
+   "B": "The register cannot be altered, because the register is conclusive and Caleb is the registered proprietor.",
+   "C": "The alteration cannot be made without Caleb's consent unless it would for some other reason be unjust not to make it, because Caleb is in possession and did not cause or contribute to the mistake by fraud or lack of proper care.",
+   "D": "The register will be altered automatically, because Joan's title to the strip is older than Caleb's.",
+   "E": "Only the court, and not the registrar, can alter the register to correct a mistake."
+  },
+  "answer": "C",
+  "explanation": "Altering the register to correct the mistake would prejudicially affect Caleb's title, so it is rectification within Sch 4 para 1 LRA 2002. Under para 5(a) the registrar may alter the register to correct a mistake, but para 6(2) provides that no alteration affecting the title of the proprietor of a registered estate in land may be made without the proprietor's consent \"in relation to land in his possession\" unless (a) he has by fraud or lack of proper care caused or substantially contributed to the mistake, or (b) it would for any other reason be unjust for the alteration not to be made. Caleb is in possession of the strip, has fenced it and uses it, and was not at fault. Unless Joan can show some other reason why it would be unjust not to alter the register, the strip stays with Caleb. The duty in para 6(3) to approve applications applies only where the registrar has power to make the alteration, and para 6(2) removes that power here.",
+  "why_wrong": {
+   "A": "The duty in para 6(3) arises only where the registrar has power to alter, and para 6(2) restricts that power against a proprietor in possession.",
+   "B": "The register can be altered under Sch 4 to correct a mistake; it is not absolutely conclusive.",
+   "D": "Age of title is irrelevant; Schedule 4 sets the conditions for rectification.",
+   "E": "Para 5 gives the registrar power to alter the register to correct a mistake, as well as the court under para 2."
+  },
+  "key_rule": "Rectification against a registered proprietor in possession needs his consent unless he caused or substantially contributed to the mistake by fraud or lack of care, or it would be unjust not to rectify.",
+  "authority": "Land Registration Act 2002, Sch 4 paras 1, 5 and 6",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2002/9/schedule/4",
+  "tags": [
+   "registered land",
+   "alteration and rectification"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Title to Land",
+   "context_subject": "Land Law",
+   "source_type": "legislation",
+   "source_quote": "No alteration affecting the title of the proprietor ... may be made under paragraph 5 without the proprietor's consent in relation to land in his possession unless— (a) he has by fraud or lack of proper care caused",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Indemnity for Joan under Sch 8 LRA 2002 is deliberately not tested (not fetched)."
+  }
+ },
+ {
+  "id": "lib-lan-010",
+  "subject": "Land Law",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Unregistered land: unregistered estate contract void despite notice (LCA 1972 s.4(6))",
+  "scenario": "In 2024 Martin, who owns an unregistered freehold field in Lincolnshire, England, granted his neighbour Grace an option to purchase the field, by a written agreement complying with all formalities. Grace did not register the option as a land charge. In August 2026 Martin sold and conveyed the legal estate in the field to Ellis for its full market price. Before completion Martin had told Ellis about Grace's option. Consider the position at completion of the conveyance to Ellis.",
+  "stem": "Which of the following best describes whether Grace can enforce her option against Ellis?",
+  "options": {
+   "A": "Yes, because Ellis had actual notice of the option before he bought.",
+   "B": "Yes, because an option is an equitable interest that binds everyone except a bona fide purchaser of a legal estate for value without notice.",
+   "C": "Yes, because Grace's option is an overriding interest.",
+   "D": "No, but only because Ellis paid the full market price for the field.",
+   "E": "No, because an unregistered estate contract is void against a purchaser for money or money's worth of a legal estate in the land."
+  },
+  "answer": "E",
+  "explanation": "Title to the field is unregistered, so the Land Charges Act 1972 governs. An option to purchase is an estate contract, registrable as a Class C(iv) land charge. Section 4(6) provides that an estate contract created after 1925 is void as against a purchaser for money or money's worth of a legal estate in the land charged with it, unless it is registered before completion of the purchase. Grace did not register, and Ellis bought the legal estate for money, so the option is void against him. His knowledge of the option is irrelevant: s.199(1)(i) of the Law of Property Act 1925 provides that a purchaser is not prejudicially affected by notice of a registrable matter that is void against him for non-registration. Grace's remedy is a personal claim against Martin for breach of the option contract.",
+  "why_wrong": {
+   "A": "Notice of an unregistered registrable land charge does not bind a purchaser: s.4(6) LCA 1972 and s.199(1)(i) LPA 1925.",
+   "B": "The traditional doctrine of notice does not apply to registrable land charges such as estate contracts; registration governs.",
+   "C": "Overriding interests are a registered-land concept; in unregistered land, estate contracts depend on land charge registration.",
+   "D": "Section 4(6) requires only a purchaser for money or money's worth, not payment of full value."
+  },
+  "key_rule": "An estate contract (such as an option) not registered as a Class C(iv) land charge is void against a purchaser of a legal estate for money or money's worth, whatever notice the purchaser had.",
+  "authority": "Land Charges Act 1972, s.4(6); Law of Property Act 1925, s.199(1)(i)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1972/61/section/4",
+  "tags": [
+   "unregistered land",
+   "land charges",
+   "estate contracts"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Title to Land",
+   "context_subject": "Land Law",
+   "source_type": "legislation",
+   "source_quote": "An estate contract ... shall be void as against a purchaser for money or money's worth ... of a legal estate in the land charged with it, unless the land charge is registered",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Classification of an option as Class C(iv) estate contract is standard (s.2(4) LCA 1972, not separately fetched). LPA s.199 fetched 16 Oct 2026. The sale would also trigger first registration; the question confines itself to completion."
+  }
+ },
+ {
+  "id": "lib-lan-011",
+  "subject": "Land Law",
+  "flk": "FLK2",
+  "difficulty": "hard",
+  "title": "Severance by written notice, then survivorship (LPA 1925 ss.36(2), 196(3))",
+  "scenario": "Asha, Ben and Carys bought a freehold house in Bristol, England, together as an investment. They are the registered proprietors and the transfer declares that they hold the house on trust for themselves as beneficial joint tenants. Ben and Carys live in the house; Asha lives elsewhere. On 1 September 2026 Asha signed a written notice addressed to Ben and Carys stating that she wished to sever the beneficial joint tenancy, and she pushed it through the letterbox of the house. Carys read it that evening. Ben died suddenly on 3 September 2026 without having read it. Ben left a will giving everything to his sister.",
+  "stem": "Which of the following best describes who now holds the legal title and the beneficial interests in the house?",
+  "options": {
+   "A": "Legal title: Asha and Carys. Beneficial interests: Asha, Carys and Ben's sister, one third each as tenants in common.",
+   "B": "Legal title: Asha and Carys as joint tenants. Beneficial interests: Asha one third and Carys two thirds, as tenants in common.",
+   "C": "Legal title: Asha and Carys as joint tenants. Beneficial interests: Asha and Carys as beneficial joint tenants, because the notice was not effective against Ben, who never read it.",
+   "D": "Legal title: Asha, Carys and Ben's personal representatives. Beneficial interests: one third each.",
+   "E": "Legal title: Asha and Carys as joint tenants. Beneficial interests: Asha and Carys, one half each as tenants in common."
+  },
+  "answer": "B",
+  "explanation": "The legal estate is always held by co-owners as joint tenants on trust, and s.36(2) LPA 1925 forbids severance of a joint tenancy of the legal estate. On Ben's death his share of the legal title passed by survivorship, so Asha and Carys hold the legal title as joint tenants. In equity, s.36(2) allows a joint tenant to sever by giving the other joint tenants notice in writing of that desire. Under s.196(3), a notice is sufficiently served if left at the last-known place of abode of the person to be served, so Asha's notice was served on Ben and Carys when it went through the letterbox, whether or not Ben read it. Asha thereby became a tenant in common of one third. Ben and Carys remained beneficial joint tenants of the other two thirds between themselves, so on Ben's death his interest passed to Carys by survivorship and nothing passed under his will. Carys holds two thirds and Asha one third, as tenants in common.",
+  "why_wrong": {
+   "A": "Severance by Asha affected only her own share; Ben and Carys remained joint tenants between themselves, so survivorship operated and Ben's will had nothing to pass.",
+   "C": "Under s.196(3) a notice left at the last-known place of abode is validly served; it need not be read.",
+   "D": "The legal title cannot be severed and passes by survivorship; it does not vest in a deceased joint tenant's personal representatives.",
+   "E": "Asha severed only her one-third share; the remaining two-thirds survived to Carys, so the shares are unequal."
+  },
+  "key_rule": "A beneficial joint tenancy can be severed by written notice, validly served if left at the recipient's last-known abode; severance affects only the severing party's share, and the legal title remains joint.",
+  "authority": "Law of Property Act 1925, ss.36(2) and 196(3)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/Geo5/15-16/20/section/36",
+  "tags": [
+   "co-ownership",
+   "severance",
+   "survivorship",
+   "joint tenancy"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Co-ownership and Trusts",
+   "context_subject": "Land Law",
+   "source_type": "legislation",
+   "source_quote": "he shall give to the other joint tenants a notice in writing of such desire or do such other acts or things as would, in the case of personal estate, have been effectual to sever the tenancy in equity",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Section 196(3) fetched separately 16 Oct 2026 and supports service by leaving at the abode; the case usually cited for an unread notice (Kinch v Bullard) was not fetched and is not named."
+  }
+ },
+ {
+  "id": "lib-lan-012",
+  "subject": "Land Law",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Order for sale between co-owners: TOLATA 1996 ss.14 and 15 factors",
+  "scenario": "Erin and Joel, an unmarried couple, bought a freehold house in Reading, England, as their family home, in their joint names on trust for themselves as tenants in common in equal shares. They have a daughter aged eight. Their relationship has ended. Joel has moved out and applies to the court for an order that the house be sold. Erin and their daughter still live there, and Erin opposes a sale until their daughter finishes school.",
+  "stem": "Which of the following best describes how the court will decide Joel's application?",
+  "options": {
+   "A": "The court has a discretion under s.14 and must have regard to matters including the purposes for which the house was held and the welfare of the daughter who occupies it as her home.",
+   "B": "The court must order a sale, because the trustees hold the house under a duty to sell, which prevails over a co-owner's wish to stay.",
+   "C": "The court must refuse a sale while Erin, a co-owner, remains in occupation.",
+   "D": "The court must follow the wishes of the majority of the beneficiaries by value, so it will refuse a sale because the shares are equal.",
+   "E": "The court can only declare the parties' shares; it has no power to order a sale under the 1996 Act."
+  },
+  "answer": "A",
+  "explanation": "Under s.14 of the Trusts of Land and Appointment of Trustees Act 1996, any trustee or person with an interest in property subject to a trust of land may apply to the court, which may make such order relating to the exercise of the trustees' functions, including their power of sale, as it thinks fit. Section 15(1) lists matters the court must have regard to, including (a) the intentions of the persons who created the trust, (b) the purposes for which the property is held, (c) the welfare of any minor who occupies or might reasonably be expected to occupy the land as his home, and (d) the interests of any secured creditor. Section 15(3) adds the wishes of adult beneficiaries entitled to an interest in possession. The house was bought as a family home and a child of eight lives there, so these factors are relevant and the court will balance them; there is no automatic outcome either way.",
+  "why_wrong": {
+   "B": "The 1996 Act replaced the old trust for sale; the court's decision is discretionary, weighing the s.15 factors.",
+   "C": "A co-owner's occupation is a relevant circumstance, not a bar to sale.",
+   "D": "Beneficiaries' wishes are only one factor under s.15(3), and the court is not bound by them.",
+   "E": "Section 14(2)(a) allows orders relating to the trustees' functions, which include selling the land."
+  },
+  "key_rule": "On an application under TOLATA s.14 the court has a discretion, having regard to the s.15 factors, including the trust's purposes and the welfare of any minor occupying the home.",
+  "authority": "Trusts of Land and Appointment of Trustees Act 1996, ss.14 and 15",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1996/47/section/15",
+  "tags": [
+   "co-ownership",
+   "tolata",
+   "order for sale"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Co-ownership and Trusts",
+   "context_subject": "Land Law",
+   "source_type": "legislation",
+   "source_quote": "the welfare of any minor who occupies or might reasonably be expected to occupy any land subject to the trust as his home",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Option B reflects the pre-1997 trust for sale; the 'replaced' statement is general law (TOLATA ss.1 and 4 not separately fetched). Section 14 fetched 16 Oct 2026."
+  }
+ },
+ {
+  "id": "lib-lan-013",
+  "subject": "Land Law",
+  "flk": "FLK2",
+  "difficulty": "hard",
+  "title": "Trustee in bankruptcy's application for sale of the family home after one year (IA 1986 s.335A)",
+  "scenario": "Gareth and Lowri, a married couple, own their family home in Swindon, England, as beneficial joint tenants. Gareth was made bankrupt, and his estate vested in his trustee in bankruptcy in January 2025. In August 2026 the trustee applied under s.14 of the Trusts of Land and Appointment of Trustees Act 1996 for an order for sale. Lowri, who was not responsible for the bankruptcy, lives in the house with their two children, aged 13 and 15. A sale would cause the family the disruption and hardship that a sale usually causes, but there is nothing unusual about their circumstances.",
+  "stem": "Which of the following best describes how the court will approach the application?",
+  "options": {
+   "A": "The court will apply the factors in s.15 of the 1996 Act and give priority to the welfare of the children.",
+   "B": "The court cannot order a sale without Lowri's consent, because she is a co-owner in occupation.",
+   "C": "The court will assume, unless the circumstances are exceptional, that the interests of the bankrupt's creditors outweigh all other considerations.",
+   "D": "The court cannot order a sale until the youngest child reaches 18.",
+   "E": "The court must adjourn the application for one year from the date it was made, to allow the family to find somewhere else to live."
+  },
+  "answer": "C",
+  "explanation": "Section 15(4) of the 1996 Act provides that s.15 does not apply where s.335A of the Insolvency Act 1986 applies, which it does to an application by a trustee of a bankrupt's estate. Under s.335A(2) the court makes such order as is just and reasonable having regard to the creditors' interests, the conduct, needs and resources of the spouse or civil partner and the needs of any children, and all the circumstances other than the bankrupt's needs. But s.335A(3) provides that where the application is made after the end of one year from the first vesting of the bankrupt's estate in a trustee, the court shall assume, unless the circumstances are exceptional, that the creditors' interests outweigh all other considerations. The estate vested in January 2025 and the application was made in August 2026, more than a year later. The family's hardship is the usual consequence of a sale and not exceptional, so a sale is very likely to be ordered.",
+  "why_wrong": {
+   "A": "Section 15(4) disapplies s.15 where s.335A applies, as it does to a trustee in bankruptcy's application.",
+   "B": "The court may order a sale on the trustee's application without the co-owner's consent.",
+   "D": "There is no rule postponing sale until children reach 18; their needs are relevant only within s.335A.",
+   "E": "Section 335A contains no automatic one-year adjournment; the one-year period runs from vesting and triggers the presumption in favour of creditors."
+  },
+  "key_rule": "On a bankrupt's trustee's application for sale made more than a year after vesting, the court assumes creditors' interests outweigh all others unless the circumstances are exceptional.",
+  "authority": "Insolvency Act 1986, s.335A; Trusts of Land and Appointment of Trustees Act 1996, s.15(4)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1986/45/section/335A",
+  "tags": [
+   "co-ownership",
+   "bankruptcy",
+   "order for sale",
+   "tolata"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Co-ownership and Trusts",
+   "context_subject": "Land Law",
+   "source_type": "legislation",
+   "source_quote": "the court shall assume, unless the circumstances of the case are exceptional, that the interests of the bankrupt's creditors outweigh all other considerations",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Outstanding effects on the IA 1986 page concern Sch 6 and SI 2022/1166, not s.335A."
+  }
+ },
+ {
+  "id": "lib-lan-014",
+  "subject": "Land Law",
+  "flk": "FLK2",
+  "difficulty": "easy",
+  "title": "Lease or licence: exclusive possession for a term at a rent (Street v Mountford)",
+  "scenario": "Marco owns a row of lock-up workshops in Coventry, England. He let one unit to Siobhan, a furniture restorer, under a written document headed 'Licence Agreement'. It gives Siobhan sole use of the unit from month to month for a monthly 'licence fee', and says expressly that the parties do not intend to create a tenancy. Marco provides no services, keeps no key and has reserved only a right to enter on notice to inspect and carry out repairs. No other person uses the unit.",
+  "stem": "Which of the following best describes Siobhan's legal position?",
+  "options": {
+   "A": "She is a licensee, because the parties expressly agreed that no tenancy would be created.",
+   "B": "She is a licensee, because the agreement was not made by deed.",
+   "C": "She is a licensee, because a tenancy needs a fixed term rather than a month-to-month arrangement.",
+   "D": "She is a licensee, because Marco reserved a right to enter to inspect and repair.",
+   "E": "She is a tenant, because she has exclusive possession for a periodic term at a rent, and the label the parties used does not change that."
+  },
+  "answer": "E",
+  "explanation": "In Street v Mountford [1985] UKHL 4 the House of Lords held that, save in exceptional circumstances, the grant of exclusive possession for a term at a rent creates a tenancy, whatever the parties call it. Lord Templeman said that if an agreement satisfies the requirements of a tenancy, the parties cannot alter its effect by insisting they only created a licence. A term may be fixed or periodic. Siobhan has sole use of the unit, Marco provides no services and keeps no key, and she pays a monthly sum for a monthly term. Marco's reserved rights to enter to inspect and repair are limited and, as Lord Templeman explained, only emphasise that the occupier otherwise has exclusive possession. Nothing suggests an exceptional relationship such as service occupancy. Siobhan is therefore a monthly periodic tenant.",
+  "why_wrong": {
+   "A": "The parties' professed intention or label cannot turn a tenancy into a licence.",
+   "B": "Whether an agreement is a lease or a licence depends on its substance, not on whether a deed was used.",
+   "C": "A periodic term certain, such as month to month, satisfies the requirement of a term.",
+   "D": "Limited reserved rights of entry to view and repair are consistent with, and emphasise, exclusive possession."
+  },
+  "key_rule": "Save in exceptional circumstances, an occupier granted exclusive possession for a fixed or periodic term at a rent is a tenant, regardless of how the agreement is labelled.",
+  "authority": "Street v Mountford [1985] UKHL 4; [1985] AC 809",
+  "verified_source_url": "https://www.bailii.org/uk/cases/UKHL/1985/4.html",
+  "tags": [
+   "lease or licence",
+   "exclusive possession"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Leases",
+   "context_subject": "Land Law",
+   "source_type": "judgment",
+   "source_quote": "To constitute a tenancy the occupier must be granted exclusive possession for a fixed or periodic term certain in consideration of a premium or periodical payments.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Business premises used to avoid the residential reforms of the Renters' Rights Act 2025. The tenancy may attract Landlord and Tenant Act 1954 Part II protection, which the question does not test."
+  }
+ },
+ {
+  "id": "lib-lan-015",
+  "subject": "Land Law",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Certainty of term: letting 'until the land is needed' to a company (Berrisford v Mexfield)",
+  "scenario": "In 2024 a district council let a yard in Stoke-on-Trent, England, to Kestrel Storage Ltd, a company, by an agreement stating that the letting would last 'until the council requires the land for the extension of its depot'. Kestrel took exclusive possession and has paid rent monthly ever since, as the agreement required. The council has no present plans to extend the depot.",
+  "stem": "Which of the following best describes the legal effect of the agreement?",
+  "options": {
+   "A": "It is a valid lease for the stated term, because the event that will end it is clearly defined.",
+   "B": "It is a lease for 90 years, because a lease of uncertain duration is converted into a 90-year term.",
+   "C": "It is a licence only, because a letting without a fixed end date cannot be a lease.",
+   "D": "It cannot take effect as a lease for the stated term because its maximum duration is uncertain, but Kestrel holds a periodic tenancy arising from its possession and payment of rent by the month.",
+   "E": "It is a lease for life, because the common law treats a lease of uncertain duration as a lease for life."
+  },
+  "answer": "D",
+  "explanation": "A lease must be for a term whose maximum duration is certain from the outset. In Prudential Assurance Co Ltd v London Residuary Body [1992] 2 AC 386, as explained by the Supreme Court in Berrisford v Mexfield Housing Co-operative Ltd [2011] UKSC 52, a letting 'until the land is required' by the landlord for road widening was held incapable of creating a tenancy for that term, because it was of uncertain, potentially perpetual, duration. Kestrel's agreement is of the same kind. However, Kestrel took exclusive possession and has paid rent periodically, so a periodic tenancy arises by reference to the rent period. In Berrisford the Supreme Court held that an individual could instead take a 90-year term under s.149(6) LPA 1925, because the common law would have treated the arrangement as a tenancy for life; but the Court noted that this route is available only to an individual, not a corporate tenant such as Kestrel.",
+  "why_wrong": {
+   "A": "Clarity about the terminating event is not enough; the maximum duration must be certain at the outset.",
+   "B": "The 90-year conversion under s.149(6) applies only where the tenant is an individual, not a company.",
+   "C": "A periodic tenancy arises from exclusive possession and periodic rent; a fixed end date is not needed for a periodic tenancy.",
+   "E": "A tenancy for life can be held only by an individual; a company cannot hold a lease for life."
+  },
+  "key_rule": "A lease must have a term of certain maximum duration; a letting until an uncertain event fails as a term, though a corporate occupier paying periodic rent holds a periodic tenancy.",
+  "authority": "Berrisford v Mexfield Housing Co-operative Ltd [2011] UKSC 52, applying Prudential Assurance Co Ltd v London Residuary Body [1992] 2 AC 386",
+  "verified_source_url": "https://caselaw.nationalarchives.gov.uk/uksc/2011/52",
+  "tags": [
+   "certainty of term",
+   "periodic tenancy",
+   "essential characteristics of a lease"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Leases",
+   "context_subject": "Land Law",
+   "source_type": "judgment",
+   "source_quote": "The House of Lords held that this arrangement was incapable of creating a tenancy, as it was for an uncertain, potentially perpetual, duration.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Prudential itself was not fetched (BAILII URL not found); the rule is taken from Berrisford, which summarises it, and from Lady Hale's statement there that the s.149(6) route 'can only be followed where the purported tenant is an individual and not a corporate entity'. Whether Prudential produced a yearly or other periodic tenancy depended on the rent period there; here rent is monthly. Possible LTA 1954 protection not tested."
+  }
+ },
+ {
+  "id": "lib-lan-016",
+  "subject": "Land Law",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Post-1995 lease: original tenant released on assignment (LT(C)A 1995 s.5)",
+  "scenario": "In 2015 Hollis Estates Ltd granted Bea a 15-year lease of a shop in Derby, England. In 2022, with Hollis's written consent as the lease required, Bea assigned the whole lease to Darius. Hollis did not ask Bea to enter into an authorised guarantee agreement, and she did not give one. Darius has now failed to pay two quarters' rent and has disappeared. Hollis asks whether it can recover the arrears from Bea.",
+  "stem": "Which of the following best describes Bea's liability?",
+  "options": {
+   "A": "Bea is not liable, because on the assignment of the whole lease she was released from the tenant covenants.",
+   "B": "Bea is liable, because as original tenant she remains bound by privity of contract for the whole term.",
+   "C": "Bea is liable, because an original tenant automatically guarantees the performance of her immediate assignee.",
+   "D": "Bea is liable, provided Hollis serves her with a notice within six months of the rent falling due.",
+   "E": "Bea is liable for rent falling due in the first half of the term only."
+  },
+  "answer": "A",
+  "explanation": "A lease granted in 2015 is a 'new tenancy' governed by the Landlord and Tenant (Covenants) Act 1995, which applies to leases granted on or after 1 January 1996. Under s.5(2), where a tenant assigns the whole of the premises demised to her, she is released from the tenant covenants of the tenancy as from the assignment. Bea assigned the whole lease to Darius with Hollis's consent, so this was not an assignment in breach of covenant, and nothing suggests it was otherwise excluded from release. Bea could have remained liable only if she had entered into an authorised guarantee agreement guaranteeing Darius's performance, which she did not. Hollis must therefore pursue Darius, or any guarantor or rent deposit he provided, for the arrears; it has no claim against Bea.",
+  "why_wrong": {
+   "B": "Continuing original tenant liability by privity of contract is the rule for leases granted before 1996, not for a 2015 lease.",
+   "C": "An outgoing tenant guarantees her assignee only if she enters into an authorised guarantee agreement, which Bea did not.",
+   "D": "A notice requirement for recovering fixed charges from a former tenant presupposes a continuing liability, which Bea does not have.",
+   "E": "Release under s.5 operates in full from the assignment; there is no rule splitting liability by reference to the term."
+  },
+  "key_rule": "Under the 1995 Act, a tenant of a lease granted on or after 1 January 1996 who lawfully assigns the whole premises is released from the tenant covenants, unless she gives an authorised guarantee agreement.",
+  "authority": "Landlord and Tenant (Covenants) Act 1995, s.5",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1995/30/section/5",
+  "tags": [
+   "leasehold covenants",
+   "landlord and tenant (covenants) act 1995",
+   "assignment"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Leases",
+   "context_subject": "Land Law",
+   "source_type": "legislation",
+   "source_quote": "If the tenant assigns the whole of the premises demised to him, he— (a) is released from the tenant covenants of the tenancy ... as from the assignment.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "The 1 January 1996 commencement, excluded assignments (s.11) and authorised guarantee agreements (s.16) are stated from general law; only s.5 was fetched."
+  }
+ },
+ {
+  "id": "lib-lan-017",
+  "subject": "Land Law",
+  "flk": "FLK2",
+  "difficulty": "easy",
+  "title": "Forfeiture for breach of a covenant other than rent: section 146 notice first (LPA 1925 s.146)",
+  "scenario": "Rhiannon is the tenant of a shop in Gloucester, England, under a ten-year commercial lease that contains a covenant against structural alterations without consent and a forfeiture clause allowing the landlord to re-enter for breach of any tenant covenant. Without asking, Rhiannon has removed an internal load-bearing wall. The landlord, Fairway Properties Ltd, wants to forfeit the lease. Rent is fully paid.",
+  "stem": "What must Fairway do before it can enforce the right of re-entry?",
+  "options": {
+   "A": "Re-enter the shop peaceably at once, because the lease contains an express forfeiture clause.",
+   "B": "Make a formal demand for the rent, because forfeiture requires a demand before re-entry.",
+   "C": "Serve a notice on Rhiannon specifying the breach, requiring her to remedy it if it is capable of remedy and to pay compensation, and allow a reasonable time for her to comply.",
+   "D": "Serve a notice under s.25 of the Landlord and Tenant Act 1954 terminating the tenancy.",
+   "E": "Nothing further, because forfeiture is automatic once a tenant covenant is broken."
+  },
+  "answer": "C",
+  "explanation": "Section 146(1) of the Law of Property Act 1925 provides that a right of re-entry or forfeiture for breach of a covenant in a lease is not enforceable, by action or otherwise, unless and until the landlord serves a notice on the tenant (a) specifying the particular breach complained of, (b) if the breach is capable of remedy, requiring the tenant to remedy it, and (c) in any case requiring compensation in money, and the tenant fails within a reasonable time to remedy the breach and pay reasonable compensation. Rhiannon's breach is of the alterations covenant, not the covenant to pay rent, so s.146 applies; s.146(11) leaves forfeiture for non-payment of rent to separate rules. Only after the notice has been served and a reasonable time has passed without compliance can Fairway forfeit, by proceedings or by peaceable re-entry, and Rhiannon may then apply for relief under s.146(2).",
+  "why_wrong": {
+   "A": "Section 146(1) applies to re-entry 'by action or otherwise', so even peaceable re-entry must be preceded by a s.146 notice.",
+   "B": "A formal demand for rent relates to forfeiture for non-payment of rent; rent is paid and the breach here is of another covenant.",
+   "D": "A s.25 notice concerns termination and renewal of business tenancies under the 1954 Act, not forfeiture for breach.",
+   "E": "Forfeiture is not automatic; the landlord must elect to forfeit and, for non-rent breaches, first comply with s.146."
+  },
+  "key_rule": "Before forfeiting for breach of a covenant other than to pay rent, the landlord must serve a s.146 notice specifying the breach, requiring remedy if possible and compensation, and allow reasonable time.",
+  "authority": "Law of Property Act 1925, s.146(1), (2) and (11)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/Geo5/15-16/20/section/146",
+  "tags": [
+   "forfeiture",
+   "section 146 notice",
+   "leasehold covenants"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Leases",
+   "context_subject": "Land Law",
+   "source_type": "legislation",
+   "source_quote": "A right of re-entry or forfeiture ... for a breach of any covenant or condition in the lease shall not be enforceable, by action or otherwise, unless and until the lessor serves on the lessee a notice",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Option E's statement that forfeiture is not automatic (landlord's election) is general law, not quoted from the fetched page."
+  }
+ },
+ {
+  "id": "lib-lan-018",
+  "subject": "Land Law",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Easements: the right must accommodate the dominant land (Re Ellenborough Park)",
+  "scenario": "Nell owns a freehold café beside a lake in Cumbria, England. The adjoining landowner, Victor, who owns the lake, has offered to grant Nell and her successors a number of rights by deed. Nell wants to know which proposed rights would be capable of existing as easements benefiting the café land.",
+  "stem": "Which of the following proposed rights is LEAST likely to be capable of existing as an easement?",
+  "options": {
+   "A": "A right of way on foot and with vehicles over Victor's track to reach the café car park.",
+   "B": "An exclusive right to run a business hiring out rowing boats to the public on Victor's lake.",
+   "C": "A right to run water and drainage pipes from the café under Victor's land.",
+   "D": "A right for the café's customers and staff to walk along a defined lakeside path on Victor's land to reach the café.",
+   "E": "A right to the passage of light across Victor's land to the café's windows."
+  },
+  "answer": "B",
+  "explanation": "In Re Ellenborough Park [1955] EWCA Civ 4 the Court of Appeal adopted four characteristics of an easement: there must be a dominant and a servient tenement; the easement must accommodate the dominant tenement; the dominant and servient owners must be different persons; and the right must be capable of forming the subject-matter of a grant. On accommodation, the right must be connected with the normal enjoyment of the dominant land, not merely make its owner richer. The Court explained Hill v Tupper, where an exclusive right to let out boats on a canal failed as an easement because it was an independent business monopoly: the land was merely a convenient incident to the right. A boat-hire monopoly on Victor's lake is the same: it does not serve the café land as land. Rights of way, drainage, access paths and light are recognised types of right that serve the dominant land.",
+  "why_wrong": {
+   "A": "A right of way to reach the dominant land plainly accommodates it and is a well-recognised easement.",
+   "C": "Rights to run pipes and drainage for the dominant land are well-recognised easements.",
+   "D": "A defined path giving access to the dominant land serves its normal use and is capable of being an easement.",
+   "E": "A right to light for the windows of a building on the dominant land is a long-recognised easement that serves the land."
+  },
+  "key_rule": "A right is an easement only if it accommodates the dominant land, being connected with its normal enjoyment; a commercial monopoly unrelated to the land's use, as in Hill v Tupper, does not qualify.",
+  "authority": "Re Ellenborough Park [1955] EWCA Civ 4; [1956] Ch 131",
+  "verified_source_url": "https://www.bailii.org/ew/cases/EWCA/Civ/1955/4.html",
+  "tags": [
+   "easements",
+   "characteristics of easements"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Proprietary Rights",
+   "context_subject": "Land Law",
+   "source_type": "judgment",
+   "source_quote": "what the Plaintiff was trying to do was to set up, under the guise of an easement, a monopoly which had no normal connection with the ordinary use of his land",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "That rights of way, drainage and light are recognised easements is general law; the fetched judgment supports the accommodation requirement and the Hill v Tupper explanation."
+  }
+ },
+ {
+  "id": "lib-lan-019",
+  "subject": "Land Law",
+  "flk": "FLK2",
+  "difficulty": "hard",
+  "title": "Section 62 LPA 1925: a tenant's permissive right becomes an easement on sale of the freehold",
+  "scenario": "Hugo owns a cottage and the neighbouring paddock in Dorset, England, both registered under one title. In 2019 he let the cottage to Lena on a periodic tenancy. The cottage has its own frontage to a lane, but Hugo told Lena informally that she could also drive across the paddock along a gravel track to reach the main road, and she has done so most days since. In 2026 Hugo sold and transferred the freehold of the cottage to Lena, keeping the paddock. The transfer says nothing about the track and does not exclude s.62 of the Law of Property Act 1925. Hugo now wants to stop Lena using the track.",
+  "stem": "Which of the following best describes Lena's position?",
+  "options": {
+   "A": "She has no right, because her use was by Hugo's revocable permission and so could never become an easement.",
+   "B": "She has no right, because an easement of necessity can be implied only if the cottage has no other access.",
+   "C": "She has an easement implied under the rule in Wheeldon v Burrows, because Hugo himself used the track for the benefit of the cottage before the sale.",
+   "D": "She has no right yet, but will acquire an easement by prescription once she has used the track for 20 years.",
+   "E": "She has a legal easement, because the transfer operated under s.62 to convey with the cottage the right of way that was enjoyed with it at the time of the conveyance."
+  },
+  "answer": "E",
+  "explanation": "Section 62(1) LPA 1925 provides that a conveyance of land operates to convey with it all easements, rights and advantages appertaining to the land or, at the time of conveyance, enjoyed with it, unless a contrary intention is expressed (s.62(4)). In Kent v Kavanagh [2006] EWCA Civ 162 the Court of Appeal held that these words are apt to convey, with the freehold, rights of way over the retained land that are, at the time of the conveyance, enjoyed by the tenant in occupation of the land conveyed. Before the sale, Lena occupied the cottage and Hugo occupied the paddock, so there was diversity of occupation, and she was in fact enjoying the right of way. The informal and revocable nature of the permission does not prevent s.62 operating; this is the long-established effect of the section. The transfer therefore converted the permission into an easement. An easement created by s.62 is not an express grant requiring registration, so it is legal.",
+  "why_wrong": {
+   "A": "Section 62 can convert a precarious permission enjoyed with the land into an easement on a conveyance; revocability is no bar.",
+   "B": "Necessity is a separate route; s.62 does not require the land to be landlocked.",
+   "C": "Kent v Kavanagh treats rights enjoyed by a tenant as passing under s.62, rather than artificially treating the landlord as using them under Wheeldon v Burrows.",
+   "D": "Prescription is unnecessary where s.62 has already operated, and use by permission would not count as use as of right."
+  },
+  "key_rule": "On a conveyance, s.62 LPA 1925 passes rights enjoyed with the land at that time, including a tenant's permissive use of a way over the seller's retained land, converting it into a legal easement.",
+  "authority": "Law of Property Act 1925, s.62; Kent v Kavanagh [2006] EWCA Civ 162",
+  "verified_source_url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2006/162",
+  "tags": [
+   "easements",
+   "section 62",
+   "implied easements"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Proprietary Rights",
+   "context_subject": "Land Law",
+   "source_type": "judgment",
+   "source_quote": "I can see no reason why those words are not apt to convey, with the freehold, rights of way over the retained land which are, at the time of the conveyance, enjoyed by the tenant",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Kent v Kavanagh concerned rights enjoyed under a lease on enfranchisement; the conversion of a merely permissive right (Wright v Macadam [1949] 2 KB 744) is supported by the discussion of International Tea Stores v Hobbs in Re Ellenborough Park (fetched) and of Wright v Macadam in P&S Platt v Crouch [2003] EWCA Civ 1110 (fetched), but the Wright v Macadam report itself was not fetched. LPA s.62 and LRA s.27(7) (implied s.62 grant is not an 'express grant') also fetched."
+  }
+ },
+ {
+  "id": "lib-lan-020",
+  "subject": "Land Law",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Implied easement under the rule in Wheeldon v Burrows on a sale of part",
+  "scenario": "Freya owned two adjoining plots in Suffolk, England: Plot 1, with a house and a garage at the rear, and Plot 2, a paddock. Plot 1 has a pedestrian gate onto the street at the front but no vehicle access except along a surfaced driveway across Plot 2, which Freya laid out and used daily to drive to the garage. In 2026 Freya sold Plot 1 to Gus, keeping Plot 2. The transfer says nothing about the driveway. Freya now wants to stop Gus using it.",
+  "stem": "Which of the following best describes whether Gus has a right to use the driveway?",
+  "options": {
+   "A": "No, because an easement of necessity can be implied only if Plot 1 has no other access, and it has pedestrian access.",
+   "B": "No, because an easement over land can be created only by express grant in a deed.",
+   "C": "No, unless Gus uses the driveway openly for 20 years and acquires an easement by prescription.",
+   "D": "Yes, because a continuous and apparent right, necessary for the reasonable enjoyment of Plot 1 and used by Freya for Plot 1 at the time of the sale, is impliedly granted to Gus.",
+   "E": "Yes, but only as an equitable easement until it is entered on the register of Plot 2."
+  },
+  "answer": "D",
+  "explanation": "Under the rule in Wheeldon v Burrows (1879) 12 Ch D 31, as quoted by the Court of Appeal in Wood v Waddington [2015] EWCA Civ 538, on a grant of part of land the law implies a grant of such continuous and apparent easements, or such easements as are necessary to the reasonable enjoyment of the property conveyed, as have in fact been enjoyed during the unity of ownership. Lewison LJ noted that a made-up road is the clearest example of a right of way that is 'continuous and apparent'. Freya used the surfaced driveway across Plot 2 to reach the garage on Plot 1 while she owned both plots, and vehicular access to the garage is necessary for the reasonable enjoyment of Plot 1. On the sale of Plot 1, a right of way over the driveway is therefore impliedly granted to Gus. The test is not strict necessity, so the pedestrian gate does not defeat it, and an implied easement does not need registration to be legal.",
+  "why_wrong": {
+   "A": "That states the test for an easement of necessity; Wheeldon v Burrows needs only necessity for reasonable enjoyment.",
+   "B": "Easements may also be implied, for example under Wheeldon v Burrows or s.62 LPA 1925.",
+   "C": "Prescription is unnecessary because an easement was implied into the transfer on the sale.",
+   "E": "Only express grants of legal easements over registered land must be completed by registration; implied easements take effect at law without it."
+  },
+  "key_rule": "On a sale of part, the rule in Wheeldon v Burrows implies the grant of continuous and apparent rights, necessary for reasonable enjoyment, that the common owner used for the part sold.",
+  "authority": "Wheeldon v Burrows (1879) 12 Ch D 31, as applied in Wood v Waddington [2015] EWCA Civ 538",
+  "verified_source_url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/538",
+  "tags": [
+   "easements",
+   "implied easements",
+   "wheeldon v burrows"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Proprietary Rights",
+   "context_subject": "Land Law",
+   "source_type": "judgment",
+   "source_quote": "in the case of a grant you may imply a grant of such continuous and apparent easements or such easements as are necessary to the reasonable enjoyment of the property conveyed, and have in fact been enjoyed during the unity",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "There is an academic debate whether the Wheeldon v Burrows requirements are cumulative; here both 'continuous and apparent' and 'necessary for reasonable enjoyment' are satisfied, so the answer holds either way. Option E relies on LRA 2002 s.27(2)(d) (express grants only), fetched."
+  }
+ },
+ {
+  "id": "lib-lan-021",
+  "subject": "Land Law",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Burden of a restrictive freehold covenant runs in equity (Tulk v Moxhay)",
+  "scenario": "In 2005 Ruth sold part of her garden in Winchester, England, to Callum. In the transfer Callum covenanted, for himself and his successors in title, with Ruth for the benefit of her retained house, not to build more than one dwelling on the plot. The covenant was protected by a notice on the register of Callum's title. In 2025 Callum sold the plot to Brightside Homes Ltd, which now plans to build three houses. Ruth still owns and lives in her retained house.",
+  "stem": "Which of the following best describes whether Ruth can enforce the covenant against Brightside?",
+  "options": {
+   "A": "Yes, because the burden of a restrictive covenant passes in equity to a successor where it benefits the covenantee's land, was intended to run and is protected on the register; Ruth may seek an injunction.",
+   "B": "No, because the burden of a covenant does not run with freehold land at law, so only Callum is bound.",
+   "C": "Yes, but only by suing Brightside for damages at common law.",
+   "D": "No, because Brightside did not itself enter into any covenant with Ruth.",
+   "E": "Yes, but only if Ruth is in actual occupation of Brightside's plot."
+  },
+  "answer": "A",
+  "explanation": "At common law the burden of a covenant does not run with freehold land, but equity allows the burden of a restrictive (negative) covenant to bind a successor. In Tulk v Moxhay (1848) the purchaser of Leicester Square was restrained from building on it in breach of his predecessor's covenant, Lord Cottenham saying that the question is whether a party shall be permitted to use land inconsistently with a contract entered into by his vendor, with notice of which he purchased. The covenant here is negative (it restricts building), it was made for the benefit of Ruth's retained land, which she still owns, and it was expressed to bind successors. In registered land, notice is replaced by protection on the register: the covenant was entered by notice, so it bound Brightside when it was registered as proprietor. Because the burden runs only in equity, Ruth's remedy is an equitable one, typically an injunction.",
+  "why_wrong": {
+   "B": "That is the common law position; equity makes the burden of a restrictive covenant run under Tulk v Moxhay.",
+   "C": "The burden runs only in equity, so the remedy is equitable (an injunction or damages in lieu), not common law damages.",
+   "D": "A successor can be bound in equity without being an original party, provided the Tulk v Moxhay conditions are met.",
+   "E": "Actual occupation is irrelevant to restrictive covenants; protection by notice on the register is what matters."
+  },
+  "key_rule": "The burden of a restrictive freehold covenant binds a successor in equity if it benefits the covenantee's land, was intended to run and is protected (by notice, in registered land); the remedy is equitable.",
+  "authority": "Tulk v Moxhay [1848] EWHC Ch J34; 41 ER 1143; Land Registration Act 2002, s.29",
+  "verified_source_url": "https://www.bailii.org/ew/cases/EWHC/Ch/1848/J34.html",
+  "tags": [
+   "freehold covenants",
+   "restrictive covenants",
+   "burden"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Proprietary Rights",
+   "context_subject": "Land Law",
+   "source_type": "judgment",
+   "source_quote": "whether a party shall be permitted to use the land in a manner inconsistent with the contract entered into by his vendor, and with notice of which he purchased.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Distinct from q011 (positive covenant, Rhone v Stephens). Registration protection under LRA s.29 fetched. Modern refinements (the covenant must touch and concern the dominant land; s.79 LPA intention to bind successors) are stated from general law."
+  }
+ },
+ {
+  "id": "lib-lan-022",
+  "subject": "Land Law",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Purchaser from a mortgagee protected despite irregular exercise of power of sale (LPA s.104(2))",
+  "scenario": "Kezia mortgaged her freehold warehouse in Bradford, England, to Northvale Bank plc by a legal charge. The legal date for redemption has passed, so the statutory power of sale has arisen, and the charge does not vary the statutory conditions on its exercise. When Kezia's interest payments were only one month in arrears, and without serving any notice requiring payment, Northvale sold the warehouse at full market value to Omar, who acted in good faith and knew nothing of the circumstances of the default. Kezia now wants the sale to Omar set aside.",
+  "stem": "Which of the following best describes the position?",
+  "options": {
+   "A": "The sale must be set aside, because the power of sale had not become exercisable when Northvale sold.",
+   "B": "The sale to Omar stands, because his title cannot be impeached on the ground that no case had arisen to authorise the sale; Kezia's remedy is damages against Northvale.",
+   "C": "The sale is voidable by Kezia, because Omar should have checked that the conditions for exercising the power of sale had been met.",
+   "D": "The sale stands, and Kezia has no remedy against anyone, because the power of sale had arisen.",
+   "E": "The sale stands only if Northvale obtained the court's permission before selling."
+  },
+  "answer": "B",
+  "explanation": "The statutory power of sale arises under s.101 LPA 1925 once the mortgage money is due, which is why it had arisen here. Section 103 then provides that it must not be exercised unless, for example, a notice requiring payment has been served and three months' default has followed, or interest is two months in arrears, or there is a breach of another provision of the mortgage. None of those had occurred, so Northvale exercised the power improperly. However, s.104(2) provides that where a conveyance is made in exercise of the statutory power, the purchaser's title is not impeachable on the ground that no case had arisen to authorise the sale or that due notice was not given, and the purchaser is not concerned to inquire. Omar, who bought in good faith without knowledge of the irregularity, therefore takes good title. Kezia's remedy, under s.104(2), is in damages against Northvale as the person who exercised the power improperly.",
+  "why_wrong": {
+   "A": "The power had arisen; its premature exercise is an irregularity that s.104(2) prevents from impeaching the purchaser's title.",
+   "C": "Section 104(2) provides that a purchaser is not concerned to see or inquire whether a case has arisen to authorise the sale.",
+   "D": "Section 104(2) gives a person damnified by an unauthorised or improper exercise a remedy in damages against the mortgagee.",
+   "E": "The statutory power of sale is exercisable without a court order; s.104(2)(c) also protects the purchaser if any required leave was not obtained."
+  },
+  "key_rule": "A purchaser from a mortgagee exercising the statutory power of sale takes good title even if the power was not yet exercisable; the mortgagor's remedy is damages against the mortgagee.",
+  "authority": "Law of Property Act 1925, ss.101, 103 and 104(2)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/Geo5/15-16/20/section/104",
+  "tags": [
+   "mortgages",
+   "power of sale",
+   "purchaser protection"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Proprietary Rights",
+   "context_subject": "Land Law",
+   "source_type": "legislation",
+   "source_quote": "the title of the purchaser shall not be impeachable on the ground— (a) that no case had arisen to authorise the sale; or (b) that due notice was not given",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Case law suggests a purchaser with actual knowledge of an impropriety may not be protected; the facts exclude this. Section 103 fetched 16 Oct 2026; s.101 (arising of the power) not separately fetched. Commercial premises used to avoid regulated residential mortgage issues."
+  }
+ },
+ {
+  "id": "lib-lan-023",
+  "subject": "Land Law",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Mortgagee's duty on sale: timing is for the mortgagee; true market value at sale (Silven)",
+  "scenario": "Fenwick Lending Ltd holds a first legal charge over a block of commercial units in Middlesbrough, England, owned by Tanaka Developments Ltd, which has defaulted. Fenwick's power of sale has become exercisable. The local market is depressed, and Tanaka asks Fenwick to wait a year, when prices are expected to recover, and in the meantime to apply for planning permission for residential conversion, which would increase the value. Fenwick refuses, properly markets the units and sells them at the best price reasonably obtainable at that time.",
+  "stem": "Which of the following best describes Fenwick's liability to Tanaka?",
+  "options": {
+   "A": "Fenwick is liable, because a mortgagee must wait for a market recovery if one is reasonably expected.",
+   "B": "Fenwick is liable, because a mortgagee must take reasonable steps, such as seeking planning permission, to increase the value before selling.",
+   "C": "Fenwick is liable, because a selling mortgagee is a trustee of the power of sale and must obtain the best price that could ever be achieved.",
+   "D": "Fenwick is liable for any shortfall between the sale price and Tanaka's own valuation.",
+   "E": "Fenwick is not liable, because a mortgagee may choose when to sell and need not improve the property, provided it takes reasonable care to obtain the true market value at the time it sells."
+  },
+  "answer": "E",
+  "explanation": "A mortgagee exercising its power of sale owes the mortgagor a duty to take reasonable precautions to obtain the true market value or a proper price at the time when it chooses to sell, and must act in good faith. In Silven Properties Ltd v Royal Bank of Scotland plc [2003] EWCA Civ 1409 the Court of Appeal confirmed that the mortgagee is under no duty of care to the mortgagor as to the timing of a sale and can act in its own interests in deciding whether and when to sell. It also held that the mortgagee is entitled to sell the property as it is and is under no obligation to improve it or increase its value, for example by pursuing planning permission. Fenwick sold after proper marketing at the best price reasonably obtainable at the time, so it met its duty, and Tanaka has no claim even though a later sale might have produced more.",
+  "why_wrong": {
+   "A": "Silven confirms the mortgagee owes no duty as to the timing of a sale and may sell in a depressed market.",
+   "B": "A mortgagee may sell the property as it is; it has no obligation to improve it or seek planning permission first.",
+   "C": "A mortgagee is not a trustee of the power of sale; its duty is to take reasonable care to obtain the true market value at the time of sale.",
+   "D": "The test is the true market value at the time of sale, not the mortgagor's own valuation."
+  },
+  "key_rule": "A selling mortgagee chooses the timing and need not improve the property, but must act in good faith and take reasonable care to obtain the true market value at the time of sale.",
+  "authority": "Silven Properties Ltd v Royal Bank of Scotland plc [2003] EWCA Civ 1409",
+  "verified_source_url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2003/1409",
+  "tags": [
+   "mortgages",
+   "power of sale",
+   "mortgagee duties"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Proprietary Rights",
+   "context_subject": "Land Law",
+   "source_type": "judgment",
+   "source_quote": "the mortgagee is under no such duty of care to the mortgagor in respect of the timing of a sale and can act in his own interests in deciding whether and when he should exercise his power of sale.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Option C's 'not a trustee of the power of sale' reflects general law (Cuckmere Brick and Silven); the fetched quote supports the timing and no-improvement points."
+  }
+ },
+ {
+  "id": "lib-lan-024",
+  "subject": "Land Law",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Court's power to adjourn or suspend mortgage possession of a dwelling-house (AJA 1970 s.36)",
+  "scenario": "Yusuf has a repayment mortgage of his house in Luton, England, with Clearwater Building Society. After losing his job he fell into arrears, and Clearwater has issued a claim for possession. Yusuf has now started a new, better-paid job, and the evidence shows that he can pay the normal monthly instalments plus an extra amount that would clear the arrears within two years.",
+  "stem": "Which of the following best describes the court's powers at the possession hearing?",
+  "options": {
+   "A": "The court must make an immediate possession order, because a legal mortgagee is entitled to possession as soon as the mortgage is granted.",
+   "B": "The court may adjourn the proceedings for no more than 28 days.",
+   "C": "The court may adjourn the proceedings, or suspend or postpone a possession order, if it appears that Yusuf is likely to be able to pay the sums due within a reasonable period.",
+   "D": "The court may reduce the interest rate payable under the mortgage to make the payments affordable.",
+   "E": "The court may refuse possession only if Yusuf can repay the whole mortgage debt immediately."
+  },
+  "answer": "C",
+  "explanation": "A legal mortgagee has a right to possession in principle, but where the mortgaged land consists of or includes a dwelling-house and the mortgagee claims possession, s.36(1) of the Administration of Justice Act 1970 allows the court to exercise its powers if it appears that the mortgagor is likely to be able within a reasonable period to pay any sums due under the mortgage or to remedy any other default. Under s.36(2) the court may adjourn the proceedings or, on or after making a possession order, stay or suspend its execution or postpone the date for delivery of possession, for such period as it thinks reasonable, and s.36(3) allows conditions, such as regular payments towards the arrears. Yusuf's evidence shows he is likely to clear the arrears within two years while paying his instalments, so the court may grant this relief rather than order immediate possession.",
+  "why_wrong": {
+   "A": "The mortgagee's right to possession is subject to the court's statutory discretion under s.36 for dwelling-houses.",
+   "B": "Section 36 sets no 28-day limit; the court may act for such period or periods as it thinks reasonable.",
+   "D": "Section 36 does not empower the court to rewrite the mortgage terms such as the interest rate.",
+   "E": "Section 36 looks at whether the mortgagor can pay the sums due within a reasonable period, not whether he can repay the whole debt at once."
+  },
+  "key_rule": "Where a mortgagee seeks possession of a dwelling-house, the court may adjourn, suspend or postpone possession if the mortgagor is likely to pay the sums due within a reasonable period.",
+  "authority": "Administration of Justice Act 1970, s.36",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1970/31/section/36",
+  "tags": [
+   "mortgages",
+   "possession",
+   "dwelling-house"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Proprietary Rights",
+   "context_subject": "Land Law",
+   "source_type": "legislation",
+   "source_quote": "the court may exercise any of the powers ... if it appears to the court that ... the mortgagor is likely to be able within a reasonable period to pay any sums due under the mortgage",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "For instalment mortgages, s.8 Administration of Justice Act 1973 treats 'sums due' as the arrears rather than any accelerated whole debt; not fetched, and the answer does not depend on it. Outstanding effect on the AJA 1970 page (Sch 9 para 10A) does not affect s.36."
+  }
+ },
+ {
+  "id": "lib-lan-025",
+  "subject": "Land Law",
+  "flk": "FLK2",
+  "difficulty": "easy",
+  "title": "Priority of registered charges: the order shown on the register (LRA 2002 s.48)",
+  "scenario": "Liam is the registered proprietor of a freehold house in Hull, England. On 1 March 2026 he granted a legal charge to Ashby Bank plc, and on 5 March 2026 he granted a second legal charge to Bridgeway Finance Ltd. Bridgeway applied to register its charge on 10 March and was registered. Ashby applied to register its charge on 20 March and was registered. Neither lender had the protection of a priority period under an official search, and neither charge contains any provision about priority. Liam has defaulted on both loans.",
+  "stem": "Which of the following best describes the priority of the two charges?",
+  "options": {
+   "A": "Ashby ranks first, because its charge was created first.",
+   "B": "Ashby ranks first, because where two equities are equal the first in time prevails.",
+   "C": "The charges rank equally, because both are legal charges of the same estate.",
+   "D": "Bridgeway ranks first, because registered charges rank between themselves in the order shown on the register.",
+   "E": "Bridgeway ranks first only if it did not know of Ashby's charge."
+  },
+  "answer": "D",
+  "explanation": "Section 48(1) of the Land Registration Act 2002 provides that registered charges on the same registered estate rank as between themselves in the order shown in the register. Priority between registered charges does not depend on the order in which they were created, or on notice. Bridgeway's charge was registered first and Ashby's later, and neither lender had a priority period from an official search that could have changed the order of registration. Nothing in the charges or any agreement between the lenders alters the position. Bridgeway therefore ranks ahead of Ashby, and on a sale Bridgeway's debt is paid out of the proceeds first, with Ashby taking only what remains.",
+  "why_wrong": {
+   "A": "The order of creation does not govern priority between registered charges; s.48 looks to the register.",
+   "B": "The equitable first-in-time rule does not govern registered legal charges; s.48 does.",
+   "C": "Registered charges rank in the order shown on the register, not equally.",
+   "E": "Knowledge is irrelevant to priority between registered charges under s.48."
+  },
+  "key_rule": "Registered charges on the same registered estate rank between themselves in the order shown on the register, not the order of creation.",
+  "authority": "Land Registration Act 2002, s.48(1)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2002/9/section/48",
+  "tags": [
+   "mortgages",
+   "priority",
+   "registered land"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Proprietary Rights",
+   "context_subject": "Land Law",
+   "source_type": "legislation",
+   "source_quote": "Registered charges on the same registered estate, or on the same registered charge, are to be taken to rank as between themselves in the order shown in the register.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "The effect of a priority period under an official search (Land Registration Rules 2003) is excluded on the facts and was not fetched."
+  }
+ }
+]

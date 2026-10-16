@@ -1,0 +1,1098 @@
+[
+ {
+  "id": "lib-crl-001",
+  "subject": "Criminal Law",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Liability for failing to act after creating a dangerous situation (R v Miller duty)",
+  "scenario": "Tomasz Nowak, an adult, is staying overnight at his friend Ellen's flat in Leeds. He lights a candle on a bookshelf and falls asleep on the sofa. He wakes to find that the candle has set the curtain smouldering and realises the fire may spread. Annoyed and tired, he goes into the spare room and back to sleep without trying to put the fire out or raising the alarm. The fire spreads and badly damages Ellen's living room. He is charged with arson (Criminal Damage Act 1971, s.1(1) and (3)). He says he did not intend or foresee any damage when he lit the candle.",
+  "stem": "Which of the following best describes whether Tomasz can be criminally liable for the damage caused by the fire?",
+  "options": {
+   "A": "He cannot be liable, because the criminal law imposes no general duty to act and he did nothing positive after he woke up.",
+   "B": "He cannot be liable, because he had no mens rea when he lit the candle, and the actus reus and mens rea must coincide at that moment.",
+   "C": "He can be liable, because having created the dangerous situation and become aware of it, he was under a duty to take reasonable steps to deal with it, and his failure to do so, with the required mens rea, can found liability.",
+   "D": "He can be liable only if he owed Ellen a duty arising from a contract or a close family relationship.",
+   "E": "He is liable simply because he was careless in leaving a lit candle unattended, and carelessness is enough for criminal damage."
+  },
+  "answer": "C",
+  "explanation": "English law imposes no general duty to act, but there are recognised exceptions. One is where the defendant has himself created a dangerous situation: once he becomes aware of the danger he has created, he comes under a duty to take reasonable steps to counteract it, and a failure to do so can form the actus reus of the offence (R v Miller [1983] 2 AC 161, applied in R v Evans [2009] EWCA Crim 650). Tomasz started the fire, if innocently, by leaving the candle burning. When he woke and realised the curtain was smouldering and might spread, a duty arose to take reasonable steps, such as putting it out or raising the alarm. He did neither. His conduct from that point onward can be treated as a continuing course of conduct, so it does not matter that he had no mens rea when he first lit the candle. Provided the jury find that he intended the damage or was subjectively reckless as to it when he chose to go back to sleep, he can be convicted of arson.",
+  "why_wrong": {
+   "A": "The general rule is subject to exceptions, including where D creates a dangerous situation and becomes aware of it.",
+   "B": "The duty and the mens rea can arise later, when D becomes aware of the danger he created; they need not exist at the initial act.",
+   "D": "Contract and close relationships are other sources of a duty, but they are not the only ones; creating the danger is enough.",
+   "E": "Carelessness is not enough; criminal damage requires intention or subjective recklessness (R v G)."
+  },
+  "key_rule": "A person who creates a dangerous situation, becomes aware of it and fails to take reasonable steps to counteract it can be liable for the consequences, provided he has the mens rea at that point.",
+  "authority": "R v Miller [1983] 2 AC 161; R v Evans [2009] EWCA Crim 650, para 21",
+  "verified_source_url": "https://caselaw.nationalarchives.gov.uk/ewca/crim/2009/650",
+  "tags": [
+   "omissions",
+   "actus reus",
+   "criminal damage",
+   "duty to act"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Definition of the offence: actus reus",
+   "context_subject": "Criminal Law",
+   "source_type": "judgment",
+   "source_quote": "The second arises when the defendant has created a dangerous situation and when, notwithstanding his appreciation of the consequent risks, he fails to take any reasonable preventative steps. ( R v Miller [1983] 2 AC 161)",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Evans was a gross negligence manslaughter case involving supplied drugs; the passage quoted restates the general Miller principle, and the question deliberately uses a non-drug scenario."
+  }
+ },
+ {
+  "id": "lib-crl-002",
+  "subject": "Criminal Law",
+  "flk": "FLK2",
+  "difficulty": "easy",
+  "title": "Subjective recklessness in criminal damage (R v G)",
+  "scenario": "Priya Shah, aged 19, and a friend shelter behind a warehouse in Coventry late at night. To keep warm they set light to some cardboard inside a metal skip that stands against the warehouse wall. They genuinely believe the fire will burn out safely inside the skip, and then leave. The fire spreads to the plastic cladding of the warehouse, causing £60,000 of damage. Priya is charged with arson, the prosecution alleging that she was reckless as to whether the warehouse would be damaged. The jury accept that the risk would have been obvious to an ordinary prudent adult, but also accept that the risk never crossed Priya's mind.",
+  "stem": "Which of the following best describes whether Priya was reckless as to the damage to the warehouse?",
+  "options": {
+   "A": "She was not reckless, because a person is reckless as to a result only if she is aware of a risk that it will occur and it is, in the circumstances known to her, unreasonable to take that risk.",
+   "B": "She was reckless, because the risk of the fire spreading would have been obvious to an ordinary prudent adult.",
+   "C": "She was reckless, because she deliberately lit the fire, and an intention to do the act that causes the damage is enough.",
+   "D": "She was reckless, because her failure to think about an obvious risk is treated as a deliberate closing of her mind to it.",
+   "E": "She was not reckless, because arson can be committed only intentionally, and recklessness is not enough for arson."
+  },
+  "answer": "A",
+  "explanation": "In R v G [2003] UKHL 50 the House of Lords overruled the objective test of recklessness from R v Caldwell and held that recklessness under s.1 of the Criminal Damage Act 1971 is subjective. Lord Bingham adopted the Law Commission's formulation: a person acts recklessly with respect to a result when he is aware of a risk that it will occur and it is, in the circumstances known to him, unreasonable to take the risk. The question is what the defendant herself foresaw, not what an ordinary prudent person would have foreseen. The jury accept that Priya genuinely did not appreciate any risk of the fire spreading to the warehouse. She therefore lacked the mental element of recklessness as to damage to the building, and she must be acquitted of arson of the warehouse unless intention is proved, which is not alleged.",
+  "why_wrong": {
+   "B": "This is the objective Caldwell test, which R v G overruled.",
+   "C": "The mens rea must relate to the damage to the property, not merely to the act of lighting a fire.",
+   "D": "A person can close her mind to a risk only if she first realises it exists; the jury accept that Priya never did.",
+   "E": "Section 1(1) and (3) expressly allow arson to be committed recklessly."
+  },
+  "key_rule": "Recklessness in criminal damage is subjective: the defendant must be aware of a risk that the result will occur, and it must be unreasonable, in the circumstances known to her, to take it.",
+  "authority": "R v G [2003] UKHL 50; Criminal Damage Act 1971, s.1",
+  "verified_source_url": "https://www.bailii.org/uk/cases/UKHL/2003/50.html",
+  "tags": [
+   "mens rea",
+   "recklessness",
+   "criminal damage",
+   "arson"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Definition of the offence: mens rea",
+   "context_subject": "Criminal Law",
+   "source_type": "judgment",
+   "source_quote": "A person acts recklessly ... with respect to - ... (ii) a result when he is aware of a risk that it will occur; and it is, in the circumstances known to him, unreasonable to take the risk.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-crl-003",
+  "subject": "Criminal Law",
+  "flk": "FLK2",
+  "difficulty": "easy",
+  "title": "Transferred malice where the blow strikes an unintended victim",
+  "scenario": "Ryan Doyle has a long-running feud with Marcus Bell. Outside a nightclub in Newcastle, Ryan swings an iron bar at Marcus's head, intending to cause him really serious injury. Marcus ducks, and the bar strikes Leah Ward, a bystander whom Ryan had not noticed. Leah dies from a head injury. Ryan is charged with Leah's murder. He says he had no intention of harming Leah and did not know she was there.",
+  "stem": "Which of the following best describes Ryan's liability for Leah's death?",
+  "options": {
+   "A": "He is guilty only of manslaughter, because he had no intention to kill or seriously injure Leah.",
+   "B": "He is not guilty of murder unless he foresaw that someone other than Marcus might be struck.",
+   "C": "He is guilty of murder only if the jury find that Leah's death was a virtual certainty and that he appreciated this.",
+   "D": "He is not guilty of murder, because transferred malice applies only where the intended and actual victims are both known to the defendant.",
+   "E": "He is guilty of murder, because his intention to cause serious injury to Marcus is transferred to Leah, the person he actually killed."
+  },
+  "answer": "E",
+  "explanation": "Under the doctrine of transferred malice, where a defendant intends to kill or cause serious injury to one person but accidentally kills another, he is guilty of murder of the person actually killed. The mens rea he had towards the intended victim is matched with the actus reus committed against the actual victim, provided the harm is of the same kind (here, injury to a person). Ryan swung the iron bar intending to cause Marcus really serious injury, which is sufficient mens rea for murder. That act killed Leah. It is irrelevant that he did not intend to harm Leah or know she was present. The Supreme Court in R v Gnango [2011] UKSC 59 described this as a long-recognised principle of the common law. Ryan is therefore guilty of murdering Leah.",
+  "why_wrong": {
+   "A": "Transferred malice supplies the intent; the absence of intent towards Leah personally does not reduce murder to manslaughter.",
+   "B": "No foresight of harm to the actual victim is required where the intent is transferred.",
+   "C": "The virtual certainty direction concerns oblique intention; Ryan directly intended serious injury.",
+   "D": "The doctrine applies to an unforeseen bystander; knowledge of the actual victim is not required."
+  },
+  "key_rule": "Where D intends to kill or seriously injure V1 but accidentally kills V2, his intent is transferred and he is guilty of murdering V2.",
+  "authority": "R v Gnango [2011] UKSC 59, para 16",
+  "verified_source_url": "https://caselaw.nationalarchives.gov.uk/uksc/2011/59",
+  "tags": [
+   "mens rea",
+   "transferred malice",
+   "homicide",
+   "murder"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Definition of the offence: mens rea",
+   "context_subject": "Criminal Law",
+   "source_type": "judgment",
+   "source_quote": "Where a defendant intends to kill or cause serious injury to one victim, V1, but accidentally kills another, V2, he will be guilty of the murder of V2. The basis of this liability is customarily described as “transferred malice”",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-crl-004",
+  "subject": "Criminal Law",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Mens rea for assault occasioning actual bodily harm (s.47 OAPA 1861; R v Savage)",
+  "scenario": "At an office party in Bristol, Hannah Price argues with her colleague Dev Mistry. Intending only to push him away from her, she shoves him hard in the chest. Dev stumbles backwards, falls against a table and suffers a cut to his head that needs stitches, which amounts to actual bodily harm. Hannah is charged under s.47 of the Offences Against the Person Act 1861. She says, and the jury accept, that she neither intended nor foresaw that Dev would suffer any injury.",
+  "stem": "Which of the following best describes Hannah's liability under s.47?",
+  "options": {
+   "A": "She is not guilty, because the prosecution must prove that she intended, or foresaw the risk of, actual bodily harm.",
+   "B": "She is guilty, because she intentionally applied unlawful force to Dev and that battery caused actual bodily harm; no intention or foresight of harm is needed.",
+   "C": "She is not guilty, because she must at least have foreseen that some physical harm, however minor, might result.",
+   "D": "She is not guilty, because s.47 is an offence of specific intent requiring an intention to injure.",
+   "E": "She is not guilty, because a push is a battery, and s.47 applies only to an assault in the sense of causing someone to fear immediate force."
+  },
+  "answer": "B",
+  "explanation": "Section 47 of the Offences Against the Person Act 1861 requires an assault (which includes a battery) that occasions actual bodily harm. In R v Savage; DPP v Parmenter [1992] 1 AC 699 the House of Lords held that the verdict may be returned on proof of an assault together with proof that actual bodily harm was occasioned by it. The prosecution need not prove that the defendant intended to cause some actual bodily harm or was reckless as to whether such harm would be caused. The mens rea is simply that of the assault or battery: intention or subjective recklessness as to applying unlawful force (or causing apprehension of it). 'Occasioning' raises only a question of causation. Hannah intentionally shoved Dev, which is a battery, and the shove caused the cut. Her lack of foresight of injury is no answer.",
+  "why_wrong": {
+   "A": "Savage held that no intention or recklessness as to actual bodily harm need be proved.",
+   "C": "Foresight of some harm is the mens rea for s.20 (R v Mowatt), not s.47.",
+   "D": "Section 47 requires only the mens rea of the assault or battery; it is not a specific intent offence.",
+   "E": "In this context 'assault' includes battery, so an intentional push that causes harm is enough."
+  },
+  "key_rule": "Section 47 requires only the mens rea for the assault or battery; the prosecution need not prove intention or recklessness as to the actual bodily harm caused.",
+  "authority": "Offences Against the Person Act 1861, s.47; R v Savage; DPP v Parmenter [1991] UKHL 15, [1992] 1 AC 699",
+  "verified_source_url": "https://www.bailii.org/uk/cases/UKHL/1991/15.html",
+  "tags": [
+   "mens rea",
+   "offences against the person",
+   "actual bodily harm",
+   "assault"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Specified criminal offences: offences against the person: s. 47 Offences Against the Person Act 1861",
+   "context_subject": "Criminal Law",
+   "source_type": "judgment",
+   "source_quote": "The verdict of assault occasioning actual bodily harm may be returned upon proof of an assault together with proof of the fact that actual bodily harm was occasioned by the assault.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-crl-005",
+  "subject": "Criminal Law",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Mens rea of 'maliciously' inflicting grievous bodily harm (s.20 OAPA 1861; R v Mowatt)",
+  "scenario": "In a rugby club bar in Gloucester, Callum Reid shoves Owen Price hard during an argument. Callum realises that the shove might knock Owen over and leave him bruised, but it does not occur to him that Owen could be seriously hurt. Owen falls, strikes his head on a step and suffers a fractured skull, which is grievous bodily harm. Callum is charged with inflicting grievous bodily harm contrary to s.20 of the Offences Against the Person Act 1861.",
+  "stem": "Which of the following best states the mens rea the prosecution must prove under s.20?",
+  "options": {
+   "A": "That Callum intended to cause Owen grievous bodily harm.",
+   "B": "That Callum foresaw that his shove might cause Owen grievous bodily harm or a wound.",
+   "C": "That a reasonable person in Callum's position would have foreseen that some physical harm might result.",
+   "D": "That Callum intended, or actually foresaw, that his act might cause some physical harm to some person, albeit of a minor character.",
+   "E": "That Callum intended to apply force to Owen; no mens rea as to any harm is required."
+  },
+  "answer": "D",
+  "explanation": "Section 20 of the Offences Against the Person Act 1861 requires that the defendant 'unlawfully and maliciously' wound or inflict grievous bodily harm. In R v Mowatt [1968] 1 QB 421, approved by the House of Lords in R v Savage; DPP v Parmenter [1992] 1 AC 699, it was held that 'maliciously' requires the defendant to have intended, or actually foreseen, that his act might cause some physical harm to some person. It is unnecessary that he foresaw harm of the gravity described in the section, that is, a wound or serious injury. The test is subjective: Parmenter rejected the suggestion that it is enough that the defendant ought to have foreseen harm. Callum actually foresaw that Owen might be bruised, so he had the mens rea for s.20 even though he did not foresee the fractured skull.",
+  "why_wrong": {
+   "A": "Intention to cause grievous bodily harm is the mens rea for s.18, not s.20.",
+   "B": "Foresight of a wound or serious harm is not required; foresight of some minor harm is enough.",
+   "C": "The test is subjective: what Callum actually foresaw, not what a reasonable person would have foreseen.",
+   "E": "That is the mens rea of battery, which suffices for s.47, but s.20 requires intention or foresight of some harm."
+  },
+  "key_rule": "For s.20, the defendant must have intended or actually foreseen that some physical harm to some person, albeit minor, might result; foresight of serious harm is not required.",
+  "authority": "Offences Against the Person Act 1861, s.20; R v Mowatt [1968] 1 QB 421; R v Savage; DPP v Parmenter [1991] UKHL 15, [1992] 1 AC 699",
+  "verified_source_url": "https://www.bailii.org/uk/cases/UKHL/1991/15.html",
+  "tags": [
+   "mens rea",
+   "offences against the person",
+   "grievous bodily harm",
+   "recklessness"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Specified criminal offences: offences against the person: s. 20 Offences Against the Person Act 1861",
+   "context_subject": "Criminal Law",
+   "source_type": "judgment",
+   "source_quote": "It is enough that he should have foreseen that some physical harm to some person, albeit of a minor character, might result.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-crl-006",
+  "subject": "Criminal Law",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Wounding with intent to resist lawful arrest (s.18 OAPA 1861)",
+  "scenario": "PC Amira Hussain lawfully arrests Jordan Clarke for shoplifting outside a supermarket in Reading. Determined to get away, Jordan lashes out at her with a bunch of keys held in his fist, intending to break free. He realises he may injure her but does not intend to cause her serious harm. The keys break the skin of her cheek, causing a wound. Jordan is charged under s.18 of the Offences Against the Person Act 1861.",
+  "stem": "Which of the following best describes Jordan's liability under s.18?",
+  "options": {
+   "A": "He is guilty, because he unlawfully and maliciously wounded PC Hussain with intent to resist or prevent his lawful apprehension.",
+   "B": "He is guilty of the s.20 offence only, because he did not intend to cause grievous bodily harm.",
+   "C": "He is guilty of the s.47 offence only, because a wound counts under s.18 only if it amounts to really serious harm.",
+   "D": "He is not guilty under s.18, because an intention to resist arrest is relevant only to sentence, not to liability.",
+   "E": "He is guilty under s.18 only if the jury are sure that he foresaw that the officer might suffer grievous bodily harm."
+  },
+  "answer": "A",
+  "explanation": "Section 18 of the Offences Against the Person Act 1861 is committed where a person unlawfully and maliciously, by any means, wounds or causes grievous bodily harm to any person either with intent to do some grievous bodily harm, or with intent to resist or prevent the lawful apprehension or detainer of any person. The two intents are alternatives. Jordan's arrest was lawful, and his purpose in striking out was to break free, which is an intent to resist his lawful apprehension. A wound (a break in the continuity of the whole skin) is enough; it need not amount to grievous bodily harm. He acted 'maliciously' because he realised he might injure the officer. Jordan is therefore guilty under s.18 even though he did not intend serious harm.",
+  "why_wrong": {
+   "B": "Intention to cause grievous bodily harm is only one of the two alternative intents in s.18; intent to resist lawful arrest is the other.",
+   "C": "Section 18 covers wounding as well as causing grievous bodily harm; a wound need not be serious.",
+   "D": "Intent to resist or prevent lawful apprehension is an element of the offence under s.18 itself.",
+   "E": "Where the intent relied on is to resist arrest, the prosecution need not prove foresight of grievous bodily harm."
+  },
+  "key_rule": "Section 18 is committed by maliciously wounding or causing GBH with intent either to do GBH or to resist or prevent lawful apprehension; the two intents are alternatives.",
+  "authority": "Offences Against the Person Act 1861, s.18",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/Vict/24-25/100/section/18",
+  "tags": [
+   "offences against the person",
+   "wounding",
+   "specific intent",
+   "resisting arrest"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Specified criminal offences: offences against the person: s. 18 Offences Against the Person Act 1861",
+   "context_subject": "Criminal Law",
+   "source_type": "legislation",
+   "source_quote": "Whosoever shall unlawfully and maliciously by any means whatsoever wound or cause any grievous bodily harm to any person, ... or with intent to resist or prevent the lawful apprehension or detainer of any person",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "The definition of 'wound' (break in the whole skin) comes from case law (JCC v Eisenhower), not the statute. Where the resist-arrest intent is relied on, 'maliciously' is generally taken to require foresight of some harm (R v Morrison (1989)); the facts state that Jordan had that foresight, so the answer does not depend on that point."
+  }
+ },
+ {
+  "id": "lib-crl-007",
+  "subject": "Criminal Law",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Consent to actual bodily harm for sexual gratification (Domestic Abuse Act 2021, s.71)",
+  "scenario": "Elliot and Sam, both adults, are in a relationship and live together in Manchester. During consensual sexual activity, and at Sam's request, Elliot strikes Sam repeatedly with a leather belt for the sexual gratification of both of them. Sam is left with heavy bruising and welts that amount to actual bodily harm. Sam does not support a prosecution, but Elliot is charged with assault occasioning actual bodily harm under s.47 of the Offences Against the Person Act 1861. Elliot says Sam fully consented.",
+  "stem": "Which of the following best describes whether Sam's consent provides Elliot with a defence?",
+  "options": {
+   "A": "It is a defence, because Sam is an adult who freely consented to the activity and its risks.",
+   "B": "It is a defence, because the statutory rule removing consent as a defence applies only where the harm is grievous bodily harm or wounding.",
+   "C": "It is not a defence, because consent to the infliction of serious harm, including actual bodily harm, for the purposes of sexual gratification is not a defence to a s.47 offence.",
+   "D": "It is a defence unless the prosecution proves that Elliot intended to cause actual bodily harm.",
+   "E": "It is not a defence only because the harm was inflicted for Elliot's own gratification; it would be a defence if it had been for Sam's gratification alone."
+  },
+  "answer": "C",
+  "explanation": "Section 71 of the Domestic Abuse Act 2021 applies to offences under ss.18, 20 and 47 of the Offences Against the Person Act 1861. It provides that it is not a defence that V consented to the infliction of serious harm for the purposes of obtaining sexual gratification. 'Serious harm' is defined to include actual bodily harm within the meaning of s.47, as well as wounding and grievous bodily harm. Under s.71(5) it does not matter whether the gratification was for D, V or someone else. The only exception, in s.71(4), concerns infection with a sexually transmitted infection where V consented knowing of it, which does not apply. The bruising and welts are actual bodily harm, so Sam's consent is no defence to the s.47 charge. The section reflects the common law position in R v Brown [1994] 1 AC 212.",
+  "why_wrong": {
+   "A": "Adult consent does not prevent liability where actual bodily harm or worse is inflicted for sexual gratification.",
+   "B": "'Serious harm' in s.71 expressly includes actual bodily harm within s.47.",
+   "D": "Section 71 removes consent as a defence regardless of whether Elliot intended the harm.",
+   "E": "Section 71(5) provides that it does not matter whose sexual gratification was sought."
+  },
+  "key_rule": "Under s.71 Domestic Abuse Act 2021, consent to actual bodily harm, wounding or GBH inflicted for sexual gratification is no defence to ss.18, 20 or 47 OAPA 1861 (save the STI exception).",
+  "authority": "Domestic Abuse Act 2021, s.71; R v Brown [1994] 1 AC 212",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2021/17/section/71",
+  "tags": [
+   "consent",
+   "offences against the person",
+   "actual bodily harm",
+   "defences"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Specified criminal offences: offences against the person: s. 47 Offences Against the Person Act 1861",
+   "context_subject": "Criminal Law",
+   "source_type": "legislation",
+   "source_quote": "It is not a defence that V consented to the infliction of the serious harm for the purposes of obtaining sexual gratification ... “ serious harm ” means— ... (c) actual bodily harm",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-crl-008",
+  "subject": "Criminal Law",
+  "flk": "FLK2",
+  "difficulty": "easy",
+  "title": "Murder: an intention to cause grievous bodily harm is sufficient mens rea",
+  "scenario": "During a fight outside a pub in Wolverhampton, Kofi Mensah knocks Ahmed Raza to the ground and repeatedly kicks him in the head, intending to cause him really serious injury. Ahmed dies of a brain haemorrhage. Kofi is charged with murder. He tells police: 'I wanted to hurt him badly, but I never wanted him dead.' The jury believe him.",
+  "stem": "Which of the following best describes Kofi's liability?",
+  "options": {
+   "A": "He is guilty of manslaughter only, because murder requires an intention to kill.",
+   "B": "He is guilty of murder, because an intention to cause grievous bodily harm is sufficient mens rea for murder.",
+   "C": "He is guilty of murder only if the jury find that he foresaw death as a virtual certainty.",
+   "D": "He is guilty of murder only if the serious injury he intended was itself dangerous to life.",
+   "E": "He is guilty of gross negligence manslaughter, because he did not intend death."
+  },
+  "answer": "B",
+  "explanation": "The mens rea of murder is an intention to kill or an intention to cause grievous bodily harm (really serious harm). In R v Jogee [2016] UKSC 8 the Supreme Court observed that murder already has a relatively low mens rea threshold, because it includes an intention to cause serious injury, without intent to kill or to cause risk to life. Kofi directly intended to cause Ahmed really serious injury and his kicks caused Ahmed's death. That is sufficient for murder even though he did not want or intend Ahmed to die. No partial defence arises on the facts.",
+  "why_wrong": {
+   "A": "An intention to cause grievous bodily harm is an alternative to an intention to kill.",
+   "C": "The virtual certainty test (Woollin) applies to oblique intention; Kofi directly intended serious harm.",
+   "D": "The intended injury need not be one that endangers life; intent to cause really serious harm is enough.",
+   "E": "Gross negligence manslaughter concerns breach of a duty of care; here there is an intentional killing with murder's mens rea."
+  },
+  "key_rule": "The mens rea of murder is an intention to kill or to cause grievous bodily harm; the intended harm need not be life-threatening.",
+  "authority": "R v Jogee [2016] UKSC 8, para 83",
+  "verified_source_url": "https://www.bailii.org/uk/cases/UKSC/2016/8.html",
+  "tags": [
+   "homicide",
+   "murder",
+   "mens rea",
+   "intention"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Specified criminal offences: homicide: murder",
+   "context_subject": "Criminal Law",
+   "source_type": "judgment",
+   "source_quote": "Murder already has a relatively low mens rea threshold, because it includes an intention to cause serious injury, without intent to kill or to cause risk to life.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-crl-009",
+  "subject": "Criminal Law",
+  "flk": "FLK2",
+  "difficulty": "hard",
+  "title": "Death over three years after the injury: Attorney General's consent (Year and a Day Rule Act 1996)",
+  "scenario": "On 14 January 2023, Gareth Lloyd was attacked with a knife in Swansea and left with a severe brain injury. The attacker could not then be identified. Gareth died from complications of the injury on 2 July 2026. In August 2026 DNA evidence identifies Bethany Rowe as the attacker. The Crown Prosecution Service wishes to charge her with Gareth's murder. She has never been convicted of any offence connected with the attack.",
+  "stem": "Which of the following best describes the position on bringing a murder prosecution against Bethany?",
+  "options": {
+   "A": "No prosecution for murder is possible, because Gareth died more than a year and a day after he was injured.",
+   "B": "No prosecution for murder is possible, because death occurred more than three years after the injury.",
+   "C": "Proceedings may be instituted only with the consent of the Director of Public Prosecutions.",
+   "D": "The CPS may charge her with murder in the usual way, without any special consent.",
+   "E": "Proceedings for murder may be instituted only by or with the consent of the Attorney General."
+  },
+  "answer": "E",
+  "explanation": "The 'year and a day rule', which conclusively presumed that an act did not cause a death occurring more than a year and a day later, was abolished for all purposes by s.1 of the Law Reform (Year and a Day Rule) Act 1996. Instead, s.2 restricts the institution of proceedings for a 'fatal offence', which includes murder. Under s.2(1) and (2)(a), where the injury alleged to have caused the death was sustained more than three years before the death, proceedings may only be instituted by or with the consent of the Attorney General. Gareth was injured on 14 January 2023 and died on 2 July 2026, more than three years later. So a murder prosecution is possible, but only with the Attorney General's consent. Section 2(4) disapplies any provision requiring the DPP's consent. Causation must still be proved in the usual way.",
+  "why_wrong": {
+   "A": "The year and a day rule was abolished for all purposes by s.1 of the 1996 Act.",
+   "B": "The three-year gap does not bar a prosecution; it only triggers the need for the Attorney General's consent.",
+   "C": "The 1996 Act requires the Attorney General's consent, and s.2(4) excludes any DPP consent requirement.",
+   "D": "Because more than three years passed between the injury and the death, s.2 requires the Attorney General's consent."
+  },
+  "key_rule": "The year and a day rule is abolished; where the fatal injury was sustained more than three years before death, proceedings for murder or manslaughter need the Attorney General's consent.",
+  "authority": "Law Reform (Year and a Day Rule) Act 1996, ss.1 and 2",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1996/19",
+  "tags": [
+   "homicide",
+   "murder",
+   "causation",
+   "attorney general consent"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Specified criminal offences: homicide: murder",
+   "context_subject": "Criminal Law",
+   "source_type": "legislation",
+   "source_quote": "(1) Proceedings to which this section applies may only be instituted by or with the consent of the Attorney General. ... (a) the injury alleged to have caused the death was sustained more than three years before the death occurred",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Swansea is in Wales; the Act extends to England and Wales and the criminal law point is the same in both."
+  }
+ },
+ {
+  "id": "lib-crl-010",
+  "subject": "Criminal Law",
+  "flk": "FLK2",
+  "difficulty": "easy",
+  "title": "Loss of control: considered desire for revenge (Coroners and Justice Act 2009, s.54(4))",
+  "scenario": "Nadia Khan's neighbour, Graham Pike, has harassed her for months. One evening he tells her, laughing, that he has poisoned her dog, which has just died. Nadia goes home and spends two hours thinking about what he has done. She then takes a hammer from her shed, waits behind his garden wall until he returns from the pub, and kills him with several blows. She tells the police: 'I wanted him to pay for what he did.' She is charged with murder and wishes to rely on the partial defence of loss of control.",
+  "stem": "Which of the following best describes whether the partial defence of loss of control is available to Nadia?",
+  "options": {
+   "A": "It is not available only because her loss of self-control was not sudden.",
+   "B": "It is available, because the poisoning of her dog was a circumstance of an extremely grave character that gave her a justifiable sense of being seriously wronged.",
+   "C": "It is available, provided she proves on the balance of probabilities that she lost self-control.",
+   "D": "It is not available, because she acted in a considered desire for revenge.",
+   "E": "It is available only if she also suffered from a recognised medical condition."
+  },
+  "answer": "D",
+  "explanation": "Section 54(1) of the Coroners and Justice Act 2009 reduces murder to manslaughter where D's acts resulted from a loss of self-control with a qualifying trigger and a person of D's sex and age, with a normal degree of tolerance and self-restraint and in D's circumstances, might have reacted in the same or a similar way. Under s.54(2) the loss of control need not be sudden. However, s.54(4) provides that the defence does not apply if, in doing the killing, D acted in a considered desire for revenge. Nadia spent two hours reflecting, armed herself, lay in wait and said she wanted Graham 'to pay'. That points to a considered desire for revenge rather than a loss of self-control, so the defence is excluded whatever the gravity of Graham's conduct. She remains liable for murder unless another defence applies.",
+  "why_wrong": {
+   "A": "Section 54(2) provides that it does not matter whether the loss of control was sudden; the reason the defence fails is revenge under s.54(4).",
+   "B": "Even if a qualifying trigger existed, s.54(4) excludes the defence where D acted in a considered desire for revenge.",
+   "C": "Once sufficient evidence raises the defence, the prosecution must disprove it beyond reasonable doubt (s.54(5)); the defendant has no legal burden.",
+   "E": "A recognised medical condition is part of diminished responsibility, not loss of control."
+  },
+  "key_rule": "Loss of control need not be sudden, but the defence is excluded where D acted in a considered desire for revenge (s.54(4) CJA 2009).",
+  "authority": "Coroners and Justice Act 2009, ss.54 and 55",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2009/25/section/54",
+  "tags": [
+   "homicide",
+   "loss of control",
+   "partial defences",
+   "voluntary manslaughter"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Partial defences: loss of control",
+   "context_subject": "Criminal Law",
+   "source_type": "legislation",
+   "source_quote": "(2) ... it does not matter whether or not the loss of control was sudden. ... (4) Subsection (1) does not apply if, in doing or being a party to the killing, D acted in a considered desire for revenge.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-crl-011",
+  "subject": "Criminal Law",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Diminished responsibility: elements, burden and effect (Homicide Act 1957, s.2)",
+  "scenario": "Oliver Grant, who has a diagnosed severe depressive illness, kills his business partner, Simon Hale, after a dispute about the business's debts. At his trial for murder in Birmingham, two psychiatrists give evidence that his illness substantially impaired his ability to form a rational judgment and was a significant contributory factor in causing him to kill. Oliver relies on diminished responsibility.",
+  "stem": "Which of the following best describes how the defence of diminished responsibility operates in Oliver's case?",
+  "options": {
+   "A": "The defence must prove that Oliver was suffering from an abnormality of mental functioning arising from a recognised medical condition, which substantially impaired his ability to understand the nature of his conduct, form a rational judgment or exercise self-control, and which provides an explanation for the killing; if it does so, he is convicted of manslaughter instead of murder.",
+   "B": "Once Oliver raises sufficient evidence of diminished responsibility, the prosecution must disprove it beyond reasonable doubt.",
+   "C": "If diminished responsibility is established, Oliver is entitled to be acquitted of any homicide offence.",
+   "D": "The defence succeeds only if the abnormality of mental functioning was the sole cause of the killing.",
+   "E": "Whether diminished responsibility is established is a question of law for the judge alone, decided on the medical evidence."
+  },
+  "answer": "A",
+  "explanation": "Under s.2(1) of the Homicide Act 1957, as substituted by the Coroners and Justice Act 2009, a person who kills is not to be convicted of murder if he was suffering from an abnormality of mental functioning which (a) arose from a recognised medical condition, (b) substantially impaired his ability to understand the nature of his conduct, form a rational judgment or exercise self-control (s.2(1A)), and (c) provides an explanation for his acts. Under s.2(1B) it provides an explanation if it causes, or is a significant contributory factor in causing, the conduct. Section 2(2) places the burden of proof on the defence; the standard is the balance of probabilities. If the defence succeeds, s.2(3) provides that he is liable to be convicted of manslaughter instead of murder. A diagnosed depressive illness is capable of being a recognised medical condition, and the expert evidence goes to each element, which the jury will decide.",
+  "why_wrong": {
+   "B": "That is the rule for loss of control (s.54(5) CJA 2009); for diminished responsibility s.2(2) puts the burden on the defence.",
+   "C": "Diminished responsibility is a partial defence; it reduces murder to manslaughter rather than securing an acquittal.",
+   "D": "Section 2(1B) requires only that the abnormality be a significant contributory factor, not the sole cause.",
+   "E": "Diminished responsibility is a matter for the jury, assisted by medical evidence."
+  },
+  "key_rule": "Diminished responsibility requires an abnormality of mental functioning from a recognised medical condition that substantially impairs a s.2(1A) ability and explains the killing; the defence must prove it, and it reduces murder to manslaughter.",
+  "authority": "Homicide Act 1957, s.2 (as substituted by Coroners and Justice Act 2009, s.52); R v Dunbar [1958] 1 QB 1 (standard of proof)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/Eliz2/5-6/11/section/2",
+  "tags": [
+   "homicide",
+   "diminished responsibility",
+   "partial defences",
+   "burden of proof"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Partial defences: diminished responsibility",
+   "context_subject": "Criminal Law",
+   "source_type": "legislation",
+   "source_quote": "(2) On a charge of murder, it shall be for the defence to prove that the person charged is by virtue of this section not liable to be convicted of murder.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "The statute places the burden on the defence but does not state the standard; balance of probabilities comes from R v Dunbar [1958] 1 QB 1, which was not fetched. The correct option does not mention the standard."
+  }
+ },
+ {
+  "id": "lib-crl-012",
+  "subject": "Criminal Law",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Unlawful act manslaughter: the objective dangerousness test (R v Church)",
+  "scenario": "During an argument in a pub in Hull, Leon Ford throws a heavy glass ashtray towards Femi Adeyemi, intending only to frighten him and meaning it to miss. It strikes Femi on the temple and he dies. The jury accept that Leon genuinely did not foresee that Femi might be harmed. They are sure that throwing the ashtray was an assault, and that all sober and reasonable people would have realised it carried a risk of some harm to Femi. Leon is charged with manslaughter.",
+  "stem": "Which of the following best describes Leon's liability for unlawful act manslaughter?",
+  "options": {
+   "A": "He is not guilty, because he did not himself foresee any risk of harm to Femi.",
+   "B": "He is not guilty, because sober and reasonable people would not have foreseen a risk of death or serious harm.",
+   "C": "He is guilty, because he committed a criminal act that all sober and reasonable people would realise carried a risk of some harm, and it caused Femi's death.",
+   "D": "He is guilty of murder, because death resulted from a deliberate unlawful act.",
+   "E": "He is not guilty, because an assault intended only to frighten cannot be the unlawful act for manslaughter."
+  },
+  "answer": "C",
+  "explanation": "Unlawful act manslaughter requires that the defendant intentionally did an act which was a crime, that the act was dangerous, and that it caused death. Dangerousness is judged objectively: the act must be one which all sober and reasonable people would realise carried the risk of some harm, not necessarily serious harm, to another (R v Church [1966] 1 QB 59, approved in DPP v Newbury [1977] AC 500 and restated in R v Jogee [2016] UKSC 8). The defendant need not himself foresee any harm. Throwing the ashtray to frighten Femi was an assault, which is a crime. The jury are sure that sober and reasonable people would have recognised a risk of some harm, and the ashtray caused Femi's death. Leon is therefore guilty of manslaughter, despite his own lack of foresight.",
+  "why_wrong": {
+   "A": "The dangerousness test is objective; Leon's own lack of foresight is irrelevant.",
+   "B": "Only a risk of some harm, not death or serious harm, need be recognisable; that is the gross negligence test.",
+   "D": "Murder requires an intention to kill or cause grievous bodily harm, which Leon did not have.",
+   "E": "An assault, including one intended only to cause fear, is a crime and can be the unlawful act."
+  },
+  "key_rule": "Unlawful act manslaughter requires a criminal act that all sober and reasonable people would realise carried a risk of some harm, which causes death; the test of danger is objective.",
+  "authority": "R v Church [1966] 1 QB 59; DPP v Newbury [1977] AC 500; R v Jogee [2016] UKSC 8, para 96",
+  "verified_source_url": "https://www.bailii.org/uk/cases/UKSC/2016/8.html",
+  "tags": [
+   "homicide",
+   "unlawful act manslaughter",
+   "involuntary manslaughter",
+   "dangerousness"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Specified criminal offences: homicide: involuntary manslaughter (unlawful act manslaughter, manslaughter by gross negligence)",
+   "context_subject": "Criminal Law",
+   "source_type": "judgment",
+   "source_quote": "any other unlawful act which all sober and reasonable people would realise carried the risk of some harm (not necessarily serious) to another, and death in fact results: R v Church [1965] 1 QB 59 ... The test is objective.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Jogee states this rule in the context of secondary parties; it is the standard Church test. Jogee cites Church as [1965] 1 QB 59 (the report is often cited as [1966] 1 QB 59)."
+  }
+ },
+ {
+  "id": "lib-crl-013",
+  "subject": "Criminal Law",
+  "flk": "FLK2",
+  "difficulty": "hard",
+  "title": "Gross negligence manslaughter: the risk must be of death, not serious injury (R v Rose)",
+  "scenario": "Graham Hughes, a site supervisor for a scaffolding firm in Milton Keynes, fails to make sure that a guard rail on a high platform is secured. A labourer falls from the platform and dies. Graham is tried for gross negligence manslaughter. The judge directs the jury that they may convict if they are sure that Graham owed the labourer a duty of care, that he breached it, that the breach caused the death, that a reasonably prudent person in his position would have foreseen a serious and obvious risk of serious injury, and that his negligence was so bad as to be criminal.",
+  "stem": "Which of the following best describes whether the judge's direction was correct?",
+  "options": {
+   "A": "It was correct, because a reasonably foreseeable risk of serious injury is sufficient for gross negligence manslaughter.",
+   "B": "It was wrong, because the jury must be sure that a reasonably prudent person would have foreseen a serious and obvious risk of death, not merely of serious injury.",
+   "C": "It was wrong, because the prosecution must prove that Graham himself foresaw a risk of death.",
+   "D": "It was wrong, because gross negligence manslaughter requires an unlawful act that is a criminal offence in itself.",
+   "E": "It was correct, because once the breach is found to be gross, the nature of the foreseeable risk is irrelevant."
+  },
+  "answer": "B",
+  "explanation": "Gross negligence manslaughter requires proof that the defendant owed the deceased a duty of care, breached it, and caused the death, and that the breach was so bad as to be criminal (R v Adomako [1995] 1 AC 171). The Court of Appeal in R v Rose [2017] EWCA Crim 1168, applying R v Rudling [2016] EWCA Crim 741, confirmed that it must also be reasonably foreseeable that the breach gave rise to a serious and obvious risk of death. A risk of injury, even serious injury, is not enough. The test is objective, judged by what a reasonably prudent person in the defendant's position would have foreseen on the knowledge available at the time of the breach. The judge's direction referred only to serious injury, so it set the threshold too low and was a misdirection.",
+  "why_wrong": {
+   "A": "Rose and the cases it applies require a serious and obvious risk of death, not of serious injury.",
+   "C": "The foreseeability test is objective; the defendant's own foresight is not required.",
+   "D": "An unlawful act is required for unlawful act manslaughter, not for gross negligence manslaughter.",
+   "E": "A serious and obvious risk of death is a separate element that must be proved alongside grossness."
+  },
+  "key_rule": "For gross negligence manslaughter, a reasonably prudent person must have been able to foresee a serious and obvious risk of death, not just serious injury, from the breach of duty.",
+  "authority": "R v Adomako [1995] 1 AC 171; R v Rose [2017] EWCA Crim 1168",
+  "verified_source_url": "https://caselaw.nationalarchives.gov.uk/ewca/crim/2017/1168",
+  "tags": [
+   "homicide",
+   "gross negligence manslaughter",
+   "involuntary manslaughter",
+   "duty of care"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Specified criminal offences: homicide: involuntary manslaughter (unlawful act manslaughter, manslaughter by gross negligence)",
+   "context_subject": "Criminal Law",
+   "source_type": "judgment",
+   "source_quote": "The circumstances must be such that a reasonably prudent person would have foreseen a serious and obvious risk not merely of injury, even serious injury, but of death.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "The quoted words are a direction approved in an earlier case and quoted by the court in Rose; Rose also adopts the Rudling formulation 'serious and obvious risk of death'."
+  }
+ },
+ {
+  "id": "lib-crl-014",
+  "subject": "Criminal Law",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Theft of money received by mistake (Theft Act 1968, s.5(4))",
+  "scenario": "Zainab Hassan's employer, a retailer in Nottingham, mistakenly pays her £1,800 more than her monthly salary by bank transfer. She notices the next day and knows it is a mistake that she should repay. She decides to keep the money and spends it on a holiday. The jury are sure that she was dishonest. She is charged with theft of the £1,800 credit balance.",
+  "stem": "Which of the following best describes whether the property 'belonged to another' for the purposes of theft?",
+  "options": {
+   "A": "It did not, because the credit was in Zainab's own bank account and belonged to her alone.",
+   "B": "It did not, because the employer paid the money voluntarily, so there was no appropriation of another's property.",
+   "C": "It did not, because a mistaken overpayment creates only a civil debt, which cannot be stolen.",
+   "D": "It belonged to another only if Zainab had obtained the overpayment by a deception.",
+   "E": "It did, because she got the property by the employer's mistake and was under an obligation to restore it, so to that extent it is treated as belonging to the employer."
+  },
+  "answer": "E",
+  "explanation": "Section 5(4) of the Theft Act 1968 provides that where a person gets property by another's mistake and is under an obligation to make restoration of the property, its proceeds or its value, then to the extent of that obligation the property or proceeds are regarded, as against her, as belonging to the person entitled to restoration. An intention not to make restoration is treated as an intention to deprive that person of the property. Zainab received the extra £1,800 credit, which is a thing in action and so property, through her employer's mistake. She was legally obliged to repay it. To the extent of £1,800 the credit is therefore treated as belonging to the employer. Her decision to keep and spend it is an appropriation, her intention not to repay counts as intention permanently to deprive, and the jury are sure she was dishonest.",
+  "why_wrong": {
+   "A": "Section 5(4) treats property got by mistake as belonging to the person entitled to restoration, even though it is in D's own account.",
+   "B": "Appropriation occurs when she assumes the owner's rights by deciding to keep and spend the money; s.5(4) supplies the 'belonging to another' element.",
+   "C": "The obligation to restore is exactly what s.5(4) relies on to treat the property as the employer's.",
+   "D": "Section 5(4) applies whenever property is got by another's mistake; no deception is required."
+  },
+  "key_rule": "Property got by another's mistake, which the recipient is obliged to restore, is treated as belonging to the person entitled to restoration, and an intention not to restore counts as intention permanently to deprive.",
+  "authority": "Theft Act 1968, ss.1, 4 and 5(4)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1968/60/section/5",
+  "tags": [
+   "theft",
+   "belonging to another",
+   "mistake",
+   "property"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Specified criminal offences: theft offences: s. 1 Theft Act 1968",
+   "context_subject": "Criminal Law",
+   "source_type": "legislation",
+   "source_quote": "(4) Where a person gets property by another’s mistake, and is under an obligation to make restoration ... the property or proceeds shall be regarded (as against him) as belonging to the person entitled to restoration",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Section 5 shows an unapplied future change (ss.26A-26C inserted by 2026 c.20); it does not alter s.5(4)."
+  }
+ },
+ {
+  "id": "lib-crl-015",
+  "subject": "Criminal Law",
+  "flk": "FLK2",
+  "difficulty": "hard",
+  "title": "Borrowing that is equivalent to an outright taking (Theft Act 1968, s.6(1))",
+  "scenario": "Rhys Morgan's housemate in Cambridge has an annual rail season ticket that expires on 30 June. On 1 June, without permission, Rhys takes the ticket from the housemate's desk. He uses it every day to commute, and on 1 July puts it back on the desk. He intended throughout to return it only once it had expired. He is charged with theft of the ticket and says he always meant to give it back.",
+  "stem": "Which of the following best describes whether Rhys intended permanently to deprive his housemate of the ticket?",
+  "options": {
+   "A": "He did not, because he always intended to return the ticket itself and did so.",
+   "B": "He did not, because an intention permanently to deprive requires an intention that the owner should permanently lose the thing itself.",
+   "C": "He did, but only because he used the ticket on more than one occasion.",
+   "D": "He did, because borrowing for a period and in circumstances making it equivalent to an outright taking is treated as an intention to treat the thing as his own to dispose of regardless of the owner's rights.",
+   "E": "He did not, because a season ticket has no value once it has been used, so nothing was taken."
+  },
+  "answer": "D",
+  "explanation": "Section 6(1) of the Theft Act 1968 provides that a person who appropriates property without meaning the owner permanently to lose the thing itself is nevertheless to be regarded as intending to permanently deprive if his intention is to treat it as his own to dispose of regardless of the owner's rights. A borrowing may amount to this if, but only if, it is for a period and in circumstances making it equivalent to an outright taking or disposal. Rhys intended to keep the ticket until it expired and so to return it with all its value and usefulness exhausted. The housemate would get back only a worthless piece of card. That is equivalent to an outright taking, so the jury may find the intention permanently to deprive. The remaining elements of theft, including dishonesty, are for the jury.",
+  "why_wrong": {
+   "A": "Returning the item does not prevent s.6(1) applying where the borrowing exhausts its value.",
+   "B": "Section 6(1) expressly extends intention permanently to deprive to cases where D does not mean the owner to lose the thing itself.",
+   "C": "What matters is that the borrowing was equivalent to an outright taking, not the number of uses.",
+   "E": "The ticket had value when taken; the point is that Rhys intended to return it only once that value was exhausted."
+  },
+  "key_rule": "A borrowing amounts to intention permanently to deprive under s.6(1) only if it is for a period and in circumstances making it equivalent to an outright taking or disposal.",
+  "authority": "Theft Act 1968, s.6(1); R v Lloyd [1985] QB 829",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1968/60/section/6",
+  "tags": [
+   "theft",
+   "intention to permanently deprive",
+   "borrowing"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Specified criminal offences: theft offences: s. 1 Theft Act 1968",
+   "context_subject": "Criminal Law",
+   "source_type": "legislation",
+   "source_quote": "a borrowing or lending of it may amount to so treating it if, but only if, the borrowing or lending is for a period and in circumstances making it equivalent to an outright taking or disposal.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "The 'all goodness or virtue gone' gloss comes from R v Lloyd [1985] QB 829, not fetched; the facts are drafted so the ticket's whole value is exhausted. Section 6 shows an unapplied future change (ss.26A-26C inserted by 2026 c.20) that does not affect s.6."
+  }
+ },
+ {
+  "id": "lib-crl-016",
+  "subject": "Criminal Law",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Robbery: force must be used in order to steal (Theft Act 1968, s.8)",
+  "scenario": "Outside a takeaway in Sunderland, Dean Walsh punches Kieran Moss and knocks him to the ground because Kieran insulted Dean's football team. Kieran's phone falls out of his pocket. Only then does Dean decide to take it. He picks it up and walks off, without using or threatening any further force. He is charged with robbery.",
+  "stem": "Which of the following best describes Dean's liability for robbery?",
+  "options": {
+   "A": "He is guilty of robbery, because he used force on Kieran immediately before stealing the phone.",
+   "B": "He is not guilty of robbery, because the force was not used in order to steal; he is liable for theft and for the assault separately.",
+   "C": "He is guilty of robbery, because Kieran was still in fear of further force when the phone was taken.",
+   "D": "He is not guilty of robbery, because the punch was too minor to amount to 'force'.",
+   "E": "He is guilty of robbery, because the force and the theft were part of one continuous transaction."
+  },
+  "answer": "B",
+  "explanation": "Under s.8(1) of the Theft Act 1968, a person is guilty of robbery if he steals and, immediately before or at the time of doing so, and in order to do so, uses force on any person or puts or seeks to put any person in fear of being then and there subjected to force. The force must be used in order to steal. Dean punched Kieran over an insult, before he had formed any intention to steal. When he later decided to take the phone, he used no further force and did not put or seek to put Kieran in fear of force. So the timing requirement is met, but the purpose requirement is not, and there is no robbery. Dean is liable for theft of the phone and for an assault offence for the punch.",
+  "why_wrong": {
+   "A": "The force must be used in order to steal as well as immediately before or at the time; it was not.",
+   "C": "Robbery requires D to put or seek to put V in fear of force in order to steal; Dean did neither for that purpose.",
+   "D": "A punch that knocks someone over is clearly force; the problem is purpose, not degree.",
+   "E": "A continuing appropriation does not help where the only force was used for a different reason before any intent to steal."
+  },
+  "key_rule": "Robbery requires force (or putting/seeking to put in fear of force) immediately before or at the time of stealing and in order to steal; force used for another reason does not count.",
+  "authority": "Theft Act 1968, s.8(1)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1968/60/section/8",
+  "tags": [
+   "robbery",
+   "theft",
+   "force"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Specified criminal offences: theft offences: s. 8 Theft Act 1968",
+   "context_subject": "Criminal Law",
+   "source_type": "legislation",
+   "source_quote": "(1) A person is guilty of robbery if he steals, and immediately before or at the time of doing so, and in order to do so, he uses force on any person",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-crl-017",
+  "subject": "Criminal Law",
+  "flk": "FLK2",
+  "difficulty": "easy",
+  "title": "Burglary by entering part of a building as a trespasser (Theft Act 1968, s.9(1)(a))",
+  "scenario": "Ethan Brooks goes into an electronics shop in Exeter during opening hours. He walks through a door marked 'Staff only' into the stockroom, intending to steal a games console. He is stopped by a member of staff before he picks anything up.",
+  "stem": "Which of the following best describes Ethan's liability for burglary?",
+  "options": {
+   "A": "He is guilty of burglary, because he entered part of a building as a trespasser with intent to steal.",
+   "B": "He is not guilty of burglary, because he was permitted to enter the shop as a customer.",
+   "C": "He is not guilty of burglary, because he did not steal or attempt to steal anything.",
+   "D": "He is guilty only of attempted theft, because he was stopped before taking anything.",
+   "E": "He is not guilty of burglary, because he did not break into the stockroom by force."
+  },
+  "answer": "A",
+  "explanation": "Under s.9(1)(a) of the Theft Act 1968, a person is guilty of burglary if he enters any building or part of a building as a trespasser with intent to commit one of the offences listed in s.9(2), which include stealing anything in the building or part in question. Ethan had permission to be in the public area of the shop as a customer, but that permission did not extend to the stockroom, which was marked 'Staff only'. When he went in he entered that part of the building as a trespasser, and he intended at that moment to steal. Burglary under s.9(1)(a) is complete on entry with the required intent. Nothing need be taken, so the offence was committed even though he was stopped first.",
+  "why_wrong": {
+   "B": "Permission to enter the shop floor did not extend to the staff-only stockroom, which is a separate 'part of a building'.",
+   "C": "Stealing or attempting to steal is required only for s.9(1)(b); under s.9(1)(a) the intent at entry is enough.",
+   "D": "The full offence of burglary was complete on entry with intent to steal.",
+   "E": "Burglary requires entry as a trespasser, not breaking or force."
+  },
+  "key_rule": "Entering part of a building beyond the scope of one's permission, with intent to steal, is burglary under s.9(1)(a); nothing need be taken.",
+  "authority": "Theft Act 1968, s.9(1)(a) and (2)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1968/60/section/9",
+  "tags": [
+   "burglary",
+   "trespasser",
+   "part of a building"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Specified criminal offences: theft offences: s. 9 Theft Act 1968",
+   "context_subject": "Criminal Law",
+   "source_type": "legislation",
+   "source_quote": "(a) he enters any building or part of a building as a trespasser and with intent to commit any such offence as is mentioned in subsection (2) below",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "The scope of permission point (entering beyond permission makes D a trespasser) comes from case law (e.g. R v Walkington [1979] 1 WLR 1169), not the statute."
+  }
+ },
+ {
+  "id": "lib-crl-018",
+  "subject": "Criminal Law",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Aggravated burglary: when is an article a 'weapon of offence'? (Theft Act 1968, s.10)",
+  "scenario": "At 2am Gemma Holt breaks into a house in Norwich by using a large screwdriver she has brought with her to prise open a window. She intends to steal and never intends to use the screwdriver on anyone; she uses it only on the window. She takes jewellery from a bedroom and leaves without meeting anyone. She is charged with aggravated burglary.",
+  "stem": "Which of the following best describes Gemma's liability for aggravated burglary?",
+  "options": {
+   "A": "She is guilty, because a large screwdriver is capable of causing injury and so is a weapon of offence.",
+   "B": "She is guilty, because the burglary was of a dwelling and committed at night.",
+   "C": "She is guilty, because she had the screwdriver with her at the moment she entered the building.",
+   "D": "She is not guilty, because aggravated burglary requires a firearm or an explosive.",
+   "E": "She is not guilty, because the screwdriver was not made or adapted for causing injury and she did not intend it for such use; she is guilty of burglary."
+  },
+  "answer": "E",
+  "explanation": "Under s.10(1) of the Theft Act 1968, a person is guilty of aggravated burglary if he commits any burglary and at the time has with him any firearm or imitation firearm, any weapon of offence, or any explosive. A 'weapon of offence' is any article made or adapted for use for causing injury to or incapacitating a person, or intended by the person having it with him for such use (s.10(1)(b)). A screwdriver is not made or adapted for causing injury. Gemma carried and used it only to prise open the window and never intended to use it on anyone. It is therefore not a weapon of offence. Having it with her on entry does not help the prosecution. Gemma committed burglary (entry as a trespasser with intent to steal, followed by theft) but not aggravated burglary.",
+  "why_wrong": {
+   "A": "An article not made or adapted for injury is a weapon of offence only if D intends it for causing injury or incapacitating; mere capability is not enough.",
+   "B": "Those facts are relevant to burglary and sentence but do not create aggravated burglary.",
+   "C": "Having the article with her matters only if it is a weapon of offence, firearm, imitation firearm or explosive.",
+   "D": "Section 10 also covers imitation firearms and weapons of offence."
+  },
+  "key_rule": "An everyday tool is a 'weapon of offence' for aggravated burglary only if D intends it for causing injury or incapacitating; capability to injure is not enough.",
+  "authority": "Theft Act 1968, s.10(1)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1968/60/section/10",
+  "tags": [
+   "burglary",
+   "aggravated burglary",
+   "weapon of offence"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Specified criminal offences: theft offences: s. 10 Theft Act 1968",
+   "context_subject": "Criminal Law",
+   "source_type": "legislation",
+   "source_quote": "(b) “ weapon of offence ” means any article made or adapted for use for causing injury to or incapacitating a person, or intended by the person having it with him for such use",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Section 10 shows an unapplied future change (ss.26A-26C inserted by 2026 c.20) that does not affect s.10."
+  }
+ },
+ {
+  "id": "lib-crl-019",
+  "subject": "Criminal Law",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Fraud by false representation is complete without any deception or gain (Fraud Act 2006, s.2)",
+  "scenario": "Kemal Arslan lists his car for sale on a website, describing it as having 'one owner from new and a full service history'. He knows both statements are false and hopes they will get him a higher price. He submits the listing through the website's automated form. The listing attracts no enquiries and he later deletes it. The jury are sure that he was dishonest. He is charged with fraud by false representation.",
+  "stem": "Which of the following best describes Kemal's liability?",
+  "options": {
+   "A": "He is guilty only of attempted fraud, because nobody was deceived and no sale took place.",
+   "B": "He is not guilty, because a representation made only to a website, without human involvement, is not a representation.",
+   "C": "He is guilty, because he dishonestly made false representations intending to make a gain; no one need be deceived and no gain or loss need result.",
+   "D": "He is not guilty, because nobody suffered any loss.",
+   "E": "He is guilty only if a buyer relied on the description when deciding whether to buy."
+  },
+  "answer": "C",
+  "explanation": "Under s.2(1) of the Fraud Act 2006, a person commits fraud by false representation if he dishonestly makes a false representation intending, by making it, to make a gain for himself or another or to cause loss to another or expose another to a risk of loss. A representation is false if it is untrue or misleading and the maker knows that it is, or might be (s.2(2)). Under s.2(5) a representation may be regarded as made if it is submitted in any form to any system or device designed to receive, convey or respond to communications, with or without human intervention. Kemal knew his statements were untrue, made them through the website's form, and intended to gain a higher price. The offence is complete when the representation is made. Nobody need be deceived, and no gain or loss need actually occur.",
+  "why_wrong": {
+   "A": "The full offence is complete when the false representation is made with the required intent; deception and a sale are not required.",
+   "B": "Section 2(5) treats a representation submitted to a system or device as made, with or without human intervention.",
+   "D": "Section 2 requires an intention to make a gain or cause loss, not actual loss.",
+   "E": "Reliance by a victim is not an element of s.2; the offence focuses on D's conduct and state of mind."
+  },
+  "key_rule": "Fraud by false representation is complete when D dishonestly makes a false representation intending gain or loss; no one need be deceived and no gain or loss need result.",
+  "authority": "Fraud Act 2006, ss.1 and 2",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2006/35/section/2",
+  "tags": [
+   "fraud",
+   "false representation",
+   "fraud act 2006"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Specified criminal offences: fraud: by false representation",
+   "context_subject": "Criminal Law",
+   "source_type": "legislation",
+   "source_quote": "a representation may be regarded as made if it ... is submitted in any form to any system or device designed to receive, convey or respond to communications (with or without human intervention).",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-crl-020",
+  "subject": "Criminal Law",
+  "flk": "FLK2",
+  "difficulty": "easy",
+  "title": "Lawful excuse based on an honest belief in the owner's consent (Criminal Damage Act 1971, s.5)",
+  "scenario": "Ben Taylor's neighbour, Mrs Ali, told him some weeks ago that she wanted the rotten fence between their gardens in Sheffield 'taken down'. She meant next spring, once she had saved for a new one. Ben misunderstood and believed she wanted it removed straight away. One Saturday he pulls down the fence panels, which belong to Mrs Ali. A more careful person would have checked with her first. Ben is charged with criminal damage and says he honestly believed she had agreed.",
+  "stem": "Which of the following best describes whether Ben has a defence?",
+  "options": {
+   "A": "He has no defence, because his belief that Mrs Ali consented was not reasonable.",
+   "B": "He has no defence, because Mrs Ali did not in fact consent to the fence being removed at that time.",
+   "C": "He has no defence, because he intended to damage the fence.",
+   "D": "He has a lawful excuse, because he believed that the owner had consented to the damage, and the belief need only be honestly held.",
+   "E": "He has a defence only if he damaged the fence in order to protect his own property."
+  },
+  "answer": "D",
+  "explanation": "Section 5(2)(a) of the Criminal Damage Act 1971 provides that a person charged with criminal damage under s.1(1) is to be treated as having a lawful excuse if, at the time, he believed that the person entitled to consent to the damage had consented, or would have consented if she had known of the damage and its circumstances. Under s.5(3) it is immaterial whether the belief is justified, provided it is honestly held. Mrs Ali, the owner of the fence, was the person entitled to consent. If the jury accept that Ben honestly believed she had agreed to its immediate removal, he has a lawful excuse, even though his belief was mistaken and a more careful person would have checked. The prosecution must disprove the excuse once it is raised.",
+  "why_wrong": {
+   "A": "Section 5(3) makes it immaterial whether the belief is justified, so long as it is honestly held.",
+   "B": "The defence turns on Ben's belief about consent, not on whether consent was actually given.",
+   "C": "Lawful excuse is a defence even where the damage is intentional.",
+   "E": "Protection of property is a separate ground under s.5(2)(b); belief in consent under s.5(2)(a) is enough on its own."
+  },
+  "key_rule": "A defendant has a lawful excuse under s.5(2)(a) CDA 1971 if he honestly believed the owner had consented or would have consented; the belief need not be reasonable.",
+  "authority": "Criminal Damage Act 1971, s.5(2)(a) and (3)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1971/48/section/5",
+  "tags": [
+   "criminal damage",
+   "lawful excuse",
+   "consent",
+   "honest belief"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Specified criminal offences: criminal damage: simple criminal damage",
+   "context_subject": "Criminal Law",
+   "source_type": "legislation",
+   "source_quote": "(3) For the purposes of this section it is immaterial whether a belief is justified or not if it is honestly held.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Who bears the burden once lawful excuse is raised (the prosecution, to the criminal standard) is general principle, not stated in s.5."
+  }
+ },
+ {
+  "id": "lib-crl-021",
+  "subject": "Criminal Law",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Aggravated arson of the defendant's own property (Criminal Damage Act 1971, s.1(2) and (3))",
+  "scenario": "Victor Mills owns a detached house in Derby, where he lets a room to a lodger, Kasia. In financial difficulty, he decides to set fire to the house to make an insurance claim. At 2am, knowing that Kasia is asleep upstairs and realising that the fire might endanger her life, he sets fire to the downstairs living room. Kasia wakes and escapes unhurt. The fire badly damages the house.",
+  "stem": "Which of the following best describes Victor's liability under s.1(2) and (3) of the Criminal Damage Act 1971?",
+  "options": {
+   "A": "He is not liable, because a person cannot commit criminal damage to property he owns.",
+   "B": "He is guilty of arson endangering life, because he damaged property by fire and was reckless as to whether the life of another would be endangered by that damage; it does not matter that the house is his own.",
+   "C": "He is not guilty under s.1(2), because Kasia was not in fact injured.",
+   "D": "He is guilty under s.1(2) only if he intended to endanger Kasia's life; recklessness is not enough.",
+   "E": "He is not guilty under s.1(2), because his purpose was to make an insurance claim, not to endanger anyone."
+  },
+  "answer": "B",
+  "explanation": "Section 1(2) of the Criminal Damage Act 1971 creates the aggravated offence. A person commits it if, without lawful excuse, he destroys or damages any property, whether belonging to himself or another, intending to destroy or damage property or being reckless about it, and intending by the destruction or damage to endanger the life of another or being reckless as to whether life would be endangered. Under s.1(3), an offence under s.1 committed by fire is charged as arson. Victor deliberately set fire to the house, realised that the fire might endanger Kasia's life, and went ahead. That is subjective recklessness as to endangering life through the damage. Ownership is irrelevant to s.1(2), and life need only be intended or risked to be endangered; it need not actually be endangered or harmed.",
+  "why_wrong": {
+   "A": "Section 1(2) expressly applies to property 'whether belonging to himself or another'.",
+   "C": "The offence requires intention or recklessness as to endangering life, not actual injury or actual danger.",
+   "D": "Section 1(2)(b) expressly includes being reckless as to whether life would be endangered.",
+   "E": "Motive is irrelevant; it is enough that he was reckless as to endangering life by the damage."
+  },
+  "key_rule": "Aggravated criminal damage (and arson) under s.1(2) can be committed against one's own property where D intends or is reckless as to endangering another's life by the damage; no actual harm is needed.",
+  "authority": "Criminal Damage Act 1971, s.1(2) and (3); R v G [2003] UKHL 50 (recklessness)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1971/48/section/1",
+  "tags": [
+   "criminal damage",
+   "arson",
+   "aggravated criminal damage",
+   "recklessness"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Specified criminal offences: criminal damage: aggravated criminal damage",
+   "context_subject": "Criminal Law",
+   "source_type": "legislation",
+   "source_quote": "destroys or damages any property, whether belonging to himself or another— ... (b) intending by the destruction or damage to endanger the life of another or being reckless as to whether the life of another would be thereby endangered",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "That life need not actually be endangered follows from the wording of s.1(2)(b) (intent or recklessness as to endangering) and is settled case law; no case on that point was fetched."
+  }
+ },
+ {
+  "id": "lib-crl-022",
+  "subject": "Criminal Law",
+  "flk": "FLK2",
+  "difficulty": "hard",
+  "title": "Self-defence in a householder case: grossly disproportionate force (CJIA 2008, s.76(5A))",
+  "scenario": "At 1am Rahul Mehta, at home in Leicester, comes downstairs and finds an intruder, Shane, in his kitchen. Shane turns towards the back door. Frightened, and believing that Shane might turn on him, Rahul hits him twice with a heavy torch, breaking his arm. Rahul is charged with inflicting grievous bodily harm and relies on self-defence. It is accepted that this is a 'householder case' within s.76(8A) of the Criminal Justice and Immigration Act 2008.",
+  "stem": "Which of the following best describes how the jury should approach the degree of force Rahul used?",
+  "options": {
+   "A": "They should judge the force on the facts as they actually were, and convict if it was more than was objectively necessary.",
+   "B": "They should convict if the force was disproportionate in the circumstances as Rahul believed them to be.",
+   "C": "They should acquit if the force was not grossly disproportionate, because in a householder case any force short of that is reasonable.",
+   "D": "They should convict if Rahul could have stayed upstairs or let Shane leave, because a householder must retreat where possible.",
+   "E": "They should first ask whether the force was grossly disproportionate in the circumstances as Rahul believed them to be; if it was not, they must still decide whether it was reasonable in those circumstances."
+  },
+  "answer": "E",
+  "explanation": "Under s.76(3) of the Criminal Justice and Immigration Act 2008, the reasonableness of the force is judged by reference to the circumstances as D believed them to be. In a householder case, s.76(5A) provides that force is not to be regarded as reasonable if it was grossly disproportionate in those circumstances. In R v Ray [2017] EWCA Crim 1391 the Court of Appeal held that this leaves two questions. First, was the force grossly disproportionate? If so, the defence fails. If not, the jury must go on to consider whether the force was reasonable in all the circumstances as D believed them to be. Force that is disproportionate, but not grossly so, may or may not be reasonable. The possibility of retreat is a factor, not a duty (s.76(6A)).",
+  "why_wrong": {
+   "A": "Force is judged on the circumstances as D genuinely believed them to be (s.76(3) and (4)), not the actual facts.",
+   "B": "The ordinary 'disproportionate' bar in s.76(6) applies only in cases other than householder cases.",
+   "C": "R v Ray rejected the argument that force short of grossly disproportionate is necessarily reasonable.",
+   "D": "Under s.76(6A) the possibility of retreat is a factor to consider, not a duty to retreat."
+  },
+  "key_rule": "In a householder case, grossly disproportionate force is never reasonable; force short of that must still be reasonable in the circumstances as D believed them to be.",
+  "authority": "Criminal Justice and Immigration Act 2008, s.76(3), (5A), (6), (6A), (8A); R v Ray [2017] EWCA Crim 1391",
+  "verified_source_url": "https://caselaw.nationalarchives.gov.uk/ewca/crim/2017/1391",
+  "tags": [
+   "self-defence",
+   "householder",
+   "reasonable force",
+   "defences"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "General defences: self-defence/defence of another",
+   "context_subject": "Criminal Law",
+   "source_type": "judgment",
+   "source_quote": "We accordingly reject the contention that provided the degree of force used by a householder is not grossly disproportionate then it is necessarily reasonable.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "s.76 checked on legislation.gov.uk (https://www.legislation.gov.uk/ukpga/2008/4/section/76): up to date to 16 Oct 2026; listed outstanding changes concern other sections (ss.67A-67J), not s.76."
+  }
+ },
+ {
+  "id": "lib-crl-023",
+  "subject": "Criminal Law",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Voluntary intoxication: specific and basic intent (DPP v Majewski)",
+  "scenario": "After drinking heavily all evening in a bar in Cardiff, Tyrone Bailey smashes a glass into Will Evans's face, causing a deep cut. He is charged with wounding with intent to do grievous bodily harm under s.18 of the Offences Against the Person Act 1861, with an alternative count under s.20. There is evidence that he was so drunk he may not have formed any intention to cause serious harm. His intoxication was entirely voluntary.",
+  "stem": "Which of the following best describes the relevance of Tyrone's intoxication?",
+  "options": {
+   "A": "The jury may take it into account in deciding whether he formed the specific intent for s.18; if they are not sure he did, they may convict him under s.20, to which voluntary intoxication is no defence.",
+   "B": "It is irrelevant to both counts, because voluntary intoxication is never a defence to any offence.",
+   "C": "It is a complete defence to both counts if, because of it, he did not foresee any harm.",
+   "D": "It can be taken into account only if he was involuntarily intoxicated.",
+   "E": "It can be taken into account on the s.20 count but not on the s.18 count."
+  },
+  "answer": "A",
+  "explanation": "Under DPP v Majewski [1977] AC 443, as explained in R v Dowds [2012] EWCA Crim 281, voluntary intoxication can be taken into account only where the offence is one of specific intent, and only in deciding whether that intent was present. Section 18 requires an intent to do grievous bodily harm, which is a specific intent. The jury may consider Tyrone's drunkenness in deciding whether he actually formed that intent. Section 20 requires no specific intent, only foresight of some harm (R v Mowatt, approved in R v Savage), so it is an offence of basic intent. Voluntary intoxication is no answer to it, and Tyrone cannot rely on a failure to foresee harm caused by his own drinking. If the jury are not sure about the s.18 intent, they should acquit on that count and may convict under s.20.",
+  "why_wrong": {
+   "B": "Voluntary intoxication can be relevant to whether a specific intent was formed.",
+   "C": "For basic intent offences such as s.20, voluntary intoxication cannot be relied on to negate the mens rea.",
+   "D": "Voluntary intoxication is relevant to specific intent offences; involuntary intoxication is a separate matter.",
+   "E": "This reverses the rule: intoxication is relevant to the specific intent offence (s.18), not the basic intent offence (s.20)."
+  },
+  "key_rule": "Voluntary intoxication may be considered only on whether D formed a specific intent (e.g. s.18); it is no defence to basic intent offences such as s.20 or s.47.",
+  "authority": "DPP v Majewski [1977] AC 443; R v Dowds [2012] EWCA Crim 281, para 15; R v Savage; DPP v Parmenter [1992] 1 AC 699 (s.20 no specific intent)",
+  "verified_source_url": "https://caselaw.nationalarchives.gov.uk/ewca/crim/2012/281",
+  "tags": [
+   "intoxication",
+   "specific intent",
+   "basic intent",
+   "defences"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "General defences: intoxication",
+   "context_subject": "Criminal Law",
+   "source_type": "judgment",
+   "source_quote": "In the course of deciding that voluntary drunkenness could be taken into account only in a case categorised as one of specific intent, and only in deciding whether such intent had been present",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Classifying s.20 as basic intent rests on Mowatt as quoted in Savage ('for neither of which is any specific intent required'), https://www.bailii.org/uk/cases/UKHL/1991/15.html. Majewski itself was not fetched (BAILII blocked direct download)."
+  }
+ },
+ {
+  "id": "lib-crl-024",
+  "subject": "Criminal Law",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Attempt where the full offence is impossible (Criminal Attempts Act 1981, s.1(2) and (3))",
+  "scenario": "Leaving a restaurant in York, Simon Clarke takes a black umbrella from the stand. He believes it belongs to another diner and intends to keep it. In fact, unknown to him, it is his own umbrella, which he had forgotten bringing. He is charged with attempted theft.",
+  "stem": "Which of the following best describes Simon's liability for attempted theft?",
+  "options": {
+   "A": "He is not guilty, because it was impossible to steal the umbrella, so there could be no attempt.",
+   "B": "He is guilty of theft, because he appropriated the umbrella intending to keep it.",
+   "C": "He is not guilty, because taking the umbrella was the full act and not something 'more than merely preparatory' to theft.",
+   "D": "He is guilty, because he did an act more than merely preparatory with intent to steal, judged on the facts as he believed them to be, and the impossibility of the full offence is no bar.",
+   "E": "He is not guilty, because an attempt requires that the property actually belong to another."
+  },
+  "answer": "D",
+  "explanation": "Under s.1(1) of the Criminal Attempts Act 1981, a person is guilty of an attempt if, with intent to commit an offence, he does an act which is more than merely preparatory to its commission. Section 1(2) provides that a person may be guilty of attempt even though the facts are such that commission of the offence is impossible. Under s.1(3), where his intention would be an intent to commit the offence if the facts had been as he believed them to be, he is regarded as having that intent. Simon could not commit theft because the umbrella was his own. But on the facts as he believed them, he intended to steal another diner's umbrella, and taking it was more than merely preparatory to that theft. Theft is an indictable offence to which s.1 applies, so he is guilty of attempted theft.",
+  "why_wrong": {
+   "A": "Section 1(2) expressly provides that impossibility does not prevent liability for attempt.",
+   "B": "Theft requires property belonging to another; the umbrella was his own, so only an attempt is possible.",
+   "C": "Doing everything he believed necessary is clearly more than merely preparatory.",
+   "E": "Under s.1(3) his intent is judged on the facts as he believed them, so the true ownership does not prevent an attempt."
+  },
+  "key_rule": "A person may be guilty of attempt even where the full offence is impossible; his intent is judged on the facts as he believed them to be (s.1(2), (3) CAA 1981).",
+  "authority": "Criminal Attempts Act 1981, s.1(1)-(4); R v Shivpuri [1987] AC 1",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1981/47/section/1",
+  "tags": [
+   "attempts",
+   "impossibility",
+   "inchoate offences",
+   "theft"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Inchoate offences: Attempt to commit an offence",
+   "context_subject": "Criminal Law",
+   "source_type": "legislation",
+   "source_quote": "(2) A person may be guilty of attempting to commit an offence to which this section applies even though the facts are such that the commission of the offence is impossible.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "s.1(5) (low-value shoplifting) is shown as to be omitted by 2026 c.20; that does not affect this point."
+  }
+ },
+ {
+  "id": "lib-crl-025",
+  "subject": "Criminal Law",
+  "flk": "FLK2",
+  "difficulty": "hard",
+  "title": "Accessory liability after R v Jogee: foresight is evidence of intent, not a substitute for it",
+  "scenario": "Marcus Hill and Dwayne Price agree to burgle a warehouse in Luton at night. Marcus knows that Dwayne often carries a knife and realises that Dwayne might use it to cause serious injury if they are disturbed. Marcus has told Dwayne that if anyone comes they should run, and that nobody is to be hurt. A security guard disturbs them. Dwayne stabs him, intending to cause him grievous bodily harm, and the guard dies. Marcus is charged with murder as an accessory.",
+  "stem": "Which of the following correctly states what the prosecution must prove for Marcus to be guilty of murder?",
+  "options": {
+   "A": "That Marcus foresaw that Dwayne might use the knife with intent to cause grievous bodily harm, and continued to take part in the burglary.",
+   "B": "That Marcus and Dwayne expressly agreed beforehand that the knife would be used if they were disturbed.",
+   "C": "That Marcus assisted or encouraged Dwayne and intended to assist or encourage him to act with intent to kill or cause grievous bodily harm, which may be a conditional intent; his foresight is evidence from which that intent may be inferred.",
+   "D": "That Marcus was present at the scene and was associated with Dwayne in the burglary when the killing occurred.",
+   "E": "That Marcus himself intended that the guard should be killed; otherwise he cannot be guilty of any homicide offence."
+  },
+  "answer": "C",
+  "explanation": "In R v Jogee [2016] UKSC 8 the Supreme Court held that the courts had taken a wrong turn in Chan Wing-Siu by treating foresight of what the principal might do as sufficient for accessory liability. An accessory must have assisted or encouraged the principal's offence, and intended to assist or encourage the principal to commit it with whatever mental element the offence requires. For murder, that means an intention to assist or encourage the principal to act with intent to kill or cause grievous bodily harm. That intention may be conditional, for example if resistance is met. Foresight that the principal might act in that way is evidence from which the jury may infer intent, but it is not the test itself. The jury must decide whether Marcus had that intention. If he did not, but took part in an unlawful and dangerous enterprise that led to death, he may be guilty of manslaughter.",
+  "why_wrong": {
+   "A": "This is the Chan Wing-Siu foresight test, which Jogee held to be wrong.",
+   "B": "No prior agreement is required, and any agreement may be tacit; what matters is intentional assistance or encouragement.",
+   "D": "Mere presence or association is not enough; guilt by association has no part in the common law.",
+   "E": "An intent to assist the causing of grievous bodily harm is enough for murder, and an accessory without that intent may still be guilty of manslaughter."
+  },
+  "key_rule": "An accessory to murder must intend to assist or encourage the principal to act with intent to kill or cause GBH (possibly conditionally); foresight is evidence of that intent, not a substitute for it.",
+  "authority": "R v Jogee [2016] UKSC 8, paras 87-98; Accessories and Abettors Act 1861, s.8",
+  "verified_source_url": "https://www.bailii.org/uk/cases/UKSC/2016/8.html",
+  "tags": [
+   "secondary liability",
+   "accessories",
+   "joint enterprise",
+   "jogee",
+   "murder"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Parties: accomplices",
+   "context_subject": "Criminal Law",
+   "source_type": "judgment",
+   "source_quote": "The error was to equate foresight with intent to assist, as a matter of law; the correct approach is to treat it as evidence of intent.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ }
+]

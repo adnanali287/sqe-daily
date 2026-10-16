@@ -1,0 +1,1122 @@
+[
+ {
+  "id": "lib-dr-001",
+  "subject": "Dispute Resolution",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Staying court proceedings brought in breach of an arbitration agreement (Arbitration Act 1996, s 9)",
+  "scenario": "Harlow Signs Ltd supplied illuminated signage to Kestrel Retail Ltd under a written contract governed by English law. Clause 18 provides that any dispute arising out of the contract shall be referred to arbitration in London. A dispute arises about the quality of the signs and Kestrel issues a claim against Harlow in the County Court for £85,000. The claim form and particulars of claim have just been served on Harlow, which wants the dispute decided by arbitration as the contract provides. There is no suggestion that clause 18 is invalid.",
+  "stem": "What is the best advice to give Harlow?",
+  "options": {
+   "A": "File a defence and counterclaim to protect its position, and then ask the court at the first case management conference to stay the claim in favour of arbitration.",
+   "B": "Apply to strike out the claim form, because the County Court has no jurisdiction over any dispute covered by an arbitration clause.",
+   "C": "File an acknowledgment of service and, before taking any step to answer the substantive claim, apply for a stay; the court must grant it unless the arbitration agreement is null and void, inoperative or incapable of being performed.",
+   "D": "Apply for a stay at any time before trial; the court has a broad discretion and will refuse a stay if litigation would be quicker or cheaper than arbitration.",
+   "E": "Take no action, because a claim issued in breach of an arbitration clause is a nullity and cannot lead to a valid judgment."
+  },
+  "answer": "C",
+  "explanation": "Section 9 of the Arbitration Act 1996 allows a party to an arbitration agreement against whom legal proceedings are brought, in respect of a matter which under the agreement is to be referred to arbitration, to apply to the court in which the proceedings have been brought for a stay. By s 9(3) the application may not be made before the applicant has taken the appropriate procedural step to acknowledge the proceedings, or after it has taken any step in those proceedings to answer the substantive claim. Harlow should therefore file an acknowledgment of service and then apply promptly, without filing a defence. By s 9(4) the court shall grant a stay unless satisfied that the arbitration agreement is null and void, inoperative, or incapable of being performed. Nothing suggests clause 18 is defective, so a properly timed application should succeed and the dispute will go to arbitration.",
+  "why_wrong": {
+   "A": "Filing a defence and counterclaim is a step to answer the substantive claim, after which s 9(3) bars a stay application.",
+   "B": "The court is not deprived of jurisdiction; the remedy is a stay under s 9, not striking out the claim form.",
+   "D": "Section 9(4) is mandatory, not discretionary, and the application must be made before any step to answer the substantive claim.",
+   "E": "The claim is valid unless stayed; if Harlow does nothing it risks default judgment."
+  },
+  "key_rule": "A party sued in breach of an arbitration agreement may, after acknowledging service but before any step to answer the substantive claim, apply for a stay, which the court must grant unless the agreement is defective.",
+  "authority": "Arbitration Act 1996, s 9(1), (3) and (4)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1996/23/section/9",
+  "tags": [
+   "arbitration",
+   "stay of proceedings",
+   "alternative dispute resolution"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Different options for dispute resolution: the characteristics of arbitration, mediation and litigation which make them an appropriate mechanism to resolve a dispute",
+   "context_subject": "Dispute Resolution",
+   "source_type": "legislation",
+   "source_quote": "On an application under this section the court shall grant a stay unless satisfied that the arbitration agreement is null and void, inoperative, or incapable of being performed.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "legislation.gov.uk shows no outstanding effects for s 9 (checked 16 Oct 2026). The Arbitration Act 2025 amendments (in force 1 Aug 2025) did not change s 9(3)-(4). CPR 62.8 procedure not tested."
+  }
+ },
+ {
+  "id": "lib-dr-002",
+  "subject": "Dispute Resolution",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Court's power to order ADR and costs consequences of refusing to engage (CPR 3.1(2)(o), 44.2(5)(e))",
+  "scenario": "Fenwick Logistics Ltd is defending a £240,000 multi-track claim for breach of a warehousing contract brought by Orla Byrne Foods Ltd in the County Court. At the case management conference in June 2026 the claimant invites the court to direct mediation. Fenwick's managing director instructs its solicitor to oppose this, saying that Fenwick is confident of winning at trial and that, if it wins, the court will have to award it its costs whatever happens about mediation.",
+  "stem": "Which of the following best describes the position?",
+  "options": {
+   "A": "The court may encourage mediation but cannot order a party to take part in any form of ADR once proceedings have been issued.",
+   "B": "The court may order mediation, but if Fenwick wins at trial it is automatically entitled to all its costs, so its refusal to engage cannot affect the costs order.",
+   "C": "If Fenwick refuses mediation, the court must strike out its defence for failure to cooperate with the overriding objective.",
+   "D": "ADR is relevant only at the pre-action stage, so the court will not consider it once a claim has been allocated to a track.",
+   "E": "The court may order the parties to engage in ADR, and a failure to comply with such an order, or an unreasonable failure to engage in ADR, is conduct the court may take into account when deciding costs."
+  },
+  "answer": "E",
+  "explanation": "Dealing with a case justly includes promoting or using ADR (CPR 1.1(2)(f)), and active case management includes ordering or encouraging the parties to use ADR (CPR 1.4(2)(e)). CPR 3.1(2)(o) gives the court an express case management power to order the parties to engage in alternative dispute resolution, reflecting Churchill v Merthyr Tydfil CBC [2023] EWCA Civ 1416. Costs remain discretionary: under CPR 44.2(2) the general rule is that the loser pays, but the court may make a different order, and under CPR 44.2(5)(e) the conduct it considers includes whether a party failed to comply with an order for ADR or unreasonably failed to engage in ADR. Fenwick's managing director is therefore wrong on both points. The court may direct mediation, and even if Fenwick wins at trial, an unreasonable refusal to engage could lead to a reduced or adverse costs order.",
+  "why_wrong": {
+   "A": "CPR 3.1(2)(o) expressly empowers the court to order the parties to engage in ADR.",
+   "B": "Costs are discretionary under CPR 44.2, and a failure to engage in ADR is relevant conduct even for a winning party.",
+   "C": "Striking out is not an automatic consequence; the usual sanction for unreasonable refusal is in costs.",
+   "D": "Parties must consider settlement and ADR at all times, and the court's ADR powers apply throughout the proceedings."
+  },
+  "key_rule": "The court may order parties to engage in ADR (CPR 3.1(2)(o)); failing to comply, or unreasonably failing to engage, is conduct relevant to costs under CPR 44.2(5)(e).",
+  "authority": "CPR 1.1(2)(f), 1.4(2)(e), 3.1(2)(o), 44.2(5)(e); Churchill v Merthyr Tydfil CBC [2023] EWCA Civ 1416",
+  "verified_source_url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part03",
+  "tags": [
+   "alternative dispute resolution",
+   "mediation",
+   "case management",
+   "costs"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Case management: the overriding objective",
+   "context_subject": "Dispute Resolution",
+   "source_type": "procedure-rules",
+   "source_quote": "(o) order the parties to engage in alternative dispute resolution; and",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "ADR amendments in force 1 Oct 2024. CPR 44.2(5)(e) wording verified on the Part 44 page (https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part-44-general-rules-about-costs) in the same session."
+  }
+ },
+ {
+  "id": "lib-dr-003",
+  "subject": "Dispute Resolution",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Sanctions against a defendant who ignores a letter before claim (PD Pre-Action Conduct, para 16)",
+  "scenario": "Amira Haddad, a sole trader, supplied bespoke shop fittings to Brightwater Interiors Ltd, which has not paid the £150,000 price. No pre-action protocol applies. In January 2026 Amira's solicitors sent Brightwater a detailed letter before claim complying with the Practice Direction - Pre-Action Conduct and enclosing key documents. Brightwater did not reply at all. Amira issued proceedings in May 2026. Brightwater defended the claim, but Amira was awarded £150,000 after a multi-track trial. The judge finds that Brightwater's failure to respond was unreasonable non-compliance with the Practice Direction.",
+  "stem": "Which of the following orders may the court make because of Brightwater's non-compliance?",
+  "options": {
+   "A": "An order that Amira be awarded interest on the £150,000 for a specified period at a higher rate than would otherwise have been awarded, not exceeding 10% above base rate.",
+   "B": "An order depriving Amira of interest on the £150,000 for the period during which the pre-action correspondence should have taken place.",
+   "C": "An order that Brightwater pay Amira an additional amount equal to 10% of the damages awarded.",
+   "D": "An order that Amira be awarded interest on the £150,000 for the whole period since the letter before claim at a rate of up to 25% above base rate.",
+   "E": "No order, because non-compliance with the Practice Direction is relevant only to whether proceedings should be stayed before trial."
+  },
+  "answer": "A",
+  "explanation": "Paragraph 6(b) of the Practice Direction - Pre-Action Conduct expects a defendant to respond to a letter before claim within a reasonable time, which is 14 days in a straightforward case and no more than three months in a very complex one. Brightwater did not respond at all. Under para 13 the court takes non-compliance into account when making costs orders, and para 16 lists the sanctions the court may impose. These include an order that the party at fault pays costs, an order that it pays costs on the indemnity basis, and, where the party at fault is a defendant and the claimant has been awarded a sum of money, an order awarding interest on that sum for a specified period at a higher rate, not exceeding 10% above base rate, than would otherwise have been awarded (para 16(d)). Option A therefore describes an order open to the court.",
+  "why_wrong": {
+   "B": "Depriving a party of interest is a sanction for a claimant at fault (para 16(c)), not one used against the innocent claimant.",
+   "C": "An additional amount of 10% is a Part 36 consequence under CPR 36.17(4)(d), not a pre-action conduct sanction.",
+   "D": "Enhanced interest under para 16(d) is capped at 10% above base rate and is awarded for a specified period.",
+   "E": "The court may impose sanctions, including costs and interest orders, when it decides the case, not only by staying proceedings."
+  },
+  "key_rule": "For pre-action non-compliance the court may order costs (including indemnity costs) and adjust interest; a defaulting defendant may pay enhanced interest of up to 10% above base rate.",
+  "authority": "Practice Direction - Pre-Action Conduct and Protocols, paras 6, 13-16; CPR 44.2(5)(a)",
+  "verified_source_url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/pd_pre-action_conduct",
+  "tags": [
+   "pre-action conduct",
+   "sanctions",
+   "interest",
+   "costs"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Resolving a dispute through a civil claim: Practice Direction - pre-action conduct",
+   "context_subject": "Dispute Resolution",
+   "source_type": "procedure-rules",
+   "source_quote": "if the party at fault is a defendant, and the claimant has been awarded a sum of money, an order awarding interest on that sum for a specified period at a higher rate, (not exceeding 10% above base rate)",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-dr-004",
+  "subject": "Dispute Resolution",
+  "flk": "FLK1",
+  "difficulty": "easy",
+  "title": "Limitation period for a claim in simple contract (Limitation Act 1980, s 5)",
+  "scenario": "Tamsin Okafor runs a print studio in Bristol. Under a written contract (not a deed), Ellis Machinery Ltd agreed to deliver a new printing press to her studio on 3 May 2021, and she paid the full price in advance. The press was never delivered. Tamsin spent the next three years trying to source a replacement and only worked out the full extent of her lost profits in September 2024. She has now consulted a solicitor about suing Ellis for breach of contract.",
+  "stem": "What limitation period applies to Tamsin's claim?",
+  "options": {
+   "A": "Three years from September 2024, when Tamsin first knew the full extent of her loss.",
+   "B": "Six years from September 2024, when Tamsin first knew the full extent of her loss.",
+   "C": "Twelve years from the date of the breach, because the contract was in writing.",
+   "D": "Six years from the date of the breach, when Ellis failed to deliver the press in May 2021.",
+   "E": "Fifteen years from the date of the breach, as the long-stop for claims involving latent loss."
+  },
+  "answer": "D",
+  "explanation": "Section 5 of the Limitation Act 1980 provides that an action founded on simple contract shall not be brought after the expiration of six years from the date on which the cause of action accrued. In contract, the cause of action accrues when the breach occurs, whether or not the claimant has yet suffered or discovered the full loss. Ellis broke the contract by failing to deliver the press on the agreed date in May 2021, so time began to run then. Tamsin must issue proceedings within six years of that breach. When she later quantified her lost profits does not affect when time runs. The contract was in writing but was not made by deed, so the 12-year period for actions on a specialty does not apply. The latent damage provisions (ss 14A and 14B) apply to actions for negligence, not to this claim for non-delivery.",
+  "why_wrong": {
+   "A": "The three-year 'date of knowledge' period in s 14A applies to latent damage in negligence, not to a contract claim for non-delivery.",
+   "B": "Time in contract runs from the breach, not from when the claimant discovers or quantifies the loss.",
+   "C": "Twelve years applies to actions on a specialty, such as a deed; a written contract that is not a deed is a simple contract.",
+   "E": "The 15-year long-stop in s 14B applies only to negligence claims relying on s 14A."
+  },
+  "key_rule": "An action founded on simple contract must be brought within six years from accrual of the cause of action, which is the date of breach.",
+  "authority": "Limitation Act 1980, s 5",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1980/58/section/5",
+  "tags": [
+   "limitation",
+   "contract",
+   "time limits"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Resolving a dispute through a civil claim: calculating limitation periods for claims in contract and tort",
+   "context_subject": "Dispute Resolution",
+   "source_type": "legislation",
+   "source_quote": "An action founded on simple contract shall not be brought after the expiration of six years from the date on which the cause of action accrued.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "legislation.gov.uk: s 5 up to date to 15 Oct 2026; the only outstanding effect listed is an application by the Digital Markets, Competition and Consumers Act 2024 s 234(4), which is irrelevant here."
+  }
+ },
+ {
+  "id": "lib-dr-005",
+  "subject": "Dispute Resolution",
+  "flk": "FLK1",
+  "difficulty": "hard",
+  "title": "Personal injury limitation for a claimant injured as a child (Limitation Act 1980, ss 11 and 28(6))",
+  "scenario": "Leo Fernandes was born on 10 March 2009. On 1 July 2024, aged 15, he was knocked off his bicycle in Leicester by a delivery van driven negligently by an employee of Swiftdrop Couriers Ltd. He suffered a fractured leg and knew immediately that he was injured and who was responsible. No claim has yet been issued on his behalf by a litigation friend. Leo has full mental capacity. His parents ask by when a claim must be started.",
+  "stem": "Ignoring the court's discretion to disapply the time limit, by when must proceedings for Leo's personal injury claim be issued?",
+  "options": {
+   "A": "Within three years of the accident, so by 1 July 2027.",
+   "B": "Within three years of his 18th birthday, so by 10 March 2030.",
+   "C": "Within six years of his 18th birthday, so by 10 March 2033.",
+   "D": "Within six years of the accident, so by 1 July 2030.",
+   "E": "There is no time limit until a litigation friend is appointed, and time then runs for three years from that appointment."
+  },
+  "answer": "B",
+  "explanation": "Leo's claim is for damages for negligence consisting of personal injuries, so s 11 of the Limitation Act 1980 applies, with a basic period of three years from accrual or the date of knowledge. However, s 28(1) provides that where the person to whom the right of action accrued was under a disability on the date it accrued, the action may be brought at any time before the expiration of six years from the date when he ceased to be under a disability. Under s 38(2) a person is under a disability while he is an infant (under 18). By s 28(6), where s 11 applies, 'three years' is substituted for 'six years'. Leo was 15 when the cause of action accrued, so time does not begin to run against him until he turns 18 on 10 March 2027. The claim must therefore be issued within three years of that date, by 10 March 2030.",
+  "why_wrong": {
+   "A": "Time does not run against a child; s 28 postpones the start of the period until Leo reaches 18.",
+   "C": "For personal injury claims s 28(6) substitutes three years for six, so the period is three years from majority.",
+   "D": "Six years from the accident is the general tort period under s 2, which does not apply to personal injury claims.",
+   "E": "Appointing a litigation friend does not start time; time runs from the date the disability (minority) ends."
+  },
+  "key_rule": "Where a personal injury claimant is under 18 when the cause of action accrues, the claim may be brought within three years of the claimant's 18th birthday (LA 1980, ss 11, 28(1) and (6), 38(2)).",
+  "authority": "Limitation Act 1980, ss 11(4), 28(1) and (6), 38(2)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1980/58/section/28",
+  "tags": [
+   "limitation",
+   "personal injury",
+   "children",
+   "time limits"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Resolving a dispute through a civil claim: calculating limitation periods for claims in contract and tort",
+   "context_subject": "Dispute Resolution",
+   "source_type": "legislation",
+   "source_quote": "subsection (1) above shall have effect as if for the words “six years” there were substituted the words “three years”",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Quote is from s 28(6); s 28(1), s 11 and s 38(2) were also fetched from legislation.gov.uk (up to date to 15/16 Oct 2026, no relevant outstanding changes). Pending government proposals on limitation for child sexual abuse claims do not affect this scenario."
+  }
+ },
+ {
+  "id": "lib-dr-006",
+  "subject": "Dispute Resolution",
+  "flk": "FLK1",
+  "difficulty": "hard",
+  "title": "Applicable law where both parties live in England but the accident is abroad (Rome II, art 4(2))",
+  "scenario": "Priya Raman and her friend Hannah Brooks both live in Manchester and are habitually resident in England. While on holiday in Spain, Hannah drove a hire car that she had rented from a Spanish company, with Priya as her passenger. Hannah lost control of the car through careless driving, and Priya was injured in the crash near Malaga. After returning home Priya received follow-up treatment in Manchester. She has issued a negligence claim against Hannah in the County Court in England. The parties have made no agreement about which law should apply.",
+  "stem": "Which law will the English court apply to Priya's claim in tort?",
+  "options": {
+   "A": "Spanish law, because the damage occurred in Spain and that is the general rule for tort claims.",
+   "B": "Spanish law, because Hannah's hire contract with a Spanish company makes the tort manifestly more closely connected with Spain.",
+   "C": "English law, because both parties were habitually resident in England when the damage occurred.",
+   "D": "English law, because an English court always applies its own law to a tort claim issued in England.",
+   "E": "English law, because Priya's continuing loss and treatment are being suffered in England."
+  },
+  "answer": "C",
+  "explanation": "The English court determines the law applicable to non-contractual obligations under the retained Rome II Regulation (Regulation (EC) No 864/2007, as it applies in the UK). Article 4(1) contains the general rule: the law of the country in which the damage occurs, irrespective of where the indirect consequences are felt. That would point to Spain. However, art 4(2) displaces the general rule where the person claimed to be liable and the person sustaining damage both have their habitual residence in the same country at the time the damage occurs; the law of that country then applies. Hannah and Priya were both habitually resident in England when the crash happened, so English law governs the claim. Article 4(3) would apply only if the tort were manifestly more closely connected with another country, for example through a pre-existing relationship between the parties themselves. The hire contract is between Hannah and a third party, so it does not have that effect.",
+  "why_wrong": {
+   "A": "The place-of-damage rule in art 4(1) is displaced by art 4(2) where both parties share a habitual residence.",
+   "B": "Art 4(3) looks for a manifestly closer connection, such as a pre-existing relationship between the parties; Hannah's contract with a third party does not create one.",
+   "D": "The court does not apply its own law automatically; it applies Rome II, which here happens to point to English law.",
+   "E": "Art 4(1) expressly disregards the country where indirect consequences, such as continuing loss or treatment, occur."
+  },
+  "key_rule": "Under Rome II art 4(2), where the tortfeasor and victim share a habitual residence when the damage occurs, that country's law applies instead of the law of the place of damage.",
+  "authority": "Regulation (EC) No 864/2007 (Rome II), art 4, as retained in UK law",
+  "verified_source_url": "https://www.legislation.gov.uk/eur/2007/864/article/4",
+  "tags": [
+   "applicable law",
+   "rome ii",
+   "tort",
+   "conflict of laws"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Resolving a dispute through a civil claim: applicable law: mechanisms to determine which country's laws apply to a contractual or tortious claim issued in the courts of England and Wales",
+   "context_subject": "Dispute Resolution",
+   "source_type": "legislation",
+   "source_quote": "where the person claimed to be liable and the person sustaining damage both have their habitual residence in the same country at the time when the damage occurs, the law of that country shall apply.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "legislation.gov.uk shows no outstanding UK effects for art 4 (checked 16 Oct 2026). The UK is not party to the 1971 Hague Traffic Accidents Convention, so Rome II governs in an English court."
+  }
+ },
+ {
+  "id": "lib-dr-007",
+  "subject": "Dispute Resolution",
+  "flk": "FLK1",
+  "difficulty": "easy",
+  "title": "Where to start a money claim: High Court or County Court (PD 7A, para 2.1)",
+  "scenario": "Marcus Delaney, the finance director of Pennine Steel Supplies Ltd, instructs a solicitor to recover £85,000 owed by a customer for steel delivered and invoiced. The customer has raised a dispute about some of the invoices. Marcus would like the claim issued in the High Court, which he believes will put more pressure on the customer, and he says the dispute is commercially important to his company. The claim is not a personal injury claim and no enactment requires it to be issued in a particular court.",
+  "stem": "In which court should the claim be started?",
+  "options": {
+   "A": "The High Court, because the claim is worth more than £25,000.",
+   "B": "The High Court, because claims of £50,000 or more may be started there.",
+   "C": "Either court, at the claimant's choice, because the claim is for a specified sum.",
+   "D": "The High Court, if the claimant believes the claim is important enough to be dealt with by a High Court judge.",
+   "E": "The County Court, because a money claim may be started in the High Court only if its value is more than £100,000."
+  },
+  "answer": "E",
+  "explanation": "Paragraph 2.1 of Practice Direction 7A provides that proceedings, whether for damages or for a specified sum, may only be started in the High Court if the value of the claim is more than £100,000. Pennine's claim is for £85,000, so it must be started in the County Court, whatever Marcus's views about pressure or commercial importance. Paragraph 2.4 lists factors, such as financial value, complexity and public importance, that may make it appropriate to start a claim in the High Court, but that paragraph is expressly subject to paras 2.1 and 2.2. The County Court has unlimited financial jurisdiction in contract claims of this kind, and the claim can later be transferred if appropriate.",
+  "why_wrong": {
+   "A": "£25,000 is the upper limit of the fast track, not the threshold for starting proceedings in the High Court.",
+   "B": "£50,000 is the threshold for personal injury claims in the High Court (para 2.2), not for other money claims.",
+   "C": "Para 2.1 prevents a claim of £100,000 or less from being started in the High Court, so the claimant has no free choice.",
+   "D": "The para 2.4 factors apply only to claims that are already above the para 2.1 threshold."
+  },
+  "key_rule": "A money claim may only be started in the High Court if its value is more than £100,000 (£50,000 or more for personal injury).",
+  "authority": "CPR PD 7A, paras 2.1, 2.2 and 2.4",
+  "verified_source_url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part07/pd_part07a",
+  "tags": [
+   "high court",
+   "county court",
+   "issuing proceedings"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Where to start proceedings: allocation of business between the High Court and the county court",
+   "context_subject": "Dispute Resolution",
+   "source_type": "procedure-rules",
+   "source_quote": "Proceedings (whether for damages or for a specified sum) may only be started in the High Court if the value of the claim is more than £100,000.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "The PD 7A page fetched on 16 Oct 2026 already reflects the 1 Oct 2026 Business and Property Division renaming, which does not affect para 2.1."
+  }
+ },
+ {
+  "id": "lib-dr-008",
+  "subject": "Dispute Resolution",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Normal track for a £72,000 contract claim with a two-day trial (CPR 26.9)",
+  "scenario": "In March 2026 Calder Analytics Ltd issued a claim against one defendant, Brightline Software Ltd, for £72,000 damages for breach of a software development contract. No other remedy is sought. A defence has been filed. Both parties' directions questionnaires estimate that, if the case is managed proportionately, the trial will last two days. Each party wishes to rely on oral evidence from one IT expert. There are no other unusual features in the case.",
+  "stem": "To which track is this claim normally allocated?",
+  "options": {
+   "A": "The small claims track, because no claim for personal injury is made.",
+   "B": "The intermediate track.",
+   "C": "The fast track, because the trial will last no more than three days and expert evidence is limited.",
+   "D": "The multi-track, because the claim is worth more than £25,000.",
+   "E": "The multi-track, because the claim requires expert evidence."
+  },
+  "answer": "B",
+  "explanation": "Under CPR 26.9 the small claims track is the normal track for claims worth not more than £10,000, and the fast track is the normal track for monetary claims worth not more than £25,000 where the trial is likely to last no longer than one day and oral expert evidence is limited (CPR 26.9(5) and (6)). Calder's claim is worth £72,000, so neither applies. By CPR 26.9(7), the intermediate track is the normal track where the claim is suitable for neither of those tracks, the monetary claim is not more than £100,000, the court considers that a proportionately managed trial will not last longer than three days, oral expert evidence is likely to be limited to two experts per party, the claim can be justly and proportionately managed under Section IV of Part 28, and it is brought by one claimant against one or two defendants. All those conditions are met: two-day trial, one expert each, and one claimant against one defendant.",
+  "why_wrong": {
+   "A": "The small claims track is normally for claims of not more than £10,000; this claim is for £72,000.",
+   "C": "The fast track is limited to claims of not more than £25,000 with a trial of no more than one day.",
+   "D": "Since October 2023 claims between £25,000 and £100,000 that meet the criteria go to the intermediate track, not the multi-track.",
+   "E": "Expert evidence does not require the multi-track; the intermediate track allows oral evidence from up to two experts per party."
+  },
+  "key_rule": "The intermediate track is the normal track for claims over £25,000 and up to £100,000 with a trial of no more than three days, up to two experts per party, and limited parties (CPR 26.9(7)).",
+  "authority": "CPR 26.9(4)-(7)",
+  "verified_source_url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part26",
+  "tags": [
+   "track allocation",
+   "intermediate track",
+   "case management"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Case management: track allocation",
+   "context_subject": "Dispute Resolution",
+   "source_type": "procedure-rules",
+   "source_quote": "the claim includes a claim for monetary relief, the value of which is not more than £100,000",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Intermediate track in force for claims issued on or after 1 Oct 2023."
+  }
+ },
+ {
+  "id": "lib-dr-009",
+  "subject": "Dispute Resolution",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Deemed service of an application notice sent by email after 4.30 pm (CPR 6.26)",
+  "scenario": "Solicitors for Ravi Shah, the claimant in a County Court claim, need to serve an application notice and supporting witness statement on the defendant, Elmfield Developments Ltd. Elmfield's solicitors have previously confirmed in writing that they will accept service of documents by email, and have given their email address. Ravi's solicitors email the documents to that address at 5.10 pm on Friday 5 June 2026. Monday 8 June 2026 is not a bank holiday.",
+  "stem": "On what date are the documents deemed to be served?",
+  "options": {
+   "A": "Friday 5 June 2026.",
+   "B": "Sunday 7 June 2026.",
+   "C": "Monday 8 June 2026.",
+   "D": "Tuesday 9 June 2026.",
+   "E": "Wednesday 10 June 2026."
+  },
+  "answer": "C",
+  "explanation": "The documents are not a claim form, so their deemed date of service is governed by the table in CPR 6.26, not by CPR 6.14. Service by email is permitted because Elmfield's solicitors previously indicated in writing that they would accept service by that method and gave an email address (PD 6A, para 4.1). For 'other electronic method', CPR 6.26 provides that if the email is sent on a business day before 4.30 pm, the document is deemed served that day; in any other case, it is deemed served on the next business day after the day on which it was sent. The email was sent on a business day but after 4.30 pm, so it is deemed served on the next business day after Friday 5 June. Saturday and Sunday are not business days (CPR 6.2(b)), so deemed service is on Monday 8 June 2026.",
+  "why_wrong": {
+   "A": "Same-day deemed service applies only if the email is sent before 4.30 pm on a business day.",
+   "B": "Deemed service must fall on a business day, and Sunday is not a business day.",
+   "D": "The second business day after the relevant step is the rule for a claim form under CPR 6.14, not for other documents.",
+   "E": "No rule in CPR 6.26 produces a deemed date this late for an email."
+  },
+  "key_rule": "A document other than a claim form sent by email on a business day after 4.30 pm is deemed served on the next business day (CPR 6.26).",
+  "authority": "CPR 6.26 (table, row 5); CPR 6.2(b); PD 6A, para 4.1",
+  "verified_source_url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part06",
+  "tags": [
+   "service",
+   "deemed service",
+   "email",
+   "time limits"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Issuing and serving proceedings: deemed dates of service and time limits for serving proceedings",
+   "context_subject": "Dispute Resolution",
+   "source_type": "procedure-rules",
+   "source_quote": "If the e-mail or other electronic transmission is sent on a business day before 4.30p.m., on that day; or in any other case, on the next business day after the day on which it was sent.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-dr-010",
+  "subject": "Dispute Resolution",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Failing to apply in time to dispute jurisdiction after acknowledging service (CPR 11(4)-(5))",
+  "scenario": "Meridian Freight Ltd was served at its London office with a claim form and particulars of claim brought by Castell Trading Ltd. Meridian believes the contract contains an exclusive jurisdiction clause in favour of the courts of New York. On Monday 2 March 2026 Meridian filed an acknowledgment of service, indicating that it intends to contest jurisdiction. It then took no further step. On 30 March 2026 its new solicitors propose to issue an application under CPR Part 11 for a declaration that the court should not exercise jurisdiction. No extension of time has been agreed or ordered.",
+  "stem": "Which of the following best describes Meridian's position under CPR Part 11?",
+  "options": {
+   "A": "Meridian may apply at any time before its defence is due, because it ticked the box to contest jurisdiction on the acknowledgment of service.",
+   "B": "Meridian lost the right to dispute jurisdiction as soon as it filed an acknowledgment of service.",
+   "C": "Meridian may raise the jurisdiction point at trial, because jurisdiction can never be conferred by a procedural default.",
+   "D": "Meridian is treated as having accepted that the court has jurisdiction to try the claim, because it did not apply within 14 days after filing its acknowledgment of service.",
+   "E": "Meridian has 28 days after service of the particulars of claim to apply, so its application is still in time."
+  },
+  "answer": "D",
+  "explanation": "A defendant who wishes to dispute the court's jurisdiction, or to argue that the court should not exercise it, must first file an acknowledgment of service (CPR 11(2)). Filing the acknowledgment does not itself waive the challenge (CPR 11(3)). However, the application must be made within 14 days after filing the acknowledgment of service and be supported by evidence (CPR 11(4)). By CPR 11(5), a defendant who files an acknowledgment of service but does not make the application within that period is treated as having accepted that the court has jurisdiction to try the claim. Meridian filed its acknowledgment on 2 March 2026, so the 14 days expired long before 30 March. Indicating on the form an intention to contest jurisdiction does not replace the application. Unless the court were persuaded to extend time, Meridian is treated as having accepted jurisdiction.",
+  "why_wrong": {
+   "A": "Ticking the box is not enough; CPR 11(4) requires an application within 14 days after filing the acknowledgment.",
+   "B": "CPR 11(3) states that filing an acknowledgment of service does not of itself lose the right to dispute jurisdiction.",
+   "C": "CPR 11(5) treats a defendant who does not apply in time as having accepted the court's jurisdiction.",
+   "E": "The time limit runs 14 days from filing the acknowledgment of service, not 28 days from service of the particulars."
+  },
+  "key_rule": "A defendant disputing jurisdiction must file an acknowledgment of service and apply within 14 days after filing it, or be treated as accepting jurisdiction (CPR 11(4)-(5)).",
+  "authority": "CPR 11(2)-(5)",
+  "verified_source_url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part11",
+  "tags": [
+   "jurisdiction",
+   "acknowledgment of service",
+   "time limits"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Responding to a claim: disputing the court's jurisdiction",
+   "context_subject": "Dispute Resolution",
+   "source_type": "procedure-rules",
+   "source_quote": "does not make such an application within the period specified in paragraph (4), he is to be treated as having accepted that the court has jurisdiction to try the claim.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "The court has a general power to extend time (CPR 3.1(2)(a)); the answer is framed as the default position under Part 11 with no extension."
+  }
+ },
+ {
+  "id": "lib-dr-011",
+  "subject": "Dispute Resolution",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Default judgment entered after a late defence had been filed must be set aside (CPR 12.3(2), 13.2)",
+  "scenario": "Okoro Plant Hire Ltd sued Thistle Groundworks Ltd for £64,000. Thistle filed an acknowledgment of service, so its defence was due by 16 April 2026. Thistle filed its defence at court on 20 April 2026, four days late. On 22 April 2026, Okoro's solicitors, unaware of the defence, filed a request for default judgment, and the court entered judgment in default of defence on 24 April 2026. Thistle applies to set the judgment aside. Okoro argues that the defence was late and has no real prospect of success.",
+  "stem": "How should the court deal with Thistle's application?",
+  "options": {
+   "A": "It may set the judgment aside only if Thistle shows a real prospect of successfully defending the claim.",
+   "B": "It must refuse the application unless Thistle first obtains relief from sanctions for filing its defence late.",
+   "C": "It must refuse the application because the time for filing a defence had expired when judgment was requested.",
+   "D": "It may set the judgment aside only if Thistle applied within 14 days of the judgment being entered.",
+   "E": "It must set the judgment aside, because a defence had been filed before judgment was entered, so judgment was wrongly entered."
+  },
+  "answer": "E",
+  "explanation": "Under CPR 12.3(2)(a), judgment in default of defence may be obtained only where an acknowledgment of service has been filed but, at the date on which judgment is entered, a defence has not been filed, and the relevant time limit has expired. The test looks at the position on the date judgment is entered, not on the date the time limit expired. Thistle's defence, although late, was filed on 20 April 2026, before judgment was entered on 24 April. One of the conditions in CPR 12.3(2) was therefore not satisfied. CPR 13.2 provides that the court must set aside a judgment entered under Part 12 if it was wrongly entered because any of the conditions in CPR 12.3(2) and (3) was not satisfied. This is a mandatory set-aside, so the merits of the defence and the discretionary factors in CPR 13.3, including promptness, are irrelevant.",
+  "why_wrong": {
+   "A": "The real-prospect test is for the discretionary set-aside in CPR 13.3; wrongly entered judgments fall under the mandatory CPR 13.2.",
+   "B": "No relief from sanctions is needed; the judgment was wrongly entered and CPR 13.2 requires it to be set aside.",
+   "C": "CPR 12.3(2) asks whether a defence had been filed at the date judgment is entered, not when the time limit expired.",
+   "D": "No 14-day limit applies to a CPR 13.2 set-aside; promptness is a factor only under the discretionary CPR 13.3."
+  },
+  "key_rule": "Default judgment for want of a defence is wrongly entered if a defence, even a late one, had been filed by the date judgment was entered, and must then be set aside (CPR 12.3(2), 13.2).",
+  "authority": "CPR 12.3(2)(a), 13.2(b), 13.3",
+  "verified_source_url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part13",
+  "tags": [
+   "default judgment",
+   "setting aside",
+   "defence"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Responding to a claim: entering and setting aside judgment in default",
+   "context_subject": "Dispute Resolution",
+   "source_type": "procedure-rules",
+   "source_quote": "The court must set aside ( GL ) a judgment entered under Part 12 if judgment was wrongly entered because–",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "CPR 12.3(2) wording verified on the Part 12 page (https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part12) in the same session."
+  }
+ },
+ {
+  "id": "lib-dr-012",
+  "subject": "Dispute Resolution",
+  "flk": "FLK1",
+  "difficulty": "easy",
+  "title": "Costs consequences of discontinuing a claim (CPR 38.6)",
+  "scenario": "Selby Marine Ltd issued a multi-track claim against a single defendant, Whitcombe Boatyards Ltd, for £180,000. No interim injunction has been granted and no undertakings have been given. After disclosure, Selby's solicitors conclude that the claim is unlikely to succeed and, on Selby's instructions, file and serve a notice of discontinuance of the whole claim. No order about costs has been made and nothing has been agreed.",
+  "stem": "What is Selby's liability for costs, unless the court orders otherwise?",
+  "options": {
+   "A": "Each party bears its own costs, because there has been no judgment on the merits.",
+   "B": "Selby is liable for Whitcombe's costs incurred on or before the date on which the notice of discontinuance was served on Whitcombe.",
+   "C": "Selby is liable only for the costs Whitcombe incurs after the notice of discontinuance was served.",
+   "D": "Whitcombe must pay Selby's costs up to the date of discontinuance, because Whitcombe has not obtained judgment.",
+   "E": "Costs will be decided by the court at a hearing, because a claimant cannot discontinue without the court's permission."
+  },
+  "answer": "B",
+  "explanation": "A claimant may generally discontinue all or part of a claim at any time by filing and serving a notice of discontinuance. The court's permission is needed only in limited cases, such as where an interim injunction has been granted or an undertaking given (CPR 38.2(2)), and none applies here. The costs consequence is set by CPR 38.6(1): unless the court orders otherwise, a claimant who discontinues is liable for the costs which a defendant against whom it discontinues incurred on or before the date on which notice of discontinuance was served on that defendant. Selby is therefore liable for Whitcombe's costs up to service of the notice. This reflects the fact that discontinuance is treated much like abandoning the claim. The claim is on the multi-track, so the small claims exception in CPR 38.6(3) does not apply.",
+  "why_wrong": {
+   "A": "The default rule in CPR 38.6(1) is that the discontinuing claimant pays the defendant's costs, not that each side bears its own.",
+   "C": "The liability covers costs incurred on or before service of the notice, not costs incurred afterwards.",
+   "D": "A discontinuing claimant is presumptively the paying party; the defendant is not liable for the claimant's costs.",
+   "E": "Permission is needed only in the cases listed in CPR 38.2(2), such as where an interim injunction has been granted, and none applies here."
+  },
+  "key_rule": "Unless the court orders otherwise, a discontinuing claimant pays the defendant's costs incurred up to service of the notice of discontinuance (CPR 38.6(1)).",
+  "authority": "CPR 38.2, 38.6(1)",
+  "verified_source_url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part38",
+  "tags": [
+   "discontinuance",
+   "costs"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Responding to a claim: discontinuance and settlement",
+   "context_subject": "Dispute Resolution",
+   "source_type": "procedure-rules",
+   "source_quote": "a claimant who discontinues is liable for the costs which a defendant against whom the claimant discontinues incurred on or before the date on which notice of discontinuance was served on the defendant.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-dr-013",
+  "subject": "Dispute Resolution",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Defence that fails to deal with an allegation (CPR 16.5)",
+  "scenario": "Ashworth Fabrics Ltd's particulars of claim against Lanyon Upholstery Ltd allege that (1) the parties made a contract for the sale of fabric; (2) Ashworth delivered the fabric to Lanyon's premises on 4 March 2026; (3) the fabric matched the agreed specification; and (4) the price of £46,000 remains unpaid. Lanyon's defence admits paragraph (1). It denies paragraph (3), giving reasons and stating that the fabric was the wrong weight. It says it will put Ashworth to proof of the amount claimed in paragraph (4). The defence says nothing at all about paragraph (2) and does not set out any case on delivery.",
+  "stem": "How will the allegation in paragraph (2), about delivery on 4 March 2026, be treated?",
+  "options": {
+   "A": "Lanyon will be taken to admit it.",
+   "B": "Ashworth will be required to prove it.",
+   "C": "Lanyon will be taken to deny it.",
+   "D": "The court will automatically order Lanyon to provide further information about it before it is treated as admitted or denied.",
+   "E": "The whole defence will be struck out for failing to comply with the rules on the content of a defence."
+  },
+  "answer": "A",
+  "explanation": "CPR 16.5(1) requires a defendant to deal with every allegation in the particulars of claim, stating which are denied, which it cannot admit or deny but requires the claimant to prove, and which it admits. There are two exceptions to the consequence of silence. Under CPR 16.5(3), if the defendant fails to deal with an allegation but sets out in the defence the nature of its case on the issue to which the allegation is relevant, the claimant must prove the allegation. Under CPR 16.5(4), in a money claim the claimant must prove any allegation about the amount claimed unless it is expressly admitted. Neither applies to the delivery allegation. Lanyon says nothing about delivery and does not set out any case on that issue, and the date of delivery is not an allegation about the amount of money claimed. By CPR 16.5(5), Lanyon is therefore taken to admit the allegation in paragraph (2).",
+  "why_wrong": {
+   "B": "The claimant must prove an allegation the defence does not deal with only where the defence sets out the defendant's case on that issue (CPR 16.5(3)), which Lanyon's does not.",
+   "C": "Silence is not treated as a denial; a denial must be stated with reasons (CPR 16.5(2)).",
+   "D": "There is no automatic Part 18 order; the CPR 16.5(5) consequence applies directly.",
+   "E": "Failure to deal with one allegation leads to a deemed admission of that allegation, not automatic striking out of the whole defence."
+  },
+  "key_rule": "Subject to CPR 16.5(3) and (4), a defendant who fails to deal with an allegation in the particulars of claim is taken to admit it (CPR 16.5(5)).",
+  "authority": "CPR 16.5(1)-(5)",
+  "verified_source_url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part16",
+  "tags": [
+   "statements of case",
+   "defence",
+   "admissions"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Statements of case: purpose, structure and content of a claim form, particulars of claim, or defence relating to a claim in contract or tort",
+   "context_subject": "Dispute Resolution",
+   "source_type": "procedure-rules",
+   "source_quote": "Subject to paragraphs (3) and (4), a defendant who fails to deal with an allegation shall be taken to admit that allegation.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-dr-014",
+  "subject": "Dispute Resolution",
+  "flk": "FLK1",
+  "difficulty": "easy",
+  "title": "Amending particulars of claim after service (CPR 17.1(2))",
+  "scenario": "Three weeks ago, Bramwell Events Ltd served particulars of claim on Corvin Catering Ltd claiming damages for breach of a catering contract. Corvin has not yet filed a defence. Bramwell's solicitor now realises that the particulars omit a head of loss for lost profits that Bramwell wishes to claim. Corvin's solicitors have said in writing that they will not consent to any amendment. The limitation period has not expired.",
+  "stem": "Which of the following best describes how Bramwell may amend its particulars of claim?",
+  "options": {
+   "A": "Bramwell may amend without anyone's consent or permission at any time before Corvin files its defence.",
+   "B": "Bramwell may amend without permission within 28 days after service of the particulars of claim.",
+   "C": "Bramwell needs the court's permission only if the limitation period has expired; otherwise it may amend freely.",
+   "D": "Bramwell may amend only with the court's permission, because the particulars have been served and Corvin does not consent.",
+   "E": "Bramwell cannot amend served particulars of claim at all and must discontinue and issue a fresh claim."
+  },
+  "answer": "D",
+  "explanation": "CPR 17.1(1) allows a party to amend its statement of case at any time before it has been served on any other party. Once it has been served, CPR 17.1(2) provides that the party may amend it only with the written consent of all the other parties or with the permission of the court. Bramwell's particulars have already been served and Corvin has refused consent, so Bramwell must apply to the court for permission to amend, usually under Part 23 with a draft of the amended particulars. When deciding whether to give permission, the court applies the overriding objective. The fact that Corvin has not yet filed a defence does not matter, and the limitation period is relevant only to the special rules for amendments after it has expired (CPR 17.4), which do not apply here.",
+  "why_wrong": {
+   "A": "The freedom to amend without consent or permission ends when the statement of case is served, not when the defence is filed.",
+   "B": "There is no 28-day window for amending without permission after service.",
+   "C": "Permission (or written consent) is needed for any amendment after service; limitation brings in additional restrictions under CPR 17.4.",
+   "E": "Served statements of case can be amended with written consent or the court's permission; there is no need to discontinue."
+  },
+  "key_rule": "After service, a statement of case may be amended only with the written consent of all other parties or the court's permission (CPR 17.1(2)).",
+  "authority": "CPR 17.1",
+  "verified_source_url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part17",
+  "tags": [
+   "statements of case",
+   "amendments"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Statements of case: amendments",
+   "context_subject": "Dispute Resolution",
+   "source_type": "procedure-rules",
+   "source_quote": "If his statement of case has been served, a party may amend it only – (a) with the written consent of all the other parties; or (b) with the permission of the court.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-dr-015",
+  "subject": "Dispute Resolution",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Approach to an interim prohibitory injunction (American Cyanamid principles)",
+  "scenario": "Nova Artisan Bakeries Ltd alleges that its former distributor, Greystone Foods Ltd, is about to launch a range of pastries using Nova's confidential recipes. Nova applies for an interim injunction restraining the launch until trial. The witness statements conflict sharply about whether the recipes were confidential and whether Greystone used them. Nova says that, if the launch goes ahead, the damage to its market share would be very hard to quantify. Greystone has not yet launched the range.",
+  "stem": "Which of the following best describes the approach the court should take to Nova's application?",
+  "options": {
+   "A": "The court should grant the injunction only if Nova shows that it is more likely than not to succeed at trial on the written evidence now available.",
+   "B": "The court should resolve the conflicts in the witness statements to decide who is telling the truth, and grant the injunction if it prefers Nova's evidence.",
+   "C": "The court should ask whether there is a serious question to be tried and, if so, consider the adequacy of damages for each side and then the balance of convenience, usually requiring Nova to give a cross-undertaking in damages.",
+   "D": "The court should grant the injunction automatically once Nova shows that damages would not be an adequate remedy for it, without considering the effect on Greystone.",
+   "E": "The court should refuse the injunction because injunctions are final remedies and cannot be granted before liability has been decided at trial."
+  },
+  "answer": "C",
+  "explanation": "In American Cyanamid Co v Ethicon Ltd [1975] UKHL 1, Lord Diplock rejected any requirement to show a prima facie case on the balance of probabilities. The court must first be satisfied that the claim is not frivolous or vexatious, in other words that there is a serious question to be tried, and it should not try to resolve conflicts of evidence on the written material. If there is, the court considers whether damages would adequately compensate the claimant if it wins at trial and the defendant could pay them. If not, it considers whether the defendant would be adequately protected by the claimant's undertaking in damages if the defendant wins. Where doubt remains, the court weighs the balance of convenience, and where other factors are evenly balanced it is prudent to preserve the status quo. Greystone has not yet launched, which may favour restraint. Unless the court orders otherwise, an interim injunction order must contain the applicant's undertaking to pay any damages the respondent sustains which the court considers the applicant should pay (CPR 25.9(3)(a)).",
+  "why_wrong": {
+   "A": "American Cyanamid rejected a requirement to show a probability of success; a serious question to be tried is enough at the first stage.",
+   "B": "The court should not try to resolve conflicts of evidence at the interim stage; that is for trial.",
+   "D": "Inadequacy of damages for the claimant is only one stage; the court must also consider the defendant's protection and the balance of convenience.",
+   "E": "CPR 25.1(1)(a) lists an interim injunction as an interim remedy that may be granted before trial."
+  },
+  "key_rule": "An interim injunction requires a serious question to be tried, then consideration of the adequacy of damages for each party and the balance of convenience, normally with a cross-undertaking in damages.",
+  "authority": "American Cyanamid Co v Ethicon Ltd [1975] UKHL 1; CPR 25.1(1)(a), 25.9(3)(a)",
+  "verified_source_url": "https://www.bailii.org/uk/cases/UKHL/1975/1.html",
+  "tags": [
+   "interim injunctions",
+   "interim applications",
+   "american cyanamid"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Interim applications: purpose, procedure and evidence required for particular applications: interim injunctions",
+   "context_subject": "Dispute Resolution",
+   "source_type": "judgment",
+   "source_quote": "The court no doubt must be satisfied that the claim is not frivolous or vexatious; in other words, that there is a serious question to be tried.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "CPR 25.9(3)(a) (new Part 25, in force 6 Apr 2025) verified on the Part 25 page (https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part25)."
+  }
+ },
+ {
+  "id": "lib-dr-016",
+  "subject": "Dispute Resolution",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Conditions for and limit on an interim payment order (CPR 25.20 and 25.23)",
+  "scenario": "Hollis Engineering Ltd claims £200,000 damages from Pryor Components Ltd for supplying defective gearboxes. Pryor's defence admits liability but disputes the amount of loss. Both parties' expert evidence suggests that Hollis is likely to recover between £120,000 and £150,000 at trial. Hollis is short of cash and applies for an interim payment of £140,000. Pryor is a solvent private company. The time for filing an acknowledgment of service has long passed.",
+  "stem": "Which of the following best describes the court's power to order an interim payment?",
+  "options": {
+   "A": "The court cannot order an interim payment until Hollis has obtained judgment for damages to be assessed.",
+   "B": "The court may order an interim payment of up to the full £200,000 claimed, because Pryor has admitted liability.",
+   "C": "The court may order an interim payment only if Hollis shows that it will suffer financial hardship without one.",
+   "D": "The court may order an interim payment only if Pryor is insured against the claim or is a public body.",
+   "E": "The court may order an interim payment because Pryor has admitted liability, but it must not order more than a reasonable proportion of the likely amount of the final judgment."
+  },
+  "answer": "E",
+  "explanation": "An interim payment is a payment on account of any sum (except costs) that the defendant may be held liable to pay (CPR 25.1(1)(l)). The claimant may apply once the period for filing an acknowledgment of service has ended (CPR 25.21(1)). Under CPR 25.23, the court may make an order only if one of the listed conditions is satisfied. These include that the defendant has admitted liability to pay damages or another sum (CPR 25.23(a)) and that the claimant would obtain judgment for a substantial amount if the claim went to trial (CPR 25.23(c)). Pryor has admitted liability, so the court has power to order a payment. However, CPR 25.20(1) provides that the court must not order an interim payment of more than a reasonable proportion of the likely amount of the final judgment, taking into account any contributory negligence, set-off or counterclaim (CPR 25.20(2)). The likely award is £120,000 to £150,000, so any order must be a reasonable proportion of that, not the full sum claimed.",
+  "why_wrong": {
+   "A": "Judgment for damages to be assessed is only one of the alternative conditions; an admission of liability is enough under CPR 25.23(a).",
+   "B": "The cap is a reasonable proportion of the likely final judgment, not the amount claimed (CPR 25.20(1)).",
+   "C": "Financial need is not one of the CPR 25.23 conditions.",
+   "D": "The insured or public body requirement applies only to the multiple-defendant condition in CPR 25.23(f)."
+  },
+  "key_rule": "An interim payment may be ordered if a CPR 25.23 condition, such as an admission of liability, is met, but must not exceed a reasonable proportion of the likely final judgment.",
+  "authority": "CPR 25.1(1)(l), 25.20, 25.21, 25.23",
+  "verified_source_url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part25",
+  "tags": [
+   "interim payments",
+   "interim applications"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Interim applications: purpose, procedure and evidence required for particular applications: interim payments",
+   "context_subject": "Dispute Resolution",
+   "source_type": "procedure-rules",
+   "source_quote": "The court must not order an interim payment of more than a reasonable proportion of the likely amount of the final judgment.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Part 25 was rewritten with effect from 6 Apr 2025 (SI 2025/106); old rules 25.6-25.7 are now 25.20-25.23. The justice.gov.uk page's 'Updated' stamp (Dec 2023) is stale, but its text is the new Part 25."
+  }
+ },
+ {
+  "id": "lib-dr-017",
+  "subject": "Dispute Resolution",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Failure to file a costs budget on time (CPR 3.13 and 3.14)",
+  "scenario": "Dunmore Developments Ltd is the claimant in a Part 7 multi-track claim for £400,000 damages for breach of a construction contract. The first costs and case management conference is listed for 15 July 2026. No order has been made dispensing with costs budgets or changing the time for filing them. Dunmore is legally represented, but its solicitors overlooked the deadline and did not file or exchange Dunmore's costs budget at least 21 days before the conference.",
+  "stem": "Unless the court otherwise orders, what is the consequence for Dunmore?",
+  "options": {
+   "A": "Dunmore will be treated as having filed a budget comprising only the applicable court fees.",
+   "B": "There is no consequence, provided the budget is filed before the conference starts.",
+   "C": "Dunmore's claim is automatically struck out.",
+   "D": "Dunmore's recoverable costs will automatically be reduced by 50%.",
+   "E": "There is no consequence, because costs budgets are required only where the claim is worth less than £50,000."
+  },
+  "answer": "A",
+  "explanation": "Costs management under Section II of Part 3 applies to Part 7 multi-track claims, subject to exceptions such as claims of £10 million or more (CPR 3.12). Dunmore's £400,000 claim is within the scheme. By CPR 3.13(1), unless the court otherwise orders, all parties except litigants in person must file and exchange budgets. Where the stated value of the claim is less than £50,000 this is done with the directions questionnaire; in any other case it must be done not later than 21 days before the first case management conference. Dunmore missed that deadline. CPR 3.14 provides that, unless the court otherwise orders, any party which fails to file a budget despite being required to do so will be treated as having filed a budget comprising only the applicable court fees. Dunmore's only route out is to apply for relief from sanctions under CPR 3.9.",
+  "why_wrong": {
+   "B": "For a claim of £50,000 or more the budget must be filed at least 21 days before the first CCMC, and missing the deadline triggers CPR 3.14.",
+   "C": "Strike-out is not the CPR 3.14 sanction; the party is limited to a budget of court fees.",
+   "D": "No automatic 50% reduction exists; the sanction is a budget limited to court fees.",
+   "E": "Below £50,000 the budget is filed with the directions questionnaire; larger multi-track claims also require budgets, filed 21 days before the first CCMC."
+  },
+  "key_rule": "Unless the court orders otherwise, a party that fails to file a required costs budget is treated as having filed a budget comprising only the applicable court fees (CPR 3.14).",
+  "authority": "CPR 3.12, 3.13(1), 3.14, 3.9",
+  "verified_source_url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part03",
+  "tags": [
+   "costs management",
+   "costs budgets",
+   "sanctions",
+   "costs"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Costs: costs management and budgeting",
+   "context_subject": "Dispute Resolution",
+   "source_type": "procedure-rules",
+   "source_quote": "any party which fails to file a budget despite being required to do so will be treated as having filed a budget comprising only the applicable court fees.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "SI 2026/817 omitted CPR 3.16(2) (CCMCs by telephone or in writing) from 1 Oct 2026; this question does not depend on it."
+  }
+ },
+ {
+  "id": "lib-dr-018",
+  "subject": "Dispute Resolution",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Conditions for pre-action disclosure (CPR 31.16)",
+  "scenario": "Kenji Watanabe's bakery in Leeds suffered a fire which he believes was caused by a commercial oven supplied and serviced by Thermacore Ltd. Kenji intends to sue Thermacore for breach of contract and negligence, but Thermacore has refused his request for copies of its service and fault records for the oven. Kenji's solicitor considers applying to the court for an order for disclosure of those records before issuing proceedings.",
+  "stem": "Which of the following must the court be satisfied of before it can order pre-action disclosure?",
+  "options": {
+   "A": "That Kenji has a strong prima facie case that Thermacore caused the fire.",
+   "B": "That Kenji and Thermacore are both likely to be parties to subsequent proceedings, that the records would fall within Thermacore's standard disclosure duty, and that early disclosure is desirable to dispose fairly of the anticipated proceedings, assist settlement without proceedings or save costs.",
+   "C": "That Kenji has already issued a claim form, because disclosure orders can only be made in existing proceedings.",
+   "D": "That Thermacore is not likely to become a party to any proceedings, because pre-action disclosure is available only against non-parties.",
+   "E": "That the anticipated claim is for personal injury or death, because pre-action disclosure is limited to such claims."
+  },
+  "answer": "B",
+  "explanation": "An application for disclosure before proceedings have started is made under s 33 of the Senior Courts Act 1981 or s 52 of the County Courts Act 1984 and is governed by CPR 31.16. It must be supported by evidence (CPR 31.16(2)). By CPR 31.16(3), the court may make an order only where the respondent is likely to be a party to subsequent proceedings, the applicant is also likely to be a party, the documents sought would fall within the respondent's duty of standard disclosure under CPR 31.6 if proceedings had started, and disclosure before proceedings is desirable in order to dispose fairly of the anticipated proceedings, assist the dispute to be resolved without proceedings, or save costs. Kenji and Thermacore are the obvious likely parties, and the service and fault records are likely to support or adversely affect a party's case. Even if the conditions are met, the court still has a discretion whether to order disclosure.",
+  "why_wrong": {
+   "A": "CPR 31.16(3) does not require a strong prima facie case on the merits.",
+   "C": "CPR 31.16 exists specifically for disclosure before proceedings have started.",
+   "D": "Disclosure against non-parties is governed by CPR 31.17; CPR 31.16 requires the respondent to be a likely party.",
+   "E": "Pre-action disclosure is no longer limited to personal injury and death claims; CPR 31.16 applies to any type of claim."
+  },
+  "key_rule": "Pre-action disclosure requires both parties to be likely parties, the documents to be within standard disclosure, and early disclosure to be desirable for fair disposal, settlement or saving costs (CPR 31.16(3)).",
+  "authority": "CPR 31.16; Senior Courts Act 1981, s 33; County Courts Act 1984, s 52",
+  "verified_source_url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part31",
+  "tags": [
+   "disclosure",
+   "pre-action disclosure"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Disclosure and inspection: pre-action and non-party disclosure",
+   "context_subject": "Dispute Resolution",
+   "source_type": "procedure-rules",
+   "source_quote": "the respondent is likely to be a party to subsequent proceedings; (b) the applicant is also likely to be a party to those proceedings;",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Part 31 page reflects the 1 Oct 2026 gender-neutral redrafting (no change of substance to r 31.16). New r 31.12A (6 Apr 2026, ordering a party to request documents from a non-party) is not tested."
+  }
+ },
+ {
+  "id": "lib-dr-019",
+  "subject": "Dispute Resolution",
+  "flk": "FLK1",
+  "difficulty": "hard",
+  "title": "Litigation privilege: contemplated litigation and dominant purpose (SFO v ENRC; Three Rivers (No 6))",
+  "scenario": "A fire damaged Orion Storage Ltd's warehouse in Swindon. Two days later, Orion's operations director commissioned an independent fire investigator to identify the cause so that Orion could improve its safety procedures. At that time no one had suggested any claim and none was contemplated. Report 1 was delivered a month later. Three months after the fire, a tenant, Velasquez Textiles Ltd, sent a letter of claim alleging that Orion's negligence caused the fire. Orion's solicitors then instructed a fire engineer to report on liability so that they could advise Orion on defending the threatened claim (Report 2). Velasquez has now issued proceedings and seeks inspection of both reports.",
+  "stem": "Which of the following best describes whether the reports are protected by litigation privilege?",
+  "options": {
+   "A": "Both reports are privileged, because both were obtained in connection with the fire that is the subject of the claim.",
+   "B": "Neither report is privileged, because communications with third parties can only ever be protected by legal advice privilege.",
+   "C": "Report 1 is privileged, because any document that later turns out to be useful in litigation is protected.",
+   "D": "Report 1 is not privileged, because litigation was not in contemplation and its dominant purpose was not the conduct of litigation; Report 2 is protected by litigation privilege.",
+   "E": "Report 2 is not privileged, because a party must always disclose any expert report it has obtained, whether or not it relies on it."
+  },
+  "answer": "D",
+  "explanation": "In SFO v ENRC [2018] EWCA Civ 2006, para 64, the Court of Appeal restated Lord Carswell's test in Three Rivers DC v Bank of England (No 6) [2004] UKHL 48. Communications between parties or their solicitors and third parties for the purpose of obtaining information or advice in connection with existing or contemplated litigation are privileged only when litigation is in progress or in contemplation, the communications were made for the sole or dominant purpose of conducting that litigation, and the litigation is adversarial. When Report 1 was commissioned, no claim had been suggested or contemplated, and its purpose was operational: finding the cause in order to improve safety. It fails the first two conditions, so it is not privileged and, if relevant, must be disclosed and is open to inspection. Report 2 was commissioned by solicitors after a letter of claim, for the dominant purpose of advising on defending that claim. It is protected by litigation privilege. Orion would lose that protection only if it chose to rely on the report as expert evidence.",
+  "why_wrong": {
+   "A": "A connection with the subject matter is not enough; litigation must be in contemplation and the dominant purpose must be the litigation.",
+   "B": "Litigation privilege specifically covers communications with third parties, such as experts, made for the dominant purpose of contemplated litigation.",
+   "C": "Later usefulness does not create privilege; the test is applied to the purpose and circumstances when the document was created.",
+   "E": "A privileged expert report need not be disclosed unless the party chooses to rely on it; CPR 35.13 concerns reports a party wishes to use."
+  },
+  "key_rule": "Litigation privilege protects communications with third parties only if litigation was in progress or reasonably contemplated and the communication's sole or dominant purpose was conducting that adversarial litigation.",
+  "authority": "SFO v Eurasian Natural Resources Corp Ltd [2018] EWCA Civ 2006, para 64; Three Rivers DC v Bank of England (No 6) [2004] UKHL 48, para 102",
+  "verified_source_url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2018/2006",
+  "tags": [
+   "privilege",
+   "litigation privilege",
+   "disclosure"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Disclosure and inspection: privilege and without prejudice communications",
+   "context_subject": "Dispute Resolution",
+   "source_type": "judgment",
+   "source_quote": "(a) litigation must be in progress or in contemplation; (b) the communications must have been made for the sole or dominant purpose of conducting that litigation;",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Quote is from ENRC para 64 quoting Three Rivers (No 6) para 102; Three Rivers itself was not opened (BAILII bot-check blocked direct fetch)."
+  }
+ },
+ {
+  "id": "lib-dr-020",
+  "subject": "Dispute Resolution",
+  "flk": "FLK1",
+  "difficulty": "hard",
+  "title": "Failure to comply with hearsay notice requirements (Civil Evidence Act 1995, s 2(4); CPR 33.2)",
+  "scenario": "In a multi-track claim by Lindqvist Shipping Ltd against Barrow Port Services Ltd, Lindqvist served a signed witness statement of a former employee, Dariusz Nowak, on time, in accordance with the court's directions. Mr Nowak has since emigrated and will not attend trial. Lindqvist intends to rely on his statement at trial, but its solicitors never told Barrow that Mr Nowak would not be called or why. At trial, Barrow objects that the statement is inadmissible.",
+  "stem": "Which of the following best describes the position?",
+  "options": {
+   "A": "The statement is inadmissible, because hearsay evidence is excluded in civil proceedings unless all parties agree.",
+   "B": "The statement is inadmissible, because the notice requirements for hearsay evidence were not complied with.",
+   "C": "The statement is admissible and must be given the same weight as if Mr Nowak had given oral evidence.",
+   "D": "The statement is admissible only if Barrow applied within 14 days to cross-examine Mr Nowak and failed to do so.",
+   "E": "The statement is admissible, but the failure may be taken into account in relation to case management and costs, and as reducing the weight given to the evidence."
+  },
+  "answer": "E",
+  "explanation": "Under s 1(1) of the Civil Evidence Act 1995, evidence in civil proceedings shall not be excluded on the ground that it is hearsay. Mr Nowak's statement, tendered without calling him, is hearsay. CPR 33.2(1)(b) and (2) give effect to the notice duty in s 2(1) of the Act. Where a party relies on the witness statement of a person who will not give oral evidence, it must, when serving the statement, inform the other parties that the witness is not being called and give the reason. Lindqvist did not do this. However, s 2(4) of the Act provides that a failure to comply with the notice duty, or with rules of court about it, does not affect the admissibility of the evidence. The court may take the failure into account when exercising its powers over the course of proceedings and costs, and as a matter adversely affecting the weight given to the evidence under s 4. The statement is therefore admissible, but its weight may be reduced.",
+  "why_wrong": {
+   "A": "Section 1(1) CEA 1995 provides that civil evidence is not excluded on the ground that it is hearsay.",
+   "B": "Section 2(4) CEA 1995 provides that failure to give notice does not affect admissibility.",
+   "C": "Hearsay weight is assessed under s 4 CEA 1995, and the failure to give notice may count against its weight.",
+   "D": "An application to cross-examine under CPR 33.4 is an option for the opponent, not a condition of admissibility."
+  },
+  "key_rule": "Failure to give hearsay notice does not make the evidence inadmissible but may affect case management, costs and the weight given to it (CEA 1995, s 2(4)).",
+  "authority": "Civil Evidence Act 1995, ss 1, 2(4) and 4; CPR 33.2",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1995/38/section/2",
+  "tags": [
+   "hearsay",
+   "evidence",
+   "civil evidence act 1995"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Evidence: relevance, hearsay and admissibility",
+   "context_subject": "Dispute Resolution",
+   "source_type": "legislation",
+   "source_quote": "A failure to comply with subsection (1), or with rules under subsection (2)(b), does not affect the admissibility of the evidence but may be taken into account by the court",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "CPR 33.2 verified on https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part33; legislation.gov.uk shows no outstanding effects for CEA 1995 ss 1-2."
+  }
+ },
+ {
+  "id": "lib-dr-021",
+  "subject": "Dispute Resolution",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Putting written questions to the other side's expert (CPR 35.6)",
+  "scenario": "In a building dispute between Ferris Homes Ltd and Quayle Roofing Ltd, the court has given each party permission to rely on a surveyor. Quayle served its surveyor's report on Ferris on 2 March 2026. Ferris's solicitors want to put written questions to Quayle's surveyor to clarify some of the measurements. They also hope to put a second set of questions later, after their own expert has reviewed the answers. Quayle has not agreed to anything beyond what the rules allow, and no order has been made about questions to experts.",
+  "stem": "Which of the following correctly states the rule on Ferris's written questions to Quayle's surveyor?",
+  "options": {
+   "A": "Ferris may put proportionate written questions once only, within 28 days of service of the report, for the purpose only of clarifying it, unless the court gives permission or Quayle agrees; the answers are treated as part of the report.",
+   "B": "Written questions may be put only to a single joint expert, so Ferris must raise its queries in cross-examination at trial.",
+   "C": "Ferris may put written questions within 14 days of service of the report, and the expert's answers do not form part of the report.",
+   "D": "Ferris may put as many sets of written questions as it reasonably needs at any time before the trial.",
+   "E": "Ferris may put written questions on any matter in the case, including issues not covered by the report, provided they are put within 28 days."
+  },
+  "answer": "A",
+  "explanation": "CPR 35.6(1) allows a party to put written questions about an expert's report, which must be proportionate, to an expert instructed by another party or to a single joint expert. By CPR 35.6(2), the questions may be put once only, must be put within 28 days of service of the report, and must be for the purpose only of clarification of the report, unless the court gives permission or the other party agrees. Quayle's report was served on 2 March 2026, so Ferris has 28 days from service to put one set of clarifying questions. A second set later would need Quayle's agreement or the court's permission. By CPR 35.6(3), the expert's answers are treated as part of the expert's report. If the expert fails to answer, CPR 35.6(4) allows the court to order that the instructing party may not rely on the evidence, or may not recover the expert's fees.",
+  "why_wrong": {
+   "B": "CPR 35.6(1)(a) expressly allows questions to an expert instructed by another party, not just to a single joint expert.",
+   "C": "The period is 28 days, not 14, and the answers are treated as part of the report (CPR 35.6(3)).",
+   "D": "Questions may be put once only unless the court gives permission or the other party agrees.",
+   "E": "Questions must be for the purpose only of clarifying the report, not for exploring new issues."
+  },
+  "key_rule": "Unless the court permits or the other party agrees, written questions to an expert may be put once only, within 28 days of service of the report, for clarification only (CPR 35.6).",
+  "authority": "CPR 35.6",
+  "verified_source_url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part35",
+  "tags": [
+   "expert evidence",
+   "written questions",
+   "evidence"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Evidence: expert evidence",
+   "context_subject": "Dispute Resolution",
+   "source_type": "procedure-rules",
+   "source_quote": "(a) may be put once only; (b) must be put within 28 days of service of the expert’s report; and (c) must be for the purpose only of clarification of the report,",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-dr-022",
+  "subject": "Dispute Resolution",
+  "flk": "FLK1",
+  "difficulty": "easy",
+  "title": "When a witness summons is binding (CPR 34.5 and 34.7)",
+  "scenario": "Bethany Clarke is the claimant in a County Court claim for unpaid consultancy fees. The trial is listed to start on Monday 6 July 2026. A former colleague, Tomasz Wojcik, saw the key conversation but is reluctant to attend court voluntarily. Bethany's solicitor plans to ask the court to issue a witness summons requiring Mr Wojcik to attend the trial and give evidence.",
+  "stem": "As a general rule, what must happen for the witness summons to bind Mr Wojcik?",
+  "options": {
+   "A": "It must be served at least 7 days before the date on which he is required to attend, and at the time of service he must be offered or paid his travelling expenses and compensation for loss of time.",
+   "B": "It must be served at least 14 days before the date on which he is required to attend.",
+   "C": "It must be served at least 21 days before the date on which he is required to attend.",
+   "D": "It may be served at any time before the trial, provided he is paid his expenses when he arrives at court.",
+   "E": "It must be served at least 3 days before the date on which he is required to attend."
+  },
+  "answer": "A",
+  "explanation": "A witness summons is a document issued by the court requiring a witness to attend court to give evidence or to produce documents (CPR 34.2). Under CPR 34.5(1), the general rule is that a witness summons is binding if it is served at least 7 days before the date on which the witness is required to attend before the court. The court may direct that a summons served less than 7 days before is binding (CPR 34.5(2)). CPR 34.7 also requires that, at the time of service, the witness must be offered or paid a sum reasonably sufficient to cover travelling expenses to and from court, and compensation for loss of time as specified in Practice Direction 34A. Bethany's solicitor should therefore make sure the summons is served on Mr Wojcik at least 7 days before 6 July 2026, with conduct money offered at the time of service.",
+  "why_wrong": {
+   "B": "Fourteen days is not required; the general rule is at least 7 days before attendance.",
+   "C": "Twenty-one days is not the rule; the general rule is at least 7 days.",
+   "D": "The 7-day rule applies unless the court directs otherwise, and expenses must be offered or paid at the time of service, not on arrival.",
+   "E": "Three days is not the period in CPR 34.5; the general rule is at least 7 days."
+  },
+  "key_rule": "A witness summons is generally binding if served at least 7 days before the required attendance, with travelling expenses and compensation for loss of time offered or paid at service (CPR 34.5, 34.7).",
+  "authority": "CPR 34.5 and 34.7",
+  "verified_source_url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part34",
+  "tags": [
+   "witness summons",
+   "trial",
+   "witnesses"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Trial: summoning witnesses",
+   "context_subject": "Dispute Resolution",
+   "source_type": "procedure-rules",
+   "source_quote": "The general rule is that a witness summons is binding if it is served at least 7 days before the date on which the witness is required to attend before the court or tribunal.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-dr-023",
+  "subject": "Dispute Resolution",
+  "flk": "FLK1",
+  "difficulty": "easy",
+  "title": "How to address a circuit judge in court",
+  "scenario": "Nadia Rahman, a newly qualified solicitor, is attending a two-day intermediate track trial in the County Court at Central London. The trial is listed before His Honour Judge Okafor, a circuit judge. Nadia will be making a short application at the start of the hearing on behalf of her client.",
+  "stem": "How should Nadia address the judge in court?",
+  "options": {
+   "A": "\"My Lord\".",
+   "B": "\"Your Honour\".",
+   "C": "\"Sir\".",
+   "D": "\"Judge\".",
+   "E": "\"Your Worship\"."
+  },
+  "answer": "B",
+  "explanation": "The judiciary's guidance, 'What do I call a judge?', sets out how each type of judge is addressed in court. Circuit judges, who are styled His or Her Honour Judge [surname] in correspondence, are addressed in court as 'Your Honour'. Judge Okafor is a circuit judge sitting in the County Court, so Nadia should address him as 'Your Honour'. Only a few circuit judges, such as the Recorder of Liverpool or judges of the Central Criminal Court, are addressed as 'My Lord' or 'My Lady'. That form is otherwise used for High Court judges and above. District judges and Masters are addressed as 'Judge'. Using the correct form of address is part of the courtroom etiquette expected of an advocate.",
+  "why_wrong": {
+   "A": "'My Lord' is used for High Court judges and above, and for only a few specially designated circuit judges.",
+   "C": "'Sir' is not the form of address for a circuit judge in court; the guidance gives 'Your Honour'.",
+   "D": "'Judge' is the form for district judges and Masters in court, and the greeting in a letter to a circuit judge, not the form for a circuit judge in court.",
+   "E": "'Your Worship' is the traditional form for lay magistrates, not judges of the County Court."
+  },
+  "key_rule": "In court, circuit judges are addressed as 'Your Honour', High Court judges as 'My Lord/My Lady', and district judges as 'Judge'.",
+  "authority": "Courts and Tribunals Judiciary, 'What do I call a judge?' guidance",
+  "verified_source_url": "https://www.judiciary.uk/guidance-and-resources/what-do-i-call-a-judge/",
+  "tags": [
+   "trial",
+   "modes of address",
+   "advocacy"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Trial: trial procedure including modes of address, court room etiquette and the difference between leading and non-leading questions",
+   "context_subject": "Dispute Resolution",
+   "source_type": "official-guidance",
+   "source_quote": "His Honour Judge Smith (KC if appropriate) Judge Your Honour Her Honour Judge Smith (KC if appropriate) Judge Your Honour",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "The 'Your Worship' point for lay magistrates is not on the fetched page. It is used only in why_wrong, as conventional usage."
+  }
+ },
+ {
+  "id": "lib-dr-024",
+  "subject": "Dispute Resolution",
+  "flk": "FLK1",
+  "difficulty": "hard",
+  "title": "Claimant beats its own Part 36 offer at trial: calculating the additional amount (CPR 36.17(4)(d))",
+  "scenario": "Rosalind Achebe Interiors Ltd sued Cardew Hotels plc for unpaid design fees and damages in a multi-track claim to which no fixed costs regime applies. On 12 January 2026 the claimant made a valid Part 36 offer to accept £250,000 (inclusive of interest), with a 21-day relevant period. Cardew did not accept it, and the offer was not withdrawn or changed. After a trial in September 2026, the court gave judgment for the claimant for £300,000, calculated on the same basis as the offer. The court does not consider it unjust to apply the Part 36 consequences, and no previous order for an additional amount has been made.",
+  "stem": "What additional amount must the court award the claimant under Part 36?",
+  "options": {
+   "A": "£5,000.",
+   "B": "£15,000.",
+   "C": "£25,000.",
+   "D": "£30,000.",
+   "E": "£75,000."
+  },
+  "answer": "D",
+  "explanation": "CPR 36.17(1)(b) applies because judgment against the defendant (£300,000) is at least as advantageous to the claimant as its own Part 36 offer (£250,000). None of the CPR 36.17(7) exceptions applies, since the offer was not withdrawn or changed and was made long before trial. Unless it considers it unjust, the court must then order enhanced interest on the sum awarded, at up to 10% above base rate, from expiry of the relevant period, indemnity costs from that date with interest on those costs, and an additional amount (CPR 36.17(4)). Under CPR 36.17(4)(d) the additional amount is calculated by applying the prescribed percentage to the sum awarded to the claimant. For amounts up to £500,000 the percentage is 10% of the amount awarded, with an overall cap of £75,000. The sum awarded is £300,000, so the additional amount is 10% x £300,000 = £30,000.",
+  "why_wrong": {
+   "A": "£5,000 is 10% of the £50,000 by which the claimant beat its offer, but the percentage applies to the whole sum awarded.",
+   "B": "£15,000 applies 5%, which is used only for the part of an award above £500,000.",
+   "C": "£25,000 is 10% of the offer, but the percentage applies to the sum awarded by the court.",
+   "E": "£75,000 is the maximum cap on the additional amount, not the amount payable on an award of £300,000."
+  },
+  "key_rule": "Where a claimant matches or beats its own Part 36 offer, the additional amount is 10% of the sum awarded up to £500,000 (5% above that), capped at £75,000 (CPR 36.17(4)(d)).",
+  "authority": "CPR 36.17(1)(b), (4) and (7)",
+  "verified_source_url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part36",
+  "tags": [
+   "part 36",
+   "offers to settle",
+   "costs"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Costs: Part 36 and other offers",
+   "context_subject": "Dispute Resolution",
+   "source_type": "procedure-rules",
+   "source_quote": "an additional amount, which shall not exceed £75,000, calculated by applying the prescribed percentage set out below to an amount which is— (i) the sum awarded to the claimant by the court;",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Scenario expressly excludes fixed recoverable costs, because CPR 36.24 modifies CPR 36.17 in FRC cases. Distinct from bank q030, which tests a defendant's offer that the claimant fails to beat."
+  }
+ },
+ {
+  "id": "lib-dr-025",
+  "subject": "Dispute Resolution",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Appeal from a circuit judge in the County Court: destination and permission (CPR 52.3, 52.6; PD 52A)",
+  "scenario": "After a three-day trial on the intermediate track, His Honour Judge Lister, a circuit judge sitting in the County Court at Birmingham, gave final judgment for £88,000 against Wexford Joinery Ltd. Wexford believes the judge misinterpreted a key contract term and wants to appeal. The decision was not made in insolvency, family or contempt proceedings, and it was not itself made on appeal.",
+  "stem": "Which of the following correctly states to which court the appeal lies and whether permission is required?",
+  "options": {
+   "A": "To the Court of Appeal, with permission, because the decision is a final decision after trial.",
+   "B": "To the Court of Appeal, without permission, because the appeal is against a final judgment.",
+   "C": "To a High Court judge, without permission, because an appeal against a final judgment after trial lies as of right.",
+   "D": "To another circuit judge in the County Court, with permission.",
+   "E": "To a High Court judge, with permission, which may be given only if the appeal would have a real prospect of success or there is some other compelling reason for it to be heard."
+  },
+  "answer": "E",
+  "explanation": "Table 1 in Practice Direction 52A sets out the destination of first appeals, whether the decision is interim or final (para 3.5). For a decision of a circuit judge in the County Court, other than in contempt proceedings, the appeal lies to a single judge of the High Court. Under CPR 52.3(1)(a), an appellant requires permission to appeal from a decision of a judge in the County Court, subject to exceptions (such as committal orders) that do not apply here. Permission may be sought from the lower court at the hearing at which the decision was made, or from the appeal court in the appellant's notice (CPR 52.3(2)). By CPR 52.6(1), permission may be given only where the court considers that the appeal would have a real prospect of success, or there is some other compelling reason for the appeal to be heard. Wexford's appeal therefore goes to a High Court judge, and it needs permission.",
+  "why_wrong": {
+   "A": "Final decisions of a circuit judge no longer go to the Court of Appeal; PD 52A Table 1 sends them to a High Court judge.",
+   "B": "The destination is a High Court judge, and permission is required under CPR 52.3(1)(a).",
+   "C": "Permission is required for appeals from County Court judges, whether the decision is interim or final.",
+   "D": "An appeal from a circuit judge lies to a High Court judge, not to another circuit judge; circuit judges hear appeals from district judges."
+  },
+  "key_rule": "An appeal from a circuit judge in the County Court lies to a High Court judge and needs permission, given only for a real prospect of success or another compelling reason.",
+  "authority": "CPR 52.3(1)(a), 52.6(1); PD 52A, para 3.5 and Table 1",
+  "verified_source_url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part52/pd_part52",
+  "tags": [
+   "appeals",
+   "permission to appeal",
+   "destination of appeals"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Appeals: permission; destination of appeals",
+   "context_subject": "Dispute Resolution",
+   "source_type": "procedure-rules",
+   "source_quote": "CJ Any, other than a decision in contempt proceedings HCJ",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "CPR 52.3/52.6 verified on the Part 52 page in the same session. SI 2026/817 made consequential amendments to rr 52.3 and 52.12 from 1 Oct 2026 for arbitration appeals only (new r 62.10A); these do not affect this point."
+  }
+ },
+ {
+  "id": "lib-dr-026",
+  "subject": "Dispute Resolution",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Taking control of goods under a County Court judgment of £5,000 or more (HCCCJO 1991, art 8)",
+  "scenario": "Gwen Morgan obtained a County Court judgment for £12,500 against Hartley Kitchens Ltd for unpaid fees for bookkeeping services. The claim did not arise under an agreement regulated by the Consumer Credit Act 1974. Hartley has not paid. Gwen's solicitor knows that Hartley owns valuable machinery at its workshop and wants enforcement agents to take control of it and sell it.",
+  "stem": "In which court may Gwen enforce the judgment by taking control of Hartley's goods?",
+  "options": {
+   "A": "Only in the County Court, by a warrant of control, because the judgment was given in the County Court.",
+   "B": "In either the High Court or the County Court, at Gwen's choice.",
+   "C": "Only in the High Court, by a writ of control, because the sum to be enforced is £5,000 or more.",
+   "D": "Only in the County Court, because judgments of less than £25,000 must be enforced there.",
+   "E": "In neither court until Gwen has first obtained a charging order over Hartley's property."
+  },
+  "answer": "C",
+  "explanation": "Article 8(1) of the High Court and County Courts Jurisdiction Order 1991 governs where a County Court money judgment is enforced by execution against goods, now called taking control of goods. Under art 8(1)(a), such a judgment shall be enforced only in the High Court where the sum which it is sought to enforce is £5,000 or more. Under art 8(1)(b), it shall be enforced only in the County Court where the sum is less than £600. In any other case either court may be used (art 8(1)(c)). The exception in art 8(1A) for agreements regulated by the Consumer Credit Act 1974 does not apply. Gwen seeks to enforce £12,500, so execution against goods must take place in the High Court. In practice the judgment is transferred to the High Court for enforcement by a writ of control executed by a High Court enforcement officer.",
+  "why_wrong": {
+   "A": "Article 8(1)(a) requires enforcement against goods in the High Court where £5,000 or more is to be enforced, even for a County Court judgment.",
+   "B": "Either court may be used only where the sum is £600 or more but less than £5,000 (art 8(1)(c)).",
+   "D": "There is no £25,000 threshold; only sums under £600 must be enforced against goods in the County Court.",
+   "E": "A charging order is a separate method of enforcement and is not a precondition to taking control of goods."
+  },
+  "key_rule": "A County Court money judgment enforced against goods must be enforced in the High Court if £5,000 or more is sought, and in the County Court if under £600 (HCCCJO 1991, art 8).",
+  "authority": "High Court and County Courts Jurisdiction Order 1991 (SI 1991/724), art 8",
+  "verified_source_url": "https://www.legislation.gov.uk/uksi/1991/724/article/8",
+  "tags": [
+   "enforcement",
+   "writ of control",
+   "taking control of goods"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Enforcement of money judgments: methods of enforcement",
+   "context_subject": "Dispute Resolution",
+   "source_type": "legislation",
+   "source_quote": "shall be enforced only in the High Court where the sum which it is sought to enforce is £5,000 or more",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "legislation.gov.uk: no outstanding effects for art 8 (checked 16 Oct 2026)."
+  }
+ }
+]
