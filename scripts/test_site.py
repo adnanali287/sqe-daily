@@ -1,6 +1,7 @@
 """Check the deployed static package, internal links, SEO metadata, route lock and future exclusion."""
 import html
 import json
+import os
 import re
 import subprocess
 import tempfile
@@ -46,7 +47,7 @@ def check_package(root, today, repo):
     routes = {q['id']: q['route'] for q in bank}
     lock_path = repo / generate.LOCK
     lock = json.loads(lock_path.read_text())['questions'] if lock_path.exists() else {}
-    assert all(routes[i] == lock[i] for i in routes if i in lock), 'Deployed routes must match the route lock'
+    assert all(routes[i] == lock[i]['route'] for i in routes if i in lock), 'Deployed routes must match the route lock'
     docs = {}
     for path in root.rglob('*.html'):
         text = path.read_text()
@@ -83,7 +84,7 @@ def check_package(root, today, repo):
         assert target.exists(), f'Sitemap URL not in package: {url}'
         if lastmod is not None: assert iso(lastmod.text) <= latest, url
     for q in bank:
-        assert entries[generate.BASE + q['route']].text == q.get('last_modified', q['publish_date'])
+        assert entries[generate.BASE + q['route']].text == (q['modified'] or q['publish_date'])
     for url in ['/about/', '/sponsor/', '/privacy/']:
         assert entries[generate.BASE + url] is None, f'No dated change backs {url}'
     assert {f'/q/{p.parent.name}/' for p in (root / 'q').glob('*/index.html')} == set(routes.values())
@@ -100,7 +101,7 @@ def check_package(root, today, repo):
     # Unapproved or later-release pages are never built; everything generated is packaged.
     pages_path = repo / 'content/pages.json'
     for name, entry in (json.loads(pages_path.read_text()).get('pages', {}) if pages_path.exists() else {}).items():
-        assert (root / name).exists() == (entry['approved'] and name in generate.PAGE_SLUGS), f'Approval gate failed for {name}'
+        assert (root / name).exists() == (generate.is_approved(entry) and name in generate.PAGE_SLUGS), f'Approval gate failed for {name}'
     for name in generate.OWNED:
         source = repo / name
         if source.is_dir():
@@ -158,21 +159,33 @@ def content_test(today):
         original = bank_path.read_text()
         build(root, today, write_lock=True)
         first = json.loads(original)[0]
-        locked = json.loads((root / generate.LOCK).read_text())['questions'][first['id']]
+        locked = json.loads((root / generate.LOCK).read_text())['questions'][first['id']]['route']
+        lastmod = lambda url: re.search(re.escape(generate.BASE + url) + r'</loc><lastmod>([\d-]+)<', (root / 'sitemap.xml').read_text()).group(1)
+        real_today = generate.london_today()
 
         # A title edit changes the title and h1, never the URL.
         data = json.loads(original); data[0]['title'] += ' (edited)'
         bank_path.write_text(json.dumps(data))
         questions = build(root, today)
         assert questions[0]['route'] == locked and (root / locked.lstrip('/') / 'index.html').exists()
-        assert data[0]['title'].replace("'", '&#x27;') in (root / locked.lstrip('/') / 'index.html').read_text()
+        page = (root / locked.lstrip('/') / 'index.html').read_text()
+        assert data[0]['title'].replace("'", '&#x27;') in page
+        # ...and a title-only edit is a genuine modification: lastmod and dateModified move to the build date.
+        assert lastmod(locked) == real_today and f'"dateModified": "{real_today}"' in page
+
+        # A source re-check alone (last_reviewed) is not a modification.
+        data = json.loads(original); data[0]['last_reviewed'] = data[0]['publish_date']
+        bank_path.write_text(json.dumps(data))
+        build(root, today)
+        assert lastmod(locked) == data[0]['publish_date'] and '"dateModified"' not in (root / locked.lstrip('/') / 'index.html').read_text()
 
         # Hand-editing the lock for a published page fails the build.
-        lock = json.loads((root / generate.LOCK).read_text()); lock['questions'][first['id']] = f'/q/{first["number"]}-moved/'
+        bank_path.write_text(original)
+        lock = json.loads((root / generate.LOCK).read_text()); lock['questions'][first['id']]['route'] = f'/q/{first["number"]}-moved/'
         (root / generate.LOCK).write_text(json.dumps(lock))
         expect_error(root, today, 'would move a published page')
-        build_lock = json.loads((root / generate.LOCK).read_text()); build_lock['questions'][first['id']] = locked
-        (root / generate.LOCK).write_text(json.dumps(build_lock))
+        lock['questions'][first['id']]['route'] = locked
+        (root / generate.LOCK).write_text(json.dumps(lock))
 
         # Unknown subjects and invalid optional fields are rejected.
         data = json.loads(original); data[0]['subject'] = 'Wills and Administration of Estates'
@@ -197,12 +210,34 @@ def content_test(today):
         assert '"dateModified"' in page
 
         # pages.json: nothing is built until approved, then it joins the footer, sitemap and question pages.
+        pages_path = root / 'content/pages.json'
         entry = {'title': 'Editorial standards', 'meta_description': 'How SQE Daily writes and checks questions.', 'h1': 'Editorial standards', 'intro': 'How we write questions.\n\nSee [the SRA](https://www.sra.org.uk/).', 'sections': [{'heading': 'Corrections', 'body': 'Email us.'}], 'sources': [], 'approved': False}
-        (root / 'content/pages.json').write_text(json.dumps({'pages': {'editorial-standards': entry}}))
+        sitting = {'label': 'Test sitting', 'flk1_date': '2099-01-11', 'flk2_date': None, 'booking_closes': None, 'results_date': None, 'source_url': 'https://www.sra.org.uk/', 'approved': False}
+        pages_path.write_text(json.dumps({'sittings': [sitting], 'pages': {'editorial-standards': entry}}))
         build(root, today)
         assert not (root / 'editorial-standards').exists() and '/editorial-standards/' not in (root / 'index.html').read_text()
+        # Setting approved by hand, without the approval hash, publishes nothing.
         entry['approved'] = True
-        (root / 'content/pages.json').write_text(json.dumps({'pages': {'editorial-standards': entry}}))
+        pages_path.write_text(json.dumps({'sittings': [sitting], 'pages': {'editorial-standards': entry}}))
+        build(root, today)
+        assert not (root / 'editorial-standards').exists()
+        with patch.object(generate, 'ROOT', root):
+            generate.approve('pages.editorial-standards'); generate.approve('sittings.0')
+        build(root, today)
+        assert (root / 'editorial-standards').exists() and 'NEXT UP · TEST SITTING' in (root / 'index.html').read_text()
+        # Editing approved copy withdraws the approval until it is approved again.
+        approved_copy = json.loads(pages_path.read_text())
+        edited = json.loads(pages_path.read_text())
+        edited['pages']['editorial-standards']['intro'] += ' Unreviewed sentence.'
+        edited['sittings'][0]['flk1_date'] = '2099-02-01'
+        pages_path.write_text(json.dumps(edited))
+        build(root, today)
+        assert not (root / 'editorial-standards').exists() and 'Unreviewed sentence' not in (root / 'sitemap.xml').read_text()
+        assert 'NEXT UP · JANUARY 2027' in (root / 'index.html').read_text(), 'An edited sitting must not drive the countdown'
+        assert generate.stale_approvals(edited) == ['sittings.0', 'pages.editorial-standards']
+        assert generate.stale_approvals(approved_copy) == []
+        with patch.object(generate, 'ROOT', root):
+            generate.approve('pages.editorial-standards')
         build(root, today)
         standards = (root / '_site/editorial-standards/index.html').read_text()
         assert '<a href="https://www.sra.org.uk/">the SRA</a>' in standards
@@ -210,7 +245,22 @@ def content_test(today):
         assert 'How we check questions' in (root / locked.lstrip('/') / 'index.html').read_text()
         assert generate.BASE + '/editorial-standards/' in (root / 'sitemap.xml').read_text()
         check_package(root / '_site', today, root)
-    print('PASS: route lock, subject guard, optional fields, lastmod rules and approval gate')
+
+        # Subject introductions (rendered from PR 2): an approved intro change records a modification.
+        intro = {'intro': 'An overview of contract.', 'approved': False}
+        pages_path.write_text(json.dumps({'subjects': {'Contract': intro}}))
+        with patch.object(generate, 'ROOT', root), patch.object(generate, 'SUBJECT_INTROS_LIVE', True):
+            generate.approve('subjects.Contract')
+            generate.generate(today, True, True)
+            contract = json.loads((root / generate.LOCK).read_text())['subjects']['Contract']
+            assert contract['intro_hash'] and contract['modified'] == real_today
+            assert lastmod('/archive/contract/') == real_today
+            first_hash = contract['intro_hash']
+            data = json.loads(pages_path.read_text()); data['subjects']['Contract']['intro'] += ' More.'
+            pages_path.write_text(json.dumps(data)); generate.approve('subjects.Contract')
+            generate.generate(today, True, True)
+            assert json.loads((root / generate.LOCK).read_text())['subjects']['Contract']['intro_hash'] != first_hash
+    print('PASS: route lock, subject guard, optional fields, title and intro modification dates, approval gate and re-approval')
 
 def lock_unchanged():
     """Committed route-lock entries may be added to, never changed or removed."""
@@ -218,14 +268,22 @@ def lock_unchanged():
     if result.returncode:
         print('SKIP: no committed route lock to compare'); return
     committed = json.loads(result.stdout); current = json.loads((generate.ROOT / generate.LOCK).read_text())
-    for kind in ['questions', 'subjects']:
+    # Only the route or slug is permanent; content hashes and modification dates move with edits.
+    permanent = lambda value, field: value if isinstance(value, str) else value and value[field]
+    for kind, field in [('questions', 'route'), ('subjects', 'slug')]:
         for key, value in committed[kind].items():
-            assert current[kind].get(key) == value, f'Route lock entry changed: {kind}.{key}'
+            assert permanent(current[kind].get(key), field) == permanent(value, field), f'Route lock entry changed: {kind}.{key}'
     print('PASS: committed route-lock entries unchanged')
 
 if __name__ == '__main__':
     today = datetime.now(ZoneInfo('Europe/London')).date().isoformat()
     check_package(generate.ROOT / '_site', today, generate.ROOT)
+    if os.environ.get('STRICT_APPROVALS') == '1':
+        # Pull-request checks: approved copy must carry the hash of the exact text approved.
+        pages_path = generate.ROOT / 'content/pages.json'
+        stale = generate.stale_approvals(json.loads(pages_path.read_text())) if pages_path.exists() else []
+        assert not stale, f'Approved content changed since approval: {stale}. Ask the owner, then run generate.py --approve.'
+        print('PASS: every approved entry matches the text that was approved')
     lock_unchanged()
     future_test(today)
     future_test('2026-11-01')

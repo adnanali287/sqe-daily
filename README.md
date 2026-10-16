@@ -24,11 +24,13 @@ Optional question fields (leave a field out rather than guess):
 - `why_wrong`: `{"A": "One-line reason.", ...}` with exactly the four wrong letters. Shown in place of the combined "X is wrong" lines.
 - `tags`: 1–5 lowercase topic strings, reused consistently across questions.
 - `last_reviewed`: ISO date the question was actually re-checked against its primary source. Shows "Checked against primary source on …". Never in the future.
-- `last_modified`: ISO date the visible content genuinely changed after publication. Drives sitemap `lastmod` and `dateModified`. A source check alone is not a modification.
+- `last_modified`: ISO date the visible content genuinely changed after publication. A source check alone is not a modification.
+
+Modification dates are also detected automatically: the route lock stores a hash of each published question's visible content (title, scenario, stem, options, answer, explanation, key rule, authority, source URL, `why_wrong`, subject, paper, difficulty). When a publishing build sees it change, it records that day as the modification date. The later of that date and `last_modified` drives sitemap `lastmod` and `dateModified`. Tags and `last_reviewed` never count as modifications.
 
 ### Page copy and approval
 
-`content/pages.json` (optional) holds `sittings`, `pages` and `subjects`. Every entry has `approved`; nothing is built until it is `true`, which Hark sets only after the owner approves the copy. Built pages in this release: `sqe1-exam-dates` and `editorial-standards`. Copy is plain text: blank lines separate paragraphs and links are `[text](https://...)`. No HTML, names or credentials. Approved sittings drive the homepage countdown; until one is approved the existing January 2027 dates remain.
+`content/pages.json` (optional) holds `sittings`, `pages` and `subjects`. Every entry has `approved: false` until the owner approves the copy in chat. Then record the approval with `python3 scripts/generate.py --approve pages.editorial-standards` (or `sittings.0`, `subjects.Contract`). This sets `approved: true` and an `approved_hash` of the exact approved text. Editing the entry afterwards withdraws its approval: the page is not published, and an edited sitting stops driving the countdown, until it is approved again. Pull-request checks fail on such stale approvals. Approved subject introductions render from PR 2, and their changes will then also record modification dates. Built pages in this release: `sqe1-exam-dates` and `editorial-standards`. Copy is plain text: blank lines separate paragraphs and links are `[text](https://...)`. No HTML, names or credentials. Approved sittings drive the homepage countdown; until one is approved the existing January 2027 dates remain.
 
 ### Permanent URLs
 
@@ -36,13 +38,13 @@ Optional question fields (leave a field out rather than guess):
 
 The home question is the newest question whose publish_date is no later than today's Europe/London date; ties use the highest number. If there is no question today, the latest past question remains available. Nothing future-dated is rendered or included in the deployed JSON, sitemap or RSS. The full authoring bank remains in the public GitHub repository, so scheduled questions are not confidential there.
 
-`scripts/generate.py` rebuilds question pages at their locked `/q/<number>-<title-slug>/` URLs, the server-rendered homepage, the main and subject archives, About, Sponsor, Privacy, approved pages from `content/pages.json`, 404, sitemap and RSS. Generated pages should not be edited by hand. Home layout source is `scripts/templates/home.html`; shared styles and interactions are in `assets/`. The homepage HTML contains the latest question, its permanent link and recent questions; JavaScript still refreshes it at London midnight and labels it Today's or Latest question.
+`scripts/generate.py` rebuilds question pages at their locked `/q/<number>-<title-slug>/` URLs, the server-rendered homepage, the main and subject archives, About, Sponsor, Privacy, approved pages from `content/pages.json`, 404, sitemap and RSS. Generated pages should not be edited by hand. Home layout source is `scripts/templates/home.html`; shared styles and interactions are in `assets/`. The homepage HTML contains the latest question, its permanent link and recent questions; JavaScript still refreshes it at London midnight, keeps checking every 5 minutes until that day's question is live (scheduled publishing can run late), picks up corrections to the same question, and labels it Today's or Latest question.
 
 ## Publishing
 
 GitHub Pages uses **GitHub Actions**, not branch-source publishing, to deploy plain static files from `_site`. Root `CNAME` and `.nojekyll` remain intact. The workflow runs on relevant main-branch pushes, manual dispatch, and at 00:05 London time: 23:05 UTC during BST or 00:05 UTC during GMT. Two UTC schedules plus an offset guard select the appropriate run. GitHub may delay scheduled jobs; this is not an exact-time service. GitHub may disable schedules after 60 days of inactivity on public repositories; weekly question commits prevent that.
 
-The workflow runs on changes under `content/`, generates, tests, commits every path listed by `python scripts/generate.py --owned` (including new pages and the route lock), then deploys its own artifact. This avoids relying on bot commits to trigger another workflow. Concurrency serialises deployments. No API keys or paid services are required. Future authoring data and internal drafts/screenshots are excluded from the deployment package.
+Pull requests run `.github/workflows/checks.yml`: the same build, tests (with strict approval checks) and HTML validation, with read-only permissions and no deployment. The publish workflow runs on changes under `content/`, generates, tests, commits every path listed by `python scripts/generate.py --owned` (including new pages and the route lock), then deploys its own artifact. This avoids relying on bot commits to trigger another workflow. Concurrency serialises deployments. No API keys or paid services are required. Future authoring data and internal drafts/screenshots are excluded from the deployment package.
 
 ## Newsletter
 

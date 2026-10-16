@@ -39,6 +39,11 @@ LATER_PAGE_SLUGS = ['sqe1-practice-questions', 'flk1', 'flk2']
 # The countdown's existing sitting, used until an approved sitting is added to content/pages.json.
 DEFAULT_SITTING = {'label': 'January 2027', 'flk1_date': '2027-01-11', 'flk2_date': '2027-01-18'}
 LOCK = 'content/routes.lock.json'
+# Fields a content hash ignores: they change no visible page text (last_reviewed is a check, not an edit).
+HASH_IGNORED = {'tags', 'last_reviewed', 'last_modified', 'route', 'modified'}
+APPROVAL_FIELDS = {'approved', 'approved_hash'}
+# Subject intros render in PR 2; until then their changes cannot modify a published page.
+SUBJECT_INTROS_LIVE = False
 OWNED = ['index.html', '404.html', 'q', 'archive', 'about', 'sponsor', 'privacy', *PAGE_SLUGS, 'sitemap.xml', 'feed.xml', 'robots.txt']
 RECENT = 5
 NAV = '<nav aria-label="Main navigation">' + ''.join(f'<a href="{url}">{name}</a>' for name, url in [('Today', '/'), ('Archive', '/archive/'), ('About', '/about/'), ('Sponsor', '/sponsor/'), ('Privacy', '/privacy/')]) + '</nav>'
@@ -85,6 +90,34 @@ def explanation_html(q):
         return ''.join(f'<p>{esc(p)}</p>' for p in paragraphs)
     kept = ['\n'.join(line for line in p.split('\n') if not WRONG_LINE.match(line)) for p in paragraphs]
     return ''.join(f'<p>{esc(p)}</p>' for p in kept if p) + ''.join(f'<p>Why {k} is wrong: {esc(v)}</p>' for k, v in sorted(q['why_wrong'].items()))
+
+def content_hash(entry, ignored):
+    return hashlib.sha256(json.dumps({k: v for k, v in entry.items() if k not in ignored}, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
+
+def is_approved(entry):
+    """Approval covers the exact text approved: any later edit needs approving again."""
+    return entry.get('approved') is True and entry.get('approved_hash') == content_hash(entry, APPROVAL_FIELDS)
+
+def approval_entries(data):
+    yield from ((f'sittings.{i}', entry) for i, entry in enumerate(data.get('sittings', [])))
+    for kind in ['pages', 'subjects']:
+        yield from ((f'{kind}.{name}', entry) for name, entry in data.get(kind, {}).items())
+
+def stale_approvals(data):
+    return [label for label, entry in approval_entries(data) if entry.get('approved') is True and not is_approved(entry)]
+
+def approve(label):
+    """Record the owner's approval of one content/pages.json entry, bound to its current text."""
+    path = ROOT / 'content/pages.json'
+    data = json.loads(path.read_text())
+    load_pages(london_today())
+    entries = dict(approval_entries(data))
+    if label not in entries:
+        raise SystemExit(f'No entry {label}; choose from: {", ".join(entries)}')
+    entries[label]['approved'] = True
+    entries[label]['approved_hash'] = content_hash(entries[label], APPROVAL_FIELDS)
+    path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    print(f'Approved {label}.')
 
 def write(path, content):
     target = ROOT / path.lstrip('/')
@@ -141,6 +174,8 @@ def load_pages(today):
     def approved(entry, label):
         if not isinstance(entry.get('approved'), bool):
             raise ValueError(f'{label} needs approved: true or false')
+        if 'approved_hash' in entry and not isinstance(entry['approved_hash'], str):
+            raise ValueError(f'{label}.approved_hash is written by --approve; do not edit it')
     for i, sitting in enumerate(data.get('sittings', [])):
         label = f'sittings[{i}]'
         if not isinstance(sitting.get('label'), str) or not https(sitting.get('source_url')):
@@ -180,16 +215,25 @@ def load_pages(today):
         approved(subject, label)
     return data
 
-def lock_routes(questions, write_lock):
-    """Give every published question a permanent route; title edits never move a page."""
+def lock_routes(questions, write_lock, content=None):
+    """Give every published question a permanent route, and record the date its visible content changes.
+
+    Title edits never move a page. A changed content hash (title included) records today's London
+    date as a genuine modification; first publication and seeding record none, so no date is invented.
+    """
     path = ROOT / LOCK
     lock = json.loads(path.read_text()) if path.exists() else {'questions': {}, 'subjects': {}}
     before = json.dumps(lock, sort_keys=True)
+    # Entries from the first lock format held only the route or slug.
+    lock['questions'] = {k: v if isinstance(v, dict) else {'route': v, 'hash': None, 'modified': None} for k, v in lock['questions'].items()}
+    lock['subjects'] = {k: v if isinstance(v, dict) else {'slug': v, 'intro_hash': None, 'modified': None} for k, v in lock['subjects'].items()}
+    today = london_today()
     # Published pages already in the repository are the record of what is live.
     live = {int(p.name.split('-', 1)[0]): f'/q/{p.name}/' for p in (ROOT / 'q').glob('*-*') if p.is_dir() and p.name.split('-', 1)[0].isdigit()} if (ROOT / 'q').exists() else {}
-    used = set(lock['questions'].values())
+    used = {entry['route'] for entry in lock['questions'].values()}
     for q in questions:
-        locked = lock['questions'].get(q['id'])
+        entry = lock['questions'].get(q['id'])
+        locked = entry and entry['route']
         if q['number'] in live:
             if locked and locked != live[q['number']]:
                 raise ValueError(f'Route lock for {q["id"]} would move a published page from {live[q["number"]]} to {locked}')
@@ -200,28 +244,43 @@ def lock_routes(questions, write_lock):
                 raise ValueError(f'Route {locked} is already used')
         if not re.fullmatch(r'/q/' + str(q['number']) + r'-[a-z0-9-]+/', locked):
             raise ValueError(f'Invalid locked route for {q["id"]}: {locked}')
-        lock['questions'][q['id']] = locked
+        digest = content_hash(q, HASH_IGNORED)
+        if entry is None or entry.get('hash') is None:
+            entry = {'route': locked, 'hash': digest, 'modified': entry.get('modified') if entry else None}
+        elif entry['hash'] != digest:
+            entry = {'route': locked, 'hash': digest, 'modified': today}
+        lock['questions'][q['id']] = {**entry, 'route': locked}
         used.add(locked)
-        if lock['subjects'].setdefault(q['subject'], SUBJECTS[q['subject']]) != SUBJECTS[q['subject']]:
+        subject = lock['subjects'].setdefault(q['subject'], {'slug': SUBJECTS[q['subject']], 'intro_hash': None, 'modified': None})
+        if subject['slug'] != SUBJECTS[q['subject']]:
             raise ValueError(f'Subject slug for {q["subject"]} differs from the route lock')
+    if SUBJECT_INTROS_LIVE:
+        intros = {name: entry for name, entry in (content or {}).get('subjects', {}).items() if is_approved(entry)}
+        for name, subject in lock['subjects'].items():
+            digest = content_hash({'intro': intros[name]['intro']}, set()) if name in intros else None
+            if digest != subject['intro_hash']:
+                lock['subjects'][name] = {**subject, 'intro_hash': digest, 'modified': today}
     existing = {p.name for p in (ROOT / 'archive').iterdir() if p.is_dir()} if (ROOT / 'archive').exists() else set()
     if existing - set(SUBJECTS.values()):
         raise ValueError(f'Published subject archives missing from SUBJECTS: {sorted(existing - set(SUBJECTS.values()))}')
     lock = {'questions': dict(sorted(lock['questions'].items())), 'subjects': dict(sorted(lock['subjects'].items()))}
     if write_lock and json.dumps(lock, sort_keys=True) != before:
         path.write_text(json.dumps(lock, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    return [{**q, 'route': lock['questions'][q['id']]} for q in questions]
+    modified = lambda q: max(filter(None, [q.get('last_modified'), lock['questions'][q['id']]['modified']]), default=None)
+    return [{**q, 'route': lock['questions'][q['id']]['route'], 'modified': modified(q)} for q in questions], lock
 
 def generate(day, package=False, write_lock=False):
     bank = json.loads((ROOT / 'content/questions.json').read_text())
     validate_bank(bank, london_today())
     content = load_pages(london_today())
-    questions = lock_routes(published(bank, day), write_lock)
-    pages = {name: page for name, page in content.get('pages', {}).items() if page['approved'] and name in PAGE_SLUGS}
+    questions, lock = lock_routes(published(bank, day), write_lock, content)
+    for label in stale_approvals(content):
+        print(f'Warning: {label} changed after approval, so it is not published. Approve it again with --approve {label}.')
+    pages = {name: page for name, page in content.get('pages', {}).items() if is_approved(page) and name in PAGE_SLUGS}
     for name, page in content.get('pages', {}).items():
-        if page['approved'] and name not in PAGE_SLUGS:
+        if is_approved(page) and name not in PAGE_SLUGS:
             print(f'Note: approved page {name} is not built until a later release.')
-    sittings = sorted((s for s in content.get('sittings', []) if s['approved']), key=lambda s: s['flk1_date'])
+    sittings = sorted((s for s in content.get('sittings', []) if is_approved(s)), key=lambda s: s['flk1_date'])
     sitting = next((s for s in sittings if s['flk1_date'] >= day), DEFAULT_SITTING)
     subject_slug = lambda subject: SUBJECTS[subject]
 
@@ -309,8 +368,8 @@ def generate(day, package=False, write_lock=False):
         payload = json.dumps(q, ensure_ascii=False).replace('<', '\\u003c')
         body += f'<script type="application/json" id="question-data">{payload}</script><script src="/assets/app.js" defer></script>' + newsletter
         quiz = {'@context': 'https://schema.org', '@type': 'Quiz', 'name': q['title'], 'url': BASE + q['route'], 'datePublished': q['publish_date'], 'inLanguage': 'en-GB', 'educationalLevel': 'SQE1', 'about': {'@type': 'Thing', 'name': q['subject']}, 'educationalAlignment': {'@type': 'AlignmentObject', 'alignmentType': 'educationalSubject', 'educationalFramework': 'SRA Functioning Legal Knowledge', 'targetName': f'{q["flk"]}: {q["subject"]}'}, 'author': ORGANIZATION, 'publisher': ORGANIZATION, 'hasPart': {'@type': 'Question', 'name': q['stem'], 'text': q['scenario'], 'suggestedAnswer': [{'@type': 'Answer', 'text': f'{k}. {v}'} for k, v in q['options'].items()], 'acceptedAnswer': {'@type': 'Answer', 'text': q['options'][q['answer']], 'answerExplanation': q['explanation']}}}
-        if q.get('last_modified'):
-            quiz['dateModified'] = q['last_modified']
+        if q['modified']:
+            quiz['dateModified'] = q['modified']
         crumbs = breadcrumbs(('SQE Daily', '/'), (f'{q["subject"]} questions', f'/archive/{subject_slug(q["subject"])}/'), (q['title'], q['route']))
         meta = f'<meta property="article:published_time" content="{q["publish_date"]}"><meta property="article:section" content="{esc(q["subject"])}">'
         page(q['route'], question_title(q), question_description(q), body, [quiz, crumbs], 'article', meta)
@@ -393,11 +452,12 @@ def generate(day, package=False, write_lock=False):
     write('index.html', home)
 
     # lastmod only where a real date backs it: publication or a genuine content change, never a review.
-    changed = lambda qs: max((q.get('last_modified') or q['publish_date'] for q in qs), default=None)
+    changed = lambda qs: max((q['modified'] or q['publish_date'] for q in qs), default=None)
     urls = [('/', changed(questions)), ('/archive/', changed(questions)), ('/about/', None), ('/sponsor/', None), ('/privacy/', None)]
     urls += [(f'/{name}/', entry.get('last_modified')) for name, entry in pages.items()]
-    urls += [('/archive/' + subject_slug(s) + '/', changed([q for q in questions if q['subject'] == s])) for s in subjects]
-    urls += [(q['route'], q.get('last_modified') or q['publish_date']) for q in questions]
+    subject_changed = lambda s: max(filter(None, [changed([q for q in questions if q['subject'] == s]), lock['subjects'][s]['modified']]))
+    urls += [('/archive/' + subject_slug(s) + '/', subject_changed(s)) for s in subjects]
+    urls += [(q['route'], q['modified'] or q['publish_date']) for q in questions]
     sitemap = ET.Element('urlset', xmlns='http://www.sitemaps.org/schemas/sitemap/0.9')
     for url, lastmod in urls:
         item = ET.SubElement(sitemap, 'url'); ET.SubElement(item, 'loc').text = BASE + url
@@ -431,8 +491,11 @@ if __name__ == '__main__':
     parser.add_argument('--date', default=london_today())
     parser.add_argument('--package', action='store_true')
     parser.add_argument('--owned', action='store_true', help='List generator-owned paths for the publish commit.')
+    parser.add_argument('--approve', metavar='ENTRY', help='Record owner approval of a content/pages.json entry, e.g. pages.editorial-standards')
     args = parser.parse_args()
-    if args.owned:
+    if args.approve:
+        approve(args.approve)
+    elif args.owned:
         print('\n'.join([*OWNED, LOCK]))
     else:
         datetime.strptime(args.date, '%Y-%m-%d')

@@ -33,4 +33,18 @@ assert.equal(vm.runInContext('validQuestion({ ...sample, route: undefined })', c
 assert.deepEqual([...vm.runInContext('explanationLines(sample)', context)], ['Why.', 'A is wrong: x.', 'B is wrong: y.']);
 context.sample.why_wrong = { B: 'Reason B.', A: 'Reason A.' };
 assert.deepEqual([...vm.runInContext('explanationLines(sample)', context)], ['Why.', 'Why A is wrong: Reason A.', 'Why B is wrong: Reason B.']);
-console.log('PASS: exact date, latest past, no future, BST/GMT calendar boundaries, midnight relabel, locked routes, why_wrong');
+// Delayed publication: after midnight the page keeps checking every 5 minutes until today's question is live.
+context.state = { activeDay: '2026-10-26', today: '2026-10-26', question: context.daily[0], now: 1_000_000, nextRetry: 1_000_000 + 300000 };
+assert.equal(vm.runInContext("refreshDue({ ...state, activeDay: '2026-10-25' })", context), true, 'day change refreshes');
+assert.equal(vm.runInContext('refreshDue(state)', context), false, 'retries are spaced out');
+assert.equal(vm.runInContext('refreshDue({ ...state, now: state.nextRetry })', context), true, 'still waiting for today: retry is due');
+assert.equal(vm.runInContext('refreshDue({ ...state, question: daily[1], now: state.nextRetry })', context), false, "today's question is shown: stop retrying");
+assert.equal(vm.runInContext('RETRY_MS', context), 300000);
+// Corrections under the same id are content changes; an identical copy is not.
+delete context.sample.why_wrong;
+assert.equal(vm.runInContext('sameContent(sample, JSON.parse(JSON.stringify(sample)))', context), true);
+for (const change of ["{ explanation: 'Corrected.' }", "{ answer: 'B' }", "{ title: 'Corrected title' }", "{ options: { ...sample.options, C: 'fixed' } }", "{ why_wrong: { B: 'r', C: 'r', D: 'r', E: 'r' } }"]) {
+  assert.equal(vm.runInContext(`sameContent(sample, { ...sample, ...${change} })`, context), false, change);
+}
+assert.equal(vm.runInContext("sameContent(sample, { ...sample, tags: ['x'], modified: '2026-10-26' })", context), true, 'non-displayed fields are ignored');
+console.log('PASS: exact date, latest past, no future, BST/GMT boundaries, midnight relabel, delayed publication retry, same-id corrections, locked routes, why_wrong');

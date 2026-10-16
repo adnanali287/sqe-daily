@@ -1,0 +1,31 @@
+name: Pull request checks
+# Runs the same build and tests as publishing, before merge. Never commits or deploys.
+on:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: checks-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build the site package
+        run: python scripts/generate.py --package
+      - name: Site, content and approval checks
+        env:
+          STRICT_APPROVALS: '1'
+        run: python scripts/test_site.py
+      - name: Date and homepage logic
+        run: node scripts/test_dates.cjs
+      - name: HTML validation
+        run: npx --yes html-validate@11.16.2 '_site/**/*.html'
