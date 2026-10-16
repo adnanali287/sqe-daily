@@ -10,6 +10,7 @@ Python 3.9+ (with Europe/London timezone data) is required. No Python packages o
 python3 scripts/generate.py --package
 python3 scripts/test_site.py
 node scripts/test_dates.cjs
+node scripts/test_answers.cjs
 python3 -m http.server 8766 --directory _site
 ```
 
@@ -88,6 +89,6 @@ Google Search Console is verified as a Domain property by DNS TXT record, so no 
 
 The three existing OFL fonts are Latin-subset WOFF2 files, with regular DM Sans and Newsreader preloaded. Original fonts and OFL licence files are retained. To reconvert, install `fonttools[woff]` in a temporary environment and use `pyftsubset` with `--flavor=woff2 --unicodes=U+0000-00FF,U+0100-024F,U+2000-206F,U+2190-21FF --layout-features='*'`.
 
-`scripts/test_site.py` checks all deployed internal links/fragments, unique ids, one h1 per page, unique titles and descriptions, JSON-LD (Organization author, no Person), published-only data, RSS, sitemap coverage and lastmod rules, locked routes, the approval gate and that every generated file is packaged. It appends a future fixture in a temporary checkout, verifies exclusion and removes the whole fixture checkout automatically; it also tests the full 14-question bank at a simulated later date. `scripts/test_dates.cjs` checks selection and BST/GMT boundaries. HTML can be checked using `npx html-validate '_site/**/*.html'`; `.htmlvalidate.json` permits descriptive long question titles. The website itself needs neither Node nor npm.
+`scripts/test_site.py` checks all deployed internal links/fragments, unique ids, one h1 per page, unique titles and descriptions, JSON-LD (Organization author, no Person), published-only data, RSS, sitemap coverage and lastmod rules, locked routes, the approval gate and that every generated file is packaged. It appends a future fixture in a temporary checkout, verifies exclusion and removes the whole fixture checkout automatically; it also tests the full current question bank at a simulated later date. `scripts/test_dates.cjs` checks selection and BST/GMT boundaries. `scripts/test_answers.cjs` exercises every A-E choice for every question using the production renderer and answer handler, checking markers, accessible labels, result state, repeat submissions and resets after corrections. It uses a DOM fixture, not a browser; responsive and keyboard checks still need a real browser. HTML can be checked using `npx html-validate '_site/**/*.html'`; `.htmlvalidate.json` permits descriptive long question titles. The website itself needs neither Node nor npm.
 
 Cloudflare DNS, HTTPS, email forwarding and Buttondown account settings are unchanged. The supplied legal questions have not received a new legal accuracy audit.
