@@ -82,7 +82,7 @@ Sources:
 
 ### `pages.editorial-standards`
 
-Fingerprint: `adb909d787d1`
+Fingerprint: `fea860e819eb`
 
 - **Title**: Editorial standards: how SQE Daily questions are written
 - **Meta description**: How SQE Daily writes its SQE1 practice questions, links every answer to its source, records changes and corrects errors.
@@ -92,7 +92,7 @@ Fingerprint: `adb909d787d1`
 
 **Original questions**
 
-> Every question is written for SQE Daily in the single best answer format the SRA uses for SQE1: a short scenario, a question and five options, one of which is the best answer. Each question is assigned to an SQE1 subject and to FLK1 or FLK2, following the SRA's [SQE1 assessment specification](https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification). We do not reproduce questions from the SRA or from training providers. Questions are drafted with the help of AI tools and are then checked against the source they rely on before they are scheduled for publication.
+> Every question is written for SQE Daily in the single best answer format the SRA uses for SQE1: a short scenario, a question and five options, one of which is the best answer. Each question is assigned to an SQE1 subject and to FLK1 or FLK2, following the SRA's [SQE1 assessment specification](https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification). We do not reproduce questions from the SRA or from training providers. Each question is checked against the source it relies on before it is scheduled for publication.
 
 **Every answer links to its source**
 
