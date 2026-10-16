@@ -1,0 +1,862 @@
+[
+ {
+  "id": "lib-wil-001",
+  "subject": "Wills & Administration of Estates",
+  "flk": "FLK2",
+  "difficulty": "easy",
+  "title": "Acknowledging an earlier signature to two witnesses present together (Wills Act 1837 s.9)",
+  "scenario": "Delroy, an adult domiciled in England, wrote out and signed his will alone at his kitchen table one evening. The next morning he asked two neighbours, Agnieszka and Farid, to come in together. With both of them in the room at the same time, he pointed to his signature and said, 'That is my signature on my will.' Agnieszka then signed as a witness in Delroy's presence and went home; Farid signed in Delroy's presence ten minutes later, after Agnieszka had left. The will has no attestation clause. Delroy has now died.",
+  "stem": "Which of the following best describes whether the will was validly executed?",
+  "options": {
+   "A": "It is invalid, because Delroy's signature was not made in the presence of the witnesses.",
+   "B": "It is invalid, because Farid did not sign in Agnieszka's presence.",
+   "C": "It is valid, because Delroy acknowledged his signature to both witnesses present at the same time and each witness signed in his presence.",
+   "D": "It is invalid, because a will must contain an attestation clause showing that the formalities were complied with.",
+   "E": "It is valid only if the witnesses read the contents of the will before signing."
+  },
+  "answer": "C",
+  "explanation": "Section 9(1) Wills Act 1837 requires the will to be in writing and signed by the testator with the intention of giving effect to it, and the signature must be 'made or acknowledged' by the testator in the presence of two or more witnesses present at the same time. Each witness must then attest and sign (or acknowledge their signature) in the presence of the testator, 'but not necessarily in the presence of any other witness'. Delroy's signature was made in private, but he acknowledged it the next day to Agnieszka and Farid while both were present together, which satisfies s.9(1)(c). Each witness then signed in Delroy's presence, satisfying s.9(1)(d), and it does not matter that Farid signed after Agnieszka had left. The section expressly says no form of attestation is necessary, so the absence of an attestation clause does not invalidate the will (although it may mean evidence of due execution is needed when the will is proved).",
+  "why_wrong": {
+   "A": "Section 9(1)(c) is satisfied if the signature is either made or acknowledged in the witnesses' joint presence.",
+   "B": "Section 9(1)(d) requires each witness to sign in the testator's presence, not necessarily in the presence of the other witness.",
+   "D": "Section 9(1) states that no form of attestation is necessary; an attestation clause is evidential, not a validity requirement.",
+   "E": "Witnesses attest the testator's signature or acknowledgment; they need not know or read the contents of the will."
+  },
+  "key_rule": "A testator may sign alone and later acknowledge the signature to two witnesses present together; each witness must then sign in the testator's presence, but not necessarily in each other's.",
+  "authority": "Wills Act 1837, s.9(1)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/Will4and1Vict/7/26/section/9",
+  "tags": [
+   "wills act 1837",
+   "formalities",
+   "witnesses"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Validity of wills and codicils: formal requirements",
+   "context_subject": "Wills & Administration of Estates",
+   "source_type": "legislation",
+   "source_quote": "the signature is made or acknowledged by the testator in the presence of two or more witnesses present at the same time; ... in the presence of the testator (but not necessarily in the presence of any other witness)",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-wil-002",
+  "subject": "Wills & Administration of Estates",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Testamentary capacity: Banks v Goodfellow, not the Mental Capacity Act 2005, as the test applied",
+  "scenario": "Winifred, aged 88, made a will in 2025 leaving her whole estate to her carer, Precious, and nothing to her son, Lewis. Eight months earlier she had been diagnosed with mild dementia. She has now died, domiciled in England. Lewis has entered a caveat and intends to challenge the will on the ground that Winifred lacked testamentary capacity. He asks you which legal test the court will apply to decide that question.",
+  "stem": "Which of the following best describes the test the court will apply?",
+  "options": {
+   "A": "The common law test in Banks v Goodfellow: whether Winifred understood the nature and effect of making a will, the extent of her property and the claims to which she ought to give effect, with no disorder of mind poisoning her affections or perverting her sense of right.",
+   "B": "The statutory test in sections 2 and 3 of the Mental Capacity Act 2005, because that Act replaced all common law tests of capacity for decisions made after it came into force.",
+   "C": "Whether Winifred had been diagnosed with any mental disorder; a diagnosis of dementia before the will was made means she lacked capacity as a matter of law.",
+   "D": "Whether the will is one that a reasonable testator in Winifred's position would have made, given that it excludes her only son.",
+   "E": "Whether Lewis can prove beyond reasonable doubt that Winifred did not understand the will when she signed it."
+  },
+  "answer": "A",
+  "explanation": "The courts continue to determine testamentary capacity by the common law test in Banks v Goodfellow (1870) LR 5 QB 549. In Clitheroe v Bond [2021] EWHC 1102 (Ch), Falk J set out the test: the testator must understand the nature of the act and its effects, understand the extent of the property being disposed of, be able to comprehend and appreciate the claims to which they ought to give effect, and no disorder of the mind may poison their affections, pervert their sense of right or prevent the exercise of their natural faculties. She stated that, had the point been open on appeal, she would have concluded that the Banks test continues to apply rather than the Mental Capacity Act 2005 test. A diagnosis of mild dementia is relevant evidence, but the question is whether Winifred met the Banks requirements when she made the will. Where there is real doubt about capacity, the burden of proof ultimately lies on the person propounding the will (here Precious).",
+  "why_wrong": {
+   "B": "The High Court in Clitheroe v Bond (following earlier first-instance decisions) held that the MCA 2005 has not displaced the Banks v Goodfellow test for testamentary capacity.",
+   "C": "A diagnosis is evidence only; a person with mild dementia may still satisfy the Banks test at the time the will is made.",
+   "D": "A testator with capacity may make an unwise or unfair will; the test concerns understanding, not the reasonableness of the gifts.",
+   "E": "This is a civil question decided on the balance of probabilities, and the legal burden ultimately rests on the propounder of the will, not on Lewis to a criminal standard."
+  },
+  "key_rule": "Testamentary capacity is tested by Banks v Goodfellow: understanding the nature and effect of the will, the extent of the property and the claims of others, free from any disorder of mind distorting the dispositions.",
+  "authority": "Banks v Goodfellow (1870) LR 5 QB 549; Clitheroe v Bond [2021] EWHC 1102 (Ch), [30]-[31] and [153]",
+  "verified_source_url": "https://caselaw.nationalarchives.gov.uk/ewhc/ch/2021/1102",
+  "tags": [
+   "testamentary capacity",
+   "banks v goodfellow",
+   "validity"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Validity of wills and codicils: testamentary capacity",
+   "context_subject": "Wills & Administration of Estates",
+   "source_type": "judgment",
+   "source_quote": "if it were, I would have concluded that the Banks test continues to apply",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Falk J's conclusion on the MCA point was obiter (permission refused on that ground); the Court of Appeal has not ruled on it. The Law Commission's 2025 wills report recommended adopting the MCA test, but no legislation had been enacted as at 11 Sep 2026 (not separately verified on a primary source; reviewer to confirm no Act passed)."
+  }
+ },
+ {
+  "id": "lib-wil-003",
+  "subject": "Wills & Administration of Estates",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Unattested alteration to a will made after execution (Wills Act 1837 s.21)",
+  "scenario": "Harriet's validly executed will, signed and witnessed in 2022, contains the clause 'I give £5,000 to my nephew Callum'. In 2024 Harriet drew a single line through '£5,000', leaving the figure clearly legible, and wrote '£15,000' above it. She initialled the change and dated it, but no one witnessed it and she did not re-execute the will or make a codicil. It is accepted that the change was made after the will was executed. Harriet has now died, domiciled in England.",
+  "stem": "Which of the following best describes Callum's entitlement?",
+  "options": {
+   "A": "Callum takes £15,000, because Harriet initialled and dated the alteration.",
+   "B": "Callum takes nothing, because the original gift was revoked by the obliteration and the new figure is ineffective.",
+   "C": "The whole will is invalid, because it was altered after execution without witnesses.",
+   "D": "Callum takes £5,000, because the unattested alteration has no effect and the original words remain apparent.",
+   "E": "Callum takes £15,000 provided Harriet's executors are satisfied that the alteration reflects her final wishes."
+  },
+  "answer": "D",
+  "explanation": "Under s.21 Wills Act 1837, no obliteration, interlineation or other alteration made in a will after its execution is valid or has any effect unless it is executed in the same way as a will (that is, signed by the testator and attested by two witnesses, for example in the margin near the alteration). The only exception is 'so far as the words or effect of the will before such alteration shall not be apparent'. Harriet's change was made after execution and was only initialled, not witnessed, so the interlineation of '£15,000' is ineffective. Because the line through '£5,000' left the figure clearly legible, the original words are still apparent, so the attempted obliteration has no effect either. The will is read as it stood when executed, and Callum takes £5,000.",
+  "why_wrong": {
+   "A": "Initials alone do not satisfy s.21; the alteration had to be executed like a will, with the testator's signature attested by two witnesses.",
+   "B": "An obliteration takes effect only so far as the original words are not apparent; here '£5,000' is clearly legible, so the gift stands.",
+   "C": "An ineffective alteration does not invalidate the will; s.21 simply deprives the alteration of effect.",
+   "E": "Executors have no discretion to give effect to an unexecuted alteration; s.21 makes it of no effect."
+  },
+  "key_rule": "An alteration made after execution has no effect unless executed like a will, except that original words which are no longer apparent are treated as removed.",
+  "authority": "Wills Act 1837, s.21",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/Will4and1Vict/7/26/section/21",
+  "tags": [
+   "wills act 1837",
+   "alterations",
+   "formalities"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Alterations and amendments to wills: effect of alterations made to wills both before and after execution",
+   "context_subject": "Wills & Administration of Estates",
+   "source_type": "legislation",
+   "source_quote": "No obliteration, interlineation, or other alteration made in any will after the execution thereof shall be valid or have any effect, except so far as the words or effect of the will before such alteration shall not be apparent",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-wil-004",
+  "subject": "Wills & Administration of Estates",
+  "flk": "FLK2",
+  "difficulty": "easy",
+  "title": "Revocation by destruction must be by the testator or in their presence (Wills Act 1837 s.20)",
+  "scenario": "Rukhsana was in hospital when she telephoned her daughter, Zainab, and told her to go to Rukhsana's flat, find her will in the bureau and tear it up, because she no longer wanted it to take effect. Zainab did so that afternoon while Rukhsana remained in hospital. Rukhsana died a week later, domiciled in England, without making a new will. Her solicitors hold a copy of the will.",
+  "stem": "Which of the following best describes the status of Rukhsana's will?",
+  "options": {
+   "A": "It is revoked, because it was destroyed on Rukhsana's express instructions and with her intention to revoke it.",
+   "B": "It is not revoked, because the destruction was not carried out by Rukhsana or in her presence, and the will can be proved from the copy.",
+   "C": "It is revoked, because Rukhsana communicated her intention to revoke it to a family member before she died.",
+   "D": "It is not revoked, because a will can be revoked only by a later will or codicil.",
+   "E": "It is revoked only if Zainab confirms the instructions in a statutory declaration."
+  },
+  "answer": "B",
+  "explanation": "Section 20 Wills Act 1837 lists the only ways a will can be revoked (apart from marriage or civil partnership). One is 'burning, tearing, or otherwise destroying the same by the testator, or by some person in his presence and by his direction, with the intention of revoking the same'. Rukhsana had the intention to revoke and gave a direction, but Zainab tore the will at the flat while Rukhsana was in hospital, so the destruction was not in her presence. Both elements, an act of destruction carried out by the testator or in their presence and at their direction, and the intention to revoke, are required. The will therefore remains unrevoked. Because the original no longer exists, it can be admitted to probate on the basis of the copy, with appropriate evidence.",
+  "why_wrong": {
+   "A": "Instructions and intention are not enough; s.20 requires destruction by the testator or by another person in the testator's presence.",
+   "C": "A mere statement of an intention to revoke, even to family, is not one of the methods of revocation in s.20.",
+   "D": "Section 20 also allows revocation by a duly executed writing declaring an intention to revoke, or by destruction with intention; the will survives here only because the presence requirement was not met.",
+   "E": "No statutory declaration can cure the absence of the testator's presence; the requirements of s.20 are fixed."
+  },
+  "key_rule": "Destruction revokes a will only if done by the testator, or by another person in the testator's presence and at their direction, with the intention to revoke.",
+  "authority": "Wills Act 1837, s.20",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/Will4and1Vict/7/26/section/20",
+  "tags": [
+   "wills act 1837",
+   "revocation",
+   "destruction"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Revocation of wills: methods of revocation (destruction)",
+   "context_subject": "Wills & Administration of Estates",
+   "source_type": "legislation",
+   "source_quote": "by the burning, tearing, or otherwise destroying the same by the testator, or by some person in his presence and by his direction, with the intention of revoking the same.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-wil-005",
+  "subject": "Wills & Administration of Estates",
+  "flk": "FLK2",
+  "difficulty": "hard",
+  "title": "Effect of divorce on gifts to, and appointment of, a former spouse (Wills Act 1837 s.18A)",
+  "scenario": "In 2018 Kwame made a will appointing his wife, Esi, as sole executrix and leaving his whole estate 'to my wife Esi, but if she dies before me, to such of my children as survive me in equal shares'. The will contains no other relevant provisions. Kwame and Esi divorced in England and the final order was made in 2025. Kwame died in 2026 without changing his will, survived by Esi and by their two adult children.",
+  "stem": "Which of the following best describes the effect of the divorce on Kwame's will?",
+  "options": {
+   "A": "The whole will is revoked by the divorce, so Kwame dies intestate.",
+   "B": "The will is unaffected, because only marriage or civil partnership revokes a will; Esi is executrix and takes the whole estate.",
+   "C": "The gift to Esi fails, but because Esi did not in fact die before Kwame, the gift to the children does not take effect and the estate passes on intestacy.",
+   "D": "Esi remains executrix, but the estate passes to the children because she cannot benefit after the divorce.",
+   "E": "Esi is treated as having died on the date of the final order, so her appointment as executrix fails and the estate passes to the two children in equal shares."
+  },
+  "answer": "E",
+  "explanation": "Section 18A(1) Wills Act 1837 applies where, after a will is made, the testator's marriage is dissolved by a court in England and Wales. Unless the will shows a contrary intention, any appointment of the former spouse as executor or trustee takes effect 'as if the former spouse had died on the date on which the marriage is dissolved', and any property left to the former spouse 'shall pass as if the former spouse had died on that date'. The divorce does not revoke the will as a whole. Esi is therefore treated as having predeceased Kwame: her appointment as executrix fails, and the substitutional gift 'if she dies before me' operates, so the estate passes to the two children equally. Because Esi is deemed to have died, the condition in the substitutional gift is treated as satisfied. Esi may still apply for provision under the Inheritance (Provision for Family and Dependants) Act 1975 if she has not remarried (s.18A(2)).",
+  "why_wrong": {
+   "A": "Divorce does not revoke the will; s.18A only treats the former spouse as having died for the purposes of appointments and gifts to her.",
+   "B": "Section 18A expressly changes the effect of the will on dissolution of the marriage, removing the former spouse's appointment and gift.",
+   "C": "Since the 1995 amendment, the former spouse is treated as having died on the date of dissolution, so a substitutional gift conditional on her predeceasing does take effect.",
+   "D": "Section 18A(1)(a) applies to the appointment of the former spouse as executor as well as to gifts to her."
+  },
+  "key_rule": "On divorce or annulment, unless the will shows a contrary intention, the former spouse is treated as having died on the date of dissolution for both appointments and gifts in the will.",
+  "authority": "Wills Act 1837, s.18A (as amended by the Law Reform (Succession) Act 1995, s.3)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/Will4and1Vict/7/26/section/18A",
+  "tags": [
+   "wills act 1837",
+   "revocation",
+   "divorce"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Revocation of wills: effect of divorce or dissolution on existing will",
+   "context_subject": "Wills & Administration of Estates",
+   "source_type": "legislation",
+   "source_quote": "any property which, or an interest in which, is devised or bequeathed to the former spouse shall pass as if the former spouse had died on that date,",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-wil-006",
+  "subject": "Wills & Administration of Estates",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Ademption of a specific gift of shares sold before death",
+  "scenario": "Marisol's will, made in 2020, leaves 'my 2,000 shares in Larkspur plc to my niece Inés' and the residue of her estate to a registered charity. In 2024 Marisol sold all her Larkspur plc shares and paid the proceeds into her savings account, where they remain identifiable. She did not acquire any further shares in Larkspur plc and owned none at her death in 2026. She died domiciled in England without changing her will.",
+  "stem": "Which of the following best describes Inés's entitlement?",
+  "options": {
+   "A": "Inés is entitled to the sale proceeds, because they can be traced into the savings account.",
+   "B": "Inés takes nothing, because the specific gift has been adeemed and the proceeds fall into residue.",
+   "C": "Inés is entitled to a cash sum equal to the value of 2,000 Larkspur plc shares at Marisol's death.",
+   "D": "The executors must buy 2,000 Larkspur plc shares out of the estate and transfer them to Inés.",
+   "E": "Inés takes nothing and the proceeds pass to Marisol's next of kin on a partial intestacy."
+  },
+  "answer": "B",
+  "explanation": "A gift of 'my 2,000 shares in Larkspur plc' is a specific gift: it identifies particular property that Marisol owned. Under the doctrine of ademption, if the subject matter of a specific gift no longer forms part of the testator's estate at death, the gift fails. HMRC's Inheritance Tax Manual summarises the rule: a specific gift fails by ademption if the property no longer forms part of the estate at death, and a change in the subject matter causes ademption, whereas a mere change of name or form does not. Marisol sold the shares and held cash instead, which is a change in substance, and she owned no Larkspur shares at death. The gift to Inés is therefore adeemed. The beneficiary of a specific gift has no right to trace into proceeds of sale, and the sale money simply forms part of Marisol's estate and passes under the residuary gift to the charity.",
+  "why_wrong": {
+   "A": "A beneficiary of an adeemed specific gift has no claim to the proceeds of sale, even if they are identifiable.",
+   "C": "Ademption extinguishes the gift; it is not converted into a pecuniary legacy of equivalent value.",
+   "D": "Executors have no duty to replace adeemed property; that would treat a specific gift as a general one.",
+   "E": "The proceeds are part of the estate and are caught by the effective residuary gift to the charity, so there is no partial intestacy."
+  },
+  "key_rule": "A specific gift fails by ademption if its subject matter is not in the testator's estate at death, unless it has merely changed in name or form.",
+  "authority": "Doctrine of ademption (e.g. Re Slater [1907] 1 Ch 665 (CA)); HMRC Inheritance Tax Manual IHTM12083",
+  "verified_source_url": "https://www.gov.uk/hmrc-internal-manuals/inheritance-tax-manual/ihtm12083",
+  "tags": [
+   "ademption",
+   "gifts",
+   "failure of gifts"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "The interpretation of wills: failure of gifts",
+   "context_subject": "Wills & Administration of Estates",
+   "source_type": "official-guidance",
+   "source_quote": "If the property specific gift (legacies and devises) no longer forms part of the testator or testatrix's ( IHTM12001 ) estate at their death, the gift fails by ademption.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Ademption is a common law doctrine with no statutory text; the HMRC manual is used as the official statement. Re Slater was not fetched in this session."
+  }
+ },
+ {
+  "id": "lib-wil-007",
+  "subject": "Wills & Administration of Estates",
+  "flk": "FLK2",
+  "difficulty": "hard",
+  "title": "Order of application of assets to debts and abatement of pecuniary legacies (AEA 1925 Sch.1 Pt II)",
+  "scenario": "Ngozi died in 2026, domiciled in England, leaving a valid will which gives: (1) 'my car' to her friend Asha; (2) £30,000 to her brother Ben; (3) £10,000 to her cousin Chloe; and (4) the residue of her estate to her neighbour Dev. The will says nothing about how debts are to be paid. Her estate consists of the car, worth £10,000, and money in the bank of £40,000. Her funeral, testamentary and administration expenses and debts total £20,000. The estate is solvent. Ignore inheritance tax.",
+  "stem": "Which of the following best describes how the estate will be distributed?",
+  "options": {
+   "A": "Asha takes the car, Ben takes £30,000 and Chloe takes £10,000; Dev takes nothing, and the car must be sold to pay the debts if necessary.",
+   "B": "Asha takes the car, and Ben and Chloe take £10,000 each; Dev takes nothing.",
+   "C": "Asha takes the car, Ben takes £15,000 and Chloe takes £5,000; Dev takes nothing.",
+   "D": "All the gifts abate rateably: Asha receives 60% of the value of the car, Ben £18,000 and Chloe £6,000.",
+   "E": "Dev bears the debts personally out of his residuary share, so Asha takes the car, Ben £30,000 and Chloe £10,000."
+  },
+  "answer": "C",
+  "explanation": "Section 34(3) and Part II of Schedule 1 to the Administration of Estates Act 1925 set the order in which a solvent estate's assets are applied to pay debts and expenses, unless the will provides otherwise. There is no undisposed-of property (paragraph 1). Next comes residuary property, 'subject to the retention ... of a fund sufficient to meet any pecuniary legacies' (paragraph 2). The only non-specific asset is the £40,000 cash, all of which is needed to meet the £40,000 of pecuniary legacies, so nothing is available from residue and Dev takes nothing. The debts then fall on 'the fund, if any, retained to meet pecuniary legacies' (paragraph 5), before property specifically bequeathed (paragraph 6). Paying the £20,000 from the £40,000 fund leaves £20,000 for legacies totalling £40,000, so they abate rateably by half: Ben receives £15,000 and Chloe £5,000. The specific gift of the car is untouched and passes to Asha.",
+  "why_wrong": {
+   "A": "Specific gifts are used for debts only after the fund retained for pecuniary legacies, so the pecuniary legacies abate before the car is touched.",
+   "B": "General legacies abate proportionately to their amounts, not equally.",
+   "D": "Specific gifts abate only after residue and the pecuniary legacy fund are exhausted (paragraph 6); here those suffice.",
+   "E": "A residuary beneficiary takes only what is left; there is no personal liability, and there is no residue left after providing for the pecuniary legacies."
+  },
+  "key_rule": "Unless the will says otherwise, debts of a solvent estate fall first on undisposed property, then residue, then the fund for pecuniary legacies (which abate rateably), and only then on specific gifts.",
+  "authority": "Administration of Estates Act 1925, s.34(3) and Sch.1 Pt II, paras 1-8",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/Geo5/15-16/23/schedule/FIRST/part/II",
+  "tags": [
+   "abatement",
+   "debts",
+   "failure of gifts"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Administration of estates: the sale of assets to raise funds to pay funeral expenses, tax, debts and legacies",
+   "context_subject": "Wills & Administration of Estates",
+   "source_type": "legislation",
+   "source_quote": "subject to the retention out of such property of a fund sufficient to meet any pecuniary legacies ... The fund, if any, retained to meet pecuniary legacies. ... Property specifically devised or bequeathed, rateably according to value.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Rateable abatement among general legacies is the general-law consequence of paragraph 5 (also stated in HMRC IHTM12086); the Schedule itself does not spell out the arithmetic."
+  }
+ },
+ {
+  "id": "lib-wil-008",
+  "subject": "Wills & Administration of Estates",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Lapse of a share of residue given to named beneficiaries in equal shares",
+  "scenario": "Thomas, who was unmarried and had no children, made a valid will leaving his residuary estate 'to my friends Olumide Adeyemi and Ravi Kapoor in equal shares'. The will contains no substitutional gift or survivorship clause. Ravi died in 2025 leaving two children. Thomas died in 2026, domiciled in England, survived by Olumide and by his own sister, Bronwen. Thomas's parents had both died before him.",
+  "stem": "Which of the following best describes who is entitled to Thomas's residuary estate?",
+  "options": {
+   "A": "Olumide takes half; the other half passes on a partial intestacy to Bronwen.",
+   "B": "Olumide takes the whole residue, because the surviving residuary beneficiary takes the share of one who dies first.",
+   "C": "Olumide takes half and Ravi's two children take the other half, because a gift does not lapse where the beneficiary leaves issue.",
+   "D": "Olumide takes half and Ravi's half passes into Ravi's own estate.",
+   "E": "Ravi's half passes to the Crown as bona vacantia, because Ravi died before Thomas."
+  },
+  "answer": "A",
+  "explanation": "A gift lapses if the beneficiary dies before the testator. The words 'in equal shares' are words of severance, so Olumide and Ravi each took a separate half share as tenants in common, not jointly; there is therefore no right of survivorship between them. Ravi's half lapsed on his death in Thomas's lifetime. HMRC's manual states that where a gift of residue lapses, 'the property devolves as it would on intestacy'. The statutory exception in s.33 Wills Act 1837 applies only to gifts to the testator's own children or remoter descendants, and Ravi was a friend. Thomas therefore dies partially intestate as to that half (s.49 Administration of Estates Act 1925). He left no spouse, issue or parent, so under s.46(1)(v) it passes to his sister Bronwen, as a sibling of the whole blood.",
+  "why_wrong": {
+   "B": "Survivorship applies to a joint gift; 'in equal shares' creates separate shares, so Ravi's share lapses rather than accruing to Olumide.",
+   "C": "Section 33 Wills Act 1837 saves gifts only to the testator's own children or remoter issue; Ravi was not Thomas's descendant.",
+   "D": "A lapsed gift never vests in the dead beneficiary, so nothing passes into Ravi's estate.",
+   "E": "Bona vacantia arises only if no relative entitled on intestacy survives; Bronwen takes the lapsed share."
+  },
+  "key_rule": "A share of residue given to a named beneficiary as tenant in common lapses if they predecease the testator and, absent a s.33 exception, passes on partial intestacy.",
+  "authority": "Common law doctrine of lapse; Wills Act 1837, s.33; Administration of Estates Act 1925, ss.46(1)(v) and 49; HMRC Inheritance Tax Manual IHTM12084",
+  "verified_source_url": "https://www.gov.uk/hmrc-internal-manuals/inheritance-tax-manual/ihtm12084",
+  "tags": [
+   "lapse",
+   "partial intestacy",
+   "failure of gifts"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "The interpretation of wills: failure of gifts",
+   "context_subject": "Wills & Administration of Estates",
+   "source_type": "official-guidance",
+   "source_quote": "If a gift of residue lapses, the property devolves as it would on intestacy",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "The severance-means-no-survivorship point is general law not quoted from a fetched page. s.46 and s.49 AEA 1925 were fetched and support the partial intestacy outcome."
+  }
+ },
+ {
+  "id": "lib-wil-009",
+  "subject": "Wills & Administration of Estates",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Calculating children's shares on intestacy with a surviving spouse (statutory legacy £322,000)",
+  "scenario": "Pradeep died intestate on 3 June 2026, domiciled in England. He was survived by his wife, Kavita, and their two adult children, Arun and Leela. After payment of debts and expenses, his estate consists of personal chattels worth £30,000, a house in his sole name worth £520,000 and savings of £152,000. Assume the statutory legacy (fixed net sum) for a death on that date is £322,000. Ignore interest on the statutory legacy and inheritance tax.",
+  "stem": "How much will each child be entitled to under the intestacy rules?",
+  "options": {
+   "A": "£175,000 each.",
+   "B": "Nothing, because Kavita takes the whole estate.",
+   "C": "£116,667 each.",
+   "D": "£87,500 each.",
+   "E": "£95,000 each."
+  },
+  "answer": "D",
+  "explanation": "Under s.46(1)(i) Administration of Estates Act 1925, where the intestate leaves a spouse and issue, the spouse takes the personal chattels absolutely, the residuary estate (other than the chattels) is charged with the fixed net sum, and what remains is held as to one half for the spouse absolutely and as to the other half on the statutory trusts for the issue. The fixed net sum has been £322,000 for deaths on or after 26 July 2023 (Administration of Estates Act 1925 (Fixed Net Sum) Order 2023). Excluding the chattels, Pradeep's estate is £520,000 + £152,000 = £672,000. Deducting the £322,000 leaves £350,000. Kavita takes half (£175,000) absolutely, in addition to the chattels and the £322,000. The other £175,000 is held on the statutory trusts for the children equally. Arun and Leela are adults, so their interests are vested and each is entitled to £87,500.",
+  "why_wrong": {
+   "A": "The children share one half of the remainder between them; they do not each take a half.",
+   "B": "The spouse takes everything only where the intestate leaves no issue, or the estate does not exceed the chattels plus the fixed net sum.",
+   "C": "There is no division of the remainder into equal thirds between spouse and children; the children share one half.",
+   "E": "The personal chattels go to the spouse absolutely and are excluded before the fixed net sum and the halving are calculated."
+  },
+  "key_rule": "Where an intestate leaves a spouse and issue, the spouse takes the chattels, the fixed net sum and half the balance; the issue take the other half on the statutory trusts.",
+  "authority": "Administration of Estates Act 1925, ss.46(1)(i) and 47 and Sch.1A; Administration of Estates Act 1925 (Fixed Net Sum) Order 2023 (SI 2023/758)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/Geo5/15-16/23/section/46",
+  "tags": [
+   "intestacy",
+   "statutory legacy",
+   "spouse"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "The intestacy rules: Section 46 of The Administration of Estates Act 1925",
+   "context_subject": "Wills & Administration of Estates",
+   "source_type": "legislation",
+   "source_quote": "(a) as to one half, in trust for the surviving spouse or civil partner absolutely, and(b) as to the other half, on the statutory trusts for the issue of the intestate.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "£322,000 verified on legislation.gov.uk (SI 2023/758; no later Fixed Net Sum Order listed in a title search on 16 Oct 2026) and HMRC IHTM12122 ('From 26 July 2023 to the present - £322,000')."
+  }
+ },
+ {
+  "id": "lib-wil-010",
+  "subject": "Wills & Administration of Estates",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Intestacy with no spouse, issue or parent: whole-blood sibling's issue before half-blood sibling",
+  "scenario": "Gethin died intestate in 2026, domiciled in England. He never married or formed a civil partnership and had no children. Both his parents died before him. His only full brother, Rhodri, died in 2023 leaving two adult children, Siân and Owain, who survived Gethin. Gethin was also survived by his half-sister, Mererid (they shared the same mother), and by his paternal grandmother, Gwen.",
+  "stem": "Which of the following best describes who is entitled to Gethin's estate?",
+  "options": {
+   "A": "Mererid takes the whole estate, as the only surviving sibling.",
+   "B": "Gwen takes the whole estate, because grandparents take before nephews and nieces.",
+   "C": "Mererid takes half, and Siân and Owain share the other half.",
+   "D": "Siân, Owain and Mererid share the estate equally.",
+   "E": "Siân and Owain share the whole estate equally, taking the share their father would have taken."
+  },
+  "answer": "E",
+  "explanation": "Gethin left no spouse or civil partner, no issue and no parent, so s.46(1)(v) Administration of Estates Act 1925 applies. The estate is held first 'on the statutory trusts for the brothers and sisters of the whole blood of the intestate', and only if no one takes an absolutely vested interest under those trusts does it pass to siblings of the half blood, then grandparents. Under s.47(1)(i) and (3), the statutory trusts for siblings include the issue of a sibling who predeceased the intestate, who take by representation the share their parent would have taken. Rhodri was Gethin's brother of the whole blood; his adult children, Siân and Owain, take his share and attain vested interests. Because someone takes under the whole-blood class, the half-blood class (Mererid) and the grandparents (Gwen) are excluded. Siân and Owain therefore share the whole estate equally.",
+  "why_wrong": {
+   "A": "Half-blood siblings take only if no one takes a vested interest under the statutory trusts for whole-blood siblings, which include Rhodri's issue.",
+   "B": "Grandparents come third in s.46(1)(v), after both classes of siblings and their issue.",
+   "C": "There is no sharing between classes; the whole-blood class takes everything and excludes the half blood.",
+   "D": "Mererid is in a later class, and Siân and Owain take only their father's share between them, not shares per head alongside other classes."
+  },
+  "key_rule": "With no spouse, issue or parent, the estate passes on the statutory trusts for whole-blood siblings (including issue of a predeceased sibling) before half-blood siblings or grandparents.",
+  "authority": "Administration of Estates Act 1925, ss.46(1)(v) and 47(1), (3)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/Geo5/15-16/23/section/46",
+  "tags": [
+   "intestacy",
+   "statutory trusts",
+   "siblings"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "The intestacy rules: the statutory trusts",
+   "context_subject": "Wills & Administration of Estates",
+   "source_type": "legislation",
+   "source_quote": "First, on the statutory trusts for the brothers and sisters of the whole blood of the intestate; but if no person takes an absolutely vested interest under such trusts, then Secondly",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-wil-011",
+  "subject": "Wills & Administration of Estates",
+  "flk": "FLK2",
+  "difficulty": "easy",
+  "title": "Time limit for an Inheritance Act 1975 claim: six months from the grant",
+  "scenario": "Felicity's father died in January 2026, domiciled in England, leaving his whole estate to a charity. A grant of probate was issued to his executors seven months ago. Felicity, his adult daughter, now consults you about making a claim for reasonable financial provision from his estate. No distribution has yet been made.",
+  "stem": "Which of the following best describes the time limit position for Felicity's claim?",
+  "options": {
+   "A": "She is out of time without the court's permission, because a claim must be made within six months of the date on which representation was first taken out.",
+   "B": "She is in time, because the time limit is twelve months from the date of death.",
+   "C": "She is out of time and cannot claim at all, because the six-month time limit runs from the date of death and cannot be extended.",
+   "D": "She is in time, because no time limit applies until the estate has been distributed.",
+   "E": "She is in time, because the time limit applies only to applicants who are not children of the deceased."
+  },
+  "answer": "A",
+  "explanation": "Section 4 Inheritance (Provision for Family and Dependants) Act 1975 provides that an application for an order under s.2 must not, except with the permission of the court, be made after the end of six months from the date on which representation with respect to the deceased's estate is first taken out. Since 2014, the section also confirms that a claim may be made before representation is taken out. The grant of probate was issued seven months ago, so the six-month period has expired. Felicity, as a child of the deceased, is an eligible applicant under s.1(1)(c), but she now needs the court's permission to bring a claim out of time. The fact that the estate has not yet been distributed is a factor the court may weigh when deciding whether to give permission, but it does not stop time running.",
+  "why_wrong": {
+   "B": "The period is six months and runs from the first grant of representation, not twelve months from death.",
+   "C": "Time runs from the grant, not from death, and the court has power to give permission for a late claim.",
+   "D": "Time runs from the grant regardless of distribution; distribution is only relevant to the court's discretion.",
+   "E": "The s.4 time limit applies to every category of applicant, including children."
+  },
+  "key_rule": "An Inheritance Act claim must be made within six months of the first grant of representation unless the court gives permission, although it may be made before a grant.",
+  "authority": "Inheritance (Provision for Family and Dependants) Act 1975, s.4",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1975/63/section/4",
+  "tags": [
+   "inheritance act 1975",
+   "time limits",
+   "family provision"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Claims against estates under the Inheritance (Provision for Family and Dependants) Act 1975: time limit",
+   "context_subject": "Wills & Administration of Estates",
+   "source_type": "legislation",
+   "source_quote": "shall not, except with the permission of the court, be made after the end of the period of six months from the date on which representation with respect to the estate of the deceased is first taken out",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "legislation.gov.uk shows prospective (never-commenced) Family Law Act 1996 amendments to s.1(2)(a) and s.25; these do not affect s.4."
+  }
+ },
+ {
+  "id": "lib-wil-012",
+  "subject": "Wills & Administration of Estates",
+  "flk": "FLK2",
+  "difficulty": "hard",
+  "title": "Cohabitant of less than two years: claiming under the 1975 Act as a person being maintained",
+  "scenario": "Mateus and Lorraine lived together in Mateus's house as if they were a married couple for 18 months until Mateus died suddenly in 2026, domiciled in England. They never married. Throughout that time Mateus paid the mortgage and all household bills, and Lorraine, who works part time on a low income, paid nothing towards them under any commercial arrangement. Mateus's will, made before they met, leaves everything to his brother. Lorraine asks whether she can bring a claim under the Inheritance (Provision for Family and Dependants) Act 1975.",
+  "stem": "Which of the following best describes Lorraine's position?",
+  "options": {
+   "A": "She can apply as a cohabitant under s.1(1)(ba), and the court will apply the surviving spouse standard of provision.",
+   "B": "She cannot apply at all, because she had not lived with Mateus for two years before his death.",
+   "C": "She may apply as a person being maintained by Mateus immediately before his death under s.1(1)(e), and any award will be limited to what is reasonable for her maintenance.",
+   "D": "She can apply as a cohabitant under s.1(1)(ba), because the two-year requirement is satisfied by living together for more than one year.",
+   "E": "She is entitled to a share of Mateus's estate under the intestacy rules, because his will was made before they met."
+  },
+  "answer": "C",
+  "explanation": "The cohabitant category in s.1(1)(ba) of the 1975 Act applies only where, during the whole of the two years ending immediately before the death, the applicant lived in the same household as the deceased as if they were a married couple or civil partners (s.1(1A)). Lorraine lived with Mateus for 18 months, so she does not qualify under that head. She may, however, apply under s.1(1)(e) as a person who immediately before the death was being maintained, wholly or partly, by the deceased. Under s.1(3), that requires the deceased to have been making a substantial contribution in money or money's worth towards her reasonable needs, other than for full valuable consideration under a commercial arrangement. Mateus paid the mortgage and all household bills while Lorraine contributed nothing commercially, so this appears satisfied. For any applicant other than a spouse or civil partner, 'reasonable financial provision' means what is reasonable for the applicant's maintenance (s.1(2)(b)).",
+  "why_wrong": {
+   "A": "Lorraine fails the two-year requirement in s.1(1A), and even qualifying cohabitants receive only the maintenance standard, not the spouse standard.",
+   "B": "Failing the cohabitant category does not bar a claim under the separate dependant category in s.1(1)(e).",
+   "D": "Section 1(1A) requires the whole of the two years immediately before the death; 18 months is not enough.",
+   "E": "Mateus left a valid will disposing of his whole estate, and in any case cohabitants have no entitlement on intestacy; his will was not revoked by cohabitation."
+  },
+  "key_rule": "A cohabitant needs two years' cohabitation immediately before death to claim under s.1(1)(ba), but may claim as a maintained dependant under s.1(1)(e), at the maintenance standard.",
+  "authority": "Inheritance (Provision for Family and Dependants) Act 1975, s.1(1)(ba), (1)(e), (1A), (2)(b) and (3)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1975/63/section/1",
+  "tags": [
+   "inheritance act 1975",
+   "cohabitants",
+   "family provision"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Claims against estates under the Inheritance (Provision for Family and Dependants) Act 1975: applicants",
+   "context_subject": "Wills & Administration of Estates",
+   "source_type": "legislation",
+   "source_quote": "during the whole of the period of two years ending immediately before the date when the deceased died, the person was living— (a) in the same household as the deceased",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "legislation.gov.uk lists prospective, uncommenced Family Law Act 1996 amendments to s.1(2)(a); they do not affect the provisions tested."
+  }
+ },
+ {
+  "id": "lib-wil-013",
+  "subject": "Wills & Administration of Estates",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Priority for a grant where the sole executor predeceased (NCPR 1987 r.20)",
+  "scenario": "Beatrix's will appoints her brother, Lionel, as sole executor. It leaves £10,000 to her friend Saoirse and the residue of her estate to her two adult nieces, Amara and Josie, absolutely in equal shares. Lionel died two years before Beatrix. The will contains no other appointment of executors. Beatrix has now died, domiciled in England. Saoirse, Amara and Josie are all willing to act, and so is Lionel's own executor.",
+  "stem": "Which of the following best describes who has priority to take a grant and what type of grant will issue?",
+  "options": {
+   "A": "Lionel's executor, who will take a grant of probate through the chain of representation.",
+   "B": "Amara and/or Josie, as residuary legatees, who will take a grant of letters of administration with the will annexed.",
+   "C": "Saoirse, as a legatee, who will take a grant of probate.",
+   "D": "Amara and/or Josie, who will take a grant of probate as substitute executors.",
+   "E": "Beatrix's next of kin entitled on intestacy, who will take simple letters of administration because the executor appointment has failed."
+  },
+  "answer": "B",
+  "explanation": "Rule 20 of the Non-Contentious Probate Rules 1987 sets the order of priority for a grant where the deceased left a will. The executor comes first, then any residuary legatee holding on trust, then 'any other residuary legatee or devisee'. Only after those come the personal representative of a residuary beneficiary, and then other legatees and creditors. Lionel predeceased Beatrix, so there is no executor able to prove. Amara and Josie are residuary legatees with vested interests, so they rank next under r.20(c). Because no executor is proving, the grant is not probate but letters of administration with the will annexed. Lionel's executor has no claim through the chain of representation, which operates only where an executor has proved the will, and Lionel died before Beatrix. Saoirse, as a pecuniary legatee, ranks below the residuary legatees under r.20(e).",
+  "why_wrong": {
+   "A": "The chain of representation applies only where a proving executor dies after taking a grant; Lionel predeceased the testator and never proved.",
+   "C": "A pecuniary legatee falls within r.20(e), below residuary legatees, and only executors take probate.",
+   "D": "Residuary beneficiaries are not executors unless appointed as such; they take letters of administration with the will annexed, not probate.",
+   "E": "The will remains valid and disposes of the estate; the failure of the executor appointment does not make Beatrix intestate."
+  },
+  "key_rule": "Where no executor can prove, residuary legatees have priority under NCPR r.20(c) and take letters of administration with the will annexed.",
+  "authority": "Non-Contentious Probate Rules 1987 (SI 1987/2024), r.20",
+  "verified_source_url": "https://www.legislation.gov.uk/uksi/1987/2024/rule/20",
+  "tags": [
+   "grants of representation",
+   "non-contentious probate rules",
+   "personal representatives"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Grants of representation: order of priority where deceased left a will",
+   "context_subject": "Wills & Administration of Estates",
+   "source_type": "legislation",
+   "source_quote": "(a) the executor (but subject to rule 36(4)(d) below); (b) any residuary legatee or devisee holding in trust for any other person; (c) any other residuary legatee or devisee (including one for life)",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "The chain of representation rule (Administration of Estates Act 1925, s.7) was not fetched in this session; it is used only to explain why option A is wrong."
+  }
+ },
+ {
+  "id": "lib-wil-014",
+  "subject": "Wills & Administration of Estates",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Minority interest on intestacy: two administrators required (Senior Courts Act 1981 s.114(2))",
+  "scenario": "Hamza died intestate in 2026, domiciled in England, leaving his wife, Nadia, and their son, Idris, aged 9. After debts, the estate (excluding personal chattels) is worth £600,000, which exceeds the statutory legacy. Nadia wishes to apply for the grant of letters of administration on her own, and no one else in the family is keen to be involved.",
+  "stem": "Which of the following best describes the position on the grant?",
+  "options": {
+   "A": "Nadia may take the grant alone, because as the surviving spouse she has first priority to a grant on intestacy.",
+   "B": "Nadia cannot take a grant at all while Idris is a minor; the Official Solicitor must act instead.",
+   "C": "Nadia must apply jointly with Idris, as the next person entitled to a grant.",
+   "D": "Up to four administrators may act, so Nadia must apply with three others.",
+   "E": "Because a minority interest arises, the grant must be made to at least two individuals (or a trust corporation) unless the court considers a sole administrator expedient."
+  },
+  "answer": "E",
+  "explanation": "Nadia has first priority to a grant under r.22 Non-Contentious Probate Rules 1987 as the surviving spouse. However, the estate exceeds the personal chattels plus the statutory legacy, so under s.46 Administration of Estates Act 1925 part of the residue is held on the statutory trusts for Idris, who is 9. That gives rise to a minority interest. Section 114(2) Senior Courts Act 1981 provides that where under a will or intestacy any beneficiary is a minor or a life interest arises, any grant of administration must be made to a trust corporation (with or without an individual) or to 'not less than two individuals', unless it appears to the court expedient in all the circumstances to appoint a sole administrator. Nadia should therefore apply together with a second administrator. If the estate had not exceeded the chattels and statutory legacy, Idris would take nothing and no minority interest would arise.",
+  "why_wrong": {
+   "A": "Priority under r.22 does not override s.114(2), which requires at least two administrators where a minority interest arises.",
+   "B": "A minority interest does not disqualify the spouse; it only requires a second administrator or a trust corporation.",
+   "C": "A minor cannot take a grant, and the requirement is for a second administrator, not for the minor beneficiary to apply.",
+   "D": "Four is the maximum number under s.114(1), not a minimum; two individuals suffice."
+  },
+  "key_rule": "Where a minor beneficiary or life interest arises, letters of administration must issue to at least two individuals or a trust corporation, unless the court allows a sole administrator.",
+  "authority": "Senior Courts Act 1981, s.114(1)-(2); Non-Contentious Probate Rules 1987, r.22",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1981/54/section/114",
+  "tags": [
+   "grants of representation",
+   "personal representatives",
+   "minority interest"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Grants of representation: application procedure for the grant of letters of administration",
+   "context_subject": "Wills & Administration of Estates",
+   "source_type": "legislation",
+   "source_quote": "any grant of administration by the High Court shall be made either to a trust corporation (with or without an individual) or to not less than two individuals",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "legislation.gov.uk lists outstanding Criminal Justice and Courts Act 2015 amendments to s.31 of the 1981 Act; they do not affect s.114."
+  }
+ },
+ {
+  "id": "lib-wil-015",
+  "subject": "Wills & Administration of Estates",
+  "flk": "FLK2",
+  "difficulty": "easy",
+  "title": "Executor who may wish to act later: power reserved rather than renunciation (NCPR 1987 rr.27 and 37)",
+  "scenario": "Vivienne's will appoints her two children, Oluwaseun and Hana, as executors. Vivienne has died, domiciled in England. Oluwaseun wants to apply for probate now. Hana is working overseas for the next year and does not want to be involved at present, but she says she may want to act as executor when she returns.",
+  "stem": "Which of the following is the most appropriate course?",
+  "options": {
+   "A": "Hana should renounce probate now; she can then withdraw the renunciation whenever she wishes.",
+   "B": "Probate cannot be granted until Hana returns, because all executors named in a will must apply together.",
+   "C": "Hana should renounce probate, because an executor who does not apply now loses the right to act.",
+   "D": "Oluwaseun should apply for probate alone, with power reserved to Hana, giving Hana notice of the application.",
+   "E": "Oluwaseun should apply for letters of administration with the will annexed, because one executor is unavailable."
+  },
+  "answer": "D",
+  "explanation": "An executor who does not wish to act now, but may wish to later, should not renounce. Instead, the other executor can apply for probate with power reserved to the non-proving executor. Rule 27(1) of the Non-Contentious Probate Rules 1987 provides that where, on an application for probate, power to apply for a like grant is to be reserved to executors who have not renounced, notice of the application must be given to them, and the applicant must state that notice has been given. Hana keeps the right to apply later for a grant of double probate. Renunciation, by contrast, gives up the right to the grant. Under r.37(3) a renunciation can be retracted only with the leave of a district judge or registrar, and only in exceptional circumstances after a grant has been made to someone entitled in a lower degree. Oluwaseun can therefore proceed now while preserving Hana's position.",
+  "why_wrong": {
+   "A": "A renunciation can be retracted only with the leave of a district judge or registrar under r.37(3), not at will.",
+   "B": "Not every named executor need apply; probate can be granted to one with power reserved to the others.",
+   "C": "An executor who does not prove now does not lose the right if power is reserved; renunciation is the step that gives it up.",
+   "E": "An executor is willing and able to prove, so probate (not administration with the will annexed) is the correct grant."
+  },
+  "key_rule": "An executor who may wish to act later should have power reserved, with notice of the application given to them, rather than renounce, since a renunciation can be retracted only with leave.",
+  "authority": "Non-Contentious Probate Rules 1987 (SI 1987/2024), rr.27(1) and 37(3)",
+  "verified_source_url": "https://www.legislation.gov.uk/uksi/1987/2024/rule/27",
+  "tags": [
+   "personal representatives",
+   "executors",
+   "power reserved"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Personal Representatives: renunciation; reservation of power",
+   "context_subject": "Wills & Administration of Estates",
+   "source_type": "legislation",
+   "source_quote": "where, on an application for probate, power to apply for a like grant is to be reserved to such other of the executors as have not renounced probate, notice of the application shall be given",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "r.37(3) quoted in the explanation was fetched at https://www.legislation.gov.uk/uksi/1987/2024/rule/37 ('A renunciation of probate or administration may be retracted at any time with the leave of a district judge or registrar')."
+  }
+ },
+ {
+  "id": "lib-wil-016",
+  "subject": "Wills & Administration of Estates",
+  "flk": "FLK2",
+  "difficulty": "easy",
+  "title": "Protecting personal representatives against unknown claims: s.27 Trustee Act 1925 notices",
+  "scenario": "Malik and Joanna are the executors of their late uncle, who ran a small antiques business from home before he died, domiciled in England. They have paid all the debts they know about and want to distribute the estate to the beneficiaries, but they are worried that there may be creditors of the business they do not know about.",
+  "stem": "Which of the following best describes the step they can take to protect themselves before distributing?",
+  "options": {
+   "A": "Wait one year from the death, after which personal representatives cannot be liable to any creditor.",
+   "B": "Write to each beneficiary asking them to confirm there are no further debts, which releases the executors from liability.",
+   "C": "Advertise in the Gazette and in a newspaper circulating in the relevant district, requiring claims within a period of at least two months, and then distribute having regard only to claims of which they have notice.",
+   "D": "Advertise in the Gazette requiring claims within 28 days, after which any unnotified creditor's claim is extinguished altogether.",
+   "E": "Apply to the court for an order discharging them from liability, which is the only way personal representatives can be protected."
+  },
+  "answer": "C",
+  "explanation": "Section 27 Trustee Act 1925 allows personal representatives to give notice by advertisement in the Gazette and in a newspaper circulating in the district in which the land is situated (and such other notices as a court would direct), requiring anyone interested to send in particulars of their claim within a time fixed in the notice of not less than two months. When that time expires, they may distribute 'having regard only to the claims, whether formal or not, of which the trustees or personal representatives then had notice'. They are then not liable to anyone whose claim they had no notice of at the time of distribution. The protection is personal to the PRs: s.27(2)(a) preserves a creditor's right to follow the property into the hands of a beneficiary (other than a purchaser), and the PRs must still make the searches a prudent purchaser would make.",
+  "why_wrong": {
+   "A": "The executor's year (s.44 AEA 1925) only means PRs need not distribute earlier; it gives no protection against unknown creditors.",
+   "B": "Beneficiaries' assurances do not protect PRs from creditors' claims; the statutory route is advertisement under s.27.",
+   "D": "The notice period must be at least two months, and s.27 protects the PRs personally; it does not extinguish the creditor's claim, which may be pursued against recipients.",
+   "E": "An application to court is possible but not the only protection; s.27 advertisements protect PRs without a court order."
+  },
+  "key_rule": "PRs who advertise under s.27 Trustee Act 1925, allowing at least two months for claims, are not personally liable for claims of which they had no notice at distribution.",
+  "authority": "Trustee Act 1925, s.27",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/Geo5/15-16/19/section/27",
+  "tags": [
+   "personal representatives",
+   "creditors",
+   "trustee act 1925"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Administration of estates: liabilities of personal representatives and their protection (creditors)",
+   "context_subject": "Wills & Administration of Estates",
+   "source_type": "legislation",
+   "source_quote": "requiring any person interested to send to the trustees or personal representatives within the time, not being less than two months, fixed in the notice ... particulars of his claim",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-wil-017",
+  "subject": "Wills & Administration of Estates",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Property passing outside the will: joint tenancy survivorship and tenancy in common",
+  "scenario": "Kofi died in 2026, domiciled in England. His valid will leaves 'all my estate' to his daughter, Ama. At his death he owned: (1) his home, held with his partner, Efua, as beneficial joint tenants; (2) a buy-to-let flat, held with his brother, Yaw, as tenants in common in equal shares; and (3) a bank account in his sole name. No notice of severance was ever given in relation to the home.",
+  "stem": "Which of the following best describes what passes to Ama under Kofi's will?",
+  "options": {
+   "A": "Kofi's half share in the flat and the bank account; his interest in the home passes to Efua by survivorship.",
+   "B": "Kofi's interest in the home, his share in the flat and the bank account.",
+   "C": "Only the bank account; both properties pass by survivorship to the co-owners.",
+   "D": "Kofi's interest in the home and the bank account; his share in the flat passes to Yaw by survivorship.",
+   "E": "Nothing until Efua and Yaw consent, because co-owned land cannot pass under a will."
+  },
+  "answer": "A",
+  "explanation": "Jointly owned property passes in different ways depending on how it is held beneficially. HMRC's guidance summarises the general law: under a joint tenancy, the interest of each owner passes on death by survivorship to the remaining owner or owners; under a tenancy in common, the interest or share of an owner passes on death under their will or, if there is no will, under the intestacy rules. Kofi held his home with Efua as beneficial joint tenants and the joint tenancy was never severed, so his interest passes automatically to Efua and is not part of the estate passing under his will. His half share in the flat, held as a tenant in common with Yaw, passes under his will, as does the bank account in his sole name. Ama therefore takes the half share in the flat and the bank account. The home still counts in Kofi's estate for inheritance tax purposes, even though it does not pass under the will.",
+  "why_wrong": {
+   "B": "An unsevered beneficial joint tenancy passes by survivorship and cannot be disposed of by will.",
+   "C": "Survivorship does not apply to a tenancy in common; Kofi's share in the flat passes under his will.",
+   "D": "This reverses the rules: the joint tenancy (the home) passes by survivorship and the tenancy in common (the flat) passes under the will.",
+   "E": "A tenant in common's beneficial share passes under the will without any co-owner's consent."
+  },
+  "key_rule": "A beneficial joint tenant's interest passes by survivorship outside the will; a tenant in common's share passes under the will or intestacy.",
+  "authority": "General law of co-ownership; HMRC Inheritance Tax Manual IHTM15082",
+  "verified_source_url": "https://www.gov.uk/hmrc-internal-manuals/inheritance-tax-manual/ihtm15082",
+  "tags": [
+   "property passing outside the estate",
+   "joint tenancy",
+   "survivorship"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Property passing outside the estate: joint property",
+   "context_subject": "Wills & Administration of Estates",
+   "source_type": "official-guidance",
+   "source_quote": "the interest or share of each owner passes on their death by survivorship ( IHTM15081 ) to the remaining owner(s) ... The interest or share of any owner passes on death under their Will",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-wil-018",
+  "subject": "Wills & Administration of Estates",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Inheritance tax on death: nil-rate band, residence nil-rate band and charity exemption",
+  "scenario": "Seamus, a widower, died in July 2026, domiciled in England. He made no lifetime gifts, and no unused nil-rate band or residence nil-rate band is available to transfer from his late wife. His estate is worth £1,000,000, including his home, worth £400,000. By his will he leaves £50,000 to a registered charity, his home to his daughter, Niamh, and the residue (£550,000) to his nephew, Declan. Assume a nil-rate band of £325,000, a maximum residence nil-rate band of £175,000, a death rate of 40%, and that the estate does not qualify for the reduced rate for charitable giving. There are no debts and no other reliefs.",
+  "stem": "How much inheritance tax is payable on Seamus's death estate?",
+  "options": {
+   "A": "£250,000.",
+   "B": "£200,000.",
+   "C": "£162,000.",
+   "D": "£110,000.",
+   "E": "£180,000."
+  },
+  "answer": "E",
+  "explanation": "The £50,000 gift to a registered charity is exempt, so the chargeable estate is £1,000,000 − £50,000 = £950,000. Seamus's home passes to his daughter, a direct descendant, and his estate is below the £2 million taper threshold, so the residence nil-rate band is available. It is the lower of the maximum (£175,000) and the value of the home inherited by direct descendants (£400,000), so £175,000. HMRC's guidance explains that the residence nil-rate band is added to the basic threshold where the qualifying conditions are met. No bands are available to transfer from his late wife. Deducting the residence nil-rate band (£175,000) and the nil-rate band (£325,000) leaves £450,000 taxable. At 40%, inheritance tax of £180,000 is payable. The gift of residue to a nephew is not exempt, and the residence nil-rate band is available because the home itself passes to Niamh.",
+  "why_wrong": {
+   "A": "This omits the residence nil-rate band: (£950,000 − £325,000) × 40%; Niamh is a direct descendant inheriting the home.",
+   "B": "This treats the charity gift as chargeable: (£1,000,000 − £500,000) × 40%; gifts to charity are exempt.",
+   "C": "This applies the 36% charity rate, which the question states does not apply.",
+   "D": "This doubles the residence nil-rate band; no unused band is transferable from the late wife here."
+  },
+  "key_rule": "On death, exempt gifts (e.g. to charity) are deducted, then the residence nil-rate band (home to direct descendants) and nil-rate band, with tax at 40% on the excess.",
+  "authority": "Inheritance Tax Act 1984, ss.4, 7, 8D-8M and 23 and Sch.1; HMRC guidance 'Inheritance Tax: residence nil rate band'",
+  "verified_source_url": "https://www.gov.uk/guidance/inheritance-tax-residence-nil-rate-band",
+  "tags": [
+   "inheritance tax",
+   "residence nil rate band",
+   "exemptions"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Taxation – wills and the administration of estates: Inheritance Tax: transfers on death; exemptions and reliefs",
+   "context_subject": "Wills & Administration of Estates",
+   "source_type": "official-guidance",
+   "source_quote": "Add the residence nil rate band to the basic Inheritance Tax threshold if the person and their estate meet the qualifying conditions.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Figures given in the question match HMRC's thresholds page (NRB £325,000 6 Apr 2009 to 5 Apr 2031; RNRB £175,000 6 Apr 2020 to 5 Apr 2030), fetched 16 Oct 2026. The charity 36% test was checked: the charity gift (£50,000) is below 10% of the baseline (£675,000), so the 40% rate is correct anyway."
+  }
+ },
+ {
+  "id": "lib-wil-019",
+  "subject": "Wills & Administration of Estates",
+  "flk": "FLK2",
+  "difficulty": "hard",
+  "title": "Failed potentially exempt transfer: tax with taper relief (IHTA 1984 s.7(4))",
+  "scenario": "On 1 March 2022 Babatunde gave £525,000 in cash to his son, Femi. He made no other lifetime gifts. Babatunde died on 1 September 2026, domiciled in England. Assume a nil-rate band of £325,000 both at the date of the gift and at death, a death rate of 40%, and ignore the annual exemption and all other exemptions and reliefs.",
+  "stem": "How much inheritance tax is payable on the gift to Femi as a result of Babatunde's death?",
+  "options": {
+   "A": "£80,000.",
+   "B": "£48,000.",
+   "C": "£32,000.",
+   "D": "£64,000.",
+   "E": "Nothing, because the gift was made more than three years before Babatunde's death."
+  },
+  "answer": "B",
+  "explanation": "The outright gift to Femi was a potentially exempt transfer (PET). It becomes chargeable because Babatunde died within seven years. As his first chargeable transfer, it uses the nil-rate band: £525,000 − £325,000 = £200,000 is taxed at 40%, giving £80,000 before taper. Under s.7(4) Inheritance Tax Act 1984, where a chargeable transfer was made within seven years of death but more than three years before it, tax is charged at a percentage of the full rate. The gift was made four years and six months before death, so it falls within 'more than four but not more than five years', where the tax is charged at 60% of the rate. £80,000 × 60% = £48,000. Taper relief reduces the tax on the gift itself; it does not reduce the value transferred or the nil-rate band used. The donee, Femi, is primarily liable for this tax.",
+  "why_wrong": {
+   "A": "This ignores taper relief, which applies because the gift was made more than three years before death.",
+   "C": "This charges 40% of the tax, the percentage for gifts made more than five but not more than six years before death.",
+   "D": "This charges 80% of the tax, the percentage for gifts made more than three but not more than four years before death.",
+   "E": "A PET is exempt only if the donor survives seven years; after three years taper relief reduces the tax but does not remove it."
+  },
+  "key_rule": "A PET becoming chargeable within seven years of death is taxed at the death rate, reduced by taper to 80%, 60%, 40% or 20% for gifts made 3-4, 4-5, 5-6 or 6-7 years before death.",
+  "authority": "Inheritance Tax Act 1984, ss.3A and 7(4)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1984/51/section/7",
+  "tags": [
+   "inheritance tax",
+   "potentially exempt transfers",
+   "taper relief"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Taxation – wills and the administration of estates: Inheritance Tax: lifetime transfers that are immediately chargeable and those that are potentially exempt",
+   "context_subject": "Wills & Administration of Estates",
+   "source_type": "legislation",
+   "source_quote": "(b) where the transfer is made more than four but not more than five years before the death, 60 per cent;",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "legislation.gov.uk shows an outstanding (unapplied) Finance Act 2026 effect inserting s.124L IHTA 1984; it does not affect s.7. The gift-date and death-date figures are stated in the question."
+  }
+ },
+ {
+  "id": "lib-wil-020",
+  "subject": "Wills & Administration of Estates",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Business property relief unavailable for shares in an investment (property letting) company",
+  "scenario": "Lucinda died in 2026, domiciled in England, leaving all her shares in Lucinda Lettings Ltd to her son. She had owned all the issued shares for twelve years. The company is unquoted and its business consists entirely of owning and letting twelve residential flats on assured shorthold tenancies. Lucinda was a director and worked in the business full time.",
+  "stem": "Which of the following best describes the availability of business property relief (BPR) on the shares?",
+  "options": {
+   "A": "BPR is available, because the shares are unquoted and Lucinda had owned them for more than two years.",
+   "B": "BPR is available at a reduced rate, because Lucinda had control of the company.",
+   "C": "BPR is available, because Lucinda worked full time in the business as a director.",
+   "D": "BPR is not available, because the company's business consists wholly or mainly of making or holding investments.",
+   "E": "BPR is not available, because shares in a company can never be relevant business property."
+  },
+  "answer": "D",
+  "explanation": "Section 105(1) Inheritance Tax Act 1984 includes unquoted shares in a company within 'relevant business property'. However, s.105(3) provides that shares in a company are not relevant business property if the company's business 'consists wholly or mainly of one or more of the following, that is to say, dealing in securities, stocks or shares, land or buildings or making or holding investments'. Owning and letting residential flats is a business of making or holding investments, so the exclusion applies and Lucinda's shares do not qualify for BPR at any rate. The length of ownership, her control of the company and her personal involvement as a director cannot overcome the s.105(3) exclusion. The full value of the shares is therefore within her death estate for inheritance tax.",
+  "why_wrong": {
+   "A": "Unquoted status and the two-year ownership period are necessary, but they do not override the investment business exclusion in s.105(3).",
+   "B": "Control is irrelevant where s.105(3) applies; the shares are not relevant business property at all.",
+   "C": "Personal work in the business does not change the nature of the company's business, which is holding investments.",
+   "E": "Unquoted shares, and controlling holdings of quoted shares, can be relevant business property under s.105(1); they fail here only because of s.105(3)."
+  },
+  "key_rule": "Shares in a company whose business is wholly or mainly dealing in land or securities or making or holding investments (such as property letting) are not relevant business property.",
+  "authority": "Inheritance Tax Act 1984, s.105(1) and (3)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1984/51/section/105",
+  "tags": [
+   "inheritance tax",
+   "business property relief",
+   "reliefs"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Taxation – wills and the administration of estates: Inheritance Tax: exemptions and reliefs",
+   "context_subject": "Wills & Administration of Estates",
+   "source_type": "legislation",
+   "source_quote": "are not relevant business property if the business ... consists wholly or mainly of one or more of the following, that is to say, dealing in securities, stocks or shares, land or buildings or making or holding investments.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "BPR/APR rates and a cap on 100% relief changed from 6 April 2026 (Finance Act 2026; legislation.gov.uk shows s.124L IHTA as an outstanding unapplied insertion). This question deliberately avoids rates and caps: the s.105(3) exclusion is unaffected (no outstanding effects on s.105 other than s.124L). Reviewer may confirm FA 2026 did not amend s.105(3)."
+  }
+ }
+]
