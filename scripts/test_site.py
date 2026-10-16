@@ -285,6 +285,10 @@ def editorial_test(today):
         bank[0]['tags'] = ['shared topic']; bank[-1]['tags'] = ['shared topic']
         bank_path.write_text(json.dumps(bank))
         data = json.loads(pages_path.read_text())
+        # Start from an unapproved copy so the gate is tested whatever the real approval state is.
+        for _, entry in generate.approval_entries(data):
+            entry['approved'] = False; entry.pop('approved_hash', None)
+        pages_path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n')
         labels = [label for label, _ in generate.approval_entries(data)]
         build(root, full)
         assert not any((root / name).exists() for name in [*generate.PAGES, 'guides']), 'Unapproved copy must not publish'
