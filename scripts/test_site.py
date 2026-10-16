@@ -272,7 +272,8 @@ def content_test(today):
 def editorial_test(today):
     """The full editorial batch: approval gating, page dates, discoverability, related questions and re-approval."""
     real_today = generate.london_today()
-    full = '2026-11-09'  # every question in the bank is published by then
+    # Every question in the bank is published by its last publish_date (no longer hard-coded, so appending questions keeps this test valid).
+    full = max(q['publish_date'] for q in json.loads((generate.ROOT / 'content/questions.json').read_text()))
     with tempfile.TemporaryDirectory() as tmp:
         root = temporary_checkout(tmp)
         pages_path = root / 'content/pages.json'
