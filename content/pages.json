@@ -9,7 +9,8 @@
       "booking_closes": "2026-11-23",
       "results_date": "2027-03-09",
       "source_url": "https://sqe.sra.org.uk/booking/assessment-dates-locations/booking-windows",
-      "approved": false
+      "approved": true,
+      "approved_hash": "35a3e0bbe560b9ede7459bd95e0348fd5a6bc757d63984078b8e69814f7c78e9"
     },
     {
       "label": "July 2027",
@@ -20,7 +21,8 @@
       "booking_closes": null,
       "results_date": null,
       "source_url": "https://sqe.sra.org.uk/booking/assessment-dates-locations/booking-windows",
-      "approved": false
+      "approved": true,
+      "approved_hash": "e3c48fcf93ef97bfde4242eb591974c2d64555e53ee5fb20fc0584571215e73b"
     }
   ],
   "pages": {
@@ -69,7 +71,8 @@
           "url": "https://sqe.sra.org.uk/sqe-results/results-resits"
         }
       ],
-      "approved": false
+      "approved": true,
+      "approved_hash": "c59a2c236e0f3933a5c1a66501f06e0ab01c5043ba221249ce4b01865f4e3e6b"
     },
     "editorial-standards": {
       "title": "Editorial standards: how SQE Daily questions are written",
@@ -112,7 +115,8 @@
           "url": "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification"
         }
       ],
-      "approved": false
+      "approved": true,
+      "approved_hash": "fea860e819ebdf0439d34bc9d15f6deb5e9e84eed2994095aad8867590a2f344"
     },
     "sqe1-practice-questions": {
       "title": "Free SQE1 practice questions with worked answers",
@@ -143,7 +147,8 @@
           "url": "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-sample-questions"
         }
       ],
-      "approved": false
+      "approved": true,
+      "approved_hash": "ca8ba56809c0d868f594c336c981749bb036a40d87f2cff443e7b675cbca9292"
     },
     "flk1": {
       "title": "FLK1 practice questions for SQE1 (free, with answers)",
@@ -178,7 +183,8 @@
           "url": "https://sqe.sra.org.uk/booking/assessment-dates-locations/booking-windows"
         }
       ],
-      "approved": false
+      "approved": true,
+      "approved_hash": "84cfa529ab414ead75a39639bc39b1bd407516fa7311d6e57730d66dbc1f6503"
     },
     "flk2": {
       "title": "FLK2 practice questions for SQE1 (free, with answers)",
@@ -213,7 +219,8 @@
           "url": "https://sqe.sra.org.uk/booking/assessment-dates-locations/booking-windows"
         }
       ],
-      "approved": false
+      "approved": true,
+      "approved_hash": "8aedb8457205b7970a3365c8638c99c3c338a9cc5f9c3208925f3c302f7fd57e"
     }
   },
   "guides": {
@@ -270,7 +277,8 @@
           "url": "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification"
         }
       ],
-      "approved": false
+      "approved": true,
+      "approved_hash": "6df4c32260831bc406616cca32f3cf181f63eb5ff6e308847a0e87d8d3e86665"
     },
     "sqe1-revision-timetable": {
       "title": "SQE1 revision timetable: how to plan the weeks to your exam",
@@ -321,65 +329,80 @@
           "url": "https://sqe.sra.org.uk/news-item/2026/09/10/important-changes-to-sqe1-for-january-2027-onwards"
         }
       ],
-      "approved": false
+      "approved": true,
+      "approved_hash": "e4c3ae66bfee8e89353578c54afdac420d9cca26ae83169aa9cae45c16d3b9ce"
     }
   },
   "subjects": {
     "Business Law & Practice": {
       "intro": "Business law and practice is assessed in FLK1. It covers how businesses are set up and run: sole traders, partnerships, limited liability partnerships and companies; decision-making by directors and shareholders; business finance; insolvency; and the taxation of businesses and their owners. Much of it comes from statute, so the key primary sources are the [Companies Act 2006](https://www.legislation.gov.uk/ukpga/2006/46), the [Insolvency Act 1986](https://www.legislation.gov.uk/ukpga/1986/45), the [Partnership Act 1890](https://www.legislation.gov.uk/ukpga/Vict/53-54/39) and the [Limited Liability Partnerships Act 2000](https://www.legislation.gov.uk/ukpga/2000/12). Questions often turn on a procedural step, such as which resolution is needed or what notice must be given. Every question below links to the source behind its answer.",
-      "approved": false
+      "approved": true,
+      "approved_hash": "586a5a78df7a1d24350cfb8c0d44b342d888f74b8298e0b5c1f4243b07a9d04f"
     },
     "Dispute Resolution": {
       "intro": "Dispute resolution is assessed in FLK1. It follows a civil claim from the first letter to enforcement: limitation, pre-action conduct, starting and serving proceedings, statements of case, case management, evidence, costs, trial and appeals, along with the choice between litigation and other ways of resolving disputes. The [Civil Procedure Rules](https://www.justice.gov.uk/courts/procedure-rules/civil) are the core source, with the [Limitation Act 1980](https://www.legislation.gov.uk/ukpga/1980/58) and the [Arbitration Act 1996](https://www.legislation.gov.uk/ukpga/1996/23). Questions often turn on a time limit or the next procedural step, so read the scenario's dates closely. Every question below links to the source behind its answer.",
-      "approved": false
+      "approved": true,
+      "approved_hash": "7b971d11932a23eea6dbeb76d3289c3725c839b54de739b6eff3661429d5df23"
     },
     "Contract": {
       "intro": "Contract is assessed in FLK1. It covers how contracts are formed (offer, acceptance, consideration and intention), their terms and exclusion clauses, misrepresentation, mistake, duress and undue influence, third-party rights, discharge (including frustration and breach) and remedies. Much of contract law is case law, alongside statutes such as the [Misrepresentation Act 1967](https://www.legislation.gov.uk/ukpga/1967/7), the [Unfair Contract Terms Act 1977](https://www.legislation.gov.uk/ukpga/1977/50), the [Contracts (Rights of Third Parties) Act 1999](https://www.legislation.gov.uk/ukpga/1999/31) and the [Consumer Rights Act 2015](https://www.legislation.gov.uk/ukpga/2015/15). Every question below links to the source behind its answer.",
-      "approved": false
+      "approved": true,
+      "approved_hash": "2143db025bc495eb686262037e0f050cf6f62fc287302ced89b34725e4f846ed"
     },
     "Tort": {
       "intro": "Tort is assessed in FLK1. It covers negligence (duty of care, breach, causation and remoteness), occupiers' liability, product liability, nuisance, vicarious liability, defences and remedies. Negligence is largely case law; the main statutes are the [Occupiers' Liability Act 1957](https://www.legislation.gov.uk/ukpga/Eliz2/5-6/31), the [Occupiers' Liability Act 1984](https://www.legislation.gov.uk/ukpga/1984/3), the [Consumer Protection Act 1987](https://www.legislation.gov.uk/ukpga/1987/43) and the [Law Reform (Contributory Negligence) Act 1945](https://www.legislation.gov.uk/ukpga/Geo6/8-9/28). Questions usually ask which element of a claim succeeds or fails on the facts, so work through the elements in order. Every question below links to the source behind its answer.",
-      "approved": false
+      "approved": true,
+      "approved_hash": "be758094280bc03a1f36d6a03b6b3e079aa0ed72ffad9eafab2b960569242fa9"
     },
     "Legal System of England and Wales": {
       "intro": "The legal system of England and Wales is assessed in FLK1, alongside constitutional and administrative law and EU law. It covers the courts and the judiciary, the sources of law, how precedent operates, and how legislation is made and interpreted. The [Constitutional Reform Act 2005](https://www.legislation.gov.uk/ukpga/2005/4) and the [Interpretation Act 1978](https://www.legislation.gov.uk/ukpga/1978/30) are useful statutory anchors; the rules on precedent and statutory interpretation come mainly from case law. Every question below links to the source behind its answer.",
-      "approved": false
+      "approved": true,
+      "approved_hash": "d9b51ea16cf0194c5c5681868385bc061c99b11cfc051c562e111c622788e75b"
     },
     "Constitutional & Administrative Law": {
       "intro": "Constitutional and administrative law is assessed in FLK1 as part of the legal system. It covers the institutions of the state, parliamentary sovereignty, the rule of law and the separation of powers, the royal prerogative, human rights, judicial review of public decisions, and EU law and its legacy in UK law. Key primary sources include the [Human Rights Act 1998](https://www.legislation.gov.uk/ukpga/1998/42), the [Senior Courts Act 1981](https://www.legislation.gov.uk/ukpga/1981/54), the [European Union (Withdrawal) Act 2018](https://www.legislation.gov.uk/ukpga/2018/16) and [Part 54 of the Civil Procedure Rules](https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part54), which governs judicial review procedure. Every question below links to the source behind its answer.",
-      "approved": false
+      "approved": true,
+      "approved_hash": "51e3c1fb91d9c234f290c6d94dbce2e80bc001a946a5bd28943e098ede543793"
     },
     "Ethics & Professional Conduct": {
       "intro": "Ethics and professional conduct is assessed across both FLK1 and FLK2, often within questions on other subjects. It covers the standards solicitors must meet: acting with integrity and independence, confidentiality and disclosure, conflicts of interest, client care, and duties to the court and to third parties. The primary sources are the SRA’s own rules: the [SRA Principles](https://www.sra.org.uk/solicitors/standards-regulations/principles/) and the [Code of Conduct for Solicitors, RELs and RFLs](https://www.sra.org.uk/solicitors/standards-regulations/code-conduct-solicitors/). Read the wording of the relevant standard closely; questions often hinge on it. Every question below links to the source behind its answer.",
-      "approved": false
+      "approved": true,
+      "approved_hash": "1207581e7cf4b8577305486aac58ca834e36c2c095a78dfdf5cff9941d27af9c"
     },
     "Property Practice": {
       "intro": "Property practice is assessed in FLK2. It follows freehold and leasehold transactions from instructions to completion and registration: investigating title, searches and enquiries, the contract and exchange, mortgages, completion and post-completion steps, and the law on commercial leases. Taxation comes in through stamp duty land tax. Key sources include the [Land Registration Act 2002](https://www.legislation.gov.uk/ukpga/2002/9), the [Law of Property Act 1925](https://www.legislation.gov.uk/ukpga/Geo5/15-16/20), the [Landlord and Tenant Act 1954](https://www.legislation.gov.uk/ukpga/Eliz2/2-3/56), the [Landlord and Tenant (Covenants) Act 1995](https://www.legislation.gov.uk/ukpga/1995/30) and the [Finance Act 2003](https://www.legislation.gov.uk/ukpga/2003/14). Every question below links to the source behind its answer.",
-      "approved": false
+      "approved": true,
+      "approved_hash": "50508ba13c82f44e6643b9549f6d07552dc83dbbcf60dc62297d88ae90e1a25e"
     },
     "Wills & Administration of Estates": {
       "intro": "Wills and the administration of estates is assessed in FLK2. It covers making a valid will, interpreting and revoking it, intestacy, administering an estate (grants of representation, collecting assets, paying debts and distributing what is left), claims by family and dependants, and inheritance tax. Key sources include the [Wills Act 1837](https://www.legislation.gov.uk/ukpga/Will4and1Vict/7/26), the [Administration of Estates Act 1925](https://www.legislation.gov.uk/ukpga/Geo5/15-16/23), the [Inheritance (Provision for Family and Dependants) Act 1975](https://www.legislation.gov.uk/ukpga/1975/63) and the [Inheritance Tax Act 1984](https://www.legislation.gov.uk/ukpga/1984/51). Every question below links to the source behind its answer.",
-      "approved": false
+      "approved": true,
+      "approved_hash": "a7b71367daf4addabf52887b5771553ae215d10350c653c99dae1b797a304ea8"
     },
     "Solicitors Accounts": {
       "intro": "Solicitors accounts is assessed in FLK2, in the context of property transactions and of wills and estates. It covers how firms must handle client money under the SRA Accounts Rules: telling client money apart from business money, payments into and out of client account, interest, reconciliations and breaches. The primary source is the [SRA Accounts Rules](https://www.sra.org.uk/solicitors/standards-regulations/accounts-rules/) themselves. Questions often turn on the exact wording of a rule, so read the rules rather than a summary. Every question below links to the source behind its answer.",
-      "approved": false
+      "approved": true,
+      "approved_hash": "dfb01cf2bba29a95e1531d7f732ec0aad6d267c7d5f66e3348fe1e3484cc2d70"
     },
     "Land Law": {
       "intro": "Land law is assessed in FLK2. It covers estates and interests in land, registered and unregistered land, co-ownership and trusts of land, leases, easements, freehold covenants and mortgages. Key sources include the [Law of Property Act 1925](https://www.legislation.gov.uk/ukpga/Geo5/15-16/20), the [Land Registration Act 2002](https://www.legislation.gov.uk/ukpga/2002/9) and the [Trusts of Land and Appointment of Trustees Act 1996](https://www.legislation.gov.uk/ukpga/1996/47), together with a substantial body of case law. Every question below links to the source behind its answer.",
-      "approved": false
+      "approved": true,
+      "approved_hash": "22112660d449481a2a87a2e3ed1eb6541828002ba8689f0978a0a87008975f0d"
     },
     "Trusts": {
       "intro": "Trusts is assessed in FLK2. It covers creating an express trust (including the certainties and formalities), resulting and constructive trusts, the powers and duties of trustees, breach of trust and the remedies for it, including tracing. Key statutes include the [Trustee Act 1925](https://www.legislation.gov.uk/ukpga/Geo5/15-16/19), the [Trustee Act 2000](https://www.legislation.gov.uk/ukpga/2000/29) and the [Law of Property Act 1925](https://www.legislation.gov.uk/ukpga/Geo5/15-16/20), which sets out the formalities for some trusts; much of the rest is case law. Every question below links to the source behind its answer.",
-      "approved": false
+      "approved": true,
+      "approved_hash": "d7f38c29903b87a111d17005922290ddd2e5ec750afe03ffa4f0399f5335388f"
     },
     "Criminal Law": {
       "intro": "Criminal liability is assessed in FLK2. It covers the general principles (the conduct and mental elements of an offence, causation, parties and inchoate offences), specific offences such as non-fatal offences against the person, homicide, theft, fraud and criminal damage, and defences. Key statutes include the [Offences Against the Person Act 1861](https://www.legislation.gov.uk/ukpga/Vict/24-25/100), the [Theft Act 1968](https://www.legislation.gov.uk/ukpga/1968/60), the [Criminal Damage Act 1971](https://www.legislation.gov.uk/ukpga/1971/48) and the [Fraud Act 2006](https://www.legislation.gov.uk/ukpga/2006/35). Every question below links to the source behind its answer.",
-      "approved": false
+      "approved": true,
+      "approved_hash": "7b257a4eed6f0dafcb621cec710f8bd2dd0d6ec631b6e18d803ca4796296b40a"
     },
     "Criminal Practice": {
       "intro": "Criminal practice is assessed in FLK2. It covers advice at the police station and detention, bail, first hearings, plea and allocation, trial procedure in the magistrates' court and the Crown Court, evidence (including silence and confessions), sentencing and appeals. Key sources include the [Police and Criminal Evidence Act 1984](https://www.legislation.gov.uk/ukpga/1984/60) and its Codes of Practice, the [Bail Act 1976](https://www.legislation.gov.uk/ukpga/1976/63), the [Criminal Justice and Public Order Act 1994](https://www.legislation.gov.uk/ukpga/1994/33), the [Sentencing Act 2020](https://www.legislation.gov.uk/ukpga/2020/17) and the [Criminal Procedure Rules](https://www.justice.gov.uk/courts/procedure-rules/criminal). Every question below links to the source behind its answer.",
-      "approved": false
+      "approved": true,
+      "approved_hash": "bcea2de20df3d578015d1e0e4faeb3d28d1ef409a9b18a90a1e75d5a6773c20b"
     }
   }
 }
