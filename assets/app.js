@@ -28,7 +28,7 @@ function updateDates() {
   return today;
 }
 function selectQuestion(questions, today) {
-  return questions.filter(q => q.publish_date <= today).sort((a, b) => b.publish_date.localeCompare(a.publish_date) || b.number - a.number)[0];
+  return questions.filter(q => typeof q.publish_date === 'string' && q.publish_date <= today).sort((a, b) => b.publish_date.localeCompare(a.publish_date) || b.number - a.number)[0];
 }
 function headingLabel(q, today) {
   return q.publish_date === today ? "Today's question" : 'Latest question';
@@ -55,7 +55,7 @@ function longDate(date) {
   return new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }).format(new Date(`${date}T00:00:00Z`));
 }
 function validQuestion(q) {
-  return q && ['id', 'subject', 'flk', 'difficulty', 'title', 'scenario', 'stem', 'answer', 'explanation', 'key_rule', 'authority', 'verified_source_url', 'publish_date'].every(k => typeof q[k] === 'string' && q[k].trim()) && Number.isInteger(q.number) && /^[A-E]$/.test(q.answer) && ['A', 'B', 'C', 'D', 'E'].every(k => typeof q.options?.[k] === 'string') && /^https:\/\//.test(q.verified_source_url) && /^\/q\/[a-z0-9-]+\/$/.test(q.route) && Number.isFinite(dayIndex(q.publish_date));
+  return q && ['id', 'subject', 'flk', 'difficulty', 'title', 'scenario', 'stem', 'answer', 'explanation', 'key_rule', 'authority', 'verified_source_url'].every(k => typeof q[k] === 'string' && q[k].trim()) && Number.isInteger(q.number) && /^[A-E]$/.test(q.answer) && ['A', 'B', 'C', 'D', 'E'].every(k => typeof q.options?.[k] === 'string') && /^https:\/\//.test(q.verified_source_url) && /^\/q\/[a-z0-9-]+\/$/.test(q.route) && (q.publish_date === null ? typeof q.available_from === 'string' && Number.isFinite(dayIndex(q.available_from)) : typeof q.publish_date === 'string' && Number.isFinite(dayIndex(q.publish_date)));
 }
 function renderQuestion(q) {
   activeQuestion = q;
@@ -215,7 +215,7 @@ const staticData = $('question-data');
 const homeData = $('home-question-data');
 const ready = staticData ? Promise.resolve().then(() => {
   const question = JSON.parse(staticData.textContent);
-  if (question.publish_date > londonDay()) {
+  if ((question.available_from || question.publish_date) > londonDay()) {
     $('practice-content').hidden = true;
     return;
   }

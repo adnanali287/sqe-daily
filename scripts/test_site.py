@@ -43,7 +43,7 @@ def iso(value):
 
 def check_package(root, today, repo):
     bank = json.loads((root / 'content/questions.json').read_text())
-    assert all(q['publish_date'] <= today for q in bank)
+    assert all(q.get('available_from', q['publish_date']) <= today for q in bank)
     routes = {q['id']: q['route'] for q in bank}
     lock_path = repo / generate.LOCK
     lock = json.loads(lock_path.read_text())['questions'] if lock_path.exists() else {}
@@ -84,7 +84,7 @@ def check_package(root, today, repo):
         assert target.exists(), f'Sitemap URL not in package: {url}'
         if lastmod is not None: assert iso(lastmod.text) <= latest, url
     for q in bank:
-        assert entries[generate.BASE + q['route']].text == (q['modified'] or q['publish_date'])
+        assert entries[generate.BASE + q['route']].text == (q['modified'] or q.get('available_from', q['publish_date']))
     for url in ['/about/', '/sponsor/', '/privacy/']:
         assert entries[generate.BASE + url] is None, f'No dated change backs {url}'
     assert {f'/q/{p.parent.name}/' for p in (root / 'q').glob('*/index.html')} == set(routes.values())
@@ -92,8 +92,9 @@ def check_package(root, today, repo):
 
     # Homepage: the current question, its permanent link and the no-JavaScript reveal are in the HTML.
     home = (root / 'index.html').read_text()
-    if bank:
-        current = sorted(bank, key=lambda q: (q['publish_date'], q['number']))[-1]
+    daily = generate.published(bank, today)
+    if daily:
+        current = daily[-1]
         assert html.escape(current['scenario']) in home and home.count('class="option"') == 5
         assert f'id="permalink" href="{current["route"]}"' in home
         assert generate.NOSCRIPT_STYLE in home and 'id="home-question-data"' in home
@@ -169,6 +170,9 @@ def content_test(today):
         locked = json.loads((root / generate.LOCK).read_text())['questions'][first['id']]['route']
         lastmod = lambda url: re.search(re.escape(generate.BASE + url) + r'</loc><lastmod>([\d-]+)<', (root / 'sitemap.xml').read_text()).group(1)
         real_today = generate.london_today()
+        baseline_lastmod = lastmod(locked)
+        baseline_page = (root / locked.lstrip('/') / 'index.html').read_text()
+        baseline_modified = re.findall(r'"dateModified": "[^"]+"', baseline_page)
 
         # A title edit changes the title and h1, never the URL.
         data = json.loads(original); data[0]['title'] += ' (edited)'
@@ -184,7 +188,8 @@ def content_test(today):
         data = json.loads(original); data[0]['last_reviewed'] = data[0]['publish_date']
         bank_path.write_text(json.dumps(data))
         build(root, today)
-        assert lastmod(locked) == data[0]['publish_date'] and '"dateModified"' not in (root / locked.lstrip('/') / 'index.html').read_text()
+        assert lastmod(locked) == baseline_lastmod
+        assert re.findall(r'"dateModified": "[^"]+"', (root / locked.lstrip('/') / 'index.html').read_text()) == baseline_modified
 
         # Hand-editing the lock for a published page fails the build.
         bank_path.write_text(original)
@@ -273,7 +278,7 @@ def editorial_test(today):
     """The full editorial batch: approval gating, page dates, discoverability, related questions and re-approval."""
     real_today = generate.london_today()
     # Every question in the bank is published by its last publish_date (no longer hard-coded, so appending questions keeps this test valid).
-    full = max(q['publish_date'] for q in json.loads((generate.ROOT / 'content/questions.json').read_text()))
+    full = max(q['publish_date'] for q in json.loads((generate.ROOT / 'content/questions.json').read_text()) if q['publish_date'])
     with tempfile.TemporaryDirectory() as tmp:
         root = temporary_checkout(tmp)
         pages_path = root / 'content/pages.json'
@@ -284,6 +289,14 @@ def editorial_test(today):
         # Shared tags across papers: tags outrank subject and paper.
         bank[0]['tags'] = ['shared topic']; bank[-1]['tags'] = ['shared topic']
         bank_path.write_text(json.dumps(bank))
+        # This fixture tests first publication, not the real pages' historical dates.
+        lock_path = root / generate.LOCK
+        fixture_lock = json.loads(lock_path.read_text())
+        fixture_lock['pages'] = {}
+        for subject in fixture_lock['subjects'].values():
+            if isinstance(subject, dict):
+                subject.update(intro_hash=None, modified=None)
+        lock_path.write_text(json.dumps(fixture_lock))
         data = json.loads(pages_path.read_text())
         # Start from an unapproved copy so the gate is tested whatever the real approval state is.
         for _, entry in generate.approval_entries(data):

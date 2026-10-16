@@ -11,10 +11,20 @@ python3 scripts/generate.py --package
 python3 scripts/test_site.py
 node scripts/test_dates.cjs
 node scripts/test_answers.cjs
+python3 scripts/test_practice.py
+node scripts/test_test_core.cjs
 python3 -m http.server 8766 --directory _site
 ```
 
 Open http://localhost:8766. Serve `_site`, not the repository root, to preview the exact deployed package. `--date YYYY-MM-DD` is available for generator testing; do not deploy a future-date preview.
+
+## Practice library and tests
+
+`/tests/` provides 10- or 20-question mini tests from the available library, filtered by paper and optionally subject, with timed and untimed modes. Full papers require an approved 170-question composition: two locked 85-question sessions, 153 minutes per timed session and a 60-minute break. Scores, flags, answers and timing stay in local storage on the visitor's device; there are no accounts or result submissions. A timed attempt continues while the tab is closed.
+
+Library availability is separate from the daily feature date. Exact-content approvals in `content/practice.json` can release a question early without changing its daily question or newsletter schedule. New library-only questions may use `publish_date: null`; they require a release approval and are never selected as the daily question. Existing question dates and locked URLs must not be changed. Unapproved, stale or incomplete mock compositions are not offered. The checked-in practice configuration intentionally contains no early releases or approved mocks.
+
+See [the content contract](docs/practice-content-contract.md) for the release and mock schema and fingerprinted approval commands. Hark supplies and reviews content; owner approval is required before recording releases or mock approvals. Do not copy temporary QA approvals or synthetic mock fixtures into production. Draft content and private authoring metadata are excluded from the deployment package.
 
 ## Add questions
 

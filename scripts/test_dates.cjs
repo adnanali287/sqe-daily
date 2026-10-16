@@ -30,6 +30,8 @@ assert.equal(vm.runInContext("headingLabel(daily[1], '2026-10-27')", context), '
 context.sample = { id: 'q1', number: 1, subject: 's', flk: 'FLK1', difficulty: 'easy', title: 'Edited title', scenario: 's', stem: 's', answer: 'A', explanation: 'Why.\n\nA is wrong: x.\nB is wrong: y.', key_rule: 'k', authority: 'a', verified_source_url: 'https://example.org', publish_date: '2026-10-25', options: { A: 'a', B: 'b', C: 'c', D: 'd', E: 'e' }, route: '/q/1-original-title/' };
 assert.equal(vm.runInContext('validQuestion(sample)', context), true);
 assert.equal(vm.runInContext('validQuestion({ ...sample, route: undefined })', context), false);
+assert.equal(vm.runInContext("validQuestion({ ...sample, publish_date: null, available_from: '2026-10-16' })", context), true);
+assert.equal(vm.runInContext("selectQuestion([{ ...sample, publish_date: null }], '2026-10-26')", context), undefined, 'library-only questions never enter the daily schedule');
 assert.deepEqual([...vm.runInContext('explanationLines(sample)', context)], ['Why.', 'A is wrong: x.', 'B is wrong: y.']);
 context.sample.why_wrong = { B: 'Reason B.', A: 'Reason A.' };
 assert.deepEqual([...vm.runInContext('explanationLines(sample)', context)], ['Why.', 'Why A is wrong: Reason A.', 'Why B is wrong: Reason B.']);
