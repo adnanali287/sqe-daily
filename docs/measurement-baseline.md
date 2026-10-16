@@ -44,6 +44,9 @@ The earlier access limitation below is historical. Codex accessed the verified
 - Stored homepage URL Inspection: **URL is not on Google**, **URL is unknown
   to Google**, no recorded last crawl. This is the stored index result, not a
   failure of the live HTTP request or evidence that the sitemap submission failed.
+- Requested homepage indexing. After checking the live URL, Google confirmed
+  **Indexing requested** and that the URL was added to a priority crawl queue.
+  This acknowledges the request; it does not mean the homepage is indexed yet.
 
 Discovered pages are not necessarily indexed. Recheck Page indexing and URL
 Inspection after Google processes the submission. No search ranking or traffic
