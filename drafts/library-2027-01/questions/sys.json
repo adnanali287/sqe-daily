@@ -1,0 +1,862 @@
+[
+ {
+  "id": "lib-sys-001",
+  "subject": "Legal System of England and Wales",
+  "flk": "FLK1",
+  "difficulty": "hard",
+  "title": "Status of Privy Council decisions in the courts of England and Wales (Willers v Joyce)",
+  "scenario": "In October 2026 a High Court judge in London is trying a common law claim in England and Wales. The defendant, Okonjo Ltd, relies on a 2018 decision of the Court of Appeal (Civil Division) which is directly in point. The claimant, Priya Raman, relies on a 2024 decision of the Judicial Committee of the Privy Council on an appeal from an overseas jurisdiction whose common law on the point is the same as that of England and Wales. The Board said that the 2018 Court of Appeal decision was wrong, but it did not direct that courts in England and Wales should treat its own decision as representing English law. There is no relevant decision of the House of Lords or the Supreme Court.",
+  "stem": "Which of the following best describes how the High Court judge should proceed?",
+  "options": {
+   "A": "Follow the Privy Council decision, because it is more recent and the Board is made up largely of Justices of the Supreme Court.",
+   "B": "Choose whichever of the two decisions the judge considers correct, because both are appellate decisions of equal standing.",
+   "C": "Follow the Court of Appeal decision, treating the Privy Council decision as being of great weight and persuasive value only.",
+   "D": "Follow the Privy Council decision, because on common law questions decisions of the Board bind every court in England and Wales.",
+   "E": "Stay the claim until the Supreme Court has decided which of the two decisions represents the law of England and Wales."
+  },
+  "answer": "C",
+  "explanation": "In Willers v Joyce (No 2) [2016] UKSC 44 the Supreme Court held that the JCPC is not a court of the United Kingdom. Its decisions therefore cannot bind any judge of England and Wales and cannot override a decision of a court of England and Wales that would otherwise be a binding precedent for that judge. Subject to that, a JCPC decision on a common law issue should normally be regarded as being of great weight and persuasive value. Lord Neuberger added that where the Board decides that an earlier decision of the House of Lords, Supreme Court or Court of Appeal was wrong, it may expressly direct that domestic courts should treat the Board's decision as representing the law of England and Wales. No such direction was given here. The 2018 Court of Appeal decision binds the High Court under the ordinary rules of precedent, so the judge must follow it. Priya's remedy is to pursue an appeal, where an appellate court can consider the Board's reasoning.",
+  "why_wrong": {
+   "A": "Recency and the identity of the Board's members do not make a JCPC decision binding; it cannot override a precedent that binds the judge.",
+   "B": "The JCPC is not a UK court, so its decision is not of equal standing with a Court of Appeal decision that binds the High Court.",
+   "D": "JCPC decisions are persuasive only; they bind no judge of England and Wales unless the Board gives an express direction, which it did not.",
+   "E": "There is no rule requiring a stay; the judge is bound by the Court of Appeal decision and must apply it now."
+  },
+  "key_rule": "A JCPC decision cannot override a precedent binding on an English judge unless the Board expressly directs that it represents English law; otherwise it is persuasive only, though of great weight.",
+  "authority": "Willers v Joyce (No 2) [2016] UKSC 44, paras 12 and 21",
+  "verified_source_url": "https://supremecourt.uk/uploads/uksc_2015_0154a_judgment_41d44310af.pdf",
+  "tags": [
+   "precedent",
+   "stare decisis",
+   "privy council"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Development of case law: the doctrine of precedent",
+   "context_subject": "Legal System of England and Wales",
+   "source_type": "judgment",
+   "source_quote": "decisions of the JCPC cannot be binding on any judge of England and Wales, and, in particular, cannot override any decision of a court of England and Wales ... which would otherwise represent a precedent",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-sys-002",
+  "subject": "Legal System of England and Wales",
+  "flk": "FLK1",
+  "difficulty": "easy",
+  "title": "When an Act with no commencement provision comes into force (Interpretation Act 1978 s.4)",
+  "scenario": "The (fictional) Harbour Moorings Act 2026 is an Act of the UK Parliament. It received Royal Assent at 3.30 pm on Tuesday 10 March 2026. Section 5 of the Act imposes a new duty on mooring operators. Nothing in the Act, or in any other legislation, makes provision for when section 5 is to come into force. Kwame Mensah, a mooring operator in England, asks his solicitor when the duty in section 5 took effect.",
+  "stem": "When did section 5 come into force?",
+  "options": {
+   "A": "At the beginning of 10 March 2026, the day on which the Act received Royal Assent.",
+   "B": "At 3.30 pm on 10 March 2026, the moment at which Royal Assent was given.",
+   "C": "At the beginning of the day two months after Royal Assent, which is the standard commencement period for Acts.",
+   "D": "On the day appointed by commencement regulations made by the Secretary of State.",
+   "E": "When the Act was first published on legislation.gov.uk, since a duty cannot take effect before the public can read it."
+  },
+  "answer": "A",
+  "explanation": "Section 4 of the Interpretation Act 1978 sets the default rule for the commencement of Acts. Where provision is made for an Act or provision to come into force on a particular day, it comes into force at the beginning of that day (s.4(a)). Where no provision is made for its coming into force, it comes into force at the beginning of the day on which the Act receives Royal Assent (s.4(b)). The Harbour Moorings Act 2026 contains no commencement provision for section 5, so s.4(b) applies. Section 5 therefore came into force at the beginning of 10 March 2026, that is from the first moment of that day, even though Royal Assent was given in the afternoon. A two-month commencement period is common drafting practice, but it applies only where the Act itself says so. Commencement regulations are only needed where an Act gives a minister power to appoint the day.",
+  "why_wrong": {
+   "B": "Under s.4 a provision comes into force at the beginning of the relevant day, not at the time of day Royal Assent is given.",
+   "C": "A two-month delay applies only if the Act expressly provides for it; there is no general statutory default of two months.",
+   "D": "Commencement regulations are relevant only where the Act confers a power to appoint a day; this Act makes no provision at all.",
+   "E": "Publication is not the trigger for commencement; s.4(b) ties commencement to the day of Royal Assent."
+  },
+  "key_rule": "Where an Act makes no provision for commencement, it comes into force at the beginning of the day on which it receives Royal Assent.",
+  "authority": "Interpretation Act 1978, s.4",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1978/30/section/4",
+  "tags": [
+   "legislative process",
+   "commencement",
+   "interpretation act 1978"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Primary legislation: the structure of an act of Parliament",
+   "context_subject": "Legal System of England and Wales",
+   "source_type": "legislation",
+   "source_quote": "where no provision is made for its coming into force, at the beginning of the day on which the Act receives the Royal Assent.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-sys-003",
+  "subject": "Legal System of England and Wales",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Using explanatory notes and Law Commission reports as aids to interpretation (R (O) v SSHD)",
+  "scenario": "In a 2026 claim in the High Court, the parties disagree about the meaning of a phrase in section 9 of a 2021 Act of Parliament. Counsel for the claimant, Femi Adebayo, wishes to rely on two documents: the Explanatory Notes published with the Act, and a Law Commission report which recommended the reform the Act was passed to make. Counsel for the defendant argues that neither document can be looked at unless the phrase is first shown to be ambiguous.",
+  "stem": "Which of the following best describes the use the court may make of these documents?",
+  "options": {
+   "A": "The court may consider them only if the phrase is ambiguous or obscure or leads to an absurdity, as these are the conditions for using any external aid.",
+   "B": "The court must follow the Explanatory Notes, because they are published with the Act and form part of it, but may not use the Law Commission report.",
+   "C": "The court may not consider either document, because neither was debated or approved by Parliament.",
+   "D": "The court may use the Law Commission report to identify the mischief, but not the Explanatory Notes, because those were written by a government department.",
+   "E": "The court may consider both as context for identifying the meaning and purpose of the section, even without ambiguity, but they cannot displace a meaning that is clear and unambiguous in context and not absurd."
+  },
+  "answer": "E",
+  "explanation": "In R (O) v Secretary of State for the Home Department [2022] UKSC 3, Lord Hodge explained that the words of the statute, read in their context, are the primary source of meaning, and that external aids play a secondary role. Explanatory notes may cast light on the meaning of particular provisions, and materials such as Law Commission reports may disclose the background, helping the court identify the mischief and purpose of the legislation and so assisting a purposive interpretation. Crucially, this context is relevant whether or not there is ambiguity or uncertainty, and may itself reveal ambiguity. But none of these external aids can displace the meaning conveyed by the statutory words if, after considering that context, the words are clear and unambiguous and do not produce absurdity. So the court may look at both documents, but they cannot override a clear meaning.",
+  "why_wrong": {
+   "A": "The ambiguity threshold comes from the special rules on Hansard (Pepper v Hart); R (O) says other external aids may be used whether or not there is ambiguity.",
+   "B": "Explanatory notes are not part of the Act and are not binding; they are an aid of secondary weight, and Law Commission reports may also be used.",
+   "C": "External aids need not be approved by Parliament to be admissible; R (O) expressly permits their use as context.",
+   "D": "R (O) treats explanatory notes as capable of casting light on the meaning of particular provisions, so they are not excluded."
+  },
+  "key_rule": "External aids such as explanatory notes and Law Commission reports may be used as context whether or not there is ambiguity, but cannot displace a clear, unambiguous and non-absurd meaning of the words.",
+  "authority": "R (O) v Secretary of State for the Home Department [2022] UKSC 3, paras 29-31 (Lord Hodge)",
+  "verified_source_url": "https://caselaw.nationalarchives.gov.uk/uksc/2022/3",
+  "tags": [
+   "statutory interpretation",
+   "aids to interpretation",
+   "explanatory notes"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Statutory interpretation: aids to statutory interpretation and construction",
+   "context_subject": "Legal System of England and Wales",
+   "source_type": "judgment",
+   "source_quote": "relevant to assist the court to ascertain the meaning of the statute, whether or not there is ambiguity and uncertainty ... But none of these external aids displace the meanings conveyed by the words of a statute",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-sys-004",
+  "subject": "Legal System of England and Wales",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Purposive interpretation and developments Parliament did not foresee (Quintavalle)",
+  "scenario": "The (fictional) Inland Waters Safety Act 1999 provides that no person may operate a 'powered craft' on an inland lake in England without a safety licence. Section 1 defines a powered craft as 'a vessel driven by an engine, the vessel being treated as powered from the moment its fuel is ignited'. The Act was passed after a series of serious accidents to swimmers, and it sets up a detailed licensing regime. In 2026 Joaquim Silva is prosecuted for operating an unlicensed battery-electric hydrofoil board, a type of craft unknown in 1999, at high speed on a lake. He argues that no fuel is ever ignited in his craft, so it cannot be a powered craft.",
+  "stem": "Which of the following best describes how the court is likely to approach the interpretation of section 1?",
+  "options": {
+   "A": "It will give the words their literal meaning; as no fuel is ignited, the craft falls outside the Act, however unwelcome that result.",
+   "B": "It will read section 1 in the context of the Act as a whole and its safety purpose, and is likely to treat the reference to fuel as fixing the time from which a craft is regulated, so that the electric craft is covered.",
+   "C": "It will ask what Parliament would have enacted if it had known about electric hydrofoil boards in 1999, and apply that answer.",
+   "D": "It may depart from the literal meaning only under the golden rule, and only if the literal meaning produces a result so absurd that no Parliament could have intended it.",
+   "E": "It must first look at Hansard, because the court cannot decide whether a new technology falls within an Act without the minister's statements."
+  },
+  "answer": "B",
+  "explanation": "In R (Quintavalle) v Secretary of State for Health [2003] UKHL 13, Lord Bingham held that the court's task, within the permissible bounds of interpretation, is to give effect to Parliament's purpose. Controversial provisions should be read in the context of the statute as a whole, and the statute in the historical context that led to its enactment, rather than concentrating on the literal words. Applying Lord Wilberforce's guidance in Royal College of Nursing v DHSS, a new state of affairs may fall within an Act if it is within the same genus of facts as those addressed by Parliament's policy, or if a clear statutory purpose can only be fulfilled by including it. In Quintavalle the words 'where fertilisation is complete' were read as directed to timing, not as an integral part of the definition of an embryo. By analogy, an electric craft is the same kind of risk the Act was passed to control, so the court is likely to treat it as a powered craft.",
+  "why_wrong": {
+   "A": "Quintavalle rejects confining attention to the literal words where that would frustrate the purpose Parliament intended to achieve.",
+   "C": "Lord Wilberforce, approved in Quintavalle, said the courts cannot ask what Parliament would have done if the facts had been before it and supply the answer.",
+   "D": "The modern approach is purposive and contextual from the outset; the court is not confined to the literal meaning unless absurdity is shown.",
+   "E": "Hansard may be used only under the Pepper v Hart conditions; it is not a precondition to deciding whether new facts fall within an Act."
+  },
+  "key_rule": "Under the purposive approach the court reads a provision in the context of the whole Act and its purpose; unforeseen developments within the same genus as those Parliament addressed may fall within it.",
+  "authority": "R (Quintavalle) v Secretary of State for Health [2003] UKHL 13, paras 8, 10 and 14-15 (Lord Bingham)",
+  "verified_source_url": "https://publications.parliament.uk/pa/ld200203/ldjudgmt/jd030313/quinta-1.htm",
+  "tags": [
+   "statutory interpretation",
+   "purposive approach",
+   "always speaking"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Statutory interpretation: the purposive approach",
+   "context_subject": "Legal System of England and Wales",
+   "source_type": "judgment",
+   "source_quote": "The court's task, within the permissible bounds of interpretation, is to give effect to Parliament's purpose. So the controversial provisions should be read in the context of the statute as a whole",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-sys-005",
+  "subject": "Legal System of England and Wales",
+  "flk": "FLK1",
+  "difficulty": "hard",
+  "title": "Presumption of mens rea where a statutory offence is silent (B v DPP)",
+  "scenario": "The (fictional) Cash Couriers Act 2025 provides in section 2: 'A person who recruits a person under the age of 18 to carry cash for reward commits an offence', punishable by up to 10 years' imprisonment. The Act says nothing about the defendant's state of mind and contains no other relevant provision. Rhys Morgan is charged with recruiting Danny, aged 17. Rhys says he honestly believed that Danny was 19, although the prosecution argues that his belief was unreasonable because Danny looked young and was in school uniform.",
+  "stem": "Which of the following best describes the mental element the court is likely to require as to Danny's age?",
+  "options": {
+   "A": "None: the offence is one of strict liability as to age, because its purpose is to protect young people.",
+   "B": "Rhys has a defence only if his belief that Danny was 18 or over was both honest and based on reasonable grounds.",
+   "C": "Rhys has a defence only if he proves, on the balance of probabilities, that he honestly believed Danny was 18 or over.",
+   "D": "The prosecution must prove that Rhys did not honestly believe Danny was 18 or over; an honest belief is enough even if unreasonable, although its unreasonableness is evidence on whether it was held.",
+   "E": "The presumption of mens rea applies only to common law offences, so the words of section 2 must be applied as they stand."
+  },
+  "answer": "D",
+  "explanation": "In B (A Minor) v DPP [2000] UKHL 13, Lord Nicholls held that where a statutory offence is silent on the mental element, the starting point is the established common law presumption that mens rea is an essential ingredient unless Parliament has indicated a contrary intention expressly or by necessary implication. A necessary implication must be compellingly clear, drawn from the language, the nature of the offence, the mischief and any other relevant circumstances. The more serious the offence, the greater the weight of the presumption. A protective purpose alone does not show that liability was meant to be strict. The House also held that an honest belief negatives mens rea even if unreasonable; reasonableness goes only to whether the belief was genuinely held. Here section 2 creates a serious offence and nothing displaces the presumption, so the prosecution must prove the absence of a genuine belief that Danny was 18 or over.",
+  "why_wrong": {
+   "A": "A protective purpose does not by itself create a compellingly clear implication of strict liability, especially for a serious offence.",
+   "B": "B v DPP held that the 'reasonable grounds' formulation is no longer correct; an honest belief, even if unreasonable, is enough.",
+   "C": "The burden of proving the mental element rests on the prosecution in the usual way; the defendant does not have to prove his belief.",
+   "E": "The presumption is a rule of statutory interpretation that applies to every statutory offence that is silent as to mens rea."
+  },
+  "key_rule": "Where a statutory offence is silent on mental element, mens rea is presumed unless excluded expressly or by compellingly clear necessary implication; an honest, even unreasonable, mistaken belief negatives it.",
+  "authority": "B (A Minor) v DPP [2000] UKHL 13; [2000] 2 AC 428 (Lord Nicholls)",
+  "verified_source_url": "https://publications.parliament.uk/pa/ld199900/ldjudgmt/jd000223/b-1.htm",
+  "tags": [
+   "statutory interpretation",
+   "presumptions",
+   "mens rea"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Statutory interpretation: presumptions",
+   "context_subject": "Legal System of England and Wales",
+   "source_type": "judgment",
+   "source_quote": "the starting point for a court is the established common law presumption that a mental element, traditionally labelled mens rea, is an essential ingredient unless Parliament has indicated a contrary intention either expressly or by necessary implication.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "The Act is fictional so that the question tests the presumption only. The offence in B v DPP has since been repealed, but the presumption remains good law."
+  }
+ },
+ {
+  "id": "lib-sys-006",
+  "subject": "Legal System of England and Wales",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Bilingual Acts of Senedd Cymru: equal status of the Welsh and English texts",
+  "scenario": "An Act of Senedd Cymru which received Royal Assent in 2023 was enacted in both Welsh and English. In a 2026 dispute in Cardiff about a planning duty under the Act, the solicitor for Gwen Prys notices that the Welsh text of one section appears to bear a narrower meaning than the English text, and the narrower meaning favours her client. The other side argues that the English text must prevail.",
+  "stem": "Which of the following best describes the status of the two texts?",
+  "options": {
+   "A": "The Welsh and English texts have equal status for all purposes, so the English text does not prevail just because it is in English.",
+   "B": "The English text prevails, because English is the language in which the courts of England and Wales decide cases.",
+   "C": "The Welsh text prevails, because Welsh is the original language of legislation made by Senedd Cymru.",
+   "D": "The English text prevails, because the Interpretation Act 1978 provides that the English text of any legislation is authoritative.",
+   "E": "Equal status applies unless the context requires otherwise, and a court may give priority to the English text where the context so requires."
+  },
+  "answer": "A",
+  "explanation": "Part 2 of the Legislation (Wales) Act 2019 applies to Acts of Senedd Cymru that receive Royal Assent on or after 1 January 2020 (s.3(1)(b)), so it applies to this 2023 Act. Section 5 provides that where an Act of Senedd Cymru is enacted in Welsh and English, the Welsh language text and the English language text have equal status for all purposes. Section 4(2) adds that the usual exception allowing Part 2 to be displaced by express provision or by the context does not apply to section 5. Neither text is a mere translation and neither prevails automatically, so the court must interpret the provision giving equal weight to both texts. Gwen's solicitor is therefore entitled to rely on the Welsh text, and the other side cannot insist that the English version governs. For earlier Senedd legislation the Government of Wales Act 2006, s.156(1), makes similar provision.",
+  "why_wrong": {
+   "B": "The language of court proceedings is irrelevant; s.5 gives both texts equal status for all purposes.",
+   "C": "Neither text has priority; the Welsh text has no greater status than the English text.",
+   "D": "The Interpretation Act 1978 contains no such rule; this Act is governed by Part 2 of the Legislation (Wales) Act 2019.",
+   "E": "Section 4(2) of the 2019 Act provides that the 'context requires otherwise' exception does not apply to s.5."
+  },
+  "key_rule": "The Welsh and English texts of a bilingual Act of Senedd Cymru have equal status for all purposes, and this rule cannot be displaced by context.",
+  "authority": "Legislation (Wales) Act 2019, ss.3(1)(b), 4(2) and 5; Government of Wales Act 2006, s.156",
+  "verified_source_url": "https://www.legislation.gov.uk/anaw/2019/4/section/5",
+  "tags": [
+   "senedd cymru",
+   "bilingual legislation",
+   "statutory interpretation"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Statutory interpretation: interpretation of legislation made by Senedd Cymru",
+   "context_subject": "Legal System of England and Wales",
+   "source_type": "legislation",
+   "source_quote": "(2)The Welsh language text and the English language text have equal status for all purposes.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-sys-007",
+  "subject": "Legal System of England and Wales",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Senedd Cymru legislative competence: provisions applying in relation to England (GoWA 2006 s.108A)",
+  "scenario": "An Act of Senedd Cymru passed in 2025 regulates bus services. Section 12 of the Act requires every local authority in England whose area borders Wales to publish a cross-border bus timetable each year. The provision is not ancillary to any other provision. Cheshire-based campaigner Amira Haddad asks a solicitor whether the English local authorities are legally bound by section 12.",
+  "stem": "Which of the following best describes the legal position?",
+  "options": {
+   "A": "Section 12 is valid, because Acts of Senedd Cymru extend to England and Wales and so may apply anywhere in that jurisdiction.",
+   "B": "Section 12 is valid unless and until a court makes a declaration that it is incompatible with the Government of Wales Act 2006.",
+   "C": "Section 12 is valid, because the validity of an Act of the Senedd is not affected by any invalidity in the proceedings leading to its enactment.",
+   "D": "Section 12 is not law, because it applies otherwise than in relation to Wales and so is outside the Senedd's legislative competence.",
+   "E": "Section 12 is valid unless the UK Parliament passes an Act repealing it, because devolved legislation can only be removed by Westminster."
+  },
+  "answer": "D",
+  "explanation": "Section 108A(1) of the Government of Wales Act 2006 provides that an Act of the Senedd is not law so far as any provision of it is outside the Senedd's legislative competence. Under s.108A(2), a provision is outside competence if, among other things, it extends otherwise than only to England and Wales (para (a)), or applies otherwise than in relation to Wales or imposes functions exercisable otherwise than in relation to Wales (para (b)). Section 12 extends to England and Wales, so para (a) is not the problem; but it imposes duties on English local authorities, so it applies otherwise than in relation to Wales. The exception in s.108A(3) for ancillary provisions does not apply, as the facts state section 12 is not ancillary. Section 12 is therefore outside competence and, by s.108A(1), is not law. The English authorities are not bound by it.",
+  "why_wrong": {
+   "A": "Extent and application are different: a Senedd Act extends to England and Wales but must apply only in relation to Wales (s.108A(2)(b)).",
+   "B": "A provision outside competence is simply 'not law' under s.108A(1); no declaration of incompatibility is needed to deprive it of effect.",
+   "C": "Section 107(3) protects against defects in Senedd procedure, not against a provision being outside legislative competence.",
+   "E": "No repeal is needed; a provision outside competence never has the force of law."
+  },
+  "key_rule": "A provision of an Act of Senedd Cymru is not law so far as it applies otherwise than in relation to Wales, unless it is an ancillary provision within s.108A(3).",
+  "authority": "Government of Wales Act 2006, s.108A(1)-(3)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2006/32/section/108A",
+  "tags": [
+   "senedd cymru",
+   "devolution",
+   "legislative competence"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "The application of legislation made by Senedd Cymru and Westminster to England and to Wales",
+   "context_subject": "Legal System of England and Wales",
+   "source_type": "legislation",
+   "source_quote": "(1)An Act of the [Senedd] is not law so far as any provision of the Act is outside the [Senedd's] legislative competence. (2)... (b)it applies otherwise than in relation to Wales",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-sys-008",
+  "subject": "Legal System of England and Wales",
+  "flk": "FLK1",
+  "difficulty": "easy",
+  "title": "Rights of audience: a litigant in person and a lay friend (Legal Services Act 2007)",
+  "scenario": "Darius Farahani is the claimant in a fast track claim in the County Court in England. He has no solicitor and is acting in person. At the trial he wants his friend Kemi, who is not a lawyer and holds no professional qualification, to stand up and make his closing submissions to the judge for him. Kemi will not be paid.",
+  "stem": "Which of the following best describes the rights of audience at the trial?",
+  "options": {
+   "A": "Kemi may address the court for Darius as of right, because a friend assisting a litigant in person is automatically entitled to do so.",
+   "B": "Darius may address the court himself as a party, but Kemi may address the court only if the court grants her a right of audience in these proceedings.",
+   "C": "Neither may address the court, because the exercise of a right of audience is reserved to authorised persons such as solicitors and barristers.",
+   "D": "Kemi may address the court because she is not being paid, and the restrictions in the Legal Services Act 2007 apply only to paid representatives.",
+   "E": "Darius needs the court's permission to address the court himself, because he is not an authorised person."
+  },
+  "answer": "B",
+  "explanation": "Under s.12(1)(a) of the Legal Services Act 2007, the exercise of a right of audience is a reserved legal activity. By s.13(2), a person is entitled to carry on a reserved legal activity only if they are an authorised person or an exempt person in relation to it. Schedule 3, para 1 sets out the exempt persons. A party to proceedings is exempt if they would have had a right of audience, in their capacity as a party, had the Act not been passed (para 1(6)). Darius may therefore present his own case. Kemi is not an authorised person and is not a party, so she is exempt only if the court grants her a right of audience in relation to these proceedings (para 1(2)). Whether to grant it is a matter for the judge. Being unpaid does not give her a right to address the court.",
+  "why_wrong": {
+   "A": "A lay friend has no automatic right of audience; she is exempt only if the court grants her one under Sch 3 para 1(2).",
+   "C": "A party is an exempt person under Sch 3 para 1(6), so Darius may present his own case.",
+   "D": "The Act regulates who may exercise rights of audience, whether paid or not; being unpaid does not make Kemi exempt.",
+   "E": "A party does not need permission to represent himself; he is exempt under Sch 3 para 1(6)."
+  },
+  "key_rule": "Exercising a right of audience is a reserved legal activity: a party may address the court in person, but a lay non-party needs a right of audience granted by the court.",
+  "authority": "Legal Services Act 2007, ss.12(1)(a), 13(2) and Sch 3 para 1(2) and (6)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2007/29/schedule/3",
+  "tags": [
+   "rights of audience",
+   "reserved legal activities",
+   "legal services act 2007"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "The courts: rights of audience",
+   "context_subject": "Legal System of England and Wales",
+   "source_type": "legislation",
+   "source_quote": "(b)has a right of audience granted by that court in relation to those proceedings. ... (6)The person is exempt if the person— (a)is a party to those proceedings",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-sys-009",
+  "subject": "Legal System of England and Wales",
+  "flk": "FLK1",
+  "difficulty": "easy",
+  "title": "Ministers and judicial independence (Constitutional Reform Act 2005 s.3)",
+  "scenario": "A government minister, who is not the Lord Chancellor, is concerned about a pending High Court case in which a government department is the defendant. He asks his private office to arrange a private telephone call with the judge hearing the case, so that he can explain the government's concerns about the possible consequences of a ruling against the department. He does not intend to threaten the judge.",
+  "stem": "Which of the following best describes the minister's proposed conduct?",
+  "options": {
+   "A": "It is lawful, provided the minister does not threaten the judge or offer any inducement.",
+   "B": "It is lawful, because judicial independence is protected only by constitutional convention and has no statutory basis.",
+   "C": "It is lawful, because the statutory duties to uphold judicial independence apply only to the Lord Chancellor.",
+   "D": "It is lawful if the call is arranged through the Lord Chief Justice rather than made directly to the judge.",
+   "E": "It would breach the minister's statutory duty, because Ministers of the Crown must not seek to influence particular judicial decisions through any special access to the judiciary."
+  },
+  "answer": "E",
+  "explanation": "Section 3(1) of the Constitutional Reform Act 2005 requires the Lord Chancellor, other Ministers of the Crown and all with responsibility for matters relating to the judiciary or the administration of justice to uphold the continued independence of the judiciary. Section 3(5) imposes a particular duty for that purpose: the Lord Chancellor and other Ministers of the Crown must not seek to influence particular judicial decisions through any special access to the judiciary. A private call to the judge hearing a pending case, to press the government's concerns about the outcome, is an attempt to influence a particular decision through special access. It does not matter that no threat is made, nor which channel is used to arrange the contact. The minister's proper course is to make any arguments openly, through the department's lawyers, as a party to the proceedings.",
+  "why_wrong": {
+   "A": "Section 3(5) prohibits seeking to influence particular decisions through special access, whether or not threats or inducements are used.",
+   "B": "Judicial independence is guaranteed by statute: s.3 of the Constitutional Reform Act 2005.",
+   "C": "Section 3(1) and (5) apply to other Ministers of the Crown as well as the Lord Chancellor.",
+   "D": "Routing the contact through another judge is still seeking to influence a particular decision through special access to the judiciary."
+  },
+  "key_rule": "Ministers must uphold the continued independence of the judiciary and must not seek to influence particular judicial decisions through any special access to the judiciary.",
+  "authority": "Constitutional Reform Act 2005, s.3(1) and (5)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2005/4/section/3",
+  "tags": [
+   "judicial independence",
+   "constitutional reform act 2005",
+   "separation of powers"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "The courts: judicial function",
+   "context_subject": "Legal System of England and Wales",
+   "source_type": "legislation",
+   "source_quote": "(5)The Lord Chancellor and other Ministers of the Crown must not seek to influence particular judicial decisions through any special access to the judiciary.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-sys-010",
+  "subject": "Constitutional & Administrative Law",
+  "flk": "FLK1",
+  "difficulty": "hard",
+  "title": "Constitutional statutes and implied repeal (Thoburn v Sunderland City Council)",
+  "scenario": "In 2026 a claimant argues in the High Court that a provision of a (fictional) 2025 Act of Parliament on local tax collection is inconsistent with a provision of the Human Rights Act 1998, and that the 2025 Act has therefore impliedly repealed the 1998 provision so far as the two conflict. The 2025 Act does not mention the Human Rights Act 1998, and its words are general. The claimant also points to a statement by the minister in Parliament suggesting that the Bill was intended to override 'any earlier legislation'.",
+  "stem": "Which of the following best describes how the court is likely to approach the implied repeal argument, applying Thoburn v Sunderland City Council?",
+  "options": {
+   "A": "The 2025 Act prevails, because under the doctrine of implied repeal a later Act always prevails over an earlier inconsistent Act.",
+   "B": "The 1998 provision prevails, because a constitutional statute is entrenched and cannot be repealed even by express words.",
+   "C": "The 1998 provision is unlikely to have been repealed, because a constitutional statute can be repealed only by express words or words so specific that an actual intention to repeal is irresistible.",
+   "D": "The court may declare the 2025 Act invalid, because an Act that conflicts with a constitutional statute is beyond Parliament's power.",
+   "E": "The 2025 Act prevails, because the minister's statement shows that Parliament actually intended to repeal the earlier provision."
+  },
+  "answer": "C",
+  "explanation": "In Thoburn v Sunderland City Council [2002] EWHC 195 (Admin), Laws LJ recognised a hierarchy of 'ordinary' and 'constitutional' statutes, naming the Human Rights Act 1998 among the examples of constitutional statutes. Ordinary statutes may be impliedly repealed; constitutional statutes may not. For a constitutional statute to be repealed, the court would ask whether the legislature's actual (not imputed, constructive or presumed) intention was to repeal it. That test could be met only by express words in the later statute or by words so specific that the inference of an actual determination to repeal was irresistible. Laws LJ added that general words could not be supplemented by what a minister said in Parliament under Pepper v Hart. The 2025 Act uses only general words and does not mention the 1998 Act, so it is unlikely to have impliedly repealed the 1998 provision. Parliament remains sovereign: it could repeal the provision by express words.",
+  "why_wrong": {
+   "A": "Thoburn treats the ordinary rule of implied repeal as having no application to constitutional statutes.",
+   "B": "Thoburn preserves parliamentary sovereignty: constitutional statutes can be repealed, but only expressly or by specific words.",
+   "D": "Courts in England and Wales cannot declare an Act of Parliament invalid; Thoburn is about interpretation, not striking down legislation.",
+   "E": "Laws LJ said general words cannot be supplemented by ministerial statements in Parliament to effect repeal of a constitutional statute."
+  },
+  "key_rule": "Constitutional statutes are not subject to implied repeal; they can be repealed only by express words or words so specific that an actual intention to repeal is irresistible.",
+  "authority": "Thoburn v Sunderland City Council [2002] EWHC 195 (Admin); [2003] QB 151 (Laws LJ)",
+  "verified_source_url": "https://www.bailii.org/ew/cases/EWHC/Admin/2002/195.html",
+  "tags": [
+   "parliamentary sovereignty",
+   "implied repeal",
+   "constitutional statutes"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Core institutions of the state and how they interrelate: parliament and parliamentary sovereignty",
+   "context_subject": "Constitutional & Administrative Law",
+   "source_type": "judgment",
+   "source_quote": "Ordinary statutes may be impliedly repealed. Constitutional statutes may not. ... the test could only be met by express words in the later statute, or by words so specific that the inference ... was irresistible.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Thoburn is a Divisional Court decision and the constitutional statutes passage is arguably obiter, though it is widely cited and treated as the leading statement. The 2025 Act is fictional."
+  }
+ },
+ {
+  "id": "lib-sys-011",
+  "subject": "Constitutional & Administrative Law",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Prerogative power and statute covering the same ground (De Keyser principle, Miller)",
+  "scenario": "After severe flooding in 2026, the (fictional) Flood Defence (Emergency Powers) Act 2024 gives the Secretary of State power to take temporary possession of private land for emergency flood defences, subject to paying compensation assessed under a statutory scheme. The Secretary of State takes possession of a field owned by Lowri Evans in England, but states that she is acting under the royal prerogative, so that only a discretionary ex gratia payment will be made.",
+  "stem": "Which of the following best describes the lawfulness of relying on the prerogative?",
+  "options": {
+   "A": "It is unlawful, because where a statute occupies the same field as a prerogative power the prerogative is displaced, so the statutory power and compensation scheme must be used.",
+   "B": "It is lawful, because a prerogative power can only be abrogated by express words in a statute, and the 2024 Act contains none.",
+   "C": "It is lawful, because prerogative powers predate statute and therefore take priority over any later statutory scheme.",
+   "D": "It is lawful, because decisions taken under the prerogative cannot be reviewed by the courts.",
+   "E": "It is lawful unless both Houses of Parliament pass a resolution disapproving the use of the prerogative in this case."
+  },
+  "answer": "A",
+  "explanation": "In R (Miller) v Secretary of State for Exiting the European Union [2017] UKSC 5, the majority restated the principle from Attorney General v De Keyser's Royal Hotel Ltd [1920] AC 508. Consistently with parliamentary sovereignty, a prerogative power, however well established, may be curtailed or abrogated by statute, either by express words or, more commonly, by necessary implication. Because the prerogative is residual, it is displaced in a field which becomes occupied by a corresponding power conferred or regulated by statute. In De Keyser itself the Crown could not requisition a hotel under the prerogative to avoid a statutory compensation scheme. Here the 2024 Act regulates exactly what the Secretary of State has done. The prerogative is therefore displaced, and she must act under the statutory power, with compensation assessed under the statutory scheme. Lowri can challenge the decision by judicial review.",
+  "why_wrong": {
+   "B": "Miller confirms that abrogation may be by necessary implication; a statute covering the same ground displaces the prerogative without express words.",
+   "C": "Parliamentary sovereignty means statute prevails over the prerogative, not the other way round.",
+   "D": "The existence and extent of a prerogative power, and whether it has been displaced by statute, are questions of law for the courts.",
+   "E": "No parliamentary resolution is needed; the statute itself displaces the prerogative in the field it occupies."
+  },
+  "key_rule": "Where Parliament has by statute regulated the same ground as a prerogative power, the prerogative is displaced and the Crown must act under the statute.",
+  "authority": "R (Miller) v Secretary of State for Exiting the European Union [2017] UKSC 5, para 48; Attorney General v De Keyser's Royal Hotel Ltd [1920] AC 508",
+  "verified_source_url": "https://caselaw.nationalarchives.gov.uk/uksc/2017/5",
+  "tags": [
+   "royal prerogative",
+   "parliamentary sovereignty",
+   "de keyser"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Core institutions of the state and how they interrelate: prerogative power: relationship with legislation and constitutional conventions",
+   "context_subject": "Constitutional & Administrative Law",
+   "source_type": "judgment",
+   "source_quote": "It is inherent in its residual nature that a prerogative power will be displaced in a field which becomes occupied by a corresponding power conferred or regulated by statute.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "The 2024 Act is fictional."
+  }
+ },
+ {
+  "id": "lib-sys-012",
+  "subject": "Constitutional & Administrative Law",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Legal status of the Sewel convention for Wales (GoWA 2006 s.107(6) and Miller)",
+  "scenario": "In 2026 the UK Parliament passes an Act changing the law on school admissions in Wales, a devolved matter. The Senedd voted to refuse its legislative consent to the Bill. The Welsh Government asks whether it can obtain a court ruling that the Act is invalid, or at least that Parliament acted unlawfully, because section 107(6) of the Government of Wales Act 2006 recognises that Parliament will not normally legislate on devolved matters without the Senedd's consent.",
+  "stem": "Which of the following best describes the legal position?",
+  "options": {
+   "A": "The Act is invalid, because s.107(6) turned the Sewel convention into a legal rule that limits Parliament's power to legislate for Wales.",
+   "B": "The Act is valid; s.107(6) recognises the Sewel convention as a political convention, and the courts will not rule on its operation or enforce it.",
+   "C": "The Act is valid, but the court will grant a declaration that Parliament breached the Sewel convention.",
+   "D": "The Act is valid in England but invalid in Wales, because the Senedd's refusal of consent prevents it taking effect there.",
+   "E": "The Act can be quashed by the Supreme Court under its jurisdiction to decide devolution issues."
+  },
+  "answer": "B",
+  "explanation": "Section 107(5) of the Government of Wales Act 2006 provides that the devolution of legislative power to the Senedd does not affect the power of the UK Parliament to make laws for Wales. Section 107(6) adds that 'it is recognised' that Parliament 'will not normally' legislate on devolved matters without the Senedd's consent. In R (Miller) v Secretary of State for Exiting the European Union [2017] UKSC 5, the Supreme Court held that the courts cannot enforce a political convention: judges are observers of conventions and cannot give legal rulings on their operation or scope. Considering the parallel provision for Scotland, the court held that statutory recognition did not convert the Sewel convention into a rule that the courts can interpret, let alone enforce. The words 'it is recognised' and 'will not normally' confirm this. The Act is therefore valid in Wales, and any remedy for the breach lies in politics, not in court.",
+  "why_wrong": {
+   "A": "Miller held that statutory recognition did not convert the Sewel convention into a legal rule; s.107(5) preserves Parliament's power to legislate for Wales.",
+   "C": "Courts cannot give legal rulings on the operation or scope of a political convention, so no declaration of breach will be granted.",
+   "D": "Refusal of legislative consent has no legal effect on the validity or territorial operation of an Act of the UK Parliament.",
+   "E": "Devolution jurisdiction concerns the competence of devolved bodies; it gives no power to quash an Act of the UK Parliament."
+  },
+  "key_rule": "The Sewel convention, though recognised in statute, is a political convention: the courts will not enforce it or rule on its scope, and an Act passed without Senedd consent is valid.",
+  "authority": "Government of Wales Act 2006, s.107(5)-(6); R (Miller) v Secretary of State for Exiting the European Union [2017] UKSC 5, paras 141-151",
+  "verified_source_url": "https://caselaw.nationalarchives.gov.uk/uksc/2017/5",
+  "tags": [
+   "constitutional conventions",
+   "sewel convention",
+   "devolution"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Core institutions of the state and how they interrelate: status of the devolved institutions and their relationship with Westminster; the role of constitutional conventions",
+   "context_subject": "Constitutional & Administrative Law",
+   "source_type": "judgment",
+   "source_quote": "the UK Parliament is not seeking to convert the Sewel Convention into a rule which can be interpreted, let alone enforced, by the courts; rather, it is recognising the convention for what it is, namely a political convention",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Miller considered the Scotland Act 1998 s.28(8); applying it to the materially identical GoWA 2006 s.107(6) is by analogy, which Miller itself notes at para 136. GoWA s.107 checked at https://www.legislation.gov.uk/ukpga/2006/32/section/107."
+  }
+ },
+ {
+  "id": "lib-sys-013",
+  "subject": "Constitutional & Administrative Law",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Parliamentary privilege and prosecution of MPs for false expenses claims (R v Chaytor)",
+  "scenario": "Gareth Oduya, a Member of Parliament, is charged with false accounting in the Crown Court. The prosecution alleges that he submitted dishonest claims for parliamentary expenses to the House of Commons authorities. He argues that the prosecution is barred by parliamentary privilege, relying on article 9 of the Bill of Rights 1689 (freedom of speech and debates or proceedings in Parliament ought not to be impeached or questioned in any court) and on the House's exclusive cognisance of its internal affairs.",
+  "stem": "Which of the following best describes whether the prosecution may proceed?",
+  "options": {
+   "A": "It may not, because everything an MP does in his capacity as a Member is protected by article 9.",
+   "B": "It may not, unless the House of Commons first passes a resolution waiving article 9 privilege for this prosecution.",
+   "C": "It may proceed only after a House of Commons committee has first found that the claims were dishonest.",
+   "D": "It may not, because expenses claims fall within the exclusive cognisance of the House, which the courts cannot override.",
+   "E": "It may proceed, because submitting expenses claims is not part of the core or essential business of Parliament and so is not a 'proceeding in Parliament'."
+  },
+  "answer": "E",
+  "explanation": "In R v Chaytor [2010] UKSC 52 the Supreme Court held that article 9 is directed principally at freedom of speech and debate in the Houses and their committees, where the core or essential business of Parliament takes place. To decide whether actions outside the chamber are protected because of their connection to proceedings, the court considers the nature of that connection and whether removing privilege would adversely affect Parliament's core business. Scrutiny of expenses claims by the criminal courts would not inhibit debate or freedom of speech; it would inhibit only the making of dishonest claims. Submitting claims is an incident of the administration of Parliament, not part of proceedings in Parliament, so article 9 does not apply. The court also held that exclusive cognisance posed no bar to the Crown Court's jurisdiction. Gareth's prosecution may therefore proceed in the ordinary way.",
+  "why_wrong": {
+   "A": "Article 9 protects 'proceedings in Parliament', not every act of a Member; expenses claims are administrative, not proceedings.",
+   "B": "No waiver is needed, because article 9 does not attach to expenses claims in the first place.",
+   "C": "There is no requirement for a prior parliamentary finding; the criminal courts have jurisdiction in the ordinary way.",
+   "D": "Chaytor held that neither article 9 nor the exclusive cognisance of the House barred the Crown Court's jurisdiction."
+  },
+  "key_rule": "Article 9 protects proceedings in Parliament, meaning its core or essential business; submitting expenses claims is administrative, so MPs can be prosecuted for dishonest claims.",
+  "authority": "R v Chaytor [2010] UKSC 52, paras 47-48, 62 and 93; Bill of Rights 1689, art 9",
+  "verified_source_url": "https://caselaw.nationalarchives.gov.uk/uksc/2010/52",
+  "tags": [
+   "parliamentary privilege",
+   "bill of rights 1689",
+   "article 9"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Core institutions of the state and how they interrelate: parliamentary privilege",
+   "context_subject": "Constitutional & Administrative Law",
+   "source_type": "judgment",
+   "source_quote": "Submitting claims for allowances and expenses does not form part of, nor is it incidental to, the core or essential business of Parliament ... it is not part of the proceedings in Parliament.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-sys-014",
+  "subject": "Constitutional & Administrative Law",
+  "flk": "FLK1",
+  "difficulty": "easy",
+  "title": "Advance notice of a public procession (Public Order Act 1986 s.11)",
+  "scenario": "Hana Kowalski is organising a march through the centre of Leeds on Saturday 21 November 2026 to publicise a campaign to save a local hospital. It is not a procession commonly or customarily held in the area, and it is not a funeral procession. It is reasonably practicable to give advance notice. She asks her solicitor what notice she must give.",
+  "stem": "Which of the following best describes the notice requirement?",
+  "options": {
+   "A": "She must give written notice to the local council at least 28 days before the march.",
+   "B": "She may give oral notice to any police officer at least 24 hours before the march starts.",
+   "C": "No notice is required, because the march is intended to be peaceful and lawful.",
+   "D": "She must deliver written notice of the date, start time, route and an organiser's name and address to a police station in the area where the march will start, at least 6 clear days before; if she posts it by recorded delivery, it must actually be delivered by then.",
+   "E": "She must give written notice at least 6 clear days before, and it is enough to post it by first class post on that day, as it is deemed delivered when posted."
+  },
+  "answer": "D",
+  "explanation": "Section 11(1) of the Public Order Act 1986 requires written notice of a proposal to hold a public procession intended to publicise a cause or campaign, unless it is not reasonably practicable to give any advance notice. The exceptions in s.11(2) for customary processions and funeral processions do not apply. The notice must specify the date, the intended start time, the proposed route and the name and address of the person (or one of the persons) proposing to organise it (s.11(3)). It must be delivered to a police station in the police area in which the procession will start (s.11(4)). If delivered not less than 6 clear days before the procession, it may be delivered by recorded delivery post, but the deemed-service rule in s.7 of the Interpretation Act 1978 does not apply (s.11(5)); otherwise it must be delivered by hand not less than 6 clear days before (s.11(6)). Failure is a summary offence by the organisers (s.11(7)).",
+  "why_wrong": {
+   "A": "Notice goes to a police station, not the council, and the period is 6 clear days, not 28 days.",
+   "B": "Notice must be in writing, delivered to a police station, and given at least 6 clear days before.",
+   "C": "Section 11 applies to processions to publicise a cause or campaign whether or not they are peaceful; the exemptions do not cover this march.",
+   "E": "Only recorded delivery post may be used, and s.11(5) disapplies deemed delivery on posting, so the notice must actually arrive in time."
+  },
+  "key_rule": "Written notice of a campaigning procession must be delivered to a police station in the starting area at least 6 clear days ahead, unless not reasonably practicable; posting does not count as delivery.",
+  "authority": "Public Order Act 1986, s.11",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1986/64/section/11",
+  "tags": [
+   "public order",
+   "processions",
+   "public order act 1986"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Public law order: Processions",
+   "context_subject": "Constitutional & Administrative Law",
+   "source_type": "legislation",
+   "source_quote": "If delivered not less than 6 clear days before the date when the procession is intended to be held, the notice may be delivered by post by the recorded delivery service; but section 7 of the Interpretation Act 1978",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-sys-015",
+  "subject": "Constitutional & Administrative Law",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Breach of the peace: definition and the power to prevent an imminent breach",
+  "scenario": "During a protest outside a factory in England, PC Marsh sees Lina Petrova, a protester, shouting at a counter-protester. She then raises her fist and moves towards him, and PC Marsh reasonably believes that she is about to strike him. PC Marsh takes hold of Lina and moves her away. Later Lina's solicitor is asked whether Lina can be prosecuted for 'the offence of breach of the peace' and whether PC Marsh was entitled to act before any blow was struck.",
+  "stem": "Which of the following best describes the legal position?",
+  "options": {
+   "A": "Breach of the peace is a summary offence under the Public Order Act 1986, and PC Marsh could act only once Lina had committed it.",
+   "B": "PC Marsh had no power to act, because a breach of the peace occurs only when violence has actually been used.",
+   "C": "Breach of the peace is not itself a criminal offence, but a constable or any citizen may take reasonable steps, including restraint, to prevent a breach of the peace reasonably believed to be about to occur.",
+   "D": "Only a police officer, and never a private citizen, may take action to prevent a breach of the peace.",
+   "E": "Lina committed a breach of the peace simply by shouting abuse, whether or not harm was done or threatened."
+  },
+  "answer": "C",
+  "explanation": "In R (Laporte) v Chief Constable of Gloucestershire [2006] UKHL 55 Lord Bingham approved the definition in R v Howell [1982] QB 416: there is a breach of the peace whenever harm is actually done or is likely to be done to a person, or in his presence to his property, or a person is in fear of being so harmed through an assault, affray, riot, unlawful assembly or other disturbance. A breach of the peace is not, as such, a criminal offence, though it can found an application to bind over. Every constable, and also every citizen, has the power and duty to seek to prevent, by arrest or action short of arrest, a breach occurring in their presence, a breach likely to be renewed, or a breach which is about to occur. PC Marsh reasonably believed Lina was about to strike the counter-protester, so a breach was imminent, and restraining her was reasonable preventive action.",
+  "why_wrong": {
+   "A": "Breach of the peace is a common law concept, not an offence under the 1986 Act, and preventive action may be taken before it occurs.",
+   "B": "The power extends to a breach reasonably believed to be about to occur, so action can be taken before any blow is struck.",
+   "D": "Lord Bingham said every constable, and also every citizen, has the power to act to prevent a breach of the peace.",
+   "E": "The Howell definition requires harm, likely harm, or fear of harm; shouting alone, without any threat of harm, is not enough."
+  },
+  "key_rule": "A breach of the peace involves actual or threatened harm; it is not itself an offence, but anyone may take reasonable steps to prevent one reasonably believed to be about to occur.",
+  "authority": "R (Laporte) v Chief Constable of Gloucestershire [2006] UKHL 55, paras 27-29 (Lord Bingham); R v Howell [1982] QB 416",
+  "verified_source_url": "https://publications.parliament.uk/pa/ld200607/ldjudgmt/jd131206/lapor-2.htm",
+  "tags": [
+   "public order",
+   "breach of the peace",
+   "police powers"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Public law order: Breach of the peace",
+   "context_subject": "Constitutional & Administrative Law",
+   "source_type": "judgment",
+   "source_quote": "A breach of the peace is not, as such, a criminal offence ... Every constable, and also every citizen, enjoys the power ... to seek to prevent ... any breach of the peace which is about to occur.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-sys-016",
+  "subject": "Constitutional & Administrative Law",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Refusing JR relief where the outcome would not be substantially different (SCA 1981 s.31(2A))",
+  "scenario": "Ashbury District Council decided to close a public library in England. Ines Carvalho, a regular user, brought a claim for judicial review, arguing that the council failed to carry out the consultation its own published policy required. At the substantive hearing the High Court accepts that the failure to consult was unlawful. However, on the evidence it concludes that it is highly likely that the outcome for Ines would not have been substantially different if the council had consulted properly. No reasons of exceptional public interest arise.",
+  "stem": "Which of the following best describes the court's position on relief?",
+  "options": {
+   "A": "The court must refuse to grant relief, and may not award damages, because it is highly likely that the outcome would not have been substantially different.",
+   "B": "The court must quash the decision, because a decision reached by an unlawful procedure is void and must be set aside.",
+   "C": "The court may still grant relief, because the 'no substantial difference' test applies only when deciding whether to grant permission.",
+   "D": "The court has a broad discretion whether to grant relief, but will ordinarily grant a quashing order once unlawfulness is established.",
+   "E": "The court must refuse a quashing order but must instead award Ines damages for the council's unlawful failure to consult."
+  },
+  "answer": "A",
+  "explanation": "Section 31(2A) of the Senior Courts Act 1981 provides that the High Court must refuse to grant relief on an application for judicial review, and may not make an award of damages under s.31(4), if it appears to the court to be highly likely that the outcome for the applicant would not have been substantially different if the conduct complained of had not occurred. The court may disregard this only if it considers it appropriate to do so for reasons of exceptional public interest, and must then certify that condition (s.31(2B)-(2C)). A parallel rule applies at the permission stage (s.31(3C)-(3F)), but the test also applies when the court decides on relief at the full hearing. Here the court has found that the threshold is met and there is no exceptional public interest. Although the procedural failure was unlawful, the court must refuse relief.",
+  "why_wrong": {
+   "B": "Section 31(2A) requires relief to be refused even where unlawfulness is established, if the threshold is met.",
+   "C": "Section 31(2A) applies to the grant of relief at the substantive hearing; ss.31(3C)-(3F) make similar provision for the permission stage.",
+   "D": "Section 31(2A) is mandatory ('must refuse'); it is not a broad discretion, subject only to the exceptional public interest exception.",
+   "E": "Section 31(2A)(b) also prevents an award of damages under s.31(4) where the threshold is met."
+  },
+  "key_rule": "The High Court must refuse judicial review relief if it is highly likely the outcome would not have been substantially different, unless exceptional public interest justifies granting it.",
+  "authority": "Senior Courts Act 1981, s.31(2A)-(2C)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1981/54/section/31",
+  "tags": [
+   "judicial review",
+   "remedies",
+   "no substantial difference"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Judicial review: remedies",
+   "context_subject": "Constitutional & Administrative Law",
+   "source_type": "legislation",
+   "source_quote": "(a)must refuse to grant relief on an application for judicial review ... if it appears to the court to be highly likely that the outcome for the applicant would not have been substantially different",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Outstanding changes to s.31 listed on legislation.gov.uk (CJCA 2015 s.85, interveners/financial information at s.31(3)-(3B)) do not affect s.31(2A)."
+  }
+ },
+ {
+  "id": "lib-sys-017",
+  "subject": "Constitutional & Administrative Law",
+  "flk": "FLK1",
+  "difficulty": "hard",
+  "title": "Substantive legitimate expectation and whether detrimental reliance is required (Re Finucane)",
+  "scenario": "In January 2025 Brenton Borough Council wrote to each of the twelve traders who hold pitches in its covered market in England. The letter stated, without any qualification, that their pitches would not be relocated before January 2030. In 2026 the council resolves to relocate the traders to an outdoor site in order to let the hall for events, and it puts forward no overriding public interest beyond a modest increase in rental income. The traders cannot show that they spent money or changed their position because of the letter. They seek judicial review.",
+  "stem": "Which of the following best describes the traders' prospects of establishing a legitimate expectation claim?",
+  "options": {
+   "A": "They will fail, because a legitimate expectation claim always requires proof that the claimant relied on the promise to their detriment.",
+   "B": "They will fail, because a promise by a public authority can only give rise to a procedural expectation, such as an expectation of being consulted.",
+   "C": "They will succeed automatically, because a public authority can never depart from a clear promise it has made.",
+   "D": "They may succeed, because a clear, unambiguous and unqualified promise can found a substantive expectation, which the council may depart from only if the court considers it fair to do so; detriment is relevant but not essential.",
+   "E": "They may succeed only if the court finds that the council's decision to relocate was so unreasonable that no reasonable authority could have made it."
+  },
+  "answer": "D",
+  "explanation": "In Re Finucane's Application [2019] UKSC 7, Lord Kerr reviewed the authorities, including R v North and East Devon Health Authority, ex p Coughlan, which recognised that a lawful promise may induce a legitimate expectation of a substantive benefit, so that frustrating it may be so unfair as to amount to an abuse of power. Lord Kerr deduced that where a clear and unambiguous undertaking has been given, the authority will not be allowed to depart from it unless it is shown to be fair to do so, with the court as the arbiter of fairness. Whether the change frustrates reliance is relevant to fairness, but detriment is not a prerequisite of a substantive legitimate expectation claim. The claimant must prove a promise that was clear, unambiguous and devoid of relevant qualification. Here the council's unqualified letter to a small, identified group meets that test, and the weak justification makes a successful claim realistic.",
+  "why_wrong": {
+   "A": "Lord Kerr held that detriment is not a prerequisite of a substantive legitimate expectation claim, though reliance bears on fairness.",
+   "B": "Coughlan and Finucane recognise that a promise may found a substantive, not merely procedural, legitimate expectation.",
+   "C": "An authority may depart from a promise where the court considers it fair to do so, for example because of an overriding public interest.",
+   "E": "For a substantive expectation the court judges fairness for itself; it is not confined to Wednesbury irrationality review."
+  },
+  "key_rule": "A clear, unambiguous and unqualified promise by a public body may found a substantive legitimate expectation; departure is permitted only if fair, and detrimental reliance is not essential.",
+  "authority": "Re Finucane's Application for Judicial Review [2019] UKSC 7, paras 55-64 (Lord Kerr); R v North and East Devon Health Authority, ex p Coughlan [2001] QB 213",
+  "verified_source_url": "https://caselaw.nationalarchives.gov.uk/uksc/2019/7",
+  "tags": [
+   "judicial review",
+   "legitimate expectation",
+   "grounds of review"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Judicial review: grounds: legitimate expectation",
+   "context_subject": "Constitutional & Administrative Law",
+   "source_type": "judgment",
+   "source_quote": "the authority giving the undertaking will not be allowed to depart from it unless it is shown that it is fair to do so. ... This is quite different ... from saying that it is a prerequisite",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Finucane is a Northern Ireland appeal, but the principles stated apply equally in England and Wales."
+  }
+ },
+ {
+  "id": "lib-sys-018",
+  "subject": "Constitutional & Administrative Law",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Who may bring a Human Rights Act claim, and when (HRA 1998 s.7)",
+  "scenario": "In August 2025 officers of a local council in England entered and searched the home of Tomasz Nowak without lawful authority, which he says breached his right to respect for private and family life under Article 8. In October 2026, 14 months later, Tomasz wants to bring proceedings against the council under s.7(1)(a) of the Human Rights Act 1998. A national privacy charity, which was not itself affected by the search, also wants to bring its own claim against the council about the same search. No stricter time limit applies to the procedure to be used.",
+  "stem": "Which of the following best describes the position?",
+  "options": {
+   "A": "Both Tomasz and the charity may bring proceedings, because the charity has a sufficient interest in the protection of privacy rights.",
+   "B": "Only Tomasz may bring proceedings, as only a victim can sue; his claim is outside the one-year period, but the court may allow a longer period if it considers it equitable in all the circumstances.",
+   "C": "Only Tomasz may bring proceedings, but his claim is absolutely barred because more than one year has passed since the search.",
+   "D": "Only Tomasz may bring proceedings, and he has six years to do so, because a Human Rights Act claim is treated like a claim in tort.",
+   "E": "Only the charity may bring proceedings, because Tomasz's own claim is out of time."
+  },
+  "answer": "B",
+  "explanation": "Section 7(1) of the Human Rights Act 1998 allows a person who claims that a public authority has acted unlawfully under s.6(1) to bring proceedings against it, or rely on the Convention right in any legal proceedings, but only if he is, or would be, a victim of the unlawful act. Under s.7(7), a person is a victim only if he would be a victim for the purposes of Article 34 of the Convention in Strasbourg. Tomasz, whose home was searched, is a victim; the charity, which was not itself affected, is not. Even on judicial review, s.7(3) treats an applicant as having sufficient interest only if he is a victim. Under s.7(5), proceedings under s.7(1)(a) must be brought within one year beginning with the date of the act complained of, or such longer period as the court considers equitable having regard to all the circumstances. Tomasz is outside one year, but the court may extend time.",
+  "why_wrong": {
+   "A": "Section 7(1) and (3) require the claimant to be a victim; a general 'sufficient interest' is not enough for a s.7 claim.",
+   "C": "The one-year limit is not absolute: s.7(5)(b) allows such longer period as the court considers equitable.",
+   "D": "Section 7(5) sets a one-year primary limit for s.7(1)(a) proceedings, not the six-year tort limitation period.",
+   "E": "The charity is not a victim and cannot sue under s.7; Tomasz may still seek an equitable extension."
+  },
+  "key_rule": "Only a victim may bring proceedings under HRA s.7(1)(a), within one year of the act or such longer period as the court considers equitable.",
+  "authority": "Human Rights Act 1998, s.7(1), (3), (5) and (7)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1998/42/section/7",
+  "tags": [
+   "human rights act 1998",
+   "victim",
+   "time limits"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Human Rights Act 1998 and the European Convention on Human Rights: ss.2, 3, 4, 6, 7, 8, 10 Human Rights Act 1998",
+   "context_subject": "Constitutional & Administrative Law",
+   "source_type": "legislation",
+   "source_quote": "(5)Proceedings under subsection (1)(a) must be brought before the end of— (a)the period of one year beginning with the date on which the act complained of took place; or (b)such longer period as the court or tribunal considers equitable",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-sys-019",
+  "subject": "Constitutional & Administrative Law",
+  "flk": "FLK1",
+  "difficulty": "easy",
+  "title": "Effect of Strasbourg case law in domestic courts (HRA 1998 s.2)",
+  "scenario": "In a 2026 High Court claim about the right to freedom of expression under Article 10 of the European Convention on Human Rights, counsel for the claimant, Nadia Chowdhury, relies on a recent Grand Chamber judgment of the European Court of Human Rights in a case against another Council of Europe state. Counsel tells the judge that, under the Human Rights Act 1998, the High Court is legally bound to follow that judgment.",
+  "stem": "Which of the following best describes the duty of the High Court in relation to the Strasbourg judgment?",
+  "options": {
+   "A": "It is bound to follow the judgment, because Grand Chamber judgments are binding on all national courts of Council of Europe states.",
+   "B": "It may not consider the judgment at all, because it was given in a case against another state.",
+   "C": "It must follow the judgment only if the UK government intervened in the Strasbourg proceedings.",
+   "D": "It must refer the question to the European Court of Human Rights for a ruling before deciding the claim.",
+   "E": "It must take the judgment into account so far as it considers it relevant, but is not bound by it."
+  },
+  "answer": "E",
+  "explanation": "Section 2(1) of the Human Rights Act 1998 provides that a court or tribunal determining a question which has arisen in connection with a Convention right must take into account any judgment, decision, declaration or advisory opinion of the European Court of Human Rights, whenever made or given, so far as, in the opinion of the court, it is relevant to the proceedings. The duty is to take the case law into account, not to follow it. The Act draws no distinction based on which state was the respondent, so a judgment against another state may be relevant and must be considered. The High Court must therefore consider the Grand Chamber judgment and give it the weight it thinks appropriate, while remaining bound by the domestic doctrine of precedent. Counsel's statement that the court is legally bound to follow the judgment is wrong.",
+  "why_wrong": {
+   "A": "Section 2(1) imposes a duty to take Strasbourg judgments into account, not a duty to follow them.",
+   "B": "Section 2(1) covers any relevant Strasbourg judgment, including one given against another state.",
+   "C": "Section 2 does not depend on whether the UK intervened; the duty is to take relevant judgments into account.",
+   "D": "The Human Rights Act 1998 contains no procedure for a domestic court to refer questions to the Strasbourg court."
+  },
+  "key_rule": "A court deciding a question about a Convention right must take relevant Strasbourg case law into account, but is not bound to follow it.",
+  "authority": "Human Rights Act 1998, s.2(1)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1998/42/section/2",
+  "tags": [
+   "human rights act 1998",
+   "strasbourg case law",
+   "echr"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Human Rights Act 1998 and the European Convention on Human Rights: ss.2, 3, 4, 6, 7, 8, 10 Human Rights Act 1998",
+   "context_subject": "Constitutional & Administrative Law",
+   "source_type": "legislation",
+   "source_quote": "(1)A court or tribunal determining a question which has arisen in connection with a Convention right must take into account any— (a)judgment, decision, declaration or advisory opinion of the European Court of Human Rights",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-sys-020",
+  "subject": "Constitutional & Administrative Law",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Conflict between assimilated EU legislation and an Act of Parliament after 2023 (EUWA 2018 s.5)",
+  "scenario": "In 2026 a tribunal in England finds an irreconcilable conflict between a provision of a 2017 EU Regulation, which forms part of domestic law as assimilated direct legislation, and a provision of a 2015 Act of the UK Parliament. Before the end of 2023 the Regulation would have prevailed under the principle of the supremacy of EU law. Assume that no regulations have been made under s.7(1) of the Retained EU Law (Revocation and Reform) Act 2023 for this provision, and that the Withdrawal Agreement is not relevant.",
+  "stem": "Which of the following best describes which provision prevails?",
+  "options": {
+   "A": "The Regulation prevails, because the supremacy of EU law continues to apply to Acts passed before the UK left the EU.",
+   "B": "The tribunal must refer the question to the Court of Justice of the European Union before deciding which prevails.",
+   "C": "The 2015 Act prevails, because assimilated direct legislation must be read compatibly with domestic enactments so far as possible and is subject to them so far as incompatible.",
+   "D": "The Regulation prevails, but the tribunal must make a declaration that the 2015 Act is incompatible with assimilated law.",
+   "E": "The Regulation prevails, because it was made after the 2015 Act and so impliedly repeals it."
+  },
+  "answer": "C",
+  "explanation": "Section 5(A1) of the European Union (Withdrawal) Act 2018, inserted by the Retained EU Law (Revocation and Reform) Act 2023, provides that the principle of the supremacy of EU law is not part of domestic law, and that this applies after the end of 2023 in relation to any enactment or rule of law, whenever passed or made. Section 5(A2) reverses the old priority rule: any provision of assimilated direct legislation must, so far as possible, be read and given effect compatibly with all domestic enactments, and is subject to all domestic enactments so far as incompatible. A 'domestic enactment' is an enactment other than assimilated direct legislation (s.5(8)), so the 2015 Act is one. Since the conflict cannot be resolved by interpretation, the Regulation is subject to the 2015 Act. The exceptions in s.5(A3) and the Withdrawal Agreement position in s.5(7) are excluded by the facts.",
+  "why_wrong": {
+   "A": "Section 5(A1) removes supremacy after 2023 in relation to any enactment whenever passed, including Acts passed before exit.",
+   "B": "Section 6(1)(b) of the 2018 Act provides that a court or tribunal cannot refer any matter to the CJEU on or after IP completion day.",
+   "D": "There is no power to declare an Act incompatible with assimilated law; under s.5(A2) the Regulation is subject to the Act.",
+   "E": "Section 5(A2) is a specific priority rule: assimilated direct legislation is subject to domestic enactments whatever their dates."
+  },
+  "key_rule": "Since the end of 2023 EU supremacy is not part of domestic law; assimilated direct legislation is read compatibly with, and is subject to, domestic enactments whenever made.",
+  "authority": "European Union (Withdrawal) Act 2018, s.5(A1), (A2), (A3) and (8), inserted by the Retained EU Law (Revocation and Reform) Act 2023, s.3",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2018/16/section/5",
+  "tags": [
+   "eu law",
+   "assimilated law",
+   "retained eu law (revocation and reform) act 2023"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "The place of EU law in the UK constitution",
+   "context_subject": "Constitutional & Administrative Law",
+   "source_type": "legislation",
+   "source_quote": "The principle of the supremacy of EU law is not part of domestic law. ... (A2)Any provision of [assimilated direct] legislation— ... (b)is subject to all domestic enactments, so far as it is incompatible with them.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "legislation.gov.uk lists outstanding REUL Act 2023 changes to EUWA s.6 (assimilated case law), not to s.5; s.5 itself is up to date to 16 Oct 2026."
+  }
+ }
+]
