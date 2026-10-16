@@ -1,0 +1,1127 @@
+[
+ {
+  "id": "lib-blp-001",
+  "subject": "Business Law & Practice",
+  "flk": "FLK1",
+  "difficulty": "easy",
+  "title": "Pre-incorporation contracts: personal liability of the person acting (CA 2006 s.51)",
+  "scenario": "Imogen and Rafael plan to run a kitchen showroom through a new private company, Brightwater Kitchens Ltd. Before the company is registered at Companies House, Imogen signs an order with a supplier for display units worth £18,000, signing \"for and on behalf of Brightwater Kitchens Ltd\". Nothing in the order deals with who is to be liable if the company has not been formed. The company is incorporated three weeks later, but no new contract is made with the supplier, which has not been paid. Assume the law of England and Wales applies.",
+  "stem": "Who is liable to the supplier under the order?",
+  "options": {
+   "A": "The company, because it became bound automatically on incorporation as the order was made in its name.",
+   "B": "Imogen personally, because the contract takes effect as one made with the person who purported to act for the unformed company.",
+   "C": "No one, because a company that did not exist when the order was signed cannot be a party, so the contract is void.",
+   "D": "Imogen and Rafael jointly, because both are promoters of the company.",
+   "E": "The company, but only once its board passes a resolution ratifying the order."
+  },
+  "answer": "B",
+  "explanation": "Section 51(1) Companies Act 2006 deals with contracts that purport to be made by or on behalf of a company at a time when it has not been formed. Subject to any agreement to the contrary, the contract has effect as one made with the person purporting to act for the company or as its agent, and that person is personally liable on it. Imogen signed the order on behalf of Brightwater Kitchens Ltd before it was incorporated, and the order contains nothing excluding her personal liability. The contract therefore takes effect as Imogen's own contract and she is liable to pay the £18,000. Incorporation does not transfer the contract to the company: if the company is to take it over, a new contract (a novation) with the supplier is needed, and none was made here. Rafael did not purport to make the contract, so s.51 does not make him liable.",
+  "why_wrong": {
+   "A": "Incorporation does not make a company party to a contract made before it existed; s.51 puts the liability on the person who acted.",
+   "C": "Section 51 prevents the contract failing; it takes effect as a contract with the person who acted for the company.",
+   "D": "Liability under s.51 falls on the person purporting to act for the company; Rafael took no part in making the contract.",
+   "E": "A company cannot ratify a contract made before it was formed; it would need a new contract with the supplier."
+  },
+  "key_rule": "A contract made for a company not yet formed takes effect, subject to contrary agreement, as one made with the person purporting to act for it, who is personally liable (CA 2006 s.51).",
+  "authority": "Companies Act 2006, s.51(1)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2006/46/section/51",
+  "tags": [
+   "formation",
+   "pre-incorporation contracts",
+   "promoters"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Procedures and documentation required to incorporate a company/form a partnership/LLP",
+   "context_subject": "Business Law & Practice",
+   "source_type": "legislation",
+   "source_quote": "has effect, subject to any agreement to the contrary, as one made with the person purporting to act for the company or as agent for it, and he is personally liable on the contract accordingly",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-blp-002",
+  "subject": "Business Law & Practice",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Written special resolution: 75% of total voting rights of eligible members (CA 2006 ss.21, 283)",
+  "scenario": "Larkspur Analytics Ltd is a private company limited by shares with unamended model articles. Its 100 issued ordinary shares each carry one vote and are held by Femi (40), Gwen (25), Hamid (20) and Ines (15). The directors circulate a written resolution, stated to be proposed as a special resolution, to amend the articles. Within the period for agreement, Femi and Gwen signify their agreement, Ines notifies the company that she opposes it, and Hamid does not respond at all.",
+  "stem": "What is the status of the written resolution?",
+  "options": {
+   "A": "It is passed, because 65 of the 80 votes actually exercised (over 75%) were in favour.",
+   "B": "It is passed, because amending the articles needs only an ordinary resolution and members holding 65% of the voting rights agreed.",
+   "C": "It is not passed, because a written resolution to amend the articles must be agreed by every eligible member.",
+   "D": "It is not passed, because a written special resolution needs members representing at least 75% of the total voting rights of eligible members, and only 65% agreed.",
+   "E": "It is not passed, because a company's articles can be amended only by a resolution passed at a general meeting."
+  },
+  "answer": "D",
+  "explanation": "A company may amend its articles by special resolution (s.21(1) CA 2006), and a private company may pass that resolution as a written resolution. Under s.283(2), a written resolution is passed by a majority of not less than 75% only if it is passed by members representing not less than 75% of the total voting rights of eligible members. The base is therefore all 100 votes of the eligible members, not just the votes of those who respond. Femi and Gwen together hold 65 votes, which is 65% of the total. Hamid's silence counts in practice as a vote against, because his 20 votes remain in the total. The resolution has not reached 75% and so is not passed. The contrast is with a meeting: on a poll, the 75% is measured against the votes cast by members who vote (s.283(5)), so 65 of 80 votes would have been enough had Hamid stayed away.",
+  "why_wrong": {
+   "A": "Measuring against votes actually exercised is the test at a meeting; a written resolution is measured against the total voting rights of all eligible members.",
+   "B": "Section 21(1) requires a special resolution to amend the articles; an ordinary resolution is not enough.",
+   "C": "Unanimity is not required; members representing at least 75% of the total voting rights would suffice.",
+   "E": "A private company may pass a special resolution, including one amending its articles, as a written resolution."
+  },
+  "key_rule": "A written special resolution passes only if members holding at least 75% of the total voting rights of all eligible members agree; non-responses count against it (CA 2006 s.283(2)).",
+  "authority": "Companies Act 2006, ss.21(1), 283(2) and (5)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2006/46/section/283",
+  "tags": [
+   "members' resolutions",
+   "written resolutions",
+   "articles of association"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "company decision-making and meetings: procedural, disclosure and approval requirements",
+   "context_subject": "Business Law & Practice",
+   "source_type": "legislation",
+   "source_quote": "A written resolution is passed by a majority of not less than 75% if it is passed by members representing not less than 75% of the total voting rights of eligible members",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-blp-003",
+  "subject": "Business Law & Practice",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Directors authorising a director's conflict of interest in a private company (CA 2006 s.175)",
+  "scenario": "Quillon Robotics Ltd is a private company limited by shares with unamended model articles and three directors: Nadia, Oskar and Priyanka. Through her role as a director, Nadia learns of a consultancy contract that the board has decided the company cannot take on because it lacks capacity. Nadia wants to take the contract through her own consultancy business. At a properly convened board meeting she discloses the full facts. Oskar and Priyanka vote to authorise her to take the opportunity. Nadia is present but does not vote and is not counted in the quorum. Nothing in the company's constitution restricts directors' authorisation of conflicts.",
+  "stem": "Which statement best describes the position on Nadia's conflict?",
+  "options": {
+   "A": "Yes, because in a private company whose constitution does not invalidate it the directors may authorise the conflict, and the quorum was met and the decision made without counting Nadia.",
+   "B": "Authorisation was unnecessary, because the company had decided it could not take up the opportunity, so no conflict arose.",
+   "C": "No, because a director's conflict of interest can be authorised only by an ordinary resolution of the shareholders.",
+   "D": "No, because directors may authorise a conflict only where the articles expressly give them power to do so.",
+   "E": "Yes, but only because Nadia declared her interest to the board, and a declaration of interest is by itself sufficient to comply with the duty."
+  },
+  "answer": "A",
+  "explanation": "Section 175(1) CA 2006 requires a director to avoid situations in which she has, or can have, an interest that conflicts with the company's interests, and s.175(2) applies this to exploiting an opportunity whether or not the company could take advantage of it. Nadia's plan is therefore a conflict. The duty is not infringed if the matter has been authorised by the directors (s.175(4)(b)). In a private company, the directors may authorise it where nothing in the constitution invalidates such authorisation (s.175(5)(a)). Under s.175(6), the authorisation is effective only if the quorum is met without counting the interested director and the matter is agreed without her vote. The model articles fix a quorum of two; Oskar and Priyanka formed a quorum without Nadia and voted in favour without her. The authorisation is therefore effective, and Nadia may take the contract without breaching s.175.",
+  "why_wrong": {
+   "B": "Section 175(2) states it is immaterial whether the company could take advantage of the opportunity, so a conflict still arises.",
+   "C": "Section 175(4)(b) and (5)(a) allow the directors of a private company to authorise the conflict; a shareholder resolution is not required.",
+   "D": "Express power in the articles is required only for a public company (s.175(5)(b)); a private company's directors can authorise unless the constitution invalidates it.",
+   "E": "A declaration under s.177 concerns transactions with the company; exploiting an opportunity for oneself requires authorisation under s.175."
+  },
+  "key_rule": "In a private company, unless the constitution prevents it, independent directors may authorise a director's conflict, provided the quorum is met and the vote carried without the interested director (CA 2006 s.175(5)(a), (6)).",
+  "authority": "Companies Act 2006, s.175(1), (2), (4)-(6)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2006/46/section/175",
+  "tags": [
+   "directors",
+   "directors' duties",
+   "conflict of interest"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "rights, duties and powers of directors and shareholders of companies",
+   "context_subject": "Business Law & Practice",
+   "source_type": "legislation",
+   "source_quote": "where the company is a private company and nothing in the company's constitution invalidates such authorisation, by the matter being proposed to and authorised by the directors",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-blp-004",
+  "subject": "Business Law & Practice",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Director's service contract over two years without members' approval (CA 2006 ss.188-189)",
+  "scenario": "Osterley Freight Ltd is a private company limited by shares; it is not a subsidiary of any other company. Its board alone approves a service contract for the managing director, Tobiah. The contract is for a fixed term of four years and the company cannot terminate it by notice during that term except for gross misconduct. No resolution of the members was ever proposed or passed in relation to the contract. Eighteen months later the board wishes to end Tobiah's employment, although he has committed no misconduct.",
+  "stem": "What is the effect of the failure to obtain the members' approval?",
+  "options": {
+   "A": "The whole service contract is void, so Tobiah must repay the salary he has received.",
+   "B": "The four-year term is binding, because the board has power to fix the terms of directors' service contracts.",
+   "C": "The provision for the guaranteed term is void to the extent of the contravention, and the contract is deemed to contain a term allowing the company to terminate it at any time on reasonable notice.",
+   "D": "The four-year term is binding, because members' approval is needed only where the guaranteed term exceeds five years.",
+   "E": "The provision is voidable at Tobiah's option only, so the company remains bound unless he elects otherwise."
+  },
+  "answer": "C",
+  "explanation": "Section 188 CA 2006 applies where the guaranteed term of a director's employment is, or may be, longer than two years. Tobiah's contract runs for four years and cannot be ended by notice during that period, so its guaranteed term exceeds two years. The company may not agree to such a provision unless it has been approved by resolution of the members (s.188(2)). Osterley Freight Ltd is not a wholly-owned subsidiary, so the exemption in s.188(6) does not apply. Because the board alone approved it, s.189 applies: the provision is void to the extent of the contravention, and the contract is deemed to contain a term entitling the company to terminate it at any time by giving reasonable notice. The rest of the contract survives. The company may therefore end Tobiah's employment by giving him reasonable notice rather than paying out the remainder of the four-year term.",
+  "why_wrong": {
+   "A": "Section 189 avoids only the offending provision, to the extent of the contravention; the rest of the contract, including salary already earned, is unaffected.",
+   "B": "Section 188(2) removes the board's ability to agree such a term without a resolution of the members.",
+   "D": "The current threshold under s.188(1) is a guaranteed term longer than two years, not five.",
+   "E": "Section 189 makes the provision void and implies a reasonable-notice term; it does not give Tobiah an election."
+  },
+  "key_rule": "A guaranteed term of employment longer than two years needs members' approval; without it, the provision is void and the company can terminate on reasonable notice (CA 2006 ss.188-189).",
+  "authority": "Companies Act 2006, ss.188 and 189",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2006/46/section/189",
+  "tags": [
+   "directors",
+   "service contracts",
+   "members' resolutions"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "company decision-making and meetings: procedural, disclosure and approval requirements",
+   "context_subject": "Business Law & Practice",
+   "source_type": "legislation",
+   "source_quote": "the provision is void, to the extent of the contravention, and (b) the contract is deemed to contain a term entitling the company to terminate it at any time by the giving of reasonable notice",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-blp-005",
+  "subject": "Business Law & Practice",
+  "flk": "FLK1",
+  "difficulty": "hard",
+  "title": "Ratifying a director's negligence: votes of the director and connected persons (CA 2006 s.239)",
+  "scenario": "Wexcombe Tiles Ltd is a private company limited by shares with 1,000 issued ordinary shares, each carrying one vote. Callum, a director, holds 400 shares. His wife, Mairead, who is not a director, holds 100 shares. The remaining 500 shares are held by three unconnected investors. Callum negligently approved a supply contract that has cost the company £60,000; he received no personal benefit and there is no suggestion of fraud. The board calls a general meeting to propose an ordinary resolution ratifying Callum's conduct. On a poll, Callum and Mairead vote all their shares in favour. Of the investors' shares, 300 are voted in favour and 200 against.",
+  "stem": "Is the ratification resolution passed?",
+  "options": {
+   "A": "Yes, because 800 of the 1,000 votes cast were in favour.",
+   "B": "No, because ratifying a director's breach of duty requires a special resolution, and only 60% of the votes that count were in favour.",
+   "C": "No, because Callum was not entitled to attend the meeting or be counted in the quorum.",
+   "D": "Yes, because only Callum's own votes in favour are disregarded, leaving 400 votes for and 200 against.",
+   "E": "Yes, because disregarding the votes in favour cast by Callum and by Mairead as a member connected with him, 300 votes were cast for and 200 against."
+  },
+  "answer": "E",
+  "explanation": "Under s.239(2) CA 2006, ratification of a director's negligence or breach of duty must be by resolution of the members. Since no particular type is specified, an ordinary resolution suffices (s.281(3)). Where it is proposed at a meeting, s.239(4) provides that it is passed only if the necessary majority is obtained disregarding votes in favour cast by the director (if a member) and any member connected with him. A director's spouse is a member of his family (s.253(2)(a)) and so connected with him under s.252. Callum's 400 and Mairead's 100 votes in favour are therefore ignored. Of the remaining votes, 300 were cast for and 200 against, a simple majority of the votes that count. The resolution is passed. Callum could attend, be counted in the quorum and take part in the meeting (s.239(4)); only his and Mairead's votes in favour are excluded.",
+  "why_wrong": {
+   "A": "Section 239(4) requires the votes in favour of the director and connected members to be disregarded when deciding whether the majority is reached.",
+   "B": "Section 239(2) requires a resolution of the members and nothing more is specified, so an ordinary resolution suffices (s.281(3)).",
+   "C": "Section 239(4) expressly allows the director to attend, be counted in the quorum and take part in the proceedings.",
+   "D": "Votes in favour by members connected with the director, including his spouse, must also be disregarded, not just his own."
+  },
+  "key_rule": "On ratification at a meeting, the necessary majority must be reached disregarding votes in favour by the director and members connected with him, such as a spouse (CA 2006 s.239(4)).",
+  "authority": "Companies Act 2006, ss.239, 252-253 and 281(3)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2006/46/section/239",
+  "tags": [
+   "directors",
+   "directors' duties",
+   "ratification",
+   "members' resolutions"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "rights, duties and powers of directors and shareholders of companies",
+   "context_subject": "Business Law & Practice",
+   "source_type": "legislation",
+   "source_quote": "it is passed only if the necessary majority is obtained disregarding votes in favour of the resolution by the director (if a member of the company) and any member connected with him",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-blp-006",
+  "subject": "Business Law & Practice",
+  "flk": "FLK1",
+  "difficulty": "easy",
+  "title": "Members requiring directors to call a general meeting: timing (CA 2006 ss.303-304)",
+  "scenario": "Yusuf holds ordinary shares representing 7% of the paid-up voting share capital of Thornbury Organics Ltd, a private company limited by shares. The directors have ignored his informal suggestions that the shareholders should consider appointing an additional director. Yusuf now sends the company a properly authenticated request that the directors call a general meeting. The request states the general nature of the business and sets out the text of an ordinary resolution to appoint the new director, which may properly be moved.",
+  "stem": "What must the directors do once the company has received Yusuf's request?",
+  "options": {
+   "A": "Call a general meeting within 28 days of receiving the request, to be held within 21 days of the date of the notice.",
+   "B": "Call a general meeting within 21 days of becoming subject to the requirement, to be held on a date not more than 28 days after the date of the notice convening it.",
+   "C": "Nothing, because a request from members must come from those holding at least 10% of the paid-up voting share capital.",
+   "D": "Circulate the proposed resolution to the members as a written resolution within 21 days, instead of calling a meeting.",
+   "E": "Include the resolution in the business of the company's next annual general meeting."
+  },
+  "answer": "B",
+  "explanation": "Section 303(1) CA 2006 allows members to require the directors to call a general meeting. The directors must do so once the company receives requests from members representing at least 5% of the paid-up capital carrying the right to vote at general meetings (s.303(2)). Yusuf holds 7%, and his request states the general nature of the business and includes a resolution that may properly be moved (s.303(4)), so the directors are bound to act. Section 304(1) then sets the timetable: the directors must call the meeting within 21 days from the date on which they become subject to the requirement, and the meeting must be held on a date not more than 28 days after the date of the notice convening it. Because the request includes a resolution, the notice of the meeting must include notice of that resolution (s.304(2)).",
+  "why_wrong": {
+   "A": "The periods are reversed: the meeting must be called within 21 days and held not more than 28 days after the notice.",
+   "C": "The threshold in s.303(2) is 5% of the paid-up voting capital, which Yusuf's 7% exceeds.",
+   "D": "Section 303 requires a general meeting to be called; members who want a written resolution must use the separate s.292 procedure.",
+   "E": "Private companies are not generally required to hold AGMs, and s.304 fixes a specific timetable for the requisitioned meeting."
+  },
+  "key_rule": "Members holding 5% of paid-up voting capital can require a general meeting; directors must call it within 21 days, for a date not more than 28 days after the notice (CA 2006 ss.303-304).",
+  "authority": "Companies Act 2006, ss.303 and 304",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2006/46/section/304",
+  "tags": [
+   "members' resolutions",
+   "general meetings",
+   "shareholders' rights"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "company decision-making and meetings: procedural, disclosure and approval requirements",
+   "context_subject": "Business Law & Practice",
+   "source_type": "legislation",
+   "source_quote": "must call a meeting— (a) within 21 days from the date on which they become subject to the requirement, and (b) to be held on a date not more than 28 days after the date of the notice",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-blp-007",
+  "subject": "Business Law & Practice",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Excluded minority in a quasi-partnership company: unfair prejudice petition (CA 2006 ss.994, 996)",
+  "scenario": "In 2018 three friends formed Marlowe Print Ltd, a private company limited by shares, on the shared understanding that each would be a director and take part in running the business. Each holds one third of the shares. After a falling-out, the other two shareholders validly remove Abena as a director by ordinary resolution after giving special notice, and exclude her from all involvement in management. The company has since paid no dividends, while paying the two remaining directors substantially increased salaries. Abena would like to leave the company and receive a fair value for her shares.",
+  "stem": "Which course of action is most appropriate for Abena?",
+  "options": {
+   "A": "A derivative claim on behalf of the company against the other two directors for breach of duty in removing her.",
+   "B": "A personal claim that her removal as director breached the company's articles, which form a contract between the company and its members.",
+   "C": "Requisitioning a general meeting to propose an ordinary resolution reappointing her as a director.",
+   "D": "A petition to the court on the ground that the company's affairs are being conducted in a manner unfairly prejudicial to her interests as a member, seeking an order that her shares be purchased.",
+   "E": "Serving notice on the company requiring it to buy back her shares under the statutory right of a minority shareholder to exit."
+  },
+  "answer": "D",
+  "explanation": "Section 994(1) CA 2006 allows a member to petition on the ground that the company's affairs are being or have been conducted in a manner unfairly prejudicial to the interests of members generally or of some part of its members, including the petitioner. Marlowe Print Ltd was formed on an understanding that each founder would take part in management. Excluding Abena from management, while giving the others higher salaries and paying no dividends, is the classic basis for such a petition. If the petition is well founded, the court may make such order as it thinks fit (s.996(1)). This expressly includes an order for the purchase of a member's shares by other members or by the company (s.996(2)(e)). That gives Abena the exit at a fair value that she wants. Her removal as a director was lawful in itself, but the unfairness lies in how the company's affairs are being run against her interests as a member.",
+  "why_wrong": {
+   "A": "A derivative claim seeks relief for the company in respect of wrongs to the company, whereas Abena's complaint is prejudice to her as a member and she wants to exit.",
+   "B": "The members validly used their statutory power under s.168 to remove her, so there is no breach of the articles to sue on.",
+   "C": "With one third of the votes Abena cannot carry an ordinary resolution against the other two, and this would not give her an exit.",
+   "E": "There is no general statutory right for a minority shareholder to require a company to buy back their shares; a buy-out comes from a court order under s.996."
+  },
+  "key_rule": "A member may petition under s.994 CA 2006 where the company's affairs are conducted in a manner unfairly prejudicial to members' interests; the court may order a purchase of the petitioner's shares (s.996(2)(e)).",
+  "authority": "Companies Act 2006, ss.994 and 996",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2006/46/section/994",
+  "tags": [
+   "minority shareholder protection",
+   "unfair prejudice",
+   "shareholders' rights"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "minority shareholder protection",
+   "context_subject": "Business Law & Practice",
+   "source_type": "legislation",
+   "source_quote": "that the company's affairs are being or have been conducted in a manner that is unfairly prejudicial to the interests of members generally or of some part of its members (including at least himself)",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-blp-008",
+  "subject": "Business Law & Practice",
+  "flk": "FLK1",
+  "difficulty": "hard",
+  "title": "Allotting shares for cash in a single-class private company: s.550 authority and s.569 pre-emption",
+  "scenario": "Fenwick & Sloane Ltd was incorporated in 2021. It is a private company limited by shares with only one class of shares (ordinary shares) and unamended model articles. The members have never passed any resolution about the allotment of shares or pre-emption rights. The directors want to allot 500 new ordinary shares to a new investor, Lucía, for £20 each in cash. They do not want to offer the shares to the existing shareholders first.",
+  "stem": "Which shareholder resolution(s), if any, are needed before the directors can make the allotment to Lucía?",
+  "options": {
+   "A": "Only a special resolution disapplying the statutory pre-emption rights for the allotment.",
+   "B": "An ordinary resolution authorising the directors to allot shares, and a special resolution disapplying the statutory pre-emption rights.",
+   "C": "Only an ordinary resolution authorising the directors to allot shares.",
+   "D": "None, because the directors have power to allot under the Act and the model articles exclude statutory pre-emption rights.",
+   "E": "A special resolution amending the articles to create a new class of shares for Lucía."
+  },
+  "answer": "A",
+  "explanation": "Two separate questions arise: whether the directors have authority to allot, and whether the statutory pre-emption rights must be followed. On authority, s.550 CA 2006 provides that where a private company has only one class of shares, the directors may allot shares of that class except to the extent that the articles prohibit it. The model articles contain no such prohibition, so no ordinary resolution under s.551 is needed. On pre-emption, s.561 requires a company that is allotting equity securities for cash to offer them first to existing ordinary shareholders in proportion to their holdings. The model articles do not exclude this. Under s.569, the directors of a private company with only one class of shares may be given power, by the articles or by special resolution, to allot as if s.561 did not apply. The only resolution needed is therefore a special resolution disapplying pre-emption.",
+  "why_wrong": {
+   "B": "Section 550 already gives the directors of a single-class private company power to allot, unless the articles prohibit it, so an ordinary resolution under s.551 is unnecessary.",
+   "C": "Authority to allot is not the problem; without disapplication, s.561 requires the shares to be offered to existing shareholders first.",
+   "D": "The model articles do not exclude the statutory pre-emption rights in s.561, so they must be disapplied by special resolution.",
+   "E": "Lucía can take ordinary shares of the existing class; creating a new class is unnecessary and would not by itself remove the pre-emption rights."
+  },
+  "key_rule": "In a single-class private company, directors can allot under s.550 unless the articles prohibit it, but allotting for cash outside s.561 pre-emption requires a special resolution (or articles) under s.569.",
+  "authority": "Companies Act 2006, ss.550, 551, 561 and 569",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2006/46/section/569",
+  "tags": [
+   "share capital",
+   "allotment",
+   "pre-emption rights",
+   "members' resolutions"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "funding options: debt and equity",
+   "context_subject": "Business Law & Practice",
+   "source_type": "legislation",
+   "source_quote": "may be given power by the articles, or by a special resolution of the company, to allot equity securities of that class as if section 561 (existing shareholders' right of pre-emption)— (a) did not apply to the allotment",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-blp-009",
+  "subject": "Business Law & Practice",
+  "flk": "FLK1",
+  "difficulty": "hard",
+  "title": "Off-market buyback by written resolution: majority and seller's eligibility (CA 2006 ss.694-695)",
+  "scenario": "Ravensworth Engineering Ltd is a private company limited by shares with unamended model articles, which contain no restriction on the purchase of its own shares. Its 1,000 ordinary shares, each with one vote, are held by Hugo (300), Beatrix (400) and Cyrus (300). Hugo is retiring, and the company has agreed in principle to buy back all of his shares under a contract made directly with him (not on a recognised investment exchange). It has ample distributable profits to fund the price. The directors propose to seek the members' approval of the contract terms by written resolution before the contract is entered into.",
+  "stem": "Which statement correctly describes the members' approval needed?",
+  "options": {
+   "A": "A special resolution, on which Hugo may vote his 300 shares.",
+   "B": "A special resolution, on which Hugo is not an eligible member, so Beatrix and Cyrus must both agree.",
+   "C": "An ordinary resolution, on which Hugo is not an eligible member, so it is passed if members holding more than half of the remaining 700 votes agree.",
+   "D": "An ordinary resolution, on which Hugo may vote, so it is passed if Hugo and Beatrix agree.",
+   "E": "No members' resolution is required, because the purchase is funded out of distributable profits and the board may approve it."
+  },
+  "answer": "C",
+  "explanation": "A purchase by a company of its own shares other than on a recognised investment exchange is an off-market purchase. Under s.694(2) CA 2006, the terms of the contract must be authorised by a resolution of the company before it is entered into (or the contract must be conditional on such authorisation). Since amendments in 2013 the section requires only a 'resolution', which means an ordinary resolution unless the articles require more (s.281(3)); the model articles do not. Section 695(2) provides that where the resolution is proposed as a written resolution, a member holding shares to which the resolution relates is not an eligible member. Hugo is therefore excluded. The eligible voting rights are Beatrix's 400 and Cyrus's 300, and a simple majority of that total (more than 350) is needed. Beatrix's agreement alone would pass it.",
+  "why_wrong": {
+   "A": "Section 694 requires only an ordinary resolution, and Hugo is not an eligible member on a written resolution about his own shares (s.695(2)).",
+   "B": "The word 'special' was removed from s.694 in 2013; an ordinary resolution suffices, so Beatrix and Cyrus need not both agree.",
+   "D": "Section 695(2) makes the selling shareholder ineligible to vote on a written resolution authorising the purchase of his shares.",
+   "E": "Funding from distributable profits does not remove the requirement in s.694 for members to authorise an off-market purchase contract."
+  },
+  "key_rule": "An off-market buyback contract must be authorised in advance by ordinary resolution; on a written resolution the selling member is not an eligible member (CA 2006 ss.694(2), 695(2)).",
+  "authority": "Companies Act 2006, ss.690, 693, 694 and 695",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2006/46/section/695",
+  "tags": [
+   "share capital",
+   "share buyback",
+   "members' resolutions",
+   "written resolutions"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "funding options: debt and equity",
+   "context_subject": "Business Law & Practice",
+   "source_type": "legislation",
+   "source_quote": "Where the resolution is proposed as a written resolution, a member who holds shares to which the resolution relates is not an eligible member.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-blp-010",
+  "subject": "Business Law & Practice",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Unlawful dividend: which shareholders must repay (CA 2006 ss.830, 847)",
+  "scenario": "Saoirse and Theo each hold 50% of the shares in Kestrel Bakeries Ltd, a private company limited by shares with unamended model articles. Saoirse is the managing director and prepared the company's annual accounts herself. Theo is a passive investor who is not a director and sees only the accounts. On the directors' recommendation, the members declared a final dividend of £50,000 based on those accounts, and each received £25,000. It later emerges that Saoirse knowingly left out a large write-down of obsolete stock. Properly prepared, the accounts would have shown accumulated realised losses and no distributable profits. Theo had no reason to suspect anything was wrong.",
+  "stem": "Which shareholder, if any, is liable under the Companies Act 2006 to repay the dividend received?",
+  "options": {
+   "A": "Both Saoirse and Theo, because every recipient of an unlawful distribution must repay it regardless of knowledge.",
+   "B": "Saoirse only, because she knew or had reasonable grounds to believe that the distribution was unlawful, whereas Theo did not.",
+   "C": "Neither, because the dividend was validly declared by ordinary resolution of the members.",
+   "D": "Neither, because only directors, not shareholders, can be liable in respect of an unlawful dividend.",
+   "E": "Both, but only to the extent that the dividend exceeded the company's issued share capital."
+  },
+  "answer": "B",
+  "explanation": "A company may make a distribution only out of profits available for the purpose (s.830(1) CA 2006). These are its accumulated, realised profits less its accumulated, realised losses (s.830(2)). Properly prepared accounts would have shown no distributable profits, so the £50,000 dividend contravened Part 23. Section 847 makes a member liable to repay a distribution made in contravention of Part 23 if, at the time, the member knew or had reasonable grounds for believing that it was so made. Saoirse prepared the accounts and knowingly omitted the stock write-down, so she must repay her £25,000. Theo was a passive investor who relied on the accounts and had no reason to suspect a problem, so he is not liable under s.847. Separately, Saoirse may also be liable as a director for breach of duty in recommending an unlawful dividend.",
+  "why_wrong": {
+   "A": "Section 847(2) imposes liability only where the member knew or had reasonable grounds to believe that the distribution contravened Part 23.",
+   "C": "A members' resolution cannot make lawful a distribution that is not covered by available profits under s.830.",
+   "D": "Section 847 expressly makes a shareholder who received an unlawful distribution with knowledge liable to repay it.",
+   "E": "The test is distributable profits under s.830, not share capital, and the liability under s.847 covers the whole unlawful distribution."
+  },
+  "key_rule": "Distributions may only be made out of distributable profits; a member who knew or had reasonable grounds to believe a distribution was unlawful must repay it (CA 2006 ss.830, 847).",
+  "authority": "Companies Act 2006, ss.830 and 847",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2006/46/section/847",
+  "tags": [
+   "dividends",
+   "distributions",
+   "shareholders' rights"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "distribution of profits and gains",
+   "context_subject": "Business Law & Practice",
+   "source_type": "legislation",
+   "source_quote": "If at the time of the distribution the member knows or has reasonable grounds for believing that it is so made, he is liable— (a) to repay it",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-blp-011",
+  "subject": "Business Law & Practice",
+  "flk": "FLK1",
+  "difficulty": "easy",
+  "title": "Failure to register a company charge within 21 days (CA 2006 ss.859A, 859H)",
+  "scenario": "Pembury Castings Ltd granted Halden Bank plc a fixed charge over its factory premises to secure a £400,000 loan. Through an oversight, neither the company nor the bank delivered a statement of particulars of the charge to the registrar of companies, and no court order extending the time for delivery was ever sought. Some months later the company goes into insolvent liquidation with the full £400,000 still owing to the bank.",
+  "stem": "What is the bank's position in the liquidation?",
+  "options": {
+   "A": "The charge is valid against the liquidator, because registration at Companies House only gives notice of the charge to third parties.",
+   "B": "The charge is void and the debt is extinguished, so the bank cannot prove in the liquidation at all.",
+   "C": "The charge is valid, because particulars may be delivered for registration at any time before the company goes into liquidation.",
+   "D": "The charge is void against the liquidator only if the bank acted in bad faith in failing to register it.",
+   "E": "The charge is void against the liquidator and creditors, so the bank ranks as an unsecured creditor, although the debt itself remains payable."
+  },
+  "answer": "E",
+  "explanation": "When a company creates a charge, the registrar must register it if a statement of particulars is delivered within the period allowed. That period is 21 days beginning with the day after the charge was created, unless the court extends it (s.859A(2) and (4) CA 2006). No particulars were delivered and no extension was obtained. Under s.859H(3), the charge is therefore void, so far as it confers security over the company's property, against a liquidator, an administrator and a creditor of the company. However, s.859H(4) preserves the contract or obligation to repay the money secured, and provides that the money immediately becomes payable when the charge becomes void. Halden Bank therefore loses its security in the liquidation but keeps its claim for £400,000, which it can prove for as an unsecured creditor.",
+  "why_wrong": {
+   "A": "Section 859H(3) makes an unregistered charge void against a liquidator, so failing to register affects its validity, not merely notice.",
+   "B": "Section 859H(4) preserves the obligation to repay; only the security is lost, so the bank proves as an unsecured creditor.",
+   "C": "Particulars must be delivered within 21 days beginning with the day after creation, unless the court extends the period.",
+   "D": "Voidness under s.859H does not depend on the chargeholder's good or bad faith."
+  },
+  "key_rule": "A charge whose particulars are not delivered within 21 days is void against a liquidator, administrator and creditors, but the secured debt remains payable (CA 2006 ss.859A, 859H).",
+  "authority": "Companies Act 2006, ss.859A and 859H",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2006/46/section/859H",
+  "tags": [
+   "security",
+   "registration of charges",
+   "companies house"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "types of security",
+   "context_subject": "Business Law & Practice",
+   "source_type": "legislation",
+   "source_quote": "the charge is void (so far as any security on the company's property or undertaking is conferred by it) against— (a) a liquidator of the company, (b) an administrator of the company, and (c) a creditor of the company",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-blp-012",
+  "subject": "Business Law & Practice",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Order of payment from floating charge realisations in a liquidation (IA 1986 ss.175, 176A)",
+  "scenario": "Ashgrove Interiors Ltd is in insolvent liquidation in England. Its bank holds a fixed charge over the company's warehouse and a floating charge over all its other assets, both created in 2019 and properly registered. The warehouse has been sold and the fixed charge proceeds paid to the bank. The liquidator has also realised a substantial sum from the floating charge assets. This sum is not enough to pay everyone in full, and the prescribed part has not been disapplied. The creditors include employees with preferential claims, unsecured trade creditors and the bank for the balance of its debt. The liquidator has also incurred expenses of the winding up.",
+  "stem": "In what order will the liquidator apply the floating charge realisations?",
+  "options": {
+   "A": "Expenses of the winding up; preferential debts; the prescribed part set aside for unsecured creditors; the floating charge holder; any surplus to unsecured creditors and then to shareholders.",
+   "B": "The floating charge holder; expenses of the winding up; preferential debts; unsecured creditors; shareholders.",
+   "C": "Preferential debts; the floating charge holder; expenses of the winding up; unsecured creditors; shareholders.",
+   "D": "Expenses of the winding up; the floating charge holder; preferential debts; the prescribed part for unsecured creditors; shareholders.",
+   "E": "Expenses of the winding up; preferential debts; the floating charge holder; the prescribed part for unsecured creditors; shareholders."
+  },
+  "answer": "A",
+  "explanation": "Under s.175(1) IA 1986, preferential debts are paid in priority to all other debts after the expenses of the winding up. Under s.175(2)(b), so far as the assets available to general creditors are insufficient, preferential debts have priority over the holder of a floating charge and are paid out of property subject to that charge. The floating charge proceeds are therefore applied first to the winding-up expenses and then to the preferential creditors. Next, s.176A(2) requires the liquidator to make a prescribed part of the company's net property available for unsecured debts. The liquidator must not distribute that part to the floating charge holder, except in so far as it exceeds what the unsecured debts need. Net property means the property that would otherwise be available to the floating charge holder (s.176A(6)). Only after the prescribed part is set aside does the bank receive the balance under its floating charge. Any surplus then goes to unsecured creditors and finally to shareholders.",
+  "why_wrong": {
+   "B": "A floating charge holder is postponed to the expenses and to preferential debts (s.175(1) and (2)(b)).",
+   "C": "Expenses of the winding up are paid before preferential debts, and both come ahead of the floating charge holder.",
+   "D": "Preferential debts rank ahead of the floating charge holder under s.175(2)(b), and the prescribed part is set aside before the chargeholder is paid.",
+   "E": "The prescribed part must be set aside from net property before the floating charge holder is paid, not after (s.176A(2))."
+  },
+  "key_rule": "Floating charge realisations go to winding-up expenses, then preferential debts, then the prescribed part is ring-fenced for unsecured creditors, before the floating chargeholder is paid (IA 1986 ss.175, 176A).",
+  "authority": "Insolvency Act 1986, ss.175 and 176A",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1986/45/section/175",
+  "tags": [
+   "insolvency",
+   "priority of creditors",
+   "floating charges",
+   "prescribed part"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "order of priority for distribution to creditors",
+   "context_subject": "Business Law & Practice",
+   "source_type": "legislation",
+   "source_quote": "have priority over the claims of holders of debentures secured by, or holders of, any floating charge created by the company, and shall be paid accordingly out of any property comprised in or subject to that charge",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Insolvency Act 1986 has an unapplied amendment on legislation.gov.uk (Sch. 6 para. 13(2)(za) inserted by 2025 c. 36) affecting categories of preferential debts; the question tests only the order of ranking, which it does not affect."
+  }
+ },
+ {
+  "id": "lib-blp-013",
+  "subject": "Business Law & Practice",
+  "flk": "FLK1",
+  "difficulty": "easy",
+  "title": "Partner's authority to bind the firm despite an internal spending limit (Partnership Act 1890 s.5)",
+  "scenario": "Emeka and Signe run a graphic design studio in England as a general partnership under a written partnership agreement. The agreement provides that neither partner may order equipment costing more than £5,000 without the other's consent. Without consulting Signe, Emeka orders a £9,000 large-format printer for the studio from Prism Supplies Ltd. Prism regularly supplies design studios and knows that Emeka is a partner, but it knows nothing about the spending limit in the partnership agreement. Signe refuses to pay for the printer.",
+  "stem": "Is the firm bound by the contract with Prism Supplies Ltd?",
+  "options": {
+   "A": "No, because Emeka had no actual authority to place an order above £5,000.",
+   "B": "No, unless Signe later ratifies the order.",
+   "C": "Yes, because buying equipment is within the usual way of carrying on a design business, and Prism neither knew of the restriction nor doubted that Emeka was a partner.",
+   "D": "Yes, but only Emeka is personally liable for the price, not Signe.",
+   "E": "Yes, but only if the partnership agreement had been filed at Companies House."
+  },
+  "answer": "C",
+  "explanation": "Section 5 of the Partnership Act 1890 makes every partner an agent of the firm and of the other partners for the purpose of the partnership business. A partner's acts in carrying on, in the usual way, business of the kind carried on by the firm bind the firm and all the partners. The exception applies only where the partner in fact has no authority and the third party either knows that or does not know or believe him to be a partner. Ordering a printer is within the usual way of carrying on a design studio's business. Emeka lacked actual authority because of the £5,000 limit, but Prism did not know of the limit and knew he was a partner. The exception therefore does not apply, and the firm is bound. Signe's remedy, if any, is against Emeka under the partnership agreement.",
+  "why_wrong": {
+   "A": "Lack of actual authority matters only if the third party knew of it or did not know or believe the person to be a partner; Prism knew neither.",
+   "B": "Ratification is not needed, because the firm is already bound under s.5 by Emeka's apparent authority.",
+   "D": "Section 5 binds the firm and all the partners, not only the partner who acted.",
+   "E": "There is no filing requirement for a general partnership agreement; an internal restriction binds outsiders only if they know of it."
+  },
+  "key_rule": "A partner acting in the usual way of the firm's business binds the firm unless he lacks authority and the third party knows it or does not believe him a partner (PA 1890 s.5).",
+  "authority": "Partnership Act 1890, s.5",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/Vict/53-54/39/section/5",
+  "tags": [
+   "partnership",
+   "partnership act 1890",
+   "authority of partners"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "procedures and authority under the Partnership Act 1890",
+   "context_subject": "Business Law & Practice",
+   "source_type": "legislation",
+   "source_quote": "the acts of every partner who does any act for carrying on in the usual way business of the kind carried on by the firm of which he is a member bind the firm and his partners",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-blp-014",
+  "subject": "Business Law & Practice",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Retired partner's liability to an existing customer without notice (Partnership Act 1890 s.36)",
+  "scenario": "Rowena retired on 30 April from Harrow & Beck, a firm of building contractors in England trading as a general partnership. The firm placed a notice of her retirement in the London Gazette but did not write to its customers or suppliers. Delmont Timber Ltd had supplied the firm regularly for several years and knew Rowena was a partner. In June it supplied £14,000 of timber to the firm on credit. It had not seen the Gazette notice and had received no other notice of the retirement. The firm cannot pay the invoice.",
+  "stem": "Can Delmont Timber Ltd hold Rowena liable for the June debt?",
+  "options": {
+   "A": "No, because the advertisement in the London Gazette is notice of her retirement to everyone.",
+   "B": "No, because a retiring partner is never liable for partnership debts incurred after she retires.",
+   "C": "Yes, but only because the debt was incurred within three months of her retirement.",
+   "D": "Yes, because Delmont had dealt with the firm before her retirement and was entitled to treat her as still a partner until it had notice of the change.",
+   "E": "No, because Delmont should have checked the register of partners at Companies House before supplying on credit."
+  },
+  "answer": "D",
+  "explanation": "Under s.36(1) of the Partnership Act 1890, a person who deals with a firm after a change in its constitution may treat all apparent members of the old firm as still being members until they have notice of the change. Section 36(2) makes an advertisement in the London Gazette notice only to persons who had no dealings with the firm before the change. Delmont had dealt with the firm regularly before 30 April and knew Rowena was a partner. As an existing customer, it is not fixed with notice by the Gazette advertisement and needed actual notice, which it never received. Delmont can therefore treat Rowena as still a partner and hold her liable for the June debt. The protection in s.36(3) for a retiring partner who was not known to be a partner does not help her, because Delmont knew she was one.",
+  "why_wrong": {
+   "A": "A Gazette advertisement is notice only to those who had no dealings with the firm before the change (s.36(2)); existing customers need actual notice.",
+   "B": "Section 36(1) can make a retired partner liable for later debts to someone who dealt with the firm and had no notice of the change.",
+   "C": "Section 36 contains no three-month period; liability depends on whether the creditor had notice.",
+   "E": "There is no public register of the partners of a general partnership, and s.36 depends on notice, not on any search."
+  },
+  "key_rule": "Until they have notice, those who dealt with a firm before a change may treat apparent partners as continuing; a Gazette notice binds only those with no prior dealings (PA 1890 s.36).",
+  "authority": "Partnership Act 1890, s.36",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/Vict/53-54/39/section/36",
+  "tags": [
+   "partnership",
+   "partnership act 1890",
+   "retirement",
+   "partners' liability"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "procedures and authority under the Partnership Act 1890",
+   "context_subject": "Business Law & Practice",
+   "source_type": "legislation",
+   "source_quote": "shall be notice as to persons who had not dealings with the firm before the date of the dissolution or change so advertised",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-blp-015",
+  "subject": "Business Law & Practice",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "LLP carrying on business with one member for more than six months (LLPA 2000 s.4A)",
+  "scenario": "Ellery Fold LLP, a limited liability partnership incorporated in England, had two members, Joaquín and Wren. Wren died on 1 January. Fully aware of her death, Joaquín carried on the LLP's business alone for the next ten months without admitting any new member. During that time the LLP incurred a debt of £20,000 to one supplier in February and a debt of £35,000 to another supplier in September. The LLP is now insolvent and both debts are unpaid.",
+  "stem": "What is Joaquín's personal liability for these debts?",
+  "options": {
+   "A": "None, because an LLP is a body corporate with separate legal personality, and its members are not liable for its debts.",
+   "B": "He is liable jointly and severally with the LLP for the September debt only.",
+   "C": "He is liable jointly and severally with the LLP for both the February and September debts.",
+   "D": "He is liable for the February debt only, because it was incurred while Wren's estate was still being wound up.",
+   "E": "He is liable for both debts, but only if he was a designated member of the LLP."
+  },
+  "answer": "B",
+  "explanation": "An LLP is a body corporate with legal personality separate from its members (s.1(2) LLPA 2000), so its members are not normally liable for its debts. Section 4A is an exception. It applies where an LLP carries on business without having at least two members, and does so for more than six months. A person who is a member for the whole or any part of the period after those six months, and who knows the LLP is carrying on business with only one member, is liable jointly and severally with the LLP. That liability covers debts contracted during that later period. The LLP had only one member from 1 January, so the six months ended at the start of July. The September debt was contracted after that, while Joaquín knew he was the only member, so he is personally liable for it. The February debt fell within the first six months and remains the LLP's debt alone.",
+  "why_wrong": {
+   "A": "Section 4A removes the protection of limited liability for debts contracted after an LLP has traded with one member for more than six months.",
+   "C": "Liability under s.4A covers only debts contracted after the first six months of trading with one member, so it does not extend to the February debt.",
+   "D": "The February debt fell within the first six months, which s.4A does not cover; the administration of Wren's estate is irrelevant.",
+   "E": "Section 4A applies to any member who knows the LLP is trading with only one member; designated member status is irrelevant."
+  },
+  "key_rule": "If an LLP carries on business with fewer than two members for over six months, a member who knows this is jointly and severally liable for debts contracted after those six months (LLPA 2000 s.4A).",
+  "authority": "Limited Liability Partnerships Act 2000, ss.1 and 4A",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2000/12/section/4A",
+  "tags": [
+   "llp",
+   "limited liability",
+   "members' liability"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Legal personality and limited liability (sole trader/partnership/LLP/private and unlisted public companies)",
+   "context_subject": "Business Law & Practice",
+   "source_type": "legislation",
+   "source_quote": "This section applies where a limited liability partnership carries on business without having at least two members, and does so for more than 6 months.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-blp-016",
+  "subject": "Business Law & Practice",
+  "flk": "FLK1",
+  "difficulty": "hard",
+  "title": "Repaying a director's loan before liquidation: preference to a connected person (IA 1986 ss.239-240)",
+  "scenario": "Corvan Displays Ltd went into insolvent creditors' voluntary liquidation on 1 September 2026. Eighteen months earlier, when it was already unable to pay its debts as they fell due, it repaid in full an unsecured loan of £40,000 made to it by its managing director, Felix, while its trade creditors went unpaid. Felix says the company repaid him only because he had been pressing hard for payment, and not to put him in a better position than other creditors. The liquidator is considering whether the repayment can be challenged.",
+  "stem": "Can the liquidator challenge the repayment to Felix?",
+  "options": {
+   "A": "Yes, as a preference, because it was given to a connected person within two years before the onset of insolvency while the company was unable to pay its debts, and a desire to prefer him is presumed unless he shows otherwise.",
+   "B": "No, because a preference can be challenged only if it was given within six months before the onset of insolvency.",
+   "C": "No, because repaying a genuine debt can never amount to a preference.",
+   "D": "Yes, as a transaction at an undervalue, because the company received nothing in return for the payment.",
+   "E": "Yes, but only if the liquidator proves that Felix acted dishonestly in obtaining the repayment."
+  },
+  "answer": "A",
+  "explanation": "A company gives a preference if it does something that puts a creditor in a better position, in the event of its insolvent liquidation, than the creditor would otherwise have been in (s.239(4) IA 1986). Repaying Felix in full while trade creditors went unpaid does this. For a person connected with the company otherwise than only as an employee, the relevant time is the two years ending with the onset of insolvency (s.240(1)(a)). As a director, Felix is connected, and the payment 18 months before liquidation falls within that period. The company was also unable to pay its debts at the time (s.240(2)). The court may only order relief if the company was influenced by a desire to prefer (s.239(5)). However, where the preference is given to a connected person, that desire is presumed unless the contrary is shown (s.239(6)). Felix bears the burden of rebutting the presumption, and saying that he was pressing for payment may not be enough.",
+  "why_wrong": {
+   "B": "The six-month period applies only to unconnected persons; for a connected person such as a director it is two years (s.240(1)(a)).",
+   "C": "Paying a genuine existing debt is the typical way of giving a preference, because it improves that creditor's position in an insolvent liquidation.",
+   "D": "Repaying a debt discharges a liability of equal value, so it is not a transaction at an undervalue; the correct challenge is as a preference.",
+   "E": "Dishonesty is not an element of a preference claim; the test is a desire to prefer, which is presumed for connected persons."
+  },
+  "key_rule": "A preference to a connected person within two years before the onset of insolvency, while the company is unable to pay its debts, can be set aside; desire to prefer is presumed (IA 1986 ss.239-240).",
+  "authority": "Insolvency Act 1986, ss.239 and 240",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1986/45/section/239",
+  "tags": [
+   "insolvency",
+   "preferences",
+   "connected persons",
+   "clawback"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "claw-back of assets for creditors – preferences, transactions at an undervalue, fraudulent and wrongful trading, setting aside a floating charge",
+   "context_subject": "Business Law & Practice",
+   "source_type": "legislation",
+   "source_quote": "A company which has given a preference to a person connected with the company (otherwise than by reason only of being its employee) at the time the preference was given is presumed, unless the contrary is shown",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-blp-017",
+  "subject": "Business Law & Practice",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Floating charge granted to secure an existing overdraft before liquidation (IA 1986 s.245)",
+  "scenario": "Larchfield Ltd owed £150,000 to Norbury Bank plc on an unsecured overdraft. The bank is not connected with the company. Worried about the company's finances, the bank froze the account and demanded security. Eight months before the company went into insolvent liquidation, the company granted the bank a floating charge over all its assets to secure the existing overdraft. The bank provided no further money, goods or services after the charge was created, and there were no further payments into or out of the account. The company was unable to pay its debts at the time the charge was created. The charge was registered within 21 days.",
+  "stem": "What is the status of the floating charge in the liquidation?",
+  "options": {
+   "A": "It is valid, because a floating charge granted to an unconnected person can be challenged only if it was created within six months before the onset of insolvency.",
+   "B": "It is valid, because it was properly registered at Companies House within 21 days.",
+   "C": "It is invalid, and the bank must also repay any sums the company paid it in the 12 months before liquidation.",
+   "D": "It is invalid except to the extent of new value provided at the same time as or after its creation; as there was none, it secures nothing and the bank is an unsecured creditor.",
+   "E": "It is valid unless the liquidator proves that the company was influenced by a desire to put the bank in a better position."
+  },
+  "answer": "D",
+  "explanation": "Section 245 IA 1986 invalidates a floating charge created at a relevant time, except to the extent of the value of money paid, or goods or services supplied, to the company at the same time as or after its creation (plus any reduction of debt then, and interest) (s.245(2)). For a charge in favour of an unconnected person, the relevant time is the 12 months ending with the onset of insolvency (s.245(3)(b)), but only if the company was then unable to pay its debts or became so as a result (s.245(4)). Here the charge was created eight months before liquidation, in favour of an unconnected bank, while the company was unable to pay its debts. It is therefore caught. Because the bank provided no new value after the charge was created, the charge secures nothing. The bank's £150,000 claim remains, but only as an unsecured debt.",
+  "why_wrong": {
+   "A": "For an unconnected chargeholder the period is 12 months, not six, provided the company was then unable to pay its debts (s.245(3)(b), (4)).",
+   "B": "Registration under s.859A does not protect a charge from avoidance under s.245.",
+   "C": "Section 245 invalidates the charge; it does not itself require the chargeholder to repay earlier receipts.",
+   "E": "Section 245 does not require any desire to prefer; that is a requirement of a preference claim under s.239."
+  },
+  "key_rule": "A floating charge to an unconnected person within 12 months before insolvency, while the company is unable to pay its debts, is invalid except for new value given at or after its creation (IA 1986 s.245).",
+  "authority": "Insolvency Act 1986, s.245",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1986/45/section/245",
+  "tags": [
+   "insolvency",
+   "floating charges",
+   "clawback",
+   "security"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "claw-back of assets for creditors – preferences, transactions at an undervalue, fraudulent and wrongful trading, setting aside a floating charge",
+   "context_subject": "Business Law & Practice",
+   "source_type": "legislation",
+   "source_quote": "a floating charge on the company’s undertaking or property created at a relevant time is invalid except to the extent of the aggregate of",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-blp-018",
+  "subject": "Business Law & Practice",
+  "flk": "FLK1",
+  "difficulty": "easy",
+  "title": "Wrongful trading: the 'every step' defence (IA 1986 s.214)",
+  "scenario": "Gaia is a director of Tamsin Lighting Ltd. In March she concluded, as she should have done, that there was no reasonable prospect of the company avoiding insolvent liquidation. The company went into insolvent liquidation in August. The liquidator is considering applying to the court for a declaration that Gaia must contribute to the company's assets for wrongful trading.",
+  "stem": "Which of the following, if established, would give Gaia a defence?",
+  "options": {
+   "A": "She acted honestly throughout and never intended to defraud creditors.",
+   "B": "After reaching that conclusion, she took every step with a view to minimising the potential loss to the company's creditors that she ought to have taken.",
+   "C": "She was a non-executive director with no financial expertise, so she must be judged only by her own limited skill and experience.",
+   "D": "She resigned as a director in July, before the company went into liquidation.",
+   "E": "The debts that increased the company's deficiency were incurred by the other directors, not by her."
+  },
+  "answer": "B",
+  "explanation": "Section 214(2) IA 1986 applies to a person who was a director when they knew or ought to have concluded that there was no reasonable prospect of the company avoiding insolvent liquidation (or insolvent administration), where the company then goes into insolvent liquidation. Gaia was a director in March, when she reached that conclusion, and the company later went into insolvent liquidation, so she is within the section. The only statutory defence is in s.214(3). The court must not make a declaration if it is satisfied that, after that point, the director took every step with a view to minimising the potential loss to creditors that she ought to have taken. That defence is judged on the assumption that she had the relevant knowledge. If Gaia can prove she did this, no contribution order can be made against her.",
+  "why_wrong": {
+   "A": "Wrongful trading does not depend on dishonesty or intent to defraud; that is the test for fraudulent trading.",
+   "C": "Under s.214(4), a director is judged at least by the general knowledge, skill and experience reasonably expected of someone carrying out her functions, not only by her own lower standard.",
+   "D": "Liability attaches because she was a director when the s.214(2)(b) point was reached; resigning later does not by itself provide a defence.",
+   "E": "Liability depends on her own position as a director after the critical point, not on which director incurred the debts."
+  },
+  "key_rule": "A director is not liable for wrongful trading if, after she knew or ought to have concluded insolvent liquidation was unavoidable, she took every step to minimise creditors' potential loss (IA 1986 s.214(3)).",
+  "authority": "Insolvency Act 1986, s.214",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1986/45/section/214",
+  "tags": [
+   "insolvency",
+   "wrongful trading",
+   "directors"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "claw-back of assets for creditors – preferences, transactions at an undervalue, fraudulent and wrongful trading, setting aside a floating charge",
+   "context_subject": "Business Law & Practice",
+   "source_type": "legislation",
+   "source_quote": "that person took every step with a view to minimising the potential loss to the company’s creditors",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-blp-019",
+  "subject": "Business Law & Practice",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Creditors' bankruptcy petition: aggregating debts to reach the bankruptcy level (IA 1986 ss.267-268)",
+  "scenario": "Dariusz is a sole trader in England. He owes £3,200 to Mapleton Supplies Ltd and £2,100 to Sefton Hire Ltd. Both debts are unsecured, for liquidated sums and immediately payable. Four weeks ago each creditor served a statutory demand on Dariusz in the prescribed form. Neither demand has been paid, secured or compounded for, and Dariusz has made no application to set either aside. Assume the bankruptcy level is £5,000.",
+  "stem": "Can a bankruptcy petition be presented against Dariusz?",
+  "options": {
+   "A": "No, because neither creditor is individually owed at least £5,000.",
+   "B": "Yes, either creditor may petition alone, because an unpaid statutory demand is enough whatever the amount of the debt.",
+   "C": "No, because a creditor must first obtain a court judgment and try to enforce it before petitioning.",
+   "D": "No, because only Dariusz himself can start bankruptcy proceedings where the debts are below £5,000 each.",
+   "E": "Yes, the two creditors may present a joint petition, because their debts together amount to £5,300 and the other conditions are met."
+  },
+  "answer": "E",
+  "explanation": "A creditor's petition may be presented in respect of 'one or more debts' by 'the petitioning creditor or each of the petitioning creditors' (s.267(1) IA 1986). Under s.267(2)(a), the amount of the debt, or the aggregate amount of the debts, must equal or exceed the bankruptcy level, which is £5,000 (s.267(4)). Together, the two debts total £5,300. Each is for a liquidated sum, unsecured and immediately payable (s.267(2)(b)). Dariusz appears unable to pay each debt because a statutory demand was served, at least three weeks have passed, and it has been neither complied with nor set aside (s.268(1)(a)). There is no outstanding application to set aside either demand (s.267(2)(d)). Mapleton and Sefton may therefore present a joint petition.",
+  "why_wrong": {
+   "A": "Section 267 allows debts owed to more than one petitioning creditor to be aggregated to reach the bankruptcy level.",
+   "B": "A single creditor alone must be owed at least the bankruptcy level of £5,000; neither is.",
+   "C": "An unpaid and unchallenged statutory demand is an alternative to unsatisfied enforcement of a judgment (s.268(1)(a) and (b)).",
+   "D": "A debtor may apply for his own bankruptcy, but that does not prevent creditors from presenting a joint petition where the aggregate debt meets the bankruptcy level."
+  },
+  "key_rule": "Creditors may jointly petition where their unsecured liquidated debts together reach the £5,000 bankruptcy level and inability to pay is shown, e.g. by an unpaid statutory demand (IA 1986 ss.267-268).",
+  "authority": "Insolvency Act 1986, ss.267 and 268",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1986/45/section/267",
+  "tags": [
+   "insolvency",
+   "bankruptcy",
+   "statutory demand"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "options and procedures - CVA/IVA, bankruptcy, administration, fixed asset receivership, voluntary and compulsory liquidation",
+   "context_subject": "Business Law & Practice",
+   "source_type": "legislation",
+   "source_quote": "the amount of the debt, or the aggregate amount of the debts, is equal to or exceeds the bankruptcy level",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-blp-020",
+  "subject": "Business Law & Practice",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Sole trader's loss in the first year of trading: early trade losses relief (ITA 2007 ss.72-73)",
+  "scenario": "Marisol was employed as an engineer until 5 April 2026, earning a salary of about £58,000 in each of the tax years 2023/24, 2024/25 and 2025/26. On 6 April 2026 she started trading as a sole trader, on a commercial basis and with a view to profit. She expects a trading loss of £30,000 for 2026/27, her first tax year of trading, and has no other income in that year. She wants to set the loss against her earliest available income. Assume that no cap or other restriction on income tax reliefs limits her claim.",
+  "stem": "Which relief allows the loss to be set against her 2023/24 employment income, and how does it operate?",
+  "options": {
+   "A": "Trade loss relief against general income, which allows the loss to be carried back up to three tax years, starting with the latest year.",
+   "B": "Carry-forward trade loss relief, which sets the loss against her general income of later tax years.",
+   "C": "Early trade losses relief, which deducts the loss from her net income of the three tax years before the loss-making year, starting with the earliest (2023/24).",
+   "D": "Early trade losses relief, which deducts the loss from her net income of the three tax years before the loss-making year, starting with the latest (2025/26).",
+   "E": "Terminal trade loss relief, because her employment has ceased."
+  },
+  "answer": "C",
+  "explanation": "Early trade losses relief under s.72 ITA 2007 is available where an individual makes a trading loss in the tax year in which the trade is first carried on, or in any of the next three tax years. Marisol's loss arises in 2026/27, the first tax year of her trade, so she qualifies. The claim deducts the loss in calculating her net income for the three tax years before the loss-making year (s.72(2)): 2023/24, 2024/25 and 2025/26. Section 73 sets the order: the loss is deducted first from the earliest of those three years, then the next, then the latest. Her £30,000 loss is therefore set against her 2023/24 employment income first, and because that income exceeds the loss, it is fully used in that year. The claim must be made by the first anniversary of the normal self-assessment filing date for 2026/27 (s.72(3)).",
+  "why_wrong": {
+   "A": "Relief against general income under s.64 covers only the loss-making year and the previous tax year, not three years back.",
+   "B": "Carry-forward relief under s.83 is set only against later profits of the same trade, and it cannot reach 2023/24.",
+   "D": "Section 73 requires the loss to be set against the earliest of the three years first, not the latest.",
+   "E": "Terminal loss relief applies when a trade ceases; ending her employment is not the cessation of a trade."
+  },
+  "key_rule": "A trading loss in the first four tax years of a trade can be carried back against net income of the three preceding tax years, earliest first (ITA 2007 ss.72-73).",
+  "authority": "Income Tax Act 2007, ss.64, 72, 73 and 83",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2007/3/section/72",
+  "tags": [
+   "income tax",
+   "trading losses",
+   "sole traders"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Income Tax: basis of charge (types of income/main reliefs and exemptions)",
+   "context_subject": "Business Law & Practice",
+   "source_type": "legislation",
+   "source_quote": "The claim is for the loss to be deducted in calculating the individual's net income for the 3 tax years before the one in which the loss is made",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-blp-021",
+  "subject": "Business Law & Practice",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Company trading loss: current-year and 12-month carry-back relief (CTA 2010 s.37)",
+  "scenario": "Brackenfield Tools Ltd has traded for many years and prepares accounts to 31 March. In its accounting period ended 31 March 2026 it made a trading loss of £80,000 and a chargeable gain of £20,000, and had no other income. In its accounting period ended 31 March 2025 its total profits were £50,000. The company continues to trade and makes a claim under s.37 Corporation Tax Act 2010 that includes carrying the loss back.",
+  "stem": "How will the £80,000 loss be relieved?",
+  "options": {
+   "A": "£50,000 against the profits of the year to 31 March 2025 first, then £20,000 against the 2026 chargeable gain, with £10,000 carried forward.",
+   "B": "The whole £80,000 carried back against total profits of the previous three accounting periods, latest first.",
+   "C": "£50,000 carried back against the previous year's profits and £30,000 carried forward, because a trading loss cannot be set against a chargeable gain.",
+   "D": "£20,000 against total profits of the loss-making period, then £50,000 against total profits of the previous 12 months, with the remaining £10,000 carried forward.",
+   "E": "The whole loss must be carried forward, because the company made a chargeable gain in the loss-making period."
+  },
+  "answer": "D",
+  "explanation": "Under s.37(3) CTA 2010, a claim deducts the trading loss from the company's total profits of the loss-making period. If the claim requires, it also deducts the loss from total profits of previous periods falling within the 12 months before the loss-making period. Total profits include chargeable gains, so the £20,000 gain in the year to 31 March 2026 is relieved first. Under s.37(4), a carry-back deduction is made only for the amount that cannot be deducted in a later period, so the current period must be used before the earlier one. The remaining £60,000 is carried back against the £50,000 profits of the year to 31 March 2025. The unused £10,000 is carried forward under s.45A, because the company continues to trade. The claim must be made within two years of the end of the loss-making period (s.37(7)).",
+  "why_wrong": {
+   "A": "Section 37 relieves the loss-making period first; a carry-back claim cannot skip the current period's total profits.",
+   "B": "The general carry-back under s.37 is limited to the previous 12 months, not three years.",
+   "C": "Section 37 sets the loss against total profits, which include chargeable gains.",
+   "E": "A chargeable gain in the loss-making period forms part of total profits against which the loss can be set; it does not force carry-forward."
+  },
+  "key_rule": "A company's trading loss may be set against total profits (including gains) of the loss-making period and then, by claim, the previous 12 months; any balance is carried forward (CTA 2010 ss.37, 45A).",
+  "authority": "Corporation Tax Act 2010, ss.37 and 45A",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2010/4/section/37",
+  "tags": [
+   "corporation tax",
+   "trading losses",
+   "loss relief"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Corporation Tax: basis of charge (calculation of income profits and chargeable gains/allowable deductions/main reliefs and exemptions)",
+   "context_subject": "Business Law & Practice",
+   "source_type": "legislation",
+   "source_quote": "the relief is given by deducting the loss from the company's total profits of— (a) the accounting period in which the loss is made (“the loss-making period”), and (b) if the claim so requires, previous accounting periods",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-blp-022",
+  "subject": "Business Law & Practice",
+  "flk": "FLK1",
+  "difficulty": "hard",
+  "title": "Income tax on dividends for a director-shareholder in 2026/27 (ITA 2007 ss.8, 13A)",
+  "scenario": "Anjali is a director and shareholder of Pellmar Ltd, a UK trading company. In the tax year 2026/27 she receives a salary of £30,570 and dividends of £30,000 from the company. She has no other income, is entitled to the standard personal allowance and lives in England. Assume the following for 2026/27: personal allowance £12,570; basic rate band £37,700; dividend allowance (dividend nil rate) £500; dividend ordinary rate 10.75%; dividend upper rate 35.75%. Dividends are treated as the top slice of income. Ignore National Insurance.",
+  "stem": "How much income tax is payable on Anjali's dividends?",
+  "options": {
+   "A": "£5,621.25",
+   "B": "£3,171.25",
+   "C": "£5,746.25",
+   "D": "£5,156.25",
+   "E": "£7,960.00"
+  },
+  "answer": "C",
+  "explanation": "The personal allowance is set against the salary first, leaving taxable non-savings income of £18,000 (£30,570 less £12,570). This uses £18,000 of the £37,700 basic rate band, leaving £19,700 for the dividends, which are taxed as the top slice. Under s.13A ITA 2007, the dividend allowance works as a nil rate: the first £500 of dividends that would otherwise be taxed at the ordinary rate is taxed at 0%. This £500 still uses up part of the basic rate band. So, of the £19,700 within the band, £500 is taxed at 0% and £19,200 at 10.75% (£2,064.00). The remaining £10,300 of dividends (£30,000 less £19,700) falls in the higher rate band and is taxed at 35.75% (£3,682.25). Total tax on the dividends is £5,746.25. These are the 2026/27 dividend rates set by s.8 ITA 2007.",
+  "why_wrong": {
+   "A": "This treats the £500 allowance as a deduction that does not use the basic rate band, so too much dividend income is taxed at 10.75%.",
+   "B": "This taxes all dividends above the allowance at 10.75%, ignoring that £10,300 of them exceed the basic rate band.",
+   "D": "This uses the pre-2026/27 dividend rates of 8.75% and 33.75% instead of the rates given.",
+   "E": "This applies the non-savings rates of 20% and 40% to dividends instead of the dividend rates."
+  },
+  "key_rule": "Dividends are taxed as the top slice of income; the £500 dividend nil rate still uses the band, then dividend ordinary and upper rates apply (ITA 2007 ss.8, 13A).",
+  "authority": "Income Tax Act 2007, ss.8 and 13A; gov.uk 'Tax on dividends'",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2007/3/section/13A",
+  "tags": [
+   "income tax",
+   "dividends",
+   "calculation"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Income Tax: the charge to tax: calculation of income tax in each of England and Wales and collection",
+   "context_subject": "Business Law & Practice",
+   "source_type": "legislation",
+   "source_quote": "is charged at the dividend nil rate (rather than the dividend ordinary rate), and is the only amount charged at the dividend nil rate",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Dividend rates 10.75%/35.75% for 2026/27 confirmed in ITA 2007 s.8 as amended by Finance Act 2026 (c. 11) s.4."
+  }
+ },
+ {
+  "id": "lib-blp-023",
+  "subject": "Business Law & Practice",
+  "flk": "FLK1",
+  "difficulty": "hard",
+  "title": "Business Asset Disposal Relief: officer or employee condition not met for two years (CGT)",
+  "scenario": "In June 2026 Ottilie sells her entire 12% shareholding in Hartwell Trading Ltd, an unquoted trading company, making a chargeable gain of £400,000. Her shares carry 12% of the voting rights and entitle her to 12% of distributable profits and of assets on a winding up. She bought the shares from another shareholder in 2019 as a passive investor, and was first appointed as a director of the company in March 2025. She is a higher rate taxpayer, makes no other disposals in 2026/27 and has never claimed Business Asset Disposal Relief. Assume: annual exempt amount £3,000; CGT rate for higher rate taxpayers 24%; Business Asset Disposal Relief rate 18% (lifetime limit £1 million). No other relief is available.",
+  "stem": "How much capital gains tax is payable on the disposal?",
+  "options": {
+   "A": "£71,460",
+   "B": "£72,000",
+   "C": "£55,580",
+   "D": "£96,000",
+   "E": "£95,280"
+  },
+  "answer": "E",
+  "explanation": "For a disposal of shares to qualify for Business Asset Disposal Relief, certain conditions must be met throughout the two years ending with the date of disposal. The company must be a trading company and the individual's 'personal company', meaning a holding of at least 5% of the shares and voting rights with the required economic rights. The individual must also be an officer or employee of the company or a group company. Ottilie's 12% holding meets the personal company test. However, she became a director only in March 2025, about 15 months before the June 2026 sale, so she has not been an officer or employee for the full two years. The relief is therefore unavailable. Her gain of £400,000 less the £3,000 annual exempt amount leaves £397,000 taxable. As a higher rate taxpayer she pays 24%, so the tax is £95,280.",
+  "why_wrong": {
+   "A": "This applies the 18% Business Asset Disposal Relief rate, but she has not been an officer or employee for the required two years.",
+   "B": "This applies the relief rate and also fails to deduct the annual exempt amount.",
+   "C": "This uses the 14% relief rate that applied only to disposals between 6 April 2025 and 5 April 2026, and the relief is unavailable anyway.",
+   "D": "This applies the correct 24% rate but fails to deduct the £3,000 annual exempt amount."
+  },
+  "key_rule": "Business Asset Disposal Relief on shares requires a personal company (5%+) and that the seller has been an officer or employee throughout the two years before disposal (TCGA 1992 s.169I).",
+  "authority": "Taxation of Chargeable Gains Act 1992, s.169I; gov.uk 'Business Asset Disposal Relief'",
+  "verified_source_url": "https://www.gov.uk/business-asset-disposal-relief",
+  "tags": [
+   "capital gains tax",
+   "business asset disposal relief",
+   "calculation"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Capital Gains Tax: basis of charge (calculation of gains/allowable deductions/main reliefs and exemptions)",
+   "context_subject": "Business Law & Practice",
+   "source_type": "official-guidance",
+   "source_quote": "To qualify, both of the following must apply for at least 2 years up to the date you sell your shares: you’re an employee or office holder of the company (or one in the same group)",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "BADR rate of 18% for disposals from 6 April 2026 taken from gov.uk; the question turns on the two-year officer/employee condition, not the rate."
+  }
+ },
+ {
+  "id": "lib-blp-024",
+  "subject": "Business Law & Practice",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Gift of unquoted trading company shares: hold-over relief and donee's base cost (TCGA 1992 s.165)",
+  "scenario": "In 2026/27 Bernard gives his daughter Lowri ordinary shares in Tidemill Joinery Ltd, an unquoted trading company. The shares have a market value of £300,000 at the date of the gift, and Bernard's allowable base cost is £50,000. Bernard and Lowri both sign a claim for gift relief under s.165 Taxation of Chargeable Gains Act 1992. Ignore the annual exempt amount and any other relief.",
+  "stem": "What is the capital gains tax effect of the gift and the claim?",
+  "options": {
+   "A": "Bernard pays capital gains tax on a gain of £250,000 now, and Lowri acquires the shares with a base cost of £300,000.",
+   "B": "No gain is charged on Bernard now, and Lowri acquires the shares with a base cost of £300,000.",
+   "C": "Bernard's gain is postponed until his death, when it is wiped out, and Lowri's base cost is £300,000.",
+   "D": "The relief is available only if Lowri works for or is a director of the company.",
+   "E": "No gain is charged on Bernard now, and Lowri's base cost is reduced to £50,000, so the held-over gain is taxed when she disposes of the shares."
+  },
+  "answer": "E",
+  "explanation": "A gift between connected persons is treated as a disposal at market value, so without relief Bernard would have a gain of £250,000 (£300,000 less £50,000). Section 165 TCGA 1992 allows gift relief where an individual disposes of an asset otherwise than at arm's length, and the asset falls within s.165(2). This includes shares in a trading company that are not listed on a recognised stock exchange (s.165(2)(b)). Tidemill Joinery Ltd's shares qualify, and Bernard and Lowri have made the required joint claim. Under s.165(4), Bernard's gain and Lowri's acquisition cost are each reduced by the held-over gain of £250,000. Bernard's chargeable gain is therefore nil, and Lowri's base cost is £300,000 less £250,000, which is £50,000. The gain is deferred, not removed, and will come into charge when Lowri disposes of the shares.",
+  "why_wrong": {
+   "A": "With a valid joint claim, s.165(4) reduces Bernard's gain to nil rather than charging it now.",
+   "B": "Section 165(4) reduces the donee's acquisition cost by the held-over gain, so Lowri does not take the shares at market value.",
+   "C": "The held-over gain passes to Lowri through her reduced base cost; it is not postponed until Bernard's death.",
+   "D": "Section 165(2)(b) covers unlisted trading company shares regardless of whether the donee works for the company."
+  },
+  "key_rule": "On a gift of qualifying business assets, including unlisted trading company shares, a s.165 claim reduces both the donor's gain and the donee's base cost by the held-over gain.",
+  "authority": "Taxation of Chargeable Gains Act 1992, s.165",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1992/12/section/165",
+  "tags": [
+   "capital gains tax",
+   "gift relief",
+   "hold-over relief"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Capital Gains Tax: basis of charge (calculation of gains/allowable deductions/main reliefs and exemptions)",
+   "context_subject": "Business Law & Practice",
+   "source_type": "legislation",
+   "source_quote": "shall each be reduced by an amount equal to the held-over gain on the disposal",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-blp-025",
+  "subject": "Business Law & Practice",
+  "flk": "FLK1",
+  "difficulty": "easy",
+  "title": "Inheritance tax business property relief: two-year minimum ownership",
+  "scenario": "Leopold died on 1 September 2026. Twenty months before his death, he bought for cash a 25% shareholding in Caraway Foods Ltd, an unquoted company that carries on a food manufacturing trade. The shares did not replace any other business property, and he did not inherit them from a spouse. At his death the shares were worth £400,000. Assume that any cap on the amount of 100% relief is not relevant because the value is well within it.",
+  "stem": "Is business property relief available on the shares in Leopold's estate?",
+  "options": {
+   "A": "Yes, at 100%, because they are shares in an unquoted trading company.",
+   "B": "Yes, but only at 50%, because Leopold held a minority shareholding.",
+   "C": "No, because Leopold had not owned the shares for at least two years before his death.",
+   "D": "No, because shares in a company never qualify; only a business or an interest in a business qualifies.",
+   "E": "Yes, at 100%, because the two-year ownership rule applies only to lifetime gifts."
+  },
+  "answer": "C",
+  "explanation": "Business property relief (business relief) can reduce the value of qualifying business property for inheritance tax, and shares in an unlisted trading company can qualify for 100% relief. However, property is not relevant business property unless the transferor owned it throughout the two years immediately before the transfer (s.106 IHTA 1984). HMRC's guidance likewise states that relief is available only if the deceased owned the business or asset for at least two years before death. Leopold bought the shares only 20 months before he died. The facts rule out the exceptions for replacement property and for property inherited from a spouse. The shares therefore do not qualify, and no business property relief is available, even though the company carries on a qualifying trade.",
+  "why_wrong": {
+   "A": "Unquoted trading company shares can attract 100% relief, but only if the two-year ownership condition is met, and it is not.",
+   "B": "There is no general 50% rate for minority holdings in unquoted companies; 50% applies to other categories, and here no relief is available at all.",
+   "D": "Shares in an unlisted company are expressly a category of relevant business property.",
+   "E": "The two-year ownership requirement applies to transfers on death as well as to lifetime transfers."
+  },
+  "key_rule": "Business property relief requires the transferor to have owned the property throughout the two years before the transfer, including a transfer on death (IHTA 1984 s.106).",
+  "authority": "Inheritance Tax Act 1984, ss.104-106; gov.uk 'Business Relief for Inheritance Tax'",
+  "verified_source_url": "https://www.gov.uk/business-relief-inheritance-tax/what-qualifies-for-business-relief",
+  "tags": [
+   "inheritance tax",
+   "business property relief"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Inheritance Tax: business property relief",
+   "context_subject": "Business Law & Practice",
+   "source_type": "official-guidance",
+   "source_quote": "You can only get relief if the deceased owned the business or asset for at least 2 years before they died.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Finance Act 2026 (c. 11) caps 100% business/agricultural relief at £2.5m for deaths on or after 6 April 2026 (confirmed on gov.uk); the IHTA s.124L insertion is not yet applied on legislation.gov.uk. The question states the value is within the cap and tests only the two-year ownership rule in s.106, which is unchanged."
+  }
+ },
+ {
+  "id": "lib-blp-026",
+  "subject": "Business Law & Practice",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "VAT registration threshold: zero-rated supplies count, exempt supplies do not",
+  "scenario": "Sunniva runs a business in England and is not registered for VAT. In the 12 months to 31 August 2026 her sales were: £70,000 of standard-rated supplies, £18,000 of zero-rated supplies and £9,000 of exempt supplies. She does not expect her taxable turnover to exceed the threshold in the next 30 days. Assume the VAT registration threshold is £90,000.",
+  "stem": "Is Sunniva required to register for VAT?",
+  "options": {
+   "A": "No, because her taxable turnover of £88,000 (including zero-rated but excluding exempt supplies) is below £90,000, although she may register voluntarily.",
+   "B": "Yes, because her total turnover of £97,000 exceeds £90,000.",
+   "C": "No, because only her standard-rated supplies of £70,000 count towards the threshold.",
+   "D": "No, and she cannot register voluntarily because she makes some exempt supplies.",
+   "E": "Yes, because any business making zero-rated supplies must register whatever its turnover."
+  },
+  "answer": "A",
+  "explanation": "Registration is compulsory if taxable turnover for the last 12 months goes over the £90,000 threshold, or is expected to exceed it in the next 30 days. HMRC's guidance defines taxable turnover as the total value of everything sold that is not VAT exempt or outside the scope of VAT. It expressly includes zero-rated, reduced-rated and standard-rated goods. Sunniva's taxable turnover is therefore her standard-rated supplies of £70,000 plus her zero-rated supplies of £18,000, a total of £88,000. Her exempt supplies of £9,000 are left out. £88,000 does not exceed £90,000, and she does not expect to go over the threshold in the next 30 days, so she does not have to register. She may still choose to register voluntarily, which could let her recover input tax.",
+  "why_wrong": {
+   "B": "Exempt supplies are not part of taxable turnover, so the test is not applied to her total sales.",
+   "C": "Zero-rated supplies are taxable supplies (at 0%) and count towards the threshold.",
+   "D": "Making some exempt supplies does not prevent voluntary registration where she also makes taxable supplies.",
+   "E": "Making zero-rated supplies does not by itself trigger compulsory registration; the turnover test still applies."
+  },
+  "key_rule": "VAT registration is compulsory when 12-month taxable turnover exceeds the threshold; taxable turnover includes zero-rated supplies but excludes exempt and out-of-scope supplies.",
+  "authority": "Value Added Tax Act 1994, Sch.1 para.1; gov.uk 'Register for VAT: when to register'",
+  "verified_source_url": "https://www.gov.uk/vat-registration/when-to-register",
+  "tags": [
+   "vat",
+   "vat registration",
+   "zero-rated supplies",
+   "exempt supplies"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Value Added Tax: registration requirements and issue of VAT invoices",
+   "context_subject": "Business Law & Practice",
+   "source_type": "official-guidance",
+   "source_quote": "Taxable turnover is the total value of everything you sell that is not VAT exempt or ‘out of scope’ goods and services . It also includes: zero-rated goods reduced-rated goods standard-rated goods",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ }
+]
