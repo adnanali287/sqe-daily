@@ -26,7 +26,30 @@ Recorded 16 October 2026. Only measurements actually taken are recorded here; no
 
 Local scores vary by a point or two between runs.
 
-## Search Console (owner action required)
+## Search Console: verified update, 16 October 2026
+
+The earlier access limitation below is historical. Codex accessed the verified
+`sqedaily.co.uk` Domain property through the owner's signed-in browser:
+
+- Submitted `https://sqedaily.co.uk/sitemap.xml`. Google reported **Success**,
+  last read 16 October 2026, with **21 discovered pages** and zero videos.
+- Search results, **Web**, selected **3 months**: zero clicks, zero impressions,
+  CTR displayed as 0%. The chart currently covers 13-14 October 2026 only.
+  Average position displays 0, but with no impressions it is not a meaningful
+  ranking measurement. The Queries table has no data.
+- Page indexing: **Processing data, please check again in a day or so**.
+  Indexed/excluded counts and exclusion reasons are not available yet.
+- The overview reports no experience data yet. No field Core Web Vitals scores
+  are claimed.
+- Stored homepage URL Inspection: **URL is not on Google**, **URL is unknown
+  to Google**, no recorded last crawl. This is the stored index result, not a
+  failure of the live HTTP request or evidence that the sitemap submission failed.
+
+Discovered pages are not necessarily indexed. Recheck Page indexing and URL
+Inspection after Google processes the submission. No search ranking or traffic
+improvement is claimed from these early figures.
+
+## Search Console: earlier handover instructions
 
 No Search Console data could be read: there is no Search Console connector or account access in this environment. **Nothing below has been filled in, and nothing should be assumed.**
 
