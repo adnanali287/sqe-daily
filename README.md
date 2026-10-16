@@ -17,7 +17,7 @@ Open http://localhost:8766. Serve `_site`, not the repository root, to preview t
 
 ## Add questions
 
-Append valid objects to `content/questions.json`; keep all existing field names. Each question needs a unique id and integer number, ISO publish_date, subject, FLK1/FLK2, difficulty, title, scenario, stem, five A–E options, answer, explanation, key_rule, authority and verified HTTPS source URL. The subject must be one of the names in `SUBJECTS` in `scripts/generate.py`; anything else fails the build. Hark edits only `content/questions.json` and `content/pages.json`.
+Append valid objects to `content/questions.json`; keep all existing field names. Each question needs a unique id and integer number, ISO publish_date, subject, FLK1/FLK2, difficulty, title, scenario, stem, five A–E options, answer, explanation, key_rule, authority and verified HTTPS source URL. The subject must be one of the names in `SUBJECTS` in `scripts/generate.py`; anything else fails the build. Hark's workflow is unchanged: Hark maintains `content/questions.json` and pushes. Page copy lives separately in `content/pages.json` (see below), so question work and page work never touch the same file.
 
 Optional question fields (leave a field out rather than guess):
 
@@ -30,7 +30,30 @@ Modification dates are also detected automatically: the route lock stores a hash
 
 ### Page copy and approval
 
-`content/pages.json` (optional) holds `sittings`, `pages` and `subjects`. Every entry has `approved: false` until the owner approves the copy in chat. Then record the approval with `python3 scripts/generate.py --approve pages.editorial-standards` (or `sittings.0`, `subjects.Contract`). This sets `approved: true` and an `approved_hash` of the exact approved text. Editing the entry afterwards withdraws its approval: the page is not published, and an edited sitting stops driving the countdown, until it is approved again. Pull-request checks fail on such stale approvals. Approved subject introductions render from PR 2, and their changes will then also record modification dates. Built pages in this release: `sqe1-exam-dates` and `editorial-standards`. Copy is plain text: blank lines separate paragraphs and links are `[text](https://...)`. No HTML, names or credentials. Approved sittings drive the homepage countdown; until one is approved the existing January 2027 dates remain.
+`content/pages.json` holds all editorial copy:
+- `sittings`: SRA exam dates, which drive the homepage countdown and `/sqe1-exam-dates/`;
+- `pages`: `sqe1-practice-questions`, `flk1`, `flk2`, `sqe1-exam-dates` and `editorial-standards`;
+- `guides`: any slug, published at `/guides/<slug>/` with a `/guides/` index;
+- `subjects`: introductions for subject archives, keyed by the exact subject name.
+
+**Format.** Copy is plain text: blank lines separate paragraphs. Links are `[text](https://…)`, `[text](/path/)` or `[text](mailto:…)`. A link to an internal page that isn't live renders as plain text, so partial approval never breaks links. No HTML, names or credentials. Exam facts come from the SRA's own pages, and legal statements come from primary sources.
+
+**Approval.**
+- Every entry starts as `approved: false` and is not published.
+- `python3 scripts/approval_batch.py` writes `docs/editorial-approval-batch.md`: every unapproved entry exactly as it will publish, with a fingerprint.
+- After the owner approves in chat, record it with `python3 scripts/generate.py --approve <entry> --expect <fingerprint>`, for example `pages.flk1`, `guides.sqe1-revision-timetable`, `sittings.0` or `subjects.Contract`. This refuses if the text changed since the batch was shown. The owner never edits JSON.
+- Any later edit withdraws approval until the entry is approved again:
+  - the page, guide or introduction is not published;
+  - an edited sitting stops driving the countdown;
+  - the build prints a warning, and pull-request checks fail.
+
+**What approval publishes.**
+- Approved subject introductions add the introduction, a "Rules to remember" section built from the published questions' `key_rule`, and a fuller title, at the same `/archive/<subject>/` URL.
+- Approved pages and guides record the day they were first published and the day their copy last changed. These dates feed sitemap `lastmod` and structured data.
+
+**Related questions.** Each question page lists up to three other published questions: shared `tags` first, then the same subject, then the same paper. Adding `tags` to questions improves the matches.
+
+**Maintenance documents.** See `docs/`: the approval batch, the 90-day content and outreach backlog, the outreach drafts (never sent automatically) and the measurement baseline.
 
 ### Permanent URLs
 
@@ -38,7 +61,7 @@ Modification dates are also detected automatically: the route lock stores a hash
 
 The home question is the newest question whose publish_date is no later than today's Europe/London date; ties use the highest number. If there is no question today, the latest past question remains available. Nothing future-dated is rendered or included in the deployed JSON, sitemap or RSS. The full authoring bank remains in the public GitHub repository, so scheduled questions are not confidential there.
 
-`scripts/generate.py` rebuilds question pages at their locked `/q/<number>-<title-slug>/` URLs, the server-rendered homepage, the main and subject archives, About, Sponsor, Privacy, approved pages from `content/pages.json`, 404, sitemap and RSS. Generated pages should not be edited by hand. Home layout source is `scripts/templates/home.html`; shared styles and interactions are in `assets/`. The homepage HTML contains the latest question, its permanent link and recent questions; JavaScript still refreshes it at London midnight, keeps checking every 5 minutes until that day's question is live (scheduled publishing can run late), picks up corrections to the same question, and labels it Today's or Latest question.
+`scripts/generate.py` rebuilds question pages at their locked `/q/<number>-<title-slug>/` URLs, the server-rendered homepage, the main and subject archives, About, Sponsor, Privacy, approved pages, guides and subject introductions from `content/pages.json`, 404, sitemap and RSS. Generated pages should not be edited by hand. Home layout source is `scripts/templates/home.html`; shared styles and interactions are in `assets/`. The homepage HTML contains the latest question, its permanent link and recent questions; JavaScript still refreshes it at London midnight, keeps checking every 5 minutes until that day's question is live (scheduled publishing can run late), picks up corrections to the same question, and labels it Today's or Latest question.
 
 ## Publishing
 

@@ -33,19 +33,21 @@ SUBJECTS = {
     'Criminal Law': 'criminal-law',
     'Criminal Practice': 'criminal-practice',
 }
-# content/pages.json entries this release can build; the others are validated and wait for a later release.
-PAGE_SLUGS = {'sqe1-exam-dates': 'SQE1 EXAM DATES', 'editorial-standards': 'SQE DAILY'}
-LATER_PAGE_SLUGS = ['sqe1-practice-questions', 'flk1', 'flk2']
+# content/pages.json pages (slug: eyebrow). Each is built only while its exact copy is approved.
+PAGES = {'sqe1-practice-questions': 'SQE1 PRACTICE', 'flk1': 'SQE1 · FLK1', 'flk2': 'SQE1 · FLK2', 'sqe1-exam-dates': 'SQE1 EXAM DATES', 'editorial-standards': 'SQE DAILY'}
+PAPERS = {'flk1': 'FLK1', 'flk2': 'FLK2'}
 # The countdown's existing sitting, used until an approved sitting is added to content/pages.json.
 DEFAULT_SITTING = {'label': 'January 2027', 'flk1_date': '2027-01-11', 'flk2_date': '2027-01-18'}
 LOCK = 'content/routes.lock.json'
 # Fields a content hash ignores: they change no visible page text (last_reviewed is a check, not an edit).
 HASH_IGNORED = {'tags', 'last_reviewed', 'last_modified', 'route', 'modified'}
 APPROVAL_FIELDS = {'approved', 'approved_hash'}
-# Subject intros render in PR 2; until then their changes cannot modify a published page.
-SUBJECT_INTROS_LIVE = False
-OWNED = ['index.html', '404.html', 'q', 'archive', 'about', 'sponsor', 'privacy', *PAGE_SLUGS, 'sitemap.xml', 'feed.xml', 'robots.txt']
+# Approved subject introductions render on subject archives, so their changes are modifications.
+SUBJECT_INTROS_LIVE = True
+OWNED = ['index.html', '404.html', 'q', 'archive', 'about', 'sponsor', 'privacy', *PAGES, 'guides', 'sitemap.xml', 'feed.xml', 'robots.txt']
 RECENT = 5
+RELATED = 3
+LATEST = 10
 NAV = '<nav aria-label="Main navigation">' + ''.join(f'<a href="{url}">{name}</a>' for name, url in [('Today', '/'), ('Archive', '/archive/'), ('About', '/about/'), ('Sponsor', '/sponsor/'), ('Privacy', '/privacy/')]) + '</nav>'
 # Without JavaScript the homepage shows the worked answer below the options; the style lives in <head>.
 NOSCRIPT_STYLE = '<noscript><style>#result[hidden]{display:block!important}</style></noscript>'
@@ -59,6 +61,10 @@ def slug(value):
 def route(q):
     """The route a question receives when first published. Afterwards the lock file decides."""
     return f'/q/{q["number"]}-{slug(q["title"])}/'
+
+def subject_questions(subject):
+    """'Contract practice questions', but 'Property Practice questions' rather than a doubled word."""
+    return f'{subject} questions' if subject.endswith('Practice') else f'{subject} practice questions'
 
 def published(bank, day):
     return sorted((q for q in bank if q['publish_date'] <= day), key=lambda q: (q['publish_date'], q['number']))
@@ -76,13 +82,20 @@ def summary(text, limit=150):
         return text
     return text[:limit].rsplit(' ', 1)[0].rstrip(',;:') + '…'
 
+LINK = re.compile(r'\[([^\]]+)\]\(((?:https://|mailto:|/)[^)\s]*)\)')
+# Paths of approved copy pages built in this run; rich() links to unbuilt pages render as plain text.
+LIVE_PATHS = set()
+
+def internal_live(path):
+    path = path.split('#')[0]
+    return path == '/' or path.startswith(('/q/', '/archive/')) or path in LIVE_PATHS
+
 def rich(text):
-    """Escape page copy, keeping blank-line paragraphs and [text](https://…) links."""
-    paragraphs = []
-    for paragraph in text.strip().split('\n\n'):
-        body = re.sub(r'\[([^\]]+)\]\((https://[^)\s]+)\)', lambda m: f'<a href="{m.group(2)}">{m.group(1)}</a>', esc(paragraph))
-        paragraphs.append('<p>' + body.replace('\n', '<br>') + '</p>')
-    return ''.join(paragraphs)
+    """Escape page copy, keeping blank-line paragraphs and [text](https://…, mailto: or /path) links."""
+    def link(m):
+        label, href = m.group(1), m.group(2)
+        return label if href.startswith('/') and not internal_live(href) else f'<a href="{href}">{label}</a>'
+    return ''.join('<p>' + LINK.sub(link, esc(paragraph)).replace('\n', '<br>') + '</p>' for paragraph in text.strip().split('\n\n'))
 
 def explanation_html(q):
     paragraphs = q['explanation'].split('\n\n')
@@ -100,22 +113,29 @@ def is_approved(entry):
 
 def approval_entries(data):
     yield from ((f'sittings.{i}', entry) for i, entry in enumerate(data.get('sittings', [])))
-    for kind in ['pages', 'subjects']:
+    for kind in ['pages', 'guides', 'subjects']:
         yield from ((f'{kind}.{name}', entry) for name, entry in data.get(kind, {}).items())
 
 def stale_approvals(data):
     return [label for label, entry in approval_entries(data) if entry.get('approved') is True and not is_approved(entry)]
 
-def approve(label):
-    """Record the owner's approval of one content/pages.json entry, bound to its current text."""
+def approve(label, expect=None):
+    """Record the owner's approval of one content/pages.json entry, bound to its current text.
+
+    expect is the fingerprint shown in docs/editorial-approval-batch.md; approval is refused if the
+    text has changed since the owner saw it.
+    """
     path = ROOT / 'content/pages.json'
     data = json.loads(path.read_text())
     load_pages(london_today())
     entries = dict(approval_entries(data))
     if label not in entries:
         raise SystemExit(f'No entry {label}; choose from: {", ".join(entries)}')
+    digest = content_hash(entries[label], APPROVAL_FIELDS)
+    if expect and not digest.startswith(expect):
+        raise SystemExit(f'{label} has changed since it was presented for approval ({expect}); present the current text again.')
     entries[label]['approved'] = True
-    entries[label]['approved_hash'] = content_hash(entries[label], APPROVAL_FIELDS)
+    entries[label]['approved_hash'] = digest
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print(f'Approved {label}.')
 
@@ -168,8 +188,8 @@ def validate_bank(bank, today):
 def load_pages(today):
     path = ROOT / 'content/pages.json'
     data = json.loads(path.read_text()) if path.exists() else {}
-    if not isinstance(data, dict) or set(data) - {'sittings', 'pages', 'subjects'}:
-        raise ValueError('content/pages.json may only contain sittings, pages and subjects')
+    if not isinstance(data, dict) or set(data) - {'sittings', 'pages', 'guides', 'subjects'}:
+        raise ValueError('content/pages.json may only contain sittings, pages, guides and subjects')
     https = lambda value: isinstance(value, str) and value.startswith('https://')
     def approved(entry, label):
         if not isinstance(entry.get('approved'), bool):
@@ -180,7 +200,7 @@ def load_pages(today):
         label = f'sittings[{i}]'
         if not isinstance(sitting.get('label'), str) or not https(sitting.get('source_url')):
             raise ValueError(f'{label} needs a label and an https source_url')
-        for key in ['flk1_date', 'flk2_date', 'booking_closes', 'results_date']:
+        for key in ['flk1_date', 'flk1_end', 'flk2_date', 'flk2_end', 'booking_closes', 'results_date']:
             value = sitting.get(key)
             if value is None and key != 'flk1_date':
                 continue
@@ -188,10 +208,14 @@ def load_pages(today):
                 raise ValueError(f'{key} in {label} must be an ISO date' + ('' if key == 'flk1_date' else ' or null'))
             date.fromisoformat(value)
         approved(sitting, label)
-    for name, page in data.get('pages', {}).items():
-        label = f'pages.{name}'
-        if name not in PAGE_SLUGS and name not in LATER_PAGE_SLUGS:
-            raise ValueError(f'Unknown page {name}')
+    pages = [(f'pages.{name}', page) for name, page in data.get('pages', {}).items()] + [(f'guides.{name}', page) for name, page in data.get('guides', {}).items()]
+    for name in data.get('pages', {}):
+        if name not in PAGES:
+            raise ValueError(f'Unknown page {name}; pages are {", ".join(PAGES)}')
+    for name in data.get('guides', {}):
+        if not re.fullmatch(r'[a-z0-9]+(-[a-z0-9]+)*', name):
+            raise ValueError(f'Guide slug {name} must be lowercase words joined by hyphens')
+    for label, page in pages:
         for key in ['title', 'meta_description', 'h1', 'intro']:
             if not isinstance(page.get(key), str) or not page[key].strip():
                 raise ValueError(f'{label} needs {key}')
@@ -215,11 +239,12 @@ def load_pages(today):
         approved(subject, label)
     return data
 
-def lock_routes(questions, write_lock, content=None):
+def lock_routes(questions, write_lock, content=None, page_hashes=None):
     """Give every published question a permanent route, and record the date its visible content changes.
 
     Title edits never move a page. A changed content hash (title included) records today's London
     date as a genuine modification; first publication and seeding record none, so no date is invented.
+    Approved pages and guides record the day they were first built and the day their copy last changed.
     """
     path = ROOT / LOCK
     lock = json.loads(path.read_text()) if path.exists() else {'questions': {}, 'subjects': {}}
@@ -227,7 +252,14 @@ def lock_routes(questions, write_lock, content=None):
     # Entries from the first lock format held only the route or slug.
     lock['questions'] = {k: v if isinstance(v, dict) else {'route': v, 'hash': None, 'modified': None} for k, v in lock['questions'].items()}
     lock['subjects'] = {k: v if isinstance(v, dict) else {'slug': v, 'intro_hash': None, 'modified': None} for k, v in lock['subjects'].items()}
+    lock.setdefault('pages', {})
     today = london_today()
+    for key, digest in (page_hashes or {}).items():
+        entry = lock['pages'].get(key)
+        if entry is None:
+            lock['pages'][key] = {'hash': digest, 'published': today, 'modified': None}
+        elif entry['hash'] != digest:
+            lock['pages'][key] = {**entry, 'hash': digest, 'modified': today}
     # Published pages already in the repository are the record of what is live.
     live = {int(p.name.split('-', 1)[0]): f'/q/{p.name}/' for p in (ROOT / 'q').glob('*-*') if p.is_dir() and p.name.split('-', 1)[0].isdigit()} if (ROOT / 'q').exists() else {}
     used = {entry['route'] for entry in lock['questions'].values()}
@@ -263,7 +295,7 @@ def lock_routes(questions, write_lock, content=None):
     existing = {p.name for p in (ROOT / 'archive').iterdir() if p.is_dir()} if (ROOT / 'archive').exists() else set()
     if existing - set(SUBJECTS.values()):
         raise ValueError(f'Published subject archives missing from SUBJECTS: {sorted(existing - set(SUBJECTS.values()))}')
-    lock = {'questions': dict(sorted(lock['questions'].items())), 'subjects': dict(sorted(lock['subjects'].items()))}
+    lock = {'questions': dict(sorted(lock['questions'].items())), 'subjects': dict(sorted(lock['subjects'].items())), 'pages': dict(sorted(lock['pages'].items()))}
     if write_lock and json.dumps(lock, sort_keys=True) != before:
         path.write_text(json.dumps(lock, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     modified = lambda q: max(filter(None, [q.get('last_modified'), lock['questions'][q['id']]['modified']]), default=None)
@@ -273,14 +305,18 @@ def generate(day, package=False, write_lock=False):
     bank = json.loads((ROOT / 'content/questions.json').read_text())
     validate_bank(bank, london_today())
     content = load_pages(london_today())
-    questions, lock = lock_routes(published(bank, day), write_lock, content)
     for label in stale_approvals(content):
         print(f'Warning: {label} changed after approval, so it is not published. Approve it again with --approve {label}.')
-    pages = {name: page for name, page in content.get('pages', {}).items() if is_approved(page) and name in PAGE_SLUGS}
-    for name, page in content.get('pages', {}).items():
-        if is_approved(page) and name not in PAGE_SLUGS:
-            print(f'Note: approved page {name} is not built until a later release.')
+    # Only copy whose exact text is approved is built; everything else stays unpublished.
+    pages = {name: page for name, page in content.get('pages', {}).items() if is_approved(page)}
+    guides = {name: guide for name, guide in content.get('guides', {}).items() if is_approved(guide)}
+    intros = {name: entry for name, entry in content.get('subjects', {}).items() if is_approved(entry)} if SUBJECT_INTROS_LIVE else {}
+    LIVE_PATHS.clear(); LIVE_PATHS.update({f'/{name}/' for name in pages} | {f'/guides/{name}/' for name in guides} | ({'/guides/'} if guides else set()))
     sittings = sorted((s for s in content.get('sittings', []) if is_approved(s)), key=lambda s: s['flk1_date'])
+    copy_ignored = APPROVAL_FIELDS | {'last_reviewed'}
+    page_hashes = {f'pages.{name}': content_hash({**entry, **({'sittings': sittings} if name == 'sqe1-exam-dates' else {})}, copy_ignored) for name, entry in pages.items()}
+    page_hashes.update({f'guides.{name}': content_hash(guide, copy_ignored) for name, guide in guides.items()})
+    questions, lock = lock_routes(published(bank, day), write_lock, content, page_hashes)
     sitting = next((s for s in sittings if s['flk1_date'] >= day), DEFAULT_SITTING)
     subject_slug = lambda subject: SUBJECTS[subject]
 
@@ -289,7 +325,7 @@ def generate(day, package=False, write_lock=False):
     template = template.replace('id="result-heading" tabindex="-1"></h3>', 'id="result-heading" tabindex="-1">Worked answer</h3>')
     newsletter = template.split('    <section class="email-band"')[1].split('    <section class="how-band')[0]
     newsletter = '    <section class="email-band"' + newsletter
-    footer_links = [('Exam dates', '/sqe1-exam-dates/')] * ('sqe1-exam-dates' in pages) + [('Editorial standards', '/editorial-standards/')] * ('editorial-standards' in pages)
+    footer_links = [(name, url) for name, url, built in [('Practice questions', '/sqe1-practice-questions/', 'sqe1-practice-questions' in pages), ('Exam dates', '/sqe1-exam-dates/', 'sqe1-exam-dates' in pages), ('Guides', '/guides/', bool(guides)), ('Editorial standards', '/editorial-standards/', 'editorial-standards' in pages)] if built]
     footer_nav = NAV.replace('Main navigation', 'Footer navigation').replace('</nav>', ''.join(f'<a href="{url}">{name}</a>' for name, url in footer_links) + '</nav>')
     footer = '<footer class="wrap"><a class="footer-brand" href="/">SQE Daily.</a>' + footer_nav + '<p>Independent. Not affiliated with the SRA or any training provider.<br>For revision only. Not legal advice.</p><a href="mailto:hello@sqedaily.co.uk">Say hello</a></footer>'
     header = '<a class="skip-link" href="#main">Skip to content</a><header class="masthead wrap"><a class="brand" href="/" aria-label="SQE Daily home"><img src="/assets/mark.svg" width="52" height="52" alt=""><span class="brand-name">SQE Daily<span class="brand-dot">.</span></span></a>' + NAV + '</header>'
@@ -355,6 +391,19 @@ def generate(day, package=False, write_lock=False):
         source = f' Worked answer and source: {q["authority"].rstrip(".")}.'
         return summary(q['scenario'], max(80, 160 - len(source))) + source
 
+    def question_item(q, heading='h3'):
+        return f'<li><div class="archive-meta"><time datetime="{q["publish_date"]}">{q["publish_date"]}</time><span>{esc(q["subject"])} · {q["flk"]}</span><span>No. {q["number"]:02}</span></div><{heading}><a href="{q["route"]}">{esc(q["title"])}</a></{heading}><p>{esc(q["stem"])}</p></li>'
+
+    def related(q):
+        """Up to three other published questions: shared tags first, then the same subject, then the same paper."""
+        tags = set(q.get('tags', []))
+        def rank(other):
+            return (len(tags & set(other.get('tags', []))), other['subject'] == q['subject'], other['flk'] == q['flk'], other['publish_date'], other['number'])
+        candidates = [o for o in questions if o['id'] != q['id'] and (tags & set(o.get('tags', [])) or o['subject'] == q['subject'] or o['flk'] == q['flk'])]
+        return sorted(candidates, key=rank, reverse=True)[:RELATED]
+
+    # lastmod only where a real date backs it: publication or a genuine content change, never a review.
+    changed = lambda qs: max((q['modified'] or q['publish_date'] for q in qs), default=None)
     question_urls = []
     for i, q in enumerate(questions):
         body = practice(q, home=False)
@@ -365,6 +414,8 @@ def generate(day, package=False, write_lock=False):
         if i + 1 < len(questions):
             body += f'<a href="{questions[i+1]["route"]}">Next question →</a>'
         body += '</nav><noscript><style>#result[hidden]{display:block!important}</style><p class="wrap">The worked answer is below the options.</p></noscript>'
+        if related_questions := related(q):
+            body += '<section class="recent-questions wrap" aria-labelledby="related-heading"><div class="section-heading"><h2 id="related-heading">Related questions</h2></div><ol class="archive-list">' + ''.join(question_item(o) for o in related_questions) + '</ol></section>'
         payload = json.dumps(q, ensure_ascii=False).replace('<', '\\u003c')
         body += f'<script type="application/json" id="question-data">{payload}</script><script src="/assets/app.js" defer></script>' + newsletter
         quiz = {'@context': 'https://schema.org', '@type': 'Quiz', 'name': q['title'], 'url': BASE + q['route'], 'datePublished': q['publish_date'], 'inLanguage': 'en-GB', 'educationalLevel': 'SQE1', 'about': {'@type': 'Thing', 'name': q['subject']}, 'educationalAlignment': {'@type': 'AlignmentObject', 'alignmentType': 'educationalSubject', 'educationalFramework': 'SRA Functioning Legal Knowledge', 'targetName': f'{q["flk"]}: {q["subject"]}'}, 'author': ORGANIZATION, 'publisher': ORGANIZATION, 'hasPart': {'@type': 'Question', 'name': q['stem'], 'text': q['scenario'], 'suggestedAnswer': [{'@type': 'Answer', 'text': f'{k}. {v}'} for k, v in q['options'].items()], 'acceptedAnswer': {'@type': 'Answer', 'text': q['options'][q['answer']], 'answerExplanation': q['explanation']}}}
@@ -378,19 +429,29 @@ def generate(day, package=False, write_lock=False):
     subjects = sorted({q['subject'] for q in questions})
     def archive(subject=None):
         selected = [q for q in reversed(questions) if subject is None or q['subject'] == subject]
-        title = subject or 'Question archive'
+        intro = intros.get(subject)
+        title = f'SQE1 {subject_questions(subject)}' if intro else subject or 'Question archive'
         filters = '<div class="archive-filters" role="group" aria-label="Filter questions" hidden><label>Subject<select id="subject-filter"><option value="">All subjects</option>' + ''.join(f'<option>{esc(s)}</option>' for s in subjects) + '</select></label><label>Paper<select id="flk-filter"><option value="">FLK1 and FLK2</option><option>FLK1</option><option>FLK2</option></select></label></div>'
         links = '<nav class="subject-index" aria-label="Subject archives">' + ''.join(f'<a href="/archive/{subject_slug(s)}/">{esc(s)}</a>' for s in subjects) + '</nav>'
         items = ''.join(f'<li data-subject="{esc(q["subject"])}" data-flk="{q["flk"]}"><div class="archive-meta"><time datetime="{q["publish_date"]}">{q["publish_date"]}</time><span>{esc(q["subject"])} · {q["flk"]}</span><span>No. {q["number"]:02}</span></div><h2><a href="{q["route"]}">{esc(q["title"])}</a></h2><p>{esc(q["stem"])}</p></li>' for q in selected)
         url = '/archive/' + (subject_slug(subject) + '/' if subject else '')
         schema = {'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': title, 'url': BASE + url, 'publisher': ORGANIZATION, 'mainEntity': {'@type': 'ItemList', 'itemListElement': [{'@type': 'ListItem', 'position': i, 'url': BASE + q['route'], 'name': q['title']} for i, q in enumerate(selected, 1)]}}
-        body = f'<section class="reading wrap"><p class="eyebrow">THE DAILY PRACTICE</p><h1>{esc(title)}</h1><p class="lead">One question. One rule to remember. Browse the published practice.</p>{filters}{links}<ol class="archive-list">{items}</ol><p id="archive-empty" hidden>No questions match these filters.</p></section>' + newsletter
+        overview = ''
+        if intro:
+            rules = ''.join(f'<p>{esc(q["key_rule"])} <a href="{q["route"]}">Question {q["number"]:02}</a></p>' for q in reversed(selected))
+            overview = f'<section class="reading-section">{rich(intro["intro"])}</section><section class="reading-section" aria-labelledby="rules-heading"><h2 id="rules-heading">Rules to remember</h2>{rules}</section>'
+        body = f'<section class="reading wrap"><p class="eyebrow">THE DAILY PRACTICE</p><h1>{esc(title)}</h1><p class="lead">One question. One rule to remember. Browse the published practice.</p>{overview}{filters}{links}<ol class="archive-list">{items}</ol><p id="archive-empty" hidden>No questions match these filters.</p></section>' + newsletter
         return body, schema
     body, schema = archive()
     page('/archive/', 'Question archive', 'Browse published SQE1 questions, worked answers and primary legal sources by subject and paper.', body, [schema])
     for subject in subjects:
         body, schema = archive(subject)
-        page('/archive/' + subject_slug(subject) + '/', subject + ' questions', f'Free SQE1 practice questions in {subject}, with worked answers and primary sources.', body, [schema, breadcrumbs(('SQE Daily', '/'), ('Question archive', '/archive/'), (f'{subject} questions', f'/archive/{subject_slug(subject)}/'))])
+        if subject in intros:
+            title = f'SQE1 {subject_questions(subject)}' + (' (free, with answers)' if len(subject_questions(subject)) <= 33 else '')
+            description = f'Free SQE1 {subject} practice questions with worked answers, the rules to remember and links to the primary sources.'
+        else:
+            title, description = subject + ' questions', f'Free SQE1 practice questions in {subject}, with worked answers and primary sources.'
+        page('/archive/' + subject_slug(subject) + '/', title, description, body, [schema, breadcrumbs(('SQE Daily', '/'), ('Question archive', '/archive/'), (f'{subject} questions', f'/archive/{subject_slug(subject)}/'))])
 
     standards_note = ' Read our <a href="/editorial-standards/">editorial standards</a>.' if 'editorial-standards' in pages else ''
     copy = {
@@ -401,22 +462,75 @@ def generate(day, package=False, write_lock=False):
         body = '<section class="reading wrap"><p class="eyebrow">SQE DAILY</p><h1>' + title + '</h1>' + ''.join(f'<section class="reading-section"><h2>{heading}</h2><p>{text}</p></section>' for heading, text in sections) + '</section>'
         page('/' + name + '/', title, sections[0][1], body + (newsletter if name != 'privacy' else ''))
 
-    # Approved copy from content/pages.json. Nothing here is built until approved is true.
-    for name, entry in pages.items():
-        body = f'<section class="reading wrap"><p class="eyebrow">{PAGE_SLUGS[name]}</p><h1>{esc(entry["h1"])}</h1><section class="reading-section">{rich(entry["intro"])}</section>'
-        if name == 'sqe1-exam-dates':
-            for s in sittings:
-                lines = [f'FLK1: {long_date(s["flk1_date"])}', f'FLK2: {long_date(s["flk2_date"]) if s.get("flk2_date") else "not yet announced"}', f'Booking closes: {long_date(s["booking_closes"]) if s.get("booking_closes") else "not yet announced"}', f'Results: {long_date(s["results_date"]) if s.get("results_date") else "not yet announced"}']
-                body += f'<section class="reading-section"><h2>{esc(s["label"])}</h2><p>' + '<br>'.join(lines) + f'<br><a href="{esc(s["source_url"])}">Source</a></p></section>'
+    # Approved copy from content/pages.json. Nothing here is built until its exact text is approved.
+    def page_dates(key, entry):
+        record = lock['pages'][key]
+        return record['published'], max(filter(None, [record['modified'], entry.get('last_modified')]), default=None)
+
+    def copy_page(path, key, eyebrow, entry, before='', after='', article=False, crumbs=()):
+        body = f'<section class="reading wrap"><p class="eyebrow">{esc(eyebrow)}</p><h1>{esc(entry["h1"])}</h1><section class="reading-section">{rich(entry["intro"])}</section>{before}'
         body += ''.join(f'<section class="reading-section"><h2>{esc(s["heading"])}</h2>{rich(s["body"])}</section>' for s in entry.get('sections', []))
+        body += after
         if entry.get('sources'):
             checked = f'<span class="source-note">Checked against these sources on {long_date(entry["last_reviewed"])}</span>' if entry.get('last_reviewed') else ''
             body += '<section class="reading-section"><h2>Sources</h2><p>' + '<br>'.join(f'<a href="{esc(s["url"])}">{esc(s["label"])}</a>' for s in entry['sources']) + f'</p>{checked}</section>'
         body += '</section>' + newsletter
-        schema = {'@context': 'https://schema.org', '@type': 'WebPage', 'name': entry['title'], 'url': f'{BASE}/{name}/', 'author': ORGANIZATION, 'publisher': ORGANIZATION}
-        if entry.get('last_modified'):
-            schema['dateModified'] = entry['last_modified']
-        page(f'/{name}/', entry['title'], entry['meta_description'], body, [schema])
+        published, modified = page_dates(key, entry)
+        schema = {'@context': 'https://schema.org', '@type': 'Article' if article else 'WebPage', 'headline' if article else 'name': entry['title'], 'url': BASE + path, 'inLanguage': 'en-GB', 'author': ORGANIZATION, 'publisher': ORGANIZATION, 'datePublished': published}
+        if modified:
+            schema['dateModified'] = modified
+        meta = f'<meta property="article:published_time" content="{published}">' if article else ''
+        page(path, entry['title'], entry['meta_description'], body, [schema] + ([breadcrumbs(*crumbs)] if crumbs else []), 'article' if article else 'website', meta)
+        return modified or published
+
+    def question_list(heading_id, heading, qs):
+        return f'<section class="reading-section" aria-labelledby="{heading_id}"><h2 id="{heading_id}">{heading}</h2><ol class="archive-list">' + ''.join(question_item(q) for q in qs) + '</ol></section>' if qs else ''
+
+    def subject_links(label, names):
+        return f'<nav class="subject-index" aria-label="{esc(label)}">' + ''.join(f'<a href="/archive/{subject_slug(s)}/">{esc(s)}</a>' for s in names) + '</nav>' if names else ''
+
+    def date_span(start, end):
+        first, last = date.fromisoformat(start), date.fromisoformat(end) if end else None
+        if not last or last == first:
+            return long_date(start)
+        return f'{first.day}–{last.day} {last:%B %Y}' if (first.year, first.month) == (last.year, last.month) else f'{long_date(start)} to {long_date(end)}'
+
+    papers = {flk: [s for s in subjects if any(q['subject'] == s and q['flk'] == flk for q in questions)] for flk in PAPERS.values()}
+    hub = '/sqe1-practice-questions/' if 'sqe1-practice-questions' in pages else '/archive/'
+    guide_links = ''.join(f'<p><a href="/guides/{name}/">{esc(guide["h1"])}</a></p>' for name, guide in sorted(guides.items()))
+    copy_lastmod = {}
+    for name, entry in pages.items():
+        before = after = ''
+        if name == 'sqe1-exam-dates':
+            for s in sittings:
+                lines = [f'FLK1: {date_span(s["flk1_date"], s.get("flk1_end"))}', f'FLK2: {date_span(s["flk2_date"], s.get("flk2_end")) if s.get("flk2_date") else "not yet announced"}', f'Booking closes: {long_date(s["booking_closes"]) if s.get("booking_closes") else "not yet announced"}', f'Results: {long_date(s["results_date"]) if s.get("results_date") else "not yet announced"}']
+                before += f'<section class="reading-section"><h2>{esc(s["label"])} SQE1</h2><p>' + '<br>'.join(lines) + f'<br><a href="{esc(s["source_url"])}">SRA source</a></p></section>'
+        elif name == 'sqe1-practice-questions':
+            paper_links = ' · '.join(f'<a href="/{slug}/">{flk} practice questions</a>' for slug, flk in PAPERS.items() if slug in pages)
+            after += f'<section class="reading-section"><h2>Practise by paper</h2>' + (f'<p>{paper_links}</p>' if paper_links else '') + ''.join(f'<h3>{flk}</h3>{subject_links(f"{flk} subjects", papers[flk])}' for flk in PAPERS.values() if papers[flk]) + '</section>'
+            after += question_list('latest-heading', 'Latest questions', list(reversed(questions))[:LATEST])
+            if guide_links:
+                after += f'<section class="reading-section"><h2>Guides</h2>{guide_links}</section>'
+        elif name in PAPERS:
+            flk = PAPERS[name]
+            other = next(slug for slug in PAPERS if slug != name)
+            after += f'<section class="reading-section"><h2>{flk} subjects on SQE Daily</h2>{subject_links(f"{flk} subjects", papers[flk]) or "<p>The first questions for this paper are on their way.</p>"}</section>'
+            after += question_list('latest-heading', f'Latest {flk} questions', [q for q in reversed(questions) if q['flk'] == flk][:LATEST])
+            more = [f'<a href="{hub}">All SQE1 practice questions</a>'] + ([f'<a href="/{other}/">{PAPERS[other]} practice questions</a>'] if other in pages else [])
+            after += '<section class="reading-section"><h2>Keep practising</h2><p>' + ' · '.join(more) + '</p></section>'
+        crumbs = (('SQE Daily', '/'), ('SQE1 practice questions', '/sqe1-practice-questions/'), (entry['h1'], f'/{name}/')) if name in PAPERS and 'sqe1-practice-questions' in pages else ()
+        copy_lastmod[f'/{name}/'] = copy_page(f'/{name}/', f'pages.{name}', PAGES[name], entry, before, after, crumbs=crumbs)
+        if name in ['sqe1-practice-questions', *PAPERS]:
+            listed = questions if name == 'sqe1-practice-questions' else [q for q in questions if q['flk'] == PAPERS[name]]
+            copy_lastmod[f'/{name}/'] = max(filter(None, [copy_lastmod[f'/{name}/'], changed(listed)]))
+    for name, guide in guides.items():
+        after = f'<section class="reading-section"><h2>Keep practising</h2><p><a href="/">Today’s question</a> · <a href="{hub}">Browse SQE1 practice questions</a></p></section>'
+        copy_lastmod[f'/guides/{name}/'] = copy_page(f'/guides/{name}/', f'guides.{name}', 'SQE1 GUIDE', guide, after=after, article=True, crumbs=(('SQE Daily', '/'), ('Guides', '/guides/'), (guide['h1'], f'/guides/{name}/')))
+    if guides:
+        items = ''.join(f'<li><h2><a href="/guides/{name}/">{esc(guide["h1"])}</a></h2><p>{esc(guide["meta_description"])}</p></li>' for name, guide in sorted(guides.items()))
+        schema = {'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'SQE1 guides', 'url': BASE + '/guides/', 'publisher': ORGANIZATION, 'mainEntity': {'@type': 'ItemList', 'itemListElement': [{'@type': 'ListItem', 'position': i, 'url': f'{BASE}/guides/{name}/'} for i, name in enumerate(sorted(guides), 1)]}}
+        page('/guides/', 'SQE1 guides', 'Free, practical guides to preparing for SQE1, written alongside the daily practice question.', f'<section class="reading wrap"><p class="eyebrow">SQE1 GUIDES</p><h1>SQE1 guides</h1><p class="lead">Practical help with preparing for SQE1, written alongside the daily question.</p><ol class="archive-list">{items}</ol></section>' + newsletter, [schema])
+        copy_lastmod['/guides/'] = max(copy_lastmod[f'/guides/{name}/'] for name in guides)
 
     page('/not-found/', 'Page not found', 'Find today’s free SQE1 question or browse the archive.', '<section class="reading wrap"><p class="eyebrow">404</p><h1>This page has moved on.</h1><p class="lead">There is still a good question waiting.</p><p><a href="/">Today’s question</a> · <a href="/archive/">Browse the archive</a></p></section>')
     error_page = (ROOT / 'not-found/index.html').read_text().replace(BASE + '/not-found/', BASE + '/404.html').replace('</head>', '<meta name="robots" content="noindex"></head>')
@@ -451,10 +565,8 @@ def generate(day, package=False, write_lock=False):
         home = home.replace('id="stem"></h2>', 'id="stem">Daily practice</h2>').replace('id="question-title"></h4>', 'id="question-title">Explanation</h4>').replace('id="authority-link" target=', 'id="authority-link" href="/archive/" target=')
     write('index.html', home)
 
-    # lastmod only where a real date backs it: publication or a genuine content change, never a review.
-    changed = lambda qs: max((q['modified'] or q['publish_date'] for q in qs), default=None)
     urls = [('/', changed(questions)), ('/archive/', changed(questions)), ('/about/', None), ('/sponsor/', None), ('/privacy/', None)]
-    urls += [(f'/{name}/', entry.get('last_modified')) for name, entry in pages.items()]
+    urls += sorted(copy_lastmod.items())
     subject_changed = lambda s: max(filter(None, [changed([q for q in questions if q['subject'] == s]), lock['subjects'][s]['modified']]))
     urls += [('/archive/' + subject_slug(s) + '/', subject_changed(s)) for s in subjects]
     urls += [(q['route'], q['modified'] or q['publish_date']) for q in questions]
@@ -492,9 +604,10 @@ if __name__ == '__main__':
     parser.add_argument('--package', action='store_true')
     parser.add_argument('--owned', action='store_true', help='List generator-owned paths for the publish commit.')
     parser.add_argument('--approve', metavar='ENTRY', help='Record owner approval of a content/pages.json entry, e.g. pages.editorial-standards')
+    parser.add_argument('--expect', metavar='FINGERPRINT', help='With --approve: the fingerprint the owner approved (from docs/editorial-approval-batch.md)')
     args = parser.parse_args()
     if args.approve:
-        approve(args.approve)
+        approve(args.approve, args.expect)
     elif args.owned:
         print('\n'.join([*OWNED, LOCK]))
     else:

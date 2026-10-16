@@ -100,8 +100,15 @@ def check_package(root, today, repo):
 
     # Unapproved or later-release pages are never built; everything generated is packaged.
     pages_path = repo / 'content/pages.json'
-    for name, entry in (json.loads(pages_path.read_text()).get('pages', {}) if pages_path.exists() else {}).items():
-        assert (root / name).exists() == (generate.is_approved(entry) and name in generate.PAGE_SLUGS), f'Approval gate failed for {name}'
+    content = json.loads(pages_path.read_text()) if pages_path.exists() else {}
+    for name, entry in content.get('pages', {}).items():
+        assert (root / name).exists() == generate.is_approved(entry), f'Approval gate failed for {name}'
+    for name, entry in content.get('guides', {}).items():
+        assert (root / 'guides' / name).exists() == generate.is_approved(entry), f'Approval gate failed for guide {name}'
+    for name, entry in content.get('subjects', {}).items():
+        page = root / 'archive' / generate.SUBJECTS[name] / 'index.html'
+        if page.exists():
+            assert ('id="rules-heading"' in page.read_text()) == generate.is_approved(entry), f'Approval gate failed for {name} introduction'
     for name in generate.OWNED:
         source = repo / name
         if source.is_dir():
@@ -262,6 +269,90 @@ def content_test(today):
             assert json.loads((root / generate.LOCK).read_text())['subjects']['Contract']['intro_hash'] != first_hash
     print('PASS: route lock, subject guard, optional fields, title and intro modification dates, approval gate and re-approval')
 
+def editorial_test(today):
+    """The full editorial batch: approval gating, page dates, discoverability, related questions and re-approval."""
+    real_today = generate.london_today()
+    full = '2026-11-09'  # every question in the bank is published by then
+    with tempfile.TemporaryDirectory() as tmp:
+        root = temporary_checkout(tmp)
+        pages_path = root / 'content/pages.json'
+        if not pages_path.exists():
+            print('SKIP: no content/pages.json'); return
+        bank_path = root / 'content/questions.json'
+        bank = json.loads(bank_path.read_text())
+        # Shared tags across papers: tags outrank subject and paper.
+        bank[0]['tags'] = ['shared topic']; bank[-1]['tags'] = ['shared topic']
+        bank_path.write_text(json.dumps(bank))
+        data = json.loads(pages_path.read_text())
+        labels = [label for label, _ in generate.approval_entries(data)]
+        build(root, full)
+        assert not any((root / name).exists() for name in [*generate.PAGES, 'guides']), 'Unapproved copy must not publish'
+
+        with patch.object(generate, 'ROOT', root):
+            fingerprint = generate.content_hash(json.loads(pages_path.read_text())['pages']['editorial-standards'], generate.APPROVAL_FIELDS)[:12]
+            try:
+                generate.approve('pages.editorial-standards', '000000000000')
+            except SystemExit as error:
+                assert 'has changed since it was presented' in str(error)
+            else:
+                raise AssertionError('A wrong fingerprint must refuse approval')
+            generate.approve('pages.editorial-standards', fingerprint)
+            for label in labels:
+                generate.approve(label)
+        questions = build(root, full, write_lock=True)
+        site = root / '_site'
+        for path in [*[f'{name}/index.html' for name in generate.PAGES], 'guides/index.html', *[f'guides/{name}/index.html' for name in data['guides']]]:
+            assert (site / path).exists(), path
+        home = (site / 'index.html').read_text()
+        for link in ['/sqe1-practice-questions/', '/sqe1-exam-dates/', '/guides/', '/editorial-standards/']:
+            assert f'href="{link}"' in home, f'Footer must link {link}'
+        hub = (site / 'sqe1-practice-questions/index.html').read_text()
+        assert 'href="/flk1/"' in hub and 'href="/flk2/"' in hub and all(f'href="/guides/{name}/"' in hub for name in data['guides'])
+        flk2 = (site / 'flk2/index.html').read_text()
+        latest_flk2 = [q for q in reversed(questions) if q['flk'] == 'FLK2'][:generate.LATEST]
+        assert all(q['route'] in flk2 for q in latest_flk2) and not any(f'href="{q["route"]}"' in flk2 for q in questions if q['flk'] == 'FLK1')
+        dates = (site / 'sqe1-exam-dates/index.html').read_text()
+        assert 'FLK1: 11–15 January 2027' in dates and 'Booking closes: 23 November 2026' in dates and 'Results: 9 March 2027' in dates
+        assert 'NEXT UP · JANUARY 2027' in home
+        guide = (site / 'guides/sqe1-revision-timetable/index.html').read_text()
+        assert '"@type": "Article"' in guide and f'"datePublished": "{real_today}"' in guide and '"Person"' not in guide
+        contract = (site / 'archive/contract/index.html').read_text()
+        assert '<title>SQE1 Contract practice questions (free, with answers) | SQE Daily</title>' in contract and 'id="rules-heading"' in contract
+        assert all(q['key_rule'].replace("'", '&#x27;') in contract for q in questions if q['subject'] == 'Contract')
+        lock = json.loads((root / generate.LOCK).read_text())
+        assert lock['pages']['guides.sqe1-revision-timetable'] == {'hash': lock['pages']['guides.sqe1-revision-timetable']['hash'], 'published': real_today, 'modified': None}
+        assert lock['subjects']['Contract']['modified'] == real_today
+
+        # Related questions: up to three, never the question itself, locked routes, shared tags first.
+        routes = {q['route'] for q in questions}
+        for q in questions:
+            page = (root / q['route'].lstrip('/') / 'index.html').read_text()
+            if 'id="related-heading"' not in page:
+                continue
+            related = re.findall(r'<h3><a href="([^"]+)"', page.split('id="related-heading"')[1].split('</section>')[0])
+            assert 1 <= len(related) <= generate.RELATED and q['route'] not in related and set(related) <= routes, q['id']
+        first = (root / questions[0]['route'].lstrip('/') / 'index.html').read_text().split('id="related-heading"')[1]
+        tagged = next(q for q in questions if q['id'] == bank[-1]['id'])
+        assert re.findall(r'<h3><a href="([^"]+)"', first)[0] == tagged['route'], 'A shared tag must outrank subject and paper'
+        check_package(site, full, root)
+
+        # Editing approved copy withdraws it; links to it become plain text, never broken links.
+        edited = json.loads(pages_path.read_text())
+        edited['guides']['sqe1-revision-timetable']['intro'] += ' An unreviewed sentence.'
+        pages_path.write_text(json.dumps(edited))
+        build(root, full)
+        assert not (site / 'guides/sqe1-revision-timetable').exists()
+        assert 'href="/guides/sqe1-revision-timetable/"' not in (site / 'sqe1-exam-dates/index.html').read_text()
+        assert 'SQE1 revision timetable' in (site / 'sqe1-exam-dates/index.html').read_text()
+        check_package(site, full, root)
+        # Re-approval republishes it and records the change date.
+        with patch.object(generate, 'ROOT', root):
+            generate.approve('guides.sqe1-revision-timetable')
+        build(root, full, write_lock=True)
+        assert json.loads((root / generate.LOCK).read_text())['pages']['guides.sqe1-revision-timetable']['modified'] == real_today
+        assert (site / 'guides/sqe1-revision-timetable/index.html').exists()
+    print('PASS: editorial batch gating, fingerprinted approval, page dates, discoverability, related questions, withdrawal and re-approval')
+
 def lock_unchanged():
     """Committed route-lock entries may be added to, never changed or removed."""
     result = subprocess.run(['git', 'show', 'HEAD:' + generate.LOCK], cwd=generate.ROOT, capture_output=True, text=True)
@@ -288,3 +379,4 @@ if __name__ == '__main__':
     future_test(today)
     future_test('2026-11-01')
     content_test(today)
+    editorial_test(today)
