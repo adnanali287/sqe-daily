@@ -27,5 +27,7 @@ jobs:
         run: python scripts/test_site.py
       - name: Date and homepage logic
         run: node scripts/test_dates.cjs
+      - name: Answer markers and interaction state
+        run: node scripts/test_answers.cjs
       - name: HTML validation
         run: npx --yes html-validate@11.16.2 '_site/**/*.html'

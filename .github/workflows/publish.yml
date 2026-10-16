@@ -53,6 +53,8 @@ jobs:
       - if: steps.clock.outputs.run == 'true'
         run: node scripts/test_dates.cjs
       - if: steps.clock.outputs.run == 'true'
+        run: node scripts/test_answers.cjs
+      - if: steps.clock.outputs.run == 'true'
         run: npx --yes html-validate@11.16.2 '_site/**/*.html'
       - name: Commit generated pages
         if: steps.clock.outputs.run == 'true'
