@@ -329,14 +329,15 @@
     "explanation": "Under the rule in Saunders v Vautier (1841), a beneficiary (or beneficiaries acting together) who is of full age and capacity and absolutely entitled to the trust property can call for it and bring the trust to an end, even though the trust instrument postpones enjoyment. The gift here is to Sofia 'absolutely'; the reference to age 25 merely postpones payment and does not make her interest contingent. As she is over 18 and the only person interested, she can call for the whole fund. Contrast a gift 'to Sofia if she attains 25', which would be contingent and could not be called for at 19.\n\nA is wrong: a direction merely postponing enjoyment does not bind a sui juris beneficiary who is absolutely entitled.\nB is wrong: court approval under the 1958 Act is needed only where some beneficiaries cannot consent (for example minors or unborn persons); none exist here.\nD is wrong: the age of majority is 18; 21 was the age of majority when Saunders v Vautier was decided.\nE is wrong: Sofia is entitled to both income and capital, so she can call for the whole fund.",
     "key_rule": "Adult beneficiaries of full capacity who are together absolutely entitled can call for the trust property and end the trust.",
     "authority": "Saunders v Vautier (1841) 4 Beav 115; 49 ER 282",
-    "verified_source_url": "https://www.legislation.gov.uk/ukpga/2000/29/notes/paragraph/120",
+    "verified_source_url": "https://www.bailii.org/ew/cases/EWHC/Ch/1841/J82.html",
     "number": 12,
     "publish_date": "2026-10-24",
     "tags": [
       "saunders v vautier",
       "beneficiaries",
       "ending a trust"
-    ]
+    ],
+    "last_reviewed": "2026-10-16"
   },
   {
     "id": "q013",
@@ -609,14 +610,15 @@
     "explanation": "Under condition 6.8.1, at any time after the time applicable under condition 6.1.2 on completion date, a party who is ready, able and willing to complete may give the other a notice to complete. Aisha meets that test and the notice is given the day after completion date. Condition 6.8.2 requires the parties to complete within ten working days of giving the notice, excluding the day on which it is given, and makes time of the essence for this purpose. Condition 6.8.3(b) adds that a buyer who paid a deposit of less than 10% must, on receipt of the notice, forthwith pay a further deposit equal to the balance of that 10%. Giving a notice to a party's conveyancer has the same effect as giving it to the party (condition 1.3.2). If Ben then fails to complete in accordance with the notice, condition 7.4.2 allows Aisha to rescind, forfeit and keep the deposit, resell and claim damages.\n\nA is wrong: condition 6.8.2 expressly excludes the day on which the notice is given.\nB is wrong: twenty working days after the date of the contract is the default completion date under condition 6.1.1, not the period allowed by a notice to complete.\nD is wrong: condition 1.3.2 provides that giving a notice to a party's conveyancer has the same effect as giving it to that party.\nE is wrong: condition 6.8.2 makes time of the essence once a notice to complete is given, and condition 7.4 gives the seller the right to rescind if the buyer fails to comply.",
     "key_rule": "Under SCS 6.8, a notice to complete requires completion within ten working days, excluding the day of service, with time of the essence, and a buyer who paid less than 10% must top the deposit up to 10% at once.",
     "authority": "Standard Conditions of Sale (Fifth Edition, 2018 Revision), conditions 1.3.2, 6.8 and 7.4",
-    "verified_source_url": "https://portal.pls-solicitors.co.uk/assets/pdf/Standard%20Conditions%20of%20Sale.pdf",
+    "verified_source_url": "https://www.lawsociety.org.uk/-/media/files/topics/property/specimen-standard-conditions-of-sale-residential-property-2018.pdf",
     "number": 22,
     "publish_date": "2026-11-03",
     "tags": [
       "completion",
       "notice to complete",
       "standard conditions of sale"
-    ]
+    ],
+    "last_reviewed": "2026-10-16"
   },
   {
     "id": "q023",
