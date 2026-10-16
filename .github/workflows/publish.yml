@@ -2,7 +2,7 @@ name: Publish daily practice
 on:
   push:
     branches: [main]
-    paths: ['content/questions.json', 'scripts/**', 'assets/**', '.github/workflows/publish.yml', 'CNAME', '.nojekyll']
+    paths: ['content/**', 'scripts/**', 'assets/**', '.github/workflows/publish.yml', 'CNAME', '.nojekyll']
   workflow_dispatch:
   schedule:
     - cron: '5 23 * * *'
@@ -59,7 +59,12 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add index.html 404.html q archive about sponsor privacy sitemap.xml feed.xml robots.txt
+          # The generator lists every path it owns, including new pages and the route lock.
+          for path in $(python scripts/generate.py --owned); do
+            if [ -e "$path" ] || git ls-files --error-unmatch "$path" >/dev/null 2>&1; then
+              git add -A -- "$path"
+            fi
+          done
           if ! git diff --cached --quiet; then
             git commit -m 'Publish dated SQE Daily questions'
             git push

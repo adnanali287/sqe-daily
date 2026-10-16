@@ -22,3 +22,19 @@
 .section-heading h1{font-family:Newsreader,Georgia,serif;font-size:32px;font-weight:400;line-height:1.2;max-width:920px}.section-heading{gap:20px}.section-heading time{flex-shrink:0}
 @media(max-width:650px){.section-heading:has(h1){align-items:start;flex-direction:column;gap:12px}.section-heading h1{font-size:29px}}
 @media(max-width:650px){.masthead{padding-block:18px;gap:16px}.brand-name{font-size:40px;padding-top:6px}.masthead nav{order:3;flex-basis:100%;margin-left:0;gap:20px;font-size:12px}.header-link{margin-left:auto}.reading{padding-block:32px 42px}.reading h1{font-size:39px}.reading-section h2{font-size:27px}.reading-section p,.lead{font-size:15px}.archive-filters{flex-direction:column;gap:14px}.archive-list h2{font-size:26px}footer nav{font-size:12px;gap:16px}.archive-meta{gap:7px 14px}}
+
+h1.eyebrow{text-transform:uppercase}
+.question-body>h2{font-size:18px;line-height:1.6;font-weight:600;margin-top:25px;margin-bottom:20px}
+.archive-list h3{font-family:Newsreader,Georgia,serif;font-weight:400;font-size:29px;line-height:1.25;margin:14px 0}
+.archive-list h3 a{text-decoration:none}
+.archive-list h3 a:hover{text-decoration:underline}
+.recent-questions{padding-block:56px 24px}
+.recent-questions .archive-list{margin-top:0}
+.recent-questions .archive-list li:first-child{border-top:0}
+.reading-section p+p{margin-top:16px}
+@media(max-width:650px){.question-body>h2{font-size:15px;line-height:1.65;margin-top:22px;margin-bottom:17px}
+.archive-list h3{font-size:26px}
+.recent-questions{padding-block:40px 16px}
+}
+@media(max-width:360px){.home-brand{font-size:34px}
+}

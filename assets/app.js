@@ -1,9 +1,12 @@
 'use strict';
 const $ = id => document.getElementById(id);
 const DAY = 86400000;
+const RETRY_MS = 5 * 60000;
 let activeQuestion;
 let activeDay;
 let answered = false;
+let chosenLetter = null;
+let nextRetry = 0;
 
 // A UK calendar day is stable across time zones and daylight-saving changes.
 function londonDay(date = new Date()) {
@@ -18,7 +21,8 @@ function updateDates() {
   const questionDate = activeQuestion?.publish_date || today;
   $('today').dateTime = questionDate;
   $('today').textContent = new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }).format(new Date(`${questionDate}T00:00:00Z`));
-  const days = Math.max(0, dayIndex('2027-01-11') - dayIndex(today));
+  const sitting = document.querySelector?.('.countdown')?.dataset.flk1 || '2027-01-11';
+  const days = Math.max(0, dayIndex(sitting) - dayIndex(today));
   $('days').textContent = days;
   $('days-label').textContent = days === 1 ? 'day to go' : days === 0 ? 'days to go' : 'days to go';
   return today;
@@ -26,16 +30,44 @@ function updateDates() {
 function selectQuestion(questions, today) {
   return questions.filter(q => q.publish_date <= today).sort((a, b) => b.publish_date.localeCompare(a.publish_date) || b.number - a.number)[0];
 }
-function questionPath(q) {
-  return `/q/${q.number}-${q.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}/`;
+function headingLabel(q, today) {
+  return q.publish_date === today ? "Today's question" : 'Latest question';
+}
+// Mirrors the generator: optional one-line reasons replace the combined "X is wrong" lines.
+function explanationLines(q) {
+  const lines = q.explanation.split(/\n+/);
+  if (!q.why_wrong) return lines;
+  return lines.filter(line => !/^[A-E] is wrong\b/.test(line)).concat(Object.keys(q.why_wrong).sort().map(key => `Why ${key} is wrong: ${q.why_wrong[key]}`));
+}
+// Displayed fields only: a correction published under the same id must still reach an open page.
+const CONTENT_FIELDS = ['id', 'number', 'title', 'subject', 'flk', 'difficulty', 'scenario', 'stem', 'answer', 'explanation', 'key_rule', 'authority', 'verified_source_url', 'last_reviewed', 'route'];
+function contentKey(q) {
+  return JSON.stringify([CONTENT_FIELDS.map(k => q[k] ?? null), ['A', 'B', 'C', 'D', 'E'].map(k => q.options?.[k] ?? null), Object.keys(q.why_wrong || {}).sort().map(k => [k, q.why_wrong[k]])]);
+}
+function sameContent(a, b) {
+  return Boolean(a && b) && contentKey(a) === contentKey(b);
+}
+// After midnight, keep checking until today's question is live: scheduled publishing can run late.
+function refreshDue({ activeDay, today, question, now, nextRetry }) {
+  return today !== activeDay || Boolean(question && question.publish_date < today && now >= nextRetry);
+}
+function longDate(date) {
+  return new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }).format(new Date(`${date}T00:00:00Z`));
 }
 function validQuestion(q) {
-  return q && ['id', 'subject', 'flk', 'difficulty', 'title', 'scenario', 'stem', 'answer', 'explanation', 'key_rule', 'authority', 'verified_source_url', 'publish_date'].every(k => typeof q[k] === 'string' && q[k].trim()) && Number.isInteger(q.number) && /^[A-E]$/.test(q.answer) && ['A', 'B', 'C', 'D', 'E'].every(k => typeof q.options?.[k] === 'string') && /^https:\/\//.test(q.verified_source_url) && Number.isFinite(dayIndex(q.publish_date));
+  return q && ['id', 'subject', 'flk', 'difficulty', 'title', 'scenario', 'stem', 'answer', 'explanation', 'key_rule', 'authority', 'verified_source_url', 'publish_date'].every(k => typeof q[k] === 'string' && q[k].trim()) && Number.isInteger(q.number) && /^[A-E]$/.test(q.answer) && ['A', 'B', 'C', 'D', 'E'].every(k => typeof q.options?.[k] === 'string') && /^https:\/\//.test(q.verified_source_url) && /^\/q\/[a-z0-9-]+\/$/.test(q.route) && Number.isFinite(dayIndex(q.publish_date));
 }
 function renderQuestion(q) {
   activeQuestion = q;
-  $('practice-heading').textContent = q.publish_date === londonDay() ? "Today's question" : 'Latest question';
+  $('practice-heading').textContent = headingLabel(q, londonDay());
   updateDates();
+  $('question').dataset.questionId = q.id;
+  if ($('permalink')) $('permalink').href = q.route;
+  if ($('report-link')) $('report-link').href = `mailto:hello@sqedaily.co.uk?subject=${encodeURIComponent(`Question ${q.number}`)}`;
+  if ($('checked-note')) {
+    $('checked-note').hidden = !q.last_reviewed;
+    $('checked-note').textContent = q.last_reviewed ? `Checked against primary source on ${longDate(q.last_reviewed)}` : '';
+  }
   answered = false;
   $('result').hidden = true;
   $('share-question')?.remove();
@@ -62,9 +94,10 @@ function renderQuestion(q) {
     $('options').append(button);
   });
 }
-function answerQuestion(letter) {
+function answerQuestion(letter, { quiet = false } = {}) {
   if (answered) return;
   answered = true;
+  chosenLetter = letter;
   const q = activeQuestion;
   const correct = letter === q.answer;
   [...$('options').children].forEach(button => {
@@ -86,7 +119,7 @@ function answerQuestion(letter) {
   $('key-rule').textContent = q.key_rule;
   $('question-title').textContent = q.title;
   $('explanation').replaceChildren();
-  q.explanation.split(/\n+/).forEach(text => {
+  explanationLines(q).forEach(text => {
     const p = document.createElement('p');
     p.textContent = text;
     $('explanation').append(p);
@@ -104,7 +137,7 @@ function answerQuestion(letter) {
     status.id = 'share-status';
     status.setAttribute('role', 'status');
     share.addEventListener('click', async () => {
-      const url = `https://sqedaily.co.uk${questionPath(q)}`;
+      const url = `https://sqedaily.co.uk${q.route}`;
       const text = correct ? "I got this SQE Daily question right. Can you?" : 'Can you answer this SQE Daily question?';
       try {
         if (navigator.share) await navigator.share({ title: 'SQE Daily', text, url });
@@ -119,13 +152,25 @@ function answerQuestion(letter) {
   }
   $('answer-hint').hidden = true;
   $('result').hidden = false;
+  if (quiet) return;
   $('result-heading').focus({ preventScroll: true });
   $('result').scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth', block: 'start' });
 }
-async function loadQuestion() {
-  $('load-state').replaceChildren(document.createTextNode('Getting today\'s question ready…'));
-  $('load-state').hidden = false;
-  $('practice-content').hidden = true;
+function adoptQuestion(q) {
+  activeQuestion = q;
+  answered = false;
+  activeDay = updateDates();
+  $('practice-heading').textContent = headingLabel(q, activeDay);
+  [...$('options').children].forEach(button => button.addEventListener('click', () => answerQuestion(button.dataset.letter)));
+}
+// The homepage arrives with the latest question already in its HTML. Fetching
+// still runs so a cached page, or one left open past midnight, moves on quietly.
+async function loadQuestion(quiet = Boolean(activeQuestion)) {
+  if (!quiet) {
+    $('load-state').replaceChildren(document.createTextNode('Getting today\'s question ready…'));
+    $('load-state').hidden = false;
+    $('practice-content').hidden = true;
+  }
   try {
     const response = await fetch('/content/questions.json', { cache: 'no-cache' });
     if (!response.ok) throw new Error('Question data unavailable');
@@ -134,10 +179,18 @@ async function loadQuestion() {
     activeDay = updateDates();
     const question = selectQuestion(questions, activeDay);
     if (!question) throw new Error('No published questions');
-    renderQuestion(question);
+    if (!sameContent(question, activeQuestion)) {
+      // Keep a visitor's answer when the same question is corrected; a new question starts fresh.
+      const replay = answered && question.id === activeQuestion?.id ? chosenLetter : null;
+      renderQuestion(question);
+      if (replay) answerQuestion(replay, { quiet: true });
+    } else {
+      $('practice-heading').textContent = headingLabel(question, activeDay);
+    }
     $('load-state').hidden = true;
     $('practice-content').hidden = false;
   } catch {
+    if (quiet) return;
     $('load-state').textContent = 'Today\'s question couldn\'t load. Please try again in a moment.';
     const retry = document.createElement('button');
     retry.type = 'button';
@@ -159,6 +212,7 @@ if (subscriptionState === 'pending' || subscriptionState === 'confirmed') {
 }
 updateDates();
 const staticData = $('question-data');
+const homeData = $('home-question-data');
 const ready = staticData ? Promise.resolve().then(() => {
   const question = JSON.parse(staticData.textContent);
   if (question.publish_date > londonDay()) {
@@ -167,10 +221,24 @@ const ready = staticData ? Promise.resolve().then(() => {
   }
   activeQuestion = question;
   [...$('options').children].forEach(button => button.addEventListener('click', () => answerQuestion(button.dataset.letter)));
+}) : homeData ? Promise.resolve().then(() => {
+  adoptQuestion(JSON.parse(homeData.textContent));
+  return loadQuestion(true);
 }) : loadQuestion();
 ready.then(() => {
   if (subscriptionState === 'pending' || subscriptionState === 'confirmed') {
     $('daily-email').scrollIntoView({ behavior: 'instant' });
   }
 });
-if (!staticData) setInterval(() => { if (updateDates() !== activeDay) loadQuestion(); }, 60000);
+function tick() {
+  const now = Date.now();
+  if (!refreshDue({ activeDay, today: updateDates(), question: activeQuestion, now, nextRetry })) return;
+  nextRetry = now + RETRY_MS;
+  loadQuestion();
+}
+if (!staticData) {
+  setInterval(tick, 60000);
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'visible') { nextRetry = 0; tick(); }
+  });
+}
