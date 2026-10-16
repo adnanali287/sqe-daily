@@ -38,3 +38,4 @@ h1.eyebrow{text-transform:uppercase}
 }
 @media(max-width:360px){.home-brand{font-size:34px}
 }
+.reading-section h3{margin-top:20px}
