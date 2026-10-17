@@ -95,11 +95,12 @@ def check_package(root, today, repo):
     for url in ['/about/', '/sponsor/', '/privacy/']:
         assert entries[generate.BASE + url] is None, f'No dated change backs {url}'
     assert {f'/q/{p.parent.name}/' for p in (root / 'q').glob('*/index.html')} == set(routes.values())
-    assert {node.text for node in ET.parse(root / 'feed.xml').findall('.//item/link')} == {generate.BASE + r for r in routes.values()}
+    daily = generate.published(bank, today)
+    check_feed(root, daily)
+    check_latest(root, bank, daily, today, repo)
 
     # Homepage: the current question, its permanent link and the no-JavaScript reveal are in the HTML.
     home = (root / 'index.html').read_text()
-    daily = generate.published(bank, today)
     if daily:
         current = daily[-1]
         assert html.escape(current['scenario']) in home and home.count('class="option"') == 5
@@ -124,6 +125,30 @@ def check_package(root, today, repo):
         elif source.exists():
             assert (root / name).exists(), f'Generated file missing from package: {name}'
     print(f'PASS: {len(docs)} HTML pages, links/fragments, metadata, JSON-LD, sitemap, RSS, routes, approval gate and packaging')
+
+def check_feed(root, daily):
+    """RSS lists due daily issues only, newest first, dated London midnight of the feature day, with route GUIDs."""
+    items = ET.parse(root / 'feed.xml').findall('.//item')
+    expected = list(reversed(daily))
+    assert [item.findtext('link') for item in items] == [generate.BASE + q['route'] for q in expected], 'Feed must list due daily issues only, newest first'
+    assert [item.findtext('guid') for item in items] == [generate.BASE + q['route'] for q in expected], 'Feed GUIDs are the locked routes'
+    for item, q in zip(items, expected):
+        offset = '+0100' if datetime.fromisoformat(q['publish_date']).replace(tzinfo=ZoneInfo('Europe/London')).utcoffset() else '+0000'
+        assert item.findtext('pubDate') == f'{datetime.fromisoformat(q["publish_date"]):%a, %d %b %Y} 00:00:00 {offset}', item.findtext('pubDate')
+
+def check_latest(root, bank, daily, today, repo):
+    """latest.json: the current daily, then the next daily only if it is already released with approved content."""
+    latest = json.loads((root / 'content/latest.json').read_text())
+    assert latest[:1] == daily[-1:], 'latest.json must start with the homepage question'
+    embedded = re.search(r'id="home-question-data">(.*?)</script>', (root / 'index.html').read_text())
+    if daily:
+        assert json.loads(embedded.group(1)) == latest[0], 'latest.json and the embedded homepage question must match'
+    authoring = json.loads((repo / 'content/questions.json').read_text())
+    upcoming = sorted((q for q in authoring if q['publish_date'] and q['publish_date'] > today), key=lambda q: (q['publish_date'], q['number']))
+    released = {q['id']: q for q in bank}
+    expected_next = [released[upcoming[0]['id']]] if upcoming and upcoming[0]['id'] in released else []
+    assert latest[len(daily[-1:]):] == expected_next, 'latest.json may add only the next daily, and only once released'
+    assert all(q['publish_date'] and not q.get('library_number') for q in latest), 'Library-only questions never enter latest.json'
 
 def temporary_checkout(tmp):
     root = Path(tmp)
@@ -378,6 +403,68 @@ def editorial_test(today):
         assert (site / 'guides/sqe1-revision-timetable/index.html').exists()
     print('PASS: editorial batch gating, fingerprinted approval, page dates, discoverability, related questions, withdrawal and re-approval')
 
+def homepage_feed_test(today):
+    """latest.json and RSS against the release gate, later dates and BST/GMT boundaries."""
+    with tempfile.TemporaryDirectory() as tmp:
+        root = temporary_checkout(tmp)
+        authoring = json.loads((root / 'content/questions.json').read_text())
+        dates = sorted(q['publish_date'] for q in authoring if q['publish_date'])
+        practice_path = root / 'content/practice.json'
+        practice = json.loads(practice_path.read_text())
+        upcoming = sorted((q for q in authoring if q['publish_date'] and q['publish_date'] > today), key=lambda q: (q['publish_date'], q['number']))
+        if not upcoming:
+            print('SKIP: no future daily question to test the release gate'); return
+        target = upcoming[0]
+        latest = lambda: [q['id'] for q in json.loads((root / '_site/content/latest.json').read_text())]
+        current = [q['id'] for q in generate.published(authoring, today)][-1:]
+        build(root, today)
+        released = any(entry['id'] == target['id'] and practice_content_approved(entry) for entry in practice['releases'])
+        assert latest() == current + ([target['id']] if released else [])
+
+        # An unreleased next daily is excluded, as is one whose content changed after its release was approved.
+        practice['releases'] = [entry for entry in practice['releases'] if entry['id'] != target['id']]
+        practice_path.write_text(json.dumps(practice))
+        build(root, today)
+        assert latest() == current, 'An unreleased next daily must not appear in latest.json'
+        assert target['title'] not in (root / '_site/feed.xml').read_text()
+        check_package(root / '_site', today, root)
+        generate.shutil.copy2(generate.ROOT / 'content/practice.json', practice_path)
+        edited = [{**q, 'stem': q['stem'] + ' UNAPPROVED_EDIT'} if q['id'] == target['id'] else q for q in authoring]
+        (root / 'content/questions.json').write_text(json.dumps(edited))
+        build(root, today)
+        assert latest() == current, 'Content changed after approval must not appear in latest.json'
+        assert not any('UNAPPROVED_EDIT' in f.read_text() for f in (root / '_site').rglob('*') if f.suffix in ['.json', '.xml', '.html'])
+        (root / 'content/questions.json').write_text(json.dumps(authoring))
+
+        # Later builds add exactly the newly due issues to the feed; earlier items keep their GUIDs and dates.
+        build(root, today)
+        before = {item.findtext('guid'): item.findtext('pubDate') for item in ET.parse(root / '_site/feed.xml').findall('.//item')}
+        later = upcoming[min(2, len(upcoming) - 1)]['publish_date']
+        build(root, later)
+        after = {item.findtext('guid'): item.findtext('pubDate') for item in ET.parse(root / '_site/feed.xml').findall('.//item')}
+        assert all(after[guid] == date for guid, date in before.items()), 'Existing feed items must keep their GUID and date'
+        assert len(after) - len(before) == sum(1 for q in authoring if q['publish_date'] and today < q['publish_date'] <= later)
+        check_package(root / '_site', later, root)
+
+        # BST and GMT: 25 October 2026 is the change back to GMT.
+        assert generate.london_midnight('2026-10-24') == 'Sat, 24 Oct 2026 00:00:00 +0100'
+        assert generate.london_midnight('2026-10-26') == 'Mon, 26 Oct 2026 00:00:00 +0000'
+        assert generate.london_midnight('2027-03-29') == 'Mon, 29 Mar 2027 00:00:00 +0100'
+        gmt_day = next((d for d in dates if d >= '2026-10-26'), None)
+        if gmt_day:
+            build(root, gmt_day)
+            check_package(root / '_site', gmt_day, root)
+            assert '+0000</pubDate>' in (root / '_site/feed.xml').read_text() and '+0100</pubDate>' in (root / '_site/feed.xml').read_text()
+
+        # After the last daily: latest.json keeps the last past question only.
+        build(root, '2099-01-01')
+        assert latest() == [q['id'] for q in generate.published(authoring, '2099-01-01')][-1:]
+        check_package(root / '_site', '2099-01-01', root)
+    print('PASS: latest.json release gate (unreleased and edited next daily excluded), daily-only RSS, stable GUIDs, BST/GMT pubDate and last-daily fallback')
+
+def practice_content_approved(entry):
+    return generate.practice_content.approved(entry)
+
 def lock_unchanged():
     """Committed route-lock entries may be added to, never changed or removed."""
     result = subprocess.run(['git', 'show', 'HEAD:' + generate.LOCK], cwd=generate.ROOT, capture_output=True, text=True)
@@ -403,5 +490,6 @@ if __name__ == '__main__':
     lock_unchanged()
     future_test(today)
     future_test('2026-11-01')
+    homepage_feed_test(today)
     content_test(today)
     editorial_test(today)

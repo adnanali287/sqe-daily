@@ -29,6 +29,8 @@ jobs:
         run: node scripts/test_dates.cjs
       - name: Answer markers and interaction state
         run: node scripts/test_answers.cjs
+      - name: Homepage refresh from latest.json
+        run: node scripts/test_home_fetch.cjs
       - name: Practice library and test engine
         run: |
           python scripts/test_practice.py

@@ -166,6 +166,7 @@ function adoptQuestion(q) {
 }
 // The homepage arrives with the latest question already in its HTML. Fetching
 // still runs so a cached page, or one left open past midnight, moves on quietly.
+// latest.json holds only the current daily and the next one once it is released.
 async function loadQuestion(quiet = Boolean(activeQuestion)) {
   if (!quiet) {
     $('load-state').replaceChildren(document.createTextNode('Getting today\'s question ready…'));
@@ -173,7 +174,7 @@ async function loadQuestion(quiet = Boolean(activeQuestion)) {
     $('practice-content').hidden = true;
   }
   try {
-    const response = await fetch('/content/questions.json', { cache: 'no-cache' });
+    const response = await fetch('/content/latest.json', { cache: 'no-cache' });
     if (!response.ok) throw new Error('Question data unavailable');
     const questions = await response.json();
     if (!Array.isArray(questions) || !questions.length || !questions.every(validQuestion)) throw new Error('Invalid question data');
