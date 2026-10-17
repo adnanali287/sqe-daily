@@ -7,6 +7,7 @@ import re
 import shutil
 import practice_content
 from datetime import date, datetime
+from email.utils import format_datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 from xml.etree import ElementTree as ET
@@ -84,6 +85,19 @@ def subject_questions(subject):
 
 def published(bank, day):
     return sorted((q for q in bank if q['publish_date'] and q['publish_date'] <= day), key=lambda q: (q['publish_date'], q['number']))
+
+def homepage_questions(bank, questions, day):
+    """The homepage's refresh data: the current daily and, only once it is released with approved content, the next one.
+
+    Including the next daily lets a page left open past London midnight move on even if the publish run is late."""
+    current = published(questions, day)[-1:]
+    upcoming = sorted((q for q in bank if q['publish_date'] and q['publish_date'] > day), key=lambda q: (q['publish_date'], q['number']))
+    released = {q['id']: q for q in questions}
+    return current + [released[upcoming[0]['id']]] if upcoming and upcoming[0]['id'] in released else current
+
+def london_midnight(value):
+    """RFC 822 date for the start of a London calendar day: +0100 in BST, +0000 in GMT."""
+    return format_datetime(datetime.fromisoformat(value).replace(tzinfo=ZoneInfo('Europe/London')))
 
 def london_today():
     return datetime.now(ZoneInfo('Europe/London')).date().isoformat()
@@ -623,10 +637,10 @@ def generate(day, package=False, write_lock=False):
     rss = ET.Element('rss', version='2.0'); channel = ET.SubElement(rss, 'channel')
     for tag, value in [('title', 'SQE Daily'), ('link', BASE), ('description', 'One free SQE1 practice question every day, with a worked answer and the legal source.'), ('language', 'en-gb')]:
         ET.SubElement(channel, tag).text = value
-    for q in reversed(questions):
-        q = {**q, 'publish_date': q['available_from']}
+    # Daily issues only, dated by their feature day; library availability never adds feed items.
+    for q in reversed(daily):
         item = ET.SubElement(channel, 'item')
-        for tag, value in [('title', q['title']), ('link', BASE + q['route']), ('guid', BASE + q['route']), ('description', q['scenario'] + '\n\n' + q['stem']), ('pubDate', datetime.fromisoformat(q['publish_date']).strftime('%a, %d %b %Y 00:00:00 +0000'))]:
+        for tag, value in [('title', q['title']), ('link', BASE + q['route']), ('guid', BASE + q['route']), ('description', q['scenario'] + '\n\n' + q['stem']), ('pubDate', london_midnight(q['publish_date']))]:
             ET.SubElement(item, tag).text = value
     write('feed.xml', '<?xml version="1.0" encoding="utf-8"?>\n' + ET.tostring(rss, encoding='unicode'))
     write('robots.txt', f'User-agent: *\nAllow: /\nSitemap: {BASE}/sitemap.xml\n')
@@ -640,6 +654,7 @@ def generate(day, package=False, write_lock=False):
             elif source.exists(): shutil.copy2(source, public / name)
         (public / 'content').mkdir()
         (public / 'content/questions.json').write_text(json.dumps(questions, ensure_ascii=False, indent=2) + '\n')
+        (public / 'content/latest.json').write_text(json.dumps(homepage_questions(bank, questions, day), ensure_ascii=False, indent=2) + '\n')
         (public / 'content/practice-tests.json').write_text(json.dumps({'version': 1, 'mocks': mock_papers}, ensure_ascii=False) + '\n')
     print(f'Generated {len(questions)} published questions for {day}.')
     return questions

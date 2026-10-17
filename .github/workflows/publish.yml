@@ -55,6 +55,8 @@ jobs:
       - if: steps.clock.outputs.run == 'true'
         run: node scripts/test_answers.cjs
       - if: steps.clock.outputs.run == 'true'
+        run: node scripts/test_home_fetch.cjs
+      - if: steps.clock.outputs.run == 'true'
         run: |
           python scripts/test_practice.py
           node scripts/test_test_core.cjs
