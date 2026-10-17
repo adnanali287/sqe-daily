@@ -1,5 +1,1600 @@
 {
   "questions": {
+    "lib-blp-001": {
+      "route": "/q/lib-blp-001-pre-incorporation-contracts-personal-liability-of-the-person-acting-ca-2006-s-51/",
+      "hash": "9a2bc7f0e7f4beaf7b06f3ed2cfe88ee8cbdf77db843dc9d066e41c2269a7cb3",
+      "modified": null
+    },
+    "lib-blp-002": {
+      "route": "/q/lib-blp-002-written-special-resolution-75-of-total-voting-rights-of-eligible-members-ca-2006-ss-21-283/",
+      "hash": "2b4798955c5a0a154bbd618e06b078749e5d5eafc5b93305de6322166d6f3f0f",
+      "modified": null
+    },
+    "lib-blp-003": {
+      "route": "/q/lib-blp-003-directors-authorising-a-director-s-conflict-of-interest-in-a-private-company-ca-2006-s-175/",
+      "hash": "b9f3a8cebd88aed72499d36e25a812cab9081f0130e8582e513677883dd47e07",
+      "modified": null
+    },
+    "lib-blp-004": {
+      "route": "/q/lib-blp-004-director-s-service-contract-over-two-years-without-members-approval-ca-2006-ss-188-189/",
+      "hash": "01627cd7835fc54ccd7b537580544e237ec6458ed6cc35577e0803c0a38beee7",
+      "modified": null
+    },
+    "lib-blp-005": {
+      "route": "/q/lib-blp-005-ratifying-a-director-s-negligence-votes-of-the-director-and-connected-persons-ca-2006-s-239/",
+      "hash": "9a09080dcbec2702fc61377d32baf44927f4547b4889819895f818166449f8e8",
+      "modified": null
+    },
+    "lib-blp-006": {
+      "route": "/q/lib-blp-006-members-requiring-directors-to-call-a-general-meeting-timing-ca-2006-ss-303-304/",
+      "hash": "8fccb02284b130df3e4ab2c774f2bf001acd67e07904df12203a0ce0b5905f13",
+      "modified": null
+    },
+    "lib-blp-007": {
+      "route": "/q/lib-blp-007-excluded-minority-in-a-quasi-partnership-company-unfair-prejudice-petition-ca-2006-ss-994-996/",
+      "hash": "808f0db4def0bff18b3cba01db568a83965c138816c0e28f53f0e7820a3c98e6",
+      "modified": null
+    },
+    "lib-blp-008": {
+      "route": "/q/lib-blp-008-allotting-shares-for-cash-in-a-single-class-private-company-s-550-authority-and-s-569-pre-emption/",
+      "hash": "76c80a414c7278c987bbbf995f4e95b6a64926b2708af4519872f93b18b1536d",
+      "modified": null
+    },
+    "lib-blp-009": {
+      "route": "/q/lib-blp-009-off-market-buyback-by-written-resolution-majority-and-seller-s-eligibility-ca-2006-ss-694-695/",
+      "hash": "5afa8c013947983d6b3fa743ff2eb80f7fe44668bdd775ade06a90a5afa43b98",
+      "modified": null
+    },
+    "lib-blp-010": {
+      "route": "/q/lib-blp-010-unlawful-dividend-which-shareholders-must-repay-ca-2006-ss-830-847/",
+      "hash": "143f97eee0f7ebe13052cc96565bdf7068026ed5e1a4f46c10575a6bc8500413",
+      "modified": null
+    },
+    "lib-blp-011": {
+      "route": "/q/lib-blp-011-failure-to-register-a-company-charge-within-21-days-ca-2006-ss-859a-859h/",
+      "hash": "538566cc1dafc9c27b5e69b8b3006d684c4fd9308276f311ac4c2559907ec997",
+      "modified": null
+    },
+    "lib-blp-012": {
+      "route": "/q/lib-blp-012-order-of-payment-from-floating-charge-realisations-in-a-liquidation-ia-1986-ss-175-176a/",
+      "hash": "c26aa9a1cd282fd9bc7de49d2cd3b9434d2d8ccbb32a0c39652f98e7aeb19bc6",
+      "modified": null
+    },
+    "lib-blp-013": {
+      "route": "/q/lib-blp-013-partner-s-authority-to-bind-the-firm-despite-an-internal-spending-limit-partnership-act-1890-s-5/",
+      "hash": "dfac3e77c96ddddaecaed09ccdffb46a45e8e5084d91212dd89e441d9f473e53",
+      "modified": null
+    },
+    "lib-blp-014": {
+      "route": "/q/lib-blp-014-retired-partner-s-liability-to-an-existing-customer-without-notice-partnership-act-1890-s-36/",
+      "hash": "b70c625541a50fa7f281090bb71950401556c568d24fe7446ba817a60ed4bcbb",
+      "modified": null
+    },
+    "lib-blp-015": {
+      "route": "/q/lib-blp-015-llp-carrying-on-business-with-one-member-for-more-than-six-months-llpa-2000-s-4a/",
+      "hash": "9ad5107b4f8a4c966be103e8afae0edb20010ca110dd49b4cc64e18b0befcf2f",
+      "modified": null
+    },
+    "lib-blp-016": {
+      "route": "/q/lib-blp-016-repaying-a-director-s-loan-before-liquidation-preference-to-a-connected-person-ia-1986-ss-239-240/",
+      "hash": "5a9d89d21d1489e71aa806a3ccaf2e7cf7a1b5315edd4df7617d1e3d5c1c6f19",
+      "modified": null
+    },
+    "lib-blp-017": {
+      "route": "/q/lib-blp-017-floating-charge-granted-to-secure-an-existing-overdraft-before-liquidation-ia-1986-s-245/",
+      "hash": "fd336fcd3ccd05f1f6c8801c3632079e2df714f057eb81b7c65df89477ad8496",
+      "modified": null
+    },
+    "lib-blp-018": {
+      "route": "/q/lib-blp-018-wrongful-trading-the-every-step-defence-ia-1986-s-214/",
+      "hash": "633a0e1add79ee75c354c8ba8eb14edd06181109fe478d24be37472a1ead3a45",
+      "modified": null
+    },
+    "lib-blp-019": {
+      "route": "/q/lib-blp-019-creditors-bankruptcy-petition-aggregating-debts-to-reach-the-bankruptcy-level-ia-1986-ss-267-268/",
+      "hash": "a8aa97c60f4f89fc00073bd1a388de1890ae809cbfe05ca2c659f9c4d624be7e",
+      "modified": null
+    },
+    "lib-blp-020": {
+      "route": "/q/lib-blp-020-sole-trader-s-loss-in-the-first-year-of-trading-early-trade-losses-relief-ita-2007-ss-72-73/",
+      "hash": "2bb8336353b25ee1f6175b85dcfecdfefccb772e041636669831e71fb7427b5f",
+      "modified": null
+    },
+    "lib-blp-021": {
+      "route": "/q/lib-blp-021-company-trading-loss-current-year-and-12-month-carry-back-relief-cta-2010-s-37/",
+      "hash": "1b53bead5149f30cad4a887f2acd7828e564d743784774d1180b67222cf4552c",
+      "modified": null
+    },
+    "lib-blp-022": {
+      "route": "/q/lib-blp-022-income-tax-on-dividends-for-a-director-shareholder-in-2026-27-ita-2007-ss-8-13a/",
+      "hash": "02427d2821b8fe096a1afe82679f78d4510ffe80b70162764994dd52e134b7d1",
+      "modified": null
+    },
+    "lib-blp-023": {
+      "route": "/q/lib-blp-023-business-asset-disposal-relief-officer-or-employee-condition-not-met-for-two-years-cgt/",
+      "hash": "29c07ad0ea2e4c450ae8ab9edc82ee86e93fe56194053aff3de2e48c645dfa1b",
+      "modified": null
+    },
+    "lib-blp-024": {
+      "route": "/q/lib-blp-024-gift-of-unquoted-trading-company-shares-hold-over-relief-and-donee-s-base-cost-tcga-1992-s-165/",
+      "hash": "a448b96d3b4aacdb73c701f8fc3572c297597aabcd2a03b7134b8c09eaf44577",
+      "modified": null
+    },
+    "lib-blp-025": {
+      "route": "/q/lib-blp-025-inheritance-tax-business-property-relief-two-year-minimum-ownership/",
+      "hash": "85316140c4620216dece06d996f2866d199475b91c19a84bd21a7e5c466acc68",
+      "modified": null
+    },
+    "lib-blp-026": {
+      "route": "/q/lib-blp-026-vat-registration-threshold-zero-rated-supplies-count-exempt-supplies-do-not/",
+      "hash": "3e5550d83ad975f040074b9ae40fe3f58b8c2c305bdaaa7288ea2775bb1d9409",
+      "modified": null
+    },
+    "lib-con-001": {
+      "route": "/q/lib-con-001-goods-on-display-in-a-self-service-shop-invitation-to-treat-boots/",
+      "hash": "5ce620f5ad43e960775aad957c5c7b860ad4aa8c411b22d48d65b0ae9ef59bd8",
+      "modified": null
+    },
+    "lib-con-002": {
+      "route": "/q/lib-con-002-acceptance-by-post-and-an-offeror-who-sells-elsewhere-before-the-letter-arrives/",
+      "hash": "c7785d181e4011ca86096f6e85f50fe4aedd4e5940dea4104585cbdc843412eb",
+      "modified": null
+    },
+    "lib-con-003": {
+      "route": "/q/lib-con-003-extra-pay-for-performing-an-existing-contractual-duty-practical-benefit-williams-v-roffey/",
+      "hash": "1edb6f0410b681db5c476e59d9c7b64aa963d32d355a2b996a1bb1fe45753a0c",
+      "modified": null
+    },
+    "lib-con-004": {
+      "route": "/q/lib-con-004-intention-to-create-legal-relations-between-spouses-who-have-separated-merritt-v-merritt/",
+      "hash": "4744ffb84d0c16a24953359458dde604f817735b8cc142a55f5e49c4df4110e4",
+      "modified": null
+    },
+    "lib-con-005": {
+      "route": "/q/lib-con-005-goods-delivered-with-no-agreed-price-reasonable-price-sale-of-goods-act-1979-s-8/",
+      "hash": "67387a8a754b8f1dd49a4fc0608e7f0666d6828c12823d9839f15a1db03b35fc",
+      "modified": null
+    },
+    "lib-con-006": {
+      "route": "/q/lib-con-006-a-minor-s-liability-for-necessaries-sale-of-goods-act-1979-s-3/",
+      "hash": "3df41b5aef8df96d9c5010bf0a9ef149e8bc8b534467c200d86573fe7b5f7ae8",
+      "modified": null
+    },
+    "lib-con-007": {
+      "route": "/q/lib-con-007-third-party-enforcing-a-term-that-benefits-them-contracts-rights-of-third-parties-act-1999-s-1/",
+      "hash": "69071dd6fdba60e61d24e9e4914c1dd9bee82cdca0fb9a7b66198da9652a8c29",
+      "modified": null
+    },
+    "lib-con-008": {
+      "route": "/q/lib-con-008-varying-a-contract-after-the-third-party-has-communicated-assent-c-rtp-a-1999-s-2/",
+      "hash": "6a246a172b611625b4e13585d80e1f1eb96b17725560e67134e434a73f0dd653",
+      "modified": null
+    },
+    "lib-con-009": {
+      "route": "/q/lib-con-009-exclusion-notice-displayed-after-the-contract-is-made-at-an-automatic-car-park-barrier-thornton/",
+      "hash": "18426ccb2e104388f2b3a1f1b2732cbcd9615617388a7c9fe10822ffc2ece77b",
+      "modified": null
+    },
+    "lib-con-010": {
+      "route": "/q/lib-con-010-implying-a-term-in-fact-necessity-or-obviousness-not-fairness-m-s-v-bnp-paribas/",
+      "hash": "c457fdc0934fc9d4068f3fbfa0713d9efa37aae352db7f3ab1697852552601fb",
+      "modified": null
+    },
+    "lib-con-011": {
+      "route": "/q/lib-con-011-interpreting-a-clear-price-escalation-clause-that-became-a-bad-bargain-arnold-v-britton/",
+      "hash": "71d3c2382d3d8b7ba4bac36502675232918298276823cbce0eea0e6ff573b365",
+      "modified": null
+    },
+    "lib-con-012": {
+      "route": "/q/lib-con-012-slight-breach-of-an-implied-condition-in-a-business-sale-sale-of-goods-act-1979-s-15a/",
+      "hash": "e58f822dc431158ce0f39e6f8b474eef9701fefc0b9147894259ad69e2a22ac0",
+      "modified": null
+    },
+    "lib-con-013": {
+      "route": "/q/lib-con-013-excluding-liability-for-satisfactory-quality-in-a-consumer-sale-consumer-rights-act-2015-s-31/",
+      "hash": "03640a4c802c78aa29f289d3da93620158cff735189ce4a53b5332f5250f86f4",
+      "modified": null
+    },
+    "lib-con-014": {
+      "route": "/q/lib-con-014-oral-variation-of-a-contract-containing-a-no-oral-modification-clause-rock-advertising/",
+      "hash": "2b924602b2fcdbc1c51a7b134e1e4fe27678cbf4f693dc096ffdb226d98b9fa6",
+      "modified": null
+    },
+    "lib-con-015": {
+      "route": "/q/lib-con-015-court-s-discretion-to-award-damages-in-lieu-of-rescission-misrepresentation-act-1967-s-2-2/",
+      "hash": "11ba3ae9eaba35e670248ed622bff7ec6cb25b3a74854fd4b90c2c624d9d3f22",
+      "modified": null
+    },
+    "lib-con-016": {
+      "route": "/q/lib-con-016-sale-of-specific-goods-that-had-already-perished-sale-of-goods-act-1979-s-6/",
+      "hash": "ebe931d4e6d789724b844d51370b7612bec035d109ecaeb68d4e16cbe05d4cf3",
+      "modified": null
+    },
+    "lib-con-017": {
+      "route": "/q/lib-con-017-economic-duress-the-requirement-of-no-reasonable-alternative-pia-v-times-travel/",
+      "hash": "aa1976cd06b0b9ea83565009b9f2437ff46ab6fe588f4f9cb0cd8da2e17c4c64",
+      "modified": null
+    },
+    "lib-con-018": {
+      "route": "/q/lib-con-018-undue-influence-and-a-joint-loan-to-spouses-when-the-lender-is-put-on-inquiry-cibc-v-pitt/",
+      "hash": "4fda24f20ca999e8f2a0f7e2b8dfcb4f3bfd7382aa2fa891ebb49d4ab49741b2",
+      "modified": null
+    },
+    "lib-con-019": {
+      "route": "/q/lib-con-019-recovering-money-paid-for-an-unlawful-purpose-patel-v-mirza/",
+      "hash": "77bd060b7382a31bab6decc8f873e172529ad0f454f82859c7b39c4f821df5fe",
+      "modified": null
+    },
+    "lib-con-020": {
+      "route": "/q/lib-con-020-sums-paid-and-payable-before-frustration-and-expenses-lr-fc-a-1943-s-1-2/",
+      "hash": "6e86d85f2f5218179f49b90e0d22e47b957124bafaaefc24918a8c7b7382c4d1",
+      "modified": null
+    },
+    "lib-con-021": {
+      "route": "/q/lib-con-021-remoteness-losses-from-special-circumstances-not-communicated-hadley-v-baxendale/",
+      "hash": "96aa5118a8ba631d8bbe8fd38e6041a905ca2f893db14a6263da4f99a62183ac",
+      "modified": null
+    },
+    "lib-con-022": {
+      "route": "/q/lib-con-022-liquidated-damages-or-penalty-the-legitimate-interest-test-cavendish-v-makdessi/",
+      "hash": "9ef76edb600fb538c3e9ac0a1708e3a7d14b06fa187a0023b4826880335c7707",
+      "modified": null
+    },
+    "lib-con-023": {
+      "route": "/q/lib-con-023-specific-performance-of-a-covenant-to-keep-a-business-open-co-operative-insurance-v-argyll/",
+      "hash": "36bc65b474ccdb5289582bc67cd0e441983d57b6841bdc62c44f01e3008cfa5b",
+      "modified": null
+    },
+    "lib-con-024": {
+      "route": "/q/lib-con-024-oral-guarantee-of-another-s-debt-statute-of-frauds-1677-s-4/",
+      "hash": "3fe0856a9e292d5d9c0a7fd3a386739d4c4bae715a66ec79a1e3baddc261776e",
+      "modified": null
+    },
+    "lib-con-025": {
+      "route": "/q/lib-con-025-lump-sum-contract-substantially-performed-with-minor-defects-hoenig-v-isaacs/",
+      "hash": "096960ea7baf861185e319977d705b437212e7a0b598b97093444c2b04d540f1",
+      "modified": null
+    },
+    "lib-crl-001": {
+      "route": "/q/lib-crl-001-liability-for-failing-to-act-after-creating-a-dangerous-situation-r-v-miller-duty/",
+      "hash": "71c4b7c18ade5ab2caf0a04cdb7f8e77c83b58382ba5e606ed0fbfb0f6f90127",
+      "modified": null
+    },
+    "lib-crl-002": {
+      "route": "/q/lib-crl-002-subjective-recklessness-in-criminal-damage-r-v-g/",
+      "hash": "b14448b4b221f645320ca287434667256b77919622dc33226773e33e625eb710",
+      "modified": null
+    },
+    "lib-crl-003": {
+      "route": "/q/lib-crl-003-transferred-malice-where-the-blow-strikes-an-unintended-victim/",
+      "hash": "2aa508754975e7158e609fd023b789f40054ed21cf81d8b79e0dd58f50ea1761",
+      "modified": null
+    },
+    "lib-crl-004": {
+      "route": "/q/lib-crl-004-mens-rea-for-assault-occasioning-actual-bodily-harm-s-47-oapa-1861-r-v-savage/",
+      "hash": "0e8acd1bf5ae9d9a22e4785c1570fde0022cc4eab29e372c7257bd9a5d825fc7",
+      "modified": null
+    },
+    "lib-crl-005": {
+      "route": "/q/lib-crl-005-mens-rea-of-maliciously-inflicting-grievous-bodily-harm-s-20-oapa-1861-r-v-mowatt/",
+      "hash": "1fdb625cec775d505122fb219778e2a509a89304bcfe2769f3283bef878d96ed",
+      "modified": null
+    },
+    "lib-crl-006": {
+      "route": "/q/lib-crl-006-wounding-with-intent-to-resist-lawful-arrest-s-18-oapa-1861/",
+      "hash": "fa4dafc5cf3774e63b62161ec59709331a291830357db947c9a829d3719b9419",
+      "modified": null
+    },
+    "lib-crl-007": {
+      "route": "/q/lib-crl-007-consent-to-actual-bodily-harm-for-sexual-gratification-domestic-abuse-act-2021-s-71/",
+      "hash": "02805a2c792eff93c56ca37451657bb710c6832a21ff9fa761409bb3bb12936c",
+      "modified": null
+    },
+    "lib-crl-008": {
+      "route": "/q/lib-crl-008-murder-an-intention-to-cause-grievous-bodily-harm-is-sufficient-mens-rea/",
+      "hash": "48c5ef8cb7dd16073e0ea26ceb03a79a24fe43d179eb794d5a8a7b0b337fa73c",
+      "modified": null
+    },
+    "lib-crl-009": {
+      "route": "/q/lib-crl-009-death-over-three-years-after-the-injury-attorney-general-s-consent-year-and-a-day-rule-act-1996/",
+      "hash": "122ecc87658e3494c927d9826ee9bbbb3d91389677639b9067ee705afbee1f94",
+      "modified": null
+    },
+    "lib-crl-010": {
+      "route": "/q/lib-crl-010-loss-of-control-considered-desire-for-revenge-coroners-and-justice-act-2009-s-54-4/",
+      "hash": "6cb01430e5600c423fd62a6537e6c342d1dff391824686a137dd8a1c947a00b5",
+      "modified": null
+    },
+    "lib-crl-011": {
+      "route": "/q/lib-crl-011-diminished-responsibility-elements-burden-and-effect-homicide-act-1957-s-2/",
+      "hash": "959ec4677637a654a0df5723dd4a507c23289aa66d0285475549b34c9b42a354",
+      "modified": null
+    },
+    "lib-crl-012": {
+      "route": "/q/lib-crl-012-unlawful-act-manslaughter-the-objective-dangerousness-test-r-v-church/",
+      "hash": "a7aa6a4fa9bb6d5db58114dd6746b337ab4fddf6bdfe3f35c002222cc4c3d59d",
+      "modified": null
+    },
+    "lib-crl-013": {
+      "route": "/q/lib-crl-013-gross-negligence-manslaughter-the-risk-must-be-of-death-not-serious-injury-r-v-rose/",
+      "hash": "60caed0d58b1657fcd67d81e908642a1ac789b340d4de130767357a0284420ae",
+      "modified": null
+    },
+    "lib-crl-014": {
+      "route": "/q/lib-crl-014-theft-of-money-received-by-mistake-theft-act-1968-s-5-4/",
+      "hash": "ae97956a7037c0aba6826c43bb41e44a331db1a03af16e381b7cabeabe854bf6",
+      "modified": null
+    },
+    "lib-crl-015": {
+      "route": "/q/lib-crl-015-borrowing-that-is-equivalent-to-an-outright-taking-theft-act-1968-s-6-1/",
+      "hash": "f86d4a90a9fc7de4f19701cecad34e6748555391edf0294ba25dedccc0f9b0e0",
+      "modified": null
+    },
+    "lib-crl-016": {
+      "route": "/q/lib-crl-016-robbery-force-must-be-used-in-order-to-steal-theft-act-1968-s-8/",
+      "hash": "d5a99854cb470b2fc12ca01d07c1b654f67d9c70f45d305d0c0e687d55efa74f",
+      "modified": null
+    },
+    "lib-crl-017": {
+      "route": "/q/lib-crl-017-burglary-by-entering-part-of-a-building-as-a-trespasser-theft-act-1968-s-9-1-a/",
+      "hash": "ef27c16600f5cf35a30a3a501813434e9853160bce75b3f94b6f2a559a303ec7",
+      "modified": null
+    },
+    "lib-crl-018": {
+      "route": "/q/lib-crl-018-aggravated-burglary-when-is-an-article-a-weapon-of-offence-theft-act-1968-s-10/",
+      "hash": "c00eacdb8b9cb7a74f0dc9fcc3862072706863371c53f96cc04950e5608d2e73",
+      "modified": null
+    },
+    "lib-crl-019": {
+      "route": "/q/lib-crl-019-fraud-by-false-representation-is-complete-without-any-deception-or-gain-fraud-act-2006-s-2/",
+      "hash": "b49b56c7fb4a9e895155aed3bd9bfbe56a628a7ad226d650f15b0e12880e5d21",
+      "modified": null
+    },
+    "lib-crl-020": {
+      "route": "/q/lib-crl-020-lawful-excuse-based-on-an-honest-belief-in-the-owner-s-consent-criminal-damage-act-1971-s-5/",
+      "hash": "2d30deecd13c9bbfd39d2ac7e85b7f8ce57e23fe7df88cb87d01bf9f9a83ef68",
+      "modified": null
+    },
+    "lib-crl-021": {
+      "route": "/q/lib-crl-021-aggravated-arson-of-the-defendant-s-own-property-criminal-damage-act-1971-s-1-2-and-3/",
+      "hash": "877657df957a34287d7ebbd4b63abe11c10e549ce786d6e14990435a6dab7e6c",
+      "modified": null
+    },
+    "lib-crl-022": {
+      "route": "/q/lib-crl-022-self-defence-in-a-householder-case-grossly-disproportionate-force-cjia-2008-s-76-5a/",
+      "hash": "2f10a435a406f38a02a084feb2bea27c3168b3833a9b20bbc6f5b133a88ab0b0",
+      "modified": null
+    },
+    "lib-crl-023": {
+      "route": "/q/lib-crl-023-voluntary-intoxication-specific-and-basic-intent-dpp-v-majewski/",
+      "hash": "b17e8655a2f29f20ad35395968b578d69d67b5f886421f85a57779adc89c4481",
+      "modified": null
+    },
+    "lib-crl-024": {
+      "route": "/q/lib-crl-024-attempt-where-the-full-offence-is-impossible-criminal-attempts-act-1981-s-1-2-and-3/",
+      "hash": "540ac12324210a53e78f51783b265b8f59b6cec5f3a3334ad2ebf7d5d5b8741a",
+      "modified": null
+    },
+    "lib-crl-025": {
+      "route": "/q/lib-crl-025-accessory-liability-after-r-v-jogee-foresight-is-evidence-of-intent-not-a-substitute-for-it/",
+      "hash": "8a2e4428cc991aabc85499491e0ac00eb21d22b41aa1dc638dd456dc46d11111",
+      "modified": null
+    },
+    "lib-crp-001": {
+      "route": "/q/lib-crp-001-timing-of-the-first-review-of-detention-before-charge-pace-1984-s-40/",
+      "hash": "30dea84b62b1acacc879f1c831154ef6525e13397946d0b2699bf375003fc777",
+      "modified": null
+    },
+    "lib-crp-002": {
+      "route": "/q/lib-crp-002-delaying-the-right-to-have-someone-informed-of-arrest-pace-1984-s-56/",
+      "hash": "8a151ed4e00190f2fd0fd5792b40de478ebc8f98558e99100ca319284c97e160",
+      "modified": null
+    },
+    "lib-crp-003": {
+      "route": "/q/lib-crp-003-who-may-act-as-appropriate-adult-for-a-juvenile-pace-code-c-para-1-7-and-notes-1b-1f/",
+      "hash": "5c0bacf5f34cf7f1aefa7d6a76532363da7ae19e6e59740f6dd8c33f9356846f",
+      "modified": null
+    },
+    "lib-crp-004": {
+      "route": "/q/lib-crp-004-defence-solicitor-s-role-in-interview-and-when-they-may-be-excluded-code-c-6-9-6-10-note-6d/",
+      "hash": "6d95b8a9e60fc6f430b7eda7871c882956cf005970f12fc75face139901e26a9",
+      "modified": null
+    },
+    "lib-crp-005": {
+      "route": "/q/lib-crp-005-when-an-identification-procedure-must-be-held-and-which-procedure-comes-first-code-d-3-12-3-14/",
+      "hash": "df5c03d721de48b3723e6423b73f403f297b7aebfac5eead1a3597360f616e75",
+      "modified": null
+    },
+    "lib-crp-006": {
+      "route": "/q/lib-crp-006-inferences-from-failure-to-account-for-a-substance-the-special-warning-cjpoa-1994-s-36/",
+      "hash": "8400a8c7bfadc6450e645189e6483752f48ae5b3be81f33fb8ab1f7f1ce48771",
+      "modified": null
+    },
+    "lib-crp-007": {
+      "route": "/q/lib-crp-007-inferences-from-a-defendant-s-failure-to-give-evidence-at-trial-cjpoa-1994-ss-35-and-38-3/",
+      "hash": "7a986ed9152c3227ecc0488971f47a9c3d382ff8859c19335d4fbc0f219570da",
+      "modified": null
+    },
+    "lib-crp-008": {
+      "route": "/q/lib-crp-008-refusing-bail-where-the-offence-was-allegedly-committed-on-bail-bail-act-1976-sch-1-para-2a/",
+      "hash": "b55cad26758c0625689ef928d7e90989113fcc00723a58c858a3372df3d93b50",
+      "modified": null
+    },
+    "lib-crp-009": {
+      "route": "/q/lib-crp-009-prosecution-appeal-against-a-grant-of-bail-by-magistrates-bail-amendment-act-1993-s-1/",
+      "hash": "170d984df17818c8580790e245f218a3b7030bd1788b312ce98403c7e70e7df4",
+      "modified": null
+    },
+    "lib-crp-010": {
+      "route": "/q/lib-crp-010-effect-of-indicating-a-guilty-plea-at-plea-before-venue-mca-1980-s-17a/",
+      "hash": "ba3cc8c15be6efba6b5d80e647b2b0c878a55e6ae9e56fddd9c90b151f25e05e",
+      "modified": null
+    },
+    "lib-crp-011": {
+      "route": "/q/lib-crp-011-binding-effect-of-a-non-custodial-indication-of-sentence-mca-1980-ss-20-and-20a/",
+      "hash": "27c4b0a79c0a140dafef145ceef045d522f96943fa10b01b14d0579aba9029cf",
+      "modified": null
+    },
+    "lib-crp-012": {
+      "route": "/q/lib-crp-012-sending-an-adult-co-defendant-jointly-charged-with-a-related-either-way-offence-cda-1998-s-51-5/",
+      "hash": "c2c9a4e1a58133359000fc68f438f67b226fc98b8c36ebb2fd9e9d9e8620b401",
+      "modified": null
+    },
+    "lib-crp-013": {
+      "route": "/q/lib-crp-013-the-prosecution-s-initial-duty-of-disclosure-of-unused-material-cpia-1996-s-3/",
+      "hash": "711bef040722651957fcef3dc82107a96432e4b7d0b38fac41b1f52655d7f683",
+      "modified": null
+    },
+    "lib-crp-014": {
+      "route": "/q/lib-crp-014-defence-statements-in-the-magistrates-court-voluntary-but-not-risk-free-cpia-1996-ss-6-and-11/",
+      "hash": "0c3c18a282190f11ab7531f701a94f233d7c71dc5b90adb7483052d69cdb8eec",
+      "modified": null
+    },
+    "lib-crp-015": {
+      "route": "/q/lib-crp-015-the-legal-burden-and-standard-of-proof-where-the-defendant-claims-accident-woolmington-v-dpp/",
+      "hash": "1865bb26850af2f6208d0fa2dae911685f4565451f5da2da019f2be0a53ec2e2",
+      "modified": null
+    },
+    "lib-crp-016": {
+      "route": "/q/lib-crp-016-withdrawing-poor-unsupported-identification-evidence-from-the-jury-turnbull/",
+      "hash": "cc9a731765724851c6944bce81f1a7a1ee765b4f34487d10c1a35c225c6d33cf",
+      "modified": null
+    },
+    "lib-crp-017": {
+      "route": "/q/lib-crp-017-submission-of-no-case-to-answer-where-the-issue-is-a-witness-s-reliability-r-v-galbraith/",
+      "hash": "e2edcac573454c587d4fd6b827433ee89a7e99c6d4dfc9159c46e74e25814877",
+      "modified": null
+    },
+    "lib-crp-018": {
+      "route": "/q/lib-crp-018-excluding-a-confession-obtained-by-an-inducement-unreliability-under-pace-1984-s-76-2-b/",
+      "hash": "a1e22a83311e936fd8d0a1acdb2b19e23df0000960d31f2716114efd6983b202",
+      "modified": null
+    },
+    "lib-crp-019": {
+      "route": "/q/lib-crp-019-discretion-to-exclude-identification-evidence-obtained-after-a-code-d-breach-pace-1984-s-78/",
+      "hash": "2e82dbd5a8ede6ea4acbfbe8684179a23fe7ea3984815db75dff1a89d0f52cba",
+      "modified": null
+    },
+    "lib-crp-020": {
+      "route": "/q/lib-crp-020-admitting-the-statement-of-a-witness-too-frightened-to-testify-cja-2003-ss-114-and-116-2-e/",
+      "hash": "03e6e2a774687410435192e5b98d1d12d90ee3cff09ca5221d5526bd06e8b395",
+      "modified": null
+    },
+    "lib-crp-021": {
+      "route": "/q/lib-crp-021-adducing-a-complainant-s-previous-convictions-non-defendant-bad-character-cja-2003-s-100/",
+      "hash": "d88409a68cb32469be49f7c264670eaeb8bbee8f424d474c3e545da52609ef9c",
+      "modified": null
+    },
+    "lib-crp-022": {
+      "route": "/q/lib-crp-022-attack-on-another-s-character-and-the-power-to-exclude-cja-2003-s-101-1-g-and-3/",
+      "hash": "c31243a1a3903f05fdfe0f9c911c50b00a17f79867b83dc1f0faac53cb91ebd9",
+      "modified": null
+    },
+    "lib-crp-023": {
+      "route": "/q/lib-crp-023-calculating-guilty-plea-credit-after-a-plea-at-the-ptph-and-a-lost-newton-hearing/",
+      "hash": "8f2aa495e9f69c25f52f70874e19d2025960eac34f7c1e7d05146df7a1771847",
+      "modified": null
+    },
+    "lib-crp-024": {
+      "route": "/q/lib-crp-024-crown-court-s-sentencing-powers-on-an-appeal-against-conviction-from-magistrates-sca-1981-s-48/",
+      "hash": "4b27ff1b37ee57288b5caa8106e9e641742d312f8a72532c54bd016cab75806f",
+      "modified": null
+    },
+    "lib-crp-025": {
+      "route": "/q/lib-crp-025-compulsory-referral-order-for-a-first-time-youth-offender-pleading-guilty-sa-2020-ss-84-85/",
+      "hash": "cb3dbe7ff9d73264d9a73ad05174462be217068eb94d2312c8275bf9fa537506",
+      "modified": null
+    },
+    "lib-dr-001": {
+      "route": "/q/lib-dr-001-staying-court-proceedings-brought-in-breach-of-an-arbitration-agreement-arbitration-act-1996-s-9/",
+      "hash": "abbb5d4da246d5acb88e8d648ac4478b4e2e92d1018c325bc3cd1d0d64d000ad",
+      "modified": null
+    },
+    "lib-dr-002": {
+      "route": "/q/lib-dr-002-court-s-power-to-order-adr-and-costs-consequences-of-refusing-to-engage-cpr-3-1-2-o-44-2-5-e/",
+      "hash": "0b6df91de4bbfc36c3f729243f8efdd63f6e129129e052feb90fffa1488bb6d2",
+      "modified": null
+    },
+    "lib-dr-003": {
+      "route": "/q/lib-dr-003-sanctions-against-a-defendant-who-ignores-a-letter-before-claim-pd-pre-action-conduct-para-16/",
+      "hash": "d530a187e7d609992a5e690770b02587d938a929ab1ec2be46cb8458d65e183f",
+      "modified": null
+    },
+    "lib-dr-004": {
+      "route": "/q/lib-dr-004-limitation-period-for-a-claim-in-simple-contract-limitation-act-1980-s-5/",
+      "hash": "e3851fd70b9161fcee651618ebd6e63ea6a79a5170ead5e1bd949301606ecc6c",
+      "modified": null
+    },
+    "lib-dr-005": {
+      "route": "/q/lib-dr-005-personal-injury-limitation-for-a-claimant-injured-as-a-child-limitation-act-1980-ss-11-and-28-6/",
+      "hash": "f6aae6f713f1fda38512fbf9b804fa1bb8a162ac9fb0ff93fe0aa26ca3f95b97",
+      "modified": null
+    },
+    "lib-dr-006": {
+      "route": "/q/lib-dr-006-applicable-law-where-both-parties-live-in-england-but-the-accident-is-abroad-rome-ii-art-4-2/",
+      "hash": "1946935f490fed87a56ce6e21b5a4834346bd0e3b4b59d17c5b711fd74de2127",
+      "modified": null
+    },
+    "lib-dr-007": {
+      "route": "/q/lib-dr-007-where-to-start-a-money-claim-high-court-or-county-court-pd-7a-para-2-1/",
+      "hash": "d71d5fb1d5176393795ad386ac4464d4c115ffae64d9c62e1afdf2232ab8a642",
+      "modified": null
+    },
+    "lib-dr-008": {
+      "route": "/q/lib-dr-008-normal-track-for-a-72-000-contract-claim-with-a-two-day-trial-cpr-26-9/",
+      "hash": "4f7024e1d0ef742a2735d927c8b6dbf6e2df101fbc8a13688528a990d904cef0",
+      "modified": null
+    },
+    "lib-dr-009": {
+      "route": "/q/lib-dr-009-deemed-service-of-an-application-notice-sent-by-email-after-4-30-pm-cpr-6-26/",
+      "hash": "f6d96096ab35bedfa484666525aee4aab8bc171f87877199957ff380c48197fb",
+      "modified": null
+    },
+    "lib-dr-010": {
+      "route": "/q/lib-dr-010-failing-to-apply-in-time-to-dispute-jurisdiction-after-acknowledging-service-cpr-11-4-5/",
+      "hash": "6c5523ca9ebe48afd2565fa07312b14b0a219761514c5a507da1744b7be9ab89",
+      "modified": null
+    },
+    "lib-dr-011": {
+      "route": "/q/lib-dr-011-default-judgment-entered-after-a-late-defence-had-been-filed-must-be-set-aside-cpr-12-3-2-13-2/",
+      "hash": "200c7b9a0af69512d56342c531b3d84e6c808b02eb748d56fdf13c2b812e7be5",
+      "modified": null
+    },
+    "lib-dr-012": {
+      "route": "/q/lib-dr-012-costs-consequences-of-discontinuing-a-claim-cpr-38-6/",
+      "hash": "257940c99a826026c144a3a5c03e24c0e47c8940eeca9ae6dc5ca1310a1eed08",
+      "modified": null
+    },
+    "lib-dr-013": {
+      "route": "/q/lib-dr-013-defence-that-fails-to-deal-with-an-allegation-cpr-16-5/",
+      "hash": "1213849024feff3951a206beab2ea9349d951a8b1fc667a4fabde15dde12c6b8",
+      "modified": null
+    },
+    "lib-dr-014": {
+      "route": "/q/lib-dr-014-amending-particulars-of-claim-after-service-cpr-17-1-2/",
+      "hash": "5a046ee1d0b85e8aec1729874b0edf665f1066173dc9f2c492cf02a4c4d413f6",
+      "modified": null
+    },
+    "lib-dr-015": {
+      "route": "/q/lib-dr-015-approach-to-an-interim-prohibitory-injunction-american-cyanamid-principles/",
+      "hash": "cf3b973c0dad5983a3256e9dac8845ac9700f259036bd7422d21a54c580ee25d",
+      "modified": null
+    },
+    "lib-dr-016": {
+      "route": "/q/lib-dr-016-conditions-for-and-limit-on-an-interim-payment-order-cpr-25-20-and-25-23/",
+      "hash": "7084f81345871588adb0999b8b433f9f95bea3abada3f6bd40c73c99b04be8d2",
+      "modified": null
+    },
+    "lib-dr-017": {
+      "route": "/q/lib-dr-017-failure-to-file-a-costs-budget-on-time-cpr-3-13-and-3-14/",
+      "hash": "4b2f705d81ce537bf6f9765d8d97556da966fd7b0cef16326bbcc45b70ef9cc1",
+      "modified": null
+    },
+    "lib-dr-018": {
+      "route": "/q/lib-dr-018-conditions-for-pre-action-disclosure-cpr-31-16/",
+      "hash": "3a633610dde2f786d602c0adaaefb02de4ac5e6b97defdac1008214bf2efa2f9",
+      "modified": null
+    },
+    "lib-dr-019": {
+      "route": "/q/lib-dr-019-litigation-privilege-contemplated-litigation-and-dominant-purpose-sfo-v-enrc-three-rivers-no-6/",
+      "hash": "f40a809ba8c045823a11de83aa2c6b3a9be8675c3642138dc0bd3320a84d328a",
+      "modified": null
+    },
+    "lib-dr-020": {
+      "route": "/q/lib-dr-020-failure-to-comply-with-hearsay-notice-requirements-civil-evidence-act-1995-s-2-4-cpr-33-2/",
+      "hash": "35f56ec90b90bfc2ff1cfbc448e8b75c57b76545466305106886114bbd6a28e0",
+      "modified": null
+    },
+    "lib-dr-021": {
+      "route": "/q/lib-dr-021-putting-written-questions-to-the-other-side-s-expert-cpr-35-6/",
+      "hash": "01c32f067fd8da9c65aefcd8e2b2e90910474f96eceba880cb3d223cd5f42ea8",
+      "modified": null
+    },
+    "lib-dr-022": {
+      "route": "/q/lib-dr-022-when-a-witness-summons-is-binding-cpr-34-5-and-34-7/",
+      "hash": "8a1f467a324bb28818edb98e83abcbed5cc5025d0ad4d81ac8f22ea87dfe6add",
+      "modified": null
+    },
+    "lib-dr-023": {
+      "route": "/q/lib-dr-023-how-to-address-a-circuit-judge-in-court/",
+      "hash": "793368b18b95330278e6bb9b1652b5f13d581e6999ed0545dd1058e557563065",
+      "modified": null
+    },
+    "lib-dr-024": {
+      "route": "/q/lib-dr-024-claimant-beats-its-own-part-36-offer-at-trial-calculating-the-additional-amount-cpr-36-17-4-d/",
+      "hash": "61c32bf28c188f11ba585d9adee42527fe9e131b775b8d8188cfb60bddf220e2",
+      "modified": null
+    },
+    "lib-dr-025": {
+      "route": "/q/lib-dr-025-appeal-from-a-circuit-judge-in-the-county-court-destination-and-permission-cpr-52-3-52-6-pd-52a/",
+      "hash": "41e67256ff382e263dd0d55cdc7853ccd481c19e6157f17f69804f20be22296d",
+      "modified": null
+    },
+    "lib-dr-026": {
+      "route": "/q/lib-dr-026-taking-control-of-goods-under-a-county-court-judgment-of-5-000-or-more-hcccjo-1991-art-8/",
+      "hash": "5a7f5a53c43daf368e51f3f61cf3e71c1528ddbddba1aa5d32571b8018d9b2fb",
+      "modified": null
+    },
+    "lib-eth-001": {
+      "route": "/q/lib-eth-001-joint-clients-forming-a-company-who-then-disagree-on-a-shareholders-agreement-term-code-6-2/",
+      "hash": "2cd3c668fa89c3a5c9d3f6df041a30310de709f2cd32fc2094d8062e737a1925",
+      "modified": null
+    },
+    "lib-eth-002": {
+      "route": "/q/lib-eth-002-client-instructs-solicitor-to-withhold-and-delete-a-damaging-disclosable-document-code-1-4-and-2-1/",
+      "hash": "93f37b4adf604ab59b8d0e8d680cf90979e5e09aa058ae48cc338636e6fe80c1",
+      "modified": null
+    },
+    "lib-eth-003": {
+      "route": "/q/lib-eth-003-right-to-reply-letter-threatening-a-journalist-with-remedies-unavailable-in-a-civil-claim-slapps/",
+      "hash": "f94d39443ab8d316afbe05ca3f18bcf7a5fdf2848c0ccafdb8d275a0412e1737",
+      "modified": null
+    },
+    "lib-eth-004": {
+      "route": "/q/lib-eth-004-sharing-fees-with-an-accountant-who-introduces-company-clients-code-5-1/",
+      "hash": "8f8439ce2951147934d5c1cffcdc24e6538b64cdcf575ccc09011be1fed5b6fd",
+      "modified": null
+    },
+    "lib-eth-005": {
+      "route": "/q/lib-eth-005-updating-a-litigation-client-when-the-costs-estimate-will-be-substantially-exceeded-code-8-7/",
+      "hash": "f7c9fd5445607790effceddd85b6e5b82021d3b2c9622103f1ee4f4491012350",
+      "modified": null
+    },
+    "lib-eth-006": {
+      "route": "/q/lib-eth-006-undertaking-to-pay-an-expert-s-fee-when-the-client-has-not-put-the-firm-in-funds-code-1-3/",
+      "hash": "0e9eb425af6e25935aeab44f029f31a34d0d29d1af740dd38598a4081587964e",
+      "modified": null
+    },
+    "lib-eth-007": {
+      "route": "/q/lib-eth-007-pi-client-s-complaint-unresolved-after-eight-weeks-legal-ombudsman-information-code-8-4/",
+      "hash": "d72579de13f0aa91d5ff85701b6f28da285f0489995b25724a379335a6487313",
+      "modified": null
+    },
+    "lib-eth-008": {
+      "route": "/q/lib-eth-008-duty-to-cite-an-adverse-court-of-appeal-decision-the-opponent-has-missed-code-2-7/",
+      "hash": "6f3a8e3f08fd4bd0dfbd171d76e5d641683d8389fa5d549d5e2ca84bead1fbfd",
+      "modified": null
+    },
+    "lib-eth-009": {
+      "route": "/q/lib-eth-009-supervising-partner-s-accountability-for-an-unsupervised-paralegal-s-work-code-3-5/",
+      "hash": "9297d01ebc0ce9db36ac9ad2831ff45028c519028c1824234e3116e725421294",
+      "modified": null
+    },
+    "lib-eth-010": {
+      "route": "/q/lib-eth-010-settlement-nda-that-would-stop-a-claimant-reporting-an-assault-to-the-police-nda-warning-notice/",
+      "hash": "9a383e44172c0bb887ad4f15649e6e14761d34bc072ec99ba5b39ee42ed5713d",
+      "modified": null
+    },
+    "lib-eth-011": {
+      "route": "/q/lib-eth-011-letter-to-unrepresented-debtor-discouraging-legal-advice-and-imposing-a-24-hour-deadline-code-1-2/",
+      "hash": "40892bbded0d09b00135d081537d95e6a31b41786f82b98376dd6239d974158f",
+      "modified": null
+    },
+    "lib-eth-012": {
+      "route": "/q/lib-eth-012-colp-s-duty-to-report-suspected-alteration-of-a-signed-witness-statement-code-for-firms-9-1/",
+      "hash": "c604559a814470faa208f66117b1099ea1d189845952cef8a85111c0a6e4473d",
+      "modified": null
+    },
+    "lib-eth-013": {
+      "route": "/q/lib-eth-013-client-wants-to-leave-a-significant-gift-to-the-solicitor-drafting-the-will-code-6-1/",
+      "hash": "3940decd9696dc00b777bc99c3901e8164f6d5417c4da31851eab2fceecc155f",
+      "modified": null
+    },
+    "lib-eth-014": {
+      "route": "/q/lib-eth-014-solicitor-drafting-a-parent-s-will-that-leaves-residue-equally-to-the-solicitor-and-siblings/",
+      "hash": "8247dd68227f91519415ec4e3d917a895a44c93fb1b2ff4098063f5807b55aa1",
+      "modified": null
+    },
+    "lib-eth-015": {
+      "route": "/q/lib-eth-015-deceased-client-s-son-asks-for-her-will-and-instructions-before-probate-code-6-3/",
+      "hash": "23c2f5d47381a68f315606240baa0adf177782bc630a2d699d24e4cf66b9137e",
+      "modified": null
+    },
+    "lib-eth-016": {
+      "route": "/q/lib-eth-016-joint-owners-selling-one-co-owner-s-instruction-to-pay-all-the-proceeds-to-her-code-3-1-and-6-2/",
+      "hash": "786a7037315a3ef13147bed4ade1805929d33fb33f7d048f3f4d47c9cb00fe1c",
+      "modified": null
+    },
+    "lib-eth-017": {
+      "route": "/q/lib-eth-017-selling-a-house-on-the-instructions-of-the-owner-s-attorney-under-a-registered-lpa-code-3-1/",
+      "hash": "2aa1bf623e0fd0458927d414a2459658264e1051ee7a214e3b99fab3a8c2138b",
+      "modified": null
+    },
+    "lib-eth-018": {
+      "route": "/q/lib-eth-018-firm-s-own-error-in-a-trust-matter-openness-and-own-interest-conflict-code-6-1-7-11/",
+      "hash": "5f513e0e162407a6cf9d17a444dafd6e9a4b5fa47bb95deab6995e226f55218a",
+      "modified": null
+    },
+    "lib-eth-019": {
+      "route": "/q/lib-eth-019-commission-received-from-an-insurer-on-a-restrictive-covenant-indemnity-policy-code-4-1/",
+      "hash": "97ad60a93b7444176e5af215d493545555a35a3f4a289e63602e67e9f4941325",
+      "modified": null
+    },
+    "lib-eth-020": {
+      "route": "/q/lib-eth-020-acting-for-seller-and-buyer-of-a-flat-where-terms-are-still-to-be-negotiated-code-6-2/",
+      "hash": "2c987d5130f8dcff3e9defac7d3f53a992608e2f2193bf2a68ed4d57d13965b5",
+      "modified": null
+    },
+    "lib-eth-021": {
+      "route": "/q/lib-eth-021-acting-for-buyer-and-lender-when-the-buyer-hides-a-cash-back-from-the-lender-code-1-4-6-2/",
+      "hash": "78d508c51b7655f7076a917ec9cfcc6960c1be50ac7efac1c95ead8dab006d20",
+      "modified": null
+    },
+    "lib-eth-022": {
+      "route": "/q/lib-eth-022-defending-a-client-who-has-privately-admitted-guilt-but-wants-to-plead-not-guilty/",
+      "hash": "e1f4c9077fde003d41a826cd91e5c116c34284a652861e1913b17e40c820f095",
+      "modified": null
+    },
+    "lib-eth-023": {
+      "route": "/q/lib-eth-023-sentencing-where-the-prosecution-wrongly-states-the-client-has-no-previous-convictions/",
+      "hash": "a0441026334ac2f9ec0d39319dfaf72534cc2e427133dfb5c039f051c365f616",
+      "modified": null
+    },
+    "lib-eth-024": {
+      "route": "/q/lib-eth-024-co-defendants-whose-accounts-conflict-acting-for-both-code-6-2-and-6-5/",
+      "hash": "c313860c2254b34cf40523dea1f1d27705b9eb3e6bb42e3f50cf550ab1e61734",
+      "modified": null
+    },
+    "lib-eth-025": {
+      "route": "/q/lib-eth-025-privileged-advice-mistakenly-sent-by-seller-s-solicitor-must-the-buyer-be-told-code-6-4-d/",
+      "hash": "4ec4f487cecec03f58ce5bdbef795b35efdcce0a905f37c0f8bf5d2861c4cf03",
+      "modified": null
+    },
+    "lib-eth-026": {
+      "route": "/q/lib-eth-026-paying-an-agency-for-referrals-of-defendants-awaiting-trial-code-5-1-d/",
+      "hash": "47a1ea7735df9da975ce44daa7d3d0c97dc59d3a043339bfc0e0985f11866faa",
+      "modified": null
+    },
+    "lib-lan-001": {
+      "route": "/q/lib-lan-001-oral-short-lease-at-a-market-rent-creates-a-legal-lease-lpa-1925-s-54-2/",
+      "hash": "ac5b629c1f179db90bbd6fc9c6dabf9e18b8b20552156b7a4d37d1b4a9da6a59",
+      "modified": null
+    },
+    "lib-lan-002": {
+      "route": "/q/lib-lan-002-contract-for-the-sale-of-land-must-be-signed-by-both-parties-lp-mp-a-1989-s-2/",
+      "hash": "a59e884c8bbf19d1be613d0117344e926191f799f47b4bce44691e1eeaf1211c",
+      "modified": null
+    },
+    "lib-lan-003": {
+      "route": "/q/lib-lan-003-chattel-or-part-of-the-land-degree-and-object-of-annexation-elitestone-v-morris/",
+      "hash": "c1ec99e08898983d988964586c285dd272f900ba02973129e25aeeaf760f2296",
+      "modified": null
+    },
+    "lib-lan-004": {
+      "route": "/q/lib-lan-004-first-registration-gift-of-unregistered-land-not-registered-within-two-months-lra-2002-ss-4-6-7/",
+      "hash": "2265fc2d60feadc001e808b6d1fd605825ced7fe39c000a9d57ce8059450a596",
+      "modified": null
+    },
+    "lib-lan-005": {
+      "route": "/q/lib-lan-005-express-easement-over-registered-land-operates-at-law-only-when-registered-lra-2002-s-27/",
+      "hash": "26049b891a20df31105e511c6507e636f90635fd26aa39ce153894da4c1961a9",
+      "modified": null
+    },
+    "lib-lan-006": {
+      "route": "/q/lib-lan-006-protecting-a-beneficial-interest-under-a-trust-of-land-restriction-not-notice-lra-2002-s-33/",
+      "hash": "e5fb327931edc686fe559b8ca35252b18deede04a37f1479d088e8b57f1fae98",
+      "modified": null
+    },
+    "lib-lan-007": {
+      "route": "/q/lib-lan-007-actual-occupation-occupier-who-fails-to-disclose-her-interest-on-inquiry-lra-2002-sch-3-para-2-b/",
+      "hash": "df837ade6bc689ad011e743816b71842af34a134f618b9f2c3e441a98da78cc1",
+      "modified": null
+    },
+    "lib-lan-008": {
+      "route": "/q/lib-lan-008-legal-easement-exercised-within-the-year-before-a-disposition-overrides-lra-2002-sch-3-para-3/",
+      "hash": "8d5d92ace644454c73ffb6cc875ed82699627cb962bdb5037a5087389913cec6",
+      "modified": null
+    },
+    "lib-lan-009": {
+      "route": "/q/lib-lan-009-rectification-against-a-registered-proprietor-in-possession-lra-2002-sch-4/",
+      "hash": "5a0151b7577bfa3a69deb7c2b138d901162932f1b565a2b17f6e4230d3224d37",
+      "modified": null
+    },
+    "lib-lan-010": {
+      "route": "/q/lib-lan-010-unregistered-land-unregistered-estate-contract-void-despite-notice-lca-1972-s-4-6/",
+      "hash": "13c2eeb67b1f58a5db2e8754877577e4e821f3e4b21f83b5c6fa197d41176032",
+      "modified": null
+    },
+    "lib-lan-011": {
+      "route": "/q/lib-lan-011-severance-by-written-notice-then-survivorship-lpa-1925-ss-36-2-196-3/",
+      "hash": "f88785aa9251406959fca73db16ac78bd440658831dc0fecfac72a7d3207da43",
+      "modified": null
+    },
+    "lib-lan-012": {
+      "route": "/q/lib-lan-012-order-for-sale-between-co-owners-tolata-1996-ss-14-and-15-factors/",
+      "hash": "a4090a817a34644c79480cdbea4452274f48dbff9081a676a515ffa44083c559",
+      "modified": null
+    },
+    "lib-lan-013": {
+      "route": "/q/lib-lan-013-trustee-in-bankruptcy-s-application-for-sale-of-the-family-home-after-one-year-ia-1986-s-335a/",
+      "hash": "ab7df5ca1f02873aad3c58950c6fcdf03e0a019b64c7279949d2d8d27ebdeb94",
+      "modified": null
+    },
+    "lib-lan-014": {
+      "route": "/q/lib-lan-014-lease-or-licence-exclusive-possession-for-a-term-at-a-rent-street-v-mountford/",
+      "hash": "9c599c3c2959a39bc65a2b575bb3b16576cbe38e65255ffadd93e32f74cb6930",
+      "modified": null
+    },
+    "lib-lan-015": {
+      "route": "/q/lib-lan-015-certainty-of-term-letting-until-the-land-is-needed-to-a-company-berrisford-v-mexfield/",
+      "hash": "5bc0a510a9263970e926ef064b5f8cd383b3c7ec80c04849bb8359fc696dc296",
+      "modified": null
+    },
+    "lib-lan-016": {
+      "route": "/q/lib-lan-016-post-1995-lease-original-tenant-released-on-assignment-lt-c-a-1995-s-5/",
+      "hash": "68b4ecdeb979be1c64f7de894355f659e8dbfe52ec9f55b086f6f60ee363fe5b",
+      "modified": null
+    },
+    "lib-lan-017": {
+      "route": "/q/lib-lan-017-forfeiture-for-breach-of-a-covenant-other-than-rent-section-146-notice-first-lpa-1925-s-146/",
+      "hash": "1c785502fdf3720ddfb30c0ba880c62deefbb4b39012afd85f3a70907e1bcf9f",
+      "modified": null
+    },
+    "lib-lan-018": {
+      "route": "/q/lib-lan-018-easements-the-right-must-accommodate-the-dominant-land-re-ellenborough-park/",
+      "hash": "6604efcab9d941db1b6e3a5fc528a6161c0e761d78983c48a79f3d05bb12412e",
+      "modified": null
+    },
+    "lib-lan-019": {
+      "route": "/q/lib-lan-019-section-62-lpa-1925-a-tenant-s-permissive-right-becomes-an-easement-on-sale-of-the-freehold/",
+      "hash": "0ce9c0cf843e631e2e734ff9c7208520846353ec79e6731bbf50b4a182009e7e",
+      "modified": null
+    },
+    "lib-lan-020": {
+      "route": "/q/lib-lan-020-implied-easement-under-the-rule-in-wheeldon-v-burrows-on-a-sale-of-part/",
+      "hash": "118ad3f2cb02053d68c14fc5e063230cf06991c47a5be1e4cb47c27f54aa20df",
+      "modified": null
+    },
+    "lib-lan-021": {
+      "route": "/q/lib-lan-021-burden-of-a-restrictive-freehold-covenant-runs-in-equity-tulk-v-moxhay/",
+      "hash": "461181950826baa918c247941eb98a49fc333107c698dcd4a90c23dcbd7a3ec2",
+      "modified": null
+    },
+    "lib-lan-022": {
+      "route": "/q/lib-lan-022-purchaser-from-a-mortgagee-protected-despite-irregular-exercise-of-power-of-sale-lpa-s-104-2/",
+      "hash": "b0f004825cae36a90cbb6099a5777841d11ace521c09342ee6f50d80266a2f2b",
+      "modified": null
+    },
+    "lib-lan-023": {
+      "route": "/q/lib-lan-023-mortgagee-s-duty-on-sale-timing-is-for-the-mortgagee-true-market-value-at-sale-silven/",
+      "hash": "242819a0f27eac6a7de2e7fe17386b429ed48dbb47746fc70177b56fc57ea02e",
+      "modified": null
+    },
+    "lib-lan-024": {
+      "route": "/q/lib-lan-024-court-s-power-to-adjourn-or-suspend-mortgage-possession-of-a-dwelling-house-aja-1970-s-36/",
+      "hash": "e4f1cb0f3c687a49ad77180d97c748fb76d159c2e7147264d965d70554242240",
+      "modified": null
+    },
+    "lib-lan-025": {
+      "route": "/q/lib-lan-025-priority-of-registered-charges-the-order-shown-on-the-register-lra-2002-s-48/",
+      "hash": "ab4d1676288fc167f919202c91784b32ac164a5866a028c470a523f8a809bca9",
+      "modified": null
+    },
+    "lib-ls-001": {
+      "route": "/q/lib-ls-001-conflict-between-sra-principles-the-wider-public-interest-prevails-over-the-client-s-interests/",
+      "hash": "5127a58766a9e33a00ab90596aef4baac57d2aa772c9906112510856bc1233b8",
+      "modified": null
+    },
+    "lib-ls-002": {
+      "route": "/q/lib-ls-002-reserved-instrument-activities-land-registry-transfer-v-wills-and-powers-of-attorney-lsa-sch-2/",
+      "hash": "3f4a5182a5a8cb1b156143776631a54776f793baf0631b34f3f1e8ab9287837c",
+      "modified": null
+    },
+    "lib-ls-003": {
+      "route": "/q/lib-ls-003-admitting-a-non-lawyer-member-to-a-law-firm-llp-makes-it-a-licensable-body-lsa-2007-s-72/",
+      "hash": "773064a0e61a42d45e6daa88706730233a51a05616887362b263fccbac0d8395",
+      "modified": null
+    },
+    "lib-ls-004": {
+      "route": "/q/lib-ls-004-closing-a-firm-with-no-successor-six-years-run-off-cover-under-the-sra-minimum-terms/",
+      "hash": "e6bd9ce852b83cf8099dbd166dbc9dced373d3bc09198a66c61c2407108398f3",
+      "modified": null
+    },
+    "lib-ls-005": {
+      "route": "/q/lib-ls-005-sra-transparency-rules-which-advertised-service-requires-published-cost-information/",
+      "hash": "6e2decf132080da3fd5613016310e7dfca79b17140344afa5c3fabfd3cee545b",
+      "modified": null
+    },
+    "lib-ls-006": {
+      "route": "/q/lib-ls-006-equality-act-2010-no-charging-a-disabled-client-for-a-reasonable-adjustment-s-20-7/",
+      "hash": "abc428e14e5531440631d647b175829420c449d88c342bceb5668cc66455d68e",
+      "modified": null
+    },
+    "lib-ls-007": {
+      "route": "/q/lib-ls-007-savings-built-up-from-tax-evasion-are-criminal-property-poca-2002-s-340/",
+      "hash": "1987cc9151b1d834f36bac2696bf1d05fe9c7318021e3e9b24f198f436eb7884",
+      "modified": null
+    },
+    "lib-ls-008": {
+      "route": "/q/lib-ls-008-conducting-and-settling-litigation-is-not-a-s-328-poca-arrangement-bowman-v-fels/",
+      "hash": "a8e38352c52f05b2fe9c59eb0c75c0f0ff1b94ade2f28239005b4067609416d5",
+      "modified": null
+    },
+    "lib-ls-009": {
+      "route": "/q/lib-ls-009-failure-to-disclose-poca-s-330-no-privilege-for-information-given-to-further-a-crime/",
+      "hash": "04c0b2eeacd3290b7299a90caa10bdf48df54a16db356d81e7064b2e8bc6e40c",
+      "modified": null
+    },
+    "lib-ls-010": {
+      "route": "/q/lib-ls-010-tipping-off-telling-a-client-of-a-report-to-dissuade-an-offence-poca-ss-333a-and-333d-2/",
+      "hash": "1e11ccde2fa59d6bf53e30fc4fedf6965eb0dde782178fbfc9e73a7802e28945",
+      "modified": null
+    },
+    "lib-ls-011": {
+      "route": "/q/lib-ls-011-deemed-consent-after-a-daml-the-seven-working-day-notice-period-poca-s-335/",
+      "hash": "b5158402c6799b8018cfdd108db0136ffaa772e9aad30027ab3f0b05a1b2dee2",
+      "modified": null
+    },
+    "lib-ls-012": {
+      "route": "/q/lib-ls-012-domestic-politically-exposed-persons-enhanced-due-diligence-still-required-mlr-2017-reg-35/",
+      "hash": "36e65bea8bf7c401b2392449343585f7ba533146d3c20e217a9a2d88f9c3b9ce",
+      "modified": null
+    },
+    "lib-ls-013": {
+      "route": "/q/lib-ls-013-beneficial-owners-of-a-company-client-individuals-holding-more-than-25-mlr-2017-reg-5/",
+      "hash": "f24229eacc3fb3d4334f3c60f56ee46a026aeae70c84ba12455df944dd8ab6ac",
+      "modified": null
+    },
+    "lib-ls-014": {
+      "route": "/q/lib-ls-014-breach-of-the-general-prohibition-agreement-unenforceable-against-the-client-fsma-s-26/",
+      "hash": "8d8e22b0803cc2eb751bbd0f08f8d44a86eb3f5952c5ad4187b7950c13f52bc6",
+      "modified": null
+    },
+    "lib-ls-015": {
+      "route": "/q/lib-ls-015-recognising-a-specified-investment-company-shares-v-land-and-goods-rao-art-76/",
+      "hash": "eb773698643ffb47d29bfc5639dc6a83d7fd17349c16037f59a35db5cd702626",
+      "modified": null
+    },
+    "lib-ls-016": {
+      "route": "/q/lib-ls-016-introducing-a-client-to-an-independent-financial-adviser-the-introducing-exclusion-rao-art-33/",
+      "hash": "012b3813f50d37cc152801562f9eda3a249a72efd548941aefda29d6eea983ef",
+      "modified": null
+    },
+    "lib-ls-017": {
+      "route": "/q/lib-ls-017-commission-and-the-part-20-exemption-accounting-to-the-client-fsma-2000-s-327-3/",
+      "hash": "1fa13bc3131bc992bc48ef8078d1e075b394bb958a63173c3757322389116fc8",
+      "modified": null
+    },
+    "lib-ls-018": {
+      "route": "/q/lib-ls-018-sra-financial-services-scope-rules-acting-as-nominated-adviser-on-an-aim-admission-is-prohibited/",
+      "hash": "8dff938b8f03e3846ea87cb5d9b542c9d7678f231b01cbffd3622ce47b0c6624",
+      "modified": null
+    },
+    "lib-ls-019": {
+      "route": "/q/lib-ls-019-personal-injury-cfa-success-fee-capped-at-25-of-damages-excluding-future-loss-2013-order/",
+      "hash": "b6dffd53c9378e2f5e58900838d29a63c4ac45e4dec3459cadfc01fa068e038c",
+      "modified": null
+    },
+    "lib-ls-020": {
+      "route": "/q/lib-ls-020-cfa-success-fees-are-not-recoverable-from-the-losing-opponent-clsa-1990-s-58a-6/",
+      "hash": "85862d41812375764fdd5e737cbc97f3db4af8f86819791980f770517ca833f0",
+      "modified": null
+    },
+    "lib-ls-021": {
+      "route": "/q/lib-ls-021-damages-based-agreements-in-employment-claims-the-35-cap-including-vat-dba-regs-reg-7/",
+      "hash": "d0a1f6753a99344792850a2b4549b5a84277f3a59902f71f6989a8dd1665508e",
+      "modified": null
+    },
+    "lib-ls-022": {
+      "route": "/q/lib-ls-022-civil-legal-aid-scope-possession-of-the-client-s-home-v-excluded-services-laspo-sch-1/",
+      "hash": "536a6892ddb325e2c077370d5cceccccf6ca8cdf0a1c032a2c06591e8da2051a",
+      "modified": null
+    },
+    "lib-ls-023": {
+      "route": "/q/lib-ls-023-legal-expenses-insurance-checking-for-before-the-event-cover-at-the-outset-sarwar-v-alam/",
+      "hash": "24e199be1ada7ae6b9a1fb9c5e6a3f1155dbcf4332d0d973347162d5311a3ce5",
+      "modified": null
+    },
+    "lib-ppl-001": {
+      "route": "/q/lib-ppl-001-acting-for-both-seller-and-buyer-of-a-residential-property-sra-code-of-conduct-para-6-2/",
+      "hash": "67666fc99ac8ed2a795b98430515e11d9dea3bf7093d5a8e7a2a6405f89e7858",
+      "modified": null
+    },
+    "lib-ppl-002": {
+      "route": "/q/lib-ppl-002-form-a-restriction-and-a-sale-by-a-surviving-co-owner-registered-title/",
+      "hash": "ceec070f576c7162808f353acd53a5c15da6bd784f848f144705512b88aa5fc6",
+      "modified": null
+    },
+    "lib-ppl-003": {
+      "route": "/q/lib-ppl-003-length-of-title-an-unregistered-seller-must-deduce-lpa-1969-s-23/",
+      "hash": "d7947d99f84f7b8594d1f65f3eb1e25228d4073576bd6e848f2931f4f9fcbba2",
+      "modified": null
+    },
+    "lib-ppl-004": {
+      "route": "/q/lib-ppl-004-planning-enforcement-time-limit-for-unauthorised-building-works-in-england-tcpa-1990-s-171b/",
+      "hash": "09f2e46df0132e7cc2dcb6c3f59206c13b81b379c38c4ba74d868534e3e5da67",
+      "modified": null
+    },
+    "lib-ppl-005": {
+      "route": "/q/lib-ppl-005-change-of-use-within-use-class-e-is-not-development-tcpa-1990-s-55-2-f/",
+      "hash": "0da8606f3c3144b1555691f0c0279f413c035bb1ebbe5c7fc80ee1bbb28c6b6e",
+      "modified": null
+    },
+    "lib-ppl-006": {
+      "route": "/q/lib-ppl-006-using-the-buyer-s-deposit-on-the-seller-s-related-purchase-scs-5th-ed-condition-2-2-5/",
+      "hash": "66cbc8b633aa4b159ad79c287ce7a2ecfc192c994ef02fb5138b9369eb4bd3cf",
+      "modified": null
+    },
+    "lib-ppl-007": {
+      "route": "/q/lib-ppl-007-risk-of-damage-between-exchange-and-completion-scs-5th-ed-condition-5-1-1/",
+      "hash": "86b68269ecdb54f8e819b0a82b358a5bd4544f1a7724892313790e11c58a0b9c",
+      "modified": null
+    },
+    "lib-ppl-008": {
+      "route": "/q/lib-ppl-008-calculating-contractual-compensation-for-late-completion-scs-5th-ed-condition-7-2/",
+      "hash": "f2af631181f57b38337414f0790fb4e22ae1d715533a25a4ea8fcf5d798bef82",
+      "modified": null
+    },
+    "lib-ppl-009": {
+      "route": "/q/lib-ppl-009-execution-of-a-transfer-deed-by-a-company-with-a-sole-director-companies-act-2006-s-44/",
+      "hash": "ce0e1af1f13e308a607725c588af248164e877764ac2e3bf044e705e5f42d595",
+      "modified": null
+    },
+    "lib-ppl-010": {
+      "route": "/q/lib-ppl-010-failure-to-apply-for-first-registration-within-two-months-lra-2002-ss-6-and-7/",
+      "hash": "93dc2f9b9f76985ce8e6260c35b3b601280779af425df8e10bd233b499ff0eeb",
+      "modified": null
+    },
+    "lib-ppl-011": {
+      "route": "/q/lib-ppl-011-sdlt-on-a-residential-purchase-above-the-first-time-buyers-relief-limit/",
+      "hash": "b41b4cd10dbefdb8a6371e16762c4924872c534858bb2a9f459d0ca5d72fc5ee",
+      "modified": null
+    },
+    "lib-ppl-012": {
+      "route": "/q/lib-ppl-012-deadline-for-the-sdlt-return-and-payment-after-completion-fa-2003-ss-76-and-86/",
+      "hash": "04aac25463f74f337d26a80302bf0566f283ec0ad4ecd59376cfcb7aad2ae27e",
+      "modified": null
+    },
+    "lib-ppl-013": {
+      "route": "/q/lib-ppl-013-land-transaction-tax-return-for-a-purchase-in-wales-ltta-2017-s-44/",
+      "hash": "4073f1c51c2035ab5ffafcf248649c7c2c437a764e31c012b392958b6d0b18a0",
+      "modified": null
+    },
+    "lib-ppl-014": {
+      "route": "/q/lib-ppl-014-landlord-s-statutory-duties-on-an-application-for-consent-to-assign-lta-1988-ss-1-and-4/",
+      "hash": "c9c3fa07f5df39706a3e90dfb79ddb1136368b6d94940571a35b2223eaa9c9dc",
+      "modified": null
+    },
+    "lib-ppl-015": {
+      "route": "/q/lib-ppl-015-pre-agreed-aga-condition-in-a-post-1995-commercial-lease-lta-1927-s-19-1a/",
+      "hash": "d98cd1771ec7b073a26f89fdf45579293b94d283a669e68a8ebb2f8e0c15c13a",
+      "modified": null
+    },
+    "lib-ppl-016": {
+      "route": "/q/lib-ppl-016-cap-on-damages-for-breach-of-a-tenant-s-repairing-covenant-lta-1927-s-18-1/",
+      "hash": "f084044048d25f542f0d019ed58dd386653dfeeaa1272e1cd2543067fe88ceb3",
+      "modified": null
+    },
+    "lib-ppl-017": {
+      "route": "/q/lib-ppl-017-contracting-out-of-lta-1954-security-of-tenure-when-the-warning-notice-is-served-late-s-38a/",
+      "hash": "34c262d0563f4f3ff8cc0aa46a74416afc8986b715720cdf6c64c387396ded66",
+      "modified": null
+    },
+    "lib-ppl-018": {
+      "route": "/q/lib-ppl-018-landlord-s-response-to-a-tenant-s-section-26-request-lta-1954-s-26/",
+      "hash": "1bdbb1591f39bd91198521ebf03c8d2690d128f675269f3022fe818ed3e0f3c3",
+      "modified": null
+    },
+    "lib-ppl-019": {
+      "route": "/q/lib-ppl-019-statutory-compensation-when-renewal-is-refused-on-ground-f-only-lta-1954-s-37/",
+      "hash": "edcf690b2236ed97c863520176f6b7bc0de78e4e3cf153c09de3dad4ec1e9bf4",
+      "modified": null
+    },
+    "lib-ppl-020": {
+      "route": "/q/lib-ppl-020-vat-on-the-sale-of-an-opted-commercial-building-under-the-scpc-condition-2/",
+      "hash": "fb44980365e4563b27d2e0b31b5c13381b2211a1697654a470aa51c3e819b0cf",
+      "modified": null
+    },
+    "lib-ppl-021": {
+      "route": "/q/lib-ppl-021-private-residence-relief-on-a-former-home-later-let-tcga-1992-s-223/",
+      "hash": "79d8ac3b2cf9ec84ff10667ff2f93c9e85e0bece100293ae7f246299054e8cc2",
+      "modified": null
+    },
+    "lib-sa-001": {
+      "route": "/q/lib-sa-001-interest-on-estate-money-held-in-client-account-during-an-administration-rule-7/",
+      "hash": "d699581b67ef611c95a787c3ede680c34835b9f7b8fe76977b621c06789a8d58",
+      "modified": null
+    },
+    "lib-sa-002": {
+      "route": "/q/lib-sa-002-paying-out-more-than-is-held-for-an-estate-client-and-replacing-the-shortfall-rules-5-3-and-6-1/",
+      "hash": "deaf66bf7c8c7a1ceb939ee6d6ca8e63887a881bd0930720e480c143d7560df8",
+      "modified": null
+    },
+    "lib-sa-003": {
+      "route": "/q/lib-sa-003-residual-balance-of-500-or-less-after-an-estate-is-distributed-payment-to-charity/",
+      "hash": "5849625c72b03c9ec1f48e7d2bd90a12c7b18b1c35ed1e2fd2d514c750103c7e",
+      "modified": null
+    },
+    "lib-sa-004": {
+      "route": "/q/lib-sa-004-estate-money-in-a-joint-account-with-a-lay-executor-which-accounts-rules-apply-rules-9-and-12/",
+      "hash": "6dc5ad1259f6b63f7b26e07c106be5a2a04e8769d7610873ba65bd94d21a546b",
+      "modified": null
+    },
+    "lib-sa-005": {
+      "route": "/q/lib-sa-005-deposit-received-as-stakeholder-on-exchange-is-client-money-rule-2-1-b/",
+      "hash": "876dc98ed58caea934d633aef02a6b8571ce3d5f7887aac43c82c086b362b883",
+      "modified": null
+    },
+    "lib-sa-006": {
+      "route": "/q/lib-sa-006-mixed-payment-from-a-buyer-client-covering-completion-money-and-a-delivered-bill-rule-4-2/",
+      "hash": "c1b4f92fb93ae1f874c8d3dfa55139667a5d2ea1f5cf63218f8a90d324fae6ef",
+      "modified": null
+    },
+    "lib-sa-007": {
+      "route": "/q/lib-sa-007-accountant-s-report-exemption-both-the-average-and-maximum-balance-limits-must-be-met-rule-12-2/",
+      "hash": "bb3d2afd5808fce9262bbed7dac3ca69659b49f51c7f1ef440e3e62bd6ff5a47",
+      "modified": null
+    },
+    "lib-sys-001": {
+      "route": "/q/lib-sys-001-status-of-privy-council-decisions-in-the-courts-of-england-and-wales-willers-v-joyce/",
+      "hash": "1188a2c02537672d86182300d42f9ad62e80c5654d307506dff4e778474ec113",
+      "modified": null
+    },
+    "lib-sys-002": {
+      "route": "/q/lib-sys-002-when-an-act-with-no-commencement-provision-comes-into-force-interpretation-act-1978-s-4/",
+      "hash": "84c000c073ca986cb61729a52221a92e446e04fd95be5cbdd9c099c2cad49e18",
+      "modified": null
+    },
+    "lib-sys-003": {
+      "route": "/q/lib-sys-003-using-explanatory-notes-and-law-commission-reports-as-aids-to-interpretation-r-o-v-sshd/",
+      "hash": "e457ad2c6b0fb153b4fcf6f0c4bab2debbfb8d025412cfa70e75f2b2de64b4fb",
+      "modified": null
+    },
+    "lib-sys-004": {
+      "route": "/q/lib-sys-004-purposive-interpretation-and-developments-parliament-did-not-foresee-quintavalle/",
+      "hash": "caf9c0561b84e0f63599397e231dfa5461e1ab8ee718d467f21f37a8c69c0e01",
+      "modified": null
+    },
+    "lib-sys-005": {
+      "route": "/q/lib-sys-005-presumption-of-mens-rea-where-a-statutory-offence-is-silent-b-v-dpp/",
+      "hash": "71b22065281c68aa20077c63c69898d6d65e36994f946e3de628021da13298f2",
+      "modified": null
+    },
+    "lib-sys-006": {
+      "route": "/q/lib-sys-006-bilingual-acts-of-senedd-cymru-equal-status-of-the-welsh-and-english-texts/",
+      "hash": "3d7ec42bd7908a6f9aff183f78b23606f2870922127af2c3524decc550a179e3",
+      "modified": null
+    },
+    "lib-sys-007": {
+      "route": "/q/lib-sys-007-senedd-cymru-legislative-competence-provisions-applying-in-relation-to-england-gowa-2006-s-108a/",
+      "hash": "de2cfd7ccac382e41ae2149f69b9849cfb33c571d4a1dc1fd96890824acae2c9",
+      "modified": null
+    },
+    "lib-sys-008": {
+      "route": "/q/lib-sys-008-rights-of-audience-a-litigant-in-person-and-a-lay-friend-legal-services-act-2007/",
+      "hash": "d46b5ab21ee9f1271f1bd217e42318ce9e734826ebda51d6856068d9307a310c",
+      "modified": null
+    },
+    "lib-sys-009": {
+      "route": "/q/lib-sys-009-ministers-and-judicial-independence-constitutional-reform-act-2005-s-3/",
+      "hash": "529990bf5ba028610c1f30214a25e3a1dfa302d87ddee1a245e2b271c3179cd3",
+      "modified": null
+    },
+    "lib-sys-010": {
+      "route": "/q/lib-sys-010-constitutional-statutes-and-implied-repeal-thoburn-v-sunderland-city-council/",
+      "hash": "db47445ef3015223df707ff3b32449e7d52a78e9511abfdac09d6185fc04608f",
+      "modified": null
+    },
+    "lib-sys-011": {
+      "route": "/q/lib-sys-011-prerogative-power-and-statute-covering-the-same-ground-de-keyser-principle-miller/",
+      "hash": "b6115c0b6e2c766c4c6b7077b497681395dcff32143b55ab00f7e3cc0cf2ec47",
+      "modified": null
+    },
+    "lib-sys-012": {
+      "route": "/q/lib-sys-012-legal-status-of-the-sewel-convention-for-wales-gowa-2006-s-107-6-and-miller/",
+      "hash": "3da493fb05543a1f109b1f9f090437ae600b2257b4435bf65afd7523ad9656f8",
+      "modified": null
+    },
+    "lib-sys-013": {
+      "route": "/q/lib-sys-013-parliamentary-privilege-and-prosecution-of-mps-for-false-expenses-claims-r-v-chaytor/",
+      "hash": "9c72e389bd398c5c4697a832fc4b192f0a20ccdbf8e9ad50ab45eaae9a2ae6b5",
+      "modified": null
+    },
+    "lib-sys-014": {
+      "route": "/q/lib-sys-014-advance-notice-of-a-public-procession-public-order-act-1986-s-11/",
+      "hash": "2d777cffcff587adf94aedef12f015b7b29d1f122eee9cbd6bbf465c25582799",
+      "modified": null
+    },
+    "lib-sys-015": {
+      "route": "/q/lib-sys-015-breach-of-the-peace-definition-and-the-power-to-prevent-an-imminent-breach/",
+      "hash": "676ff50f3072830a111e99888580c0f4352916aacc6c624155456f2704e08393",
+      "modified": null
+    },
+    "lib-sys-016": {
+      "route": "/q/lib-sys-016-refusing-jr-relief-where-the-outcome-would-not-be-substantially-different-sca-1981-s-31-2a/",
+      "hash": "f91af693617f89a18e023b1f5304375d93db6675e410fd94af98595701f4a1f2",
+      "modified": null
+    },
+    "lib-sys-017": {
+      "route": "/q/lib-sys-017-substantive-legitimate-expectation-and-whether-detrimental-reliance-is-required-re-finucane/",
+      "hash": "66964a64e61444ee1c653380e2dfb7830076eb668b063505b795d3c9b40ee9a1",
+      "modified": null
+    },
+    "lib-sys-018": {
+      "route": "/q/lib-sys-018-who-may-bring-a-human-rights-act-claim-and-when-hra-1998-s-7/",
+      "hash": "63f643671956cf34a96c646c76be393f93c904e40d5c76f13d07a9716c771531",
+      "modified": null
+    },
+    "lib-sys-019": {
+      "route": "/q/lib-sys-019-effect-of-strasbourg-case-law-in-domestic-courts-hra-1998-s-2/",
+      "hash": "bb12e8b248ae1946712d37effbfac6884d21be464987399e097ce877a690eaf1",
+      "modified": null
+    },
+    "lib-sys-020": {
+      "route": "/q/lib-sys-020-conflict-between-assimilated-eu-legislation-and-an-act-of-parliament-after-2023-euwa-2018-s-5/",
+      "hash": "b1f67e3e4f523ae14de0f4c59bd4d87ad7a14fcf49aebe9b0df0b79588b9abc9",
+      "modified": null
+    },
+    "lib-tor-001": {
+      "route": "/q/lib-tor-001-police-duty-of-care-for-positive-acts-during-an-arrest-robinson-v-cc-west-yorkshire/",
+      "hash": "06091720feae96304891649ec7b413c7ded75d53bed6f82401eb0e3587d3de84",
+      "modified": null
+    },
+    "lib-tor-002": {
+      "route": "/q/lib-tor-002-the-omissions-principle-when-a-duty-to-prevent-harm-arises/",
+      "hash": "0dec2ed9238e49ce1bfb18ba27e34e632d6eeba09c088184894865c1cf74db93",
+      "modified": null
+    },
+    "lib-tor-003": {
+      "route": "/q/lib-tor-003-objective-standard-of-care-for-a-defendant-with-mental-illness-dunnage-v-randall/",
+      "hash": "9835c49213ecc8d15709caf0b1204deff863d6261b0dbfb5d43c272d3fa7062a",
+      "modified": null
+    },
+    "lib-tor-004": {
+      "route": "/q/lib-tor-004-professional-standard-and-disclosure-of-material-risks-montgomery-v-lanarkshire-health-board/",
+      "hash": "09116a10559718be9ef71cb9e985a1cf82852d8a6244bd520bded19e21c0146f",
+      "modified": null
+    },
+    "lib-tor-005": {
+      "route": "/q/lib-tor-005-mesothelioma-and-multiple-employers-joint-and-several-liability-compensation-act-2006-s-3/",
+      "hash": "3376e3e8b156b28f3d5dafa6b9d6c2afd1c87a13f593f2c8c57acde9dc9fa4c0",
+      "modified": null
+    },
+    "lib-tor-006": {
+      "route": "/q/lib-tor-006-pure-economic-loss-caused-by-a-negligent-act-power-cut-damages-calculation-spartan-steel/",
+      "hash": "44b9077dc4b62d9bb45f00c0f17db3260a45783a37f4057c4bdd89d9c7d6fd11",
+      "modified": null
+    },
+    "lib-tor-007": {
+      "route": "/q/lib-tor-007-negligent-misstatement-by-a-solicitor-to-the-opposite-party-steel-v-nram/",
+      "hash": "9a13f01155cee054f94e1e6f7b59c4fd5462c91c973ac9b16c3aee3875f11426",
+      "modified": null
+    },
+    "lib-tor-008": {
+      "route": "/q/lib-tor-008-disclaimer-of-liability-for-negligent-advice-to-a-non-client-business-ucta-1977-ss-2-2-11-3-13/",
+      "hash": "8aea28b6687526a8ce30f6c5005db137600ee45bb94dcfe563ec5e335b77edae",
+      "modified": null
+    },
+    "lib-tor-009": {
+      "route": "/q/lib-tor-009-rescuers-and-primary-victim-status-in-psychiatric-injury-claims/",
+      "hash": "2021a44626da532b21b8b9006a9a48839e27cbce1656429304f65aacb9e6f9c8",
+      "modified": null
+    },
+    "lib-tor-010": {
+      "route": "/q/lib-tor-010-remoteness-foreseeability-of-the-type-of-harm-not-the-precise-manner-jolley-v-sutton-lbc/",
+      "hash": "8e07811def081796cb1c3d3ebc62eef0326f5160482e0836f257d7d98198a4a5",
+      "modified": null
+    },
+    "lib-tor-011": {
+      "route": "/q/lib-tor-011-what-the-estate-can-recover-law-reform-miscellaneous-provisions-act-1934-s-1/",
+      "hash": "34f27bd4277ab1a72cc20dd7b4fe2d10d7e4e03f2612026ed131945dc2c30fa0",
+      "modified": null
+    },
+    "lib-tor-012": {
+      "route": "/q/lib-tor-012-who-may-claim-bereavement-damages-under-the-fatal-accidents-act-1976-s-1a/",
+      "hash": "8d3f6f5634b756bb2f3aeee183a36c363a526bd6fb49c11090c92d55f3c1352b",
+      "modified": null
+    },
+    "lib-tor-013": {
+      "route": "/q/lib-tor-013-effect-of-contributory-negligence-on-damages-law-reform-contributory-negligence-act-1945-s-1/",
+      "hash": "4cc1f2c7d470e19da2b8527406b59611c77843fff28bdfdec8ee2dca7152f53b",
+      "modified": null
+    },
+    "lib-tor-014": {
+      "route": "/q/lib-tor-014-volenti-and-passengers-in-motor-vehicles-road-traffic-act-1988-s-149/",
+      "hash": "c2247704eacd4daf4ed0aba32550f0c1a8d37ba42d4258c31b0e93c59d47def0",
+      "modified": null
+    },
+    "lib-tor-015": {
+      "route": "/q/lib-tor-015-illegality-losses-flowing-from-the-claimant-s-own-crime-henderson-v-dorset-healthcare/",
+      "hash": "17f1a174491d73e1ef98d107b89e8ac03ecaff96465858658aa4806680670636",
+      "modified": null
+    },
+    "lib-tor-016": {
+      "route": "/q/lib-tor-016-defective-work-equipment-due-to-a-third-party-employer-s-liability-defective-equipment-act-1969/",
+      "hash": "844c1c9952ce56c4fe2af15a3f145da5891ef3f95aa1584e4fcdaa92e7fc7044",
+      "modified": null
+    },
+    "lib-tor-017": {
+      "route": "/q/lib-tor-017-vicarious-liability-stage-one-independent-contractors-barclays-bank-v-various-claimants/",
+      "hash": "c544af7321956d3e1f060df092747ecab88564d8aa8195ac5463126ffa768026",
+      "modified": null
+    },
+    "lib-tor-018": {
+      "route": "/q/lib-tor-018-vicarious-liability-stage-two-close-connection-and-an-assault-on-a-customer-mohamud-v-wm-morrison/",
+      "hash": "582ee0cf9cc41b4f2a80a8379b651d2decfa5cc7c2f170c1b174feaf95db8201",
+      "modified": null
+    },
+    "lib-tor-019": {
+      "route": "/q/lib-tor-019-occupier-s-liability-for-a-contractor-s-faulty-work-occupiers-liability-act-1957-s-2-4-b/",
+      "hash": "30c29fe5144aaae4991df40959b603be0a410fadc0197e32718768781fc46308",
+      "modified": null
+    },
+    "lib-tor-020": {
+      "route": "/q/lib-tor-020-obvious-risks-and-freely-chosen-dangerous-activities-tomlinson-v-congleton-bc/",
+      "hash": "520b4257b13496625c435b0672c92a7bd6b0e324e5c482f77168d70ac90185a4",
+      "modified": null
+    },
+    "lib-tor-021": {
+      "route": "/q/lib-tor-021-excluding-liability-for-personal-injury-to-a-consumer-visitor-consumer-rights-act-2015-s-65/",
+      "hash": "b2a8b5e6f5949a8d4cdd5f98b1cc4980db010b19842047dea8dda5af3ab97940",
+      "modified": null
+    },
+    "lib-tor-022": {
+      "route": "/q/lib-tor-022-who-is-liable-for-a-defective-product-under-the-consumer-protection-act-1987-s-2/",
+      "hash": "e6a6c7ae4718d9db506fb41c9b4f5dfe3b51166cfd10f62a49390c97f25d0c26",
+      "modified": null
+    },
+    "lib-tor-023": {
+      "route": "/q/lib-tor-023-who-can-sue-in-private-nuisance-an-interest-in-land-is-required-hunter-confirmed-in-fearn-v-tate/",
+      "hash": "2f1c2936f6e8e6fd5a82061ce07a5805abace68dace7fba5a3d1b06919c3d404",
+      "modified": null
+    },
+    "lib-tor-024": {
+      "route": "/q/lib-tor-024-defences-in-private-nuisance-coming-to-the-nuisance-and-planning-permission-coventry-v-lawrence/",
+      "hash": "1300f638b11c5e0280c41babd96cc2637159c019d9d7507fb459fc1a572e9f37",
+      "modified": null
+    },
+    "lib-tor-025": {
+      "route": "/q/lib-tor-025-rylands-v-fletcher-strict-liability-for-property-damage-but-not-personal-injury/",
+      "hash": "65a03ce652fa08f055154fa2e9df6cd684c6e682a5561c73713429af5cf8e96b",
+      "modified": null
+    },
+    "lib-tru-001": {
+      "route": "/q/lib-tru-001-certainty-of-subject-matter-unallocated-generic-goods-re-goldcorp/",
+      "hash": "b1d68d1b5384917b6e12510f6643a5d0a67731f1fb126ba5e3a1c22b1a00e1b0",
+      "modified": null
+    },
+    "lib-tru-002": {
+      "route": "/q/lib-tru-002-certainty-of-objects-for-a-discretionary-trust-the-is-or-is-not-test/",
+      "hash": "771d6ee6f4bd335a6461b5a575c058b4217050279df53176c46ad108f5f9b5a4",
+      "modified": null
+    },
+    "lib-tru-003": {
+      "route": "/q/lib-tru-003-oral-declaration-of-trust-of-land-lpa-1925-s-53-1-b/",
+      "hash": "e0233a68c1ee77dc1cdaf6e6c1915eebaad42d6e68cc3b8ddeafb20f9ab3b869",
+      "modified": null
+    },
+    "lib-tru-004": {
+      "route": "/q/lib-tru-004-oral-direction-to-trustees-to-hold-for-another-s-53-1-c-lpa-1925/",
+      "hash": "83f4e417f91414c54e16ec065720d62d4f62f74415f0ff9c23b767b9b49c2239",
+      "modified": null
+    },
+    "lib-tru-005": {
+      "route": "/q/lib-tru-005-imperfect-gift-of-shares-not-saved-as-a-declaration-of-trust-milroy-v-lord/",
+      "hash": "ee707f1629cd8253d47780a0e42059e6f7e2abd52547fa8df3c78bf594fbf470",
+      "modified": null
+    },
+    "lib-tru-006": {
+      "route": "/q/lib-tru-006-the-rule-in-re-rose-donor-has-done-everything-in-their-power/",
+      "hash": "9a29e28ca7e5de8ec66612e6c79ed2260ec5e2c4d1efc1290ec3679e743e8edb",
+      "modified": null
+    },
+    "lib-tru-007": {
+      "route": "/q/lib-tru-007-imperfect-gift-perfected-by-appointment-as-executor-strong-v-bird/",
+      "hash": "f15f56e23efa8b473915d538e14343ef971319188c93b992e43d78d15ad029a5",
+      "modified": null
+    },
+    "lib-tru-008": {
+      "route": "/q/lib-tru-008-gift-to-a-trust-where-the-donor-is-one-of-several-trustees-choithram-v-pagarani/",
+      "hash": "4bf5c56fd200f469fac75e7ac63039b8dabf3776c6ce18c3ee1deea145b72908",
+      "modified": null
+    },
+    "lib-tru-009": {
+      "route": "/q/lib-tru-009-charitable-purposes-identifying-a-valid-charitable-trust-charities-act-2011/",
+      "hash": "b08d6afbb42ca9dc006ec2d6593fe02ef649bbbebdd5d2c7bfc389866d5badcb",
+      "modified": null
+    },
+    "lib-tru-010": {
+      "route": "/q/lib-tru-010-automatic-resulting-trust-where-express-trusts-do-not-exhaust-the-beneficial-interest/",
+      "hash": "1e5c5e75c2b6da2bc3e97c801e4ab2030fd6ad781a051e114a1586d2c746ec9e",
+      "modified": null
+    },
+    "lib-tru-011": {
+      "route": "/q/lib-tru-011-presumed-resulting-trust-purchase-money-provided-by-another/",
+      "hash": "9f12e4eb6dbd70b68a09c93df360da3f59a124f2d144d907e15b859070b20dda",
+      "modified": null
+    },
+    "lib-tru-012": {
+      "route": "/q/lib-tru-012-family-home-in-joint-names-the-starting-point-stack-v-dowden-jones-v-kernott/",
+      "hash": "bca00beda542872346b62ef6c0da5e33a14e1095225815fe44e6448a4debbd58",
+      "modified": null
+    },
+    "lib-tru-013": {
+      "route": "/q/lib-tru-013-quantifying-shares-after-a-change-of-intention-the-fair-share-rule-jones-v-kernott/",
+      "hash": "19e4853d3a28f7621f114be162995fb24f1a8e25f838f6c72550fc434b0757a9",
+      "modified": null
+    },
+    "lib-tru-014": {
+      "route": "/q/lib-tru-014-family-home-in-one-party-s-sole-name-is-there-any-beneficial-interest-at-all/",
+      "hash": "8b17ef2fc5f4c3b04acb15c47e8fb5171d76959a98004825b4c6e4904911b94a",
+      "modified": null
+    },
+    "lib-tru-015": {
+      "route": "/q/lib-tru-015-requirements-of-proprietary-estoppel-assurance-reliance-and-detriment/",
+      "hash": "49e4a330ed9135efafc04564155a0889b5e47bea29cfed4be58e1e73c822f18e",
+      "modified": null
+    },
+    "lib-tru-016": {
+      "route": "/q/lib-tru-016-who-can-be-a-trustee-appointment-of-a-minor-is-void-lpa-1925-s-20/",
+      "hash": "0df78d50c8880417ba75e612f0def398d7c66a7577e60a47bf67619cf534217d",
+      "modified": null
+    },
+    "lib-tru-017": {
+      "route": "/q/lib-tru-017-trustees-duties-when-investing-standard-investment-criteria-and-proper-advice-ta-2000/",
+      "hash": "63616dee7e5b54dfa55fe4c303ff91e962b70b6c0793d53cddb8ebc8a812b75e",
+      "modified": null
+    },
+    "lib-tru-018": {
+      "route": "/q/lib-tru-018-statutory-maintenance-contingent-beneficiary-entitled-to-income-at-18-ta-1925-s-31/",
+      "hash": "aae681b911288daf05ea2b276da3b8651fb162216d90662ff4156aacfda023d2",
+      "modified": null
+    },
+    "lib-tru-019": {
+      "route": "/q/lib-tru-019-self-dealing-rule-trustee-buying-trust-property/",
+      "hash": "d07e3aa02265753532d6a643a4ae8062123d2a11b6afda57fbeefb925413d505",
+      "modified": null
+    },
+    "lib-tru-020": {
+      "route": "/q/lib-tru-020-secret-commission-received-by-a-trustee-is-held-on-trust-fhr-european-ventures-v-cedar/",
+      "hash": "73ff48d8e3c1f69fa623a55ad0b25b8b42bfbcab8a30ede976e5cdd59efa38f6",
+      "modified": null
+    },
+    "lib-tru-021": {
+      "route": "/q/lib-tru-021-relief-from-liability-for-breach-of-trust-trustee-act-1925-s-61/",
+      "hash": "4a105a395ed354daebc82fabef5bdb02a6c6f65557ffecdc57aec4981b897bbd",
+      "modified": null
+    },
+    "lib-tru-022": {
+      "route": "/q/lib-tru-022-limitation-for-breach-of-trust-future-interests-and-s-21-3-limitation-act-1980/",
+      "hash": "9924bb39f8805c23c6e42f45a09e8a448e0eab6d672c8ff9b822c581556dfb3c",
+      "modified": null
+    },
+    "lib-tru-023": {
+      "route": "/q/lib-tru-023-tracing-into-a-mixed-bank-account-the-lowest-intermediate-balance-rule/",
+      "hash": "4fccbf8bad20ea45f4fcb89f36c1d60514f5ce1443db222df764000a96fe4d12",
+      "modified": null
+    },
+    "lib-tru-024": {
+      "route": "/q/lib-tru-024-dishonest-assistance-the-trustee-s-honesty-is-irrelevant-royal-brunei-airlines-v-tan/",
+      "hash": "fc2544a6d7161486f93ff2e682ccf930b5f413d2bb801696f065f969d9ee1a6b",
+      "modified": null
+    },
+    "lib-tru-025": {
+      "route": "/q/lib-tru-025-knowing-receipt-no-liability-for-a-bona-fide-purchaser-who-later-learns-of-the-breach/",
+      "hash": "a9ef3c3088060c49b72b9a0905dec8c63936210ef0c86d469f2e27cea16d89d7",
+      "modified": null
+    },
+    "lib-wil-001": {
+      "route": "/q/lib-wil-001-acknowledging-an-earlier-signature-to-two-witnesses-present-together-wills-act-1837-s-9/",
+      "hash": "c0be9b1624703e498a2b543c09871f92958fbe9242fd300d797c1725eb6a864e",
+      "modified": null
+    },
+    "lib-wil-002": {
+      "route": "/q/lib-wil-002-testamentary-capacity-banks-v-goodfellow-not-the-mental-capacity-act-2005-as-the-test-applied/",
+      "hash": "cbed4b74d09c847d5b257a056ae69747c73515a37e8a4e60f7d67fdc32410172",
+      "modified": null
+    },
+    "lib-wil-003": {
+      "route": "/q/lib-wil-003-unattested-alteration-to-a-will-made-after-execution-wills-act-1837-s-21/",
+      "hash": "e1adf4263012b7af6d4b603d1e14793567a2753b6eb2e4322a713100d21ac9af",
+      "modified": null
+    },
+    "lib-wil-004": {
+      "route": "/q/lib-wil-004-revocation-by-destruction-must-be-by-the-testator-or-in-their-presence-wills-act-1837-s-20/",
+      "hash": "ebd9aede216564a95886fef0634188ee5d12cfd749d75916cc2f8393db9c86d7",
+      "modified": null
+    },
+    "lib-wil-005": {
+      "route": "/q/lib-wil-005-effect-of-divorce-on-gifts-to-and-appointment-of-a-former-spouse-wills-act-1837-s-18a/",
+      "hash": "b90d4be5745c1b8a25a59b77bf9639febaf1b0906b684642c2e1ef781eda2d98",
+      "modified": null
+    },
+    "lib-wil-006": {
+      "route": "/q/lib-wil-006-ademption-of-a-specific-gift-of-shares-sold-before-death/",
+      "hash": "70259e6f66bd57bc6731184733b739ba0e21445db9334001be0b5ac83ec34e13",
+      "modified": null
+    },
+    "lib-wil-007": {
+      "route": "/q/lib-wil-007-order-of-application-of-assets-to-debts-and-abatement-of-pecuniary-legacies-aea-1925-sch-1-pt-ii/",
+      "hash": "c38764b0a4ee55ccf04258c00579b1cf27e919ce012402956614500fe28692fd",
+      "modified": null
+    },
+    "lib-wil-008": {
+      "route": "/q/lib-wil-008-lapse-of-a-share-of-residue-given-to-named-beneficiaries-in-equal-shares/",
+      "hash": "f5655a171affe2e99a646d6286a64a21d084cf1b440a96fdff6011eecf7a112c",
+      "modified": null
+    },
+    "lib-wil-009": {
+      "route": "/q/lib-wil-009-calculating-children-s-shares-on-intestacy-with-a-surviving-spouse-statutory-legacy-322-000/",
+      "hash": "4bc2adc745527efcb5da248b3198ff4838b530b8695d22784eaad5d044e0f626",
+      "modified": null
+    },
+    "lib-wil-010": {
+      "route": "/q/lib-wil-010-intestacy-with-no-spouse-issue-or-parent-whole-blood-sibling-s-issue-before-half-blood-sibling/",
+      "hash": "8b191179e668c3de39fe0cb7c2a237795486729b55711b209627c79ed44506d6",
+      "modified": null
+    },
+    "lib-wil-011": {
+      "route": "/q/lib-wil-011-time-limit-for-an-inheritance-act-1975-claim-six-months-from-the-grant/",
+      "hash": "9078defada9dec31893433a7e0797bc17f2649be165a5085438f92a61c324fce",
+      "modified": null
+    },
+    "lib-wil-012": {
+      "route": "/q/lib-wil-012-cohabitant-of-less-than-two-years-claiming-under-the-1975-act-as-a-person-being-maintained/",
+      "hash": "5b2d1fe900a1381091ddfcc48b117fdc6321357d49b56e3d51ce68ab6cbdce71",
+      "modified": null
+    },
+    "lib-wil-013": {
+      "route": "/q/lib-wil-013-priority-for-a-grant-where-the-sole-executor-predeceased-ncpr-1987-r-20/",
+      "hash": "8d71bb21f754004e77fa965021da8fec184f62f41b8b0485ab8533469554744b",
+      "modified": null
+    },
+    "lib-wil-014": {
+      "route": "/q/lib-wil-014-minority-interest-on-intestacy-two-administrators-required-senior-courts-act-1981-s-114-2/",
+      "hash": "3034bfefef46f56e321f895e981a408e9fb553e64d86d761561ca4af51d684a2",
+      "modified": null
+    },
+    "lib-wil-015": {
+      "route": "/q/lib-wil-015-executor-who-may-wish-to-act-later-power-reserved-rather-than-renunciation-ncpr-1987-rr-27-and-37/",
+      "hash": "2b43b2a308b3238177ee92e5d68ecb04cec74fb945eb069f5007057a21551ed6",
+      "modified": null
+    },
+    "lib-wil-016": {
+      "route": "/q/lib-wil-016-protecting-personal-representatives-against-unknown-claims-s-27-trustee-act-1925-notices/",
+      "hash": "ea8af8c7e768b6e6858a9a44b1f38e02f4d44fbf1fee87fdde1bfa7445fcaba2",
+      "modified": null
+    },
+    "lib-wil-017": {
+      "route": "/q/lib-wil-017-property-passing-outside-the-will-joint-tenancy-survivorship-and-tenancy-in-common/",
+      "hash": "af6ecc72d87a7a9ab12101fb436bf5794d4740f6424bc052767443ec41423c64",
+      "modified": null
+    },
+    "lib-wil-018": {
+      "route": "/q/lib-wil-018-inheritance-tax-on-death-nil-rate-band-residence-nil-rate-band-and-charity-exemption/",
+      "hash": "c9b6fb718eae94e691d30faf66303eb1b2b02fa7b739ef1e2173dd0765c12d0d",
+      "modified": null
+    },
+    "lib-wil-019": {
+      "route": "/q/lib-wil-019-failed-potentially-exempt-transfer-tax-with-taper-relief-ihta-1984-s-7-4/",
+      "hash": "1c82c1fa0a41363002ef092c976d3b7e168ce2fed2c11a57446ee495b57fcd9d",
+      "modified": null
+    },
+    "lib-wil-020": {
+      "route": "/q/lib-wil-020-business-property-relief-unavailable-for-shares-in-an-investment-property-letting-company/",
+      "hash": "9a9506f8b2a3f8786af4cbfbf1502764bce37e802a47f523b33431029399718c",
+      "modified": null
+    },
     "q001": {
       "route": "/q/1-removing-a-company-director-ordinary-resolution-and-special-notice/",
       "hash": "f4c95ebd6a04e0bd5911d73e725a326b9a2746bafa26e9da7cf950724ccf062f",
@@ -24,6 +1619,226 @@
       "route": "/q/5-judicial-review-time-limits-promptly-and-within-three-months/",
       "hash": "abca3184254a95d1790735a154c4e0007decd886cf4913ad93f70c205a13063e",
       "modified": "2026-10-17"
+    },
+    "q006": {
+      "route": "/q/6-acting-for-clients-competing-for-the-same-objective-sra-code-6-2/",
+      "hash": "440f3951dfda20d7a3a727edc0d8be34cee73e63e98609961cbaf9084136ad8e",
+      "modified": null
+    },
+    "q007": {
+      "route": "/q/7-priority-period-of-an-official-search-of-registered-land-os1/",
+      "hash": "d65acf3e391eece9561f9eee4ded30a54782312d9dd1c9dc961d3342915c78f1",
+      "modified": null
+    },
+    "q008": {
+      "route": "/q/8-gifts-to-a-witness-s-spouse-under-section-15-wills-act-1837/",
+      "hash": "915ae496ce113e41999167ebc91c2dce11e872c3cac16d6829ca75706c7e1549",
+      "modified": null
+    },
+    "q009": {
+      "route": "/q/9-intestacy-and-the-28-day-spousal-survivorship-rule/",
+      "hash": "5675f6b1427a1de12057c9df18ececde29b7b4be37c9836d6e75889fd413a1f5",
+      "modified": null
+    },
+    "q010": {
+      "route": "/q/10-transferring-client-money-for-costs-bill-first-sra-accounts-rules-4-3/",
+      "hash": "7d7c0e2ed2c51429ab9b91f6d2f871f693c898b50e5078a9521265fc15e98e59",
+      "modified": null
+    },
+    "q011": {
+      "route": "/q/11-freehold-covenants-the-burden-of-a-positive-covenant-does-not-run/",
+      "hash": "5049c2f8e97bec4e5a5bc8fcc391bc82f9c2d1f9f1886e71c8f7e91b07156de5",
+      "modified": null
+    },
+    "q012": {
+      "route": "/q/12-the-rule-in-saunders-v-vautier-ending-a-trust-early/",
+      "hash": "b7e29fff150f41f57d3c41191a960217b004330a811be3b48b829c3acdbb0060",
+      "modified": null
+    },
+    "q013": {
+      "route": "/q/13-the-test-for-dishonesty-after-ivey-v-genting-and-r-v-barton/",
+      "hash": "ae019875dbd1c386b6d1f76d0266057c6a7b4480bc71a172d24da6636008f72f",
+      "modified": null
+    },
+    "q014": {
+      "route": "/q/14-delaying-access-to-legal-advice-at-the-police-station-pace-s-58/",
+      "hash": "775d54e98516578fe38383b7618696350f2049759c5b981e92ee8bdb600a3402",
+      "modified": null
+    },
+    "q015": {
+      "route": "/q/15-declaring-an-interest-in-a-proposed-transaction-ca-2006-s-177/",
+      "hash": "536762a8e21253841fa80d8fe96ef2c7e0aaaafb7366c9efefb0ce2e6b155b3d",
+      "modified": null
+    },
+    "q016": {
+      "route": "/q/16-default-judgment-after-an-acknowledgment-of-service-cpr-10-3-15-4-12-3/",
+      "hash": "610cec03ab76d296b0f0028765345ae46472b1bf884368fbf287bc628a89124c",
+      "modified": null
+    },
+    "q017": {
+      "route": "/q/17-part-payment-of-a-debt-foakes-v-beer/",
+      "hash": "210806076b09e4727875342dfe247bb4d26df863296ff0669ca83f4eb71ff387",
+      "modified": null
+    },
+    "q018": {
+      "route": "/q/18-secondary-victims-after-paul-v-royal-wolverhampton-nhs-trust/",
+      "hash": "ece701182d6b88f58c4fdd3c023270afe4302c4c4455efe27ba3487c967f9898",
+      "modified": null
+    },
+    "q019": {
+      "route": "/q/19-court-of-appeal-and-its-own-previous-decisions-young-v-bristol-aeroplane/",
+      "hash": "063d18220902333f79b3d63a0fb06e2b41319076cd8cfe245283cf96d0c225fa",
+      "modified": null
+    },
+    "q020": {
+      "route": "/q/20-effect-of-a-declaration-of-incompatibility-hra-1998-ss-3-4/",
+      "hash": "2c4edeae3a63ff05b4a5fd713a09391e03e7c95af531359a6680bf53dd4055ed",
+      "modified": null
+    },
+    "q021": {
+      "route": "/q/21-acting-against-a-former-client-whose-confidential-information-you-hold-sra-code-paras-6-3-6-5/",
+      "hash": "1cbfc58cedcfdeb1babb43225db856e72b606f23c4d4180ffade623af0f05f9d",
+      "modified": null
+    },
+    "q022": {
+      "route": "/q/22-failure-to-complete-and-the-notice-to-complete-scs-5th-ed-condition-6-8/",
+      "hash": "683a8820dd3b289a721d570a8334538ac4f0af0c8eb19c258ecbe8a9a15e1f4b",
+      "modified": null
+    },
+    "q023": {
+      "route": "/q/23-revocation-of-a-will-by-marriage-and-the-expectation-of-marriage-exception-wills-act-1837-s-18/",
+      "hash": "a443b9a40e47d3101fbe0b724f1ea5b111a7e44f215bc8b3c9cbcd7c25fc6f8d",
+      "modified": null
+    },
+    "q024": {
+      "route": "/q/24-client-account-must-not-be-used-as-a-banking-facility-sra-accounts-rules-rule-3-3/",
+      "hash": "0dc21e5bea382ba3a61f7248cc618951bf52005f7f485276cd4150a2a3e06c2d",
+      "modified": null
+    },
+    "q025": {
+      "route": "/q/25-overreaching-on-payment-to-two-trustees-and-a-beneficiary-in-actual-occupation-lpa-1925-ss-2-and-27-city-of-london-bs-v-flegg/",
+      "hash": "b306b1b165beac705b818a2a06dac212e7f5b7eab6f41bda51617dc8a51dcf12",
+      "modified": null
+    },
+    "q026": {
+      "route": "/q/26-certainty-of-intention-and-precatory-words/",
+      "hash": "7d07142b866ed238be5499bbf497d31c7bade64f037e6ffa370bb10bed016d1a",
+      "modified": null
+    },
+    "q027": {
+      "route": "/q/27-oblique-intention-and-the-virtual-certainty-direction-r-v-woollin/",
+      "hash": "e90431234a73594c24cb581d78a8ff682aaa6cd5e7587f28124dee2fc3762be2",
+      "modified": null
+    },
+    "q028": {
+      "route": "/q/28-adverse-inferences-from-silence-and-access-to-legal-advice-cjpoa-1994-s-34-2a/",
+      "hash": "5ece86a2ed2129906f8580c75d3ae453479472d55311a247369883491fab6ca9",
+      "modified": null
+    },
+    "q029": {
+      "route": "/q/29-substantial-property-transactions-with-a-director-members-approval-ca-2006-ss-190-191/",
+      "hash": "e262c5491e1b799aa55dbd0c52b674129d0a266eab3a9ad544c1c4b5c823509d",
+      "modified": null
+    },
+    "q030": {
+      "route": "/q/30-claimant-fails-to-beat-a-defendant-s-part-36-offer-costs-consequences-cpr-36-17-1-a-and-3/",
+      "hash": "25735fd00866d59913be1e54467b6dfc1c2c8a9396307193fab7b628b197e66e",
+      "modified": null
+    },
+    "q031": {
+      "route": "/q/31-excluding-liability-for-negligence-in-a-business-contract-unfair-contract-terms-act-1977-s-2/",
+      "hash": "f85026c30811fd52364bf8a3acd0b63cf518e8018a34814a57117da868ac9ecd",
+      "modified": null
+    },
+    "q032": {
+      "route": "/q/32-occupiers-duty-to-trespassers-and-no-recovery-for-property-damage-occupiers-liability-act-1984-s-1-3-4-and-8/",
+      "hash": "8fc203a86bc7230fe9e2f7ee9e69fe0bb6cef561ae6bc69407540339fbdebac7",
+      "modified": null
+    },
+    "q033": {
+      "route": "/q/33-using-hansard-to-interpret-a-statute-the-conditions-in-pepper-v-hart-1993-ac-593/",
+      "hash": "387953ca4c131eb6bcd168006d513b07f1989a77857e1daf3293f193a844cd30",
+      "modified": null
+    },
+    "q034": {
+      "route": "/q/34-passing-a-bill-without-the-consent-of-the-house-of-lords-parliament-act-1911-s-2-as-amended-by-the-parliament-act-1949/",
+      "hash": "532c9e63d1b47a5a345725b35233e094d9a8ece4bc007f14cbdb998c9f5d7d60",
+      "modified": null
+    },
+    "q035": {
+      "route": "/q/35-oral-undertakings-and-the-time-for-performance-sra-code-of-conduct-for-solicitors-para-1-3/",
+      "hash": "e81f27924b79c9e53f0f1f300e4cdb386ea84bc221c9578d3fe963018a4259f2",
+      "modified": null
+    },
+    "q036": {
+      "route": "/q/36-landlord-s-section-25-notice-timing-termination-date-and-grounds-of-opposition-lta-1954-s-25/",
+      "hash": "be31a733871b8a9f49066b3580df60aec31940ba63676d043cc6e1dc31cb4674",
+      "modified": null
+    },
+    "q037": {
+      "route": "/q/37-gift-to-a-child-who-dies-before-the-testator-leaving-issue-wills-act-1837-s-33/",
+      "hash": "dbac94fb5b6bc0c3be671b6275cec6dc38e53eb5f3c75d1ccb40bf992b2046cd",
+      "modified": null
+    },
+    "q038": {
+      "route": "/q/38-client-account-reconciliations-every-five-weeks-sra-accounts-rules-rule-8-3/",
+      "hash": "67f728ae3c07dc3bf6723de539450563e943703074023ec97bfb63aaa501035d",
+      "modified": null
+    },
+    "q039": {
+      "route": "/q/39-legal-leases-of-seven-years-or-less-as-overriding-interests-lra-2002-sch-3-para-1/",
+      "hash": "8803b7465e7e7383343e71071eeaa101cb6fc12971dc4742c2a4c43b72971fb9",
+      "modified": null
+    },
+    "q040": {
+      "route": "/q/40-statutory-power-of-advancement-up-to-the-whole-presumptive-share-trustee-act-1925-s-32/",
+      "hash": "ca68d92c13f52d44a282bbb1c3b9c1268085ce61e6c826b948dc4634608cd680",
+      "modified": null
+    },
+    "q041": {
+      "route": "/q/41-burglary-where-the-intent-to-steal-is-formed-after-entry-theft-act-1968-s-9-1-b/",
+      "hash": "ac20b289585c7c4cd92dc75d75d6cea0fe8ac8d236e812cd09b85d121954c6c4",
+      "modified": null
+    },
+    "q042": {
+      "route": "/q/42-extending-detention-without-charge-from-24-to-36-hours-pace-1984-ss-41-and-42/",
+      "hash": "0bd3732c0fefbeb562944062ae768199e8c14b1f6aef3953db9d14efa83c04f1",
+      "modified": null
+    },
+    "q043": {
+      "route": "/q/43-changing-the-nature-of-a-partnership-business-needs-every-partner-s-consent-partnership-act-1890-s-24-8/",
+      "hash": "4b081d328102b33e8a845bd1502507b05267b06e2b2dfb8c493557275bdf4f6e",
+      "modified": null
+    },
+    "q044": {
+      "route": "/q/44-summary-judgment-no-real-prospect-and-no-other-compelling-reason-for-a-trial-cpr-24-3-and-24-4/",
+      "hash": "b572967230fc2a9b544afd364a40361af9b6d3fe06043ffa48193619f12ea18a",
+      "modified": null
+    },
+    "q045": {
+      "route": "/q/45-damages-for-negligent-misrepresentation-and-the-reverse-burden-of-proof-misrepresentation-act-1967-s-2-1/",
+      "hash": "960c429a8d07b01bec8695975a5b306aede19d75a9f115e8f84639d4ba9f6e7d",
+      "modified": null
+    },
+    "q046": {
+      "route": "/q/46-recoverable-damage-under-the-consumer-protection-act-1987-the-product-itself-is-excluded-s-5/",
+      "hash": "ab75bbf197e7761248e1d2caf9229d5aedb9bbec4e7d1e9b480b7503d8063d5d",
+      "modified": null
+    },
+    "q047": {
+      "route": "/q/47-which-activities-are-reserved-legal-activities-probate-activities-v-will-writing-legal-services-act-2007-s-12-and-sch-2/",
+      "hash": "00abb24ac8ef2080073480a0bff0499193148b460287c43404afe43c75ab8152",
+      "modified": null
+    },
+    "q048": {
+      "route": "/q/48-hybrid-public-authorities-and-private-acts-under-the-human-rights-act-1998-s-6-3-b-and-5/",
+      "hash": "823ba62f010bdcae336b3a1eeead5801f69678e875d51885dd623b8c2cee1e2e",
+      "modified": null
+    },
+    "q049": {
+      "route": "/q/49-taking-will-instructions-from-a-relative-acting-only-on-the-client-s-own-instructions-sra-code-para-3-1/",
+      "hash": "511a78b7760c1c2d96642fdc345656777d47c3bbec4ecc9984b25e22c2fd334d",
+      "modified": null
     }
   },
   "subjects": {
@@ -42,15 +1857,65 @@
       "intro_hash": "2143db025bc495eb686262037e0f050cf6f62fc287302ced89b34725e4f846ed",
       "modified": "2026-10-16"
     },
+    "Criminal Law": {
+      "slug": "criminal-law",
+      "intro_hash": "7b257a4eed6f0dafcb621cec710f8bd2dd0d6ec631b6e18d803ca4796296b40a",
+      "modified": "2026-10-17"
+    },
+    "Criminal Practice": {
+      "slug": "criminal-practice",
+      "intro_hash": "bcea2de20df3d578015d1e0e4faeb3d28d1ef409a9b18a90a1e75d5a6773c20b",
+      "modified": "2026-10-17"
+    },
     "Dispute Resolution": {
       "slug": "dispute-resolution",
       "intro_hash": "7b971d11932a23eea6dbeb76d3289c3725c839b54de739b6eff3661429d5df23",
       "modified": "2026-10-16"
     },
+    "Ethics & Professional Conduct": {
+      "slug": "ethics-professional-conduct",
+      "intro_hash": "1207581e7cf4b8577305486aac58ca834e36c2c095a78dfdf5cff9941d27af9c",
+      "modified": "2026-10-17"
+    },
+    "Land Law": {
+      "slug": "land-law",
+      "intro_hash": "22112660d449481a2a87a2e3ed1eb6541828002ba8689f0978a0a87008975f0d",
+      "modified": "2026-10-17"
+    },
+    "Legal Services": {
+      "slug": "legal-services",
+      "intro_hash": null,
+      "modified": null
+    },
+    "Legal System of England and Wales": {
+      "slug": "legal-system-of-england-and-wales",
+      "intro_hash": "d9b51ea16cf0194c5c5681868385bc061c99b11cfc051c562e111c622788e75b",
+      "modified": "2026-10-17"
+    },
+    "Property Practice": {
+      "slug": "property-practice",
+      "intro_hash": "50508ba13c82f44e6643b9549f6d07552dc83dbbcf60dc62297d88ae90e1a25e",
+      "modified": "2026-10-17"
+    },
+    "Solicitors Accounts": {
+      "slug": "solicitors-accounts",
+      "intro_hash": "dfb01cf2bba29a95e1531d7f732ec0aad6d267c7d5f66e3348fe1e3484cc2d70",
+      "modified": "2026-10-17"
+    },
     "Tort": {
       "slug": "tort",
       "intro_hash": "be758094280bc03a1f36d6a03b6b3e079aa0ed72ffad9eafab2b960569242fa9",
       "modified": "2026-10-16"
+    },
+    "Trusts": {
+      "slug": "trusts",
+      "intro_hash": "d7f38c29903b87a111d17005922290ddd2e5ec750afe03ffa4f0399f5335388f",
+      "modified": "2026-10-17"
+    },
+    "Wills & Administration of Estates": {
+      "slug": "wills-administration-of-estates",
+      "intro_hash": "a7b71367daf4addabf52887b5771553ae215d10350c653c99dae1b797a304ea8",
+      "modified": "2026-10-17"
     }
   },
   "pages": {
@@ -65,9 +1930,9 @@
       "modified": null
     },
     "pages.editorial-standards": {
-      "hash": "fea860e819ebdf0439d34bc9d15f6deb5e9e84eed2994095aad8867590a2f344",
+      "hash": "3a81e317315018dc354df3cdef451ea4b530f814877c80014b571e5b903966ea",
       "published": "2026-10-16",
-      "modified": null
+      "modified": "2026-10-17"
     },
     "pages.flk1": {
       "hash": "84cfa529ab414ead75a39639bc39b1bd407516fa7311d6e57730d66dbc1f6503",
@@ -85,9 +1950,9 @@
       "modified": null
     },
     "pages.sqe1-practice-questions": {
-      "hash": "ca8ba56809c0d868f594c336c981749bb036a40d87f2cff443e7b675cbca9292",
+      "hash": "5e33d83b7e9375e742565b557f3e9172f15bc7c11f92692658c7aea82f74a736",
       "published": "2026-10-16",
-      "modified": null
+      "modified": "2026-10-17"
     }
   }
 }
