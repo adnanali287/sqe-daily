@@ -69,6 +69,15 @@ def mocks(bank, available, data):
         }
         if any(by_id[i]['subject'] not in groups[entry['paper']][n] | ethics for n, session in enumerate(sessions) for i in session):
             raise ValueError('Full mock session subject mismatch')
+        for n, session in enumerate(sessions, 1):
+            for identifier in session:
+                q = by_id[identifier]
+                if q.get('session') and q['session'] != f'{entry["paper"]}-S{n}':
+                    raise ValueError('Full mock contextual session mismatch')
+                if q['subject'] == 'Solicitors Accounts' and q.get('session'):
+                    context = 'Wills & Administration of Estates' if n == 1 else 'Property Practice'
+                    if q.get('context_subject') != context:
+                        raise ValueError('Accounts question context mismatch')
         if any(not groups[entry['paper']][n] <= {by_id[i]['subject'] for i in session} for n, session in enumerate(sessions)):
             raise ValueError('Full mock session is missing required subject coverage')
         date.fromisoformat(entry['law_cutoff'])

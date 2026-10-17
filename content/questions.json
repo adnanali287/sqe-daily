@@ -27,7 +27,15 @@
       "special notice",
       "members' resolutions"
     ],
-    "last_reviewed": "2026-10-16"
+    "last_reviewed": "2026-10-16",
+    "why_wrong": {
+      "A": "s.288(2)(a) prohibits removing a director under s.168 by written resolution, and in any case only an ordinary (simple majority) resolution is needed.",
+      "B": "an ordinary resolution suffices; a special resolution is not required.",
+      "D": "the statutory power of removal belongs to the members; the model articles give the board no power to remove a fellow director.",
+      "E": "s.168(1) applies notwithstanding any agreement; Tom's contract only preserves any claim to compensation or damages (s.168(5))."
+    },
+    "session": "FLK1-S1",
+    "context_subject": "Business Law & Practice"
   },
   {
     "id": "q002",
@@ -56,7 +64,15 @@
       "claim form",
       "time limits"
     ],
-    "last_reviewed": "2026-10-16"
+    "last_reviewed": "2026-10-16",
+    "why_wrong": {
+      "A": "The rule turns on the claimant's step (posting), not on receipt by the defendant.",
+      "C": "Six months applies only where the claim form is served out of the jurisdiction (CPR 7.5(2)).",
+      "D": "14 days is the period for serving particulars of claim after the claim form, where they are served separately (CPR 7.4(1)(b)).",
+      "E": "Deemed service of the claim form is not the test under CPR 7.5; completing the step in time is what matters."
+    },
+    "session": "FLK1-S1",
+    "context_subject": "Dispute Resolution"
   },
   {
     "id": "q003",
@@ -85,7 +101,15 @@
       "counter-offer",
       "formation"
     ],
-    "last_reviewed": "2026-10-16"
+    "last_reviewed": "2026-10-16",
+    "why_wrong": {
+      "A": "A promise to keep an offer open is not binding without consideration, and in any event the counter-offer ended the offer.",
+      "B": "Rhys expressly rejected the £16,500 counter-offer, so there was nothing to accept at that price.",
+      "C": "'I will pay £16,500' is a firm proposal of new terms, not a mere enquiry about whether Rhys would accept less.",
+      "E": "The timing of email acceptance is irrelevant here, because there was no subsisting offer to accept."
+    },
+    "session": "FLK1-S2",
+    "context_subject": "Contract"
   },
   {
     "id": "q004",
@@ -114,7 +138,15 @@
       "visitors",
       "skilled visitors"
     ],
-    "last_reviewed": "2026-10-16"
+    "last_reviewed": "2026-10-16",
+    "why_wrong": {
+      "B": "S.2(3) expressly makes the visitor's expected degree of care relevant, so the duty does vary with the visitor.",
+      "C": "Kofi was on the premises to do the very job he was invited to do; he was a visitor, so the 1957 Act applies.",
+      "D": "Under s.2(4)(a) a warning does not by itself absolve the occupier unless it was enough to enable the visitor to be reasonably safe; Dana escapes liability because of s.2(3)(b), not because a warning is automatically enough.",
+      "E": "Liability under the 1957 Act is fault-based (a duty of reasonable care), not strict."
+    },
+    "session": "FLK1-S2",
+    "context_subject": "Tort"
   },
   {
     "id": "q005",
@@ -141,12 +173,21 @@
     "tags": [
       "judicial review",
       "time limits"
-    ]
+    ],
+    "why_wrong": {
+      "A": "There is no general six-month period for judicial review.",
+      "B": "CPR 54.5(2) expressly prevents the parties extending time by agreement.",
+      "C": "The six-week limit in CPR 54.5(5) applies to decisions under the planning Acts, which this is not.",
+      "D": "The duty to act promptly is separate from the three-month long-stop, so a claim filed within three months can still be refused for lack of promptness."
+    },
+    "last_reviewed": "2026-10-16",
+    "session": "FLK1-S2",
+    "context_subject": "Legal Systems"
   },
   {
     "id": "q006",
     "subject": "Ethics & Professional Conduct",
-    "flk": "FLK1",
+    "flk": "FLK2",
     "difficulty": "medium",
     "title": "Acting for clients competing for the same objective (SRA Code 6.2)",
     "scenario": "Two long-standing clients of a commercial property firm, Harbour Coffee Ltd and Kiln Bakery Ltd, separately ask the firm to act for them in bidding for the lease of the same high-street unit. The landlord's agent is running a sealed-bid process and only one lease will be granted. Both clients want to keep using the firm.",
@@ -168,7 +209,16 @@
     "tags": [
       "conflict of interest",
       "sra code of conduct"
-    ]
+    ],
+    "why_wrong": {
+      "A": "Paragraph 6.2 allows two exceptions (substantially common interest and competing for the same objective), so a conflict is not an absolute bar.",
+      "C": "The consent must be given or evidenced in writing, whatever the type of matter.",
+      "D": "A conflict exists because the clients' interests in the same lease are adverse; a dispute between them is not needed.",
+      "E": "The Code contains no 'first come, first served' rule."
+    },
+    "last_reviewed": "2026-10-16",
+    "session": "FLK2-S2",
+    "context_subject": "Ethics & Professional Conduct"
   },
   {
     "id": "q007",
@@ -196,7 +246,16 @@
       "official search",
       "priority period",
       "registered land"
-    ]
+    ],
+    "why_wrong": {
+      "A": "The period runs in working days from when the search application is entered on the day list, not calendar days from completion.",
+      "B": "Entries can still be made on the register; they are simply postponed to the searcher's application if that is lodged in time.",
+      "D": "The period does not run from exchange.",
+      "E": "The OS1 search is a registered-land search; unregistered land uses a Land Charges Department search with its own protection period."
+    },
+    "last_reviewed": "2026-10-16",
+    "session": "FLK2-S2",
+    "context_subject": "Property Practice"
   },
   {
     "id": "q008",
@@ -224,7 +283,16 @@
       "witnesses",
       "gifts",
       "wills act 1837"
-    ]
+    ],
+    "why_wrong": {
+      "B": "S.15 voids the gift only, not the will; Gareth is still a valid witness.",
+      "C": "S.15 expressly extends to the witness's spouse.",
+      "D": "The beneficiary's knowledge is irrelevant; the rule operates automatically.",
+      "E": "Nothing in s.15 redirects the gift to the witness; the failed gift falls into residue."
+    },
+    "last_reviewed": "2026-10-16",
+    "session": "FLK2-S1",
+    "context_subject": "Wills & Administration of Estates"
   },
   {
     "id": "q009",
@@ -252,7 +320,16 @@
       "intestacy",
       "survivorship",
       "spouse"
-    ]
+    ],
+    "why_wrong": {
+      "A": "This describes the entitlement of a spouse who qualifies (s.46(1)(i)); Neha does not, because of the 28-day rule.",
+      "B": "Even a qualifying spouse does not take everything where the intestate leaves issue, and Neha is in any case treated as predeceasing.",
+      "C": "Intestacy contains no rule of equal division between spouse and children.",
+      "E": "Bona vacantia arises only where no one entitled survives; the children take."
+    },
+    "last_reviewed": "2026-10-16",
+    "session": "FLK2-S1",
+    "context_subject": "Wills & Administration of Estates"
   },
   {
     "id": "q010",
@@ -260,7 +337,7 @@
     "flk": "FLK2",
     "difficulty": "medium",
     "title": "Transferring client money for costs: bill first (SRA Accounts Rules 4.3)",
-    "scenario": "A firm holds £3,000 in client account, received from a client 'on account of costs' at the start of a matter. The fee earner has now done work worth £1,200 plus VAT (£1,440 in total). She wants the cashier to transfer £1,440 to the business (office) account today and plans to send the client a bill next week.",
+    "scenario": "A firm acting for a client on the purchase of a house holds £3,000 in client account, received from the client 'on account of costs' at the start of the matter. The fee earner has now done work worth £1,200 plus VAT (£1,440 in total). She wants the cashier to transfer £1,440 to the business (office) account today and plans to send the client a bill next week.",
     "stem": "Which of the following best describes what the firm must do before transferring the money?",
     "options": {
       "A": "Nothing: money received on account of costs is business money as soon as it is received.",
@@ -280,7 +357,16 @@
       "client account",
       "costs",
       "sra accounts rules"
-    ]
+    ],
+    "why_wrong": {
+      "A": "Unbilled money on account of costs is client money under rule 2.1(d).",
+      "B": "Rule 4.3 requires a bill or other written notification; a phone call is not enough.",
+      "C": "Only the specific sum billed may be transferred; moving unbilled client money to business account breaches rules 4.1 and 4.3.",
+      "D": "Client money can be used to pay costs once rule 4.3 has been complied with."
+    },
+    "last_reviewed": "2026-10-16",
+    "session": "FLK2-S2",
+    "context_subject": "Property Practice"
   },
   {
     "id": "q011",
@@ -308,7 +394,16 @@
       "freehold covenants",
       "positive covenants",
       "burden"
-    ]
+    ],
+    "why_wrong": {
+      "A": "Tulk v Moxhay applies only to restrictive (negative) covenants.",
+      "C": "Rhone v Stephens held that s.79 LPA 1925 is a word-saving provision and does not make the burden of positive covenants run.",
+      "D": "S.78 concerns the running of the benefit, not the burden.",
+      "E": "Entry on the register cannot make the burden of a positive covenant bind a successor."
+    },
+    "last_reviewed": "2026-10-16",
+    "session": "FLK2-S1",
+    "context_subject": "Land Law"
   },
   {
     "id": "q012",
@@ -337,7 +432,15 @@
       "beneficiaries",
       "ending a trust"
     ],
-    "last_reviewed": "2026-10-16"
+    "last_reviewed": "2026-10-16",
+    "why_wrong": {
+      "A": "A direction merely postponing enjoyment does not bind a sui juris beneficiary who is absolutely entitled.",
+      "B": "Court approval under the 1958 Act is needed only where some beneficiaries cannot consent (for example minors or unborn persons); none exist here.",
+      "D": "The age of majority is 18; 21 was the age of majority when Saunders v Vautier was decided.",
+      "E": "Sofia is entitled to both income and capital, so she can call for the whole fund."
+    },
+    "session": "FLK2-S1",
+    "context_subject": "Trusts"
   },
   {
     "id": "q013",
@@ -358,14 +461,23 @@
     "explanation": "Fraud by false representation requires that the defendant 'dishonestly' makes a false representation intending to make a gain or cause loss (s.2(1) Fraud Act 2006). The test for dishonesty in criminal cases is the one set out in Ivey v Genting Casinos [2017] UKSC 67 and confirmed in R v Barton and Booth [2020] EWCA Crim 575. The fact-finder first establishes the defendant's actual state of knowledge or belief as to the facts, then decides whether the conduct was dishonest by the objective standards of ordinary decent people. There is no further requirement that the defendant appreciated that his conduct was dishonest by those standards. Leon knew he had not used the materials, so his belief about trade practice does not help him.\n\nB is wrong: this is the second, subjective limb of R v Ghosh, which no longer applies.\nC is wrong: a defendant's belief about the honesty of his conduct, as opposed to his belief about the facts, is not the test.\nD is wrong: dishonesty is an express element of s.2(1)(a) Fraud Act 2006.\nE is wrong: s.2 requires only an intention to make a gain or cause loss (or expose another to a risk of loss); actual loss is not needed.",
     "key_rule": "Dishonesty is judged by the standards of ordinary decent people, applied to the defendant's actual knowledge or belief as to the facts (Ivey; Barton).",
     "authority": "Ivey v Genting Casinos (UK) Ltd [2017] UKSC 67; R v Barton and Booth [2020] EWCA Crim 575; Fraud Act 2006, s.2",
-    "verified_source_url": "https://www.supremecourt.uk/cases/uksc-2016-0213",
+    "verified_source_url": "https://www.bailii.org/uk/cases/UKSC/2017/67.html",
     "number": 13,
     "publish_date": "2026-10-25",
     "tags": [
       "dishonesty",
-      "theft",
+      "fraud",
       "ivey v genting"
-    ]
+    ],
+    "why_wrong": {
+      "B": "This is the second, subjective limb of R v Ghosh, which no longer applies.",
+      "C": "A defendant's belief about the honesty of his conduct, as opposed to his belief about the facts, is not the test.",
+      "D": "Dishonesty is an express element of s.2(1)(a) Fraud Act 2006.",
+      "E": "S.2 requires only an intention to make a gain or cause loss (or expose another to a risk of loss); actual loss is not needed."
+    },
+    "last_reviewed": "2026-10-16",
+    "session": "FLK2-S2",
+    "context_subject": "Criminal Law"
   },
   {
     "id": "q014",
@@ -393,7 +505,16 @@
       "police station",
       "legal advice",
       "pace"
-    ]
+    ],
+    "why_wrong": {
+      "A": "An inspector is below the rank of superintendent.",
+      "B": "The s.58 right applies from when a person is arrested and held in custody, not just after charge.",
+      "C": "S.58(6) and (8) allow delay in limited circumstances.",
+      "E": "The maximum delay under s.58(5) is 36 hours from the relevant time; 96 hours is the outer limit of detention without charge, which is a different rule."
+    },
+    "last_reviewed": "2026-10-16",
+    "session": "FLK2-S2",
+    "context_subject": "Criminal Practice"
   },
   {
     "id": "q015",
@@ -421,7 +542,16 @@
       "directors",
       "declaration of interest",
       "directors' duties"
-    ]
+    ],
+    "why_wrong": {
+      "A": "S.177(1) catches interests held \"directly or indirectly\", so the fact that the shares are in her husband's name does not take Priya outside the duty.",
+      "C": "S.177 requires a declaration to the other directors; it does not itself require shareholder approval of the transaction.",
+      "D": "S.177(4) requires the declaration to be made before the company enters into the transaction or arrangement.",
+      "E": "The duty is mandatory and does not depend on a request; the only exceptions are those in s.177(5) and (6)."
+    },
+    "last_reviewed": "2026-10-16",
+    "session": "FLK1-S1",
+    "context_subject": "Business Law & Practice"
   },
   {
     "id": "q016",
@@ -440,7 +570,7 @@
     },
     "answer": "E",
     "explanation": "Under CPR 15.4(1) the general rule is that the period for filing a defence is 14 days after service of the particulars of claim or, if the defendant files an acknowledgment of service under Part 10, 28 days after service of the particulars of claim. Harlow has filed an acknowledgment of service, so it has 28 days. Under CPR 12.3(2)(a), judgment in default of defence may be obtained only where an acknowledgment of service has been filed but, at the date on which judgment is entered, a defence has not been filed, and the relevant time limit has expired. At day 16 the time for Harlow's defence has not expired, so a request would be premature.\n\nA is wrong: the 14-day period in CPR 15.4(1)(a) applies only where no acknowledgment of service has been filed.\nB is wrong: CPR 12.3(2)(a) expressly allows judgment in default of defence where an acknowledgment of service has been filed but no defence follows in time.\nC is wrong: an extension under CPR 15.5 must be agreed between the parties (by up to 28 days) and the defendant must notify the court; nothing is agreed automatically.\nD is wrong: for a claim for a specified amount of money, CPR 12.4(1)(a) allows default judgment by filing a request, and in any event the time for the defence has not yet expired.",
-    "key_rule": "Once an acknowledgment of service is filed, the defence is due 28 days after service of the particulars of claim, and judgment in default of defence is available only after that period expires with no defence filed at the date judgment is entered.",
+    "key_rule": "Once an acknowledgment of service is filed, the defence is due 28 days after service of the particulars of claim, and default judgment is available only if that period expires with no defence filed.",
     "authority": "CPR 10.3, 15.4 and 12.3",
     "verified_source_url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part15",
     "number": 16,
@@ -449,7 +579,16 @@
       "default judgment",
       "acknowledgment of service",
       "time limits"
-    ]
+    ],
+    "why_wrong": {
+      "A": "The 14-day period in CPR 15.4(1)(a) applies only where no acknowledgment of service has been filed.",
+      "B": "CPR 12.3(2)(a) expressly allows judgment in default of defence where an acknowledgment of service has been filed but no defence follows in time.",
+      "C": "An extension under CPR 15.5 must be agreed between the parties (by up to 28 days) and the defendant must notify the court; nothing is agreed automatically.",
+      "D": "For a claim for a specified amount of money, CPR 12.4(1)(a) allows default judgment by filing a request, and in any event the time for the defence has not yet expired."
+    },
+    "last_reviewed": "2026-10-16",
+    "session": "FLK1-S1",
+    "context_subject": "Dispute Resolution"
   },
   {
     "id": "q017",
@@ -477,7 +616,16 @@
       "consideration",
       "part payment",
       "promissory estoppel"
-    ]
+    ],
+    "why_wrong": {
+      "B": "The House of Lords in Foakes v Beer held that the benefit a creditor gets from receiving part payment is not consideration, and the Supreme Court in Rock Advertising (para 18) noted that practical benefit was the very thing Foakes v Beer held inadequate.",
+      "C": "Foakes v Beer confirms that an agreement not under seal to accept less requires consideration; signing a written note does not supply it.",
+      "D": "In Rock Advertising the Supreme Court decided the case on the no oral modification clause and expressly declined to decide the consideration point, saying any overruling of Foakes v Beer should await an enlarged panel.",
+      "E": "D & C Builders v Rees makes clear that the creditor is barred only where it would be inequitable to insist on his legal rights, and Ruth's pressure meant there was no true accord."
+    },
+    "last_reviewed": "2026-10-16",
+    "session": "FLK1-S2",
+    "context_subject": "Contract"
   },
   {
     "id": "q018",
@@ -496,7 +644,7 @@
     },
     "answer": "C",
     "explanation": "In Paul v Royal Wolverhampton NHS Trust [2024] UKSC 1 the majority of the Supreme Court held that the established rules for secondary victims apply to accidents, meaning an unexpected and unintended event which causes injury (or a risk of injury) to a victim by violent external means. Witnessing the death or manifestation of injury from a pre-existing disease which a doctor negligently failed to diagnose and treat is not analogous, and the persons a doctor ought reasonably to have in contemplation do not include close family members who might be psychologically affected by witnessing it. There is therefore no duty of care to Mei, however strongly she satisfies the other Alcock factors.\n\nA is wrong: a close tie, presence and direct perception are required, but in Paul they were not enough because Mei did not witness an accident.\nB is wrong: the majority in Paul rejected any separate requirement that the event witnessed be \"horrifying\".\nD is wrong: the Supreme Court rejected the Court of Appeal's reading of Novo and saw no reason why the length of time between the negligence and the event witnessed should affect liability; the claim fails for the absence of an accident, not because of the gap in time.\nE is wrong: the majority held that the law took a wrong turn in requiring proof of a \"sudden shock to the nervous system\", and in any event there was no accident.",
-    "key_rule": "After Paul v Royal Wolverhampton NHS Trust, a secondary victim must have witnessed an accident (an unexpected and unintended event causing injury by violent external means) or its immediate aftermath; witnessing a death from negligently untreated disease does not ground a claim.",
+    "key_rule": "After Paul v Royal Wolverhampton NHS Trust, a secondary victim must witness an accident or its immediate aftermath; witnessing death or injury from negligently untreated disease does not ground a claim.",
     "authority": "Paul v Royal Wolverhampton NHS Trust [2024] UKSC 1",
     "verified_source_url": "https://www.bailii.org/uk/cases/UKSC/2024/1.html",
     "number": 18,
@@ -505,7 +653,16 @@
       "psychiatric injury",
       "secondary victims",
       "negligence"
-    ]
+    ],
+    "why_wrong": {
+      "A": "A close tie, presence and direct perception are required, but in Paul they were not enough because Mei did not witness an accident.",
+      "B": "The majority in Paul rejected any separate requirement that the event witnessed be \"horrifying\".",
+      "D": "The Supreme Court rejected the Court of Appeal's reading of Novo and saw no reason why the length of time between the negligence and the event witnessed should affect liability; the claim fails for the absence of an accident, not because of the gap in time.",
+      "E": "The majority held that the law took a wrong turn in requiring proof of a \"sudden shock to the nervous system\", and in any event there was no accident."
+    },
+    "last_reviewed": "2026-10-16",
+    "session": "FLK1-S2",
+    "context_subject": "Tort"
   },
   {
     "id": "q019",
@@ -524,7 +681,7 @@
     },
     "answer": "D",
     "explanation": "In Young v Bristol Aeroplane Co Ltd [1944] KB 718 the Court of Appeal held that it is bound to follow its own previous decisions, subject to three exceptions: (1) it must decide which of two conflicting decisions of its own to follow; (2) it must refuse to follow a decision of its own which, though not expressly overruled, cannot stand with a decision of the House of Lords; and (3) it is not bound to follow a decision of its own given per incuriam. The court gave as the example of a per incuriam decision one given in ignorance of the terms of a statute or a rule having the force of a statute. The 2019 decision falls within that third exception.\n\nA is wrong: Young recognises exceptions to the general rule, including decisions given per incuriam.\nB is wrong: Young held that the full court has no greater powers than a division of three, so what a division cannot do the full court cannot do either.\nC is wrong: Young rejected any general power to depart from a previous decision merely because the court considers it wrong.\nE is wrong: express overruling is not required for the exceptions to apply, and the relevant exception here is that the earlier decision was given per incuriam.",
-    "key_rule": "The Court of Appeal (Civil Division) is bound by its own decisions except where they conflict, cannot stand with a decision of the House of Lords, or were given per incuriam, and a larger panel has no greater power to depart.",
+    "key_rule": "The Court of Appeal (Civil Division) is bound by its own decisions unless they conflict, cannot stand with a House of Lords decision, or were given per incuriam; a larger panel has no greater power.",
     "authority": "Young v Bristol Aeroplane Co Ltd [1944] KB 718, [1944] EWCA Civ 1",
     "verified_source_url": "https://www.bailii.org/ew/cases/EWCA/Civ/1944/1.html",
     "number": 19,
@@ -533,7 +690,16 @@
       "precedent",
       "court of appeal",
       "stare decisis"
-    ]
+    ],
+    "why_wrong": {
+      "A": "Young recognises exceptions to the general rule, including decisions given per incuriam.",
+      "B": "Young held that the full court has no greater powers than a division of three, so what a division cannot do the full court cannot do either.",
+      "C": "Young rejected any general power to depart from a previous decision merely because the court considers it wrong.",
+      "E": "Express overruling is not required for the exceptions to apply, and the relevant exception here is that the earlier decision was given per incuriam."
+    },
+    "last_reviewed": "2026-10-16",
+    "session": "FLK1-S2",
+    "context_subject": "Legal Systems"
   },
   {
     "id": "q020",
@@ -561,7 +727,16 @@
       "human rights act 1998",
       "declaration of incompatibility",
       "parliamentary sovereignty"
-    ]
+    ],
+    "why_wrong": {
+      "A": "S.4(6)(a) states that the declaration does not affect the validity of the provision.",
+      "C": "The provision continues in operation and must still be enforced (s.3(2)(b) and s.4(6)(a)); the court cannot strike down or disapply primary legislation under the Act.",
+      "D": "Nothing in ss.4 or 10 obliges Parliament to act; s.10 gives a Minister a discretionary power to make a remedial order.",
+      "E": "S.4(5)(e) lists the High Court, as well as the Court of Appeal and Supreme Court, among the courts that may make a declaration in England and Wales."
+    },
+    "last_reviewed": "2026-10-16",
+    "session": "FLK1-S2",
+    "context_subject": "Legal Systems"
   },
   {
     "id": "q021",
@@ -589,7 +764,16 @@
       "confidentiality",
       "former clients",
       "sra code of conduct"
-    ]
+    ],
+    "why_wrong": {
+      "A": "Para 6.3 expressly extends confidentiality to former clients.",
+      "B": "The para 6.4 duty to tell a client of material information does not override the para 6.3 duty to keep Lyndon's affairs confidential, which applies unless the law requires or permits disclosure or Lyndon consents; this tension is why para 6.5 restricts acting at all.",
+      "C": "Under para 6.5(b) the relevant consent is that of the client whose confidential information is held (Lyndon), not the new client.",
+      "D": "Para 6.5 permits acting where there is no real risk of disclosure through effective measures, or with the informed written consent of the former client."
+    },
+    "last_reviewed": "2026-10-16",
+    "session": "FLK1-S1",
+    "context_subject": "Ethics & Professional Conduct"
   },
   {
     "id": "q022",
@@ -608,7 +792,7 @@
     },
     "answer": "C",
     "explanation": "Under condition 6.8.1, at any time after the time applicable under condition 6.1.2 on completion date, a party who is ready, able and willing to complete may give the other a notice to complete. Aisha meets that test and the notice is given the day after completion date. Condition 6.8.2 requires the parties to complete within ten working days of giving the notice, excluding the day on which it is given, and makes time of the essence for this purpose. Condition 6.8.3(b) adds that a buyer who paid a deposit of less than 10% must, on receipt of the notice, forthwith pay a further deposit equal to the balance of that 10%. Giving a notice to a party's conveyancer has the same effect as giving it to the party (condition 1.3.2). If Ben then fails to complete in accordance with the notice, condition 7.4.2 allows Aisha to rescind, forfeit and keep the deposit, resell and claim damages.\n\nA is wrong: condition 6.8.2 expressly excludes the day on which the notice is given.\nB is wrong: twenty working days after the date of the contract is the default completion date under condition 6.1.1, not the period allowed by a notice to complete.\nD is wrong: condition 1.3.2 provides that giving a notice to a party's conveyancer has the same effect as giving it to that party.\nE is wrong: condition 6.8.2 makes time of the essence once a notice to complete is given, and condition 7.4 gives the seller the right to rescind if the buyer fails to comply.",
-    "key_rule": "Under SCS 6.8, a notice to complete requires completion within ten working days, excluding the day of service, with time of the essence, and a buyer who paid less than 10% must top the deposit up to 10% at once.",
+    "key_rule": "Under SCS 6.8, a notice to complete requires completion within ten working days (excluding the day given), time being of the essence; a buyer who paid under 10% must top up the deposit immediately.",
     "authority": "Standard Conditions of Sale (Fifth Edition, 2018 Revision), conditions 1.3.2, 6.8 and 7.4",
     "verified_source_url": "https://www.lawsociety.org.uk/-/media/files/topics/property/specimen-standard-conditions-of-sale-residential-property-2018.pdf",
     "number": 22,
@@ -618,7 +802,15 @@
       "notice to complete",
       "standard conditions of sale"
     ],
-    "last_reviewed": "2026-10-16"
+    "last_reviewed": "2026-10-16",
+    "why_wrong": {
+      "A": "Condition 6.8.2 expressly excludes the day on which the notice is given.",
+      "B": "Twenty working days after the date of the contract is the default completion date under condition 6.1.1, not the period allowed by a notice to complete.",
+      "D": "Condition 1.3.2 provides that giving a notice to a party's conveyancer has the same effect as giving it to that party.",
+      "E": "Condition 6.8.2 makes time of the essence once a notice to complete is given, and condition 7.4 gives the seller the right to rescind if the buyer fails to comply."
+    },
+    "session": "FLK2-S2",
+    "context_subject": "Property Practice"
   },
   {
     "id": "q023",
@@ -646,7 +838,16 @@
       "revocation",
       "marriage",
       "wills act 1837"
-    ]
+    ],
+    "why_wrong": {
+      "A": "S.18(3) protects the will only against marriage to the particular person the testator expected to marry, here Leila, not Sofia.",
+      "B": "S.18(1) makes marriage itself a ground of revocation, operating automatically.",
+      "C": "Partial survival of dispositions under s.18(4) also depends on the testator's marriage to the particular person contemplated, so it cannot save the gift on a marriage to someone else.",
+      "D": "S.18 contains no twelve-month time limit; the question is whether the marriage is to the particular person named in the will."
+    },
+    "last_reviewed": "2026-10-16",
+    "session": "FLK2-S1",
+    "context_subject": "Wills & Administration of Estates"
   },
   {
     "id": "q024",
@@ -654,7 +855,7 @@
     "flk": "FLK2",
     "difficulty": "easy",
     "title": "Client account must not be used as a banking facility (SRA Accounts Rules, rule 3.3)",
-    "scenario": "Hartley & Rowe LLP acted for Tomasz on the sale of his café. Completion took place last week and the firm still holds the £40,000 balance of the sale proceeds in client account. Its bill has been paid. Tomasz is between bank accounts and asks the firm to keep the money in client account for the next six months and, on his instructions, pay his household bills, his suppliers' invoices for a new business and his daughter's university fees.",
+    "scenario": "Hartley & Rowe LLP acted for Tomasz on the sale of the freehold premises of his former café. Completion took place last week and the firm still holds the £40,000 balance of the sale proceeds in client account. Its bill has been paid. Tomasz is between bank accounts and asks the firm to keep the money in client account for the next six months and, on his instructions, pay his household bills, his suppliers' invoices for a new business and his daughter's university fees.",
     "stem": "Which of the following best describes how the firm should respond?",
     "options": {
       "A": "It should decline and return the balance to Tomasz promptly, because a client account must not be used to provide banking facilities and payments through it must be in respect of the firm's delivery of regulated services.",
@@ -674,7 +875,16 @@
       "client account",
       "banking facility",
       "sra accounts rules"
-    ]
+    ],
+    "why_wrong": {
+      "B": "Rule 5.1(b) permits withdrawals on the client's instructions, but that does not override the separate prohibition in rule 3.3 on using client account as a banking facility.",
+      "C": "The duty to account for interest under rule 7 applies to money properly held; it does not make an otherwise prohibited arrangement permissible.",
+      "D": "No approval by the COFA can authorise a use of client account that rule 3.3 prohibits.",
+      "E": "Once the transaction is completed and the bill paid, there is no proper reason to hold the money, and the proposed payments are unconnected with the delivery of regulated services."
+    },
+    "last_reviewed": "2026-10-16",
+    "session": "FLK2-S2",
+    "context_subject": "Property Practice"
   },
   {
     "id": "q025",
@@ -702,7 +912,16 @@
       "overreaching",
       "co-ownership",
       "actual occupation"
-    ]
+    ],
+    "why_wrong": {
+      "A": "Actual occupation (now Land Registration Act 2002, Sch 3, para 2; under the 1925 Act, s.70(1)(g), the provision considered in Flegg) protects only an interest that subsists at the time of the disposition, and Margaret's interest was overreached by the charge.",
+      "B": "Flegg rejected the argument that a purchaser from trustees must ensure that a beneficiary in actual occupation consents.",
+      "C": "S.2(1) overreaches qualifying interests 'whether or not he has notice thereof', so notice is irrelevant where capital money is paid to two trustees.",
+      "E": "Margaret's contribution gave her a beneficial interest under a trust, as in Flegg; the point is that this interest was overreached, not that it never existed."
+    },
+    "last_reviewed": "2026-10-16",
+    "session": "FLK2-S1",
+    "context_subject": "Land Law"
   },
   {
     "id": "q026",
@@ -720,7 +939,7 @@
       "E": "Joan holds it on resulting trust for Eleanor's estate, because the intended trust for the nephews is incompletely constituted."
     },
     "answer": "B",
-    "explanation": "An express trust requires certainty of intention. In Paul v Constance [1977] 1 WLR 527, the Court of Appeal accepted the statement in Snell that the words relied on 'must be so used that on the whole they ought to be construed as imperative', while also noting that no particular form of expression is necessary if on the whole it can be gathered that a trust was intended. Scarman LJ said there must be clear evidence from what is said or done of an intention to create a trust. Eleanor's gift is expressed to be absolute, and the words 'in the hope and confidence that she will use it as she sees fit' express a hope and leave the matter to Joan's discretion; they do not impose a binding obligation. Read as a whole, the will shows no intention to create a trust, so Joan takes the money absolutely, subject at most to a moral obligation.\n\nA is wrong: although no particular form of words is required, the words used must still, on the whole, be imperative; here they are not.\nC is wrong: the court construes the words actually used; it will not impose a trust merely because the testator hoped the family would benefit.\nD is wrong: the gift to Joan is itself clear and absolute; the absence of a trust does not make the gift fail.\nE is wrong: a resulting trust does not arise because the property was effectively given to Joan outright; there is no failed trust to result back.",
+    "explanation": "An express trust requires certainty of intention. In Paul v Constance [1977] 1 WLR 527, the Court of Appeal accepted the statement in Snell that the words relied on 'must be so used that on the whole they ought to be construed as imperative', while also noting that no particular form of expression is necessary if on the whole it can be gathered that a trust was intended. Scarman LJ accepted that there must be clear evidence from what is said or done of an intention to create a trust. Eleanor's gift is expressed to be absolute, and the words 'in the hope and confidence that she will use it as she sees fit' express a hope and leave the matter to Joan's discretion; they do not impose a binding obligation. Read as a whole, the will shows no intention to create a trust, so Joan takes the money absolutely, subject at most to a moral obligation.\n\nA is wrong: although no particular form of words is required, the words used must still, on the whole, be imperative; here they are not.\nC is wrong: the court construes the words actually used; it will not impose a trust merely because the testator hoped the family would benefit.\nD is wrong: the gift to Joan is itself clear and absolute; the absence of a trust does not make the gift fail.\nE is wrong: a resulting trust does not arise because the property was effectively given to Joan outright; there is no failed trust to result back.",
     "key_rule": "A trust arises only if the words, read as a whole, are imperative and show a clear intention to create a trust; words of hope or confidence attached to an absolute gift do not suffice.",
     "authority": "Paul v Constance [1977] 1 WLR 527 (CA)",
     "verified_source_url": "https://www.bailii.org/ew/cases/EWCA/Civ/1976/2.html",
@@ -730,7 +949,16 @@
       "three certainties",
       "certainty of intention",
       "express trusts"
-    ]
+    ],
+    "why_wrong": {
+      "A": "Although no particular form of words is required, the words used must still, on the whole, be imperative; here they are not.",
+      "C": "The court construes the words actually used; it will not impose a trust merely because the testator hoped the family would benefit.",
+      "D": "The gift to Joan is itself clear and absolute; the absence of a trust does not make the gift fail.",
+      "E": "A resulting trust does not arise because the property was effectively given to Joan outright; there is no failed trust to result back."
+    },
+    "last_reviewed": "2026-10-16",
+    "session": "FLK2-S1",
+    "context_subject": "Trusts"
   },
   {
     "id": "q027",
@@ -758,7 +986,16 @@
       "intention",
       "mens rea",
       "homicide"
-    ]
+    ],
+    "why_wrong": {
+      "B": "This is the very direction held to be a material misdirection in Woollin, because it enlarges the mental element of murder.",
+      "C": "A 'highly probable' test was one of the differing approaches in R v Hyam, which Woollin described as leaving the law in disarray; the required level is virtual certainty.",
+      "D": "The 'natural consequence' guidelines from R v Moloney were held misleading in R v Hancock and Shankland because they omitted any reference to probability.",
+      "E": "Woollin rejected the Court of Appeal's view that the Nedrick direction is needed only where the evidence of intent is limited to the defendant's actions and their consequences."
+    },
+    "last_reviewed": "2026-10-16",
+    "session": "FLK2-S2",
+    "context_subject": "Criminal Law"
   },
   {
     "id": "q028",
@@ -786,7 +1023,16 @@
       "silence",
       "adverse inferences",
       "legal advice"
-    ]
+    ],
+    "why_wrong": {
+      "A": "Whether the fact could reasonably have been expected to be mentioned is irrelevant once s.34(2A) disapplies subsections (1) and (2).",
+      "B": "S.34(2A) turns on whether he had been allowed an opportunity to consult a solicitor, not on whether the denial of that opportunity was lawful.",
+      "C": "S.34(1)(a) expressly covers questioning under caution before charge, as well as failures on charge under s.34(1)(b).",
+      "D": "No inference is available here, and in any event s.38(3) provides that a person shall not be convicted solely on an inference drawn from such a failure."
+    },
+    "last_reviewed": "2026-10-16",
+    "session": "FLK2-S2",
+    "context_subject": "Criminal Practice"
   },
   {
     "id": "q029",
@@ -807,7 +1053,7 @@
     },
     "answer": "D",
     "explanation": "Under s.190(1)(b) of the Companies Act 2006 a company may not enter into an arrangement under which it acquires a substantial non-cash asset from a director unless the arrangement has been approved by a resolution of the members or is conditional on such approval being obtained. Under s.191(2) an asset is substantial if its value exceeds 10% of the company's asset value and is more than £5,000, or exceeds £100,000. The company's asset value is its net assets per its most recent statutory accounts (s.191(3)(a)), here £400,000, so the 10% threshold is £40,000. The van, at £45,000, exceeds that figure and is more than £5,000, so it is a substantial non-cash asset. Kestrel is not a wholly-owned subsidiary, so the s.190(4) exemption does not apply. Section 190 does not specify the type of resolution, so under s.281(3) an ordinary resolution suffices unless the articles require more.\n\nA is wrong: £100,000 is only one limb of the test in s.191(2); the van also qualifies under the other limb because it exceeds 10% of net assets and is more than £5,000.\nB is wrong: a declaration of interest to the board under s.177 does not replace the separate requirement for members' approval in s.190.\nC is wrong: s.190 requires only \"a resolution of the members\", which under s.281(3) means an ordinary resolution unless the articles require a higher majority.\nE is wrong: s.190(1)(b) expressly covers the company acquiring a substantial non-cash asset from a director, as well as a director acquiring one from the company.",
-    "key_rule": "A company buying from, or selling to, a director a non-cash asset worth more than £100,000, or more than 10% of its net assets and over £5,000, needs a members' resolution (ordinary unless the articles say otherwise) or a contract conditional on one.",
+    "key_rule": "A company buying a non-cash asset from, or selling one to, a director needs members' approval (or a conditional contract) if it is worth over £100,000, or over 10% of net assets and over £5,000.",
     "authority": "Companies Act 2006, ss.190(1), 190(4), 191(2)-(3) and 281(3)",
     "verified_source_url": "https://www.legislation.gov.uk/ukpga/2006/46/section/190",
     "why_wrong": {
@@ -822,7 +1068,9 @@
       "members' resolutions",
       "non-cash assets"
     ],
-    "last_reviewed": "2026-10-16"
+    "last_reviewed": "2026-10-16",
+    "session": "FLK1-S1",
+    "context_subject": "Business Law & Practice"
   },
   {
     "id": "q030",
@@ -857,7 +1105,9 @@
       "offers to settle",
       "costs"
     ],
-    "last_reviewed": "2026-10-16"
+    "last_reviewed": "2026-10-16",
+    "session": "FLK1-S1",
+    "context_subject": "Dispute Resolution"
   },
   {
     "id": "q031",
@@ -893,7 +1143,9 @@
       "negligence",
       "reasonableness"
     ],
-    "last_reviewed": "2026-10-16"
+    "last_reviewed": "2026-10-16",
+    "session": "FLK1-S2",
+    "context_subject": "Contract"
   },
   {
     "id": "q032",
@@ -928,7 +1180,9 @@
       "trespassers",
       "property damage"
     ],
-    "last_reviewed": "2026-10-16"
+    "last_reviewed": "2026-10-16",
+    "session": "FLK1-S2",
+    "context_subject": "Tort"
   },
   {
     "id": "q033",
@@ -964,7 +1218,9 @@
       "pepper v hart",
       "parliamentary material"
     ],
-    "last_reviewed": "2026-10-16"
+    "last_reviewed": "2026-10-16",
+    "session": "FLK1-S2",
+    "context_subject": "Legal Systems"
   },
   {
     "id": "q034",
@@ -985,7 +1241,7 @@
     },
     "answer": "A",
     "explanation": "Section 2(1) of the Parliament Act 1911, as amended by the Parliament Act 1949, provides that if a Public Bill (other than a Money Bill or a Bill to extend the maximum duration of Parliament beyond five years) is passed by the Commons in two successive sessions and, having been sent up to the Lords at least one month before the end of the session, is rejected by the Lords in each of those sessions, it shall on its second rejection be presented for Royal Assent and become an Act notwithstanding the Lords' lack of consent, unless the Commons directs otherwise. The proviso is that this does not take effect unless one year has elapsed between the date of the Bill's second reading in the Commons in the first session and the date it passes the Commons in the second session. All the other conditions are met on these facts, so the one-year requirement is the remaining condition.\n\nB is wrong: the one-month limit applies to Money Bills under s.1 of the 1911 Act; for other public Bills s.2 requires two sessions and the one-year interval.\nC is wrong: the requirement of three successive sessions was reduced to two by the Parliament Act 1949, which substituted \"in two successive sessions\" into s.2(1).\nD is wrong: s.2(1) allows a qualifying public Bill to become law without the consent of the Lords, so the Lords have no absolute veto over it.\nE is wrong: the proviso to s.2(1) requires one year to have elapsed between the Commons second reading in the first session and the Commons passing in the second session.",
-    "key_rule": "A public Bill (not a Money Bill or one extending Parliament's life) rejected by the Lords in two successive sessions can receive Royal Assent without them, provided a year has passed between its first Commons second reading and its second Commons passage.",
+    "key_rule": "A public Bill (not a Money Bill or one extending Parliament's life) rejected by the Lords in two successive sessions can receive Royal Assent without them if a year separates the required Commons stages.",
     "authority": "Parliament Act 1911, s.2(1), as amended by the Parliament Act 1949, s.1",
     "verified_source_url": "https://www.legislation.gov.uk/ukpga/Geo5/1-2/13/section/2",
     "why_wrong": {
@@ -1000,14 +1256,16 @@
       "legislative process",
       "parliamentary sovereignty"
     ],
-    "last_reviewed": "2026-10-16"
+    "last_reviewed": "2026-10-16",
+    "session": "FLK1-S2",
+    "context_subject": "Legal Systems"
   },
   {
     "id": "q035",
     "number": 35,
     "publish_date": "2026-11-16",
     "subject": "Ethics & Professional Conduct",
-    "flk": "FLK1",
+    "flk": "FLK2",
     "difficulty": "easy",
     "title": "Oral undertakings and the time for performance (SRA Code of Conduct for Solicitors, para 1.3)",
     "scenario": "Tomasz Wilk, a solicitor, acts for the seller of a house. Shortly before exchange of contracts, the buyer's solicitor, Funmi Okafor, telephones him about a missing building regulations completion certificate. Tomasz says: \"Leave it with me. I will send you the certificate as soon as the council issues it to us.\" No date is mentioned and nothing is put in writing. Relying on this, Funmi advises her client to exchange. The council issues the certificate to Tomasz's firm a week after completion, but four months later Tomasz has still not sent it, as he has been busy with other matters.",
@@ -1035,7 +1293,9 @@
       "professional conduct",
       "conveyancing"
     ],
-    "last_reviewed": "2026-10-16"
+    "last_reviewed": "2026-10-16",
+    "session": "FLK2-S2",
+    "context_subject": "Ethics & Professional Conduct"
   },
   {
     "id": "q036",
@@ -1056,7 +1316,7 @@
     },
     "answer": "E",
     "explanation": "Under s.25(1) of the Landlord and Tenant Act 1954 a landlord terminates a protected business tenancy by a notice in the prescribed form specifying the date of termination. By s.25(2) the notice must be given not more than twelve nor less than six months before that date: a notice served on 2 December 2026 specifying 30 June 2027 is about seven months ahead, so it is within the window. For a fixed-term tenancy, s.25(4) provides that the date of termination cannot be earlier than the date on which the tenancy would end by effluxion of time, so 30 June 2027 is the earliest permissible date. Section 25(6) requires the notice to state whether the landlord opposes the grant of a new tenancy, and s.25(7) provides that a notice stating opposition has no effect unless it also specifies one or more of the s.30(1) grounds. Harbourside's intention to demolish and reconstruct points to ground (f), which must be specified in the notice.\n\nA is wrong: s.25(2) allows service up to twelve months before the termination date; there is no rule confining service to the last six months of the term.\nB is wrong: s.25(4) prevents a landlord specifying a termination date earlier than the contractual expiry date of a fixed term, here 30 June 2027.\nC is wrong: s.25(6) provides that the notice has no effect unless it states whether the landlord is opposed to a new tenancy.\nD is wrong: s.25(7) provides that a notice stating opposition has no effect unless it also specifies the s.30(1) ground or grounds relied on.",
-    "key_rule": "A section 25 notice must be in the prescribed form, given 6 to 12 months before a termination date no earlier than the contractual expiry date, and must state whether the landlord opposes a new tenancy and, if so, on which s.30(1) grounds.",
+    "key_rule": "A s.25 notice must be in prescribed form, given 6 to 12 months before a termination date no earlier than contractual expiry, stating whether the landlord opposes a new tenancy and on which s.30(1) grounds.",
     "authority": "Landlord and Tenant Act 1954, s.25(1), (2), (4), (6) and (7)",
     "verified_source_url": "https://www.legislation.gov.uk/ukpga/Eliz2/2-3/56/section/25",
     "why_wrong": {
@@ -1071,7 +1331,9 @@
       "security of tenure",
       "landlord and tenant act 1954"
     ],
-    "last_reviewed": "2026-10-16"
+    "last_reviewed": "2026-10-16",
+    "session": "FLK2-S2",
+    "context_subject": "Property Practice"
   },
   {
     "id": "q037",
@@ -1107,7 +1369,9 @@
       "gifts to issue",
       "predeceasing beneficiary"
     ],
-    "last_reviewed": "2026-10-16"
+    "last_reviewed": "2026-10-16",
+    "session": "FLK2-S1",
+    "context_subject": "Wills & Administration of Estates"
   },
   {
     "id": "q038",
@@ -1117,7 +1381,7 @@
     "flk": "FLK2",
     "difficulty": "easy",
     "title": "Client account reconciliations every five weeks (SRA Accounts Rules, rule 8.3)",
-    "scenario": "Ashby Lane Solicitors LLP holds a general client account and two separate designated deposit client accounts for clients with large sums on long-term matters. The firm's cashier, Gareth Pryce, reconciles the general client account every two months by comparing the bank statement balance with the cash book balance. He signs the reconciliation himself. He does not reconcile the designated deposit accounts at all, because he says the money in them rarely moves. The firm's COFA, Leila Haddad, asks what the SRA Accounts Rules require.",
+    "scenario": "Ashby Lane Solicitors LLP holds a general client account and two separate designated deposit client accounts holding large sums for estates in long-running administrations. The firm's cashier, Gareth Pryce, reconciles the general client account every two months by comparing the bank statement balance with the cash book balance. He signs the reconciliation himself. He does not reconcile the designated deposit accounts at all, because he says the money in them rarely moves. The firm's COFA, Leila Haddad, asks what the SRA Accounts Rules require.",
     "stem": "Which of the following best describes the firm's obligation?",
     "options": {
       "A": "Reconcile each client account at least every two months, with the reconciliation signed by the cashier who prepared it.",
@@ -1143,7 +1407,9 @@
       "cofa",
       "accounting records"
     ],
-    "last_reviewed": "2026-10-16"
+    "last_reviewed": "2026-10-16",
+    "session": "FLK2-S1",
+    "context_subject": "Wills & Administration of Estates"
   },
   {
     "id": "q039",
@@ -1179,7 +1445,9 @@
       "registered land",
       "schedule 3"
     ],
-    "last_reviewed": "2026-10-16"
+    "last_reviewed": "2026-10-16",
+    "session": "FLK2-S1",
+    "context_subject": "Land Law"
   },
   {
     "id": "q040",
@@ -1200,7 +1468,7 @@
     },
     "answer": "D",
     "explanation": "Section 32(1) of the Trustee Act 1925 allows trustees, in their absolute discretion, to pay or apply capital for the advancement or benefit of any person entitled to capital, \"whether absolutely or contingently on his attaining any specified age\". Leo's contingent interest therefore qualifies. Proviso (a), as amended by the Inheritance and Trustees' Powers Act 2014, limits advancements to the whole of the beneficiary's presumptive or vested share. Under s.10(3) and (4) of the 2014 Act, that change applies to trusts created or arising after 1 October 2014, and Grace's will trust arose on her death in 2021. Leo's presumptive share is one third of £300,000, so up to £100,000 may be advanced. Under proviso (b) the advancement must be brought into account as part of his share if he becomes absolutely entitled. Proviso (c) requires consent only from someone with a prior life or other interest, and Mia and Noah have none.\n\nA is wrong: the one-half limit applies only to trusts created before 1 October 2014; for this trust the limit is the whole presumptive share.\nB is wrong: s.32(1) expressly extends to beneficiaries entitled contingently on attaining a specified age.\nC is wrong: under proviso (c) consent is needed only from a person with a prior interest; co-beneficiaries entitled to other shares have no veto.\nE is wrong: the power to apply income for maintenance is in s.31; s.32 is the power to advance capital.",
-    "key_rule": "For trusts created or arising after 1 October 2014, trustees may advance capital up to the whole of a beneficiary's presumptive share, even where the interest is contingent, subject to bringing it into account and to the consent of anyone with a prior interest.",
+    "key_rule": "For trusts created or arising after 1 October 2014, trustees may advance up to a beneficiary's whole presumptive share, even if contingent, subject to bringing it into account and any prior interest holder's consent.",
     "authority": "Trustee Act 1925, s.32(1) provisos (a) to (c); Inheritance and Trustees' Powers Act 2014, ss.9 and 10",
     "verified_source_url": "https://www.legislation.gov.uk/ukpga/Geo5/15-16/19/section/32",
     "why_wrong": {
@@ -1215,7 +1483,9 @@
       "contingent interest",
       "trustee powers"
     ],
-    "last_reviewed": "2026-10-16"
+    "last_reviewed": "2026-10-16",
+    "session": "FLK2-S1",
+    "context_subject": "Trusts"
   },
   {
     "id": "q041",
@@ -1251,7 +1521,9 @@
       "theft",
       "mens rea"
     ],
-    "last_reviewed": "2026-10-16"
+    "last_reviewed": "2026-10-16",
+    "session": "FLK2-S2",
+    "context_subject": "Criminal Law"
   },
   {
     "id": "q042",
@@ -1272,7 +1544,7 @@
     },
     "answer": "E",
     "explanation": "Under s.41(1) of the Police and Criminal Evidence Act 1984, a person must not be kept in police detention for more than 24 hours without charge, subject to ss.42 and 43. For a person arrested locally, the \"relevant time\" is the time of arrival at the first police station after arrest (s.41(2)(d)), here 09:00 on Monday. Under s.42(1), an officer of the rank of superintendent or above who is responsible for the station may authorise detention for a period expiring at or before 36 hours after the relevant time. The officer must have reasonable grounds to believe that detention without charge is necessary to secure, preserve or obtain evidence by questioning, that the offence is an indictable offence, and that the investigation is being conducted diligently and expeditiously. Fraud is triable either way, and an either-way offence is an \"indictable offence\" (Interpretation Act 1978, Sch 1). The authorisation must be given within 24 hours of the relevant time and after the second review (s.42(4)), so 07:30 on Tuesday is in time. Before deciding, the superintendent must give Hannah or her available solicitor an opportunity to make representations (s.42(6)). The latest possible expiry is 21:00 on Tuesday.\n\nA is wrong: s.42(1) requires an officer of at least the rank of superintendent; an inspector cannot extend detention beyond 24 hours.\nB is wrong: a magistrates' warrant of further detention under s.43 is needed only to go beyond 36 hours; a superintendent can authorise up to 36 hours.\nC is wrong: s.42(1)(b) requires an \"indictable\" offence, which includes either-way offences such as fraud.\nD is wrong: under s.41(2)(d) the relevant time is arrival at the police station (09:00), not the time of arrest, so 36 hours runs to 21:00.",
-    "key_rule": "A superintendent or above responsible for the station may extend detention without charge for an indictable (including either-way) offence up to 36 hours from the relevant time, normally arrival at the station, after the second review and within the first 24 hours.",
+    "key_rule": "A superintendent responsible for the station may extend detention without charge for an indictable (including either-way) offence to 36 hours from the relevant time, after the second review and within the first 24 hours.",
     "authority": "Police and Criminal Evidence Act 1984, s.41(1) and (2)(d), s.42(1), (4) and (6); Interpretation Act 1978, Sch 1",
     "verified_source_url": "https://www.legislation.gov.uk/ukpga/1984/60/section/42",
     "why_wrong": {
@@ -1287,7 +1559,9 @@
       "superintendent authorisation",
       "pace"
     ],
-    "last_reviewed": "2026-10-16"
+    "last_reviewed": "2026-10-16",
+    "session": "FLK2-S2",
+    "context_subject": "Criminal Practice"
   },
   {
     "id": "q043",
@@ -1323,7 +1597,9 @@
       "decision making",
       "unanimity"
     ],
-    "last_reviewed": "2026-10-16"
+    "last_reviewed": "2026-10-16",
+    "session": "FLK1-S1",
+    "context_subject": "Business Law & Practice"
   },
   {
     "id": "q044",
@@ -1344,7 +1620,7 @@
     },
     "answer": "E",
     "explanation": "Under CPR 24.3 the court may give summary judgment against a claimant or a defendant, on the whole of a claim or on an issue, if it considers that the party has no real prospect of succeeding on the claim, defence or issue and there is no other compelling reason why the case or issue should be disposed of at a trial. Under CPR 24.4(1) a claimant may apply once the defendant has filed an acknowledgment of service or a defence, unless the court gives permission or a rule or practice direction says otherwise. Marlow has filed an acknowledgment of service, so Brennan may apply now. Marlow admits delivery and quality, and the contract does not make payment depend on Marlow's customer paying, so its only stated reason for not paying is unlikely to give it a real prospect of defending the claim.\n\nA is wrong: CPR 24.4(1) allows a claimant to apply once an acknowledgment of service or a defence has been filed; a defence is not required.\nB is wrong: CPR 24.2 and 24.3 allow summary judgment against a claimant or a defendant.\nC is wrong: the test is whether the party has no real prospect of success, not whether its case is certain to fail beyond reasonable doubt.\nD is wrong: CPR 24.3 allows summary judgment on the whole of a claim or on a particular issue.",
-    "key_rule": "The court may give summary judgment for or against either party, on a whole claim or an issue, if the other side has no real prospect of success and there is no other compelling reason for a trial; a claimant may apply once an acknowledgment of service or defence is filed (CPR 24.3, 24.4(1)).",
+    "key_rule": "Summary judgment may be given for or against either party, on a claim or issue, if that party has no real prospect of success and there is no other compelling reason for a trial (CPR 24.3).",
     "authority": "Civil Procedure Rules, rules 24.2, 24.3 and 24.4(1)",
     "verified_source_url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part24",
     "why_wrong": {
@@ -1358,7 +1634,9 @@
       "real prospect",
       "case management"
     ],
-    "last_reviewed": "2026-10-16"
+    "last_reviewed": "2026-10-16",
+    "session": "FLK1-S1",
+    "context_subject": "Dispute Resolution"
   },
   {
     "id": "q045",
@@ -1394,7 +1672,9 @@
       "burden of proof",
       "negligent misrepresentation"
     ],
-    "last_reviewed": "2026-10-16"
+    "last_reviewed": "2026-10-16",
+    "session": "FLK1-S2",
+    "context_subject": "Contract"
   },
   {
     "id": "q046",
@@ -1430,7 +1710,9 @@
       "strict liability",
       "recoverable damage"
     ],
-    "last_reviewed": "2026-10-16"
+    "last_reviewed": "2026-10-16",
+    "session": "FLK1-S2",
+    "context_subject": "Tort"
   },
   {
     "id": "q047",
@@ -1466,7 +1748,9 @@
       "will writing",
       "legal services act 2007"
     ],
-    "last_reviewed": "2026-10-16"
+    "last_reviewed": "2026-10-16",
+    "session": "FLK1-S1",
+    "context_subject": "Legal Services"
   },
   {
     "id": "q048",
@@ -1502,7 +1786,9 @@
       "hybrid authority",
       "section 6"
     ],
-    "last_reviewed": "2026-10-16"
+    "last_reviewed": "2026-10-16",
+    "session": "FLK1-S2",
+    "context_subject": "Legal Systems"
   },
   {
     "id": "q049",
@@ -1538,6 +1824,8 @@
       "vulnerable clients",
       "client care"
     ],
-    "last_reviewed": "2026-10-16"
+    "last_reviewed": "2026-10-16",
+    "session": "FLK2-S1",
+    "context_subject": "Ethics & Professional Conduct"
   }
 ]

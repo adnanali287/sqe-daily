@@ -41,7 +41,7 @@ PAPERS = {'flk1': 'FLK1', 'flk2': 'FLK2'}
 DEFAULT_SITTING = {'label': 'January 2027', 'flk1_date': '2027-01-11', 'flk2_date': '2027-01-18'}
 LOCK = 'content/routes.lock.json'
 # Fields a content hash ignores: they change no visible page text (last_reviewed is a check, not an edit).
-HASH_IGNORED = {'tags', 'last_reviewed', 'last_modified', 'route', 'modified', 'available_from'}
+HASH_IGNORED = {'tags', 'last_reviewed', 'last_modified', 'route', 'modified', 'available_from', 'session', 'context_subject'}
 APPROVAL_FIELDS = {'approved', 'approved_hash'}
 # Approved subject introductions render on subject archives, so their changes are modifications.
 SUBJECT_INTROS_LIVE = True
@@ -61,7 +61,22 @@ def slug(value):
 
 def route(q):
     """The route a question receives when first published. Afterwards the lock file decides."""
-    return f'/q/{q["number"]}-{slug(q["title"])}/'
+    prefix = q['id'] if q.get('library_number') else q['number']
+    return f'/q/{prefix}-{slug(q["title"])}/'
+
+def question_number(q):
+    return f'L{q["library_number"]:03}' if q.get('library_number') else f'{q["number"]:02}'
+
+def load_bank():
+    bank = json.loads((ROOT / 'content/questions.json').read_text())
+    library_path = ROOT / 'content/library.json'
+    library = json.loads(library_path.read_text()) if library_path.exists() else []
+    for q in library:
+        if q.get('publish_date') is not None or not re.fullmatch(r'lib-[a-z]+-\d{3}', q.get('id', '')) or not isinstance(q.get('library_number'), int) or q['library_number'] < 1 or q['number'] != -q['library_number']:
+            raise ValueError('Library questions need stable library IDs/numbers and no daily date')
+    if any(q['number'] < 1 for q in bank):
+        raise ValueError('Daily issue numbers must be positive')
+    return bank + library
 
 def subject_questions(subject):
     """'Contract practice questions', but 'Property Practice questions' rather than a doubled word."""
@@ -278,7 +293,8 @@ def lock_routes(questions, write_lock, content=None, page_hashes=None):
             locked = route(q)
             if locked in used:
                 raise ValueError(f'Route {locked} is already used')
-        if not re.fullmatch(r'/q/' + str(q['number']) + r'-[a-z0-9-]+/', locked):
+        prefix = q['id'] if q.get('library_number') else str(q['number'])
+        if not re.fullmatch(r'/q/' + re.escape(prefix) + r'-[a-z0-9-]+/', locked):
             raise ValueError(f'Invalid locked route for {q["id"]}: {locked}')
         digest = content_hash(q, HASH_IGNORED)
         if entry is None or entry.get('hash') is None:
@@ -306,7 +322,7 @@ def lock_routes(questions, write_lock, content=None, page_hashes=None):
     return [{**q, 'route': lock['questions'][q['id']]['route'], 'modified': modified(q)} for q in questions], lock
 
 def generate(day, package=False, write_lock=False):
-    bank = json.loads((ROOT / 'content/questions.json').read_text())
+    bank = load_bank()
     validate_bank(bank, london_today())
     content = load_pages(london_today())
     for label in stale_approvals(content):
@@ -329,6 +345,10 @@ def generate(day, package=False, write_lock=False):
     subject_slug = lambda subject: SUBJECTS[subject]
 
     template = (ROOT / 'scripts/templates/home.html').read_text()
+    if any(q['publish_date'] is None or q['publish_date'] > day for q in questions):
+        template = template.replace('A fresh SQE1 question every day', 'One featured SQE1 question every day')
+        template = template.replace('A fresh question tomorrow.', 'Another featured question tomorrow.')
+        template = template.replace('Every question is original and checked against primary sources: legislation and case law.', 'Every question is original and checked against its linked source.')
     template = template.replace('class="countdown" aria-label=', 'class="countdown" role="group" aria-label=')
     template = template.replace('id="result-heading" tabindex="-1"></h3>', 'id="result-heading" tabindex="-1">Worked answer</h3>')
     newsletter = template.split('    <section class="email-band"')[1].split('    <section class="how-band')[0]
@@ -359,6 +379,9 @@ def generate(day, package=False, write_lock=False):
     def practice(q, home):
         """Fill the shared practice band for the homepage or a permanent question page."""
         body = practice_source.replace('id="practice-content" hidden', 'id="practice-content"')
+        if q.get('library_number'):
+            body = body.replace('Primary source · opens in a new tab', 'Source · opens in a new tab')
+            body = re.sub(r'<p class="tomorrow-note">.*?</p>', '<p class="tomorrow-note">A little more practice done.</p>', body)
         if home:
             body = body.replace('class="load-state">', 'class="load-state" hidden>')
             body = re.sub(r'<noscript>.*?</noscript>', NOSCRIPT_NOTE, body, flags=re.S)
@@ -370,7 +393,7 @@ def generate(day, package=False, write_lock=False):
             body = body.replace('id="question"', 'id="question" data-static-question')
             body = body.replace('<h2 id="practice-heading">Today\'s question</h2>', f'<h1 id="practice-heading">{esc(q["title"])}</h1>')
             body = body.replace('<time id="today"></time>', f'<time datetime="{q["available_from"]}">{q["available_from"]}</time>')
-        values = {**q, 'question-number': str(q['number']).zfill(2), 'difficulty': q['difficulty'].capitalize()}
+        values = {**q, 'question-number': question_number(q), 'difficulty': q['difficulty'].capitalize()}
         for key in ['scenario', 'stem', 'subject', 'flk', 'difficulty', 'question-number']:
             body = body.replace(f'id="{key}"></', f'id="{key}">{esc(values[key])}</')
         options = ''.join(f'<button type="button" class="option" data-letter="{letter}" aria-label="{letter}. {esc(text)}"><span class="option-letter" aria-hidden="true">{letter}</span><span class="option-text">{esc(text)}</span><span class="option-symbol" aria-hidden="true"></span></button>' for letter, text in q['options'].items())
@@ -380,10 +403,11 @@ def generate(day, package=False, write_lock=False):
         body = body.replace('id="question-title"></h4>', f'id="question-title">{esc(q["title"])}</h4>')
         body = body.replace('id="explanation" class="explanation"></div>', f'id="explanation" class="explanation">{explanation_html(q)}</div>')
         body = body.replace('id="authority-link" target=', f'id="authority-link" href="{esc(q["verified_source_url"])}" target=').replace('rel="noopener noreferrer"></a>', f'rel="noopener noreferrer">{esc(q["authority"])}</a>')
-        checked = f'<span class="source-note" id="checked-note">Checked against primary source on {long_date(q["last_reviewed"])}</span>' if q.get('last_reviewed') else ('<span class="source-note" id="checked-note" hidden></span>' if home else '')
+        source_label = 'source' if q.get('library_number') else 'primary source'
+        checked = f'<span class="source-note" id="checked-note">Checked against {source_label} on {long_date(q["last_reviewed"])}</span>' if q.get('last_reviewed') else ('<span class="source-note" id="checked-note" hidden></span>' if home else '')
         body = body.replace('<span class="source-note" id="checked-note" hidden></span>', checked)
         standards = '<a href="/editorial-standards/">How we check questions</a> · ' if 'editorial-standards' in pages else ''
-        body = body.replace('<a id="report-link" href="mailto:hello@sqedaily.co.uk">Report an error</a>', f'{standards}<a id="report-link" href="mailto:hello@sqedaily.co.uk?subject=Question%20{q["number"]}">Report an error</a>')
+        body = body.replace('<a id="report-link" href="mailto:hello@sqedaily.co.uk">Report an error</a>', f'{standards}<a id="report-link" href="mailto:hello@sqedaily.co.uk?subject=Question%20{question_number(q)}">Report an error</a>')
         return body
 
     def breadcrumbs(*items):
@@ -401,7 +425,7 @@ def generate(day, package=False, write_lock=False):
 
     def question_item(q, heading='h3'):
         q = {**q, 'publish_date': q['available_from']}
-        return f'<li><div class="archive-meta"><time datetime="{q["publish_date"]}">{q["publish_date"]}</time><span>{esc(q["subject"])} · {q["flk"]}</span><span>No. {q["number"]:02}</span></div><{heading}><a href="{q["route"]}">{esc(q["title"])}</a></{heading}><p>{esc(q["stem"])}</p></li>'
+        return f'<li><div class="archive-meta"><time datetime="{q["publish_date"]}">{q["publish_date"]}</time><span>{esc(q["subject"])} · {q["flk"]}</span><span>No. {question_number(q)}</span></div><{heading}><a href="{q["route"]}">{esc(q["title"])}</a></{heading}><p>{esc(q["stem"])}</p></li>'
 
     def related(q):
         """Up to three other published questions: shared tags first, then the same subject, then the same paper."""
@@ -444,12 +468,12 @@ def generate(day, package=False, write_lock=False):
         title = f'SQE1 {subject_questions(subject)}' if intro else subject or 'Question archive'
         filters = '<div class="archive-filters" role="group" aria-label="Filter questions" hidden><label>Subject<select id="subject-filter"><option value="">All subjects</option>' + ''.join(f'<option>{esc(s)}</option>' for s in subjects) + '</select></label><label>Paper<select id="flk-filter"><option value="">FLK1 and FLK2</option><option>FLK1</option><option>FLK2</option></select></label></div>'
         links = '<nav class="subject-index" aria-label="Subject archives">' + ''.join(f'<a href="/archive/{subject_slug(s)}/">{esc(s)}</a>' for s in subjects) + '</nav>'
-        items = ''.join(f'<li data-subject="{esc(q["subject"])}" data-flk="{q["flk"]}"><div class="archive-meta"><time datetime="{q["publish_date"]}">{q["publish_date"]}</time><span>{esc(q["subject"])} · {q["flk"]}</span><span>No. {q["number"]:02}</span></div><h2><a href="{q["route"]}">{esc(q["title"])}</a></h2><p>{esc(q["stem"])}</p></li>' for q in selected)
+        items = ''.join(f'<li data-subject="{esc(q["subject"])}" data-flk="{q["flk"]}"><div class="archive-meta"><time datetime="{q["publish_date"]}">{q["publish_date"]}</time><span>{esc(q["subject"])} · {q["flk"]}</span><span>No. {question_number(q)}</span></div><h2><a href="{q["route"]}">{esc(q["title"])}</a></h2><p>{esc(q["stem"])}</p></li>' for q in selected)
         url = '/archive/' + (subject_slug(subject) + '/' if subject else '')
         schema = {'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': title, 'url': BASE + url, 'publisher': ORGANIZATION, 'mainEntity': {'@type': 'ItemList', 'itemListElement': [{'@type': 'ListItem', 'position': i, 'url': BASE + q['route'], 'name': q['title']} for i, q in enumerate(selected, 1)]}}
         overview = ''
         if intro:
-            rules = ''.join(f'<p>{esc(q["key_rule"])} <a href="{q["route"]}">Question {q["number"]:02}</a></p>' for q in reversed(selected))
+            rules = ''.join(f'<p>{esc(q["key_rule"])} <a href="{q["route"]}">Question {question_number(q)}</a></p>' for q in reversed(selected))
             overview = f'<section class="reading-section">{rich(intro["intro"])}</section><section class="reading-section" aria-labelledby="rules-heading"><h2 id="rules-heading">Rules to remember</h2>{rules}</section>'
         body = f'<section class="reading wrap"><p class="eyebrow">THE DAILY PRACTICE</p><h1>{esc(title)}</h1><p class="lead">One question. One rule to remember. Browse the published practice.</p>{overview}{filters}{links}<ol class="archive-list">{items}</ol><p id="archive-empty" hidden>No questions match these filters.</p></section>' + newsletter
         return body, schema
@@ -469,7 +493,10 @@ def generate(day, package=False, write_lock=False):
         'about': ('About SQE Daily', [('A little practice. Every day.', 'SQE Daily is a free site and newsletter for aspiring solicitors preparing for SQE1. One original Single Best Answer question, five options, a worked answer and the legal source. A few minutes of practice, wherever your day takes you.'), ('Written for revision. Checked at the source.', 'Each question is written for SQE Daily and checked against primary sources: legislation and case law. The worked answer explains the correct option, the alternatives and the key rule. Follow the authority link to read the source for yourself.' + standards_note), ('Independent by design.', 'SQE Daily is provider-neutral, sells no course, and is not affiliated with the SRA or any training provider. It is a revision resource, not legal advice or a substitute for comprehensive exam preparation.'), ('Say hello.', 'Questions, corrections or feedback? Email <a href="mailto:hello@sqedaily.co.uk">hello@sqedaily.co.uk</a>.')]),
         'sponsor': ('Sponsor SQE Daily', [('Support a daily habit.', 'SQE Daily reaches SQE1 candidates: law students, career changers and paralegals building a daily revision habit, often on their phones between other commitments.'), ('One considered placement.', 'One sponsor slot per daily email and one on the site. Sponsorship keeps the daily question free. SQE Daily remains independent and provider-neutral.'), ('Start a conversation.', 'Media kit on request. Email <a href="mailto:hello@sqedaily.co.uk">hello@sqedaily.co.uk</a> to discuss a placement. No course is sold by SQE Daily.')]),
         'privacy': ('Privacy', [('Newsletter subscriptions.', 'When you subscribe, your email address is sent to Buttondown, which stores subscriber emails and handles confirmation, delivery and unsubscribe requests. Confirm your address to activate your subscription. Unsubscribe using the link in an email. Read <a href="https://buttondown.com/legal/privacy">Buttondown’s privacy policy</a>.'), ('Website analytics.', 'Cloudflare Web Analytics is configured but disabled until a site token is added. When enabled, it collects cookie-free website usage and performance measurements. We do not add advertising trackers. Read <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare’s privacy policy</a>.'), ('Hosting and links.', 'GitHub Pages hosts this site. Hosting providers may process technical request information to serve and protect their services. Legal-source links take you to external websites, which have their own privacy policies.'), ('Contact and your information.', 'For privacy questions, access or deletion requests, email <a href="mailto:hello@sqedaily.co.uk">hello@sqedaily.co.uk</a>. SQE Daily does not sell your subscriber email address or share it with sponsors.')])}
-    copy['privacy'][1].insert(1, ('Practice test progress.', 'Practice tests store your answers, flags and timing on this device using browser storage. No test results are sent to SQE Daily or Buttondown. Other people using the same browser may be able to see saved attempts. Starting a new test or discarding a saved test clears the previous attempt; clearing browser site data also removes it.'))
+    copy['privacy'][1].insert(1, ('Practice test progress.', 'Practice tests store your answers, flags, timing and recent practice history on this device using browser storage. No test results are sent to SQE Daily or Buttondown. Other people using the same browser may be able to see saved attempts. Starting a new test or discarding a saved test clears the previous attempt. Clearing browser site data removes saved attempts and recent practice history.'))
+    if any(q.get('library_number') for q in questions):
+        heading, text = copy['about'][1][1]
+        copy['about'][1][1] = (heading, text.replace('checked against primary sources: legislation and case law.', 'checked against its linked source.'))
     for name, (title, sections) in copy.items():
         body = '<section class="reading wrap"><p class="eyebrow">SQE DAILY</p><h1>' + title + '</h1>' + ''.join(f'<section class="reading-section"><h2>{heading}</h2><p>{text}</p></section>' for heading, text in sections) + '</section>'
         page('/' + name + '/', title, sections[0][1], body + (newsletter if name != 'privacy' else ''))
@@ -573,7 +600,7 @@ def generate(day, package=False, write_lock=False):
         recent = list(reversed([q for q in questions if q['id'] != current['id']]))[:RECENT]
         recent = [{**q, 'publish_date': q['available_from']} for q in recent]
         if recent:
-            items = ''.join(f'<li><div class="archive-meta"><time datetime="{q["publish_date"]}">{q["publish_date"]}</time><span>{esc(q["subject"])} · {q["flk"]}</span><span>No. {q["number"]:02}</span></div><h3><a href="{q["route"]}">{esc(q["title"])}</a></h3><p>{esc(q["stem"])}</p></li>' for q in recent)
+            items = ''.join(f'<li><div class="archive-meta"><time datetime="{q["publish_date"]}">{q["publish_date"]}</time><span>{esc(q["subject"])} · {q["flk"]}</span><span>No. {question_number(q)}</span></div><h3><a href="{q["route"]}">{esc(q["title"])}</a></h3><p>{esc(q["stem"])}</p></li>' for q in recent)
             band += f'    <section class="recent-questions wrap" aria-labelledby="recent-heading"><div class="section-heading"><h2 id="recent-heading">Recent questions</h2><a href="/archive/">All questions</a></div><ol class="archive-list">{items}</ol></section>\n'
         assert practice_source in home
         home = home.replace(practice_source, band)

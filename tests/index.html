@@ -13,10 +13,10 @@
     <div id="resume-panel" class="test-notice" hidden><h3 id="resume-heading">Unfinished test</h3><p id="resume-summary"></p><div class="test-actions"><button class="test-primary" id="resume-test" type="button">Resume test</button><button class="test-secondary" id="discard-test" type="button">Discard saved test</button></div></div>
     <form id="test-form" aria-label="Test settings">
       <fieldset class="test-mode"><legend>Test</legend><label><input type="radio" name="kind" value="mini" checked> Mini test</label><label><input type="radio" name="kind" value="full"> Full mock</label></fieldset>
-      <div class="test-fields"><label>Paper<select id="test-paper"><option>FLK1</option><option>FLK2</option></select></label>
-      <label id="subject-field">Subject<select id="test-subject"><option value="">All subjects</option></select></label>
+      <div class="test-fields"><label>Paper<select id="test-paper"><option>FLK1</option><option>FLK2</option><option value="ETHICS">Ethics · both papers</option></select></label>
+      <label id="subject-field">Pool<select id="test-subject"><option value="">Mixed paper</option></select></label>
       <label id="count-field">Questions<select id="test-count"><option value="10">10 questions</option><option value="20">20 questions</option></select></label>
-      <label id="mock-field" hidden>Paper<select id="test-mock"></select></label></div>
+      <label id="mock-field" hidden>Mock<select id="test-mock"></select></label></div>
       <fieldset class="test-mode"><legend>Timing</legend><label><input type="radio" name="timing" value="timed" checked> Timed</label><label><input type="radio" name="timing" value="untimed"> Untimed practice</label></fieldset>
       <p id="pool-status" class="test-availability" role="status"></p><p id="duration-note" class="test-muted"></p>
       <button id="start-test" class="test-primary" type="submit" disabled>Start test &#8594;</button>
@@ -35,5 +35,5 @@
 </div></section>
 <dialog id="submit-dialog" aria-labelledby="submit-heading"><h2 id="submit-heading">Submit this session?</h2><p id="submit-summary"></p><p>Submitted answers cannot be changed.</p><div id="submission-grid" class="question-grid" role="group" aria-label="Session review"></div><div class="test-actions"><button type="button" id="cancel-submit" class="test-secondary">Keep working</button><button type="button" id="confirm-submit" class="test-primary">Submit session</button></div></dialog>
 <noscript><p class="wrap">JavaScript is needed for tests. <a href="/archive/">Read questions and worked answers in the library.</a></p></noscript>
-<script src="/assets/test-core.js?v=1dce6a3afd2d" defer></script><script src="/assets/tests.js?v=a8b25cf1a568" defer></script>
+<script src="/assets/test-core.js?v=f54ba8b3364d" defer></script><script src="/assets/tests.js?v=61acda9479b2" defer></script>
 </main><footer class="wrap"><a class="footer-brand" href="/">SQE Daily.</a><nav aria-label="Footer navigation"><a href="/">Today</a><a href="/archive/">Library</a><a href="/tests/">Tests</a><a href="/about/">About</a><a href="/sponsor/">Sponsor</a><a href="/privacy/">Privacy</a><a href="/sqe1-practice-questions/">Practice questions</a><a href="/sqe1-exam-dates/">Exam dates</a><a href="/guides/">Guides</a><a href="/editorial-standards/">Editorial standards</a></nav><p>Independent. Not affiliated with the SRA or any training provider.<br>For revision only. Not legal advice.</p><a href="mailto:hello@sqedaily.co.uk">Say hello</a></footer></body></html>

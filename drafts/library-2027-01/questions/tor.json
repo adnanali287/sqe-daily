@@ -1,0 +1,1086 @@
+[
+ {
+  "id": "lib-tor-001",
+  "subject": "Tort",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Police duty of care for positive acts during an arrest (Robinson v CC West Yorkshire)",
+  "scenario": "Two police officers in England decide to arrest a suspected drug dealer, Kyle, on a busy high street at lunchtime. They know he is likely to try to run. They approach him while Edna Price, aged 79, is walking immediately beside him. Kyle struggles, and he and both officers fall on top of Edna, breaking her hip. Edna sues the chief constable in negligence. The chief constable argues that the police owe no duty of care to members of the public when they are suppressing crime.",
+  "stem": "Which of the following best describes whether the officers owed Edna a duty of care?",
+  "options": {
+   "A": "No, because the police have a general immunity from negligence claims arising from the investigation and suppression of crime.",
+   "B": "Yes, because this is a claim for injury directly caused by the officers' own positive act, and ordinary negligence principles apply to the police as to anyone else.",
+   "C": "No, because Edna's injury was caused by Kyle, a third party, and there is no general duty to prevent harm caused by others.",
+   "D": "Yes, but only if the court, applying the three-stage Caparo test afresh, finds that it is fair, just and reasonable to impose a duty on the police.",
+   "E": "No, because the officers were exercising statutory powers of arrest, and public authorities owe no common law duty when exercising statutory powers."
+  },
+  "answer": "B",
+  "explanation": "In Robinson v Chief Constable of West Yorkshire Police [2018] UKSC 4 the Supreme Court held that public authorities, including the police, are generally under a duty of care to avoid causing actionable harm where a duty would arise under ordinary principles of negligence, unless the law provides otherwise. The decisive distinction is between causing harm (a positive act) and failing to protect someone from harm caused by another (an omission). Edna's complaint is not that the officers failed to protect her from Kyle; it is that their own decision to make the arrest beside a frail pedestrian, when an escape attempt was foreseeable, resulted in her being injured. That is a positive act causing foreseeable physical injury, an established category in which a duty arises without any need to re-run a fresh policy analysis. The officers therefore owed Edna a duty of care; whether they breached it and caused her injury are separate questions.",
+  "why_wrong": {
+   "A": "Robinson rejected the idea of a general police immunity; Hill-type reasoning concerns omissions, not harm the police themselves cause.",
+   "C": "This is not an omissions case: Edna was injured by the arrest the officers carried out, not merely by Kyle acting independently.",
+   "D": "Where a case falls within an established category, such as positive acts causing foreseeable personal injury, the court does not re-apply Caparo as a three-stage test.",
+   "E": "Exercising a statutory function does not displace a duty that would otherwise arise for a positive act unless the statute, properly construed, excludes it."
+  },
+  "key_rule": "Public authorities, including the police, owe the ordinary duty to take care not to cause foreseeable personal injury by their positive acts; the special rules restricting liability concern omissions to protect people from third parties.",
+  "authority": "Robinson v Chief Constable of West Yorkshire Police [2018] UKSC 4",
+  "verified_source_url": "https://caselaw.nationalarchives.gov.uk/uksc/2018/4",
+  "tags": [
+   "negligence",
+   "duty of care",
+   "public authorities",
+   "omissions"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Negligence: duty of care (standard (general and professional)) and breach",
+   "context_subject": "Tort",
+   "source_type": "judgment",
+   "source_quote": "It follows that public authorities are generally under a duty of care to avoid causing actionable harm in situations where a duty of care would arise under ordinary principles of the law of negligence, unless the law provides otherwise.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-tor-002",
+  "subject": "Tort",
+  "flk": "FLK1",
+  "difficulty": "easy",
+  "title": "The omissions principle: when a duty to prevent harm arises",
+  "scenario": "Your client wants to understand when English law (England and Wales) imposes a duty of care on a person to prevent harm to another that the person did not create. In each situation below, assume the harm was foreseeable, the person could easily have prevented it, and they did nothing.",
+  "stem": "In which of the following situations is a duty of care to prevent the harm most likely to arise?",
+  "options": {
+   "A": "A shopper sees a stranger slip on a spilt drink in a supermarket aisle and does not warn other customers, one of whom later slips on the same spill.",
+   "B": "A man notices a burglar trying the back door of his neighbour's house and does not alert the neighbour or the police.",
+   "C": "A motorist drives past a road accident in which a stranger is trapped and bleeding, without stopping to help or calling for assistance.",
+   "D": "A childminder who has agreed with a parent to look after a four-year-old for the afternoon fails to stop the child running from the garden into a busy road.",
+   "E": "A pedestrian watches a stranger's dog attack a cyclist in a park and does not try to intervene."
+  },
+  "answer": "D",
+  "explanation": "The common law does not generally impose liability for pure omissions. As summarised in Robinson v Chief Constable of West Yorkshire Police [2018] UKSC 4, a person is not under a duty to take care to prevent harm to another through a source of danger they did not create unless (i) they have assumed responsibility to protect that person, (ii) they have prevented someone else from protecting them, (iii) they have a special level of control over the source of danger, or (iv) their status creates an obligation to protect. The childminder has expressly agreed to look after the child, so she has assumed responsibility for the child's safety. That brings her within the first exception, and she owes a duty to take reasonable care to protect the child from foreseeable dangers such as the road. In each of the other situations the person simply failed to intervene in a danger created by someone or something else, with no assumption of responsibility, control or protective status.",
+  "why_wrong": {
+   "A": "The shopper did not create the spill and has no control over the premises or responsibility for other customers; this is a pure omission.",
+   "B": "There is no general duty to protect a neighbour from a third party's criminal act, even when it is foreseen.",
+   "C": "English law imposes no general duty to rescue a stranger, however easy the rescue would be.",
+   "E": "The pedestrian did not own or control the dog and assumed no responsibility for the cyclist, so failing to intervene is a pure omission."
+  },
+  "key_rule": "There is generally no duty to prevent harm from a danger one did not create, unless one assumed responsibility, prevented others helping, controlled the danger, or holds a protective status.",
+  "authority": "Robinson v Chief Constable of West Yorkshire Police [2018] UKSC 4, para 34 (citing Michael v Chief Constable of South Wales Police [2015] UKSC 2)",
+  "verified_source_url": "https://caselaw.nationalarchives.gov.uk/uksc/2018/4",
+  "tags": [
+   "negligence",
+   "duty of care",
+   "omissions"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Negligence: duty of care (standard (general and professional)) and breach",
+   "context_subject": "Tort",
+   "source_type": "judgment",
+   "source_quote": "a person A is not under a duty to take care to prevent harm occurring to person B through a source of danger not created by A unless (i) A has assumed a responsibility to protect B from that danger",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-tor-003",
+  "subject": "Tort",
+  "flk": "FLK1",
+  "difficulty": "hard",
+  "title": "Objective standard of care for a defendant with mental illness (Dunnage v Randall)",
+  "scenario": "Gareth suffers from paranoid schizophrenia. During a psychotic episode at his home in England he poured petrol around his kitchen and it ignited, seriously burning his cousin Leah, who was visiting and trying to calm him. The agreed psychiatric evidence is that Gareth's illness very substantially impaired his ability to control what he did, but that it did not completely destroy his voluntary control or his responsibility for his actions. A reasonable person would not have handled petrol in that way. Leah sues Gareth in negligence.",
+  "stem": "Which of the following best states whether Gareth is in breach of duty?",
+  "options": {
+   "A": "He is not in breach, because his conduct must be judged against the standard of a reasonable person suffering from the same mental illness.",
+   "B": "He is not in breach, because mental illness, like youth, lowers the standard of care to that reasonably expected of someone with the defendant's characteristics.",
+   "C": "He is not in breach, because a person suffering from a serious mental illness owes no duty of care to others while the illness is active.",
+   "D": "He is in breach only if Leah proves that Gareth knew that what he was doing was wrong at the time.",
+   "E": "He is in breach, because he is judged by the objective standard of the reasonable person, and his illness did not entirely eliminate his responsibility for his actions."
+  },
+  "answer": "E",
+  "explanation": "The standard of care in negligence is objective: the defendant's conduct is measured against that of the ordinary reasonable person, not against what this defendant personally could manage. In Dunnage v Randall [2015] EWCA Civ 673 the Court of Appeal held that a defendant suffering from mental illness is not judged by a lower, subjective standard. A defendant escapes liability only where his condition entirely eliminates his responsibility, so that his conduct was wholly involuntary. Where responsibility is reduced, even very substantially, but not wholly removed, he remains fixed with the objective standard. Childhood is the only category in which the comparator is moderated. Here the agreed evidence is that Gareth's control was very substantially impaired but not completely destroyed, and a reasonable person would not have handled petrol in this way. He therefore fell below the required standard and is in breach of duty to Leah.",
+  "why_wrong": {
+   "A": "Dunnage rejected a standard of the 'reasonable person with the same illness'; the comparator is the ordinary reasonable person.",
+   "B": "Children are the one category for which the comparator is moderated; mental illness does not lower the standard.",
+   "C": "Gareth owed Leah a duty of care as a visitor in his home; the issue is breach, not the existence of a duty.",
+   "D": "Negligence does not require proof that the defendant knew his conduct was wrong; the test is objective failure to take reasonable care."
+  },
+  "key_rule": "A defendant with mental illness is judged by the objective reasonable person standard and escapes liability only if the illness entirely eliminated his responsibility, making his conduct wholly involuntary.",
+  "authority": "Dunnage v Randall [2015] EWCA Civ 673",
+  "verified_source_url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/673",
+  "tags": [
+   "negligence",
+   "standard of care",
+   "breach"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Negligence: duty of care (standard (general and professional)) and breach",
+   "context_subject": "Tort",
+   "source_type": "judgment",
+   "source_quote": "Unless a defendant can establish that his condition entirely eliminates responsibility ... he remains vulnerable to liability if he does not meet the objective standard of care.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Rafferty LJ, Vos LJ and Arden LJ gave separate reasons; all allowed the appeal on the basis that Vince's conduct was not wholly involuntary. The quote is from Rafferty LJ."
+  }
+ },
+ {
+  "id": "lib-tor-004",
+  "subject": "Tort",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Professional standard and disclosure of material risks (Montgomery v Lanarkshire Health Board)",
+  "scenario": "Ines, a professional dancer, consults Mr Haddad, an orthopaedic surgeon in an NHS hospital in England, about knee surgery. She tells him that her career depends on full mobility in her legs. He recommends surgery but does not mention a 1% risk of permanent nerve damage causing foot drop, or the option of a longer course of physiotherapy instead. Expert evidence shows that a responsible body of orthopaedic surgeons would not mention a risk as low as 1%. Ines does not ask about risks. The nerve damage occurs and ends her career.",
+  "stem": "Which of the following best describes whether Mr Haddad breached his duty of care in failing to tell Ines about the risk?",
+  "options": {
+   "A": "He is likely to be in breach, because he had to take reasonable care to ensure she knew of material risks and reasonable alternatives, and he should have known that this patient would attach significance to the risk.",
+   "B": "He is not in breach, because a doctor is not negligent if he acts in accordance with a practice accepted as proper by a responsible body of medical opinion.",
+   "C": "He is in breach only if the court finds that the practice of not disclosing a 1% risk cannot withstand logical analysis.",
+   "D": "He is not in breach, because Ines did not ask about the risks of surgery and a doctor need only answer the questions a patient actually asks.",
+   "E": "He is not in breach, because the duty to warn applies only to risks of at least 10%."
+  },
+  "answer": "A",
+  "explanation": "In Montgomery v Lanarkshire Health Board [2015] UKSC 11 the Supreme Court held that the Bolam test does not govern advice about the risks of treatment. A doctor is under a duty to take reasonable care to ensure that the patient is aware of any material risks involved in any recommended treatment, and of any reasonable alternative or variant treatments. A risk is material if a reasonable person in the patient's position would be likely to attach significance to it, or if the doctor is or should reasonably be aware that the particular patient would be likely to do so. Materiality is not a matter of percentages alone. Ines told Mr Haddad that her career depended on full mobility, so he should reasonably have known that she would attach significance to a risk of permanent foot drop, even at 1%. He also failed to mention physiotherapy as a reasonable alternative. The fact that other surgeons would not have disclosed the risk does not protect him. Causation would still need to be proved separately.",
+  "why_wrong": {
+   "B": "The Bolam test still governs diagnosis and treatment, but Montgomery held it no longer applies to the disclosure of risks.",
+   "C": "Bolitho qualifies the Bolam test; neither test decides whether a risk had to be disclosed after Montgomery.",
+   "D": "Montgomery rejected an approach that makes disclosure depend on the patient asking questions.",
+   "E": "There is no percentage threshold; materiality depends on the significance a reasonable patient, or this patient, would attach to the risk."
+  },
+  "key_rule": "Doctors must take reasonable care that patients know of material risks and reasonable alternatives; a risk is material if a reasonable patient, or this patient to the doctor's knowledge, would consider it significant.",
+  "authority": "Montgomery v Lanarkshire Health Board [2015] UKSC 11, para 87",
+  "verified_source_url": "https://caselaw.nationalarchives.gov.uk/uksc/2015/11",
+  "tags": [
+   "negligence",
+   "standard of care",
+   "professional negligence",
+   "breach"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Negligence: duty of care (standard (general and professional)) and breach",
+   "context_subject": "Tort",
+   "source_type": "judgment",
+   "source_quote": "The doctor is therefore under a duty to take reasonable care to ensure that the patient is aware of any material risks involved in any recommended treatment, and of any reasonable alternative or variant treatments.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Montgomery is a Scottish appeal but the Supreme Court stated the law for the UK and it is applied in England and Wales."
+  }
+ },
+ {
+  "id": "lib-tor-005",
+  "subject": "Tort",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Mesothelioma and multiple employers: joint and several liability (Compensation Act 2006 s.3)",
+  "scenario": "Terence worked as a lagger for three companies in England. Each negligently exposed him to asbestos: Allbright Ltd for 10 years, Brennan Ltd for 5 years and Castell Ltd for 5 years. He has now been diagnosed with mesothelioma. Because of the nature of the disease, it is impossible to say which exposure caused it. All three companies are still trading. Terence sues only Brennan Ltd, and it is accepted that Brennan Ltd is liable in tort because its exposure materially increased the risk of his illness.",
+  "stem": "Which of the following best describes Brennan Ltd's liability to Terence?",
+  "options": {
+   "A": "Brennan Ltd is liable for 25% of Terence's damages, reflecting its share of the total period of exposure.",
+   "B": "Brennan Ltd is not liable at all, because Terence cannot prove on the balance of probabilities that its exposure caused his mesothelioma.",
+   "C": "Brennan Ltd is liable for the whole of Terence's damages, jointly and severally with the other companies, but may claim contribution from them.",
+   "D": "Terence must join all three companies as defendants before any of them can be ordered to pay damages.",
+   "E": "Brennan Ltd is liable for the whole of Terence's damages and has no right to recover any part of them from Allbright Ltd or Castell Ltd."
+  },
+  "answer": "C",
+  "explanation": "Section 3 of the Compensation Act 2006 applies where a responsible person has negligently exposed the victim to asbestos, the victim has contracted mesothelioma, it is impossible to determine which exposure caused the illness, and the responsible person is liable in tort (whether by reason of having materially increased a risk or otherwise). Each of those conditions is met. Under s.3(2) Brennan Ltd is liable in respect of the whole of the damage caused by the disease, jointly and severally with any other responsible person. Terence can therefore recover his full damages from Brennan Ltd alone. Under s.3(3)(a) Brennan Ltd may claim contribution from Allbright Ltd and Castell Ltd. By s.3(4), the court will normally decide those contributions by the relative lengths of the periods of exposure, unless the parties agree otherwise or the court thinks another basis more appropriate.",
+  "why_wrong": {
+   "A": "Section 3(2) reversed the proportionate approach for mesothelioma; apportionment by exposure applies only between defendants on contribution.",
+   "B": "For mesothelioma, liability rests on material increase in risk; s.3 applies precisely because but-for causation cannot be proved.",
+   "D": "Liability is joint and several, so the claimant may sue any one responsible person for the whole loss.",
+   "E": "Section 3(3)(a) expressly preserves one responsible person's right to claim contribution from another."
+  },
+  "key_rule": "In mesothelioma cases, each negligent exposer liable in tort is liable for the whole damage, jointly and severally, with contribution between defendants normally by relative periods of exposure.",
+  "authority": "Compensation Act 2006, s.3",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2006/29/section/3",
+  "tags": [
+   "negligence",
+   "causation",
+   "mesothelioma",
+   "multiple causes"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Negligence: causation (single and multiple)",
+   "context_subject": "Tort",
+   "source_type": "legislation",
+   "source_quote": "The responsible person shall be liable— (a) in respect of the whole of the damage caused to the victim by the disease ... and (b) jointly and severally with any other responsible person.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "legislation.gov.uk lists unapplied effects for this Act from the Legal Services Act 2007, but they concern Part 2 (claims management), not s.3."
+  }
+ },
+ {
+  "id": "lib-tor-006",
+  "subject": "Tort",
+  "flk": "FLK1",
+  "difficulty": "hard",
+  "title": "Pure economic loss caused by a negligent act: power cut damages calculation (Spartan Steel)",
+  "scenario": "Forgewell Ltd runs a glass-making plant in England around the clock. Contractors digging up a nearby road negligently cut the cable supplying electricity to the plant, and the power is off for 12 hours. A batch of glass in the furnace at the time is ruined, reducing its value by £1,200. Had that batch been completed, Forgewell would have made a profit of £900 on it. Forgewell also proves that it would have made a further profit of £4,500 on new batches it could not start while the power was off. The contractors admit negligence.",
+  "stem": "Applying the leading authority on economic loss caused by a negligent act, how much is Forgewell likely to recover from the contractors?",
+  "options": {
+   "A": "£6,600.",
+   "B": "£1,200.",
+   "C": "£5,700.",
+   "D": "£2,100.",
+   "E": "Nothing, because all of Forgewell's losses are financial."
+  },
+  "answer": "D",
+  "explanation": "In Spartan Steel and Alloys Ltd v Martin & Co (Contractors) Ltd [1972] EWCA Civ 3, where contractors negligently cut a power cable to a factory, the majority of the Court of Appeal held that the claimant could recover for physical damage to its property and for economic loss consequential on that physical damage, but not for pure economic loss independent of any physical damage. Applying that rule, Forgewell recovers the £1,200 physical damage to the batch in the furnace and the £900 profit lost on that same damaged batch, which flows directly from the physical damage. The £4,500 profit on batches that could not be started is pure economic loss caused only by the interruption of supply, independent of any damage to Forgewell's property, and is not recoverable. The total is £1,200 + £900 = £2,100.",
+  "why_wrong": {
+   "A": "£6,600 wrongly includes the £4,500 profit on new batches, which is pure economic loss unconnected with physical damage.",
+   "B": "£1,200 omits the £900 lost profit on the damaged batch, which is consequential on physical damage and recoverable.",
+   "C": "£5,700 adds the pure economic loss of £4,500 to the physical damage while leaving out the consequential loss of profit.",
+   "E": "The ruined batch is physical damage to Forgewell's property, and the profit lost on that batch is consequential on it, so both are recoverable."
+  },
+  "key_rule": "Physical damage and economic loss consequential on it are recoverable in negligence, but pure economic loss independent of physical damage (such as lost production during a power cut) is generally not.",
+  "authority": "Spartan Steel and Alloys Ltd v Martin & Co (Contractors) Ltd [1972] EWCA Civ 3, [1973] QB 27",
+  "verified_source_url": "https://www.bailii.org/ew/cases/EWCA/Civ/1972/3.html",
+  "tags": [
+   "negligence",
+   "pure economic loss",
+   "damages"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Negligence: claims for pure economic loss arising from either a negligent act or misstatement",
+   "context_subject": "Tort",
+   "source_type": "judgment",
+   "source_quote": "the plaintiff should recover for the physical damage to the one melt (£368), and the loss of profit on that melt consequent thereon (£400): but not for the loss of profit on the four melts (£1,767)",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Majority decision (Lord Denning MR and Lawton LJ; Edmund Davies LJ dissenting). Calculation type; figures are invented."
+  }
+ },
+ {
+  "id": "lib-tor-007",
+  "subject": "Tort",
+  "flk": "FLK1",
+  "difficulty": "hard",
+  "title": "Negligent misstatement by a solicitor to the opposite party (Steel v NRAM)",
+  "scenario": "Hollins LLP, a firm of solicitors in England, acts for Dorrance Ltd, which is selling one of four commercial units mortgaged to Northgate Bank plc. Northgate is a commercial lender and is not using its own solicitor for the release. A partner at Hollins carelessly emails Northgate stating that Dorrance will repay its entire loan on completion and asking Northgate to release its charges over all four units. In fact, only part of the loan is to be repaid. Northgate does not check the email against its own loan records, which would have shown the error, and releases all its security. Dorrance later becomes insolvent and Northgate sues Hollins LLP in negligence for its loss.",
+  "stem": "Which of the following best describes whether Hollins LLP owed Northgate a duty of care in respect of the email?",
+  "options": {
+   "A": "Yes, because it was foreseeable that Northgate would act on the email, and foreseeability of reliance is enough for a duty in negligent misstatement.",
+   "B": "Probably not, because a solicitor generally owes no duty to the opposite party, and it was not reasonable for a commercial lender to rely on the email without checking its own records.",
+   "C": "Yes, because solicitors, as regulated professionals, owe a duty of care to everyone who receives their written statements in a transaction.",
+   "D": "No, because a claim for pure economic loss can be brought only in contract, and Northgate had no contract with Hollins LLP.",
+   "E": "Yes, because the Hedley Byrne principle imposes a duty on anyone who makes a statement in the course of business, whatever the relationship."
+  },
+  "answer": "B",
+  "explanation": "Liability for negligent misstatement causing pure economic loss rests on an assumption of responsibility under Hedley Byrne. In Steel v NRAM Ltd [2018] UKSC 13 the Supreme Court stressed that the claimant must show it was reasonable to rely on the statement and that the maker should reasonably have foreseen that it would do so. A solicitor owes a duty to his own client but generally owes no duty to the opposite party, and will not be taken to assume responsibility to that party unless it was reasonable for it to rely on what the solicitor said. On materially similar facts the Court held that a commercial lender could not reasonably rely, without checking its own records, on a statement by the borrower's solicitor about the terms of its own loan. Northgate could easily have checked and was acting for itself in an arm's length transaction. Hollins LLP therefore probably did not owe it a duty of care.",
+  "why_wrong": {
+   "A": "Foreseeability alone is not enough; reasonable reliance and an assumption of responsibility are required.",
+   "C": "A solicitor generally owes no duty of care to the opposite party in an arm's length transaction.",
+   "D": "Pure economic loss can be recovered in tort where Hedley Byrne liability arises; the claim fails here on duty, not because tort is excluded.",
+   "E": "Hedley Byrne liability depends on a special relationship involving reasonable reliance, not on any business statement."
+  },
+  "key_rule": "A solicitor generally owes no duty to the opposite party; a duty for a misstatement requires an assumption of responsibility, including reasonable reliance that the solicitor should reasonably have foreseen.",
+  "authority": "Steel v NRAM Ltd [2018] UKSC 13; Hedley Byrne & Co Ltd v Heller & Partners Ltd [1964] AC 465",
+  "verified_source_url": "https://caselaw.nationalarchives.gov.uk/uksc/2018/13",
+  "tags": [
+   "negligence",
+   "negligent misstatement",
+   "pure economic loss",
+   "duty of care"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Negligence: claims for pure economic loss arising from either a negligent act or misstatement",
+   "context_subject": "Tort",
+   "source_type": "judgment",
+   "source_quote": "A solicitor owes a duty of care to the party for whom he is acting but generally owes no duty to the opposite party",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Steel v NRAM was a Scottish appeal; the Supreme Court applied the common (UK-wide) Hedley Byrne principles. Facts invented and simplified."
+  }
+ },
+ {
+  "id": "lib-tor-008",
+  "subject": "Tort",
+  "flk": "FLK1",
+  "difficulty": "hard",
+  "title": "Disclaimer of liability for negligent advice to a non-client business (UCTA 1977 ss.2(2), 11(3), 13)",
+  "scenario": "Vantage Surveyors LLP values a warehouse in England for Brightline Bank plc, which is considering a loan to Kestrel Logistics Ltd to buy it. Vantage knows that Kestrel will see the report and is likely to rely on it in deciding whether to buy. The report contains a prominent notice: 'No responsibility is accepted to any person other than Brightline Bank plc.' Kestrel, which is buying the warehouse for its business, relies on the report. The valuation was carelessly prepared and Kestrel suffers financial loss. There is no contract between Vantage and Kestrel.",
+  "stem": "Which of the following best describes the effect of the notice on any claim by Kestrel against Vantage in negligence?",
+  "options": {
+   "A": "The notice is automatically effective, because a disclaimer prevents the surveyor from assuming responsibility, so no duty of care can arise.",
+   "B": "The notice is void, because a person can never exclude liability for negligence by a notice.",
+   "C": "The Unfair Contract Terms Act 1977 does not apply, because there is no contract between Vantage and Kestrel.",
+   "D": "The notice is valid only if it is fair under the Consumer Rights Act 2015.",
+   "E": "The notice can be relied on only if it satisfies the requirement of reasonableness, because the 1977 Act also controls notices that exclude the duty itself."
+  },
+  "answer": "E",
+  "explanation": "Section 2(2) of the Unfair Contract Terms Act 1977 provides that, for loss other than death or personal injury, a person cannot exclude or restrict liability for negligence by a contract term or notice except in so far as it satisfies the requirement of reasonableness. The Act applies to non-contractual notices, so the absence of a contract between Vantage and Kestrel is irrelevant. Section 13(1) prevents the Act being sidestepped by wording a notice so that it excludes the duty itself, rather than the liability. The notice therefore cannot automatically prevent a duty arising. For a non-contractual notice, s.11(3) asks whether it is fair and reasonable to allow reliance on it, having regard to all the circumstances when the liability arose. Kestrel is a business, not a consumer, so the Consumer Rights Act 2015 regime for consumer notices does not apply and UCTA governs. Whether Kestrel succeeds will depend on that reasonableness assessment.",
+  "why_wrong": {
+   "A": "Section 13(1) means a notice excluding the duty itself is still subject to the reasonableness requirement, so it is not automatically effective.",
+   "B": "Only liability for death or personal injury resulting from negligence can never be excluded (s.2(1)); other loss is subject to reasonableness.",
+   "C": "Section 2 expressly applies to notices given to persons generally or to particular persons, not only to contract terms.",
+   "D": "The Consumer Rights Act 2015 governs consumer notices; Kestrel is a business acting for business purposes, so UCTA applies."
+  },
+  "key_rule": "Under UCTA 1977 ss.2(2) and 13(1), a notice excluding negligence liability (or the duty itself) for loss other than personal injury is effective only if reasonable, judged under s.11(3) for non-contractual notices.",
+  "authority": "Unfair Contract Terms Act 1977, ss.2(2), 11(3), 13(1); Smith v Eric S Bush [1990] 1 AC 831",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1977/50/section/2",
+  "tags": [
+   "negligent misstatement",
+   "pure economic loss",
+   "exclusion clauses",
+   "unfair contract terms",
+   "reasonableness"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Negligence: claims for pure economic loss arising from either a negligent act or misstatement",
+   "context_subject": "Tort",
+   "source_type": "legislation",
+   "source_quote": "In the case of other loss or damage, a person cannot so exclude or restrict his liability for negligence except in so far as the term or notice satisfies the requirement of reasonableness.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Sections 11(3) and 13(1) were also fetched from legislation.gov.uk (ukpga/1977/50/section/11 and /13). Smith v Eric S Bush was not separately fetched; it is cited only as the usual label for the s.13 point."
+  }
+ },
+ {
+  "id": "lib-tor-009",
+  "subject": "Tort",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Rescuers and primary victim status in psychiatric injury claims",
+  "scenario": "Amara, an off-duty nurse, is driving on a motorway in England when she comes upon a serious collision caused by the negligence of a lorry driver, Piotr. She stops and spends an hour helping injured strangers from their cars, some of whom die. Traffic has been stopped, and at no point was she in any physical danger or did she reasonably believe she was. She has no relationship with any of the victims. She later develops post-traumatic stress disorder and sues Piotr.",
+  "stem": "Which of the following best describes Amara's likely position?",
+  "options": {
+   "A": "Her claim is likely to fail, because a rescuer who is not exposed to physical danger, and does not reasonably believe she is, is not a primary victim, and she has no close tie with any victim.",
+   "B": "Her claim is likely to succeed, because rescuers are always treated as primary victims, whether or not they were in danger.",
+   "C": "Her claim is likely to succeed, because psychiatric injury to a rescuer at the scene of an accident is reasonably foreseeable.",
+   "D": "Her claim is likely to succeed, because it was foreseeable that a person at the scene might suffer physical injury, and foreseeability of psychiatric injury is not required.",
+   "E": "Her claim is likely to fail, because a rescuer can never recover damages for psychiatric injury."
+  },
+  "answer": "A",
+  "explanation": "Claimants for negligently caused psychiatric injury are divided into primary victims and secondary victims. In White v Chief Constable of South Yorkshire (Frost), as summarised by the Supreme Court in Paul v Royal Wolverhampton NHS Trust [2024] UKSC 1, the House of Lords held that the category of primary victims is limited to persons exposed, or who reasonably perceived themselves to be exposed, to physical danger. Being a rescuer does not by itself make someone a primary victim. Amara was never in physical danger and did not believe she was, so she is not a primary victim. She can recover only if she satisfies the restrictive rules for secondary victims, which require, among other things, a close tie of love and affection with a person killed, injured or imperilled in the accident. She had no relationship with any of the victims, so her claim is likely to fail despite her courage and her genuine illness.",
+  "why_wrong": {
+   "B": "White (Frost) rejected the argument that rescuers are automatically primary victims; exposure to physical danger is required.",
+   "C": "Foreseeability of psychiatric injury is not enough for a claimant outside the zone of danger; the secondary victim control mechanisms apply.",
+   "D": "The Page v Smith approach applies only to primary victims within the range of foreseeable physical injury, which Amara was not.",
+   "E": "A rescuer who is exposed to physical danger, or reasonably believes she is, can recover as a primary victim."
+  },
+  "key_rule": "A rescuer is a primary victim only if exposed, or reasonably believing herself exposed, to physical danger; otherwise she must satisfy the secondary victim rules, including a close tie with a victim.",
+  "authority": "White v Chief Constable of South Yorkshire Police [1999] 2 AC 455, as explained in Paul v Royal Wolverhampton NHS Trust [2024] UKSC 1",
+  "verified_source_url": "https://caselaw.nationalarchives.gov.uk/uksc/2024/1",
+  "tags": [
+   "negligence",
+   "psychiatric injury",
+   "primary victims",
+   "rescuers"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Negligence: claims for psychiatric harm",
+   "context_subject": "Tort",
+   "source_type": "judgment",
+   "source_quote": "They held, in particular, that the category of primary victims is limited to persons exposed (or who perceived themselves to be exposed) to physical danger and for that reason did not include the claimants.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "White/Frost itself was not fetched; the rule is taken from the Supreme Court's account of it in Paul [2024] UKSC 1. The source wording is 'perceived'; the explanation uses the commonly stated 'reasonably' perceived/believed, which reviewers may wish to check."
+  }
+ },
+ {
+  "id": "lib-tor-010",
+  "subject": "Tort",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Remoteness: foreseeability of the type of harm, not the precise manner (Jolley v Sutton LBC)",
+  "scenario": "A housing association in England owns the grassed common area of a block of flats where children regularly play. An abandoned caravan with broken windows has been left there for over a year, despite residents' complaints. The association accepts that it was negligent in failing to remove the caravan, because children might be cut by the broken glass. Two 13-year-old boys decide to turn the caravan into a den. They jack up one end to fix the wheels, and the caravan topples onto one of them, Tobias, breaking his pelvis. The association argues that the only foreseeable risk was of cuts from broken glass.",
+  "stem": "Which of the following best describes whether Tobias's injury is too remote?",
+  "options": {
+   "A": "It is too remote, because the only foreseeable risk was that children would be cut by broken glass, and the injury happened in a different way.",
+   "B": "It is too remote, because the boys' decision to jack up the caravan was a new intervening act breaking the chain of causation.",
+   "C": "It is not too remote, because physical injury to children meddling with the abandoned caravan was a foreseeable type of harm, and the precise manner of the accident need not have been foreseen.",
+   "D": "It is not too remote, but only if the association could have foreseen the severity of a broken pelvis.",
+   "E": "It is not too remote, because a negligent defendant is liable for all the direct consequences of its breach, whether foreseeable or not."
+  },
+  "answer": "C",
+  "explanation": "Since The Wagon Mound (No 1), a defendant is liable only for damage of a type or description that was reasonably foreseeable. In Jolley v Sutton LBC [2000] UKHL 31, on similar facts involving an abandoned boat, the House of Lords held that what must be foreseen is not the precise injury but injury of a given description: 'the genus', not 'the particulars'. Neither the precise manner in which the injury came about nor its extent needs to be foreseeable. Children's ingenuity in finding unexpected ways of hurting themselves should not be underestimated, and the correct description of the risk was that children would meddle with the abandoned object at the risk of some physical injury. Tobias's broken pelvis is physical injury from children meddling with the abandoned caravan, so it falls within the foreseeable type of harm. It is therefore not too remote, and the association, which ought to have removed the caravan anyway, is liable.",
+  "why_wrong": {
+   "A": "This is the narrow description of risk adopted by the Court of Appeal in Jolley and rejected by the House of Lords.",
+   "B": "Children meddling with an abandoned object is the very risk the association should have guarded against, so it does not break the chain of causation.",
+   "D": "The extent or severity of a foreseeable type of injury need not be foreseen.",
+   "E": "The 'direct consequences' test was replaced by the reasonable foreseeability test in The Wagon Mound (No 1)."
+  },
+  "key_rule": "Damage is not too remote if it is of a type or description that was reasonably foreseeable; neither the precise manner in which it occurred nor its extent need be foreseen.",
+  "authority": "Jolley v Sutton London Borough Council [2000] UKHL 31; The Wagon Mound (No 1) [1961] AC 388",
+  "verified_source_url": "https://www.bailii.org/uk/cases/UKHL/2000/31.html",
+  "tags": [
+   "negligence",
+   "remoteness",
+   "children"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Negligence: remoteness and loss",
+   "context_subject": "Tort",
+   "source_type": "judgment",
+   "source_quote": "It is also agreed that what must have been foreseen is not the precise injury which occurred but injury of a given description. The foreseeability is not as to the particulars but the genus.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Jolley was argued under the Occupiers' Liability Act 1957 but the remoteness principle is general. Facts deliberately differ from Jolley."
+  }
+ },
+ {
+  "id": "lib-tor-011",
+  "subject": "Tort",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "What the estate can recover (Law Reform (Miscellaneous Provisions) Act 1934 s.1)",
+  "scenario": "Callum, aged 38, was seriously injured in England in a crash caused by the negligence of a delivery driver. He spent three weeks in hospital in great pain and then died of his injuries. Before the accident he earned £60,000 a year and expected to work until 67. His executor brings a claim for the benefit of his estate under the Law Reform (Miscellaneous Provisions) Act 1934.",
+  "stem": "Which of the following heads of loss is NOT recoverable in the estate's claim?",
+  "options": {
+   "A": "Reasonable funeral expenses paid by the estate.",
+   "B": "The earnings Callum would have received between his death and the age of 67.",
+   "C": "Damages for the pain, suffering and loss of amenity Callum experienced during the three weeks before he died.",
+   "D": "The earnings Callum lost during the three weeks between the accident and his death.",
+   "E": "The reasonable cost of care and treatment Callum needed between the accident and his death."
+  },
+  "answer": "B",
+  "explanation": "Under s.1(1) of the Law Reform (Miscellaneous Provisions) Act 1934, causes of action vested in a person survive for the benefit of his estate on his death. The estate can therefore recover the losses Callum himself had suffered up to his death: damages for pain, suffering and loss of amenity during the three weeks, the earnings he lost in that period, and the costs of his care and treatment. Section 1(2)(c) allows a sum for funeral expenses to be included where the death was caused by the wrong. However, s.1(2)(a)(ii) provides that the damages recoverable for the estate shall not include any damages for loss of income in respect of any period after the person's death. Callum's lost earnings after death up to 67 are therefore not recoverable by the estate. Any loss to his family from the loss of his financial support would instead be claimed by his dependants under the Fatal Accidents Act 1976.",
+  "why_wrong": {
+   "A": "Section 1(2)(c) expressly allows a sum in respect of funeral expenses where the death was caused by the act giving rise to the claim.",
+   "C": "Callum's own claim for pain, suffering and loss of amenity before death was vested in him and survives for his estate.",
+   "D": "Earnings lost before death were part of Callum's own subsisting claim; only income for the period after death is excluded.",
+   "E": "Pre-death care and treatment costs were Callum's own loss and survive for the benefit of the estate."
+  },
+  "key_rule": "A deceased's causes of action survive for his estate, but the estate cannot recover exemplary damages or loss of income for any period after death; funeral expenses may be included.",
+  "authority": "Law Reform (Miscellaneous Provisions) Act 1934, s.1(1), (2)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/Geo5/24-25/41/section/1",
+  "tags": [
+   "damages",
+   "death claims",
+   "personal injury"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Negligence: principles of remedies for personal injury and death claims",
+   "context_subject": "Tort",
+   "source_type": "legislation",
+   "source_quote": "the damages recoverable for the benefit of the estate of that person— (a) shall not include— (i) any exemplary damages; (ii) any damages for loss of income in respect of any period after that person's death",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-tor-012",
+  "subject": "Tort",
+  "flk": "FLK1",
+  "difficulty": "easy",
+  "title": "Who may claim bereavement damages under the Fatal Accidents Act 1976 s.1A",
+  "scenario": "Jade, aged 24, was killed in England when a negligently driven van hit her. She was not married and had no civil partner. For the 18 months before her death she lived with her boyfriend, Ravi, as a couple in a flat they rented together. Her parents, with whom she was very close, are both alive. Ravi and Jade's parents each want to claim the statutory bereavement award from the van driver's insurers.",
+  "stem": "Who is entitled to bereavement damages under the Fatal Accidents Act 1976?",
+  "options": {
+   "A": "Jade's parents, to be shared equally between them.",
+   "B": "Ravi alone, as the person who lived with Jade as her partner.",
+   "C": "Ravi and Jade's parents, with the award divided equally among the three of them.",
+   "D": "Jade's mother only.",
+   "E": "No one, because Ravi had not lived with Jade for two years and Jade was not a minor."
+  },
+  "answer": "E",
+  "explanation": "Under s.1A(2) of the Fatal Accidents Act 1976, a claim for bereavement damages may be made only for the benefit of (a) the deceased's spouse or civil partner, (aa) the deceased's cohabiting partner, and (b) where the deceased was a minor who was never married or a civil partner, the deceased's parents (or the mother, if the child was illegitimate). Section 1A(2A) defines a cohabiting partner as someone who was living with the deceased in the same household immediately before death and had been doing so for at least two years, as if married or in a civil partnership. Jade was unmarried, and Ravi had lived with her for only 18 months, so he does not qualify. Jade was 24, so her parents cannot claim either, however close the relationship. The list is closed, so no one is entitled to bereavement damages, although any financial dependency claim is a separate matter.",
+  "why_wrong": {
+   "A": "Parents may claim bereavement damages only where the deceased was a minor who was never married or a civil partner.",
+   "B": "A cohabiting partner qualifies only after at least two years of living together in the same household; Ravi had 18 months.",
+   "C": "Neither Ravi nor the parents fall within s.1A(2), so there is nothing to divide.",
+   "D": "The mother alone can claim only for an illegitimate minor; Jade was an adult."
+  },
+  "key_rule": "Bereavement damages are available only to a spouse or civil partner, a cohabiting partner of at least two years, or the parents of an unmarried minor.",
+  "authority": "Fatal Accidents Act 1976, s.1A(2) and (2A)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1976/30/section/1A",
+  "tags": [
+   "damages",
+   "death claims",
+   "fatal accidents act 1976",
+   "bereavement"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Negligence: principles of remedies for personal injury and death claims",
+   "context_subject": "Tort",
+   "source_type": "legislation",
+   "source_quote": "shall only be for the benefit— (a) of the wife or husband or civil partner of the deceased; (aa) of the cohabiting partner of the deceased; and (b) where the deceased was a minor who was never married",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Subsection (2)(aa) (cohabiting partners) was inserted by remedial order in 2020; legislation.gov.uk shows it in force with no unapplied effects."
+  }
+ },
+ {
+  "id": "lib-tor-013",
+  "subject": "Tort",
+  "flk": "FLK1",
+  "difficulty": "easy",
+  "title": "Effect of contributory negligence on damages (Law Reform (Contributory Negligence) Act 1945 s.1)",
+  "scenario": "Faisal was crossing a road in England while looking at his phone when he was hit by a car driven by Grace, who was speeding. Faisal suffered a broken leg. The court finds that Grace was negligent, but that Faisal was also at fault for not looking where he was going and that his fault contributed to his injury. His damages, ignoring his own fault, are assessed at £40,000.",
+  "stem": "Which of the following best describes the effect of Faisal's fault on his claim?",
+  "options": {
+   "A": "His claim fails entirely, because a claimant whose own fault contributed to his injury cannot recover anything.",
+   "B": "His damages are automatically reduced by 50%, because both parties were at fault.",
+   "C": "His damages are not reduced, because Grace's speeding was the more serious fault.",
+   "D": "His claim is not defeated, but the court will reduce his £40,000 damages to the extent it thinks just and equitable having regard to his share in the responsibility for the damage.",
+   "E": "His damages can be reduced only if Faisal owed Grace a duty of care to look where he was going."
+  },
+  "answer": "D",
+  "explanation": "Section 1(1) of the Law Reform (Contributory Negligence) Act 1945 provides that where a person suffers damage partly as a result of his own fault and partly as a result of the fault of another, his claim is not defeated by reason of his own fault. Instead, the damages are reduced to such extent as the court thinks just and equitable having regard to the claimant's share in the responsibility for the damage. Under s.1(2) the court finds and records the total damages that would have been recoverable if the claimant had not been at fault, here £40,000, and then applies the reduction. Faisal's failure to look while crossing contributed to his injury, so his damages will be reduced, but he will still recover from Grace. The percentage is a matter for the court's judgment on the facts, weighing the causative potency and blameworthiness of each party's conduct; there is no fixed or automatic figure.",
+  "why_wrong": {
+   "A": "The 1945 Act abolished the old rule that contributory negligence was a complete defence; the claim is not defeated.",
+   "B": "There is no automatic 50% reduction; the court decides what is just and equitable on the facts.",
+   "C": "A greater fault on the defendant's side affects the size of the reduction, but does not prevent a reduction where the claimant was also at fault.",
+   "E": "Contributory negligence concerns the claimant's failure to take reasonable care for his own safety; he need not owe the defendant a duty."
+  },
+  "key_rule": "Contributory negligence does not defeat a claim; damages are reduced to the extent the court thinks just and equitable having regard to the claimant's share in responsibility for the damage.",
+  "authority": "Law Reform (Contributory Negligence) Act 1945, s.1(1) and (2)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/Geo6/8-9/28/section/1",
+  "tags": [
+   "negligence",
+   "defences",
+   "contributory negligence"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Defences: contributory negligence",
+   "context_subject": "Tort",
+   "source_type": "legislation",
+   "source_quote": "shall not be defeated by reason of the fault of the person suffering the damage, but the damages recoverable in respect thereof shall be reduced to such extent as the court thinks just and equitable",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "legislation.gov.uk lists two unapplied effects from a 2026 Act of the Scottish Parliament (asp 2026/10) affecting the Act's Scottish application (s.5(aa) inserted; Act restricted). They do not affect s.1 in England and Wales, but a reviewer may wish to confirm."
+  }
+ },
+ {
+  "id": "lib-tor-014",
+  "subject": "Tort",
+  "flk": "FLK1",
+  "difficulty": "easy",
+  "title": "Volenti and passengers in motor vehicles (Road Traffic Act 1988 s.149)",
+  "scenario": "Mia accepted a lift home from a party in England from her friend Jonah, knowing that he had drunk a lot of alcohol. Before setting off, at Jonah's insistence, she signed a note saying: 'I travel entirely at my own risk and will not sue Jonah for any injury.' Jonah, whose use of the car was covered by compulsory motor insurance, drove negligently and crashed, injuring Mia. Jonah's insurers argue that Mia consented to the risk.",
+  "stem": "Which of the following best describes the insurers' argument?",
+  "options": {
+   "A": "Volenti non fit injuria cannot be relied on against Mia, and the signed note has no effect, although her damages may be reduced for contributory negligence.",
+   "B": "Volenti is a complete defence, because Mia signed a written agreement accepting the risk before the journey.",
+   "C": "Volenti is a complete defence, because Mia knew Jonah was drunk and chose to travel with him.",
+   "D": "Mia's claim is barred by illegality, because she knowingly travelled with a drunk driver.",
+   "E": "The note is effective only if it was signed at least 24 hours before the journey."
+  },
+  "answer": "A",
+  "explanation": "Section 149 of the Road Traffic Act 1988 applies where a vehicle is being used in circumstances requiring compulsory insurance. Under s.149(2) any antecedent agreement or understanding between the user and a passenger, whether or not intended to be legally binding, is of no effect so far as it purports to negative or restrict the user's liability to the passenger that must be covered by insurance. Under s.149(3) the fact that a passenger has willingly accepted the risk of the driver's negligence is not to be treated as negativing that liability. So neither Mia's signed note nor her knowledge that Jonah was drunk gives the insurers a defence of consent. That does not leave the insurers without an argument: by choosing to travel with a driver she knew to be drunk, Mia may be found contributorily negligent under the Law Reform (Contributory Negligence) Act 1945, and her damages reduced accordingly.",
+  "why_wrong": {
+   "B": "Section 149(2) makes any antecedent agreement restricting the driver's liability to a passenger of no effect.",
+   "C": "Section 149(3) provides that willing acceptance of the risk of the driver's negligence does not negative liability.",
+   "D": "Travelling with a drunk driver is not, without more, the kind of criminal conduct that bars a passenger's claim for illegality.",
+   "E": "Section 149(4)(b) treats any agreement made at any time before the liability arose as antecedent, so timing does not save it."
+  },
+  "key_rule": "A passenger's agreement or willing acceptance of the risk of the driver's negligence does not negative the insured driver's liability (RTA 1988 s.149), though contributory negligence may still reduce damages.",
+  "authority": "Road Traffic Act 1988, s.149",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1988/52/section/149",
+  "tags": [
+   "negligence",
+   "defences",
+   "volenti",
+   "road traffic"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Defences: volenti non fit injuria",
+   "context_subject": "Tort",
+   "source_type": "legislation",
+   "source_quote": "The fact that a person so carried has willingly accepted as his the risk of negligence on the part of the user shall not be treated as negativing any such liability of the user.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "The contributory negligence point (Owens v Brimmell) is general law, not stated in s.149; option D rests on general illegality principles, not on the fetched source."
+  }
+ },
+ {
+  "id": "lib-tor-015",
+  "subject": "Tort",
+  "flk": "FLK1",
+  "difficulty": "hard",
+  "title": "Illegality: losses flowing from the claimant's own crime (Henderson v Dorset Healthcare)",
+  "scenario": "Rosalind has paranoid schizophrenia. Her mental health trust in England negligently failed to return her to hospital when her condition deteriorated, and she suffered several weeks of worsening psychotic symptoms. During a psychotic episode she killed her mother. She pleaded guilty to manslaughter by reason of diminished responsibility, the court accepting that her responsibility was substantially reduced, and she was made subject to a hospital order. The trust admits negligence. Rosalind claims damages for: (1) the worsening psychotic symptoms before the killing; (2) her loss of liberty while detained under the hospital order; (3) depression and guilt caused by having killed her mother; and (4) the share of her mother's estate she lost because the court made an order under the Forfeiture Act 1982.",
+  "stem": "Which of these heads of loss is Rosalind likely to be able to recover?",
+  "options": {
+   "A": "All four heads, because the trust's negligence caused all of them and her responsibility for the killing was substantially reduced.",
+   "B": "Heads (1), (2) and (3), but not head (4), because only the loss of inheritance is barred, as it results from a Forfeiture Act order.",
+   "C": "Head (1) only.",
+   "D": "Heads (1) and (3), because her depression and guilt are personal injuries rather than consequences of the sentence.",
+   "E": "None of them, because the illegality defence bars any claim by a claimant who has committed a serious criminal offence."
+  },
+  "answer": "C",
+  "explanation": "In Henderson v Dorset Healthcare University NHS Foundation Trust [2020] UKSC 43, on materially similar facts, the Supreme Court affirmed Gray v Thames Trains as consistent with the 'trio of considerations' approach in Patel v Mirza. A claimant who has been convicted of manslaughter by reason of diminished responsibility, with significant personal responsibility for the killing, cannot recover losses flowing from the sentence imposed (such as detention) or from the killing itself (such as guilt and depression). Recovering the inheritance lost under a Forfeiture Act order would also subvert that specific statutory regime. Allowing recovery would undermine the consistency of the law and the criminal court's decision. The diminished responsibility plea did not remove the significant personal responsibility found by the criminal court. It was common ground, however, that pain, suffering and loss of amenity arising before the killing remained recoverable. Only head (1) is therefore recoverable.",
+  "why_wrong": {
+   "A": "Henderson held that losses flowing from the sentence or the killing are irrecoverable even where responsibility was diminished but not removed.",
+   "B": "Damages for detention under the sentence and for guilt and depression consequent on the killing are also barred.",
+   "D": "Psychiatric harm consequent on the killing flows from the claimant's own criminal act and is irrecoverable under the Gray rules applied in Henderson.",
+   "E": "Illegality does not bar every claim by an offender; losses for pain and suffering arising before the killing were recoverable."
+  },
+  "key_rule": "A claimant convicted of manslaughter with significant personal responsibility cannot recover losses flowing from the sentence or the killing (Gray, affirmed in Henderson), but pre-offence pain and suffering is recoverable.",
+  "authority": "Henderson v Dorset Healthcare University NHS Foundation Trust [2020] UKSC 43; Gray v Thames Trains Ltd [2009] UKHL 33; Patel v Mirza [2016] UKSC 42",
+  "verified_source_url": "https://caselaw.nationalarchives.gov.uk/uksc/2020/43",
+  "tags": [
+   "negligence",
+   "defences",
+   "illegality"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Defences: illegality",
+   "context_subject": "Tort",
+   "source_type": "judgment",
+   "source_quote": "all heads of loss are irrecoverable pursuant to the ratio in Gray, save for (as was common ground) any losses for pain and suffering or loss of amenity that arose prior to the killing",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "The pre-killing PSLA point was common ground rather than a contested holding. The inheritance/forfeiture head was dealt with in Henderson at paras 146-149; reviewer may wish to confirm wording."
+  }
+ },
+ {
+  "id": "lib-tor-016",
+  "subject": "Tort",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Defective work equipment due to a third party (Employer's Liability (Defective Equipment) Act 1969)",
+  "scenario": "Oakridge Joinery Ltd buys a set of power saws from a reputable manufacturer and checks them on delivery, as a reasonable employer would. One saw has a hidden manufacturing defect which no reasonable inspection would have revealed. While using the saw in the course of his employment at Oakridge's workshop in England, Darius, an employee, is injured when the blade guard fails because of the defect. Oakridge argues that it was not at fault and that Darius should sue the manufacturer.",
+  "stem": "Which of the following best describes Oakridge's liability to Darius?",
+  "options": {
+   "A": "Oakridge is not liable, because it bought from a reputable supplier and took reasonable care in inspecting the equipment.",
+   "B": "Oakridge is liable, because Darius's injury is deemed to be attributable to Oakridge's negligence, although Oakridge may seek contribution or an indemnity from the manufacturer.",
+   "C": "Oakridge is liable only if Darius proves that the manufacturer cannot be identified or is insolvent.",
+   "D": "Oakridge is not liable, because an employer's duty to provide safe equipment is fully discharged by delegating manufacture to a competent independent contractor.",
+   "E": "Oakridge is liable unless Darius's contract of employment excludes the employer's liability for defective equipment."
+  },
+  "answer": "B",
+  "explanation": "An employer's common law primary duty includes providing adequate plant and equipment. Section 1(1) of the Employer's Liability (Defective Equipment) Act 1969 strengthens this. Where an employee suffers personal injury in the course of employment because of a defect in equipment provided by the employer for its business, and the defect is attributable wholly or partly to the fault of a third party (whether identified or not), the injury is deemed to be also attributable to the employer's negligence. This applies whether or not the employer would be liable apart from the section. The defect in the saw resulted from the manufacturer's fault, so Oakridge is deemed negligent and is liable to Darius, even though it acted reasonably. The section preserves the employer's remedies by way of contribution or in contract against the manufacturer or supplier, and any contributory negligence by Darius. Under s.1(2) any agreement purporting to exclude or limit this liability is void.",
+  "why_wrong": {
+   "A": "Reasonable care in buying and inspecting is no answer, because s.1(1) deems the injury attributable to the employer's negligence.",
+   "C": "The deeming provision applies whether or not the third party is identified or solvent.",
+   "D": "The 1969 Act reversed the position that buying from a reputable supplier discharged the employer's duty as to defective equipment.",
+   "E": "Section 1(2) makes void any agreement purporting to exclude or limit the employer's liability under s.1(1)."
+  },
+  "key_rule": "Where an employee is injured by defective work equipment and the defect is due to a third party's fault, the injury is deemed attributable to the employer's negligence (EL(DE)A 1969 s.1).",
+  "authority": "Employer's Liability (Defective Equipment) Act 1969, s.1",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1969/37/section/1",
+  "tags": [
+   "employers' liability",
+   "negligence",
+   "defective equipment"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Negligence: employers' primary liability (operation and effect of the common law principles)",
+   "context_subject": "Tort",
+   "source_type": "legislation",
+   "source_quote": "the injury shall be deemed to be also attributable to negligence on the part of the employer (whether or not he is liable in respect of the injury apart from this subsection)",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-tor-017",
+  "subject": "Tort",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Vicarious liability stage one: independent contractors (Barclays Bank v Various Claimants)",
+  "scenario": "Harrow & Vale Logistics Ltd requires job applicants to pass a medical examination. It arranges for applicants to see Dr Fenwick, a self-employed GP who runs his own practice with many patients and corporate clients. The company books the appointments and sends him a form, and pays him a fee for each report. He chooses how to conduct the examinations, may refuse a booking, and carries his own professional insurance. During examinations at his own surgery in England, Dr Fenwick sexually assaults several applicants. They sue Harrow & Vale Logistics Ltd, alleging that it is vicariously liable.",
+  "stem": "Which of the following best describes whether the company is vicariously liable?",
+  "options": {
+   "A": "It is liable, because it arranged the examinations and benefited from Dr Fenwick's work.",
+   "B": "It is liable, because Dr Fenwick's examinations were an integral part of the company's recruitment process, making his position akin to employment.",
+   "C": "It is liable, because the five policy factors used in the Christian Brothers case point towards liability.",
+   "D": "It is not liable, because vicarious liability never extends to deliberate criminal acts such as sexual assault.",
+   "E": "It is not liable, because Dr Fenwick was carrying on his own independent business, so his relationship with the company was not one capable of giving rise to vicarious liability."
+  },
+  "answer": "E",
+  "explanation": "Vicarious liability requires, first, a relationship between the defendant and the tortfeasor which is one of employment or sufficiently akin to employment and, second, a close connection between that relationship and the tort. In Barclays Bank plc v Various Claimants [2020] UKSC 13, on similar facts, the Supreme Court held that the employer of an independent contractor is in general not vicariously liable for the contractor's torts. The question is whether the tortfeasor is carrying on his own independent business or is in a relationship akin to employment. Where it is clear that the tortfeasor is carrying on his own independent business, it is not necessary to consider the five incidents identified in the Christian Brothers case. Dr Fenwick had his own practice and other clients, was paid per report, could refuse work and carried his own insurance. He was in business on his own account, so stage one fails and the company is not vicariously liable.",
+  "why_wrong": {
+   "A": "Arranging and benefiting from the work of an independent contractor does not make a relationship akin to employment.",
+   "B": "The Supreme Court in Barclays held that a doctor in this position was not in a relationship akin to employment, despite doing work for the company.",
+   "C": "Where the tortfeasor is clearly carrying on his own independent business, the five incidents need not be considered.",
+   "D": "Vicarious liability can extend to deliberate wrongdoing, including sexual abuse, where both stages are satisfied; the claim fails here at stage one."
+  },
+  "key_rule": "A defendant is not vicariously liable for a tortfeasor who is carrying on his own independent business; the relationship must be employment or akin to employment.",
+  "authority": "Barclays Bank plc v Various Claimants [2020] UKSC 13",
+  "verified_source_url": "https://caselaw.nationalarchives.gov.uk/uksc/2020/13",
+  "tags": [
+   "vicarious liability",
+   "independent contractors"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Principles of vicarious liability",
+   "context_subject": "Tort",
+   "source_type": "judgment",
+   "source_quote": "Where it is clear that the tortfeasor is carrying on his own independent business it is not necessary to consider the five incidents.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-tor-018",
+  "subject": "Tort",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Vicarious liability stage two: close connection and an assault on a customer (Mohamud v WM Morrison)",
+  "scenario": "Kwame is employed by Fuelstop Ltd as a cashier at a petrol station kiosk in England. His job is to serve customers and deal with their questions. A customer, Mr Varga, asks politely whether he can print some documents. Kwame swears at him and orders him to leave. Mr Varga walks back to his car on the forecourt. Kwame follows him, opens the passenger door, tells him never to come back to 'my' petrol station and punches him repeatedly. Fuelstop Ltd had never authorised violence and had no reason to think Kwame was dangerous.",
+  "stem": "Which of the following best describes whether Fuelstop Ltd is vicariously liable for the assault?",
+  "options": {
+   "A": "It is not liable, because assaulting customers was entirely outside the duties Kwame was employed to perform.",
+   "B": "It is not liable, because the connection with Kwame's employment ended when he left the kiosk and followed Mr Varga onto the forecourt.",
+   "C": "It is liable only if it was negligent in recruiting or supervising Kwame.",
+   "D": "It is liable, because Kwame was acting within the field of activities entrusted to him in dealing with a customer, and the assault was part of an unbroken sequence of events closely connected with his job.",
+   "E": "It is liable, because an employer is strictly liable for any wrong committed by an employee during working hours."
+  },
+  "answer": "D",
+  "explanation": "It is accepted that Kwame was Fuelstop's employee, so the question is the second stage: whether there was a sufficient connection between the position in which he was employed and his wrongful conduct to make it right for the employer to be held liable. In Mohamud v WM Morrison Supermarkets plc [2016] UKSC 11, on very similar facts, the Supreme Court asked what functions or field of activities had been entrusted to the employee, viewed broadly, and then whether the wrongful conduct was sufficiently connected with them. Kwame's job was to attend to customers and respond to their inquiries. His abusive response was inexcusable but within that field of activities, and what followed, including following Mr Varga to the forecourt and ordering him never to return, was an unbroken sequence of events in which he was purporting to act about his employer's business. The employer is therefore vicariously liable, without any need to show fault on its part.",
+  "why_wrong": {
+   "A": "The field of activities is viewed broadly; misconduct in the course of dealing with customers can be closely connected with the job.",
+   "B": "In Mohamud, following the customer onto the forecourt did not break the connection; it was an unbroken sequence of events.",
+   "C": "Vicarious liability is a form of strict liability for the employee's tort; it does not depend on the employer's own negligence.",
+   "E": "Liability requires a close connection between the job and the wrong, not merely that the wrong occurred during working hours."
+  },
+  "key_rule": "An employer is vicariously liable where the employee's wrong is so closely connected with the field of activities entrusted to him that it is right to hold the employer liable.",
+  "authority": "Mohamud v WM Morrison Supermarkets plc [2016] UKSC 11",
+  "verified_source_url": "https://caselaw.nationalarchives.gov.uk/uksc/2016/11",
+  "tags": [
+   "vicarious liability",
+   "close connection"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Principles of vicarious liability",
+   "context_subject": "Tort",
+   "source_type": "judgment",
+   "source_quote": "His conduct in answering the claimant's request in a foul mouthed way and ordering him to leave was inexcusable but within the \"field of activities\" assigned to him. What happened thereafter was an unbroken sequence of events.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "WM Morrison Supermarkets plc v Various Claimants [2020] UKSC 12 explained Mohamud (an employee pursuing a personal vendetta is not acting on the employer's business); it was not fetched. The facts here track Mohamud, so the outcome should be unaffected."
+  }
+ },
+ {
+  "id": "lib-tor-019",
+  "subject": "Tort",
+  "flk": "FLK1",
+  "difficulty": "easy",
+  "title": "Occupier's liability for a contractor's faulty work (Occupiers' Liability Act 1957 s.2(4)(b))",
+  "scenario": "Elmhurst Leisure Ltd runs a gym in England. It hires Liftline Services Ltd, a well-established, properly accredited lift engineering company with good references, to repair the passenger lift. After the work, Elmhurst obtains Liftline's test certificate confirming the lift is safe. Unknown to Elmhurst, a Liftline engineer carelessly fitted a faulty cable, and nothing would have revealed this to a non-specialist. A week later the lift drops suddenly, injuring Priya, a gym member.",
+  "stem": "Which of the following best describes Elmhurst's likely liability to Priya under the Occupiers' Liability Act 1957?",
+  "options": {
+   "A": "Elmhurst is unlikely to be liable, because it acted reasonably in entrusting technical work to a contractor and took reasonable steps to satisfy itself that the contractor was competent and the work properly done.",
+   "B": "Elmhurst is liable, because an occupier's duty to make premises safe for visitors cannot be delegated to an independent contractor.",
+   "C": "Elmhurst is liable, because the occupier is strictly liable for any danger due to the state of the premises.",
+   "D": "Elmhurst is not liable, because Priya should have sued under the Occupiers' Liability Act 1984.",
+   "E": "Elmhurst is liable unless it displayed a notice warning visitors that the lift had recently been repaired."
+  },
+  "answer": "A",
+  "explanation": "Section 2(4)(b) of the Occupiers' Liability Act 1957 provides that where damage is caused to a visitor by a danger due to the faulty execution of any work of construction, maintenance or repair by an independent contractor employed by the occupier, the occupier is not to be treated without more as answerable for the danger, if in all the circumstances it acted reasonably in entrusting the work to an independent contractor and took such steps (if any) as it reasonably ought to satisfy itself that the contractor was competent and that the work had been properly done. Lift repair is specialist work that it is reasonable to entrust to a contractor. Elmhurst chose an accredited, well-established firm with good references and obtained a test certificate; it could not be expected to inspect the cable itself. It has therefore discharged the common duty of care, and Priya's claim lies against Liftline, whose engineer was negligent.",
+  "why_wrong": {
+   "B": "Section 2(4)(b) allows an occupier to discharge its duty by reasonably entrusting work to a competent contractor and taking reasonable checks.",
+   "C": "The common duty of care under the 1957 Act is a duty of reasonable care, not strict liability.",
+   "D": "Priya was a lawful visitor, so the 1957 Act, not the 1984 Act, governs her claim.",
+   "E": "A warning is not required here; the occupier is protected by having acted reasonably under s.2(4)(b), and a warning alone would not necessarily suffice anyway."
+  },
+  "key_rule": "An occupier is not answerable for a contractor's faulty work if it reasonably entrusted the work to the contractor and took reasonable steps to check the contractor's competence and the work.",
+  "authority": "Occupiers' Liability Act 1957, s.2(4)(b)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/Eliz2/5-6/31/section/2",
+  "tags": [
+   "occupiers' liability",
+   "visitors",
+   "independent contractors"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Occupiers' Liability: legal requirements for a claim under the Occupiers' Liability Act 1957 (in relation to visitors) and the Occupiers' Liability Act 1984 (in relation to non-visitors)",
+   "context_subject": "Tort",
+   "source_type": "legislation",
+   "source_quote": "the occupier is not to be treated without more as answerable for the danger if in all the circumstances he had acted reasonably in entrusting the work to an independent contractor",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-tor-020",
+  "subject": "Tort",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Obvious risks and freely chosen dangerous activities (Tomlinson v Congleton BC)",
+  "scenario": "A local council in England runs a country park with a large lake. Signs at the entrance and by the water say 'Dangerous water. No swimming'. Many people ignore the signs. Ollie, aged 20, who has visited the park since childhood and knows the lake well, wades into water a little above his knees and plunges forward head first. He strikes the sandy bottom and suffers a serious spinal injury. The lake has no hidden hazards and is no more dangerous than any ordinary stretch of open water. Ollie argues that the council should have made the beaches inaccessible, which it had considered doing.",
+  "stem": "Which of the following best describes the council's likely liability to Ollie?",
+  "options": {
+   "A": "The council is liable under the Occupiers' Liability Act 1984, because it knew that people regularly swam in the lake despite the signs.",
+   "B": "The council is liable under the Occupiers' Liability Act 1957, because its signs had been shown to be ineffective, so it had to take further steps.",
+   "C": "The council is not liable, because the risk arose from an obvious danger inherent in an activity Ollie freely chose, not from the state of the premises, and there is no duty to protect an adult from such a risk.",
+   "D": "The council is not liable, because a duty is owed to trespassers only if they are children.",
+   "E": "The council is liable, but Ollie's damages will be reduced for contributory negligence."
+  },
+  "answer": "C",
+  "explanation": "In Tomlinson v Congleton BC [2003] UKHL 47, on similar facts, the House of Lords held that the occupier was not liable. Under both Occupiers' Liability Acts the duty concerns dangers due to the state of the premises or things done or omitted on them. A lake with no hidden hazards is not dangerous because of its state; the risk arose from the activity the claimant chose. Moreover, the danger of diving into shallow water was obvious to an adult. A person of full capacity who voluntarily engages in an activity with an inherent, obvious risk must ordinarily take responsibility for it, and an occupier is not required to protect him from it. That applies whether Ollie is treated as a trespasser (having entered the water to swim against the prohibition) or as a visitor. The social value of the beaches to other visitors also told against requiring them to be destroyed. Ollie's claim is therefore likely to fail.",
+  "why_wrong": {
+   "A": "Knowledge that people swim does not create a duty under s.1(3)(c) where the risk is obvious and the occupier cannot reasonably be expected to offer protection against it.",
+   "B": "Even under the 1957 Act there was no duty to take further steps against an obvious risk freely run by an adult.",
+   "D": "The 1984 Act protects adult trespassers as well as children where the s.1(3) conditions are met.",
+   "E": "Contributory negligence only arises if the council is liable, and it is not."
+  },
+  "key_rule": "An occupier is ordinarily under no duty to protect adults of full capacity from obvious risks inherent in activities they freely choose to undertake on its land.",
+  "authority": "Tomlinson v Congleton Borough Council [2003] UKHL 47",
+  "verified_source_url": "https://www.bailii.org/uk/cases/UKHL/2003/47.html",
+  "tags": [
+   "occupiers' liability",
+   "trespassers",
+   "obvious risk"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Occupiers' Liability: legal requirements for a claim under the Occupiers' Liability Act 1957 (in relation to visitors) and the Occupiers' Liability Act 1984 (in relation to non-visitors)",
+   "context_subject": "Tort",
+   "source_type": "judgment",
+   "source_quote": "I think it will be extremely rare for an occupier of land to be under a duty to prevent people from taking risks which are inherent in the activities they freely choose to undertake upon the land.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-tor-021",
+  "subject": "Tort",
+  "flk": "FLK1",
+  "difficulty": "easy",
+  "title": "Excluding liability for personal injury to a consumer visitor (Consumer Rights Act 2015 s.65)",
+  "scenario": "Bounce Zone Ltd runs a trampoline park in England. Every customer pays for entry and must tick a box online confirming they have read a notice which says: 'Bounce Zone accepts no liability for any injury, however caused, including injury caused by our negligence.' The same notice is displayed at the entrance. Hannah, a customer, is injured when a trampoline collapses because Bounce Zone's staff negligently failed to replace a worn spring they had been told about.",
+  "stem": "Which of the following best describes the effect of the notice on Hannah's claim for her injury?",
+  "options": {
+   "A": "The notice is effective, because Hannah confirmed that she had read it before entering.",
+   "B": "The notice cannot exclude Bounce Zone's liability for personal injury resulting from negligence, and Hannah is not taken to have accepted the risk merely because she knew of it.",
+   "C": "The notice is effective only if it satisfies the requirement of reasonableness.",
+   "D": "The notice is effective because it was displayed at the entrance as well as online.",
+   "E": "The notice is effective unless Hannah proves that Bounce Zone acted deliberately or recklessly."
+  },
+  "answer": "B",
+  "explanation": "Section 65(1) of the Consumer Rights Act 2015 provides that a trader cannot by a term of a consumer contract or by a consumer notice exclude or restrict liability for death or personal injury resulting from negligence. 'Negligence' includes breach of the common duty of care under the Occupiers' Liability Act 1957 (s.65(4)(c)). Hannah is a consumer paying to use the trampoline park, and Bounce Zone is a trader. Her injury resulted from its staff's negligence, so the notice is of no effect as regards her personal injury, however prominently it was displayed and whether or not she agreed to it. Section 65(2) adds that a person is not to be taken to have voluntarily accepted any risk merely because she agreed to or knew about the term or notice, so Bounce Zone cannot use volenti to achieve the same result. The recreational access exception in s.66(4) does not apply, because allowing access was within the purposes of Bounce Zone's business.",
+  "why_wrong": {
+   "A": "Agreement to the notice does not make it effective: s.65(1) bars exclusion of negligence liability for personal injury, and s.65(2) prevents implied consent.",
+   "C": "There is no reasonableness test for personal injury caused by negligence; exclusion is simply prohibited.",
+   "D": "Prominence and incorporation are irrelevant where the exclusion is prohibited by statute.",
+   "E": "The bar applies to all negligence, whether inadvertent or intentional (s.65(5)); the claimant need not prove recklessness."
+  },
+  "key_rule": "A trader cannot by a consumer contract term or consumer notice exclude or restrict liability for death or personal injury resulting from negligence (CRA 2015 s.65).",
+  "authority": "Consumer Rights Act 2015, ss.65 and 66(4)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2015/15/section/65",
+  "tags": [
+   "occupiers' liability",
+   "exclusion clauses",
+   "consumer rights act 2015",
+   "personal injury"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Occupiers' Liability: exclusion of liability",
+   "context_subject": "Tort",
+   "source_type": "legislation",
+   "source_quote": "A trader cannot by a term of a consumer contract or by a consumer notice exclude or restrict liability for death or personal injury resulting from negligence.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Section 66(4) was also fetched (ukpga/2015/15/section/66)."
+  }
+ },
+ {
+  "id": "lib-tor-022",
+  "subject": "Tort",
+  "flk": "FLK1",
+  "difficulty": "easy",
+  "title": "Who is liable for a defective product under the Consumer Protection Act 1987 s.2",
+  "scenario": "Hartwell Supermarkets plc sells electric kettles under its own brand, 'Hartwell Home', with no other maker's name on them. The kettles are made in Malaysia by Sunlit Appliances Sdn Bhd and imported into the United Kingdom by Corran Imports Ltd, which sells them to Hartwell in the course of its business. Zara buys one from a Hartwell store in England. A defect in the kettle causes it to split, and Zara is scalded. She wants to claim under Part I of the Consumer Protection Act 1987.",
+  "stem": "Which of the following best describes who is liable to Zara under Part I of the Act?",
+  "options": {
+   "A": "Only Sunlit Appliances, because only the actual manufacturer of a product is a 'producer'.",
+   "B": "Only Hartwell, as the retailer that sold the kettle to Zara.",
+   "C": "Only Corran Imports, because liability passes to the importer when the manufacturer is outside the United Kingdom.",
+   "D": "Sunlit Appliances and Corran Imports, but not Hartwell, which merely supplied the kettle.",
+   "E": "Sunlit Appliances, Hartwell and Corran Imports, each of whom is jointly and severally liable."
+  },
+  "answer": "E",
+  "explanation": "Section 2(1) of the Consumer Protection Act 1987 makes every person to whom s.2(2) applies liable for damage caused wholly or partly by a defect in a product. Section 2(2) applies to (a) the producer of the product, which includes Sunlit as manufacturer; (b) any person who, by putting its name on the product or using a trade mark or other distinguishing mark in relation to it, has held itself out to be the producer, which covers Hartwell by selling the kettle as its own brand with no other maker's name; and (c) any person who imported the product into the United Kingdom in order, in the course of its business, to supply it to another, which covers Corran. Under s.2(5), where two or more persons are liable for the same damage, their liability is joint and several, so Zara can recover her loss from any of them. A mere supplier is liable only under s.2(3), but Hartwell is liable here as an own-brander.",
+  "why_wrong": {
+   "A": "Section 2(2) extends liability beyond the manufacturer to own-branders and importers into the UK.",
+   "B": "Hartwell is liable because it held itself out as producer, but it is not the only person liable.",
+   "C": "The importer is liable in addition to, not instead of, the manufacturer and the own-brander.",
+   "D": "Hartwell is not a mere supplier: by selling the kettle under its own brand it held itself out as the producer under s.2(2)(b)."
+  },
+  "key_rule": "Under CPA 1987 s.2, the producer, an own-brander holding itself out as producer, and the importer into the UK are each liable, jointly and severally, for damage caused by a defective product.",
+  "authority": "Consumer Protection Act 1987, s.2",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1987/43/section/2",
+  "tags": [
+   "product liability",
+   "consumer protection act 1987",
+   "strict liability"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Product liability: principles of the Consumer Protection Act 1987",
+   "context_subject": "Tort",
+   "source_type": "legislation",
+   "source_quote": "any person who, by putting his name on the product or using a trade mark or other distinguishing mark in relation to the product, has held himself out to be the producer of the product",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-tor-023",
+  "subject": "Tort",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Who can sue in private nuisance: an interest in land is required (Hunter, confirmed in Fearn v Tate)",
+  "scenario": "Mrs Okafor owns the freehold of a house in England and lives there with her adult son, Samuel, who has no tenancy or other legal interest in the property and lives there with her permission. A recycling plant opens next door and, for several months, produces constant loud noise and strong smells that substantially interfere with the use and enjoyment of the house. Both Mrs Okafor and Samuel want to sue the plant operator in private nuisance.",
+  "stem": "Which of the following best describes who can sue in private nuisance?",
+  "options": {
+   "A": "Mrs Okafor can sue, but Samuel cannot, because only a person with an interest in the affected land can sue in private nuisance.",
+   "B": "Both can sue, because each of them lives in the house and suffers the interference.",
+   "C": "Only Samuel can sue, because he is the person who suffers the interference most, being at home all day.",
+   "D": "Neither can sue in private nuisance, because noise and smells affecting a neighbourhood can only be a public nuisance.",
+   "E": "Both can sue, but Samuel can recover only for any personal injury he suffers."
+  },
+  "answer": "A",
+  "explanation": "Private nuisance is a tort against land: it protects the use and enjoyment of land, and the claim belongs to the person with an interest in the affected land. In Hunter v Canary Wharf Ltd [1997] AC 655 the House of Lords held that only a person with a proprietary interest in the land (or exclusive possession of it) can sue. The Supreme Court confirmed this in Fearn v Board of Trustees of the Tate Gallery [2023] UKSC 4. Mrs Okafor, as freehold owner in occupation, has the necessary interest and can sue for the substantial interference with the use and enjoyment of her house. Samuel, a family member living there by permission with no interest in the land, cannot sue in private nuisance, however much the noise and smells affect him. Damages in private nuisance are assessed by reference to the diminution in the amenity value of the land, rather than the personal discomfort of each occupier.",
+  "why_wrong": {
+   "B": "Hunter rejected the argument that mere occupation of a home is enough; an interest in the land is required.",
+   "C": "Samuel has no interest in the land, so he cannot sue however much he personally suffers.",
+   "D": "Interference with the use and enjoyment of a neighbour's land is classic private nuisance, whether or not others are affected.",
+   "E": "Samuel has no standing in private nuisance at all, and personal injury is not recoverable in private nuisance in any event."
+  },
+  "key_rule": "Only a person with an interest in the affected land (or exclusive possession) can sue in private nuisance; licensees such as family members cannot.",
+  "authority": "Hunter v Canary Wharf Ltd [1997] AC 655, confirmed in Fearn v Board of Trustees of the Tate Gallery [2023] UKSC 4",
+  "verified_source_url": "https://caselaw.nationalarchives.gov.uk/uksc/2023/4",
+  "tags": [
+   "nuisance",
+   "private nuisance",
+   "standing"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Nuisance: public and private nuisance",
+   "context_subject": "Tort",
+   "source_type": "judgment",
+   "source_quote": "because the interest protected by the tort of private nuisance is the use and enjoyment of land, only a person with a legal interest in the land can sue.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Hunter itself was not fetched; the rule is taken from the Supreme Court's account in Fearn. The statement in option E that personal injury is not recoverable in private nuisance rests on Hunter/Transco, not on a fetched passage."
+  }
+ },
+ {
+  "id": "lib-tor-024",
+  "subject": "Tort",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Defences in private nuisance: coming to the nuisance and planning permission (Coventry v Lawrence)",
+  "scenario": "Six years ago, Thornfield Raceway Ltd began holding motocross events on its land in rural England, with planning permission for that use. Two years ago, Ms Adeyemi bought a farmhouse nearby and moved in, using it as her home, as previous owners had done. The noise from the events substantially interferes with the use and enjoyment of her home and, the court finds, amounts to a nuisance. Thornfield argues that (1) Ms Adeyemi came to the nuisance, knowing about the events when she bought, and (2) its activities have planning permission.",
+  "stem": "Which of the following best describes Thornfield's arguments?",
+  "options": {
+   "A": "Argument (1) is a complete defence, because a claimant who buys property knowing of an existing nuisance is taken to have accepted it.",
+   "B": "Argument (2) is a complete defence, because planning permission authorises the activity in the same way as statutory authority.",
+   "C": "Thornfield has acquired a right to make the noise by prescription, because the events had taken place before Ms Adeyemi bought her house.",
+   "D": "Neither argument provides a defence, although the court has a discretion whether to grant an injunction or to award damages instead.",
+   "E": "Neither argument provides a defence, and the court must grant an injunction stopping the events once a nuisance is established."
+  },
+  "answer": "D",
+  "explanation": "In Coventry v Lawrence [2014] UKSC 13 the Supreme Court confirmed that it is no defence to a nuisance claim that the claimant came to the nuisance, at least where the claimant uses her property for essentially the same purpose as her predecessors did before the nuisance began. Ms Adeyemi uses the farmhouse as a home, as before. The Court also held that the mere fact that the activity has the benefit of planning permission is normally of no assistance to the defendant in a claim by a neighbour complaining of noise or other loss of amenity; planning permission is not equivalent to statutory authority. Neither argument therefore defeats the claim. As to remedy, the Court emphasised that whether to grant an injunction or award damages in lieu is a matter for the court's discretion, which should not be fettered by a mechanical application of the Shelfer criteria; planning permission may be relevant to that discretion.",
+  "why_wrong": {
+   "A": "Coming to the nuisance has for over 180 years been held to be no defence.",
+   "B": "Planning permission is not statutory authority and is normally of no assistance as a defence to a nuisance claim.",
+   "C": "A prescriptive right requires at least 20 years' actionable nuisance; these events have taken place for only six years.",
+   "E": "An injunction is a discretionary remedy; the court may award damages in lieu instead."
+  },
+  "key_rule": "Coming to the nuisance is no defence, planning permission normally does not assist a defendant in nuisance, and the choice between injunction and damages in lieu is discretionary.",
+  "authority": "Coventry v Lawrence [2014] UKSC 13",
+  "verified_source_url": "https://caselaw.nationalarchives.gov.uk/uksc/2014/13",
+  "tags": [
+   "nuisance",
+   "private nuisance",
+   "defences",
+   "remedies"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Nuisance: remedies (damages and injunctions) and defences",
+   "context_subject": "Tort",
+   "source_type": "judgment",
+   "source_quote": "For over 180 years it has been assumed and authoritatively stated to be the law that it is no defence for a defendant to a nuisance claim to argue that the claimant came to the nuisance.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "The planning permission quote ('normally of no assistance to the defendant') was also verified in the same judgment. The 20-year prescription period and the Shelfer discretion are stated from Lawrence generally; reviewer may wish to confirm those passages."
+  }
+ },
+ {
+  "id": "lib-tor-025",
+  "subject": "Tort",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Rylands v Fletcher: strict liability for property damage but not personal injury",
+  "scenario": "Fenbrook Chemicals Ltd stores large quantities of a highly corrosive industrial solvent in tanks on its site in England, an extraordinary use of land carrying an increased danger to neighbours if the solvent escapes. Despite Fenbrook having taken all reasonable care, a tank fails and the solvent escapes onto the neighbouring farm owned and occupied by Mr Lindqvist. It ruins crops and contaminates his land. Mr Lindqvist also suffers burns to his hands when trying to stop the flow. Damage of this kind from an escape was foreseeable.",
+  "stem": "Which of the following best describes Mr Lindqvist's claim under the rule in Rylands v Fletcher?",
+  "options": {
+   "A": "He can recover for the damage to his land and crops and for his burns, without proving negligence.",
+   "B": "He can recover nothing, because Fenbrook took all reasonable care, and Rylands liability depends on proof of negligence.",
+   "C": "He can recover for the damage to his land and crops without proving negligence, but not for his burns, which cannot be claimed under Rylands.",
+   "D": "He can recover for his burns but not for the damage to his land and crops, which is pure economic loss.",
+   "E": "He can recover nothing, because storing chemicals on industrial premises is an ordinary use of land."
+  },
+  "answer": "C",
+  "explanation": "Under the rule in Rylands v Fletcher, as restated in Transco plc v Stockport MBC and summarised in Stannard v Gore [2012] EWCA Civ 1248, an occupier who brings or keeps on its land an exceptionally dangerous or mischievous thing in extraordinary or unusual circumstances is liable, without proof of negligence, for damage to a neighbouring occupier's property interest caused by the thing's escape, subject to limited defences. Fenbrook kept large quantities of a corrosive solvent in a way the facts describe as an extraordinary use carrying increased danger; the solvent escaped onto neighbouring land and caused foreseeable damage. Mr Lindqvist, as owner-occupier, can therefore recover for the damage to his land and crops even though Fenbrook took all reasonable care. However, Rylands is a species of nuisance protecting interests in land, so a claim for death or personal injury cannot be brought under it. His burns must be claimed in negligence, which would require proof of fault.",
+  "why_wrong": {
+   "A": "Personal injury is not recoverable under Rylands v Fletcher, which protects rights in or enjoyment of land.",
+   "B": "Rylands liability is strict; the claimant need not prove negligence.",
+   "D": "Physical damage to land and crops is damage to property, not pure economic loss, and it is what Rylands protects; the burns are not recoverable under it.",
+   "E": "The facts state that this storage was an extraordinary use carrying increased danger, so it was not an ordinary use of land."
+  },
+  "key_rule": "An occupier who keeps an exceptionally dangerous thing in extraordinary circumstances is strictly liable for foreseeable damage to a neighbour's property from its escape, but not for personal injury.",
+  "authority": "Rylands v Fletcher (1868) LR 3 HL 330; Transco plc v Stockport MBC [2003] UKHL 61; Stannard v Gore [2012] EWCA Civ 1248",
+  "verified_source_url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2012/1248",
+  "tags": [
+   "rylands v fletcher",
+   "nuisance",
+   "strict liability"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Nuisance: the rule in Rylands v Fletcher",
+   "context_subject": "Tort",
+   "source_type": "judgment",
+   "source_quote": "Second, the claim cannot include a claim for death or personal injury, since such a claim does not relate to any right in or enjoyment of land.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Transco itself was not fetched; its principles are taken from the extracts quoted in Stannard v Gore."
+  }
+ }
+]

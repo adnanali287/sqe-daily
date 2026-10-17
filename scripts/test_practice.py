@@ -21,7 +21,7 @@ with tempfile.TemporaryDirectory() as tmp:
         e.update(approved=True, approved_hash=p.fingerprint(e))
     assert len(p.library(bank, data, today)) == len(bank)
     changed = copy.deepcopy(bank); changed[-1]['answer'] = 'B' if changed[-1]['answer'] != 'B' else 'A'
-    assert len(p.library(changed, data, today)) == len(bank)-1
+    assert len(p.library(changed, data, today)) == len(bank)-int(bank[-1]['publish_date'] > today)
     (root / 'content/practice.json').write_text(json.dumps(data))
     with patch.object(generate, 'ROOT', root):
         generated = generate.generate(today, True, False)
@@ -30,7 +30,7 @@ with tempfile.TemporaryDirectory() as tmp:
     home = (root / 'index.html').read_text()
     current = generate.published(bank, today)[-1]
     assert current['scenario'].replace('&','&amp;').replace("'",'&#x27;') in home
-    assert generated[-1]['available_from'] == today
+    assert generated[-1]['available_from'] == min(today,bank[-1]['publish_date'])
     assert generated[-1]['publish_date'] == bank[-1]['publish_date'], 'daily/email dates must not move'
     bad = copy.deepcopy(data); bad['releases'][0]['available_from'] = '2000-01-01'
     (root / 'content/practice.json').write_text(json.dumps(bad))
@@ -61,7 +61,7 @@ with tempfile.TemporaryDirectory() as tmp:
     assert p.read(root)['releases'][-1]['approved']
     # Mock manifest readiness is a separate gate from library availability.
     groups = [['Business Law & Practice', 'Dispute Resolution', 'Legal Services'], ['Contract', 'Tort', 'Legal System of England and Wales', 'Constitutional & Administrative Law']]
-    fixtures = [{**bank[0], 'id': f'fixture-{i}', 'subject': groups[i//85][i % len(groups[i//85])]} for i in range(170)]
+    fixtures = [{**bank[0], 'id': f'fixture-{i}', 'subject': groups[i//85][i % len(groups[i//85])], 'session': f'FLK1-S{i//85+1}'} for i in range(170)]
     e = {'id':'fixture','title':'Fixture','paper':'FLK1','law_cutoff':'2026-09-11','source_url':'https://sqe.sra.org.uk/assessments/assessment-days/SQE1',
          'sessions':[[q['id'] for q in fixtures[:85]],[q['id'] for q in fixtures[85:]]],
          'question_hashes':{q['id']:p.question_hash(q) for q in fixtures},'approved':False}

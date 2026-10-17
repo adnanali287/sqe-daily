@@ -1,0 +1,80 @@
+{
+  "editorial-standards": {
+    "title": "Editorial standards: how SQE Daily questions are written",
+    "meta_description": "How SQE Daily writes its SQE1 practice questions, links every answer to its source, records changes and corrects errors.",
+    "h1": "Editorial standards",
+    "intro": "SQE Daily is a free library of SQE1 practice questions, with one featured question each day, mini tests and full mock papers. This page explains how the questions are put together, what the dates on the site mean, and how to tell us about a mistake.",
+    "sections": [
+      {
+        "heading": "Original questions",
+        "body": "Every question is written for SQE Daily in the single best answer format the SRA uses for SQE1: a short scenario, a question and five options, one of which is the best answer. Each question is assigned to an SQE1 subject and to FLK1 or FLK2, following the SRA's [SQE1 assessment specification](https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification). We do not reproduce questions from the SRA or from training providers. Each question is checked against the source it relies on before it is published."
+      },
+      {
+        "heading": "Every answer links to its source",
+        "body": "Each worked answer is linked to the source it relies on: usually legislation, a court judgment, rules of court procedure or the SRA’s own rules. Where no official copy of a source is freely available online, we link the most reliable public copy we can find. The source is named and linked beside every answer, so you can read it for yourself. The explanation sets out why the correct option is right and why each of the others is wrong, and a single rule to remember sums up the point being tested."
+      },
+      {
+        "heading": "What our checks are, and are not",
+        "body": "Our checks compare each question with the wording of its linked source. Questions are not reviewed by a practising solicitor or barrister, and they are not a substitute for your course materials. If an answer and its source seem to disagree, rely on the source and tell us."
+      },
+      {
+        "heading": "Mini tests and mock papers",
+        "body": "Our mini tests and mock papers are our own practice design. Each full mock follows the format the SRA has published for the sitting it targets: 170 questions in two sessions of 85, each lasting 2 hours 33 minutes, with the SRA's subject groupings for each session. The mix of subjects and the difficulty labels are our editorial choices. They are not the SRA's question selection, and they do not reproduce the real assessment's difficulty. A score on our tests does not predict an SQE1 result."
+      },
+      {
+        "heading": "What the dates mean",
+        "body": "Each question shows the date it was first published on the site. A source-check date appears only when a question has actually been checked against its source, and shows when that check happened. When we change the content of a published question, the change appears on the same page and web address, and the date of the change is recorded for search engines."
+      },
+      {
+        "heading": "Corrections",
+        "body": "If you think an answer is wrong, out of date or unclear, use the “Report an error” link under any worked answer, or email [hello@sqedaily.co.uk](mailto:hello@sqedaily.co.uk). Tell us which question and what you think is wrong. Confirmed errors are corrected on the question’s existing page."
+      },
+      {
+        "heading": "The law at a point in time",
+        "body": "The law changes. Each question reflects the law as stated in its linked source when the question was written. If you notice a change in the law that affects a question, please let us know. Each mock paper states the law as at the SRA's examinable law cut-off date for the sitting it targets: for January 2027, 11 September 2026."
+      },
+      {
+        "heading": "Independent",
+        "body": "SQE Daily is independent. It is not affiliated with the SRA or any training provider and it sells no course. Sponsorship does not decide what we publish. Questions are for revision practice only and are not legal advice."
+      }
+    ],
+    "sources": [
+      {
+        "label": "SRA: SQE1 assessment specification",
+        "url": "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification"
+      }
+    ],
+    "approved": false
+  },
+  "sqe1-practice-questions": {
+    "title": "Free SQE1 practice questions with worked answers",
+    "meta_description": "Free SQE1 practice questions in the single best answer format, with worked answers, rules to remember and linked sources, by paper and subject.",
+    "h1": "Free SQE1 practice questions",
+    "intro": "SQE Daily has a free library of original SQE1 practice questions, each with a worked answer, the rule to remember and a link to the source behind the answer. One question is featured each day. This page brings the questions together by paper and subject, so you can practise the areas you need most.",
+    "sections": [
+      {
+        "heading": "How the questions work",
+        "body": "SQE1 uses single best answer questions: a short scenario, a question and five options. Several options may look plausible, but one is the best answer. Our questions follow the same format. Choose an answer to see whether you were right, then read why each option is right or wrong. Our guide to [answering single best answer questions](/guides/how-to-answer-sqe1-single-best-answer-questions/) sets out a method you can use on every question."
+      },
+      {
+        "heading": "Practise little and often",
+        "body": "A question takes a few minutes. Short, regular practice spreads your revision out and keeps earlier subjects fresh. Come back to the site each day, or get tomorrow’s question by email."
+      },
+      {
+        "heading": "Learn from every option",
+        "body": "Knowing why the wrong options are wrong is as useful as finding the right one. If you miss a question, read the linked source, note the rule to remember, and try the other questions in that subject."
+      }
+    ],
+    "sources": [
+      {
+        "label": "SRA: SQE1 assessment specification",
+        "url": "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification"
+      },
+      {
+        "label": "SRA: SQE1 sample questions",
+        "url": "https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-sample-questions"
+      }
+    ],
+    "approved": false
+  }
+}

@@ -58,6 +58,8 @@ jobs:
         run: |
           python scripts/test_practice.py
           node scripts/test_test_core.cjs
+          python scripts/test_library_integration.py
+          node scripts/test_library_pools.cjs
       - if: steps.clock.outputs.run == 'true'
         run: npx --yes html-validate@11.16.2 '_site/**/*.html'
       - name: Commit generated pages

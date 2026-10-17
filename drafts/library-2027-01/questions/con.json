@@ -1,0 +1,1077 @@
+[
+ {
+  "id": "lib-con-001",
+  "subject": "Contract",
+  "flk": "FLK1",
+  "difficulty": "easy",
+  "title": "Goods on display in a self-service shop: invitation to treat (Boots)",
+  "scenario": "Imani Okafor, an adult, takes a cordless drill from a shelf in a DIY store in England. The shelf label wrongly shows the price as £19 instead of £119. She puts the drill in her basket and takes it to the till. The cashier notices the error and says the store will only sell the drill for £119. Imani insists that a contract was made at £19 when she placed the drill in her basket.",
+  "stem": "Which of the following best describes the legal position?",
+  "options": {
+   "A": "A contract was made at £19 when Imani placed the drill in her basket, because that act accepted the store's offer on the shelf.",
+   "B": "No contract has been made: the shelf display was an invitation to treat, Imani made an offer at the till, and the store is free to reject it.",
+   "C": "A contract was made at £19 as soon as Imani read the shelf label, because the label was a unilateral offer to the world.",
+   "D": "A contract was made at £19 when the cashier began to scan the drill, because scanning amounts to acceptance whatever the price shown.",
+   "E": "A contract was made at £19, because a shop that displays a price is bound by contract law to sell at that price to anyone who asks."
+  },
+  "answer": "B",
+  "explanation": "In Pharmaceutical Society of Great Britain v Boots Cash Chemists (Southern) Ltd the Court of Appeal held that goods displayed with prices in a self-service shop are not an offer by the shopkeeper. The display invites customers to choose goods and bring them to the cashier. The customer then makes the offer to buy, and the contract is concluded only when the shopkeeper, or someone on its behalf, accepts that offer. One reason the court gave was that otherwise a customer who put an item in the basket could never put it back. Applying this, the shelf label was an invitation to treat. Imani's act of placing the drill in her basket did not accept anything. She made an offer at the till, and the cashier's refusal to sell at £19 was a rejection of that offer. No contract exists at £19.",
+  "why_wrong": {
+   "A": "Boots holds that placing goods in a basket is not acceptance; the customer remains free to put the item back.",
+   "C": "A price label on goods in a shop is an invitation to treat, not a unilateral offer capable of acceptance by reading it.",
+   "D": "Acceptance is the shop's agreement to the customer's offer; the cashier rejected the £19 offer, so there was no acceptance at that price.",
+   "E": "Contract law imposes no obligation on a shop to sell at a displayed price; any pricing rules are regulatory, not a source of a contract."
+  },
+  "key_rule": "Goods displayed with prices in a shop are an invitation to treat; the customer offers to buy at the till and the shop may accept or reject that offer.",
+  "authority": "Pharmaceutical Society of Great Britain v Boots Cash Chemists (Southern) Ltd [1953] EWCA Civ 6; [1953] 1 QB 401",
+  "verified_source_url": "https://www.bailii.org/ew/cases/EWCA/Civ/1953/6.html",
+  "tags": [
+   "offer and acceptance",
+   "invitation to treat",
+   "formation"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Formation: offer and acceptance",
+   "context_subject": "Contract",
+   "source_type": "judgment",
+   "source_quote": "the contract is not completed until, the customer having indicated the articles which he needs, the shop-keeper or someone on his behalf accepts that offer.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-con-002",
+  "subject": "Contract",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Acceptance by post and an offeror who sells elsewhere before the letter arrives",
+  "scenario": "On 2 March Gwen Pryce, who runs a stables in England, writes to Tariq Haddad offering to sell him a horsebox for £9,500 and asking him to reply by post. Tariq receives the letter on 4 March and the same day posts a properly addressed and stamped letter accepting the offer. On 5 March, before Tariq's letter arrives, Gwen sells the horsebox to someone else. She sends Tariq no message withdrawing her offer. Tariq's letter reaches her on 6 March.",
+  "stem": "Which of the following best describes the legal position?",
+  "options": {
+   "A": "There is no contract, because an acceptance is not effective until it is received by the offeror, and Gwen had sold the horsebox before then.",
+   "B": "There is no contract, because selling the horsebox to a third party automatically revoked Gwen's offer from the moment of sale.",
+   "C": "There is no contract, because an acceptance by post is only effective once the offeror has read it.",
+   "D": "A contract was made on 4 March when Tariq posted his acceptance, so Gwen is in breach of contract.",
+   "E": "A contract was made on 6 March when the letter arrived, but Gwen is not in breach because she had already sold the horsebox in good faith."
+  },
+  "answer": "D",
+  "explanation": "Where the offeror invites acceptance by post, the acceptance is complete when the letter of acceptance is posted, not when it arrives. In Adams v Lindsell the defendants offered wool by letter and, not having received a reply when expected, sold the wool to someone else before the plaintiffs' letter of acceptance reached them. The court held them bound: the offeror is treated as making the same offer during every instant the letter travels, and the contract is completed by the offeree's acceptance. Otherwise no contract could ever be completed by post. Gwen asked for a reply by post, so the postal rule applies. Tariq's acceptance took effect when he posted it on 4 March. Gwen's later sale did not undo the contract, and she never communicated any withdrawal. She is therefore in breach of contract.",
+  "why_wrong": {
+   "A": "This states the general rule for instantaneous communication; where post is the requested method, acceptance is effective on posting.",
+   "B": "A sale to a third party does not revoke an offer of itself, and in any event the contract was already formed on 4 March.",
+   "C": "The postal rule does not depend on the offeror reading, or even receiving, the letter.",
+   "E": "The contract was formed on posting, not arrival, and good faith is no defence to a claim for breach of contract."
+  },
+  "key_rule": "Where acceptance by post is requested or reasonably contemplated, the acceptance is complete when the letter is properly posted, even if the offeror deals with the subject matter before it arrives.",
+  "authority": "Adams v Lindsell (1818) 1 B & Ald 681; [1818] EWHC KB J59",
+  "verified_source_url": "https://www.bailii.org/ew/cases/EWHC/KB/1818/J59.html",
+  "tags": [
+   "offer and acceptance",
+   "postal rule",
+   "formation"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Formation: offer and acceptance",
+   "context_subject": "Contract",
+   "source_type": "judgment",
+   "source_quote": "The defendants must be considered in law as making, during every instant of the time their letter was travelling, the same identical offer to the plaintiffs; and then the contract is completed by the acceptance of it by the latter.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Adams v Lindsell is the root authority; the posting rule is more fully stated in Household Fire and Carriage Accident Insurance Co v Grant (1879) 4 Ex D 216, which was not fetched."
+  }
+ },
+ {
+  "id": "lib-con-003",
+  "subject": "Contract",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Extra pay for performing an existing contractual duty: practical benefit (Williams v Roffey)",
+  "scenario": "Brightwell Construction Ltd is main contractor on a school extension in England. It sub-contracted the roofing to Kofi Asante for £40,000. Halfway through, Brightwell's site manager realised Kofi had underpriced the job and might not be able to finish. Brightwell faces a large delay payment under its main contract if the roof is late. On Brightwell's own initiative, its manager promised Kofi an extra £6,000 if he completed the roof on time. Kofi did not threaten to stop work. He completed on time, but Brightwell now refuses to pay the £6,000, saying Kofi only did what he was already bound to do.",
+  "stem": "Which of the following best describes whether Kofi can recover the £6,000?",
+  "options": {
+   "A": "Yes, because Brightwell obtained a practical benefit from its promise, avoiding the delay payment and the cost of replacing Kofi, and the promise was not obtained by duress or fraud.",
+   "B": "No, because performing an existing contractual duty owed to the promisor can never be good consideration for a promise of extra payment.",
+   "C": "No, because Kofi can rely only on promissory estoppel, which can be used as a defence but not to found a claim for payment.",
+   "D": "No, because a variation increasing the contract price is enforceable only if it is made in writing or by deed.",
+   "E": "Yes, but only if Kofi can show that he undertook some work in addition to what the original sub-contract required."
+  },
+  "answer": "A",
+  "explanation": "In Williams v Roffey Bros & Nicholls (Contractors) Ltd the Court of Appeal held that where A has contracted to do work for B, B has reason to doubt that A will complete, and B promises A extra payment to complete on time, B's promise is binding if B obtains in practice a benefit or avoids a disbenefit, and the promise was not given as a result of A's economic duress or fraud. Glidewell LJ said this refines, but does not overrule, Stilk v Myrick. On these facts Brightwell doubted Kofi's ability to finish, made the promise on its own initiative, and gained practical benefits: avoiding the delay payment under the main contract and the trouble and cost of engaging another roofer. Kofi applied no pressure. Brightwell's promise is therefore supported by consideration, and Kofi can recover the £6,000.",
+  "why_wrong": {
+   "B": "Williams v Roffey limits Stilk v Myrick: a practical benefit to the promisor can be consideration where there is no duress or fraud.",
+   "C": "Kofi does not need estoppel, because the practical benefit to Brightwell is consideration for its promise, so it is enforceable as a contract.",
+   "D": "There is no general requirement that a variation of a building sub-contract be in writing or by deed; the variation in Williams v Roffey was oral.",
+   "E": "In Williams v Roffey the sub-contractor did no extra work; the benefit to the promisor was enough."
+  },
+  "key_rule": "A promise of extra payment for performing an existing contractual duty to the promisor is binding if the promisor obtains a practical benefit and the promise was not procured by economic duress or fraud.",
+  "authority": "Williams v Roffey Bros & Nicholls (Contractors) Ltd [1989] EWCA Civ 5; [1991] 1 QB 1",
+  "verified_source_url": "https://www.bailii.org/ew/cases/EWCA/Civ/1989/5.html",
+  "tags": [
+   "consideration",
+   "practical benefit",
+   "variation"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Formation: consideration",
+   "context_subject": "Contract",
+   "source_type": "judgment",
+   "source_quote": "(iv) as a result of giving his promise, B obtains in practice a benefit, or obviates a disbenefit; and (v) B's promise is not given as a result of economic duress or fraud on the part of A",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-con-004",
+  "subject": "Contract",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Intention to create legal relations between spouses who have separated (Merritt v Merritt)",
+  "scenario": "Daniel and Rosa Ferreira married in 2009. In March 2026 Daniel moved out of the family home in England to live with a new partner, and the couple agreed to separate. At a meeting a week later, after long discussion, Daniel signed a note: \"In return for you paying off the remaining £4,000 loan on the family car, I will pay you £600 a month towards your living costs.\" Rosa paid off the car loan from her own earnings. Daniel paid nothing and now says the note was a family arrangement with no legal effect.",
+  "stem": "Which of the following best describes whether the agreement is legally binding?",
+  "options": {
+   "A": "It is not binding, because agreements between spouses are presumed not to be intended to create legal relations, whatever the state of the marriage.",
+   "B": "It is not binding, because paying off a loan on a jointly used car cannot be consideration for Daniel's promise.",
+   "C": "It is not binding, because a contract between spouses is enforceable only if it is made by deed.",
+   "D": "It is binding only if Rosa proves that, in his own mind, Daniel actually intended to be legally bound when he signed.",
+   "E": "It is binding, because the presumption against legal relations in domestic arrangements does not apply where spouses have separated or are about to separate and bargain at arm's length."
+  },
+  "answer": "E",
+  "explanation": "Agreements between spouses living together in amity are ordinarily not intended to create legal relations (Balfour v Balfour). In Merritt v Merritt the Court of Appeal held that this is altogether different where the parties are separated or about to separate: they then bargain keenly and do not rely on honourable understandings, and Lord Denning MR said it may safely be presumed that they intend to create legal relations. The court asks objectively whether reasonable people would regard the agreement as intended to be binding, rather than looking into the parties' minds. Daniel and Rosa had separated, discussed the arrangement at length and recorded it in a signed note. Rosa provided consideration by paying off the car loan. The agreement is therefore legally binding.",
+  "why_wrong": {
+   "A": "Merritt v Merritt holds that the domestic presumption does not apply once spouses have separated or are about to separate.",
+   "B": "Rosa's payment of the loan, which Daniel requested in return for his promise, is good consideration, as the wife's mortgage payments were in Merritt.",
+   "C": "There is no rule that contracts between spouses must be made by deed; Merritt enforced a signed note.",
+   "D": "Intention is judged objectively by what reasonable people would conclude, not by the promisor's private state of mind."
+  },
+  "key_rule": "The presumption that domestic agreements are not intended to be binding does not apply where spouses are separated or separating; their arm's-length agreements are presumed to be intended to create legal relations.",
+  "authority": "Merritt v Merritt [1970] EWCA Civ 6; [1970] 1 WLR 1211",
+  "verified_source_url": "https://www.bailii.org/ew/cases/EWCA/Civ/1970/6.html",
+  "tags": [
+   "intention to create legal relations",
+   "domestic agreements",
+   "formation"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Formation: intention to create legal relations",
+   "context_subject": "Contract",
+   "source_type": "judgment",
+   "source_quote": "It is altogether different when the parties are not living in amity but are separated, or about to separate. They then bargain keenly. They do not rely on honourable understandings.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Widgery LJ preferred to say only that there is no presumption against legal relations on separation; the answer is correct on either view."
+  }
+ },
+ {
+  "id": "lib-con-005",
+  "subject": "Contract",
+  "flk": "FLK1",
+  "difficulty": "easy",
+  "title": "Goods delivered with no agreed price: reasonable price (Sale of Goods Act 1979 s.8)",
+  "scenario": "Oakmere Garden Centre Ltd telephoned Hollins Timber Ltd and ordered 200 fence panels for delivery the following week. Nothing was said about price, and the two companies had never traded before. Hollins delivered the panels and Oakmere has sold most of them. Hollins has now invoiced Oakmere at its own list price, which is well above the usual market price. Oakmere argues there was never a binding contract because the price was not agreed.",
+  "stem": "Which of the following best describes Oakmere's liability under the Sale of Goods Act 1979?",
+  "options": {
+   "A": "Oakmere is not liable to pay anything under a contract, because a contract for the sale of goods is void if the parties have not agreed the price.",
+   "B": "Oakmere must pay Hollins's list price, because a seller who supplies goods without agreeing a price is entitled to charge its own standard rate.",
+   "C": "Oakmere must pay a reasonable price for the panels, because the price was not fixed by the contract, a method agreed in it, or a course of dealing.",
+   "D": "Oakmere must pay whatever price it would have offered had it been asked, because uncertainty is construed against the seller.",
+   "E": "Oakmere must pay the market price at the date of any trial, because that is when the court fixes the price."
+  },
+  "answer": "C",
+  "explanation": "Under s.8(1) of the Sale of Goods Act 1979 the price in a contract of sale may be fixed by the contract, left to be fixed in a manner agreed by the contract, or determined by the course of dealing between the parties. Section 8(2) provides that where the price is not determined in any of those ways, the buyer must pay a reasonable price. What is reasonable is a question of fact (s.8(3)). Here the parties agreed the goods and the delivery, the goods were delivered and largely resold, and the price was simply not discussed. There was no previous dealing to fix it. The contract is not void for uncertainty; the statute fills the gap. Oakmere must pay a reasonable price, not Hollins's list price if that is above what is reasonable.",
+  "why_wrong": {
+   "A": "Section 8(2) supplies a reasonable price where none is determined, so the absence of an agreed price does not prevent a contract here.",
+   "B": "A seller's list price applies only if the contract fixes it or it is otherwise agreed; absent that, s.8(2) requires a reasonable price.",
+   "D": "The Act does not let the buyer fix the price; the test is an objective reasonable price, decided as a question of fact.",
+   "E": "Section 8(2) requires a reasonable price for the goods sold; it does not take the market price at the date of trial."
+  },
+  "key_rule": "Where the price of goods is not fixed by the contract, by an agreed mechanism or by a course of dealing, the buyer must pay a reasonable price (SGA 1979 s.8(2)).",
+  "authority": "Sale of Goods Act 1979, s.8",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1979/54/section/8",
+  "tags": [
+   "certainty",
+   "sale of goods act 1979",
+   "price"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Formation: certainty",
+   "context_subject": "Contract",
+   "source_type": "legislation",
+   "source_quote": "Where the price is not determined as mentioned in sub-section (1) above the buyer must pay a reasonable price.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-con-006",
+  "subject": "Contract",
+  "flk": "FLK1",
+  "difficulty": "easy",
+  "title": "A minor's liability for necessaries (Sale of Goods Act 1979 s.3)",
+  "scenario": "Callum Reid, aged 17, has just started an apprenticeship with a building firm in England. He has no safety boots or waterproof work jacket, both of which he needs for site work. He buys a pair of safety boots and a work jacket from a workwear shop on account for £400, which is £150 more than the usual price of such items. They are delivered to him and he wears them at work. He has not paid, and the shop sues him for £400.",
+  "stem": "Which of the following best describes Callum's liability?",
+  "options": {
+   "A": "Callum must pay the full £400, because a minor is bound by any contract for goods he has received and used.",
+   "B": "Callum must pay a reasonable price for the boots and jacket, because they are necessaries sold and delivered to him.",
+   "C": "Callum need pay nothing, because a contract made by a person under 18 is void.",
+   "D": "Callum need pay nothing unless he ratifies the contract after his 18th birthday.",
+   "E": "Callum need pay nothing, but his parents are liable for the full £400 because he is under 18."
+  },
+  "answer": "B",
+  "explanation": "Section 3(2) of the Sale of Goods Act 1979 provides that where necessaries are sold and delivered to a minor, he must pay a reasonable price for them. Section 3(3) defines necessaries as goods suitable to the condition in life of the minor and to his actual requirements at the time of the sale and delivery. Callum is an apprentice who needs safety boots and a work jacket for site work and had none, so the goods are suitable to his condition in life and his actual requirements. They were sold and delivered to him. He is therefore liable, but only for a reasonable price, not the contract price of £400. On the facts the usual price is £150 less, which indicates what a court is likely to find reasonable.",
+  "why_wrong": {
+   "A": "Section 3(2) makes a minor liable for necessaries only to the extent of a reasonable price, not the agreed contract price.",
+   "C": "A minor's contracts are not all void; a minor must pay a reasonable price for necessaries sold and delivered to him.",
+   "D": "Ratification at 18 is relevant to some contracts made by minors, but liability for necessaries arises under s.3(2) without it.",
+   "E": "Parents are not liable for their child's contracts merely because the child is a minor; the statute places liability on the minor."
+  },
+  "key_rule": "A minor must pay a reasonable price for necessaries sold and delivered to him, meaning goods suitable to his condition in life and actual requirements at the time (SGA 1979 s.3).",
+  "authority": "Sale of Goods Act 1979, s.3(2) and (3)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1979/54/section/3",
+  "tags": [
+   "capacity",
+   "minors",
+   "necessaries"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Formation: capacity",
+   "context_subject": "Contract",
+   "source_type": "legislation",
+   "source_quote": "Where necessaries are sold and delivered to a minor or to a person who by reason of mental incapacity or drunkenness is incompetent to contract, he must pay a reasonable price for them.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "legislation.gov.uk shows the Act up to date to 16 Oct 2026 with changes that may be brought into force at a future date; none was shown as affecting s.3 for England and Wales (the annotated repeal of the 'minor' words applies to Scotland only)."
+  }
+ },
+ {
+  "id": "lib-con-007",
+  "subject": "Contract",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Third party enforcing a term that benefits them (Contracts (Rights of Third Parties) Act 1999 s.1)",
+  "scenario": "Hannah Clarke engages Ridgeway Builders Ltd to build a garden wall at her home in England for £8,000. Because the work will disturb her neighbour, the written contract includes a term: \"Ridgeway will also repaint the boundary fence of Mr Leon Baptiste of 14 Elm Road at no extra charge.\" Nothing in the contract says who may enforce its terms or suggests that the parties did not intend Leon to enforce this one. Ridgeway builds the wall but refuses to repaint Leon's fence. Hannah is not interested in pursuing it.",
+  "stem": "Which of the following best describes whether Leon can enforce the fence-painting term against Ridgeway?",
+  "options": {
+   "A": "No, because Leon is not a party to the contract and the doctrine of privity prevents a third party from enforcing it.",
+   "B": "No, because a third party can enforce a term only if the contract expressly states that he may do so.",
+   "C": "No, because Leon provided no consideration for Ridgeway's promise.",
+   "D": "Yes, but only if Leon signed the contract or communicated his agreement to it before it was made.",
+   "E": "Yes, because Leon is expressly identified by name and the term purports to confer a benefit on him, and nothing shows the parties did not intend him to enforce it."
+  },
+  "answer": "E",
+  "explanation": "Section 1(1) of the Contracts (Rights of Third Parties) Act 1999 allows a person who is not a party to a contract to enforce a term in his own right if the contract expressly provides that he may, or, subject to s.1(2), the term purports to confer a benefit on him. Under s.1(2), the second route does not apply if on a proper construction of the contract the parties did not intend the term to be enforceable by the third party. Section 1(3) requires the third party to be expressly identified by name, as a member of a class or by description. Leon is named and the term purports to confer a benefit on him: a repainted fence. Nothing in the contract rebuts the presumption in s.1(2). Leon can therefore enforce the term himself, even though Hannah will not act.",
+  "why_wrong": {
+   "A": "The 1999 Act creates a statutory exception to privity where s.1 is satisfied, as it is here.",
+   "B": "Express provision is only one route; s.1(1)(b) also applies where the term purports to confer a benefit on the third party.",
+   "C": "The Act lets a third party enforce a term without having provided consideration.",
+   "D": "The Act does not require the third party to sign or agree to the contract before he can enforce a term under s.1."
+  },
+  "key_rule": "A named or identified third party may enforce a contract term that purports to confer a benefit on him unless the contract, properly construed, shows the parties did not intend this (C(RTP)A 1999 s.1).",
+  "authority": "Contracts (Rights of Third Parties) Act 1999, s.1(1)-(3)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1999/31/section/1",
+  "tags": [
+   "privity",
+   "third party rights",
+   "contracts (rights of third parties) act 1999"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Parties: rights of third parties",
+   "context_subject": "Contract",
+   "source_type": "legislation",
+   "source_quote": "may in his own right enforce a term of the contract if— (a) the contract expressly provides that he may, or (b) subject to subsection (2), the term purports to confer a benefit on him.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-con-008",
+  "subject": "Contract",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Varying a contract after the third party has communicated assent (C(RTP)A 1999 s.2)",
+  "scenario": "Rafael Costa pays Lakeside Travel Ltd £3,200 for a week's cruise for his mother, Maria Costa, who is named in the contract as the passenger. The contract states that Maria may enforce its terms and contains no provision about later variation. Lakeside sends Maria the booking details and she emails Lakeside: \"Thank you, I accept and am delighted.\" A month later Rafael and Lakeside agree to transfer the booking to Rafael's brother instead. Maria has not been asked and objects. She has not yet spent any money in reliance on the cruise.",
+  "stem": "Which of the following best describes the effect of the agreement to transfer the booking?",
+  "options": {
+   "A": "It cannot alter Maria's entitlement without her consent, because she had communicated her assent to the term to Lakeside, the promisor.",
+   "B": "It is effective, because only the parties to a contract can decide whether to vary it.",
+   "C": "It is effective, provided Rafael and Lakeside gave Maria reasonable notice of the change.",
+   "D": "It is effective against Maria, who can claim only against Rafael for any loss she suffers.",
+   "E": "It is effective, because the parties need a third party's consent only where the third party has relied on the term."
+  },
+  "answer": "A",
+  "explanation": "Under s.2(1) of the Contracts (Rights of Third Parties) Act 1999, where a third party has a right under s.1 to enforce a term, the parties may not by agreement rescind the contract or vary it so as to extinguish or alter the third party's entitlement without his consent if any one of three conditions is met. The first, in s.2(1)(a), is that the third party has communicated his assent to the term to the promisor. The others concern reliance. Section 2(2) provides that assent may be by words or conduct. Maria has a right under s.1 because the contract expressly says she may enforce it. She communicated her assent to Lakeside, the promisor, by email. The contract contains no term permitting variation without her consent. The transfer agreement therefore cannot take away her entitlement without her consent.",
+  "why_wrong": {
+   "B": "Section 2(1) restricts the contracting parties' freedom to vary once one of its conditions is met.",
+   "C": "Notice is not enough; s.2(1) requires the third party's consent once she has communicated assent.",
+   "D": "Maria's right is enforceable against Lakeside, the promisor, and the variation cannot extinguish it without her consent.",
+   "E": "Reliance is only one trigger; communicated assent to the promisor under s.2(1)(a) is enough on its own."
+  },
+  "key_rule": "Once a third party with rights under s.1 has communicated assent to the promisor, or the promisor knows of or should foresee reliance, the parties cannot vary or rescind to affect those rights without consent.",
+  "authority": "Contracts (Rights of Third Parties) Act 1999, s.2(1)-(2)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1999/31/section/2",
+  "tags": [
+   "third party rights",
+   "variation",
+   "contracts (rights of third parties) act 1999"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Parties: rights of third parties",
+   "context_subject": "Contract",
+   "source_type": "legislation",
+   "source_quote": "rescind the contract, or vary it in such a way as to extinguish or alter his entitlement under that right, without his consent if— (a) the third party has communicated his assent to the term to the promisor",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-con-009",
+  "subject": "Contract",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Exclusion notice displayed after the contract is made at an automatic car park barrier (Thornton)",
+  "scenario": "Sanjay Mehta drove to a multi-storey car park in England. At the entrance, a sign showed only the hourly charges. He pulled up to an automatic barrier, which issued a ticket stating \"Issued subject to the conditions displayed inside\" and lifted. Having driven in, he passed a notice on a pillar inside stating that the operator accepts no liability for damage to vehicles, however caused. Sanjay did not read the ticket or the notice. While parked, his car was damaged by the operator's negligence. The operator relies on the notice.",
+  "stem": "Leaving aside any statutory controls on exclusion clauses, which of the following best describes whether the exclusion clause is part of the contract?",
+  "options": {
+   "A": "It is part of the contract, because the ticket expressly referred to conditions and Sanjay chose not to read it.",
+   "B": "It is part of the contract, because Sanjay had the opportunity to read the notice inside before leaving his car.",
+   "C": "It is not part of the contract, because the contract was concluded at the entrance barrier and the clause was first brought to notice only afterwards.",
+   "D": "It is part of the contract, because exclusions of this kind are usual in car parks and are therefore incorporated automatically.",
+   "E": "It is not part of the contract, because an exclusion clause is incorporated only if the customer signs a document containing it."
+  },
+  "answer": "C",
+  "explanation": "A term is incorporated by notice only if it is fairly brought to the other party's attention before or at the time the contract is made. In Thornton v Shoe Lane Parking Ltd the Court of Appeal held that a customer at an automatic car park was not bound by an exclusion displayed inside. Lord Denning MR said the contract was concluded at the entrance when the machine issued the ticket, so terms on or referred to by the ticket came too late. Sir Gordon Willmer said any attempt to introduce conditions after the irrevocable step of causing the machine to operate must fail. The court added that a wide exclusion requires especially clear notice. Here the only notice at the entrance showed charges. The exclusion appeared only on the ticket and inside, after Sanjay was committed, so it is not part of the contract.",
+  "why_wrong": {
+   "A": "A ticket issued at the point the customer is already committed comes too late to introduce new terms, whether or not it is read.",
+   "B": "Notice must be given before or at the time of contracting; an opportunity to read terms after committing to the contract is not enough.",
+   "D": "In Thornton the court rejected the idea that a car park exclusion was so usual that notice could be assumed.",
+   "E": "Signature is one way of incorporating terms, but reasonable notice given before contracting is another."
+  },
+  "key_rule": "Terms are incorporated by notice only if reasonable notice is given before or when the contract is made; terms first notified after the customer is irrevocably committed are not part of the contract.",
+  "authority": "Thornton v Shoe Lane Parking Ltd [1970] EWCA Civ 2; [1971] 2 QB 163",
+  "verified_source_url": "https://www.bailii.org/ew/cases/EWCA/Civ/1970/2.html",
+  "tags": [
+   "incorporation of terms",
+   "exclusion clauses",
+   "reasonable notice"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Contract terms: incorporation of terms",
+   "context_subject": "Contract",
+   "source_type": "judgment",
+   "source_quote": "any attempt to introduce conditions after the irrevocable step has been taken of causing the machine to operate must be doomed to failure.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Megaw LJ reserved his view on the exact moment the contract was concluded, but all three judges held the exclusion was not incorporated."
+  }
+ },
+ {
+  "id": "lib-con-010",
+  "subject": "Contract",
+  "flk": "FLK1",
+  "difficulty": "hard",
+  "title": "Implying a term in fact: necessity or obviousness, not fairness (M&S v BNP Paribas)",
+  "scenario": "Under a detailed written licence negotiated by solicitors, Pennant Media Ltd pays Carrick Studios Ltd an annual fee of £60,000 in advance each January for exclusive use of a recording studio in England. Clause 14 allows Pennant to end the licence on one month's written notice at any time. The licence says nothing about refunding any part of the annual fee if Pennant ends the licence part-way through a year. Pennant gives notice ending the licence on 31 March and claims a refund for April to December, arguing that a term to that effect must be implied because it would be fair.",
+  "stem": "Which of the following best describes the approach a court will take to Pennant's argument?",
+  "options": {
+   "A": "The term will be implied, because a court will imply a term whenever it is fair and reasonable to do so.",
+   "B": "The term will be implied if the court is satisfied that the parties would probably have agreed to it had it been suggested to them.",
+   "C": "The term will be implied by the Sale of Goods Act 1979, which requires a refund for any period of a contract not performed.",
+   "D": "The term will be implied only if it is necessary to give the licence business efficacy, or so obvious that it goes without saying; fairness alone is not enough.",
+   "E": "The term will be implied by law, because every licence of premises carries a standard term requiring apportionment of fees paid in advance."
+  },
+  "answer": "D",
+  "explanation": "In Marks and Spencer plc v BNP Paribas Securities Services Trust Co (Jersey) Ltd the Supreme Court confirmed the strict test for implying a term in fact into a commercial contract. Lord Neuberger said a term should not be implied into a detailed commercial contract merely because it appears fair, or merely because the parties would have agreed it if it had been suggested to them; those are necessary but not sufficient grounds. The term must be necessary for business efficacy, or so obvious that it goes without saying, and these can be alternatives. Necessity is best expressed as asking whether, without the term, the contract would lack commercial or practical coherence. The licence here is detailed and professionally drafted, and it works coherently without a refund term. Pennant's argument that a refund would be fair does not meet the test.",
+  "why_wrong": {
+   "A": "The Supreme Court rejected implication on grounds of fairness or reasonableness alone.",
+   "B": "Lord Neuberger said that a term is not implied merely because the parties would have agreed it if it had been suggested to them.",
+   "C": "The Sale of Goods Act 1979 governs contracts for the sale of goods, not a licence to use a studio, and has no such refund rule.",
+   "E": "Pennant is asking for a term implied in fact into this licence; there is no rule of law implying fee apportionment into every licence."
+  },
+  "key_rule": "A term is implied in fact only if necessary for business efficacy or so obvious it goes without saying; that it is fair, or that the parties would have agreed it if asked, is insufficient.",
+  "authority": "Marks and Spencer plc v BNP Paribas Securities Services Trust Co (Jersey) Ltd [2015] UKSC 72; [2016] AC 742",
+  "verified_source_url": "https://caselaw.nationalarchives.gov.uk/uksc/2015/72",
+  "tags": [
+   "implied terms",
+   "business efficacy",
+   "interpretation"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Contract terms: terms implied by common law and statute",
+   "context_subject": "Contract",
+   "source_type": "judgment",
+   "source_quote": "a term should not be implied into a detailed commercial contract merely because it appears fair or merely because one considers that the parties would have agreed it if it had been suggested to them.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-con-011",
+  "subject": "Contract",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Interpreting a clear price escalation clause that became a bad bargain (Arnold v Britton)",
+  "scenario": "In 2016 Fenwick Logistics Ltd signed a ten-year warehouse management contract with Delta Stores Ltd, both companies taking legal advice. Clause 5 states: \"The annual fee shall be £200,000 in the first year and shall increase by 8% each year, compounded.\" Inflation has since been much lower than either party expected, and the fee now far exceeds market rates. Delta argues that commercial common sense requires clause 5 to be read as an increase of 8% or the rate of inflation, whichever is lower.",
+  "stem": "Which of the following best describes how a court is likely to interpret clause 5?",
+  "options": {
+   "A": "It will read clause 5 as capped at inflation, because a court will always prefer the interpretation that produces the most commercially sensible result today.",
+   "B": "It will give clause 5 its natural meaning of an 8% compound increase, because the fact that a clear term has worked out badly for one party is not a reason to depart from its language.",
+   "C": "It will treat clause 5 as void for uncertainty, because the parties did not foresee the actual rate of inflation.",
+   "D": "It will rewrite clause 5 to reflect a fair market fee, because a court may correct terms that have become unfair to one party.",
+   "E": "It will construe clause 5 against Fenwick, because any ambiguity in a price term is resolved against the party who benefits from it."
+  },
+  "answer": "B",
+  "explanation": "In Arnold v Britton the Supreme Court held that commercial common sense and surrounding circumstances should not be invoked to undervalue the importance of the language of the provision being construed. Lord Neuberger said commercial common sense is not to be applied retrospectively: the mere fact that a contractual arrangement, interpreted according to its natural language, has worked out badly or even disastrously for one party is not a reason for departing from that language. A court should be very slow to reject the natural meaning simply because the term appears imprudent, since the purpose of interpretation is to identify what the parties agreed, not what the court thinks they should have agreed. Clause 5 is clear and unambiguous, agreed between advised commercial parties. It will be given its natural meaning: a compounded 8% annual increase.",
+  "why_wrong": {
+   "A": "Commercial common sense is judged as at the date of the contract, not with hindsight, and cannot override clear words.",
+   "C": "Clause 5 is a precise formula; that the parties misjudged inflation does not make it uncertain.",
+   "D": "The court's role is to interpret what was agreed, not to rewrite a bargain because it has become unfavourable.",
+   "E": "Clause 5 is not ambiguous, so there is no room for construing it against either party."
+  },
+  "key_rule": "Clear contractual words are given their natural meaning; commercial common sense is assessed at the contract date and cannot be used to rescue a party from a term that has turned out badly.",
+  "authority": "Arnold v Britton [2015] UKSC 36; [2015] AC 1619",
+  "verified_source_url": "https://caselaw.nationalarchives.gov.uk/uksc/2015/36",
+  "tags": [
+   "interpretation",
+   "commercial common sense",
+   "natural meaning"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Contract terms: the interpretation of contract terms",
+   "context_subject": "Contract",
+   "source_type": "judgment",
+   "source_quote": "The mere fact that a contractual arrangement, if interpreted according to its natural language, has worked out badly, or even disastrously, for one of the parties is not a reason for departing from the natural language.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-con-012",
+  "subject": "Contract",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Slight breach of an implied condition in a business sale (Sale of Goods Act 1979 s.15A)",
+  "scenario": "Larkspur Catering Ltd buys 500 aprons from Tidewell Textiles Ltd for use in its restaurants in England. The contract describes them as \"navy blue, 100% cotton\". The aprons delivered are 100% cotton but a very slightly lighter shade of navy than the sample in Tidewell's catalogue, a difference noticeable only when they are laid side by side. They are perfectly usable. Larkspur, which has found a cheaper supplier, wants to reject the whole delivery for breach of the implied term that goods correspond with their description. The contract says nothing about remedies.",
+  "stem": "Which of the following best describes Larkspur's position?",
+  "options": {
+   "A": "Larkspur may reject the aprons, because any breach of a term implied by s.13 of the Sale of Goods Act 1979 entitles the buyer to reject.",
+   "B": "Larkspur may reject the aprons only if the contract expressly stated that the colour was a condition of the contract.",
+   "C": "Larkspur cannot reject the aprons, because the term implied by s.13 is only a warranty.",
+   "D": "Larkspur may reject the aprons, but must compensate Tidewell for the cost of collecting them.",
+   "E": "If Tidewell shows the breach is so slight that rejection would be unreasonable, Larkspur cannot reject and may claim damages only, as for breach of warranty."
+  },
+  "answer": "E",
+  "explanation": "The term implied by s.13 of the Sale of Goods Act 1979, that goods correspond with their description, is a condition, so a breach would normally allow the buyer to reject. Section 15A modifies this in non-consumer sales. Where the buyer would otherwise have the right to reject for breach of a term implied by s.13, 14 or 15, but the breach is so slight that it would be unreasonable for him to reject, the breach is not to be treated as a breach of condition but may be treated as a breach of warranty. Section 15A(2) applies it unless a contrary intention appears, and s.15A(3) puts the burden on the seller. Both parties are businesses, the contract is silent on remedies, and the shade difference is trivial. If Tidewell proves the breach is that slight, Larkspur is confined to damages.",
+  "why_wrong": {
+   "A": "Section 15A removes the right to reject for slight breaches of the s.13 to 15 implied conditions in non-consumer contracts.",
+   "B": "The s.13 term is already a condition by statute; the question is whether s.15A limits the remedy, not whether the contract labels it a condition.",
+   "C": "The s.13 term is a condition, not a warranty; it is only treated as a warranty if s.15A applies.",
+   "D": "If s.15A applies, Larkspur cannot reject at all; if it does not apply, rejection carries no duty to pay the seller's collection costs."
+  },
+  "key_rule": "In a non-consumer sale, a breach of the conditions implied by SGA 1979 ss.13-15 that is so slight that rejection would be unreasonable is treated as a breach of warranty; the seller must prove this.",
+  "authority": "Sale of Goods Act 1979, s.15A",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1979/54/section/15A",
+  "tags": [
+   "conditions and warranties",
+   "sale of goods act 1979",
+   "classification of terms"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Contract terms: classification of contract terms (conditions, warranties and innominate terms)",
+   "context_subject": "Contract",
+   "source_type": "legislation",
+   "source_quote": "(b) the breach is so slight that it would be unreasonable for him to reject them, ... the breach is not to be treated as a breach of condition but may be treated as a breach of warranty.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "The ellipsis in the quote marks words omitted from s.15A(1) by the Consumer Rights Act 2015, shown on legislation.gov.uk as an annotation. s.13(1A) (fetched: https://www.legislation.gov.uk/ukpga/1979/54/section/13) confirms the s.13 term is a condition in England and Wales."
+  }
+ },
+ {
+  "id": "lib-con-013",
+  "subject": "Contract",
+  "flk": "FLK1",
+  "difficulty": "easy",
+  "title": "Excluding liability for satisfactory quality in a consumer sale (Consumer Rights Act 2015 s.31)",
+  "scenario": "Bethan Lloyd buys a new washing machine for her home from Sparkle Appliances Ltd, a retailer in England. Sparkle's order form, which Bethan signs, states in bold: \"Goods sold as seen. Sparkle accepts no liability for any fault in the goods.\" Within a week the drum stops turning because of a manufacturing defect. Sparkle says Bethan agreed to the clause and refuses to do anything.",
+  "stem": "Which of the following best describes the effect of the clause?",
+  "options": {
+   "A": "It is not binding on Bethan to the extent that it would exclude Sparkle's liability for the statutory term that the goods be of satisfactory quality.",
+   "B": "It is binding on Bethan, because she signed the order form and the clause was printed in bold.",
+   "C": "It is binding on Bethan only if it satisfies the requirement of reasonableness under the Unfair Contract Terms Act 1977.",
+   "D": "It is binding as regards a refund, but Sparkle must still repair the machine free of charge.",
+   "E": "It is binding unless Bethan can show that Sparkle knew of the defect when the machine was sold."
+  },
+  "answer": "A",
+  "explanation": "Section 9 of the Consumer Rights Act 2015 treats every contract by which a trader supplies goods to a consumer as including a term that the quality of the goods is satisfactory. Section 31(1)(a) provides that a term of a contract to supply goods is not binding on the consumer to the extent that it would exclude or restrict the trader's liability arising under s.9. Bethan is a consumer buying for her home and Sparkle is a trader. A new washing machine whose drum fails within a week through a manufacturing defect is unlikely to be of satisfactory quality. The clause attempts to exclude Sparkle's liability for that, so it is not binding on her to that extent, however clearly it was displayed and even though she signed it.",
+  "why_wrong": {
+   "B": "Section 31 operates regardless of signature or prominence; the term simply does not bind the consumer to that extent.",
+   "C": "For consumer contracts the CRA 2015 applies, and s.31 is an outright bar rather than a reasonableness test.",
+   "D": "Section 31 makes the clause non-binding to the extent it restricts any liability under s.9, not just some remedies.",
+   "E": "Liability under s.9 is strict; the trader's knowledge of the defect is irrelevant to whether the exclusion binds."
+  },
+  "key_rule": "A trader cannot exclude or restrict liability to a consumer for the statutory term that goods are of satisfactory quality; such a term is not binding on the consumer (CRA 2015 ss.9 and 31).",
+  "authority": "Consumer Rights Act 2015, ss.9 and 31(1)(a)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2015/15/section/31",
+  "tags": [
+   "exclusion clauses",
+   "consumer rights act 2015",
+   "satisfactory quality"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Contract terms: exemption clauses",
+   "context_subject": "Contract",
+   "source_type": "legislation",
+   "source_quote": "A term of a contract to supply goods is not binding on the consumer to the extent that it would exclude or restrict the trader's liability arising under any of these provisions— (a) section 9",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "legislation.gov.uk shows s.31 up to date to 15 Oct 2026 with changes that may be brought into force at a future date; none shown affecting s.31(1)(a). Section 9 was also fetched (https://www.legislation.gov.uk/ukpga/2015/15/section/9)."
+  }
+ },
+ {
+  "id": "lib-con-014",
+  "subject": "Contract",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Oral variation of a contract containing a 'No Oral Modification' clause (Rock Advertising)",
+  "scenario": "Northgate Office Space Ltd licensed serviced offices in England to Quill Design Ltd for two years at £5,000 a month. Clause 11 of the signed written licence states: \"This licence may only be varied in writing signed by both parties.\" When Quill fell into arrears, Northgate's credit manager agreed with Quill's director in a phone call to accept £3,000 a month for six months, with the shortfall spread over the rest of the term. Nothing was put in writing. Northgate's director has now refused to honour the arrangement and claims the full contractual rent. Assume no argument based on estoppel arises.",
+  "stem": "Which of the following best describes the effect of the telephone agreement?",
+  "options": {
+   "A": "It is valid, because parties who have freedom to contract always remain free to vary their contract orally, whatever it says.",
+   "B": "It is valid, because by agreeing it orally the parties must have intended to dispense with clause 11.",
+   "C": "It is invalid, because clause 11 is effective and the variation was not made in writing signed by both parties.",
+   "D": "It is invalid only because Quill gave no consideration for Northgate accepting lower payments.",
+   "E": "It is valid, because Northgate obtained a practical benefit from receiving regular payments."
+  },
+  "answer": "C",
+  "explanation": "In Rock Advertising Ltd v MWB Business Exchange Centres Ltd the Supreme Court held that a No Oral Modification clause is legally effective. Lord Sumption said that what the parties to such a clause have agreed is not that oral variations are forbidden, but that they will be invalid. The mere fact of agreeing an oral variation is not a contravention of the clause but the very situation to which it applies, and it is not difficult to record a variation in writing. The court held that the oral variation in that case was invalid for want of the writing and signatures the licence required. Here clause 11 requires any variation to be in writing signed by both parties. The telephone agreement was neither, so it is invalid and the original rent remains due. The question excludes estoppel, which the court left open.",
+  "why_wrong": {
+   "A": "The Supreme Court rejected the view that parties cannot bind themselves as to the form of future variations.",
+   "B": "The court held that agreeing an oral variation does not by itself show an intention to dispense with the clause.",
+   "D": "The variation fails for want of the required form; the Supreme Court found it unnecessary to decide the consideration point.",
+   "E": "Whether there was consideration is irrelevant where the variation is invalid for non-compliance with the clause."
+  },
+  "key_rule": "A No Oral Modification clause is effective: a variation not made in the form the contract requires is invalid, subject only to a possible estoppel.",
+  "authority": "Rock Advertising Ltd v MWB Business Exchange Centres Ltd [2018] UKSC 24; [2019] AC 119",
+  "verified_source_url": "https://caselaw.nationalarchives.gov.uk/uksc/2018/24",
+  "tags": [
+   "variation",
+   "no oral modification clauses",
+   "formalities"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Contract terms: variation",
+   "context_subject": "Contract",
+   "source_type": "judgment",
+   "source_quote": "What the parties to such a clause have agreed is not that oral variations are forbidden, but that they will be invalid.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Rock overlaps with existing bank q017, which cites it on part payment; this question tests the different No Oral Modification point."
+  }
+ },
+ {
+  "id": "lib-con-015",
+  "subject": "Contract",
+  "flk": "FLK1",
+  "difficulty": "hard",
+  "title": "Court's discretion to award damages in lieu of rescission (Misrepresentation Act 1967 s.2(2))",
+  "scenario": "In May 2026 Harrowby Print Ltd bought a used printing press for £85,000 from Selwyn Graphics Ltd. Before the sale, Selwyn's manager told Harrowby the press had been made in 2019. He honestly believed this, relying on the manufacturer's service records, which turned out to contain a clerical error. The press was in fact made in 2018. It works perfectly and its value is only about £2,000 lower than that of a 2019 model. Harrowby discovered the truth two weeks after delivery, at once asked to rescind, and has since issued proceedings claiming rescission. No bar to rescission has arisen.",
+  "stem": "Which of the following best describes the court's powers in Harrowby's claim?",
+  "options": {
+   "A": "The court must order rescission, because Harrowby was induced by a misrepresentation and no bar to rescission has arisen.",
+   "B": "The court cannot grant any remedy, because a misrepresentation made innocently and on reasonable grounds gives no remedy at all.",
+   "C": "Harrowby is entitled as of right to damages under s.2(1), and the court has no power to refuse them.",
+   "D": "The court may declare the contract subsisting and award damages in lieu of rescission if it considers that equitable, weighing the misrepresentation and the losses each side would suffer.",
+   "E": "The contract is void from the start, so Harrowby can recover the price without any order for rescission."
+  },
+  "answer": "D",
+  "explanation": "Section 2(2) of the Misrepresentation Act 1967 applies where a person has entered into a contract after a misrepresentation made otherwise than fraudulently, and would be entitled to rescind. If it is claimed in proceedings that the contract ought to be or has been rescinded, the court may declare the contract subsisting and award damages in lieu of rescission, if of opinion that it would be equitable to do so. It must have regard to the nature of the misrepresentation, the loss that would be caused by it if the contract were upheld, and the loss that rescission would cause to the other party. Selwyn's statement was a non-fraudulent misrepresentation which induced the contract, and Harrowby could otherwise rescind. Since the press works perfectly and the difference in value is small, while rescission would cost Selwyn far more, the court may well uphold the contract and award damages instead.",
+  "why_wrong": {
+   "A": "Section 2(2) gives the court a discretion to refuse rescission and award damages instead, even where rescission is available.",
+   "B": "An innocent misrepresentation still allows rescission, and s.2(2) lets the court award damages in lieu of it.",
+   "C": "Section 2(1) liability is avoided where the representor proves reasonable grounds for belief, which Selwyn can probably do on these facts.",
+   "E": "Misrepresentation makes a contract voidable, not void; it stands unless and until rescinded."
+  },
+  "key_rule": "For a non-fraudulent misrepresentation, the court may declare the contract subsisting and award damages in lieu of rescission where equitable, weighing the misrepresentation and each side's losses (MA 1967 s.2(2)).",
+  "authority": "Misrepresentation Act 1967, s.2(2)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1967/7/section/2",
+  "tags": [
+   "misrepresentation",
+   "rescission",
+   "damages in lieu"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Vitiating factors: misrepresentation",
+   "context_subject": "Contract",
+   "source_type": "legislation",
+   "source_quote": "the court or arbitrator may declare the contract subsisting and award damages in lieu of rescission, if of opinion that it would be equitable to do so",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "legislation.gov.uk shows s.2 up to date to 15 Oct 2026 with changes that may be brought into force at a future date; none shown affecting s.2(2). The existing bank q045 tests s.2(1); this tests s.2(2)."
+  }
+ },
+ {
+  "id": "lib-con-016",
+  "subject": "Contract",
+  "flk": "FLK1",
+  "difficulty": "easy",
+  "title": "Sale of specific goods that had already perished (Sale of Goods Act 1979 s.6)",
+  "scenario": "On Monday morning Ashby Fine Wines Ltd agreed to sell to Marlow Hotels Ltd a specific consignment of 40 identified cases of a particular vintage claret stored in a named bonded warehouse in England, for £24,000. Unknown to either party, the warehouse had been destroyed by fire overnight and all 40 cases were lost. Marlow has paid nothing. Ashby says Marlow must pay because risk passed when the contract was made.",
+  "stem": "Which of the following best describes the legal position?",
+  "options": {
+   "A": "The contract is valid and Marlow must pay, because risk passed to Marlow when the contract was made.",
+   "B": "The contract was frustrated by the fire, so the Law Reform (Frustrated Contracts) Act 1943 governs the parties' rights.",
+   "C": "The contract is voidable at Marlow's option, because Marlow was mistaken about the existence of the goods.",
+   "D": "The contract is valid, but Ashby is liable to Marlow in damages for failing to deliver the wine.",
+   "E": "The contract is void, because the specific goods had perished without the seller's knowledge at the time the contract was made."
+  },
+  "answer": "E",
+  "explanation": "Section 6 of the Sale of Goods Act 1979 provides that where there is a contract for the sale of specific goods, and the goods without the knowledge of the seller have perished at the time when the contract is made, the contract is void. The 40 cases were specific goods: identified and agreed upon when the contract was made. They had been destroyed overnight, before the parties contracted on Monday morning, and Ashby did not know. The contract is therefore void. No obligation to pay or deliver ever arose, so questions of when risk passed, or whether the seller is liable for non-delivery, do not arise. This is a statutory instance of the common law principle that a contract is void where its subject matter does not exist when it is made.",
+  "why_wrong": {
+   "A": "Risk is irrelevant because s.6 makes the contract void; no contract existed under which risk could pass.",
+   "B": "Frustration concerns events after a contract is made; here the goods perished before the contract was concluded.",
+   "C": "Section 6 makes the contract void, not voidable, and does not depend on either party electing to avoid it.",
+   "D": "There is no valid contract to breach, so Ashby cannot be liable for non-delivery."
+  },
+  "key_rule": "A contract for the sale of specific goods is void if, without the seller's knowledge, the goods had already perished when the contract was made (SGA 1979 s.6).",
+  "authority": "Sale of Goods Act 1979, s.6",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1979/54/section/6",
+  "tags": [
+   "mistake",
+   "common mistake",
+   "sale of goods act 1979"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Vitiating factors: mistake",
+   "context_subject": "Contract",
+   "source_type": "legislation",
+   "source_quote": "Where there is a contract for the sale of specific goods, and the goods without the knowledge of the seller have perished at the time when the contract is made, the contract is void.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-con-017",
+  "subject": "Contract",
+  "flk": "FLK1",
+  "difficulty": "hard",
+  "title": "Economic duress: the requirement of no reasonable alternative (PIA v Times Travel)",
+  "scenario": "Corbett Bakeries Ltd has a fixed-price contract with Glenmoor Mills Ltd for weekly deliveries of flour to its bakery in England. Midway through the term, Glenmoor tells Corbett it will stop delivering unless Corbett agrees a 15% price rise. Glenmoor has no right under the contract to do this. Corbett's buyer knows that two other mills in the area could supply the same flour at the original price from the next day, but finds it simpler to sign Glenmoor's revised price schedule. Corbett now wants to set the price variation aside for economic duress.",
+  "stem": "Which of the following best describes whether Corbett is likely to succeed?",
+  "options": {
+   "A": "Corbett is likely to succeed, because a threat to break a contract is always illegitimate pressure and that is enough to set the variation aside.",
+   "B": "Corbett is unlikely to succeed, because even if the threat was illegitimate and caused it to agree, Corbett had a reasonable alternative to giving in.",
+   "C": "Corbett is likely to succeed, because the variation was not supported by fresh consideration and is therefore void for duress.",
+   "D": "Corbett is unlikely to succeed, because economic duress is available only where the threat is to commit a crime or a tort.",
+   "E": "Corbett is likely to succeed, because it is enough that Glenmoor applied commercial pressure to which Corbett gave in."
+  },
+  "answer": "B",
+  "explanation": "In Pakistan International Airline Corp v Times Travel (UK) Ltd the Supreme Court restated the elements of duress. A claimant seeking rescission must show an illegitimate threat or pressure, and that it caused the claimant to enter the contract. Lord Burrows, whose statement of these elements the majority expressly endorsed, added that for economic duress there is a third element: the claimant must have had no reasonable alternative to giving in to the threat or pressure. A threat to break an existing contract unless paid more may well be illegitimate, and it may have caused Corbett to sign. But Corbett's buyer knew two other mills could supply the same flour at the original price from the next day, and chose to sign only because it was simpler. Corbett had a reasonable alternative, so its claim that the variation should be set aside for economic duress is unlikely to succeed.",
+  "why_wrong": {
+   "A": "Illegitimate pressure is only one element; causation and, for economic duress, the absence of a reasonable alternative must also be shown.",
+   "C": "Lack of consideration and duress are separate doctrines, and duress makes a contract voidable rather than void.",
+   "D": "Economic duress is not confined to threats of crimes or torts; a threatened breach of contract can be illegitimate, and the Supreme Court recognised lawful act duress.",
+   "E": "Ordinary commercial pressure is not enough; the pressure must be illegitimate, and the other elements must be met."
+  },
+  "key_rule": "Economic duress requires an illegitimate threat or pressure that caused the claimant to contract, and that the claimant had no reasonable alternative to giving in; the contract is then voidable.",
+  "authority": "Pakistan International Airline Corp v Times Travel (UK) Ltd [2021] UKSC 40; [2023] AC 101",
+  "verified_source_url": "https://caselaw.nationalarchives.gov.uk/uksc/2021/40",
+  "tags": [
+   "duress",
+   "economic duress",
+   "vitiating factors"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Vitiating factors: duress and undue influence",
+   "context_subject": "Contract",
+   "source_type": "judgment",
+   "source_quote": "there is a third element. This is that the claimant must have had no reasonable alternative to giving in to the threat (or pressure)",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Quote is from Lord Burrows (para 79); Lord Hodge for the majority (para 1) agreed with his paras 78-80 on the essential elements. The point that a threatened breach of contract may be illegitimate is stated in general terms; the case itself concerned lawful act duress."
+  }
+ },
+ {
+  "id": "lib-con-018",
+  "subject": "Contract",
+  "flk": "FLK1",
+  "difficulty": "hard",
+  "title": "Undue influence and a joint loan to spouses: when the lender is put on inquiry (CIBC v Pitt)",
+  "scenario": "Martin and Aisha Kendall jointly own their home in England. Martin pressured Aisha, against her wishes, into agreeing to remortgage it; a court would find this was actual undue influence. Both applied to Harbour Bank plc for a joint loan of £120,000, stated on the application to be for home improvements and a holiday flat for the family. The bank had no knowledge of Martin's conduct, did not use him as its agent, and paid the loan into the couple's joint account. Martin secretly spent the money on his own failed business. The bank now seeks possession, and Aisha argues that the charge cannot be enforced against her.",
+  "stem": "Which of the following best describes the position between Aisha and the bank?",
+  "options": {
+   "A": "The charge is enforceable against Aisha, because nothing indicated to the bank that the joint loan was anything other than an advance for the couple's joint benefit, so it was not put on inquiry.",
+   "B": "The charge is unenforceable against Aisha, because actual undue influence by Martin has been proved, whether or not the bank knew of it.",
+   "C": "The charge is unenforceable against Aisha, because a lender must always ensure that a wife receives independent advice before taking a charge over the family home.",
+   "D": "The charge is enforceable against Aisha, because a claim for undue influence fails unless the transaction was manifestly disadvantageous to her.",
+   "E": "The charge is unenforceable against Aisha, because Martin is treated as having acted as the bank's agent in obtaining her signature."
+  },
+  "answer": "A",
+  "explanation": "In CIBC Mortgages plc v Pitt the House of Lords held that a wife who proves actual undue influence by her husband need not show that the transaction was manifestly disadvantageous to her; as against him she is entitled to have it set aside. But the lender is affected only if the husband acted as its agent or it had actual or constructive notice. Lord Browne-Wilkinson held that a joint advance to husband and wife, apparently for their joint benefit, does not put the lender on inquiry, unlike a wife standing surety for her husband's debts, which on its face is not to her financial benefit. Here the loan was joint, stated to be for family purposes and paid into the joint account. The bank knew nothing of Martin's conduct and he was not its agent. It was not put on inquiry, so it can enforce the charge against Aisha.",
+  "why_wrong": {
+   "B": "Proving undue influence by Martin is not enough against a third party lender, which is affected only through agency or notice.",
+   "C": "Pitt rejects any rule that every joint loan to spouses requires the lender to insist on separate advice for the wife.",
+   "D": "Pitt held that manifest disadvantage is not required where actual undue influence is proved; the charge stands for a different reason.",
+   "E": "The facts state that the bank did not use Martin as its agent, so agency cannot fix it with his wrongdoing."
+  },
+  "key_rule": "A lender is affected by a spouse's undue influence only through agency or notice; a joint loan apparently for both spouses' joint benefit does not by itself put the lender on inquiry.",
+  "authority": "CIBC Mortgages plc v Pitt [1993] UKHL 7; [1994] 1 AC 200",
+  "verified_source_url": "https://www.bailii.org/uk/cases/UKHL/1993/7.html",
+  "tags": [
+   "undue influence",
+   "constructive notice",
+   "vitiating factors"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Vitiating factors: duress and undue influence",
+   "context_subject": "Contract",
+   "source_type": "judgment",
+   "source_quote": "There was nothing to indicate to the plaintiff that this was anything other than a normal advance to husband and wife for their joint benefit.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Royal Bank of Scotland v Etridge (No 2) [2001] UKHL 44 later restated the 'put on inquiry' rules (surety cases); it treats Pitt-type joint loans the same way, but Etridge was not fetched. The question is framed on facts within Pitt."
+  }
+ },
+ {
+  "id": "lib-con-019",
+  "subject": "Contract",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Recovering money paid for an unlawful purpose (Patel v Mirza)",
+  "scenario": "Ollie Grant paid £25,000 to his friend Dev Rana, a trader, so that Dev could place bets on the share price of a listed company using inside information Dev expected to receive. Both knew that dealing on inside information is a criminal offence. The expected information never came, Dev placed no bets, and he has refused to return the money. Ollie sues Dev in England to recover the £25,000.",
+  "stem": "Which of the following best describes whether Ollie can recover the £25,000?",
+  "options": {
+   "A": "No, because Ollie must rely on the illegal agreement to establish his claim, and a claimant who must rely on his own illegality always fails.",
+   "B": "No, because no bets were placed, so there was no total failure of consideration on which a restitutionary claim could be based.",
+   "C": "Yes, because a claimant who meets the ordinary requirements of unjust enrichment is not barred merely because the money was paid for an unlawful purpose, and nothing here makes denial of the claim proportionate.",
+   "D": "No, because where both parties are equally at fault the court will always leave the loss where it falls.",
+   "E": "Yes, and he can also recover the profit he would have made had the bets been placed, because Dev failed to perform the agreement."
+  },
+  "answer": "C",
+  "explanation": "In Patel v Mirza the Supreme Court replaced the reliance test with a policy-based approach to illegality. Lord Toulson said the rationale is that it would be contrary to the public interest to enforce a claim if that would harm the integrity of the legal system. The court considers the underlying purpose of the prohibition transgressed, any other relevant public policy, and whether denying the claim would be a proportionate response to the illegality. On facts closely resembling these, the court held that a claimant who satisfies the ordinary requirements of a claim in unjust enrichment should not be debarred from enforcing it by reason only that the money was paid for an unlawful purpose. Dev was enriched by £25,000 at Ollie's expense, and the basis for the payment failed. Returning the money does not enforce the illegal bargain, so Ollie can recover it.",
+  "why_wrong": {
+   "A": "Patel v Mirza rejected the reliance test from Tinsley v Milligan in favour of the policy-based approach.",
+   "B": "The purpose for which the money was paid wholly failed when no bets were placed; that is the basis of the unjust enrichment claim, not a bar to it.",
+   "D": "The court rejected a rigid rule leaving the loss where it falls; whether to deny the claim depends on the policy factors and proportionality.",
+   "E": "Claiming lost profits would enforce the illegal agreement itself; Ollie's claim is limited to restoring what he paid."
+  },
+  "key_rule": "Illegality bars a claim only where enforcing it would harm the integrity of the legal system, judged by the prohibition's purpose, other policies and proportionality; restitution of money paid for an unlawful purpose is normally allowed.",
+  "authority": "Patel v Mirza [2016] UKSC 42; [2017] AC 467",
+  "verified_source_url": "https://caselaw.nationalarchives.gov.uk/uksc/2016/42",
+  "tags": [
+   "illegality",
+   "unjust enrichment",
+   "restitution"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Vitiating factors: illegality",
+   "context_subject": "Contract",
+   "source_type": "judgment",
+   "source_quote": "who satisfies the ordinary requirements of a claim for unjust enrichment, should not be debarred from enforcing his claim by reason only of the fact that the money which he seeks to recover was paid for an unlawful purpose.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-con-020",
+  "subject": "Contract",
+  "flk": "FLK1",
+  "difficulty": "hard",
+  "title": "Sums paid and payable before frustration, and expenses (LR(FC)A 1943 s.1(2))",
+  "scenario": "Ngozi Eze hired Fairfield Hall in England for her wedding reception on 20 July 2026 for a total fee of £10,000. Under the contract she paid a £4,000 deposit in January. A further £3,000 was due on 1 June, but she had not paid it. On 10 June the hall was destroyed by fire without fault on either side, and it is agreed that the contract was frustrated. Before the fire the hall's owner had spent £1,500 in preparing for the event. The contract makes no provision for what happens if the hall cannot be used.",
+  "stem": "Which of the following best describes the position under the Law Reform (Frustrated Contracts) Act 1943?",
+  "options": {
+   "A": "The loss lies where it falls: the owner keeps the £4,000 and Ngozi must still pay the £3,000 that was due before the fire.",
+   "B": "Ngozi can recover the £4,000 in full, but must still pay the £3,000 because it fell due before the contract was frustrated.",
+   "C": "Ngozi can recover the £4,000 in full and the £3,000 ceases to be payable; the owner's expenses cannot be taken into account.",
+   "D": "The £3,000 ceases to be payable and Ngozi can recover the £4,000, but the court may, if just, allow the owner to retain up to £1,500 for its expenses.",
+   "E": "The owner may retain £1,500 of the deposit and also recover the £3,000, because both sums arose before the frustrating event."
+  },
+  "answer": "D",
+  "explanation": "Section 1(2) of the Law Reform (Frustrated Contracts) Act 1943 provides that all sums paid before the time of discharge are recoverable, and sums payable before that time cease to be payable. Under the proviso, if the payee incurred expenses before discharge in or for the purpose of performance, the court may, if it considers it just having regard to all the circumstances, allow the payee to retain or recover the whole or any part of the sums paid or payable, not exceeding the expenses incurred. Applying this, the £3,000 due on 1 June ceases to be payable and the £4,000 deposit is prima facie recoverable. The owner incurred £1,500 of expenses, so the court may allow it to keep up to £1,500 of the sums paid or payable if just. Ngozi will therefore recover between £2,500 and £4,000, depending on the court's view.",
+  "why_wrong": {
+   "A": "The Act replaced the old common law position for contracts within it; sums paid are recoverable and sums payable cease to be payable.",
+   "B": "Sums payable before the time of discharge cease to be payable under s.1(2), even if they had already fallen due.",
+   "C": "The proviso to s.1(2) lets the court allow the payee to keep or recover sums up to the amount of its expenses, if just.",
+   "E": "The expenses allowance is capped at the expenses incurred, £1,500 in total; the owner cannot keep that and recover the £3,000 as well."
+  },
+  "key_rule": "On frustration, money paid is recoverable and money payable ceases to be payable, but the court may let the payee keep or recover up to its pre-discharge expenses if just (LR(FC)A 1943 s.1(2)).",
+  "authority": "Law Reform (Frustrated Contracts) Act 1943, s.1(2)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/Geo6/6-7/40/section/1",
+  "tags": [
+   "frustration",
+   "law reform (frustrated contracts) act 1943",
+   "restitution"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Termination: frustration",
+   "context_subject": "Contract",
+   "source_type": "legislation",
+   "source_quote": "allow him to retain or, as the case may be, recover the whole or any part of the sums so paid or payable, not being an amount in excess of the expenses so incurred.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "The scenario assumes frustration (destruction of the subject matter); the question tests only the 1943 Act consequences."
+  }
+ },
+ {
+  "id": "lib-con-021",
+  "subject": "Contract",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Remoteness: losses from special circumstances not communicated (Hadley v Baxendale)",
+  "scenario": "Wren Valley Dairy Ltd, a cheese maker in England, sent product samples by Swiftline Couriers Ltd for next-day delivery to a laboratory. Wren Valley did not tell Swiftline that the samples had to reach the laboratory that day so that test results could be sent to a foreign buyer before a deadline in a £60,000 export deal. Swiftline delivered three days late through its own fault. Wren Valley had to pay £300 for a second, express delivery of fresh samples, and lost the export deal because the deadline passed.",
+  "stem": "Which of the following best describes the damages Wren Valley can recover from Swiftline?",
+  "options": {
+   "A": "All its losses, including the lost profit on the export deal, because all of them were caused by Swiftline's breach.",
+   "B": "Nothing, because Swiftline did not know why the samples were being sent.",
+   "C": "The lost profit on the export deal, because it is foreseeable that a business sending samples may lose some profit if they arrive late.",
+   "D": "Only nominal damages, because a courier's liability for late delivery is limited to a refund of the delivery charge.",
+   "E": "Losses arising naturally from late delivery, such as the £300 cost of re-sending, but not the lost export profit, because that arose from special circumstances not communicated to Swiftline."
+  },
+  "answer": "E",
+  "explanation": "Under the rule in Hadley v Baxendale, damages for breach of contract are recoverable for losses that arise naturally, according to the usual course of things, from the breach, or that may reasonably be supposed to have been in the contemplation of both parties when they made the contract as the probable result of the breach. Where special circumstances are communicated, losses arising from them are within contemplation; where they are wholly unknown to the party in breach, it can be taken to have contemplated only the loss arising generally. The £300 cost of re-sending the samples arises naturally from a courier's late delivery. The loss of the export deal depended on a deadline and a contract that Wren Valley never told Swiftline about. That loss is too remote, so Wren Valley recovers the natural losses but not the lost export profit.",
+  "why_wrong": {
+   "A": "Causation is not enough; losses must also satisfy the remoteness test in Hadley v Baxendale.",
+   "B": "Losses arising naturally from late delivery are recoverable whether or not the courier knew the purpose of the delivery.",
+   "C": "The lost export profit flowed from special circumstances unknown to Swiftline, not from late delivery in the usual course of things.",
+   "D": "There is no general rule limiting a courier's liability to a refund; the normal contractual measure of damages applies."
+  },
+  "key_rule": "Contract damages cover losses arising naturally from the breach, or within both parties' reasonable contemplation when contracting; losses from special circumstances not communicated are too remote.",
+  "authority": "Hadley v Baxendale (1854) 9 Exch 341; [1854] EWHC Exch J70",
+  "verified_source_url": "https://www.bailii.org/ew/cases/EWHC/Exch/1854/J70.html",
+  "tags": [
+   "remoteness",
+   "damages",
+   "causation"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Causation and remoteness",
+   "context_subject": "Contract",
+   "source_type": "judgment",
+   "source_quote": "if these special circumstances were wholly unknown to the party breaking the contract, he, at the most, could only be supposed to have had in his contemplation the amount of injury which would arise generally",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-con-022",
+  "subject": "Contract",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Liquidated damages or penalty: the legitimate interest test (Cavendish v Makdessi)",
+  "scenario": "Vantage Software Ltd agreed to install a booking system for Coastal Ferries Ltd by 1 March 2026. Clause 9 provides that if installation is late, Vantage will pay Coastal £50,000 for each day of delay. Both companies took legal advice. Coastal's realistic loss from delay is at most about £2,000 a day, and Coastal has identified no other commercial interest that the clause protects. Installation was completed ten days late, and Coastal claims £500,000 under clause 9.",
+  "stem": "Which of the following best describes whether clause 9 is enforceable?",
+  "options": {
+   "A": "It is unenforceable as a penalty, because it imposes a detriment on Vantage out of all proportion to any legitimate interest of Coastal in timely performance, so Coastal is left to claim its proven loss.",
+   "B": "It is enforceable, because it was freely agreed between commercial parties who had legal advice.",
+   "C": "It is enforceable, but the court will reduce the daily sum to a reasonable figure such as £2,000.",
+   "D": "It is enforceable unless the contract itself describes the payment as a penalty.",
+   "E": "It is enforceable, because a payment for delay is a primary obligation forming part of the price and so the penalty rule cannot apply."
+  },
+  "answer": "A",
+  "explanation": "In Cavendish Square Holding BV v Makdessi the Supreme Court restated the penalty rule. The true test is whether the impugned provision is a secondary obligation which imposes a detriment on the contract-breaker out of all proportion to any legitimate interest of the innocent party in the enforcement of the primary obligation. The innocent party has no proper interest in simply punishing the defaulter. In a straightforward damages clause, that interest will rarely extend beyond compensation for the breach. Clause 9 is triggered by breach of the obligation to install on time, so it is a secondary obligation. It requires £50,000 a day against a realistic loss of about £2,000 a day, and Coastal has identified no other legitimate interest. It is therefore a penalty and unenforceable. Coastal must instead prove and recover its actual loss as damages.",
+  "why_wrong": {
+   "B": "Legal advice and equal bargaining power are relevant, but they do not save a clause that is out of all proportion to any legitimate interest.",
+   "C": "A penalty clause is unenforceable; the court does not rewrite it to a reasonable sum, and the claimant recovers its proven damages instead.",
+   "D": "Labels are not decisive; the court looks at the substance and effect of the clause, not what the parties call it.",
+   "E": "Clause 9 operates only on breach of the obligation to install on time, so it is a secondary obligation to which the penalty rule applies."
+  },
+  "key_rule": "A clause triggered by breach is a penalty if it imposes a detriment out of all proportion to the innocent party's legitimate interest in performance; a penalty is unenforceable and ordinary damages apply.",
+  "authority": "Cavendish Square Holding BV v Makdessi; ParkingEye Ltd v Beavis [2015] UKSC 67; [2016] AC 1172",
+  "verified_source_url": "https://caselaw.nationalarchives.gov.uk/uksc/2015/67",
+  "tags": [
+   "penalties",
+   "liquidated damages",
+   "damages"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Remedies: liquidated sums and penalties",
+   "context_subject": "Contract",
+   "source_type": "judgment",
+   "source_quote": "The true test is whether the impugned provision is a secondary obligation which imposes a detriment on the contract-breaker out of all proportion to any legitimate interest of the innocent party in the enforcement of the primary obligation.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-con-023",
+  "subject": "Contract",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Specific performance of a covenant to keep a business open (Co-operative Insurance v Argyll)",
+  "scenario": "Brackley Retail Park Ltd let the largest unit on its retail park in England to Pulse Fitness Ltd for 25 years. The lease contains a covenant by Pulse \"to keep the premises open as a gym during normal trading hours\". The gym has been losing money and Pulse has closed it, in deliberate breach of covenant, while it looks for someone to take over the lease. Brackley says the closure is reducing visitor numbers to other shops on the park and seeks an order compelling Pulse to reopen and run the gym.",
+  "stem": "Which of the following best describes how the court is likely to respond?",
+  "options": {
+   "A": "It is likely to order Pulse to reopen, because Pulse's breach was deliberate and the court will not allow it to profit from its own wrong.",
+   "B": "It is likely to refuse the order and leave Brackley to damages, because courts will not normally compel a party to carry on a business.",
+   "C": "It is likely to order Pulse to reopen, because the effect on the other shops makes damages difficult to assess.",
+   "D": "It must order Pulse to reopen, because specific performance is available as of right for breach of a covenant in a lease.",
+   "E": "It must refuse the order, because specific performance is never available to enforce any obligation in a lease."
+  },
+  "answer": "B",
+  "explanation": "Specific performance is a discretionary remedy, generally refused where damages are adequate. In Co-operative Insurance Society Ltd v Argyll Stores (Holdings) Ltd the House of Lords restored a refusal to order a tenant to keep a loss-making supermarket open in breach of a keep-open covenant. Lord Hoffmann endorsed the settled practice of not ordering a person to carry on a business. Reasons included the need for constant supervision through repeated rulings backed by contempt proceedings, imprecision in what the order would require, and the injustice of making a defendant run a business at a loss. He said it cannot be in the public interest to require someone to carry on business at a loss if there is any plausible way to compensate the other party. Pulse's breach, though deliberate, is commercial. The court is likely to refuse the order and leave Brackley to damages.",
+  "why_wrong": {
+   "A": "In Argyll the tenant's breach was also deliberate, yet the House of Lords held this did not justify departing from the settled practice.",
+   "C": "Difficulty in assessing damages did not outweigh the reasons against an order in Argyll; courts assess such damages routinely.",
+   "D": "Specific performance is discretionary and never available as of right, whether or not the obligation is in a lease.",
+   "E": "Some lease obligations, such as repairing covenants, can be specifically enforced; Argyll turned on the obligation to run a business."
+  },
+  "key_rule": "Courts will not, save in exceptional circumstances, order specific performance of an obligation to carry on a business; the innocent party is normally left to damages.",
+  "authority": "Co-operative Insurance Society Ltd v Argyll Stores (Holdings) Ltd [1997] UKHL 17; [1998] AC 1",
+  "verified_source_url": "https://www.bailii.org/uk/cases/UKHL/1997/17.html",
+  "tags": [
+   "specific performance",
+   "equitable remedies",
+   "injunctions"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Remedies: specific performance",
+   "context_subject": "Contract",
+   "source_type": "judgment",
+   "source_quote": "it cannot be in the public interest for the courts to require someone to carry on business at a loss if there is any plausible alternative by which the other party can be given compensation.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-con-024",
+  "subject": "Contract",
+  "flk": "FLK1",
+  "difficulty": "easy",
+  "title": "Oral guarantee of another's debt (Statute of Frauds 1677 s.4)",
+  "scenario": "Kestrel Packaging Ltd supplies boxes on credit to Mill Lane Bakery Ltd. When Mill Lane fell behind with payments, Kestrel threatened to stop supplying. Mill Lane's managing director, Ahmed Siddiqui, told Kestrel's sales manager in a phone call: \"Keep supplying us. If the company doesn't pay you, I personally will.\" Nothing was written down or signed. Kestrel kept supplying, Mill Lane has now gone into liquidation owing £18,000, and Kestrel sues Ahmed personally.",
+  "stem": "Which of the following best describes whether Kestrel can enforce Ahmed's promise against him?",
+  "options": {
+   "A": "Yes, because contracts in England and Wales generally need no particular form and may be made orally.",
+   "B": "Yes, because as managing director Ahmed benefited from the continued supplies to his company.",
+   "C": "No, because a promise to answer for the debt of another is a guarantee, which cannot be enforced unless it, or a note of it, is in writing signed by Ahmed or his authorised agent.",
+   "D": "No, because a guarantee is valid only if it is executed as a deed.",
+   "E": "Yes, because Kestrel's sales manager heard the promise and can give evidence of its terms."
+  },
+  "answer": "C",
+  "explanation": "Section 4 of the Statute of Frauds 1677 provides that no action shall be brought to charge a defendant upon any special promise to answer for the debt, default or miscarriage of another person unless the agreement, or some memorandum or note of it, is in writing and signed by the party to be charged or by someone lawfully authorised by him. Ahmed's promise was that he would pay if the company did not. That is a guarantee: a secondary promise to answer for Mill Lane's debt, which remained the company's own primary liability. Nothing was written or signed, so Kestrel cannot bring an action on the promise against Ahmed, however clear the evidence of what he said. The formality requirement applies even though Ahmed, as a director, had an interest in the company continuing to receive supplies.",
+  "why_wrong": {
+   "A": "The general rule that contracts need no form is subject to statutory exceptions, and s.4 is one of them for guarantees.",
+   "B": "A personal interest in the debtor's business does not take a promise to answer for the company's debt outside s.4.",
+   "D": "Section 4 requires a signed writing or note, not a deed; a signed guarantee under hand would be enforceable.",
+   "E": "Oral evidence of the promise does not satisfy s.4, which requires a written agreement or note signed by the guarantor or his agent."
+  },
+  "key_rule": "A guarantee (a promise to answer for another's debt, default or miscarriage) is unenforceable unless it, or a note of it, is in writing signed by the guarantor or his authorised agent (Statute of Frauds 1677 s.4).",
+  "authority": "Statute of Frauds 1677, s.4",
+  "verified_source_url": "https://www.legislation.gov.uk/aep/Cha2/29/3/section/IV",
+  "tags": [
+   "guarantees",
+   "formalities",
+   "statute of frauds 1677"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Remedies: guarantees",
+   "context_subject": "Contract",
+   "source_type": "legislation",
+   "source_quote": "speciall promise to answere for the debt default or miscarriages of another person . . . unlesse the Agreement upon which such Action shall be brought or some Memorandum or Note thereof shall be in Writeing",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "The quote omits words shown as repealed ('. . .' on legislation.gov.uk). The guarantee/indemnity distinction is stated from general principle; no separate case was fetched for it."
+  }
+ },
+ {
+  "id": "lib-con-025",
+  "subject": "Contract",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Lump sum contract substantially performed with minor defects (Hoenig v Isaacs)",
+  "scenario": "Lucia Romano, an interior designer, agreed to design and fit out a studio flat in England for Owen Blake for a lump sum of £15,000, payable \"£5,000 on starting, balance on completion\". She completed all the work and Owen moved in and has used the furniture and fittings since. A built-in bookcase is 5 cm too short and a wardrobe door is warped; putting both right will cost £900. Owen has paid only the first £5,000 and refuses to pay anything more, saying Lucia has not performed the contract.",
+  "stem": "Which of the following best describes Owen's liability?",
+  "options": {
+   "A": "Owen need pay nothing more, because completion of the whole work without defects was a condition precedent to payment of the balance.",
+   "B": "Owen need pay only a reasonable sum on a quantum meruit for the value of the work, ignoring the agreed price.",
+   "C": "Owen must pay the full balance of £10,000, because the defects are minor and so are disregarded.",
+   "D": "Owen must pay the balance of £10,000 less £900, because the contract was substantially performed and he can set off the cost of remedying the defects.",
+   "E": "Owen may treat the contract as terminated and refuse further payment, because any breach of a term in a lump sum contract entitles the employer to do so."
+  },
+  "answer": "D",
+  "explanation": "In Hoenig v Isaacs the Court of Appeal held that, where a contract provides for a lump sum on completion of specified work, the courts lean against a construction that would deprive the contractor of payment simply because there are some defects or omissions. Denning LJ said the promise to complete is a term but not a condition: unless the breach goes to the root of the contract, such as abandoning the work half done, the employer cannot resist payment. He must pay and bring a cross-claim for the defects, or set them up in diminution of the price, usually measured by the cost of making them good. Lucia finished the work, Owen has used it, and the defects cost £900 to remedy against a £15,000 price. The contract was substantially performed. Owen must pay the £10,000 balance less £900, so £9,100.",
+  "why_wrong": {
+   "A": "The court leans against treating entire, defect-free performance as a condition precedent in a lump sum contract unless clear words require it.",
+   "B": "Quantum meruit arises only where the contract price cannot be claimed, for example where performance fails at the root; here it was substantial.",
+   "C": "Substantial performance entitles the contractor to the price, but subject to a deduction for the cost of putting right the defects.",
+   "E": "Only a breach going to the root of the contract would justify refusing payment; minor defects in completed work do not."
+  },
+  "key_rule": "Where a lump sum contract is substantially performed, the contractor recovers the price less the cost of remedying defects; only a breach going to the root of the contract defeats the claim.",
+  "authority": "Hoenig v Isaacs [1952] EWCA Civ 6; [1952] 2 All ER 176",
+  "verified_source_url": "https://www.bailii.org/ew/cases/EWCA/Civ/1952/6.html",
+  "tags": [
+   "performance",
+   "substantial performance",
+   "breach"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Termination: breach",
+   "context_subject": "Contract",
+   "source_type": "judgment",
+   "source_quote": "the employer cannot resist payment of the price. He must pay it and bring a cross-claim for the defects and omissions, or alternatively set them up in diminution of the price.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Spec topic mapping: performance and entire obligations sit under 'Termination' / 'breach' on the SRA list; there is no separate 'performance' heading."
+  }
+ }
+]

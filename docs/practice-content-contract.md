@@ -1,12 +1,14 @@
 # Content handover for Hark
 
-Keep `content/questions.json` in its existing schema. Existing `publish_date`
+Keep the daily bank in `content/questions.json`. Existing `publish_date`
 continues to mean daily-feature/email date; do not change it for library access.
-New library/mock-only questions may use `publish_date: null`: they have no daily
+New library/mock-only questions live in `content/library.json` with `publish_date: null`: they have no daily
 feature or email assignment and become available only through an approved library
 release. This extension is implemented on the feature branch, not main yet; keep
 such questions in draft files until integration. Never change the existing 49 dates.
-Do not invent additional fields in the shared bank.
+Reviewed `session` and `context_subject` metadata now accompany both banks.
+Do not invent other fields in the shared bank. Source quotes, uncertainties and
+other `_draft` review fields stay in draft files, never in the public payload.
 
 Codex owns `content/practice.json` and validation. It has `version: 1`, `releases`
 and `mocks` arrays. Each entry uses the existing `approved` + `approved_hash`
@@ -29,14 +31,17 @@ Question order is shuffled within each session when an attempt starts, then
 preserved in its saved state. Session membership never changes.
 
 The validator checks that each session contains every required main subject and
-no subjects from the other session (ethics may appear in either). This is a basic
+no subjects from the other session (ethics may appear in either). It also checks
+the supplied session metadata and Accounts context. This is a basic
 coverage floor, not proof of appropriate weighting or legal quality. Accounts
-questions need Hark's contextual review because the subject appears in both FLK2
+questions still need Hark's contextual review because the subject appears in both FLK2
 sessions. Never infer blueprint quality from a passing structural check alone.
 
-Mini tests sample 10 or 20 distinct available questions from the selected paper
-and optional subject. Pools below the requested size cannot start. Mini tests do
-not claim official weighting or difficulty equivalence.
+Mini tests sample 10 or 20 distinct available questions from the selected paper,
+session or subject, with a combined Legal Systems pool and a cross-paper Ethics
+pool. Pools below the requested size cannot start. Quotas use the editorial mock
+allocation, with best-effort difficulty and recent-history preferences. Mini
+tests do not claim official weighting or difficulty equivalence.
 
 For new content please deliver current-schema question drafts and a separate
 allocation table: mock ID, paper, session, position, question ID, topic and review
@@ -54,8 +59,13 @@ email was sent early or that a question is today's featured question.
 
 PR #7 contains the existing-bank content audit; PR #8 contains 319 separate
 unapproved drafts and a composition table. Neither is merged by this feature.
-The `lib-*` IDs can remain stable. Integration still needs a display-number
-allocation that does not consume future daily issue numbers, and an explicit
-mapping of accounts/ethics contexts from the composition table. Draft-only
+The `lib-*` IDs stay stable. Display identifiers are L001 onwards; their internal
+numeric keys are negative and never consume positive daily issue numbers.
+Routes use `/q/lib-.../` and lock on first publication. Never renumber imported
+entries when adding later content. Accounts/ethics session metadata is mapped
+from the composition table. Draft-only
 review quotes and uncertainties must not enter the public question payload.
 Do not import and approve the batch just because structural checks pass.
+The integration draft includes the two corrections listed in
+`docs/library-review-findings.md`. Nothing new is approved yet. See
+`docs/library-approval-batch.md` for exact fingerprints and the email-impact list.

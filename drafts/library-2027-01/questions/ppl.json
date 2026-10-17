@@ -1,0 +1,917 @@
+[
+ {
+  "id": "lib-ppl-001",
+  "subject": "Property Practice",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Acting for both seller and buyer of a residential property (SRA Code of Conduct, para 6.2)",
+  "scenario": "Nkechi Obi, a solicitor in England, acts for Martin Haldane on the sale of his house in Reading. Martin has agreed a price of £465,000 with Sunita Varma, a first-time buyer he met through an estate agent; they are not related and have never met before. Sunita asks Nkechi to act for her on the purchase as well, saying it would save time and money. Both Martin and Sunita are willing to sign a written consent to Nkechi acting for both of them.",
+  "stem": "Which of the following best describes whether Nkechi may act for Sunita as well as Martin?",
+  "options": {
+   "A": "She may act for both, because both clients will give informed consent in writing to her doing so.",
+   "B": "She may act for both, provided she puts an information barrier in place and a different fee earner in her firm handles Sunita's purchase.",
+   "C": "She must not act for Sunita, because the seller and buyer have conflicting interests in the transaction and they neither have a substantially common interest nor are competing for the same objective.",
+   "D": "She may act for both, because the price has already been agreed, so there is nothing left for the parties to negotiate.",
+   "E": "She may act for both, provided Sunita is not buying with a mortgage, because a conflict arises only where a lender is also a client."
+  },
+  "answer": "C",
+  "explanation": "Paragraph 6.2 of the SRA Code of Conduct for Solicitors prohibits acting in relation to a matter where there is a conflict of interest, or a significant risk of one, unless one of two exceptions applies: the clients have a substantially common interest in the matter, or they are competing for the same objective. Only if an exception applies do the further conditions matter: written informed consent, appropriate safeguards for confidential information, and the solicitor being satisfied it is reasonable to act. A seller and buyer at arm's length have opposing interests on many points that remain live after the price is agreed, such as the contract terms, replies to enquiries, title defects, the deposit and the completion date. They are not pursuing a shared goal, and they are not rival bidders for the same asset. Neither exception applies, so the consent conditions are never reached and Nkechi must decline to act for Sunita.",
+  "why_wrong": {
+   "A": "Informed written consent is only one of the conditions that apply once an exception is met; it cannot by itself cure a seller/buyer conflict.",
+   "B": "Paragraph 6.2 applies to the firm's acting; separate fee earners or an information barrier do not create an exception where none applies.",
+   "D": "Agreeing the price does not remove the conflict; contract terms, title, enquiries and completion arrangements remain contested.",
+   "E": "A conflict between seller and buyer exists whether or not there is a mortgage; the lender's position is irrelevant to this conflict."
+  },
+  "key_rule": "A solicitor must not act where clients' interests conflict unless they have a substantially common interest or are competing for the same objective, and then only with informed written consent and safeguards.",
+  "authority": "SRA Code of Conduct for Solicitors, RELs and RFLs, para 6.2",
+  "verified_source_url": "https://www.sra.org.uk/solicitors/standards-regulations/code-conduct-solicitors/",
+  "tags": [
+   "conflict of interest",
+   "sra code of conduct",
+   "conveyancing"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Investigation of a registered and unregistered freehold title: key elements and structure of freehold property transactions (ethics pervasive)",
+   "context_subject": "Property Practice",
+   "source_type": "regulator-rules",
+   "source_quote": "6.2 You do not act in relation to a matter or particular aspect of it if you have a conflict of interest or a significant risk of such a conflict in relation to that matter or aspect of it, unless:",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-ppl-002",
+  "subject": "Property Practice",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Form A restriction and a sale by a surviving co-owner (registered title)",
+  "scenario": "You act for Callum Reid, who is buying a registered freehold house in Bristol for £390,000. The official copies show Joan Petrie and Helen Okafor as registered proprietors, and the proprietorship register contains the standard Form A restriction: \"No disposition by a sole proprietor of the registered estate (except a trust corporation) under which capital money arises is to be registered unless authorised by an order of the court.\" Helen died last year. Joan is selling the house and has produced Helen's death certificate. Helen's will appoints her son, Daniel Okafor, as executor; he has not been appointed a trustee of the legal estate. Joan does not claim to have become solely beneficially entitled.",
+  "stem": "What should Callum's solicitor require in order to obtain good title and register the transfer?",
+  "options": {
+   "A": "A transfer signed by Joan alone, with a certified copy of Helen's death certificate, because the legal estate has passed to Joan by survivorship.",
+   "B": "A transfer signed by Joan and by Daniel as Helen's executor, with the purchase money paid to both of them.",
+   "C": "A transfer signed by Joan alone together with a statutory declaration that Joan and Helen were joint tenants in equity.",
+   "D": "A transfer by Joan together with a second trustee whom Joan appoints to act with her, with the purchase money paid to both trustees.",
+   "E": "A court order authorising the sale, because a Form A restriction can only ever be satisfied by an order of the court."
+  },
+  "answer": "D",
+  "explanation": "A Form A restriction indicates that the registered proprietors hold the legal estate on a trust of land and that a sole survivor cannot give a valid receipt for capital money. Its purpose is to secure compliance with s.27(2) of the Law of Property Act 1925, under which capital money must be paid to at least two trustees (or a trust corporation) for the beneficial interests to be overreached. Joan holds the legal estate alone by survivorship, but Helen's beneficial share passed under her will. HM Land Registry's Practice Guide 24 states that where a sole surviving proprietor is registered with a Form A restriction and capital money arises, one or more new trustees must be appointed to join in the disposition. Joan should therefore appoint a second trustee (who may be Daniel, once formally appointed as a trustee) and both should execute the transfer and give a receipt for the price. Callum then takes free of the beneficial interests, and the transfer can be registered.",
+  "why_wrong": {
+   "A": "A sole survivor cannot comply with the Form A restriction where capital money arises; the transfer would not be registered and the trust interests would not be overreached.",
+   "B": "Practice Guide 24 says it is incorrect for the deceased's personal representative to join in unless formally appointed as a trustee of the legal estate.",
+   "C": "Joan does not claim sole beneficial entitlement, and a declaration about a joint tenancy does not displace the restriction where the facts show a beneficial share passing under Helen's will.",
+   "E": "The restriction is complied with by payment to two trustees after appointing a new trustee; a court order is not the only route."
+  },
+  "key_rule": "Where a sole surviving proprietor is registered with a Form A restriction and capital money arises, a second trustee must be appointed to join in so the money is paid to two trustees.",
+  "authority": "Law of Property Act 1925, s.27(2); Land Registration Rules 2003, Sch 4 (Form A); HM Land Registry Practice Guide 24, section 5.1.1",
+  "verified_source_url": "https://www.gov.uk/government/publications/private-trusts-of-land-pg24/practice-guide-24-private-trusts-of-land",
+  "tags": [
+   "registered land",
+   "overreaching",
+   "co-ownership",
+   "investigation of title"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Investigation of a registered and unregistered freehold title: issues that could arise from an investigation of title and further action required",
+   "context_subject": "Property Practice",
+   "source_type": "official-guidance",
+   "source_quote": "If a sole or sole surviving proprietor is registered with a Form A restriction, and capital money arises under the disposition, you will need to appoint one or more new trustees to join in the disposition.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-ppl-003",
+  "subject": "Property Practice",
+  "flk": "FLK2",
+  "difficulty": "easy",
+  "title": "Length of title an unregistered seller must deduce (LPA 1969, s.23)",
+  "scenario": "Grace Adeyemi is selling a freehold cottage in rural Herefordshire. The title is unregistered: assume the land was not in an area of compulsory registration at the time of either conveyance. Her title deeds include a conveyance on sale dated 1974 from Arthur Bell to Ivor Pugh, and a conveyance on sale dated 1988 from Ivor Pugh to Grace. There have been no dealings since 1988. The draft contract says nothing about the root of title or the length of title to be deduced. The buyer's solicitor insists on seeing the 1974 conveyance as well.",
+  "stem": "Which of the following best describes the title Grace must deduce?",
+  "options": {
+   "A": "Title going back at least 30 years, so the buyer is entitled to the 1974 conveyance.",
+   "B": "Title going back at least 12 years, because that is the limitation period for recovering land, so the 1988 conveyance is more than sufficient.",
+   "C": "Title starting with the very first conveyance of the land that can be traced, as the buyer is entitled to a complete chain of ownership.",
+   "D": "Title starting with a good root at least 15 years old, but the root must be at least 15 years older than the seller's own acquisition, so the 1974 conveyance is required.",
+   "E": "Title starting with a good root at least 15 years old, so the 1988 conveyance on sale is a sufficient root and the buyer cannot insist on the 1974 conveyance."
+  },
+  "answer": "E",
+  "explanation": "Section 44(1) of the Law of Property Act 1925 sets the period of commencement of title a buyer can require under an open contract. Section 23 of the Law of Property Act 1969 reduced that period from 30 years to 15 years for contracts made after 1969. In practice the seller must deduce title starting with a good root of title at least 15 years old, and every document after it. A conveyance on sale is the classic good root because it deals with the whole legal and equitable interest, describes the land and was preceded by the buyer's own investigation of title. The 1988 conveyance to Grace is over 15 years old and is a conveyance on sale, so it is a sufficient root. As the contract is silent, the buyer cannot require earlier title, so the 1974 conveyance need not be produced. The sale will then trigger compulsory first registration.",
+  "why_wrong": {
+   "A": "The 30-year period was replaced by 15 years by s.23 of the Law of Property Act 1969.",
+   "B": "The limitation period for recovering land is not the measure of the title a seller must deduce under an open contract.",
+   "C": "An open contract requires only a good root at least 15 years old and the documents since, not the whole history of the land.",
+   "D": "The root must itself be at least 15 years old; there is no requirement that it predate the seller's own acquisition by 15 years."
+  },
+  "key_rule": "Under an open contract an unregistered seller must deduce title from a good root of title at least 15 years old and all subsequent documents.",
+  "authority": "Law of Property Act 1925, s.44(1), as modified by Law of Property Act 1969, s.23",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1969/59/section/23",
+  "tags": [
+   "unregistered land",
+   "root of title",
+   "investigation of title"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Investigation of a registered and unregistered freehold title: process of analysing an epitome of title and deducing ownership",
+   "context_subject": "Property Practice",
+   "source_type": "legislation",
+   "source_quote": "shall have effect, in its application to contracts made after the commencement of this Act, as if it specified fifteen years instead of thirty years as the period of commencement of title which may be so required.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-ppl-004",
+  "subject": "Property Practice",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Planning enforcement time limit for unauthorised building works in England (TCPA 1990, s.171B)",
+  "scenario": "In October 2026 you act for Leila Haddad on her proposed purchase of a semi-detached house in Leicester, England. Replies to enquiries reveal that the seller built a large two-storey rear extension without planning permission. Building work was substantially completed in March 2025. The local planning authority has taken no action so far. Leila asks whether the extension is now safe from planning enforcement.",
+  "stem": "Which of the following best describes the position on planning enforcement?",
+  "options": {
+   "A": "The extension is immune from enforcement, because no action can be taken more than four years after operational development is substantially completed and Leila buys more than a year after completion.",
+   "B": "The local planning authority may take enforcement action until ten years from substantial completion of the works, so the extension is not immune and the risk should be addressed before exchange.",
+   "C": "The extension is immune because the authority did not take action within 12 months of completion.",
+   "D": "There is no time limit, so enforcement action can be taken against the extension at any time.",
+   "E": "Enforcement action can only be taken against the seller who built the extension, so it will not affect Leila once she has bought the house."
+  },
+  "answer": "B",
+  "explanation": "Section 171B(1) of the Town and Country Planning Act 1990 sets the time limit for enforcement against operational development carried out without planning permission, such as building an extension. As amended by s.115 of the Levelling-up and Regeneration Act 2023 from 25 April 2024, the period for a breach in England is ten years beginning with the date on which the operations were substantially completed (in Wales it remains four years). Under the transitional provision in reg. 5 of SI 2024/452, the old four-year rule continues to apply only where the works were substantially completed before 25 April 2024. These works were completed in March 2025, so the ten-year limit applies and the authority can act until March 2035. The extension is not immune. Leila should be advised to require the seller to obtain retrospective planning permission or a suitable solution, or consider a price reduction or other protection, before exchange.",
+  "why_wrong": {
+   "A": "The four-year limit now applies in England only to works substantially completed before 25 April 2024; these works finished in March 2025.",
+   "C": "There is no 12-month immunity rule for unauthorised operational development.",
+   "D": "Section 171B imposes a time limit (ten years in England) on enforcement against unauthorised building operations.",
+   "E": "Enforcement action runs with the land and can be taken against the owner or occupier for the time being, so a buyer takes the risk."
+  },
+  "key_rule": "In England, enforcement action against unauthorised building operations may be taken within ten years of substantial completion (four years still applies to works completed before 25 April 2024).",
+  "authority": "Town and Country Planning Act 1990, s.171B(1)(a) (as amended by Levelling-up and Regeneration Act 2023, s.115); SI 2024/452, reg. 5",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1990/8/section/171B",
+  "tags": [
+   "planning",
+   "enforcement",
+   "time limits",
+   "pre-contract enquiries"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Core principles of planning law in England and Wales: Enforcement: time limits and the range of local planning authority's enforcement powers",
+   "context_subject": "Property Practice",
+   "source_type": "legislation",
+   "source_quote": "(a) in the case of a breach of planning control in England, ten years beginning with the date on which the operations were substantially completed, and (b) in the case of a breach of planning control in Wales, four years",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Option E's reasoning (enforcement against the current owner) relies on general knowledge of TCPA s.172 service on owner and occupier; not separately quoted. A Senedd 2026 Act lists future amendments to s.171B for Wales only; England position unaffected."
+  }
+ },
+ {
+  "id": "lib-ppl-005",
+  "subject": "Property Practice",
+  "flk": "FLK2",
+  "difficulty": "easy",
+  "title": "Change of use within Use Class E is not development (TCPA 1990, s.55(2)(f))",
+  "scenario": "Marek Nowak is buying the freehold of a lock-up shop in Norwich, England, which has been used for the retail sale of clothing. He plans to turn it into a café where customers will mostly eat and drink on the premises. He will make only internal changes (new counters and seating) that will not affect the external appearance of the building. There are no planning conditions or other restrictions on use affecting the shop.",
+  "stem": "Does Marek need planning permission for the change from clothes shop to café?",
+  "options": {
+   "A": "Yes, because any change in the type of business carried on at commercial premises is a material change of use.",
+   "B": "Yes, because the internal works are building operations requiring express planning permission.",
+   "C": "No, because the change is permitted development under the General Permitted Development Order, although prior approval from the local planning authority is required.",
+   "D": "No, because both uses fall within Use Class E, and a change of use within the same use class is not development.",
+   "E": "Yes, unless the café will sell hot food for consumption off the premises."
+  },
+  "answer": "D",
+  "explanation": "Planning permission is required only for development, defined in s.55(1) of the Town and Country Planning Act 1990 as building, engineering, mining or other operations, or a material change of use. Section 55(2)(f) provides that where land is used for a purpose within a class specified in the Use Classes Order, using it for another purpose of the same class is not development. In England, Class E (Commercial, Business and Service) of the Town and Country Planning (Use Classes) Order 1987 covers both the retail sale of goods other than hot food (E(a)) and the sale of food and drink mostly consumed on the premises (E(b)). Marek's change from clothes shop to café is therefore not development and needs no planning permission. His internal works are also excluded from development by s.55(2)(a), as they affect only the interior and do not materially affect the external appearance. Building regulations may still apply to the works.",
+  "why_wrong": {
+   "A": "Section 55(2)(f) takes a change within the same use class outside the definition of development altogether.",
+   "B": "Works affecting only the interior or not materially affecting external appearance are not development under s.55(2)(a).",
+   "C": "Permitted development rights are relevant only to matters that are development; a change within Class E is not development at all.",
+   "E": "A hot food takeaway is outside Class E, but Marek's café serves food mostly eaten on the premises, which is within Class E(b)."
+  },
+  "key_rule": "A change of use between two purposes within the same class of the Use Classes Order is not development and needs no planning permission.",
+  "authority": "Town and Country Planning Act 1990, s.55(1), (2)(a) and (2)(f); Town and Country Planning (Use Classes) Order 1987, Sch 2, Part A, Class E",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1990/8/section/55",
+  "tags": [
+   "planning",
+   "development",
+   "use classes"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Core principles of planning law in England and Wales: Matters that do and do not constitute \"Development\"",
+   "context_subject": "Property Practice",
+   "source_type": "legislation",
+   "source_quote": "in the case of buildings or other land which are used for a purpose of any class specified in an order ... for any other purpose of the same class.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Class E content verified on https://www.legislation.gov.uk/uksi/1987/764/schedule/2 (England only)."
+  }
+ },
+ {
+  "id": "lib-ppl-006",
+  "subject": "Property Practice",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Using the buyer's deposit on the seller's related purchase (SCS 5th ed, condition 2.2.5)",
+  "scenario": "You act for Priya Raman on the sale of her flat in Sheffield for £320,000. The contract incorporates the Standard Conditions of Sale (Fifth Edition, 2018 Revision) without amendment, and the buyer will pay a 10% deposit of £32,000 on exchange. Priya is buying a house in Harrogate, England, to live in, and the two transactions will be exchanged on the same day. She has £10,000 of her own savings available and asks whether the £32,000 can be used towards the 10% deposit of £40,000 on her purchase.",
+  "stem": "Which of the following best describes the position under the Standard Conditions of Sale?",
+  "options": {
+   "A": "Priya may use all or part of the £32,000 as a deposit on her Harrogate purchase, to be held on terms to the same effect as the deposit condition; any part not so used is held by her conveyancer as stakeholder.",
+   "B": "The £32,000 must be held by Priya's conveyancer as stakeholder until completion of her sale and cannot be used for any other transaction.",
+   "C": "The £32,000 is held by Priya's conveyancer as agent for Priya, so it may be released to her on exchange to use as she wishes.",
+   "D": "Priya may use the deposit only if the buyer gives specific written consent after exchange, because the Standard Conditions treat the deposit as the buyer's money until completion.",
+   "E": "Priya may use the deposit for any property she agrees to buy before completion, whether or not she will live there and wherever it is situated."
+  },
+  "answer": "A",
+  "explanation": "Condition 2.2.1 of the Standard Conditions of Sale requires the buyer to pay a 10% deposit no later than the date of the contract. Condition 2.2.5 provides that if, before completion date, the seller agrees to buy another property in England and Wales for his residence, he may use all or any part of the deposit as a deposit in that transaction, to be held on terms to the same effect as that condition and condition 2.2.6. Condition 2.2.6 provides that any deposit not used in this way is held by the seller's conveyancer as stakeholder, to be paid to the seller with accrued interest on completion. Priya is buying a house in England to live in, so the £32,000 can be passed up the chain towards her £40,000 deposit, with her savings making up the difference. This is why a chain of residential transactions can usually be exchanged with each buyer funding only part of the deposit.",
+  "why_wrong": {
+   "B": "Stakeholder holding under condition 2.2.6 applies only to any part of the deposit not used under condition 2.2.5.",
+   "C": "Under the Standard Conditions the seller's conveyancer holds the deposit as stakeholder, not as agent; only an auctioneer holds as agent for the seller.",
+   "D": "Condition 2.2.5 itself permits the use, so no further consent from the buyer is needed.",
+   "E": "Condition 2.2.5 is limited to a property in England and Wales which the seller is buying for his residence."
+  },
+  "key_rule": "Under SCS 2.2.5 a seller buying another home in England and Wales may use the deposit as a deposit on that purchase; otherwise it is held as stakeholder (SCS 2.2.6).",
+  "authority": "Standard Conditions of Sale (Fifth Edition, 2018 Revision), conditions 2.2.1, 2.2.5 and 2.2.6",
+  "verified_source_url": "https://www.lawsociety.org.uk/-/media/files/topics/property/specimen-standard-conditions-of-sale-residential-property-2018.pdf",
+  "tags": [
+   "standard conditions of sale",
+   "deposit",
+   "stakeholder",
+   "exchange of contracts"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Preparation for and exchange of contracts: methods of holding a deposit (stakeholder, agent)",
+   "context_subject": "Property Practice",
+   "source_type": "publisher-document",
+   "source_quote": "If before completion date the seller agrees to buy another property in England and Wales for his residence, he may use all or any part of the deposit as a deposit in that transaction",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-ppl-007",
+  "subject": "Property Practice",
+  "flk": "FLK2",
+  "difficulty": "easy",
+  "title": "Risk of damage between exchange and completion (SCS 5th ed, condition 5.1.1)",
+  "scenario": "Tomasz Kowalski exchanged contracts to buy a detached house in Exeter for £410,000. The contract incorporates the Standard Conditions of Sale (Fifth Edition, 2018 Revision) without amendment, and no special condition deals with insurance. The seller's buildings insurance is not required by the contract to continue. Tomasz did not arrange his own buildings insurance, intending to do so from completion. A week before completion, a fire caused by a lightning strike seriously damaged the house.",
+  "stem": "Which of the following best describes Tomasz's position?",
+  "options": {
+   "A": "The seller bears the risk until completion, so Tomasz may rescind the contract and recover his deposit.",
+   "B": "Tomasz may insist on completing at a price reduced by the cost of repairs, because the seller must hand over the property in the same physical state as at exchange.",
+   "C": "The contract is automatically frustrated by the fire, so both parties are released and the deposit must be returned.",
+   "D": "The property was at Tomasz's risk from exchange, so he must complete at the full price and has no claim against the seller's insurance unless the contract required the seller to keep it in force.",
+   "E": "Tomasz is entitled to any insurance money the seller receives, because section 47 of the Law of Property Act 1925 applies to the contract."
+  },
+  "answer": "D",
+  "explanation": "Condition 5.1.1 of the Standard Conditions of Sale (Fifth Edition) provides that the property is at the risk of the buyer from the date of the contract. Condition 5.1.2 states that the seller is under no obligation to the buyer to insure unless the contract provides that the seller's policy is to continue in force, or the property is let on terms requiring the seller to insure. Neither applies here. Condition 5.1.5 excludes s.47 of the Law of Property Act 1925, so Tomasz has no statutory right to the seller's insurance proceeds. The fire therefore does not entitle him to rescind, renegotiate or withdraw: he remains bound to complete at £410,000, and his loss is uninsured because he did not insure from exchange. This is why a buyer's solicitor should ensure buildings insurance is in place from exchange whenever the Standard Conditions apply unamended.",
+  "why_wrong": {
+   "A": "Under the fifth edition of the Standard Conditions risk passes to the buyer on exchange, not on completion.",
+   "B": "No condition of the fifth edition requires the seller to transfer the property in the same physical state as at exchange; the risk is the buyer's.",
+   "C": "Damage to the property does not frustrate a contract for the sale of land, and the Standard Conditions expressly allocate the risk to the buyer.",
+   "E": "Condition 5.1.5 provides that section 47 of the Law of Property Act 1925 does not apply."
+  },
+  "key_rule": "Under SCS 5.1.1 the property is at the buyer's risk from exchange, so the buyer should insure from exchange; the seller need not insure and LPA 1925 s.47 is excluded.",
+  "authority": "Standard Conditions of Sale (Fifth Edition, 2018 Revision), conditions 5.1.1, 5.1.2 and 5.1.5",
+  "verified_source_url": "https://www.lawsociety.org.uk/-/media/files/topics/property/specimen-standard-conditions-of-sale-residential-property-2018.pdf",
+  "tags": [
+   "standard conditions of sale",
+   "insurance and risk",
+   "exchange of contracts"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Preparation for and exchange of contracts: insurance and risk",
+   "context_subject": "Property Practice",
+   "source_type": "publisher-document",
+   "source_quote": "The property is at the risk of the buyer from the date of the contract The seller is under no obligation to the buyer to insure the property unless:",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Option C (no frustration) is general contract law, not from the SCS source; the SCS allocation of risk makes the answer clear regardless."
+  }
+ },
+ {
+  "id": "lib-ppl-008",
+  "subject": "Property Practice",
+  "flk": "FLK2",
+  "difficulty": "hard",
+  "title": "Calculating contractual compensation for late completion (SCS 5th ed, condition 7.2)",
+  "scenario": "Ola Bankole sold a house in Northampton to Ben Ashworth for £400,000. The contract incorporates the Standard Conditions of Sale (Fifth Edition, 2018 Revision) and a special condition providing that the contract rate is 8% per annum. Ben paid a deposit of £40,000 on exchange. Completion was delayed and took place 10 days after the contractual completion date. It is agreed that Ben's total period of default was 10 days and that Ola's total period of default (a delay in providing a document she was obliged to supply) was 3 days. Assume a 365-day year.",
+  "stem": "How much compensation, if any, is payable under condition 7.2, and by whom?",
+  "options": {
+   "A": "Ben must pay Ola £789.04.",
+   "B": "Ben must pay Ola £613.70.",
+   "C": "Ben must pay Ola £552.33.",
+   "D": "Ben must pay Ola £876.71.",
+   "E": "No compensation is payable, because Ola did not serve a notice to complete."
+  },
+  "answer": "C",
+  "explanation": "Condition 7.2.1 provides that where either or both parties default and completion is delayed, the party whose total period of default is greater pays compensation to the other. Ben's default (10 days) exceeds Ola's (3 days), so Ben pays. Under condition 7.2.2, compensation is calculated at the contract rate on the purchase price less, where the buyer is the paying party, any deposit paid, for the period by which the paying party's default exceeds that of the receiving party, or the period between completion date and actual completion if shorter. The relevant sum is £400,000 − £40,000 = £360,000. The excess period is 10 − 3 = 7 days, which is shorter than the 10-day actual delay. Compensation is therefore £360,000 × 8% × 7/365 = £552.33. Under condition 7.2.3, any claim by Ola for loss caused by the delay must be reduced by this compensation.",
+  "why_wrong": {
+   "A": "£789.04 uses the full 10 days and ignores that only the period by which Ben's default exceeds Ola's counts.",
+   "B": "£613.70 uses the correct 7 days but calculates on the full £400,000 instead of deducting the deposit Ben paid.",
+   "D": "£876.71 uses the full price and the full 10 days, ignoring both the deposit deduction and Ola's own default.",
+   "E": "Contractual compensation under condition 7.2 does not depend on a notice to complete having been served."
+  },
+  "key_rule": "Under SCS 7.2 the party with the greater default pays interest at the contract rate on the price (less any deposit, if the buyer pays) for the net period of excess default.",
+  "authority": "Standard Conditions of Sale (Fifth Edition, 2018 Revision), conditions 7.2.1 to 7.2.3",
+  "verified_source_url": "https://www.lawsociety.org.uk/-/media/files/topics/property/specimen-standard-conditions-of-sale-residential-property-2018.pdf",
+  "tags": [
+   "standard conditions of sale",
+   "late completion",
+   "contractual compensation",
+   "completion"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Remedies for delayed completion: contractual compensation",
+   "context_subject": "Property Practice",
+   "source_type": "publisher-document",
+   "source_quote": "calculated at the contract rate on an amount equal to the purchase price, less (where the buyer is the paying party) any deposit paid, for the period by which the paying party's default exceeds that of the receiving party",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Calculation assumes a 365-day year as stated in the question; the SCS does not itself prescribe the day-count basis."
+  }
+ },
+ {
+  "id": "lib-ppl-009",
+  "subject": "Property Practice",
+  "flk": "FLK2",
+  "difficulty": "easy",
+  "title": "Execution of a transfer deed by a company with a sole director (Companies Act 2006, s.44)",
+  "scenario": "Kestrel Lane Developments Ltd, a private company, is selling a registered freehold plot in Swindon. It has one director, Farida Mensah, and no company secretary, and it has no common seal. The buyer's solicitor has sent the TR1 transfer for execution by the company as a deed.",
+  "stem": "How may the transfer be validly executed by the company?",
+  "options": {
+   "A": "By Farida signing on behalf of the company in the presence of a witness who attests her signature.",
+   "B": "By Farida signing on behalf of the company alone, without a witness, as she is the only authorised signatory.",
+   "C": "Only by affixing the company's common seal, so the company must adopt a seal before completion.",
+   "D": "By Farida and any employee of the company signing as two authorised signatories.",
+   "E": "By Farida signing and the company's solicitor certifying that she is the sole director."
+  },
+  "answer": "A",
+  "explanation": "Section 44(1) of the Companies Act 2006 provides that a company executes a document under the law of England and Wales either by affixing its common seal or by signature in accordance with the section. Under s.44(2), a document is validly executed if signed on behalf of the company either by two authorised signatories, or by a director in the presence of a witness who attests the signature. Section 44(3) defines authorised signatories as every director and, for a private company with a secretary, the secretary. Kestrel Lane has only one director and no secretary, so it cannot use the two-signatory route. Farida must therefore sign in the presence of a witness who attests her signature. The transfer should also be expressed to be executed by the company as a deed and delivered, in line with s.44(4) and the formalities for deeds.",
+  "why_wrong": {
+   "B": "Section 44(2)(b) requires a single director's signature to be witnessed and attested.",
+   "C": "Execution under seal is only one option; a company without a seal may execute by signature under s.44(2).",
+   "D": "Authorised signatories are directors and (where there is one) the secretary; an ordinary employee is not an authorised signatory.",
+   "E": "A solicitor's certificate is not a method of execution under s.44."
+  },
+  "key_rule": "A company executes a deed by its seal, by two authorised signatories (directors or secretary), or by one director signing in the presence of an attesting witness.",
+  "authority": "Companies Act 2006, s.44(1)-(4)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2006/46/section/44",
+  "tags": [
+   "execution of deeds",
+   "transfer deed",
+   "pre-completion"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Pre-completion: form of transfer deed and formalities for execution",
+   "context_subject": "Property Practice",
+   "source_type": "legislation",
+   "source_quote": "A document is validly executed by a company if it is signed on behalf of the company— (a) by two authorised signatories, or (b) by a director of the company in the presence of a witness who attests the signature.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "legislation.gov.uk lists an unapplied 2026 c.23 amendment to Companies Act 2006 Sch 11A only; s.44 text unaffected."
+  }
+ },
+ {
+  "id": "lib-ppl-010",
+  "subject": "Property Practice",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Failure to apply for first registration within two months (LRA 2002, ss.6 and 7)",
+  "scenario": "On 2 March 2026 Ifeoma Chukwu completed her purchase of an unregistered freehold house in Shropshire from Gerald Watts, under a conveyance on sale. Her solicitor's firm overlooked the application for first registration. The mistake is discovered on 18 May 2026, and no order extending the registration period has been made.",
+  "stem": "Which of the following best describes the current position?",
+  "options": {
+   "A": "Ifeoma remains the legal owner, but she will have to pay a late registration fee when the application is made.",
+   "B": "The conveyance is void for all purposes, so Gerald owns the house outright and Ifeoma can only sue for the return of the purchase price.",
+   "C": "Nothing has changed, because the duty to register is only enforceable by HM Land Registry and has no effect on title.",
+   "D": "The conveyance has effect only as a contract to convey, so Ifeoma must issue proceedings for specific performance before she can register.",
+   "E": "The conveyance has become void as regards the legal estate, which has reverted to Gerald to hold on a bare trust for Ifeoma; the registrar may extend the period for good reason, in which case the reverter is treated as not having happened."
+  },
+  "answer": "E",
+  "explanation": "A conveyance on sale of an unregistered freehold triggers compulsory first registration under s.4 of the Land Registration Act 2002. Section 6(4) requires the transferee to apply within two months beginning with the date of the transfer, so Ifeoma's period ended on 1 May 2026. Under s.7(1), if the requirement is not complied with, the transfer becomes void as regards the transfer of the legal estate. For a transfer within s.4(1)(a), s.7(2)(a) provides that legal title reverts to the transferor, who holds it on a bare trust for the transferee. Gerald therefore holds the legal estate on trust for Ifeoma, who keeps the beneficial ownership. Under s.6(5) the registrar may, on application and for good reason, extend the period, and s.7(3) treats the reverter as never having happened. The firm should apply at once for an extension and registration, at its own cost.",
+  "why_wrong": {
+   "A": "Section 7(1) makes the transfer void as regards the legal estate; Ifeoma does not remain legal owner.",
+   "B": "The transfer is void only as to the legal estate; Gerald holds it on a bare trust for Ifeoma, so her beneficial ownership survives.",
+   "C": "Non-compliance has a direct effect on title under s.7: the legal estate reverts to the transferor.",
+   "D": "The 'contract to grant' consequence in s.7(2)(b) applies to grants and creations under s.4(1)(c) to (g), not to a transfer of a freehold."
+  },
+  "key_rule": "If first registration is not applied for within two months, the transfer is void as to the legal estate, which reverts to the transferor on a bare trust for the transferee.",
+  "authority": "Land Registration Act 2002, ss.4(1)(a), 6(4)-(5) and 7(1)-(3)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2002/9/section/7",
+  "tags": [
+   "first registration",
+   "unregistered land",
+   "post-completion"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Completion and post-completion: post-completion steps",
+   "context_subject": "Property Practice",
+   "source_type": "legislation",
+   "source_quote": "If the requirement of registration is not complied with, the transfer, grant or creation becomes void as regards the transfer, grant or creation of a legal estate.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Section 6(4)-(5) verified at https://www.legislation.gov.uk/ukpga/2002/9/section/6."
+  }
+ },
+ {
+  "id": "lib-ppl-011",
+  "subject": "Property Practice",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "SDLT on a residential purchase above the first-time buyers' relief limit",
+  "scenario": "Amara Eze and Jonah Fisher, who have never owned a home anywhere, complete the purchase of a freehold house in Brighton, England, on 3 July 2026 for £520,000, to live in as their only residence. Assume the following SDLT rates and relief apply. Standard residential rates: 0% on the first £125,000; 2% on the portion from £125,001 to £250,000; 5% on the portion from £250,001 to £925,000; 10% on the portion from £925,001 to £1.5 million; 12% above £1.5 million. First-time buyers' relief: 0% up to £300,000 and 5% on the portion from £300,001 to £500,000, but the relief cannot be claimed if the price is over £500,000.",
+  "stem": "How much SDLT is payable?",
+  "options": {
+   "A": "£11,000",
+   "B": "£16,000",
+   "C": "£26,000",
+   "D": "£13,500",
+   "E": "£19,750"
+  },
+  "answer": "B",
+  "explanation": "Stamp Duty Land Tax on residential property is charged on a slice basis: each rate applies only to the portion of the price within its band. Amara and Jonah are first-time buyers, but the relief is not available where the price exceeds £500,000. At £520,000 they lose the relief entirely, and the whole price is taxed at the standard rates; the relief is not applied to the first £500,000 with standard rates on the excess. The calculation is: £125,000 at 0% = £0; £125,000 (from £125,001 to £250,000) at 2% = £2,500; £270,000 (from £250,001 to £520,000) at 5% = £13,500. Total SDLT is £16,000. The buyers' solicitor must deliver the SDLT return and pay this tax within 14 days after the effective date, which here is completion.",
+  "why_wrong": {
+   "A": "£11,000 wrongly applies first-time buyers' relief to the first £500,000 and charges 5% on the excess; the relief is lost entirely above £500,000.",
+   "C": "£26,000 charges 5% on the whole price instead of applying each rate only to its slice.",
+   "D": "£13,500 is only the tax on the 5% band and omits the £2,500 due on the 2% band.",
+   "E": "£19,750 wrongly applies 5% to everything above £125,000, missing the 2% band from £125,001 to £250,000."
+  },
+  "key_rule": "Residential SDLT is charged on a slice basis; first-time buyers' relief is unavailable where the price exceeds the stated cap, so standard rates apply to the whole price.",
+  "authority": "Finance Act 2003, s.55 and Sch 6ZA; HMRC, 'Stamp Duty Land Tax: residential property rates' (gov.uk)",
+  "verified_source_url": "https://www.gov.uk/stamp-duty-land-tax/residential-property-rates",
+  "tags": [
+   "stamp duty land tax",
+   "property tax",
+   "calculation"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Taxation – property: Stamp Duty Land Tax in England and Land Transaction Tax in Wales: basis of charge for residential property",
+   "context_subject": "Property Practice",
+   "source_type": "official-guidance",
+   "source_quote": "You'll pay: no SDLT up to £300,000 5% SDLT on the portion from £300,001 to £500,000 If the price is over £500,000, you cannot claim the relief.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Rates and relief as shown on the gov.uk page fetched 16 Oct 2026 (in force from 1 April 2025); all figures are also given in the question."
+  }
+ },
+ {
+  "id": "lib-ppl-012",
+  "subject": "Property Practice",
+  "flk": "FLK2",
+  "difficulty": "easy",
+  "title": "Deadline for the SDLT return and payment after completion (FA 2003, ss.76 and 86)",
+  "scenario": "You act for Rhys Morgan, who exchanged contracts on 19 June 2026 and completed on 3 July 2026 the purchase of a freehold house in Kent, England, for £360,000 with the help of a mortgage. SDLT is payable. Rhys did not take possession before completion.",
+  "stem": "What must be done about SDLT, and by when?",
+  "options": {
+   "A": "The seller must deliver an SDLT return and pay the tax within 30 days after completion.",
+   "B": "Rhys must deliver an SDLT return and pay the tax within 14 days after exchange of contracts.",
+   "C": "Rhys must deliver an SDLT return and pay the tax within 14 days after completion, the effective date of the transaction.",
+   "D": "Rhys must deliver an SDLT return within 14 days after completion, but may pay the tax when he applies to register the transfer at HM Land Registry.",
+   "E": "Rhys must deliver an SDLT return and pay the tax within 30 days after completion."
+  },
+  "answer": "C",
+  "explanation": "Section 76(1) of the Finance Act 2003 requires the purchaser in every notifiable transaction to deliver a land transaction return to HMRC before the end of the period of 14 days after the effective date of the transaction. Section 86(1) requires the tax to be paid not later than the filing date for that return, so payment is also due within the 14 days. For an ordinary sale where the buyer does not take possession early, the effective date is completion, not exchange. Rhys completed on 3 July 2026, so the return must be filed and the tax paid within 14 days after that date. In practice the buyer's solicitor files the return online and pays from funds held before completion. The SDLT5 certificate HMRC then issues is needed to register the transfer at HM Land Registry.",
+  "why_wrong": {
+   "A": "The duty to file and pay falls on the purchaser, and the period is 14 days, not 30.",
+   "B": "Time runs from the effective date, normally completion; exchange is not the effective date unless the contract is substantially performed earlier.",
+   "D": "Section 86(1) requires payment by the filing date of the return, not at the time of the Land Registry application.",
+   "E": "Thirty days was the former SDLT period (and is the Welsh LTT period); SDLT now requires filing and payment within 14 days."
+  },
+  "key_rule": "The buyer must file the SDLT return and pay the tax within 14 days after the effective date, normally completion.",
+  "authority": "Finance Act 2003, ss.76(1) and 86(1)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2003/14/section/76",
+  "tags": [
+   "stamp duty land tax",
+   "post-completion",
+   "time limits"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Completion and post-completion: post-completion steps",
+   "context_subject": "Property Practice",
+   "source_type": "legislation",
+   "source_quote": "In the case of every notifiable transaction the purchaser must deliver a return ... to the Inland Revenue before the end of the period of 14 days after the effective date of the transaction.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Payment rule verified at https://www.legislation.gov.uk/ukpga/2003/14/section/86 ('not later than the filing date for the land transaction return'). Effective date = completion is from FA 2003 s.119 (general knowledge; not separately fetched)."
+  }
+ },
+ {
+  "id": "lib-ppl-013",
+  "subject": "Property Practice",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Land Transaction Tax return for a purchase in Wales (LTTA 2017, s.44)",
+  "scenario": "Seren Evans, a solicitor in Chester, England, acts for Dafydd Lloyd on his purchase of a freehold shop in Cardiff for £600,000. Completion takes place on 10 July 2026. Dafydd did not take possession before completion. Seren has previously handled only purchases of land in England.",
+  "stem": "Which of the following best describes what must be done after completion to deal with tax on the purchase?",
+  "options": {
+   "A": "Dafydd must make a Stamp Duty Land Tax return to HMRC within 14 days after completion, as for land in England.",
+   "B": "Dafydd must make a Land Transaction Tax return to the Welsh Revenue Authority within 14 days after completion.",
+   "C": "Dafydd must make a Land Transaction Tax return to HMRC within 30 days after completion.",
+   "D": "Dafydd must make both an SDLT return to HMRC and an LTT return to the Welsh Revenue Authority, because his solicitor practises in England.",
+   "E": "Dafydd must make a Land Transaction Tax return, including a self-assessment, to the Welsh Revenue Authority within 30 days beginning with the day after completion."
+  },
+  "answer": "E",
+  "explanation": "Since 1 April 2018, transactions in land in Wales are subject to Land Transaction Tax rather than SDLT. The tax depends on where the land is, not where the solicitor or the buyer is based. Section 44 of the Land Transaction Tax and Anti-avoidance of Devolved Taxes (Wales) Act 2017 requires the buyer in a notifiable land transaction to make a return to the Welsh Revenue Authority (WRA). The return must be made before the end of the period of 30 days beginning with the day after the effective date, and, for a chargeable transaction, must include a self-assessment of the tax. The shop is in Cardiff and completion (the effective date here) is 10 July 2026. Dafydd's LTT return must therefore go to the WRA within 30 days beginning with 11 July 2026. LTT has its own rates, set by the Welsh Government. Seren must not apply the 14-day SDLT deadline or the SDLT rates.",
+  "why_wrong": {
+   "A": "SDLT does not apply to land in Wales; LTT applies instead.",
+   "B": "The LTT return goes to the WRA, but the deadline is 30 days beginning with the day after the effective date, not 14 days.",
+   "C": "LTT is administered by the Welsh Revenue Authority, not HMRC.",
+   "D": "Which tax applies depends on where the land is, not where the solicitor practises; only an LTT return is needed."
+  },
+  "key_rule": "For land in Wales the buyer must make an LTT return, with self-assessment, to the Welsh Revenue Authority within 30 days beginning with the day after the effective date.",
+  "authority": "Land Transaction Tax and Anti-avoidance of Devolved Taxes (Wales) Act 2017, s.44",
+  "verified_source_url": "https://www.legislation.gov.uk/anaw/2017/1/section/44",
+  "tags": [
+   "land transaction tax",
+   "wales",
+   "post-completion",
+   "time limits"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Taxation – property: Stamp Duty Land Tax in England and Land Transaction Tax in Wales: basis of charge for non-residential freehold property",
+   "context_subject": "Property Practice",
+   "source_type": "legislation",
+   "source_quote": "The buyer in a notifiable land transaction must make a return to WRA. ... be made before the end of the period of 30 days beginning with the day after the effective date",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "The 1 April 2018 start date for LTT is from the commencement note to s.44 (in force 1.4.2018)."
+  }
+ },
+ {
+  "id": "lib-ppl-014",
+  "subject": "Property Practice",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Landlord's statutory duties on an application for consent to assign (LTA 1988, ss.1 and 4)",
+  "scenario": "Bluewater Coffee Ltd holds a ten-year lease of a café in Bath. The lease contains a covenant not to assign the whole without the landlord's consent, such consent not to be unreasonably withheld. On 1 June 2026 Bluewater sent the landlord, Halcyon Estates Ltd, a written application for consent to assign to a well-established restaurant chain, with full references and accounts. Halcyon did not respond for ten weeks and then told Bluewater by telephone that consent was refused, without giving any reasons. Meanwhile the proposed assignee withdrew.",
+  "stem": "Which of the following best describes Bluewater's position?",
+  "options": {
+   "A": "Halcyon owed a duty within a reasonable time to give consent unless it was reasonable not to, and to serve written notice of its decision with reasons; it bears the burden of proving it acted reasonably, and Bluewater may claim damages for breach of statutory duty.",
+   "B": "Halcyon has done nothing wrong, because a landlord is not required to give reasons for refusing consent unless the lease expressly says so.",
+   "C": "Bluewater must prove that Halcyon's refusal was unreasonable, and its only remedy is a declaration that it may assign without consent.",
+   "D": "Because Halcyon did not respond within 28 days, consent is deemed to have been given and Bluewater may complete the assignment.",
+   "E": "Halcyon's duties arise only if Bluewater served its application by recorded delivery, so the telephone refusal is effective."
+  },
+  "answer": "A",
+  "explanation": "Section 1 of the Landlord and Tenant Act 1988 applies where a lease contains a covenant against assignment without consent that is qualified so that consent is not to be unreasonably withheld. Once the tenant serves a written application, s.1(3) requires the landlord, within a reasonable time, to give consent unless it is reasonable not to, and to serve written notice of its decision, stating any conditions or, if consent is withheld, the reasons. Under s.1(6) the burden is on the landlord to show it acted within a reasonable time and that any refusal was reasonable. Halcyon delayed ten weeks despite a complete application, and gave its refusal orally and without reasons. It is therefore in breach of its statutory duty. Section 4 makes a breach actionable in tort as a breach of statutory duty, so Bluewater may claim damages, including for the lost assignment.",
+  "why_wrong": {
+   "B": "Section 1(3)(b)(ii) requires written reasons for withholding consent, whatever the lease says.",
+   "C": "Section 1(6) puts the burden of proof on the landlord, and s.4 gives a damages claim in addition to any declaration.",
+   "D": "The Act sets no 28-day deemed-consent rule; the duty is to act within a reasonable time.",
+   "E": "The Act requires a written application served on the landlord; it does not require recorded delivery, and the landlord's reply must be in writing."
+  },
+  "key_rule": "On a written application under a qualified alienation covenant, the landlord must within a reasonable time decide and give written reasons, bears the burden of proving reasonableness, and is liable in damages for breach.",
+  "authority": "Landlord and Tenant Act 1988, ss.1(3), 1(6) and 4",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1988/26/section/1",
+  "tags": [
+   "alienation",
+   "landlord's consent",
+   "commercial leases"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Procedural steps for the assignment of a lease: landlord's consent",
+   "context_subject": "Property Practice",
+   "source_type": "legislation",
+   "source_quote": "he owes a duty to the tenant within a reasonable time— (a) to give consent, except in a case where it is reasonable not to give consent, (b) to serve on the tenant written notice of his decision",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Section 4 verified at https://www.legislation.gov.uk/ukpga/1988/26/section/4."
+  }
+ },
+ {
+  "id": "lib-ppl-015",
+  "subject": "Property Practice",
+  "flk": "FLK2",
+  "difficulty": "hard",
+  "title": "Pre-agreed AGA condition in a post-1995 commercial lease (LTA 1927, s.19(1A))",
+  "scenario": "In 2021 Fenwick Properties Ltd granted Orla Byrne Design Ltd a 15-year lease of offices in Manchester. The lease contains a covenant not to assign without the landlord's consent, such consent not to be unreasonably withheld. It also states, for the purposes of s.19(1A) of the Landlord and Tenant Act 1927, that the landlord may require, as a condition of consent to any assignment, that the assigning tenant enters into an authorised guarantee agreement (AGA). Orla Byrne Design now wishes to assign to a large, financially strong company. Fenwick agrees to consent on condition that Orla Byrne Design enters into an AGA. Orla Byrne Design argues that the condition is unreasonable because the assignee's covenant is stronger than its own.",
+  "stem": "Which of the following best describes whether Fenwick may impose the AGA condition?",
+  "options": {
+   "A": "Fenwick may not impose it, because a condition of consent is unreasonable where the assignee is financially stronger than the assignor.",
+   "B": "Fenwick may not impose it, because any agreement requiring an outgoing tenant to guarantee its assignee is void under the anti-avoidance provisions of the Landlord and Tenant (Covenants) Act 1995.",
+   "C": "Fenwick may impose it, and the AGA may require Orla Byrne Design to guarantee every future assignee until the lease ends.",
+   "D": "Fenwick has no need to impose it, because Orla Byrne Design will remain liable on the tenant covenants for the rest of the term after assigning, as the original tenant.",
+   "E": "Fenwick may impose it, because a condition agreed in advance for a qualifying lease is not regarded as unreasonable, and an AGA entered into under a lawfully imposed condition is valid."
+  },
+  "answer": "E",
+  "explanation": "The lease was granted after 1995, so it is a 'new tenancy' under the Landlord and Tenant (Covenants) Act 1995 and, being commercial, a 'qualifying lease' under s.19(1E) of the Landlord and Tenant Act 1927. Section 19(1A) provides that where landlord and tenant under a qualifying lease have agreed conditions subject to which consent to assignment may be granted, a landlord giving consent subject to those conditions is not regarded as giving it subject to unreasonable conditions. Section 1 of the Landlord and Tenant Act 1988 applies subject to this. The lease expressly entitles Fenwick to require an AGA, so the condition cannot be attacked as unreasonable, however strong the assignee. On assignment Orla Byrne Design will be released from the tenant covenants, but under s.16 of the 1995 Act it may enter into an AGA guaranteeing the immediate assignee where consent is given subject to a lawfully imposed condition to that effect.",
+  "why_wrong": {
+   "A": "Reasonableness is displaced by s.19(1A): a pre-agreed condition in a qualifying lease is not regarded as unreasonable.",
+   "B": "Section 16 of the 1995 Act expressly preserves AGAs from the anti-avoidance rule in s.25.",
+   "C": "Section 16(4) prevents an AGA from requiring the tenant to guarantee anyone other than its immediate assignee.",
+   "D": "Continuing original tenant liability is the rule for leases granted before 1996; a tenant under a new tenancy is released on a lawful assignment."
+  },
+  "key_rule": "For a post-1995 commercial lease, a pre-agreed condition of consent (such as an AGA) is deemed reasonable under LTA 1927 s.19(1A), and an AGA covering the immediate assignee is valid under LT(C)A 1995 s.16.",
+  "authority": "Landlord and Tenant Act 1927, s.19(1A)-(1E); Landlord and Tenant (Covenants) Act 1995, s.16",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/Geo5/17-18/36/section/19",
+  "tags": [
+   "alienation",
+   "authorised guarantee agreement",
+   "commercial leases",
+   "landlord's consent"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Procedural steps for the assignment of a lease: authorised guarantee agreement",
+   "context_subject": "Property Practice",
+   "source_type": "legislation",
+   "source_quote": "if he gives any such licence or consent subject to any such conditions, shall not be regarded as giving it subject to unreasonable conditions",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Section 16 verified at https://www.legislation.gov.uk/ukpga/1995/30/section/16 (s.16(1), (3), (4)). Tenant release on assignment (s.5) is general knowledge, not separately fetched."
+  }
+ },
+ {
+  "id": "lib-ppl-016",
+  "subject": "Property Practice",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Cap on damages for breach of a tenant's repairing covenant (LTA 1927, s.18(1))",
+  "scenario": "Thornbury Logistics Ltd held a 12-year lease of a warehouse in Leeds, which expired on 30 June 2026. The lease contained a covenant to keep the premises in good repair and to yield them up in that condition at the end of the term. Thornbury left the roof and cladding in disrepair. The landlord's surveyor puts the cost of the remedial works at £120,000. A valuer reports that the disrepair has reduced the value of the landlord's reversion by £70,000. The landlord intends to re-let the warehouse in its existing form and has no plans to demolish or alter it.",
+  "stem": "What is the maximum the landlord can recover as damages for breach of the repairing covenant?",
+  "options": {
+   "A": "£120,000, the cost of carrying out the remedial works.",
+   "B": "£70,000, the amount by which the value of the reversion is diminished by the breach.",
+   "C": "£95,000, the midpoint between the cost of works and the diminution in value.",
+   "D": "Nothing, because damages for disrepair cannot be claimed once the lease has ended.",
+   "E": "£120,000 plus the rent lost while the works are carried out, because the cap applies only to claims during the term."
+  },
+  "answer": "B",
+  "explanation": "Section 18(1) of the Landlord and Tenant Act 1927 provides that damages for breach of a covenant to keep or put premises in repair during the lease, or to leave or put them in repair at its end, shall in no case exceed the amount (if any) by which the value of the reversion is diminished owing to the breach. The cap applies whether the claim is brought during the term or after the lease ends. The landlord can therefore recover no more than the diminution in value of its reversion, here £70,000, even though the works would cost £120,000. The second limb of s.18(1), which removes damages entirely where the premises would be pulled down or structurally altered at or shortly after termination, does not apply because the landlord intends to re-let the warehouse as it is. Landlords often seek to recover dilapidations as a debt under a Jervis v Harris clause during the term, because that route avoids the s.18 cap.",
+  "why_wrong": {
+   "A": "The cost of works is recoverable only up to the diminution in the value of the reversion under s.18(1).",
+   "C": "There is no rule averaging the two figures; the diminution in value is the ceiling.",
+   "D": "A terminal dilapidations claim for breach of a covenant to yield up in repair is expressly contemplated by s.18(1).",
+   "E": "The s.18(1) cap applies to covenants to repair during the term and to leave the premises in repair at its end."
+  },
+  "key_rule": "Damages for breach of a tenant's repairing covenant cannot exceed the diminution in value of the landlord's reversion caused by the breach.",
+  "authority": "Landlord and Tenant Act 1927, s.18(1)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/Geo5/17-18/36/section/18",
+  "tags": [
+   "repair",
+   "dilapidations",
+   "commercial leases",
+   "damages"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Remedies for breach of a leasehold covenant: damages",
+   "context_subject": "Property Practice",
+   "source_type": "legislation",
+   "source_quote": "shall in no case exceed the amount (if any) by which the value of the reversion (whether immediate or not) in the premises is diminished owing to the breach of such covenant or agreement as aforesaid",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Reference to Jervis v Harris clause avoiding s.18 (debt claim) is general knowledge, not separately sourced; it is context only."
+  }
+ },
+ {
+  "id": "lib-ppl-017",
+  "subject": "Property Practice",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Contracting out of LTA 1954 security of tenure when the warning notice is served late (s.38A)",
+  "scenario": "Zainab Hussain is taking a five-year lease of a small office in Leicester for her accountancy practice. The parties have agreed that the lease will be contracted out of the security of tenure provisions of Part II of the Landlord and Tenant Act 1954. Completion of the lease is fixed for 15 July 2026, and Zainab will not be contractually bound before then. The landlord's solicitor serves the prescribed warning notice on Zainab on 9 July 2026, six days before completion.",
+  "stem": "What must happen for the contracting-out agreement to be valid?",
+  "options": {
+   "A": "Zainab must sign a simple declaration in the prescribed form before completion, as for any contracted-out lease.",
+   "B": "The parties must apply jointly to the court for an order approving the exclusion before the lease is completed.",
+   "C": "Completion must be postponed until at least 14 days after the warning notice was served, because a late notice cannot be cured.",
+   "D": "Before she enters into the lease, Zainab (or someone she has authorised) must make a statutory declaration in the prescribed form, and the lease must contain or be endorsed with references to the notice, the statutory declaration and the agreement.",
+   "E": "Zainab may sign the declaration within 14 days after completion, provided the lease refers to the warning notice."
+  },
+  "answer": "D",
+  "explanation": "Under s.38A(1) of the Landlord and Tenant Act 1954, the parties to a lease for a term of years certain may agree to exclude ss.24 to 28. By s.38A(3), the agreement is void unless the landlord serves the notice in Sch 1 to the Regulatory Reform (Business Tenancies) (England and Wales) Order 2003 and the requirements in Sch 2 are met. Where the notice is served at least 14 days before the tenant enters into the lease (or becomes contractually bound, if earlier), a simple declaration is enough (para 3). Here the notice was served only six days before completion, so para 4 applies: the tenant or a person authorised by her must make a statutory declaration, before entering into the lease. Paragraphs 5 and 6 require the lease to contain or be endorsed with a reference to the notice and statutory declaration, and to the agreement itself.",
+  "why_wrong": {
+   "A": "A simple declaration suffices only where the notice is served at least 14 days before the tenant enters into the lease or becomes contractually bound.",
+   "B": "Court approval of contracting-out agreements was replaced in 2004 by the notice and declaration procedure.",
+   "C": "A notice served less than 14 days before is not fatal; the tenant can instead make a statutory declaration.",
+   "E": "Any declaration must be made before the tenant enters into the lease or becomes contractually bound; it cannot follow completion."
+  },
+  "key_rule": "If the landlord's warning notice is served less than 14 days before the tenant commits to the lease, the tenant must make a statutory declaration (not a simple one) beforehand for the contracting out to be valid.",
+  "authority": "Landlord and Tenant Act 1954, s.38A(1) and (3); Regulatory Reform (Business Tenancies) (England and Wales) Order 2003 (SI 2003/3096), Sch 2, paras 2-6",
+  "verified_source_url": "https://www.legislation.gov.uk/uksi/2003/3096/schedule/2",
+  "tags": [
+   "landlord and tenant act 1954",
+   "contracting out",
+   "business tenancies",
+   "security of tenure"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Security of tenure under a business lease: Landlord and Tenant Act 1954 (Part II)",
+   "context_subject": "Property Practice",
+   "source_type": "legislation",
+   "source_quote": "the tenant, or a person duly authorised by him to do so, must before that time make a statutory declaration in the form, or substantially in the form, set out in paragraph 8.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "legislation.gov.uk shows SI 2003/3096 Sch 2 only in its original (as made) form; I am not aware of any amendment to it. s.38A verified current at https://www.legislation.gov.uk/ukpga/Eliz2/2-3/56/section/38A. Law Commission review of the 1954 Act was in progress but no legislative change as at 11 Sep 2026 (not separately verified)."
+  }
+ },
+ {
+  "id": "lib-ppl-018",
+  "subject": "Property Practice",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Landlord's response to a tenant's section 26 request (LTA 1954, s.26)",
+  "scenario": "Pemberton Print Ltd holds a ten-year lease of a print works in Coventry, expiring on 31 March 2027. The lease is not contracted out, and Pemberton occupies the premises for its business. On 6 July 2026 Pemberton's solicitor gave the landlord, Ashgrove Holdings Ltd, a valid request for a new tenancy under s.26 of the Landlord and Tenant Act 1954, proposing a new tenancy beginning on 31 March 2027. Ashgrove has not served any notice under s.25. It wants to oppose renewal on the ground that it intends to occupy the premises for its own business (ground (g)).",
+  "stem": "What must Ashgrove do to preserve its right to oppose a new tenancy?",
+  "options": {
+   "A": "Serve a section 25 notice on Pemberton within two months, stating its opposition and specifying ground (g).",
+   "B": "Within two months of the making of the request, give Pemberton notice that it will oppose an application to the court for a new tenancy, stating ground (g).",
+   "C": "Do nothing at this stage, because a landlord's grounds of opposition are raised only in its defence once the tenant applies to court.",
+   "D": "Treat the request as invalid, because a tenant may serve a section 26 request only within the last six months of the contractual term.",
+   "E": "Serve a counter-notice within 14 days of receiving the request, failing which the new tenancy starts on the date Pemberton proposed."
+  },
+  "answer": "B",
+  "explanation": "Section 26 allows a tenant with a term of years certain exceeding one year to request a new tenancy. Under s.26(2), the request must specify a start date not more than twelve nor less than six months after the request, and not earlier than the contractual expiry date. A start date of 31 March 2027 for a request made on 6 July 2026 satisfies both requirements. Section 26(6) provides that within two months of the making of the request the landlord may give notice that it will oppose an application to the court for a new tenancy, and the notice must state the s.30 ground or grounds relied on. Ashgrove must therefore serve a counter-notice specifying ground (g) by the two-month deadline. If it does not, it loses the right to oppose renewal and can dispute only the terms of the new lease.",
+  "why_wrong": {
+   "A": "Section 26(4) prevents the landlord serving a s.25 notice once the tenant has made a s.26 request.",
+   "C": "Opposition must be raised by counter-notice within two months under s.26(6); grounds not stated cannot be relied on later.",
+   "D": "A request may be made up to twelve months before the proposed start date; there is no last-six-months rule.",
+   "E": "The time limit for the counter-notice is two months, not 14 days."
+  },
+  "key_rule": "A landlord who wishes to oppose renewal after a tenant's s.26 request must, within two months, serve a counter-notice stating its s.30 ground(s).",
+  "authority": "Landlord and Tenant Act 1954, s.26(1), (2), (4) and (6); s.30(1)(g)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/Eliz2/2-3/56/section/26",
+  "tags": [
+   "landlord and tenant act 1954",
+   "section 26 request",
+   "business tenancies",
+   "security of tenure"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Security of tenure under a business lease: Landlord and Tenant Act 1954 (Part II): renewal lease by the tenant",
+   "context_subject": "Property Practice",
+   "source_type": "legislation",
+   "source_quote": "Within two months of the making of a tenant's request for a new tenancy the landlord may give notice to the tenant that he will oppose an application to the court",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Outstanding change listed on legislation.gov.uk (s.63(2A)-(2C) inserted by Judicial Review and Courts Act 2022 s.65) concerns tribunal jurisdiction, not s.26."
+  }
+ },
+ {
+  "id": "lib-ppl-019",
+  "subject": "Property Practice",
+  "flk": "FLK2",
+  "difficulty": "hard",
+  "title": "Statutory compensation when renewal is refused on ground (f) only (LTA 1954, s.37)",
+  "scenario": "Nadia Rahman has run her bookshop in York from the same premises since 2009, first under a 2009 lease and then under a renewal lease granted in 2019, which is not contracted out. Her landlord served a s.25 notice opposing a new tenancy on grounds (b) (persistent delay in paying rent) and (f) (intention to demolish or reconstruct). Nadia applied to court for a new tenancy. The court rejected ground (b), finding the rent arrears trivial, but upheld ground (f) and refused a new tenancy. The rateable value of the holding is £36,000. Assume the appropriate multiplier is 1 and the lease does not exclude compensation.",
+  "stem": "What compensation, if any, is Nadia entitled to on quitting the holding?",
+  "options": {
+   "A": "None, because the landlord's notice relied on a ground other than the compensation grounds.",
+   "B": "£36,000, being one times the rateable value.",
+   "C": "£72,000, being twice the rateable value, because she has occupied for business for the whole of the 14 years before termination and the new tenancy was refused on a compensation ground only.",
+   "D": "None, because compensation is payable only where the landlord relies on ground (g).",
+   "E": "£108,000, being three times the rateable value, because she has occupied for more than 14 years."
+  },
+  "answer": "C",
+  "explanation": "Section 37(1A) of the Landlord and Tenant Act 1954 gives the tenant compensation on quitting where the court is precluded from ordering a new tenancy by reason of any of grounds (e), (f) or (g) (the compensation grounds) and not of any other ground. The test looks at the ground on which the court actually refused renewal, not every ground in the notice. Ground (b) failed, so the refusal rests on ground (f) alone, and compensation is payable. Under s.37(2) the amount is the appropriate multiplier times the rateable value, doubled where the s.37(3) conditions are met: business occupation of the premises for the whole of the 14 years immediately preceding termination. Nadia has traded there since 2009, so by termination she will have more than 14 years' occupation. Compensation is 1 × £36,000 × 2 = £72,000.",
+  "why_wrong": {
+   "A": "Under s.37(1A) what matters is that the court refused renewal on a compensation ground and not on any other; ground (b) failed.",
+   "B": "Single compensation applies only if the 14-year business occupation condition in s.37(3) is not met.",
+   "D": "Compensation is available for any of grounds (e), (f) and (g), not only ground (g).",
+   "E": "The maximum is twice the rateable value (times the multiplier); there is no higher multiple for longer occupation."
+  },
+  "key_rule": "Where renewal is refused solely on grounds (e), (f) or (g), the tenant receives the rateable value (times the multiplier), doubled after 14 years' business occupation.",
+  "authority": "Landlord and Tenant Act 1954, s.37(1), (1A), (2) and (3); s.30(1)(b) and (f)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/Eliz2/2-3/56/section/37",
+  "tags": [
+   "landlord and tenant act 1954",
+   "compensation",
+   "grounds of opposition",
+   "business tenancies"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Security of tenure under a business lease: Landlord and Tenant Act 1954 (Part II): availability of compensation",
+   "context_subject": "Property Practice",
+   "source_type": "legislation",
+   "source_quote": "by reason of any of the grounds specified in paragraphs (e), (f) and (g) of section 30(1) of this Act (the \"compensation grounds\") and not of any grounds specified in any other paragraph",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Appropriate multiplier (1) given as an assumption in the question; not separately verified."
+  }
+ },
+ {
+  "id": "lib-ppl-020",
+  "subject": "Property Practice",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "VAT on the sale of an opted commercial building under the SCPC (condition 2)",
+  "scenario": "Corvid Investments Ltd is selling a vacant freehold office building in Birmingham, built in 2005, for £2,000,000. Several years ago Corvid exercised an option to tax the building. The buyer is Harbour Mutual Insurance plc, an insurer whose supplies are almost all exempt from VAT. The contract incorporates the Standard Commercial Property Conditions (Third Edition, 2018 Revision). None of the Part 2 conditions is incorporated, and there is no special condition about VAT.",
+  "stem": "Which of the following best describes the VAT position under the contract?",
+  "options": {
+   "A": "Corvid's option makes the sale standard-rated, and under the contract Harbour Mutual must pay an additional amount equal to the VAT on completion in exchange for a VAT invoice, which it is unlikely to be able to recover.",
+   "B": "The purchase price is inclusive of VAT, so Corvid must account for the VAT out of the £2,000,000.",
+   "C": "No VAT is payable, because the sale of a freehold commercial building more than three years old is always exempt.",
+   "D": "Harbour Mutual can avoid paying VAT by revoking Corvid's option to tax before completion.",
+   "E": "No VAT is payable, because the sale is a transfer of a going concern."
+  },
+  "answer": "A",
+  "explanation": "A sale of the freehold of a commercial building more than three years old is normally exempt from VAT. HMRC's Notice 742A explains, however, that once a person opts to tax, its supplies of that interest in the land are normally standard-rated. Corvid's option therefore makes the sale a standard-rated supply. Under condition 2 of the Standard Commercial Property Conditions, unless a Part 2 condition is used, the seller warrants that the sale will be standard-rated and the buyer must pay, on completion, an additional amount equal to the VAT in exchange for a VAT invoice. The VAT on £2,000,000 is therefore payable on top of the price. Harbour Mutual makes mainly exempt supplies, so it will not normally be able to recover that input tax. That is why a buyer in its position should check the seller's VAT status before exchange and negotiate the price accordingly.",
+  "why_wrong": {
+   "B": "A VAT-inclusive price is the position under condition 1.4.1 of the Standard Conditions of Sale, not under SCPC condition 2.",
+   "C": "The exemption is displaced where the seller has opted to tax; the sale is then standard-rated.",
+   "D": "The option to tax belongs to Corvid; a buyer cannot revoke the seller's option.",
+   "E": "A vacant building with no business being carried on in it cannot normally be a transfer of a going concern, and the TOGC condition (Part 2, A2) is not incorporated."
+  },
+  "key_rule": "Under SCPC condition 2 the seller warrants a standard-rated supply and the buyer pays VAT on top of the price; a seller's option to tax makes an otherwise exempt sale standard-rated.",
+  "authority": "Standard Commercial Property Conditions (Third Edition, 2018 Revision), condition 2; Value Added Tax Act 1994, Sch 9 Group 1 and Sch 10; HMRC VAT Notice 742A, para 1.2",
+  "verified_source_url": "https://tls-sc104-prd-glo-fde-01-duatf0eka4hpcxe6.a03.azurefd.net/-/media/files/topics/property/specimen-standard-commercial-property-conditions-third-edition-2018-revision.pdf?rev=800b2e5d4dd7478a84d1289371cc670f",
+  "tags": [
+   "vat",
+   "option to tax",
+   "standard commercial property conditions",
+   "property tax"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Taxation – property: Value Added Tax: reasons why a client would make an option to tax and the effect that has (and basics of VAT in a contract)",
+   "context_subject": "Property Practice",
+   "source_type": "publisher-document",
+   "source_quote": "The seller warrants that the sale of the property will constitute a supply chargeable to VAT at the standard rate. The buyer is to pay to the seller on completion an additional amount equal to the VAT",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Option-to-tax effect verified at https://www.gov.uk/guidance/opting-to-tax-land-and-buildings-notice-742a (para 1.2: 'Once you have opted to tax all the supplies you make of your interest in the land or buildings will normally be standard-rated'). TOGC point in option E is general knowledge. SCS 1.4.1 verified in the SCS specimen PDF."
+  }
+ },
+ {
+  "id": "lib-ppl-021",
+  "subject": "Property Practice",
+  "flk": "FLK2",
+  "difficulty": "hard",
+  "title": "Private residence relief on a former home later let (TCGA 1992, s.223)",
+  "scenario": "On 1 January 2012 Kemi Adebayo bought a flat in Bristol, which she occupied as her only residence until 31 December 2019. She then moved in with her partner in a house her partner owns, and let the flat to tenants. She never lived in the flat again. She sold it on 31 December 2025, making a gain (before any relief) of £140,000. For simplicity, treat each month as equal in length, and assume no relief other than private residence relief applies and that Kemi never shared occupation of the flat with any tenant.",
+  "stem": "What is Kemi's chargeable gain on the sale, before the annual exempt amount?",
+  "options": {
+   "A": "Nil, because the flat was her only or main residence at some time during her ownership.",
+   "B": "£22,500",
+   "C": "£45,000",
+   "D": "£60,000",
+   "E": "£52,500"
+  },
+  "answer": "E",
+  "explanation": "Under s.223(1) and (2) of the Taxation of Chargeable Gains Act 1992, where a dwelling has not been the owner's only or main residence throughout the period of ownership, the exempt fraction of the gain is the period of actual residence plus the last 9 months of ownership in any event, divided by the whole period of ownership. Kemi owned the flat for 14 years (168 months). She lived there for 8 years (96 months), and the final 9 months are also treated as residence, giving 105 months. The exempt part is £140,000 × 105/168 = £87,500, leaving a chargeable gain of £52,500. Her 6 years away do not qualify for the 3-year absence relief in s.223(3)(a), because Condition B in s.223(3B) requires her to have lived in the flat again after the absence, and she never did.",
+  "why_wrong": {
+   "A": "Full relief requires residence throughout ownership (apart from the last 9 months); otherwise only a fraction of the gain is exempt.",
+   "B": "£22,500 wrongly adds 36 months of absence relief, which needs the owner to reoccupy the dwelling after the absence.",
+   "C": "£45,000 uses the old 18-month final period instead of the current 9 months.",
+   "D": "£60,000 ignores the final 9 months, which are treated as a period of residence in any event."
+  },
+  "key_rule": "Private residence relief exempts the fraction of the gain reflecting actual residence plus the final 9 months; absence relief needs residence both before and after the absence.",
+  "authority": "Taxation of Chargeable Gains Act 1992, ss.222 and 223(1), (2), (3) and (3A)-(3B)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1992/12/section/223",
+  "tags": [
+   "capital gains tax",
+   "private residence relief",
+   "property tax",
+   "calculation"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Taxation – property: Capital Gains Tax: basis of charge; Private Residence Relief",
+   "context_subject": "Property Practice",
+   "source_type": "legislation",
+   "source_quote": "but inclusive of the last 9 months of the period of ownership in any event, divided by (b) the length of the period of ownership.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Letting relief (s.223A) restricted to shared occupation since 6 April 2020; scenario excludes it expressly. legislation.gov.uk lists unapplied changes elsewhere in TCGA (s.4(10)-(11)), not to s.223."
+  }
+ }
+]

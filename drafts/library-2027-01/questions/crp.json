@@ -1,0 +1,1079 @@
+[
+ {
+  "id": "lib-crp-001",
+  "subject": "Criminal Practice",
+  "flk": "FLK2",
+  "difficulty": "easy",
+  "title": "Timing of the first review of detention before charge (PACE 1984 s.40)",
+  "scenario": "Priya Nair is arrested on suspicion of burglary and arrives at a police station in England at 09:00. The custody officer authorises her detention at 09:30 so that she can be interviewed. She has not been charged, and no review has yet taken place.",
+  "stem": "By what time must the first review of Priya's detention be carried out, and by whom?",
+  "options": {
+   "A": "By 15:30, by an officer of at least the rank of inspector who has not been directly involved in the investigation.",
+   "B": "By 15:00, by an officer of at least the rank of inspector who has not been directly involved in the investigation.",
+   "C": "By 15:30, by the custody officer.",
+   "D": "By 18:30, by an officer of at least the rank of inspector who has not been directly involved in the investigation.",
+   "E": "By 09:00 the following day, by an officer of at least the rank of superintendent."
+  },
+  "answer": "A",
+  "explanation": "Section 40 of PACE 1984 requires periodic reviews of the detention of everyone in police detention. Who reviews depends on whether the person has been charged: for a person arrested but not charged, the review officer is an officer of at least the rank of inspector who has not been directly involved in the investigation (s.40(1)(b)). The timing runs from when detention was first authorised, not from arrival at the station: the first review must take place not later than six hours after the detention was first authorised (s.40(3)(a)), the second not later than nine hours after the first, and later reviews at intervals of not more than nine hours. Priya's detention was authorised at 09:30, so the first review is due by 15:30, and because she has not been charged it must be conducted by an independent inspector.",
+  "why_wrong": {
+   "B": "The six hours run from when detention was first authorised (09:30), not from arrival at the station.",
+   "C": "The custody officer reviews only the detention of a person who has been charged; Priya has not been charged.",
+   "D": "Nine hours is the maximum interval between the first and second reviews, not the deadline for the first review.",
+   "E": "This confuses reviews with the 24-hour detention limit and a superintendent's extension; reviews are carried out by an inspector."
+  },
+  "key_rule": "Before charge, detention is reviewed by an uninvolved inspector, first within six hours of detention being authorised, then at intervals of no more than nine hours.",
+  "authority": "Police and Criminal Evidence Act 1984, s.40(1)(b) and (3)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1984/60/section/40",
+  "tags": [
+   "police detention",
+   "detention reviews",
+   "pace"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Advising clients, including vulnerable clients, about the procedure and processes at the police station: Rights of a suspect being detained by the police for questioning (reviews and detention time limits)",
+   "context_subject": "Criminal Practice",
+   "source_type": "legislation",
+   "source_quote": "(a) the first review shall be not later than six hours after the detention was first authorised; (b) the second review shall be not later than nine hours after the first;",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-crp-002",
+  "subject": "Criminal Practice",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Delaying the right to have someone informed of arrest (PACE 1984 s.56)",
+  "scenario": "Tomasz Kowalski is arrested on suspicion of robbery, an indictable offence, and is detained at a police station in England. He asks for his partner to be told that he has been arrested. The custody sergeant believes that Tomasz's brother, who is suspected of taking part in the robbery but has not yet been arrested, lives with the partner and would be alerted.",
+  "stem": "Which of the following best describes whether telling Tomasz's partner may be delayed?",
+  "options": {
+   "A": "It may not be delayed, because the right to have someone informed of arrest is absolute once requested.",
+   "B": "The custody sergeant may authorise a delay of up to 24 hours from Tomasz's arrival at the police station.",
+   "C": "An officer of at least the rank of superintendent may authorise a delay of up to 48 hours from Tomasz's arrival at the police station.",
+   "D": "An officer of at least the rank of inspector may authorise a delay on reasonable grounds that telling the partner will alert another suspect, but Tomasz must be allowed to exercise the right within 36 hours of the relevant time.",
+   "E": "An officer of at least the rank of inspector may authorise a delay, but only until Tomasz's first interview has finished."
+  },
+  "answer": "D",
+  "explanation": "Section 56(1) of PACE 1984 entitles an arrested person held in custody to have one friend, relative or other person likely to take an interest in their welfare told of the arrest as soon as practicable. Delay is permitted only where the person is detained for an indictable offence and an officer of at least the rank of inspector authorises it (s.56(2)). The officer must have reasonable grounds for believing that telling the named person will lead to one of the listed consequences, which include alerting other people suspected of the offence who have not yet been arrested (s.56(5)(b)). In any case, the detainee must be allowed to exercise the right within 36 hours from the relevant time (s.56(3)). Robbery is indictable and the belief that the brother would be alerted is a permitted ground, so an inspector may authorise a delay, subject to the 36-hour limit.",
+  "why_wrong": {
+   "A": "Section 56(2) and (5) expressly permit delay in limited circumstances for indictable offences.",
+   "B": "A sergeant cannot authorise delay under s.56; the minimum rank is inspector, and the outer limit is 36 hours.",
+   "C": "Superintendent rank is required to delay access to legal advice under s.58, not for s.56; and the limit is 36 hours, not 48.",
+   "E": "Section 56 contains no rule tying the delay to the end of an interview; the limit is the 36 hours in s.56(3)."
+  },
+  "key_rule": "Informing someone of an arrest may be delayed only for an indictable offence, on inspector's authority and specified grounds, and never beyond 36 hours from the relevant time.",
+  "authority": "Police and Criminal Evidence Act 1984, s.56(1), (2), (3) and (5)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1984/60/section/56",
+  "tags": [
+   "police station",
+   "right to have someone informed",
+   "pace"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Advising clients, including vulnerable clients, about the procedure and processes at the police station: Rights of a suspect being detained by the police for questioning (right to have someone informed of arrest)",
+   "context_subject": "Criminal Practice",
+   "source_type": "legislation",
+   "source_quote": "(2) Delay is only permitted— (a) in the case of a person who is in police detention for an indictable offence ; and (b) if an officer of at least the rank of inspector authorises it.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-crp-003",
+  "subject": "Criminal Practice",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Who may act as appropriate adult for a juvenile (PACE Code C para 1.7 and Notes 1B, 1F)",
+  "scenario": "Kofi Mensah, aged 15, is arrested on suspicion of assaulting his father at the family home and is taken to a police station in England. His father, the alleged victim, is at the station and offers to act as appropriate adult. Kofi's mother cannot be contacted. Also present are the duty solicitor who has come to advise Kofi, a civilian detention officer employed by the police, and Kofi's 17-year-old brother.",
+  "stem": "Which of the following persons may properly act as Kofi's appropriate adult?",
+  "options": {
+   "A": "Kofi's father, because a parent is the first choice of appropriate adult for a juvenile.",
+   "B": "A social worker of the local authority.",
+   "C": "The duty solicitor, because she is independent of the police and is already at the station.",
+   "D": "The civilian detention officer, because he is not a police officer.",
+   "E": "Kofi's 17-year-old brother, because he is a family member whom Kofi trusts."
+  },
+  "answer": "B",
+  "explanation": "Code C para 1.7(a) lists who may be the appropriate adult for a juvenile: a parent or guardian (or a representative of a caring authority), a social worker of a local authority, or, failing these, some other responsible adult aged 18 or over who is not a police officer or employed by or working for the police. A parent is ordinarily the first choice, but Note 1B says that a person, including a parent, should not be an appropriate adult if they are the victim, a witness, suspected of involvement or have received admissions. Kofi's father is the alleged victim, so he is unsuitable. Note 1F adds that a solicitor present at the station in that capacity may not be the appropriate adult. A local authority social worker falls squarely within para 1.7(a)(ii) and is the proper choice here.",
+  "why_wrong": {
+   "A": "Note 1B provides that a parent who is the victim of the offence should not act as appropriate adult.",
+   "C": "Note 1F states that a solicitor present at the station and acting in that capacity may not be the appropriate adult.",
+   "D": "Para 1.7(a)(iii) excludes anyone employed by the police, whether or not they are a police officer.",
+   "E": "Only a responsible adult aged 18 or over qualifies under para 1.7(a)(iii); the brother is 17."
+  },
+  "key_rule": "A juvenile's appropriate adult may be a parent, a social worker or another adult over 18 independent of the police, but not the victim, a witness, a suspect or the detainee's solicitor.",
+  "authority": "PACE Code C (2023), para 1.7(a) and Notes for Guidance 1B and 1F",
+  "verified_source_url": "https://www.gov.uk/government/publications/pace-code-c-2023/pace-code-c-2023-accessible",
+  "tags": [
+   "appropriate adult",
+   "juveniles",
+   "pace code c",
+   "police station"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Advising clients, including vulnerable clients, about the procedure and processes at the police station: Procedure for interviewing a suspect under PACE 1984 (role of appropriate adult and who can be an appropriate adult)",
+   "context_subject": "Criminal Practice",
+   "source_type": "official-guidance",
+   "source_quote": "1B A person, including a parent or guardian, should not be an appropriate adult if they: are: suspected of involvement in the offence; the victim; a witness; involved in the investigation.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-crp-004",
+  "subject": "Criminal Practice",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Defence solicitor's role in interview and when they may be excluded (Code C 6.9-6.10, Note 6D)",
+  "scenario": "Grace Adeyemi, a solicitor, attends a police station in England to represent Joel Barnes, who is being interviewed under caution on suspicion of fraud. During the interview, the officer asks Joel a long, compound question built on an assumption Joel has not accepted. Grace intervenes, challenges the way the question is put, and advises Joel not to answer it. The interviewing officer says that if she intervenes again he will exclude her from the interview.",
+  "stem": "Which of the following best describes Grace's position?",
+  "options": {
+   "A": "Her role in the interview is to observe; any intervention is a ground for excluding her.",
+   "B": "She may properly answer questions on Joel's behalf to stop him incriminating himself.",
+   "C": "The interviewing officer may exclude her at once if he considers that she is obstructing the interview.",
+   "D": "If she is excluded, the interview may continue immediately without any legal representative.",
+   "E": "She may challenge an improper question and advise Joel not to answer it, and she may be required to leave only if her conduct prevents or unreasonably obstructs proper questions being put or answers being recorded."
+  },
+  "answer": "E",
+  "explanation": "Note for Guidance 6D of Code C states that the solicitor's only role in the police station is to protect and advance the client's legal rights. The solicitor may intervene to seek clarification, challenge an improper question or the manner in which it is put, advise the client not to reply to particular questions, or give further legal advice. Paragraph 6.9 provides that a solicitor may be required to leave the interview only if their conduct is such that the interviewer is unable properly to put questions to the suspect, and Note 6D confirms this means conduct that prevents or unreasonably obstructs proper questions or the recording of answers. Grace's intervention is exactly the kind Note 6D permits. Even if exclusion were contemplated, para 6.10 requires the officer to stop the interview and consult a senior officer, and the suspect must be offered another solicitor.",
+  "why_wrong": {
+   "A": "Note 6D gives the solicitor an active role, including challenging improper questions and advising silence on particular questions.",
+   "B": "Note 6D gives answering questions on a suspect's behalf as an example of unacceptable conduct.",
+   "C": "Para 6.10 requires the interviewer to stop and consult a superintendent (or, if none is readily available, an uninvolved inspector), who decides.",
+   "D": "Para 6.10 requires the suspect to be given the opportunity to consult another solicitor before the interview continues."
+  },
+  "key_rule": "A solicitor may challenge improper questions and advise silence; they may be removed only for conduct preventing proper questioning, on a senior officer's decision.",
+  "authority": "PACE Code C (2023), paras 6.9 and 6.10 and Note for Guidance 6D",
+  "verified_source_url": "https://www.gov.uk/government/publications/pace-code-c-2023/pace-code-c-2023-accessible",
+  "tags": [
+   "police station",
+   "legal advice",
+   "pace code c",
+   "interviews"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Advising clients, including vulnerable clients, about the procedure and processes at the police station: Procedure for interviewing a suspect under PACE 1984 (role and appropriate conduct by defence legal representative / solicitor)",
+   "context_subject": "Criminal Practice",
+   "source_type": "official-guidance",
+   "source_quote": "The solicitor may intervene in order to seek clarification, challenge an improper question to their client or the manner in which it is put, advise their client not to reply to particular questions,",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-crp-005",
+  "subject": "Criminal Practice",
+  "flk": "FLK2",
+  "difficulty": "easy",
+  "title": "When an identification procedure must be held and which procedure comes first (Code D 3.12, 3.14)",
+  "scenario": "Mohammed Rahman is arrested on suspicion of a street robbery in England. The victim, who had never met the robber before, saw his face for about 30 seconds under a street light and tells police she is sure she could recognise him again. In interview, Mohammed denies being the robber. No identification procedure has yet been held, and it is practicable to hold one.",
+  "stem": "What should the police do next?",
+  "options": {
+   "A": "Show the victim a single photograph of Mohammed to confirm that he is the robber.",
+   "B": "Arrange a confrontation between the victim and Mohammed at the police station.",
+   "C": "Hold an identification procedure, initially inviting Mohammed to take part in a video identification.",
+   "D": "Hold no identification procedure, because the victim has already given police a description.",
+   "E": "Hold an identification parade, because a parade must always be offered before a video identification."
+  },
+  "answer": "C",
+  "explanation": "Paragraph 3.12 of Code D provides that, where an eye-witness is available who expresses an ability to identify the suspect and has not yet been given the opportunity to do so in a formal procedure, an identification procedure shall be held if the suspect disputes being the person the witness saw. The only exceptions are where a procedure is not practicable or would serve no useful purpose, for example where the suspect is already known to the witness. Here the victim says she can identify the robber, Mohammed disputes it, he was a stranger to her, and a procedure is practicable, so one must be held. Paragraph 3.14 then provides that the suspect shall initially be invited to take part in a video identification unless that is not practicable or a parade is both practicable and more suitable.",
+  "why_wrong": {
+   "A": "Showing a single photograph of an available suspect is not a Code D procedure and risks contaminating the identification.",
+   "B": "Confrontation is a last resort, used only where the other procedures are not practicable.",
+   "D": "A description does not remove the duty in para 3.12 to hold a procedure where identification is disputed.",
+   "E": "Para 3.14 makes video identification the first option; a parade is offered only if it is practicable and more suitable."
+  },
+  "key_rule": "If a suspect disputes an available eye-witness's identification, an identification procedure must be held, normally starting with a video identification.",
+  "authority": "PACE Code D (2023), paras 3.12 and 3.14",
+  "verified_source_url": "https://www.gov.uk/government/publications/pace-code-d-2023/pace-code-d-2023-accessible",
+  "tags": [
+   "identification procedures",
+   "pace code d",
+   "police station"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Advising clients, including vulnerable clients, about the procedure and processes at the police station: Identification procedures (when an identification procedure must be held; different types of identification procedure)",
+   "context_subject": "Criminal Practice",
+   "source_type": "official-guidance",
+   "source_quote": "If, because of paragraph 3.12, an identification procedure is to be held, the suspect shall initially be invited to take part in a video identification unless: (a) a video identification is not practicable;",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-crp-006",
+  "subject": "Criminal Practice",
+  "flk": "FLK2",
+  "difficulty": "hard",
+  "title": "Inferences from failure to account for a substance: the special warning (CJPOA 1994 s.36)",
+  "scenario": "Elena Petrova is arrested next to a freshly sprayed wall and taken to a police station in England on suspicion of criminal damage. Green paint matching the graffiti is on her hands. After consulting her solicitor, she is interviewed under caution. The officer tells her he believes the paint is there because she sprayed the wall and asks her to account for it, but does not tell her what the effect of a failure to account for it would be. She answers 'no comment'. At trial she gives no evidence and relies on no fact in her defence, and the prosecution invites the court to draw an inference under s.36.",
+  "stem": "Which of the following best describes whether an inference may be drawn under s.36 of the Criminal Justice and Public Order Act 1994?",
+  "options": {
+   "A": "An inference may be drawn, because Elena was cautioned at the start of the interview.",
+   "B": "No inference may be drawn, because she was not told in ordinary language what the effect of failing to account for the paint would be.",
+   "C": "No inference may be drawn, because s.36 applies only to objects found on a suspect, not to substances or marks.",
+   "D": "An inference may be drawn, because she had consulted a solicitor before the request was made.",
+   "E": "An inference may be drawn, and the court may convict her on that inference alone."
+  },
+  "answer": "B",
+  "explanation": "Section 36 of the Criminal Justice and Public Order Act 1994 allows the court to draw proper inferences where an arrested person fails to account for an object, substance or mark on their person, clothing or in their possession, after an officer has said he believes it may be attributable to their participation in an offence and asked them to account for it. Paint on Elena's hands is a substance, and the belief and request were put to her. However, s.36(4) provides that the section does not apply unless the accused was told in ordinary language, when the request was made, what the effect of the section would be if she failed or refused to comply: the 'special warning' reflected in Code C para 10.11. Elena was never told this, so no s.36 inference is available, whatever else was done properly.",
+  "why_wrong": {
+   "A": "The ordinary caution is not enough; s.36(4) requires a specific explanation of the effect of failing to account.",
+   "C": "Section 36(1) expressly covers any object, substance or mark, which includes paint on her hands.",
+   "D": "Access to a solicitor (s.36(4A)) is an additional condition, not a substitute for the warning required by s.36(4).",
+   "E": "No inference is available here, and in any event s.38(3) forbids conviction solely on such an inference."
+  },
+  "key_rule": "A s.36 inference requires that the suspect was told in ordinary language, when asked to account for the object, substance or mark, what the effect of failing to do so would be.",
+  "authority": "Criminal Justice and Public Order Act 1994, s.36(1), (4) and (4A); s.38(3); PACE Code C para 10.11",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1994/33/section/36",
+  "tags": [
+   "adverse inferences",
+   "silence",
+   "special warning"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "The procedures and processes involved in criminal litigation: Principles and procedures to admit and exclude evidence (inferences from silence ss. 34, 35, 36, 37, 38 Criminal Justice and Public Order Act 1994)",
+   "context_subject": "Criminal Practice",
+   "source_type": "legislation",
+   "source_quote": "(4) Subsections (1) and (2) above do not apply unless the accused was told in ordinary language by the constable when making the request mentioned in subsection (1)(c) above what the effect of this section would be",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-crp-007",
+  "subject": "Criminal Practice",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Inferences from a defendant's failure to give evidence at trial (CJPOA 1994 ss.35 and 38(3))",
+  "scenario": "Daniel Okafor is tried in the Crown Court in England for unlawful wounding. At the close of the prosecution case, his counsel tells the judge that Daniel will not give evidence. There is no suggestion that his physical or mental condition makes it undesirable for him to give evidence, and his guilt is in issue.",
+  "stem": "Which of the following best describes the position?",
+  "options": {
+   "A": "No inference may be drawn, because a defendant has an absolute right not to give evidence at his own trial.",
+   "B": "Daniel can be compelled to give evidence, and refusing to do so is a contempt of court.",
+   "C": "An inference may be drawn only if Daniel also failed to mention his defence when interviewed by the police.",
+   "D": "The jury may draw an inference, and may convict Daniel on that inference alone if they think it proper.",
+   "E": "The judge must satisfy himself, in the jury's presence, that Daniel knows he may give evidence and that inferences may be drawn if he does not; the jury may then draw proper inferences, but may not convict on that inference alone."
+  },
+  "answer": "E",
+  "explanation": "Section 35 of the Criminal Justice and Public Order Act 1994 applies at trial unless the accused's guilt is not in issue or his physical or mental condition makes it undesirable for him to give evidence; neither exception applies. Under s.35(2) the court must, at the end of the prosecution evidence and in the presence of the jury, satisfy itself that the accused knows he can give evidence and that, if he chooses not to, the jury may draw such inferences as appear proper. Section 35(3) then permits the jury to draw proper inferences from his failure to testify. Section 35(4) confirms the accused is not compellable, so he commits no contempt by staying silent. Finally, s.38(3) provides that a person shall not be convicted solely on an inference drawn under s.35(3), so other evidence must support a conviction.",
+  "why_wrong": {
+   "A": "Section 35(3) expressly permits proper inferences from a failure to testify, even though the defendant cannot be compelled.",
+   "B": "Section 35(4) states the accused is not compellable and is not guilty of contempt by failing to give evidence.",
+   "C": "A s.35 inference depends on silence at trial; failure to mention facts in interview is a separate matter under s.34.",
+   "D": "Section 38(3) prohibits a conviction based solely on an inference drawn under s.35(3)."
+  },
+  "key_rule": "If a defendant chooses not to testify, after the court checks he understands the consequences, the jury may draw proper inferences but cannot convict on that inference alone.",
+  "authority": "Criminal Justice and Public Order Act 1994, s.35(1)-(4) and s.38(3)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1994/33/section/35",
+  "tags": [
+   "adverse inferences",
+   "silence",
+   "trial procedure"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "The procedures and processes involved in criminal litigation: Principles and procedures to admit and exclude evidence (inferences from silence ss. 34, 35, 36, 37, 38 Criminal Justice and Public Order Act 1994)",
+   "context_subject": "Criminal Practice",
+   "source_type": "legislation",
+   "source_quote": "(3) Where this subsection applies, the court or jury, in determining whether the accused is guilty of the offence charged, may draw such inferences as appear proper from the failure of the accused to give evidence",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "The s.38(3) point is from https://www.legislation.gov.uk/ukpga/1994/33/section/38 (also fetched 16 Oct 2026)."
+  }
+ },
+ {
+  "id": "lib-crp-008",
+  "subject": "Criminal Practice",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Refusing bail where the offence was allegedly committed on bail (Bail Act 1976 Sch 1 para 2A)",
+  "scenario": "Callum Fraser, aged 34, appears before a magistrates' court in England charged with burglary of a dwelling, an either-way offence. The burglary is alleged to have been committed while he was on bail awaiting trial for an unrelated theft. The prosecution opposes bail. The court is satisfied that, if convicted, there is a real prospect that Callum will receive an immediate custodial sentence.",
+  "stem": "Which of the following best describes the court's power in relation to bail?",
+  "options": {
+   "A": "The court need not grant bail, because the offence is triable either way and it appears that Callum was on bail in criminal proceedings on the date of the offence.",
+   "B": "The court must refuse bail, because Callum is alleged to have committed the offence while on bail.",
+   "C": "The court must grant bail unless Callum has a previous conviction for failing to surrender.",
+   "D": "The court may refuse bail only if the theft for which Callum was on bail is itself an indictable offence.",
+   "E": "The court may refuse bail only on substantial grounds for believing that Callum would fail to surrender; offending on bail is irrelevant."
+  },
+  "answer": "A",
+  "explanation": "Under s.4 of the Bail Act 1976 a defendant has a general right to bail, subject to the exceptions in Schedule 1. Part 1 of Schedule 1 applies to imprisonable offences. Paragraph 2A provides that the defendant need not be granted bail if the offence is an indictable or either-way offence and it appears to the court that he was on bail in criminal proceedings on the date of the offence. Burglary of a dwelling is triable either way, and Callum was on bail for the theft when it is alleged to have been committed. The court therefore has a discretion to refuse bail on this ground alone. Because the court considers there is a real prospect of immediate custody, the 'no real prospect of custody' restriction in para 1A does not prevent reliance on para 2A. The wording is permissive: refusal is not compulsory.",
+  "why_wrong": {
+   "B": "Paragraph 2A says the defendant 'need not' be granted bail; it creates a discretion, not a duty to refuse.",
+   "C": "There is no rule that bail must be granted absent a previous failure to surrender; para 2A is an independent exception.",
+   "D": "Paragraph 2A turns on the current offence being indictable or either-way, not on the nature of the earlier proceedings.",
+   "E": "Offending while on bail is a separate statutory exception in para 2A, quite apart from the para 2 grounds."
+  },
+  "key_rule": "A court need not grant bail to a defendant charged with an indictable or either-way offence who appears to have been on bail in criminal proceedings when it was committed.",
+  "authority": "Bail Act 1976, s.4 and Sch 1 Pt 1 paras 1A and 2A",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1976/63/schedule/1",
+  "tags": [
+   "bail",
+   "bail act 1976",
+   "exceptions to bail"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "The procedures and processes involved in criminal litigation: Bail applications (the right to bail and exceptions)",
+   "context_subject": "Criminal Practice",
+   "source_type": "legislation",
+   "source_quote": "(a) the offence is an indictable offence or an offence triable either way, and (b) it appears to the court that the defendant was on bail in criminal proceedings on the date of the offence.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Para 1A was amended by the Sentencing Act 2026 with effect from 22 March 2026 (custodial sentence 'other than a suspended sentence'; adult-only). The question avoids the point by stating a real prospect of immediate custody. Sch 1 Pt 1 para 3 has an uncommenced substitution (2025 c.33 s.49), not relevant here."
+  }
+ },
+ {
+  "id": "lib-crp-009",
+  "subject": "Criminal Practice",
+  "flk": "FLK2",
+  "difficulty": "hard",
+  "title": "Prosecution appeal against a grant of bail by magistrates (Bail (Amendment) Act 1993 s.1)",
+  "scenario": "Rhys Morgan is charged with wounding with intent to cause grievous bodily harm, an offence punishable with imprisonment. The Crown Prosecution Service opposes bail at his first appearance before a magistrates' court in England, but the magistrates grant him conditional bail. The prosecutor wishes to challenge the decision.",
+  "stem": "Which of the following correctly describes the procedure for a prosecution appeal against the grant of bail?",
+  "options": {
+   "A": "The prosecutor must serve written notice of appeal within 24 hours, and Rhys is released on bail until the appeal is heard.",
+   "B": "The prosecutor must appeal to the High Court by way of case stated.",
+   "C": "The prosecutor may give oral notice of appeal at any time within two hours after Rhys has been released.",
+   "D": "The prosecutor must give oral notice at the end of the hearing and before Rhys is released, serve written notice within two hours, and the Crown Court hearing must begin within 48 hours, excluding weekends and public holidays.",
+   "E": "The prosecutor may appeal only if it did not make representations against bail at the hearing."
+  },
+  "answer": "D",
+  "explanation": "Section 1(1) of the Bail (Amendment) Act 1993 allows the prosecution to appeal to a Crown Court judge against a magistrates' court's grant of bail to a person charged with an imprisonable offence, provided the prosecution made representations against bail before it was granted (s.1(3)). Oral notice must be given to the court at the conclusion of the proceedings and before the defendant is released (s.1(4)). On receiving oral notice, the magistrates must remand the defendant in custody until the appeal is disposed of (s.1(6)). Written notice must then be served on the court and the defendant within two hours of the end of the proceedings, failing which the appeal is treated as disposed of (s.1(5) and (7)). The Crown Court hearing must begin within 48 hours, excluding weekends and public holidays, from the oral notice (s.1(8)), and proceeds by way of re-hearing.",
+  "why_wrong": {
+   "A": "Written notice is due within two hours, and the defendant is remanded in custody, not released, pending the appeal.",
+   "B": "The appeal lies to a judge of the Crown Court under s.1(1), not to the High Court by case stated.",
+   "C": "Oral notice must be given at the end of the proceedings and before release; the two-hour period applies to written notice.",
+   "E": "Section 1(3) requires that the prosecution did make representations against bail before it was granted."
+  },
+  "key_rule": "To appeal magistrates' bail, the prosecution gives oral notice before release and written notice within two hours; the defendant stays in custody and the Crown Court hears it within 48 hours.",
+  "authority": "Bail (Amendment) Act 1993, s.1(1) and (3)-(8)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1993/26/section/1",
+  "tags": [
+   "bail",
+   "bail appeals",
+   "prosecution appeal"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "The procedures and processes involved in criminal litigation: Bail applications (appeals against decisions on bail)",
+   "context_subject": "Criminal Practice",
+   "source_type": "legislation",
+   "source_quote": "Written notice of appeal shall thereafter be served on the court which has granted bail and the person concerned within two hours of the conclusion of such proceedings.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "legislation.gov.uk carries no 'up to date' banner for this section on the fetched page; the text shown is the revised version."
+  }
+ },
+ {
+  "id": "lib-crp-010",
+  "subject": "Criminal Practice",
+  "flk": "FLK2",
+  "difficulty": "easy",
+  "title": "Effect of indicating a guilty plea at plea before venue (MCA 1980 s.17A)",
+  "scenario": "Amira Haddad, aged 26, appears before a magistrates' court in England charged with theft from her employer, an either-way offence. The charge is read to her and the court explains the plea before venue procedure. She indicates that she would plead guilty.",
+  "stem": "What is the effect of Amira's indication?",
+  "options": {
+   "A": "The court must now decide whether the case is more suitable for summary trial or trial on indictment.",
+   "B": "The indication is not a plea, so Amira must formally plead again at a later trial in the magistrates' court.",
+   "C": "The court proceeds as if Amira has pleaded guilty at a summary trial; it may sentence her or, if it considers the offence so serious that the Crown Court should have power to deal with her, commit her to the Crown Court for sentence.",
+   "D": "Amira's case must be sent to the Crown Court, where she will enter her guilty plea.",
+   "E": "Amira may still elect trial by jury in the Crown Court after her indication."
+  },
+  "answer": "C",
+  "explanation": "Section 17A of the Magistrates' Courts Act 1980 governs plea before venue for adults charged with either-way offences. The court must explain that, if the accused indicates a guilty plea, the court will proceed as described in s.17A(6) and the accused may be committed to the Crown Court for sentence (s.17A(4)). Under s.17A(6), where the accused indicates a guilty plea, the court proceeds as if the proceedings had been a summary trial from the beginning and she had pleaded guilty. Amira therefore stands convicted. No allocation decision is made and there is no right to elect jury trial. The magistrates may sentence her themselves or, under s.14 of the Sentencing Code, commit her for sentence if they consider the offence so serious that the Crown Court should have the power to deal with her.",
+  "why_wrong": {
+   "A": "Allocation under ss.19-20 follows only an indication of not guilty (s.17A(7)); a guilty indication bypasses it.",
+   "B": "Section 17A(6) treats a guilty indication as a guilty plea at summary trial, so she is convicted.",
+   "D": "The case stays in the magistrates' court; the Crown Court is involved only if the court commits her for sentence.",
+   "E": "Once she has indicated a guilty plea she is treated as convicted on summary trial, so there is no election."
+  },
+  "key_rule": "A guilty plea indication at plea before venue is treated as a guilty plea at summary trial; the magistrates sentence or commit to the Crown Court for sentence.",
+  "authority": "Magistrates' Courts Act 1980, s.17A(4) and (6); Sentencing Act 2020, s.14",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1980/43/section/17A",
+  "tags": [
+   "plea before venue",
+   "either-way offences",
+   "committal for sentence"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "The procedures and processes involved in criminal litigation: Plea before Venue (procedure on defendant entering plea)",
+   "context_subject": "Criminal Practice",
+   "source_type": "legislation",
+   "source_quote": "(6) If the accused indicates that he would plead guilty the court shall proceed as if— (a) the proceedings constituted from the beginning the summary trial of the information;",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "The Judicial Review and Courts Act 2022 inserts written/online plea provisions into ss.17A-18 (uncommenced at 16 Oct 2026 per legislation.gov.uk); they do not affect this point."
+  }
+ },
+ {
+  "id": "lib-crp-011",
+  "subject": "Criminal Practice",
+  "flk": "FLK2",
+  "difficulty": "hard",
+  "title": "Binding effect of a non-custodial indication of sentence (MCA 1980 ss.20 and 20A)",
+  "scenario": "Oluwaseun Bakare, aged 41, is charged with an either-way offence before a magistrates' court in England. He indicates a not guilty plea, and the court decides that the case is more suitable for summary trial. He asks for an indication of sentence, and the court indicates that a non-custodial sentence would be more likely if he were tried summarily and pleaded guilty. He then indicates that he would plead guilty. At the sentencing hearing, a differently constituted bench considers that the offence deserves a custodial sentence.",
+  "stem": "Which of the following best describes the court's position?",
+  "options": {
+   "A": "The bench may impose a custodial sentence, because an indication of sentence is never binding.",
+   "B": "The bench may impose a custodial sentence, because the indication bound only the magistrates who gave it.",
+   "C": "The bench may impose a custodial sentence provided it reduces the term to reflect the guilty plea.",
+   "D": "The bench must allow Oluwaseun to withdraw his guilty plea before it can impose a custodial sentence.",
+   "E": "No court may impose a custodial sentence for the offence, because custody was not indicated."
+  },
+  "answer": "E",
+  "explanation": "Under s.20 of the Magistrates' Courts Act 1980, once the court has decided that summary trial is more suitable, the accused may request an indication of whether a custodial or non-custodial sentence would be more likely if he were tried summarily and pleaded guilty (s.20(3)). If an indication is given and the accused then indicates a guilty plea, the court proceeds as if he had pleaded guilty at summary trial (s.20(7)). Section 20A(1) then provides that, where the case is dealt with under s.20(7), no court, whether a magistrates' court or not, may impose a custodial sentence for the offence unless such a sentence was indicated. Because the indication was non-custodial, no bench, however constituted, may impose custody. Section 20A(3) makes indications otherwise non-binding, but the protection in s.20A(1) applies here.",
+  "why_wrong": {
+   "A": "Section 20A(1) makes a non-custodial indication binding where the accused then pleads guilty under s.20(7).",
+   "B": "Section 20A(1) binds 'no court (whether a magistrates' court or not)', not just the bench that gave the indication.",
+   "C": "Credit for the plea does not unlock custody; s.20A(1) prohibits a custodial sentence altogether unless indicated.",
+   "D": "The Act gives no route to impose custody by allowing withdrawal of the plea; s.20A(1) simply bars custody."
+  },
+  "key_rule": "If an accused pleads guilty after a non-custodial indication of sentence under s.20, no court may impose a custodial sentence for that offence.",
+  "authority": "Magistrates' Courts Act 1980, ss.20(3), 20(7) and 20A(1) and (3)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1980/43/section/20A",
+  "tags": [
+   "allocation",
+   "indication of sentence",
+   "either-way offences"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "The procedures and processes involved in criminal litigation: Allocation of business between magistrates' court and Crown Court (procedure ss. 19-20 and s. 22A Magistrates' Courts Act 1980)",
+   "context_subject": "Criminal Practice",
+   "source_type": "legislation",
+   "source_quote": "(1) Where the case is dealt with in accordance with section 20(7) above, no court (whether a magistrates' court or not) may impose a custodial sentence for the offence unless such a sentence was indicated in the indication of sentence",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Section 20A(2) makes s.20A(1) subject to Sentencing Code ss.15(4), 18(8) and 21(6) (committal in related-offence situations); the question avoids committal. Uncommenced JRCA 2022 amendments to s.20 noted on legislation.gov.uk."
+  }
+ },
+ {
+  "id": "lib-crp-012",
+  "subject": "Criminal Practice",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Sending an adult co-defendant jointly charged with a related either-way offence (CDA 1998 s.51(5))",
+  "scenario": "Jade Thompson and Lewis Park, both adults, appear together before a magistrates' court in England. Jade is charged with robbery, which is triable only on indictment. Arising from the same incident, Jade and Lewis are jointly charged with assault occasioning actual bodily harm, an either-way offence. The court sends Jade to the Crown Court for the robbery and for the related assault.",
+  "stem": "How should the court deal with Lewis?",
+  "options": {
+   "A": "It must take Lewis's indication of plea and, if he indicates not guilty, decide allocation in the usual way.",
+   "B": "It must send Lewis to the Crown Court for trial forthwith for the assault.",
+   "C": "It may send Lewis to the Crown Court if it thinks fit, but it is not obliged to do so.",
+   "D": "It may send Lewis to the Crown Court only if he elects trial on indictment.",
+   "E": "It must keep Lewis's case in the magistrates' court and try him summarily if he consents."
+  },
+  "answer": "B",
+  "explanation": "Section 51(1) of the Crime and Disorder Act 1998 requires an adult charged with an indictable-only offence, such as robbery, to be sent to the Crown Court forthwith. Under s.51(3), the court must at the same time send her for any related either-way offence, so Jade is sent for the assault as well. Section 51(5) deals with another adult who appears on the same or a later occasion charged jointly with the sent defendant with a related either-way offence: the court 'shall where it is the same occasion, and may where it is a subsequent occasion' send that adult forthwith to the Crown Court. Lewis appears on the same occasion, jointly charged with Jade with the related assault, so the court must send him straight away, without plea before venue or allocation.",
+  "why_wrong": {
+   "A": "Section 51(5) displaces plea before venue and allocation for a jointly charged adult appearing on the same occasion.",
+   "C": "The discretion ('may') applies only where the co-defendant appears on a subsequent occasion; on the same occasion it is mandatory.",
+   "D": "Sending under s.51(5) does not depend on the co-defendant's election.",
+   "E": "Section 51(5) requires sending, so the court cannot retain the case for summary trial."
+  },
+  "key_rule": "An adult jointly charged with a sent defendant with a related either-way offence must be sent forthwith if appearing on the same occasion; on a later occasion sending is discretionary.",
+  "authority": "Crime and Disorder Act 1998, s.51(1), (3) and (5)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1998/37/section/51",
+  "tags": [
+   "sending to crown court",
+   "allocation",
+   "co-defendants"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "The procedures and processes involved in criminal litigation: Allocation of business between magistrates' court and Crown Court (sending without allocation s. 50A and s. 51 Crime and Disorder Act 1998)",
+   "context_subject": "Criminal Practice",
+   "source_type": "legislation",
+   "source_quote": "the court shall where it is the same occasion, and may where it is a subsequent occasion, send the other adult forthwith to the Crown Court for trial for the either-way offence.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "legislation.gov.uk lists uncommenced substitutions of s.51 by the Judicial Review and Courts Act 2022 (s.10) and a word omission by a 2026 Act; text in force at 16 Oct 2026 used."
+  }
+ },
+ {
+  "id": "lib-crp-013",
+  "subject": "Criminal Practice",
+  "flk": "FLK2",
+  "difficulty": "easy",
+  "title": "The prosecution's initial duty of disclosure of unused material (CPIA 1996 s.3)",
+  "scenario": "Shauna Clarke is charged with robbery and pleads not guilty. Among the material gathered by the police, which the prosecution does not intend to use, is a statement from a passer-by describing the robber as having a full beard. Shauna's appearance at the time does not match that description, and the issue at trial is identification.",
+  "stem": "What must the prosecutor do with the passer-by's statement?",
+  "options": {
+   "A": "Disclose it to the defence, because it might reasonably be considered capable of undermining the prosecution case or assisting Shauna's case.",
+   "B": "Disclose it only if Shauna first serves a defence statement raising identification.",
+   "C": "Retain it without disclosing it, because the prosecution does not intend to rely on it.",
+   "D": "Disclose it only if the court makes an order for disclosure.",
+   "E": "Disclose every item of unused material in the case, whether or not it is relevant to the issues."
+  },
+  "answer": "A",
+  "explanation": "Section 3(1) of the Criminal Procedure and Investigations Act 1996 imposes the prosecutor's initial duty of disclosure. The prosecutor must disclose to the accused any prosecution material not previously disclosed which might reasonably be considered capable of undermining the case for the prosecution or of assisting the case for the accused, or give a written statement that there is no such material. The test is objective and applies to unused material, that is, material the prosecution does not intend to rely on. A witness description of the robber as bearded, when Shauna did not match it, plainly might be considered capable of undermining the identification case and assisting the defence. It must therefore be disclosed at the initial stage, without waiting for a defence statement or a court order.",
+  "why_wrong": {
+   "B": "The s.3 duty arises first; a defence statement comes later and triggers the continuing duty, not the initial one.",
+   "C": "Unused material is precisely what s.3 is aimed at; the prosecution's intention not to rely on it is irrelevant.",
+   "D": "The s.3 duty is a statutory obligation on the prosecutor and needs no court order.",
+   "E": "Section 3 requires disclosure only of material meeting the undermine-or-assist test, not all unused material."
+  },
+  "key_rule": "The prosecutor must disclose any unused material that might reasonably be considered capable of undermining the prosecution case or assisting the accused's case.",
+  "authority": "Criminal Procedure and Investigations Act 1996, s.3(1)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1996/25/section/3",
+  "tags": [
+   "disclosure",
+   "cpia 1996",
+   "unused material"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "The procedures and processes involved in criminal litigation: Case management and pre-trial hearings (disclosure - prosecution, defence and unused material)",
+   "context_subject": "Criminal Practice",
+   "source_type": "legislation",
+   "source_quote": "which might reasonably be considered capable of undermining the case for the prosecution against the accused or of assisting the case for the accused",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-crp-014",
+  "subject": "Criminal Practice",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Defence statements in the magistrates' court: voluntary but not risk-free (CPIA 1996 ss.6 and 11)",
+  "scenario": "Natalia Wiśniewska pleads not guilty in a magistrates' court in England to a charge of common assault, a summary offence, and her trial is fixed. The prosecution has complied with its initial duty of disclosure. Natalia asks her solicitor whether she has to give a defence statement.",
+  "stem": "What is the best advice to Natalia?",
+  "options": {
+   "A": "She must give a defence statement within the time limit, or the court will be able to draw inferences against her.",
+   "B": "She must give a defence statement only if her defence is alibi.",
+   "C": "She need not give one, and no inference can ever arise from a defence statement in the magistrates' court.",
+   "D": "She need not give one, but if she does and then puts forward a different defence at trial, the court may comment and draw proper inferences.",
+   "E": "She must give one, because otherwise the prosecution will have no continuing duty of disclosure."
+  },
+  "answer": "D",
+  "explanation": "The Criminal Procedure and Investigations Act 1996 makes a defence statement compulsory only in cases to be tried in the Crown Court (s.5). For a summary trial, s.6 applies: where the prosecutor has complied with the initial duty of disclosure, the accused 'may' give a defence statement, and if she does she must give it within the relevant period. Natalia is therefore not obliged to serve one. However, s.11(3) applies where the accused in a s.6 case does give an initial defence statement and then, for example, gives it late, sets out inconsistent defences, or at trial puts forward a defence not mentioned or different from that in the statement. In that event, s.11(5) allows the court or any other party to make appropriate comment and the court to draw proper inferences. Serving a statement may still help, for example to support an application for further disclosure.",
+  "why_wrong": {
+   "A": "That describes the compulsory Crown Court regime under s.5; in a summary trial the statement is voluntary under s.6.",
+   "B": "There is no alibi-only obligation; alibi details matter only if a defence statement is given.",
+   "C": "Section 11(3) applies faults in a voluntary s.6 statement, so comment and inferences can arise.",
+   "E": "The prosecutor's continuing duty of review applies whether or not a defence statement is given."
+  },
+  "key_rule": "In summary trials a defence statement is voluntary, but if one is given, late service, inconsistency or departure from it at trial may attract comment and adverse inferences.",
+  "authority": "Criminal Procedure and Investigations Act 1996, ss.5, 6 and 11(3) and (5)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1996/25/section/6",
+  "tags": [
+   "disclosure",
+   "defence statement",
+   "cpia 1996"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "The procedures and processes involved in criminal litigation: Case management and pre-trial hearings (disclosure - prosecution, defence and unused material)",
+   "context_subject": "Criminal Practice",
+   "source_type": "legislation",
+   "source_quote": "(2) The accused— (a) may give a defence statement to the prosecutor, and (b) if he does so, must also give such a statement to the court.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "The s.11 point is from https://www.legislation.gov.uk/ukpga/1996/25/section/11 (also fetched 16 Oct 2026)."
+  }
+ },
+ {
+  "id": "lib-crp-015",
+  "subject": "Criminal Practice",
+  "flk": "FLK2",
+  "difficulty": "easy",
+  "title": "The legal burden and standard of proof where the defendant claims accident (Woolmington v DPP)",
+  "scenario": "Sofia Romano is tried in the Crown Court in England for unlawful wounding. The prosecution proves that the victim was cut by a glass Sofia was holding. Sofia gives evidence that the injury was a pure accident caused when she stumbled. There is no statutory provision placing any burden on her.",
+  "stem": "How should the judge direct the jury on the burden and standard of proof?",
+  "options": {
+   "A": "Sofia must prove that the injury was an accident on the balance of probabilities.",
+   "B": "Once the prosecution proves that Sofia caused the injury, the burden shifts to her to prove it was an accident.",
+   "C": "The prosecution must prove Sofia's guilt so that the jury are sure; if they are left in reasonable doubt whether it was an accident, they must acquit.",
+   "D": "The jury should decide whether Sofia's account or the prosecution's is more likely to be true.",
+   "E": "Sofia must prove that the injury was an accident beyond reasonable doubt."
+  },
+  "answer": "C",
+  "explanation": "In Woolmington v DPP [1935] UKHL 1 the House of Lords held that, throughout the criminal law, it is the duty of the prosecution to prove the accused's guilt, subject only to the defence of insanity and to statutory exceptions. The accused does not have to prove his innocence or prove an accident; it is enough for him to raise a reasonable doubt. If, at the end of and on the whole of the case, there is a reasonable doubt created by the evidence of either side, the prosecution has not made out its case and the accused is entitled to be acquitted. No statute reverses the burden here, so the prosecution bears the legal burden of proving every element, including the mental element, to the criminal standard. If Sofia's account leaves the jury unsure, they must acquit.",
+  "why_wrong": {
+   "A": "Absent insanity or a statutory exception, the defendant bears no legal burden; she need only raise a reasonable doubt.",
+   "B": "Woolmington rejected any rule that the burden shifts to the accused once the act is proved.",
+   "D": "Weighing which account is more likely is the civil standard, not proof of guilt so that the jury are sure.",
+   "E": "No burden of proof lies on the defendant at all on accident, let alone to the criminal standard."
+  },
+  "key_rule": "The prosecution must prove guilt beyond reasonable doubt; save for insanity and statutory exceptions, the defendant need only raise a reasonable doubt.",
+  "authority": "Woolmington v DPP [1935] UKHL 1, [1935] AC 462",
+  "verified_source_url": "https://www.bailii.org/uk/cases/UKHL/1935/1.html",
+  "tags": [
+   "burden of proof",
+   "standard of proof",
+   "woolmington"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "The procedures and processes involved in criminal litigation: Trial procedure in magistrates' court and Crown Court (burden and standards of proof)",
+   "context_subject": "Criminal Practice",
+   "source_type": "judgment",
+   "source_quote": "while the prosecution must prove the guilt of the prisoner, there is no such burden laid on the prisoner to prove his innocence and it is sufficient for him to raise a doubt as to his guilt",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-crp-016",
+  "subject": "Criminal Practice",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Withdrawing poor, unsupported identification evidence from the jury (Turnbull)",
+  "scenario": "Kieran Doyle is tried in the Crown Court in England for robbery. The only evidence that he was the robber comes from a witness who glimpsed the robber's face for about two seconds, at night, in heavy rain, from about 40 metres away through a car windscreen. There is no other evidence supporting the identification. At the close of the prosecution case, defence counsel submits that there is no case to answer.",
+  "stem": "What should the judge do?",
+  "options": {
+   "A": "Leave the case to the jury with a full Turnbull warning about the special need for caution.",
+   "B": "Withdraw the case from the jury and direct an acquittal, because the identification evidence is poor and unsupported.",
+   "C": "Leave the case to the jury, because the reliability of a witness is always a matter for the jury.",
+   "D": "Exclude the identification under s.76 of the Police and Criminal Evidence Act 1984.",
+   "E": "Adjourn the trial so that the police can hold an identification parade."
+  },
+  "answer": "B",
+  "explanation": "The Turnbull guidelines, from R v Turnbull [1977] QB 224, govern disputed visual identification evidence. Where the identification is of good quality, the case may be left to the jury with a careful warning about the special need for caution. But where, in the judge's view, the quality of the identification evidence is poor, as when it depends on a fleeting glance or an observation in difficult conditions, and there is no other evidence supporting its correctness, the judge should withdraw the case from the jury and direct an acquittal. The Crown Court Compendium summarises the duty: judges must examine the identification evidence at the close of the prosecution case and stop the case if it is poor and unsupported. A two-second glimpse at night, in rain, at 40 metres through glass, with nothing else, is a classic poor-quality, unsupported identification.",
+  "why_wrong": {
+   "A": "A Turnbull warning is the course for good-quality identification; poor and unsupported evidence must not go to the jury at all.",
+   "C": "Turnbull is a specific exception requiring the judge to stop a case resting on poor, unsupported identification.",
+   "D": "Section 76 concerns the admissibility of confessions, not identification evidence.",
+   "E": "A late identification procedure cannot cure the poor quality of the original observation, and the judge's duty is to rule on the evidence as it stands."
+  },
+  "key_rule": "Where disputed identification evidence is poor (for example, a fleeting glance in difficult conditions) and unsupported, the judge should withdraw the case and direct an acquittal.",
+  "authority": "R v Turnbull [1977] QB 224 (CA); Crown Court Compendium Part I (Oct 2025, updated Mar 2026), ch 15-1",
+  "verified_source_url": "https://www.judiciary.uk/wp-content/uploads/2022/06/Crown-Court-Compendium-Part-I-Oct-25-Mar-26-update.pdf",
+  "tags": [
+   "identification evidence",
+   "turnbull",
+   "no case to answer"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "The procedures and processes involved in criminal litigation: Principles and procedures to admit and exclude evidence (visual identification evidence and Turnbull guidelines)",
+   "context_subject": "Criminal Practice",
+   "source_type": "official-guidance",
+   "source_quote": "Judges are also required to examine the state of identification evidence at the close of the prosecution case and to stop the case if it is poor and unsupported.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Turnbull itself is not on BAILII or the National Archives; the Judicial College's Crown Court Compendium is used as the official statement of the rule."
+  }
+ },
+ {
+  "id": "lib-crp-017",
+  "subject": "Criminal Practice",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Submission of no case to answer where the issue is a witness's reliability (R v Galbraith)",
+  "scenario": "Ravi Desai is tried in the Crown Court in England for fraud by false representation. The prosecution case rests mainly on the evidence of his former business partner, which, if believed, proves every element of the offence. In cross-examination the partner admitted making an earlier statement inconsistent with his evidence and admitted that he had a financial motive to blame Ravi. At the close of the prosecution case, the defence submits that there is no case to answer.",
+  "stem": "How should the judge approach the submission?",
+  "options": {
+   "A": "Stop the case, because the partner's credibility has been seriously damaged in cross-examination.",
+   "B": "Stop the case if the judge personally considers that a conviction would be unsafe.",
+   "C": "Defer a ruling until the defence has called its evidence.",
+   "D": "Leave the case to the jury only if there is independent evidence corroborating the partner.",
+   "E": "Allow the case to go to the jury, because the strength of the evidence depends on the partner's reliability and, on one possible view, a jury could properly convict."
+  },
+  "answer": "E",
+  "explanation": "R v Galbraith [1981] 1 WLR 1039 sets the test for a submission of no case to answer. If there is no evidence that the defendant committed the crime, the judge stops the case. Where there is some evidence but it is tenuous, the judge must stop the case if the prosecution evidence, taken at its highest, is such that a jury properly directed could not properly convict on it. However, where the strength or weakness of the prosecution evidence depends on the view taken of a witness's reliability, or other matters generally within the province of the jury, and on one possible view of the facts there is evidence on which a jury could properly convict, the judge should allow the matter to be tried by the jury. The partner's evidence, if believed, proves the offence; the inconsistency and motive go to reliability, which is for the jury.",
+  "why_wrong": {
+   "A": "Damage to credibility goes to reliability, which Galbraith leaves to the jury where one possible view supports conviction.",
+   "B": "Galbraith rejected the approach of stopping a case merely because the judge thinks a conviction would be unsafe.",
+   "C": "A submission of no case is decided at the close of the prosecution case, on the prosecution evidence.",
+   "D": "There is no general requirement of corroboration before a case can be left to the jury."
+  },
+  "key_rule": "Under Galbraith, a case should go to the jury where its strength depends on a witness's reliability and, on one possible view, a jury could properly convict.",
+  "authority": "R v Galbraith [1981] 1 WLR 1039 (CA)",
+  "verified_source_url": "https://park-square-barristers.s3.amazonaws.com/uploads/2019/03/R.-the-Galbraith-Plus-test.-v-Galbraith-George-Charles-1981-1-W.L.R.-1039-1981-5-WLUK-173.pdf",
+  "tags": [
+   "no case to answer",
+   "galbraith",
+   "trial procedure"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "The procedures and processes involved in criminal litigation: Trial procedure in magistrates' court and Crown Court (stages of a criminal trial, including submission of no case to answer)",
+   "context_subject": "Criminal Practice",
+   "source_type": "judgment",
+   "source_quote": "Where however the prosecution evidence is such that its strength or weakness depends on the view to be taken of a witness's reliability, or other matters which are generally speaking within the province of the jury",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "The source is the Weekly Law Reports text of the judgment hosted by a barristers' chambers (no free BAILII or National Archives copy found). Reviewer may prefer to cite the Crown Court Compendium or CrimPR r.24.3(3)(d) for the magistrates' equivalent."
+  }
+ },
+ {
+  "id": "lib-crp-018",
+  "subject": "Criminal Practice",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Excluding a confession obtained by an inducement: unreliability under PACE 1984 s.76(2)(b)",
+  "scenario": "Liam O'Connor, aged 19, is interviewed at a police station in England on suspicion of burglary, having declined legal advice. During the interview the officer tells him: 'If you admit this now, you'll be home tonight and we'll forget about the other jobs.' Liam then confesses. At trial, the defence represents to the court that the confession was obtained in consequence of what the officer said. The prosecution replies that the confession is plainly true, as CCTV shows Liam near the property.",
+  "stem": "Which of the following best describes how the court must deal with the confession?",
+  "options": {
+   "A": "It must not admit the confession unless the prosecution proves beyond reasonable doubt that it was not obtained in consequence of what was said, even if the confession may be true.",
+   "B": "It must admit the confession, because the CCTV evidence shows that the confession is true.",
+   "C": "It may exclude the confession only if the defence proves on the balance of probabilities that it was obtained by oppression.",
+   "D": "It has only a discretion to exclude the confession under s.78 of the Police and Criminal Evidence Act 1984.",
+   "E": "It must exclude the confession only if the officer acted in bad faith."
+  },
+  "answer": "A",
+  "explanation": "Section 76(2) of PACE 1984 applies where it is represented to the court that a confession was or may have been obtained by oppression or 'in consequence of anything said or done which was likely, in the circumstances existing at the time, to render unreliable any confession which might be made by him in consequence thereof'. Once that is raised, the court shall not allow the confession in evidence except so far as the prosecution proves beyond reasonable doubt that the confession, notwithstanding that it may be true, was not so obtained. An offer of release that night and of dropping other matters, made to a young, unrepresented suspect, is a classic inducement likely to render a confession unreliable. Whether the confession is true is irrelevant to the test, and the court has no discretion: unless the prosecution discharges its burden, the confession is excluded.",
+  "why_wrong": {
+   "B": "Section 76(2) applies 'notwithstanding that it may be true', so corroboration of its truth does not make it admissible.",
+   "C": "The burden is on the prosecution to the criminal standard, and the unreliability limb in s.76(2)(b) does not require oppression.",
+   "D": "Section 76(2) is mandatory; s.78 is an additional discretion, not the only basis for exclusion.",
+   "E": "Section 76(2)(b) looks at the likely effect of what was said or done, not whether the officer acted in bad faith."
+  },
+  "key_rule": "Once unreliability or oppression is raised, a confession is excluded unless the prosecution proves beyond reasonable doubt it was not so obtained, even if it may be true.",
+  "authority": "Police and Criminal Evidence Act 1984, s.76(2)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1984/60/section/76",
+  "tags": [
+   "confessions",
+   "pace",
+   "exclusion of evidence"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "The procedures and processes involved in criminal litigation: Principles and procedures to admit and exclude evidence (confession evidence: challenging admissibility s. 76 PACE 1984)",
+   "context_subject": "Criminal Practice",
+   "source_type": "legislation",
+   "source_quote": "the court shall not allow the confession to be given in evidence against him except in so far as the prosecution proves to the court beyond reasonable doubt that the confession (notwithstanding that it may be true) was not obtained",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-crp-019",
+  "subject": "Criminal Practice",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Discretion to exclude identification evidence obtained after a Code D breach (PACE 1984 s.78)",
+  "scenario": "Before holding a video identification, an officer investigating an assault in England shows the victim a single photograph of the suspect, Andre Silva, saying 'this is the man we've arrested'. The victim then picks Andre out at the video identification. At Andre's trial, the defence applies to exclude the identification evidence on the ground of the breach of Code D.",
+  "stem": "Which of the following best describes the court's power?",
+  "options": {
+   "A": "The court must exclude the evidence, because any breach of Code D makes identification evidence inadmissible.",
+   "B": "The court cannot exclude the evidence, because s.78 applies only to confessions.",
+   "C": "The court must exclude the evidence unless the prosecution proves beyond reasonable doubt that the breach did not affect the identification.",
+   "D": "The court may refuse to admit the evidence if, having regard to all the circumstances, including how it was obtained, its admission would have such an adverse effect on the fairness of the proceedings that it ought not to be admitted.",
+   "E": "The court has no power to exclude the evidence; the breach goes only to the weight the jury gives it."
+  },
+  "answer": "D",
+  "explanation": "Section 78(1) of PACE 1984 gives the court a discretion to refuse to allow evidence on which the prosecution proposes to rely if, having regard to all the circumstances, including the circumstances in which the evidence was obtained, its admission would have such an adverse effect on the fairness of the proceedings that the court ought not to admit it. The section applies to any prosecution evidence, including identification evidence. A breach of Code D does not automatically lead to exclusion; the court considers whether the breach may have prejudiced the defendant and whether fairness requires exclusion. Showing the witness a single photograph of the arrested suspect immediately before the procedure is a serious breach that may well have contaminated the identification, so this is a strong case for the court to exercise its s.78 discretion.",
+  "why_wrong": {
+   "A": "A Code D breach does not make evidence automatically inadmissible; exclusion is discretionary under s.78.",
+   "B": "Section 78 applies to any evidence on which the prosecution proposes to rely, not only confessions.",
+   "C": "The mandatory beyond-reasonable-doubt test belongs to confessions under s.76(2), not to s.78.",
+   "E": "Section 78 expressly empowers the court to refuse to admit unfairly obtained prosecution evidence."
+  },
+  "key_rule": "Under s.78 PACE, the court may exclude any prosecution evidence whose admission would so adversely affect the fairness of proceedings that it ought not to be admitted.",
+  "authority": "Police and Criminal Evidence Act 1984, s.78(1); PACE Code D (2023)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1984/60/section/78",
+  "tags": [
+   "exclusion of evidence",
+   "pace",
+   "identification evidence"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "The procedures and processes involved in criminal litigation: Principles and procedures to admit and exclude evidence (exclusion of evidence: scope and application of s. 78 PACE 1984 and the right to a fair trial)",
+   "context_subject": "Criminal Practice",
+   "source_type": "legislation",
+   "source_quote": "the court may refuse to allow evidence on which the prosecution proposes to rely to be given if it appears to the court that, having regard to all the circumstances, including the circumstances in which the evidence was obtained,",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-crp-020",
+  "subject": "Criminal Practice",
+  "flk": "FLK2",
+  "difficulty": "hard",
+  "title": "Admitting the statement of a witness too frightened to testify (CJA 2003 ss.114 and 116(2)(e))",
+  "scenario": "Ibrahim Sesay is tried for wounding in England. Megan Lloyd, who saw the attack, gave the police a signed witness statement identifying Ibrahim. Before trial, she receives anonymous threats against her younger brother and refuses to give oral evidence, either in person or with special measures. There is nothing to suggest that the prosecution or anyone acting for it caused her fear. The prosecution applies to read her statement as evidence of its contents, and the defence objects.",
+  "stem": "Which of the following best describes whether Megan's statement can be admitted?",
+  "options": {
+   "A": "It is admissible automatically, without leave, because Megan is unavailable through fear.",
+   "B": "It is inadmissible, because 'fear' covers only a witness's fear for her own safety.",
+   "C": "It is admissible only with the court's leave, which may be given only if the court considers it ought to be admitted in the interests of justice, having regard to matters including its contents, any risk of unfairness and the availability of special measures.",
+   "D": "It is inadmissible, because the statement of an identified witness who is in the United Kingdom can be admitted only if all parties agree.",
+   "E": "It is admissible only if the prosecution proves that Ibrahim personally caused Megan's fear."
+  },
+  "answer": "C",
+  "explanation": "Section 114(1)(a) of the Criminal Justice Act 2003 admits hearsay where a provision of the Act makes it admissible, and s.116 is one such provision. Under s.116(1) and (2)(e), the statement of an identified person, whose oral evidence would have been admissible, may be admitted where through fear that person does not give oral evidence, and the court gives leave. Section 116(3) requires 'fear' to be widely construed, expressly including fear of the death or injury of another person, so fear for her brother counts. Unlike the other four conditions, the fear condition requires leave. Under s.116(4), leave may be given only if the court considers the statement ought to be admitted in the interests of justice, having regard to its contents, any risk of unfairness (in particular the difficulty of challenging it), whether a special measures direction could be made, and any other relevant circumstances.",
+  "why_wrong": {
+   "A": "Leave of the court is required for the fear condition in s.116(2)(e), unlike the other unavailability conditions.",
+   "B": "Section 116(3) says fear is to be widely construed and includes fear of the death or injury of another person.",
+   "D": "Agreement under s.114(1)(c) is only one route; s.116 is a separate statutory route under s.114(1)(a).",
+   "E": "Who caused the fear does not matter, save that s.116(5) bars the party (or its agent) who caused it from relying on it."
+  },
+  "key_rule": "A frightened witness's statement can be admitted under s.116(2)(e) only with leave, given if the interests of justice require it, considering its contents, unfairness and special measures.",
+  "authority": "Criminal Justice Act 2003, ss.114(1)(a) and 116(1)-(5)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2003/44/section/116",
+  "tags": [
+   "hearsay",
+   "unavailable witness",
+   "criminal justice act 2003"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "The procedures and processes involved in criminal litigation: Principles and procedures to admit and exclude evidence (hearsay evidence: definition; grounds for admitting hearsay evidence; challenging admissibility)",
+   "context_subject": "Criminal Practice",
+   "source_type": "legislation",
+   "source_quote": "(4) Leave may be given under subsection (2)(e) only if the court considers that the statement ought to be admitted in the interests of justice, having regard— (a) to the statement's contents,",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "The s.114(1) framework is at https://www.legislation.gov.uk/ukpga/2003/44/section/114 (also fetched 16 Oct 2026). Note for reviewers: a statement by an unidentified maker was deliberately avoided, as R v Ford [2010] EWCA Crim 2250 and R v Mayers [2008] EWCA Crim 2989 treat anonymous hearsay as inadmissible."
+  }
+ },
+ {
+  "id": "lib-crp-021",
+  "subject": "Criminal Practice",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Adducing a complainant's previous convictions: non-defendant bad character (CJA 2003 s.100)",
+  "scenario": "Ali Hassan is tried for assaulting Darren Hughes outside a pub in England. Ali's defence is that Darren attacked him first and he acted in self-defence. Darren has two convictions for assault occasioning actual bodily harm within the past three years, both arising from unprovoked attacks on strangers outside pubs. Ali's counsel wishes to cross-examine Darren about the convictions. The prosecution does not agree.",
+  "stem": "Which of the following best describes whether the convictions can be put to Darren?",
+  "options": {
+   "A": "They can be put without restriction, because a complainant's character is always relevant to his credibility.",
+   "B": "They can be put only with the leave of the court, which may be given if they have substantial probative value in relation to a matter in issue of substantial importance in the context of the case as a whole.",
+   "C": "They cannot be put, because the Criminal Justice Act 2003 allows bad character evidence only about the defendant.",
+   "D": "They can be put only if the prosecution agrees, since agreement is the sole route for a non-defendant's bad character.",
+   "E": "They can be put only if the convictions are for an offence of the same description as the offence charged against Ali."
+  },
+  "answer": "B",
+  "explanation": "Section 100(1) of the Criminal Justice Act 2003 admits evidence of the bad character of a person other than the defendant only if it is important explanatory evidence, has substantial probative value in relation to a matter which is in issue and is of substantial importance in the context of the case as a whole, or all parties agree. Except where all parties agree, s.100(4) requires the leave of the court. Here the prosecution does not agree, so leave is needed. Who was the aggressor is the central issue, and recent convictions for unprovoked violence in similar circumstances are capable of having substantial probative value on it. In assessing probative value the court considers factors in s.100(3), such as the nature and number of the events and when they occurred. The defence should therefore apply for leave under s.100(1)(b).",
+  "why_wrong": {
+   "A": "Section 100 restricts non-defendant bad character to its gateways and requires leave unless all parties agree.",
+   "C": "Section 100 expressly governs bad character of persons other than the defendant, including complainants.",
+   "D": "Agreement is only one gateway; without it, evidence may be admitted with leave under s.100(1)(a) or (b).",
+   "E": "The 'same description' concept relates to a defendant's propensity under s.103; it is not a condition of s.100."
+  },
+  "key_rule": "A non-defendant's bad character needs the court's leave unless all parties agree, and is admitted only as important explanatory evidence or if it has substantial probative value on an important issue.",
+  "authority": "Criminal Justice Act 2003, s.100(1), (3) and (4)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2003/44/section/100",
+  "tags": [
+   "bad character",
+   "non-defendant",
+   "criminal justice act 2003"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "The procedures and processes involved in criminal litigation: Principles and procedures to admit and exclude evidence (bad character evidence: the 3 gateways s. 100(1) Criminal Justice Act 2003)",
+   "context_subject": "Criminal Practice",
+   "source_type": "legislation",
+   "source_quote": "(4) Except where subsection (1)(c) applies, evidence of the bad character of a person other than the defendant must not be given without leave of the court.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Adducing Darren's convictions may itself open gateway (g) against Ali under s.101(1)(g) and s.106; deliberately not tested here."
+  }
+ },
+ {
+  "id": "lib-crp-022",
+  "subject": "Criminal Practice",
+  "flk": "FLK2",
+  "difficulty": "hard",
+  "title": "Attack on another's character and the power to exclude (CJA 2003 s.101(1)(g) and (3))",
+  "scenario": "Nathan Clarke is tried in the Crown Court in England for possession of a controlled drug with intent to supply. When interviewed under caution, he said that the arresting officer planted the drugs on him, and at trial his counsel puts that allegation to the officer in cross-examination. The prosecution applies to adduce Nathan's two convictions for theft, recorded 14 years ago. The defence applies to exclude the convictions.",
+  "stem": "Which of the following best describes the position?",
+  "options": {
+   "A": "Gateway (g) is not open, because challenging a prosecution witness is a necessary part of Nathan's defence.",
+   "B": "Gateway (g) is open, and the court has no power to exclude the convictions, because the statutory exclusion test applies only to gateway (d).",
+   "C": "Gateway (g) is open, and the only power to exclude the convictions is the general discretion in s.78 of the Police and Criminal Evidence Act 1984.",
+   "D": "The convictions are admissible only under gateway (d), to show a propensity to be untruthful.",
+   "E": "Gateway (g) is open, but the court must not admit the convictions if their admission would have such an adverse effect on the fairness of the proceedings that it ought not to admit them, having regard in particular to the time that has passed."
+  },
+  "answer": "E",
+  "explanation": "Under s.101(1)(g) of the Criminal Justice Act 2003, a defendant's bad character is admissible if he has made an attack on another person's character. Section 106 explains that this includes asking questions in cross-examination intended to elicit evidence attacking another's character and an imputation made when questioned under caution; an allegation that an officer planted drugs is an allegation of an offence and of reprehensible behaviour. Gateway (g) is therefore open. However, s.101(3) provides that the court must not admit evidence under gateway (d) or (g) if, on the defendant's application, it appears that its admission would have such an adverse effect on the fairness of the proceedings that it ought not to be admitted. Under s.101(4) the court must have regard in particular to the time between the matters in the evidence and the offence charged; convictions 14 years old will weigh in that assessment.",
+  "why_wrong": {
+   "A": "Section 101(1)(g) and s.106 contain no exception for attacks that form part of the defence case.",
+   "B": "Section 101(3) applies to both gateways (d) and (g).",
+   "C": "Section 101(3) gives a specific statutory test (and duty) to exclude, so s.78 is not the only route.",
+   "D": "The prosecution relies on gateway (g); old theft convictions do not have to fit gateway (d) to be adduced."
+  },
+  "key_rule": "Attacking another's character opens gateway (g), but on the defendant's application the court must exclude the evidence if admitting it would be unfair, considering especially its age.",
+  "authority": "Criminal Justice Act 2003, ss.101(1)(g), 101(3)-(4) and 106",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2003/44/section/101",
+  "tags": [
+   "bad character",
+   "gateway g",
+   "criminal justice act 2003"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "The procedures and processes involved in criminal litigation: Principles and procedures to admit and exclude evidence (bad character evidence: the 7 gateways s. 101(1) Criminal Justice Act 2003; court's powers to exclude bad character evidence)",
+   "context_subject": "Criminal Practice",
+   "source_type": "legislation",
+   "source_quote": "The court must not admit evidence under subsection (1)(d) or (g) if, on an application by the defendant to exclude it, it appears to the court that the admission of the evidence would have such an adverse effect",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "The s.106 definition is from https://www.legislation.gov.uk/ukpga/2003/44/section/106 (also fetched 16 Oct 2026)."
+  }
+ },
+ {
+  "id": "lib-crp-023",
+  "subject": "Criminal Practice",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Calculating guilty plea credit after a plea at the PTPH and a lost Newton hearing",
+  "scenario": "Zara Ahmed is charged with an either-way offence. At her first appearance in the magistrates' court she indicates a not guilty plea and the case is sent to the Crown Court. At the plea and trial preparation hearing she pleads guilty, but on a basis the prosecution does not accept. The judge holds a Newton hearing and rejects her version of events. The judge decides that the sentence after a trial would have been 24 months' imprisonment, that a one-quarter reduction would have been appropriate at the stage she pleaded, and that no further decrease is warranted beyond the guideline's normal approach to a lost Newton hearing.",
+  "stem": "Applying the Sentencing Council's guilty plea guideline, what sentence should the judge impose?",
+  "options": {
+   "A": "21 months' imprisonment.",
+   "B": "16 months' imprisonment.",
+   "C": "18 months' imprisonment.",
+   "D": "24 months' imprisonment, because a defendant who loses a Newton hearing loses all credit for the plea.",
+   "E": "22 months' imprisonment."
+  },
+  "answer": "A",
+  "explanation": "Section 73 of the Sentencing Act 2020 requires the court to take into account the stage at which, and circumstances in which, a guilty plea was indicated, and the Sentencing Council's Reduction in sentence for a guilty plea guideline sets the amounts. A plea indicated at the first stage attracts one-third; after the first stage the maximum is one-quarter, sliding to one-tenth on the first day of trial. Zara indicated not guilty in the magistrates' court, so her plea at the PTPH falls after the first stage, and the judge has found one-quarter appropriate. The guideline adds that where an offender's version is rejected at a Newton hearing, the reduction which would have been available should normally be halved. Halving one-quarter gives one-eighth. One-eighth of 24 months is 3 months, so the sentence is 21 months.",
+  "why_wrong": {
+   "B": "This applies a one-third reduction, available only where the plea is indicated at the first stage.",
+   "C": "This applies the full one-quarter reduction without halving it for the lost Newton hearing.",
+   "D": "The guideline halves the reduction after a lost Newton hearing; it does not remove all credit.",
+   "E": "This applies a one-twelfth reduction, which matches neither the stage of plea nor the halving after a lost Newton hearing."
+  },
+  "key_rule": "Credit is one-third at the first stage and at most one-quarter afterwards; if the offender's version is rejected at a Newton hearing, the available reduction is normally halved.",
+  "authority": "Sentencing Act 2020, s.73; Sentencing Council, Reduction in sentence for a guilty plea definitive guideline (effective 1 June 2017), sections D and F2",
+  "verified_source_url": "https://www.sentencingcouncil.org.uk/guidelines/reduction-in-sentence-for-a-guilty-plea-first-hearing-on-or-after-1-june-2017/",
+  "tags": [
+   "sentencing",
+   "guilty plea reduction",
+   "newton hearing"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "The procedures and processes involved in criminal litigation: Sentencing (role of sentencing guidelines; Newton hearings: applicability and procedure)",
+   "context_subject": "Criminal Practice",
+   "source_type": "official-guidance",
+   "source_quote": "the reduction which would have been available at the stage of proceedings the plea was indicated should normally be halved.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "The guideline was amended on 13 July 2026 (driving disqualification) and 6 Aug 2026 (para E2); the Sept 2026 consultation (closing 2 Dec 2026) proposes changes to section E only. Sections D and F2 are unaffected. The quoted words follow: 'In circumstances where an offender's version of events is rejected at a Newton hearing or special reasons hearing,' (section F2)."
+  }
+ },
+ {
+  "id": "lib-crp-024",
+  "subject": "Criminal Practice",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Crown Court's sentencing powers on an appeal against conviction from magistrates (SCA 1981 s.48)",
+  "scenario": "Ewan Stewart is convicted of theft by a magistrates' court in England and fined. He appeals to the Crown Court against conviction only. The Crown Court dismisses the appeal and considers that the fine was unduly lenient for the offence.",
+  "stem": "Which of the following best describes the Crown Court's power over Ewan's sentence?",
+  "options": {
+   "A": "It cannot change the sentence, because Ewan appealed only against conviction.",
+   "B": "It may impose any sentence up to the maximum available on conviction on indictment.",
+   "C": "It may reduce the sentence but cannot increase it, because only the defendant appealed.",
+   "D": "It may impose any punishment, whether more or less severe than the fine, which the magistrates' court could have imposed.",
+   "E": "It must remit the case to the magistrates' court to resentence Ewan."
+  },
+  "answer": "D",
+  "explanation": "Under s.48(2) of the Senior Courts Act 1981 the Crown Court, at the end of an appeal, may confirm, reverse or vary any part of the decision appealed against, remit the matter, or make any other order that the lower court could have made. Section 48(4) provides that, where the appeal is against a conviction or a sentence, these powers include the power to award any punishment, whether more or less severe than that awarded by the magistrates' court, provided it is a punishment that magistrates' court might have awarded. An appeal against conviction alone therefore exposes Ewan to an increased sentence, capped at the magistrates' court's powers. This is an important point of advice to give a client before lodging an appeal from the magistrates' court.",
+  "why_wrong": {
+   "A": "Section 48(4) applies where the appeal is against conviction or sentence, so the whole decision can be varied.",
+   "B": "The Crown Court is limited to a punishment the magistrates' court could have awarded.",
+   "C": "Section 48(4) expressly allows a more severe punishment, even though only the defendant appealed.",
+   "E": "Remission is only one option; the Crown Court may vary the sentence itself under s.48(2) and (4)."
+  },
+  "key_rule": "On an appeal from the magistrates against conviction or sentence, the Crown Court may impose any punishment, more or less severe, within the magistrates' court's powers.",
+  "authority": "Senior Courts Act 1981, s.48(2) and (4)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1981/54/section/48",
+  "tags": [
+   "appeals",
+   "crown court",
+   "magistrates court appeals"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "The procedures and processes involved in criminal litigation: Appeals procedure (appeals from the magistrates' court: powers of the Crown Court)",
+   "context_subject": "Criminal Practice",
+   "source_type": "legislation",
+   "source_quote": "power to award any punishment, whether more or less severe than that awarded by the magistrates' court whose decision is appealed against, if that is a punishment which that magistrates' court might have awarded.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-crp-025",
+  "subject": "Criminal Practice",
+  "flk": "FLK2",
+  "difficulty": "easy",
+  "title": "Compulsory referral order for a first-time youth offender pleading guilty (SA 2020 ss.84-85)",
+  "scenario": "Ryan Brennan, aged 15, appears before a youth court in England and pleads guilty to theft, an imprisonable offence. He has never been convicted of any offence. The court does not propose to impose a custodial sentence or make a hospital order, and does not consider an absolute or conditional discharge appropriate. Referral order arrangements are available in his area.",
+  "stem": "What sentence must the court impose?",
+  "options": {
+   "A": "A youth rehabilitation order, because it is the standard community sentence for youths.",
+   "B": "A detention and training order, because theft is an imprisonable offence.",
+   "C": "A referral order, because the compulsory referral conditions are met.",
+   "D": "A conditional discharge, because it is Ryan's first offence.",
+   "E": "Any sentence the court thinks fit, because a referral order is available only where the offender pleads not guilty."
+  },
+  "answer": "C",
+  "explanation": "A referral order is available under s.84 of the Sentencing Act 2020 where a youth court sentences an offender under 18 who pleaded guilty, the offence's sentence is not fixed by law, the court is not proposing custody or a hospital order, and it is not proposing an absolute or conditional discharge. All of those apply to Ryan. Section 85(1) then provides that the court must make a referral order if the compulsory referral conditions are met. Under s.85(2), those conditions are that the offence is imprisonable, the offender pleaded guilty to it and to any connected offence, and he has never been convicted of any other offence. Theft is imprisonable, Ryan pleaded guilty, and he has no previous convictions, so a referral order is mandatory.",
+  "why_wrong": {
+   "A": "Where the compulsory referral conditions are met, s.85(1)(a) requires a referral order rather than a youth rehabilitation order.",
+   "B": "The court does not propose custody, and a detention and training order is a custodial sentence.",
+   "D": "The court has decided a discharge is not appropriate, and being a first offence does not make a discharge mandatory.",
+   "E": "A referral order requires a guilty plea under s.84(1)(f); it is not available after a not guilty plea and conviction."
+  },
+  "key_rule": "A youth court must make a referral order for a first-time offender under 18 who pleads guilty to an imprisonable offence, unless it proposes custody, a hospital order or a discharge.",
+  "authority": "Sentencing Act 2020, ss.84(1) and 85(1)-(2)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2020/17/section/85",
+  "tags": [
+   "youth court",
+   "referral orders",
+   "sentencing"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "The procedures and processes involved in criminal litigation: Youth court procedure and hearings (sentencing: referral orders)",
+   "context_subject": "Criminal Practice",
+   "source_type": "legislation",
+   "source_quote": "(2) The compulsory referral conditions are met where— (a) the offence is an imprisonable offence, (b) the offender pleaded guilty to the offence and to any connected offence, and (c) the offender has never been— (i) convicted",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Availability conditions are from https://www.legislation.gov.uk/ukpga/2020/17/section/84 (also fetched 16 Oct 2026). legislation.gov.uk lists uncommenced 2026 insertions into s.80(3) (conditional discharge exceptions); no pending change to ss.84-85."
+  }
+ }
+]

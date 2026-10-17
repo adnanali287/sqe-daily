@@ -3,6 +3,7 @@
   const C = window.SQETests;
   const $ = id => document.getElementById(id);
   const KEY = 'sqedaily-practice-v1';
+  const HISTORY_KEY = 'sqedaily-practice-history-v1';
   let bank = [], papers = [], attempt = null, saved = null, missedOnly = false, externalChange = false;
   let lastWarning = '';
   const node = (tag, text, className) => {
@@ -46,9 +47,17 @@
     const paper = $('test-paper').value;
     const oldSubject = resetSubjects ? '' : $('test-subject').value;
     const subjects = [...new Set(C.pool(bank, paper).map(q => q.subject))].sort();
-    $('test-subject').replaceChildren(new Option('All subjects', ''), ...subjects.map(s => new Option(s, s)));
-    $('test-subject').value = subjects.includes(oldSubject) ? oldSubject : '';
+    const choicesForPool = [['Mixed paper', '']];
+    if (paper !== 'ETHICS') {
+      for (const n of [1, 2]) if (C.pool(bank, paper, `@session-${n}`).length) choicesForPool.push([`Session ${n} mix`, `@session-${n}`]);
+      if (paper === 'FLK1') choicesForPool.push(['Legal Systems (combined)', '@legal-systems']);
+      choicesForPool.push(...subjects.map(s => [s, s]));
+    } else choicesForPool[0][0] = 'Ethics · both papers';
+    $('test-subject').replaceChildren(...choicesForPool.map(([label,value]) => new Option(label,value)));
+    $('test-subject').value = choicesForPool.some(([,value]) => value === oldSubject) ? oldSubject : '';
     const full = kind() === 'full';
+    $('test-paper').querySelector('option[value="ETHICS"]').disabled = full;
+    if (full && paper === 'ETHICS') { $('test-paper').value = 'FLK1'; configure(true); return; }
     $('subject-field').hidden = full; $('count-field').hidden = full; $('mock-field').hidden = !full;
     const oldMock = $('test-mock').value;
     const choices = papers.filter(p => p.paper === paper);
@@ -160,7 +169,7 @@
       if (q.why_wrong) lines.push(...Object.entries(q.why_wrong).sort(([a], [b]) => a.localeCompare(b)).map(([key, why]) => `Why ${key} is wrong: ${why}`));
       details.append(...lines.filter(Boolean).map(p => node('p', p)));
       const source = node('a', q.authority); source.href = q.verified_source_url; source.target = '_blank'; source.rel = 'noopener noreferrer';
-      const report = node('a', 'Report an error'); report.href = `mailto:hello@sqedaily.co.uk?subject=${encodeURIComponent(`Question ${q.number}`)}`;
+      const report = node('a', 'Report an error'); report.href = `mailto:hello@sqedaily.co.uk?subject=${encodeURIComponent(`Question ${q.id}`)}`;
       const links = node('p'); links.append(source, document.createTextNode(' · '), report);
       details.append(links); $('answer-review').append(details);
     }
@@ -201,10 +210,13 @@
     e.preventDefault();
     if (externalChange || (saved && saved.status !== 'results')) return;
     try {
+      let recent = [];
+      try { const history = JSON.parse(localStorage.getItem(HISTORY_KEY) || '[]'); if (Array.isArray(history)) recent = history.filter(id=>typeof id === 'string'); } catch {}
       const selectedMock = kind() === 'full' ? papers.find(p => p.id === $('test-mock').value) : null;
       if (kind() === 'full' && !selectedMock) throw Error('This full mock is not ready.');
       attempt = C.create({ bank, paper: $('test-paper').value, subject: kind() === 'full' ? '' : $('test-subject').value,
-        count: Number($('test-count').value), timed: timed(), mock: selectedMock });
+        count: Number($('test-count').value), timed: timed(), mock: selectedMock, recent });
+      try { const ids = attempt.sessions.flat(); localStorage.setItem(HISTORY_KEY, JSON.stringify([...recent.filter(id=>!ids.includes(id)),...ids].slice(-200))); } catch {}
       saved = null; missedOnly = false; lastWarning = ''; persist(); render(); focusQuestion();
     } catch (error) { notice(error.message); }
   });
@@ -250,7 +262,7 @@
       try {
         const raw = localStorage.getItem(KEY);
         if (raw) {
-          saved = C.restore(raw, bank);
+          saved = C.restore(raw, bank, Date.now(), papers);
           if (!saved) notice('The saved attempt no longer matches the current question bank. Please start a new test.');
         }
       } catch { notice('Saved attempts are unavailable in this browser. Keep this tab open to finish.'); }

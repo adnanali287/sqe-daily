@@ -1,0 +1,998 @@
+[
+ {
+  "id": "lib-ls-001",
+  "subject": "Legal Services",
+  "flk": "FLK1",
+  "difficulty": "easy",
+  "title": "Conflict between SRA Principles: the wider public interest prevails over the client's interests",
+  "scenario": "Ifeoma Chukwu is a solicitor in an SRA-authorised firm in England and Wales, acting for a defendant in a county court claim. At a hearing next week her client wants her to tell the district judge that he was abroad on the date of an alleged meeting. The client has already admitted to Ifeoma, in a privileged conversation, that he was in London that day and attended the meeting. He says that acting in his best interests means saying whatever helps him win.",
+  "stem": "Which of the following best states how Ifeoma must resolve the tension between the SRA Principles in this situation?",
+  "options": {
+   "A": "She must follow her client's instructions, because acting in the best interests of each client is the Principle that governs a solicitor's conduct of litigation.",
+   "B": "The Principles which safeguard the wider public interest, such as upholding the rule of law and the proper administration of justice, take precedence over her client's interests.",
+   "C": "All the Principles carry equal weight, so she may choose which to follow provided she records her reasons on the file.",
+   "D": "She must ask the SRA for a ruling on which Principle prevails before the hearing takes place.",
+   "E": "The duty of confidentiality overrides the Principles, so she may put forward her client's account as long as she does not reveal what he told her."
+  },
+  "answer": "B",
+  "explanation": "The introduction to the SRA Principles states that, should the Principles come into conflict, those which safeguard the wider public interest (such as the rule of law and public confidence in a trustworthy solicitors' profession) take precedence over an individual client's interests. Principle 1.1 requires Ifeoma to act in a way that upholds the rule of law and the proper administration of justice, and Principle 1.4 requires honesty. Putting forward an account she knows to be false would mislead the court. Principle 1.7 (the client's best interests) gives way here. Confidentiality still applies, so she must not reveal what her client told her, but she cannot advance a case she knows is untrue. She should explain this to the client, and if he insists she would have to stop acting.",
+  "why_wrong": {
+   "A": "The best interests Principle does not override the Principles that protect the administration of justice; the SRA expressly ranks the public interest Principles higher.",
+   "C": "The SRA does not treat the Principles as equal in conflict; the public interest Principles take precedence, and recording reasons does not change that.",
+   "D": "There is no procedure requiring an SRA ruling before acting; the solicitor applies the stated order of precedence herself.",
+   "E": "Confidentiality stops her revealing the admission but does not permit her to put forward a case she knows is false to the court."
+  },
+  "key_rule": "Where the SRA Principles conflict, those safeguarding the wider public interest (including the rule of law and the proper administration of justice) take precedence over an individual client's interests.",
+  "authority": "SRA Principles, Introduction and Principles 1.1, 1.4 and 1.7",
+  "verified_source_url": "https://www.sra.org.uk/solicitors/standards-regulations/principles/",
+  "tags": [
+   "sra principles",
+   "rule of law",
+   "professional conduct"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "The regulatory role of the SRA: principles and risk-based regulation",
+   "context_subject": "Legal Services",
+   "source_type": "regulator-rules",
+   "source_quote": "Should the Principles come into conflict, those which safeguard the wider public interest (such as the rule of law, and public confidence in a trustworthy solicitors' profession ...) take precedence over an individual client's interests.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Touches duties to the court; kept at Principles-precedence level so it does not overlap an ethics writer's misleading-the-court question. Reviewer may wish to cross-check against the ethics set."
+  }
+ },
+ {
+  "id": "lib-ls-002",
+  "subject": "Legal Services",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Reserved instrument activities: Land Registry transfer v wills and powers of attorney (LSA Sch 2)",
+  "scenario": "Gareth Pryce runs Pryce Property Paperwork, a business in England that is not authorised by any approved regulator; neither Gareth nor any of his staff is an authorised or exempt person. For a fee, he offers clients five documents: (1) a lasting power of attorney; (2) a transfer (form TR1) of a registered freehold house from a seller to a buyer; (3) a will; (4) a stock transfer form for shares in a private company, containing no trust or limitation; and (5) a written agreement for decorating services that is not intended to be executed as a deed.",
+  "stem": "Which document can Gareth's business NOT lawfully prepare for a fee, because preparing it is a reserved legal activity?",
+  "options": {
+   "A": "The lasting power of attorney.",
+   "B": "The will.",
+   "C": "The stock transfer form containing no trust or limitation.",
+   "D": "The TR1 transfer of the registered freehold house.",
+   "E": "The written decorating agreement not intended to be executed as a deed."
+  },
+  "answer": "D",
+  "explanation": "Reserved instrument activities are one of the reserved legal activities in s.12 Legal Services Act 2007. Schedule 2 para 5(1)(a) defines them to include preparing any instrument of transfer or charge for the purposes of the Land Registration Act 2002. A TR1 transfer of registered land is exactly such an instrument. Gareth's business is neither authorised nor exempt, so preparing it for a fee would be carrying on a reserved legal activity without entitlement, which is an offence under s.14(1). The other documents fall within express carve-outs in para 5(3), which lists what 'instrument' does not include, so preparing them is not a reserved instrument activity.",
+  "why_wrong": {
+   "A": "Sch 2 para 5(3)(c) excludes a letter or power of attorney from 'instrument', so preparing it is not reserved.",
+   "B": "Sch 2 para 5(3)(a) excludes a will or other testamentary instrument, so will-writing is not reserved.",
+   "C": "Sch 2 para 5(3)(d) excludes a transfer of stock containing no trust or limitation.",
+   "E": "Sch 2 para 5(3)(b) excludes an agreement not intended to be executed as a deed (other than a land contract)."
+  },
+  "key_rule": "Preparing an instrument of transfer or charge for Land Registration Act 2002 purposes is a reserved instrument activity; wills, powers of attorney, simple stock transfers and non-deed agreements are excluded (LSA 2007 Sch 2 para 5).",
+  "authority": "Legal Services Act 2007 ss.12 and 14; Sch 2 para 5",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2007/29/schedule/2",
+  "tags": [
+   "reserved legal activities",
+   "legal services act 2007",
+   "reserved instrument activities"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "The regulatory role of the SRA: principles and risk-based regulation - reserved legal activities",
+   "context_subject": "Legal Services",
+   "source_type": "legislation",
+   "source_quote": "(a) preparing any instrument of transfer or charge for the purposes of the Land Registration Act 2002 ... does not include— (a) a will or other testamentary instrument ... (c) a letter or power of attorney",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Distinct from q047 (probate v will-writing): this tests reserved instrument activities. Option B (wills) overlaps one q047 distractor; reviewer may swap it if that feels repetitive. Sch 3 exemptions (e.g. unpaid work) avoided by stating the work is for a fee."
+  }
+ },
+ {
+  "id": "lib-ls-003",
+  "subject": "Legal Services",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Admitting a non-lawyer member to a law firm LLP makes it a licensable body (LSA 2007 s.72)",
+  "scenario": "Hollins Quarrie LLP is an SRA-authorised firm in England whose members are all solicitors. The members want to admit Priya Raman, a chartered accountant who is not an authorised person under the Legal Services Act 2007, as a member of the LLP with a 5% share of the profits and voting rights, so that she can run the firm's finances. The firm will continue to carry on reserved legal activities.",
+  "stem": "What is the regulatory consequence of admitting Priya as a member of the LLP?",
+  "options": {
+   "A": "The LLP becomes a licensable body and must obtain a licence as an alternative business structure from a licensing authority, such as the SRA, to continue carrying on reserved legal activities.",
+   "B": "No change of authorisation is needed, because a non-authorised person holding less than 10% of the voting rights does not affect the firm's status.",
+   "C": "No change of authorisation is needed, provided Priya is appointed as the firm's compliance officer for finance and administration.",
+   "D": "The admission is prohibited outright, because only authorised persons may be managers of a body that carries on reserved legal activities.",
+   "E": "The LLP needs only to notify the Legal Services Board, which supervises firms with non-lawyer managers directly."
+  },
+  "answer": "A",
+  "explanation": "Under s.72(1) Legal Services Act 2007, a body is a licensable body if a non-authorised person is a manager of it or has an interest in it. The members of an LLP are its managers, and Priya, an accountant, is not an authorised person. Once she becomes a member, Hollins Quarrie LLP is therefore a licensable body, whatever the size of her stake. Section 18(2) provides that a licensable body cannot be authorised to carry on reserved legal activities other than by a licence under Part 5 (an alternative business structure) from a licensing authority, such as the SRA; s.18(3) gives only a 90-day period of deemed continuing authorisation. The firm should therefore obtain an ABS licence. The 10% figure in s.72(2) concerns indirect ownership through another body, not a non-authorised individual who is a manager.",
+  "why_wrong": {
+   "B": "The 10% threshold in s.72(2) applies to a body that is itself a manager or owner; a non-authorised individual manager makes the body licensable under s.72(1) regardless of stake.",
+   "C": "Appointing her as COFA does not stop her being a non-authorised manager; the firm still becomes a licensable body.",
+   "D": "The Act does not ban non-lawyer managers; it permits them through licensing as an alternative business structure.",
+   "E": "The Legal Services Board oversees approved regulators; it does not license or directly supervise individual firms."
+  },
+  "key_rule": "A body with a non-authorised person as a manager, or holding an interest, is a licensable body and needs a licence (ABS) from a licensing authority to carry on reserved legal activities (LSA 2007 s.72).",
+  "authority": "Legal Services Act 2007 ss.18 and 72 and Part 5",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2007/29/section/72",
+  "tags": [
+   "legal services act 2007",
+   "alternative business structures",
+   "licensable body"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "The regulatory role of the SRA: principles and risk-based regulation - other regulated providers of legal services",
+   "context_subject": "Legal Services",
+   "source_type": "legislation",
+   "source_quote": "A body (\"B\") is a licensable body if a non-authorised person— (a) is a manager of B, or (b) has an interest in B.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "s.18(2)-(3) also fetched and checked (https://www.legislation.gov.uk/ukpga/2007/29/section/18). The SRA's designation as a licensing authority is stated from general knowledge."
+  }
+ },
+ {
+  "id": "lib-ls-004",
+  "subject": "Legal Services",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Closing a firm with no successor: six years' run-off cover under the SRA Minimum Terms",
+  "scenario": "Delroy Campbell is a sole practitioner whose SRA-authorised firm in England has qualifying professional indemnity insurance on the SRA Minimum Terms and Conditions (MTC). He retires and closes the practice at the end of the policy period. No other firm takes over the practice, so there is no successor practice. Two years later a former client, Martina Kovač, discovers that Delroy made a negligent mistake in her property transaction shortly before he retired.",
+  "stem": "Which of the following best describes the indemnity insurance position for Martina's claim?",
+  "options": {
+   "A": "There is no cover, because insurance under the MTC ends when the insured firm ceases to practise.",
+   "B": "Martina's only remedy is an application to the SRA Compensation Fund, which replaces insurance once a firm closes.",
+   "C": "Cover lasts only for the extended policy period and cessation period after closure, so a claim two years later is uninsured.",
+   "D": "Delroy must buy a fresh annual policy each year after retirement to cover past work, or he will be personally liable without insurance.",
+   "E": "The insurer must provide run-off cover extending the period of insurance for an additional six years, so a claim made two years after closure is covered."
+  },
+  "answer": "E",
+  "explanation": "The MTC in the SRA Indemnity Insurance Rules require the insurance to provide run-off cover in the event of a cessation of the practice (clause 5.3). Clause 5.4(d) provides that run-off cover must extend the period of insurance for an additional six years, ending on the sixth anniversary of the date on which it would otherwise have ended. Because Delroy's practice ceased with no successor practice, his insurer must provide that run-off cover. A claim by Martina made two years after closure falls within the six-year run-off period. The run-off cover must also provide the minimum level of cover required by clause 2, so she has an insured claim against the firm for Delroy's negligence.",
+  "why_wrong": {
+   "A": "The MTC require run-off cover on cessation precisely so that claims about past work remain insured after closure.",
+   "B": "The Compensation Fund is a discretionary fund of last resort; it does not replace the run-off cover the MTC require.",
+   "C": "The extended policy period and cessation period are separate, shorter periods; run-off cover runs for a further six years.",
+   "D": "The obligation falls on the existing insurer to provide run-off cover; a retired sole practitioner does not need new annual policies for past work."
+  },
+  "key_rule": "On cessation of a practice with no successor, qualifying insurance must provide run-off cover extending the period of insurance for an additional six years (SRA MTC clauses 5.3-5.4).",
+  "authority": "SRA Indemnity Insurance Rules, Annex 1 (Minimum Terms and Conditions), clauses 5.3 and 5.4",
+  "verified_source_url": "https://www.sra.org.uk/solicitors/standards-regulations/indemnity-insurance-rules/",
+  "tags": [
+   "professional indemnity insurance",
+   "run-off cover",
+   "sra indemnity insurance rules"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "The regulatory role of the SRA: principles and risk-based regulation - professional indemnity insurance",
+   "context_subject": "Legal Services",
+   "source_type": "regulator-rules",
+   "source_quote": "extend the period of insurance for an additional six years (ending on the sixth anniversary of the date upon which, but for this requirement, it would have ended",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Page shows the current version in effect from 11 April 2025. Assumes the claim is made within the run-off period and no exclusion applies."
+  }
+ },
+ {
+  "id": "lib-ls-005",
+  "subject": "Legal Services",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "SRA Transparency Rules: which advertised service requires published cost information?",
+  "scenario": "Ashworth & Bello is an SRA-authorised firm in Manchester. Its website advertises the following services to individual clients, none of them publicly funded: (1) administering the estates of people who have died, where the assets are all in the UK and nothing is contested; (2) personal injury claims; (3) asylum appeals in the First-tier Tribunal; (4) defending serious charges in the Crown Court; and (5) bringing claims for contested wills and disputed inheritances.",
+  "stem": "For which advertised service must the firm publish cost information on its website under the SRA Transparency Rules?",
+  "options": {
+   "A": "Personal injury claims.",
+   "B": "Asylum appeals in the First-tier Tribunal.",
+   "C": "Administering uncontested estates where the assets are all in the UK.",
+   "D": "Defending serious charges in the Crown Court.",
+   "E": "Contested wills and disputed inheritance claims."
+  },
+  "answer": "C",
+  "explanation": "Rule 1.1 of the SRA Transparency Rules requires an authorised body that publishes the availability of any of the services listed in rule 1.3 (for individuals) or rule 1.4 (for businesses) to publish cost information on its website for those services. Rule 1.3(b) lists the collection and distribution of assets belonging to a person following their death, where these are within the UK and the matters are not contested. Ashworth & Bello's uncontested estate administration service falls squarely within that description, so the firm must publish cost information for it, including the total cost or a range, the basis of charging, likely disbursements and VAT, as required by rule 1.5. The rule does not apply to publicly funded work, but none of these services is publicly funded.",
+  "why_wrong": {
+   "A": "Personal injury work is not among the services listed in rules 1.3 or 1.4.",
+   "B": "Rule 1.3(d) covers immigration appeals in the First-tier Tribunal but expressly excludes asylum appeals.",
+   "D": "Only summary-only road traffic offences dealt with at a single hearing in the magistrates' court are listed; Crown Court defence is not.",
+   "E": "Rule 1.3(b) covers only estates where the matters are not contested."
+  },
+  "key_rule": "A firm advertising a listed service, such as uncontested estate administration of UK assets, must publish prescribed cost information on its website (SRA Transparency Rules rules 1.1, 1.3 and 1.5).",
+  "authority": "SRA Transparency Rules, rules 1.1-1.5",
+  "verified_source_url": "https://www.sra.org.uk/solicitors/standards-regulations/transparency-rules/",
+  "tags": [
+   "transparency rules",
+   "costs",
+   "client care"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Funding options for legal services: private retainer / fixed fees (and the SRA's regulatory role: transparency)",
+   "context_subject": "Legal Services",
+   "source_type": "regulator-rules",
+   "source_quote": "the collection and distribution of assets belonging to a person following their death, where these are within the UK and the matters are not contested;",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Spec topic mapping is a judgement call: Transparency Rules are not named on the FLK1 page but sit under the SRA's regulatory role and price information for private retainers/fixed fees. Current version in effect from 11 April 2025."
+  }
+ },
+ {
+  "id": "lib-ls-006",
+  "subject": "Legal Services",
+  "flk": "FLK1",
+  "difficulty": "easy",
+  "title": "Equality Act 2010: no charging a disabled client for a reasonable adjustment (s.20(7))",
+  "scenario": "Tomasz Wiśniewski, who is profoundly deaf and uses British Sign Language, instructs Lowther Grange, an SRA-authorised firm in Leeds, on a dispute with his landlord. The firm accepts that providing a BSL interpreter at his meetings with his solicitor is a reasonable step to avoid the substantial disadvantage he would otherwise face. The supervising partner suggests adding the interpreter's fees to Tomasz's bill as a disbursement, explaining this in the client care letter.",
+  "stem": "What is the correct position on the interpreter's fees?",
+  "options": {
+   "A": "The firm must bear the cost itself, because it cannot require Tomasz to pay any of the cost of complying with its duty to make reasonable adjustments.",
+   "B": "The firm may charge the fees as a disbursement, provided it tells Tomasz in the client care letter before the meetings take place.",
+   "C": "The firm may charge the fees if Tomasz signs a written agreement to pay them, because he is free to contract on those terms.",
+   "D": "The firm may decline to act, because a law firm owes no duty to make adjustments for clients who are not its employees.",
+   "E": "The firm may charge half the fees, because the cost of adjustments is shared between the service provider and the disabled person."
+  },
+  "answer": "A",
+  "explanation": "A solicitors' firm providing legal services to the public is a service-provider under Part 3 of the Equality Act 2010, and s.29(7) applies the duty to make reasonable adjustments to service-providers. Section 20(5) requires reasonable steps to provide an auxiliary aid, which includes an auxiliary service such as an interpreter, where a disabled person would otherwise be at a substantial disadvantage. The firm accepts that the interpreter is a reasonable step. Section 20(7) then provides that a person subject to the duty is not entitled to require the disabled person to pay, to any extent, its costs of complying with the duty. Lowther Grange must therefore absorb the interpreter's fees and cannot pass them on to Tomasz, whether or not it tells him in advance or he agrees.",
+  "why_wrong": {
+   "B": "Telling the client in advance does not help; s.20(7) prevents the firm requiring him to pay any of the cost.",
+   "C": "Section 20(7) bars requiring the disabled person to pay 'to any extent', so getting his agreement does not make the charge lawful.",
+   "D": "The duty applies to service-providers under s.29(7), not only employers, so the firm cannot decline to act for that reason.",
+   "E": "There is no cost-sharing rule; the disabled person cannot be required to pay any part of the cost."
+  },
+  "key_rule": "A service-provider subject to the duty to make reasonable adjustments cannot require the disabled person to pay any of the cost of complying with that duty (Equality Act 2010 s.20(7)).",
+  "authority": "Equality Act 2010 ss.20(5), 20(7) and 29(7)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2010/15/section/20",
+  "tags": [
+   "equality act 2010",
+   "reasonable adjustments",
+   "client care"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Overriding legal obligations: The Equality Act 2010",
+   "context_subject": "Legal Services",
+   "source_type": "legislation",
+   "source_quote": "A person (A) who is subject to a duty to make reasonable adjustments is not ... entitled to require a disabled person ... to pay to any extent A's costs of complying with the duty.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Changes yet to be applied to the Equality Act listed on legislation.gov.uk (2025 c. 36) concern ss.40, 78, 153-154 and 208 only, not ss.20 or 29."
+  }
+ },
+ {
+  "id": "lib-ls-007",
+  "subject": "Legal Services",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Savings built up from tax evasion are criminal property (POCA 2002 s.340)",
+  "scenario": "Rhiannon Lewis instructs Calder Vane, an SRA-authorised firm in Cardiff, to act on her purchase of a flat for cash. While discussing source of funds, she tells the conveyancing solicitor that the purchase money is savings from her catering business, which has always been run legitimately, but that for several years she deliberately left a large part of her takings off her tax returns 'like everyone does', so she has paid far less income tax than she owed. The money has been held in her ordinary savings account throughout.",
+  "stem": "Which of the following best describes the status of the savings under Part 7 of the Proceeds of Crime Act 2002?",
+  "options": {
+   "A": "They are not criminal property, because the takings were earned from a lawful business and only the tax return was false.",
+   "B": "They are not criminal property unless and until Rhiannon is convicted of a tax offence.",
+   "C": "They are not criminal property, because Part 7 is aimed at the proceeds of drug trafficking and other serious organised crime, not tax matters.",
+   "D": "They are criminal property, because the tax evaded is a pecuniary advantage obtained from criminal conduct, and the savings represent that benefit at least in part.",
+   "E": "They are criminal property only if the amount of tax evaded exceeds the threshold amount set for deposit-taking bodies."
+  },
+  "answer": "D",
+  "explanation": "Under s.340(2) criminal conduct is conduct constituting an offence in any part of the UK; deliberately under-declaring income to evade tax is an offence. Under s.340(6), a person who obtains a pecuniary advantage as a result of or in connection with criminal conduct is taken to obtain a sum of money equal to its value, so the tax Rhiannon evaded is her benefit. Under s.340(3), property is criminal property if it constitutes or represents a person's benefit from criminal conduct 'in whole or part and whether directly or indirectly', and the alleged offender knows or suspects this. Her savings represent, at least in part, the unpaid tax, so they are criminal property. The firm must consider its reporting obligations and must not proceed with the purchase without appropriate consent.",
+  "why_wrong": {
+   "A": "The lawful origin of the takings does not matter; the evaded tax is a pecuniary advantage from criminal conduct under s.340(6).",
+   "B": "Part 7 turns on knowledge or suspicion of benefit from criminal conduct; no conviction is required.",
+   "C": "Part 7 applies to the benefit from any conduct that is an offence in the UK (s.340(2)), not only drugs or organised crime.",
+   "E": "The threshold amount concerns deposit-taking bodies operating accounts; it does not limit what counts as criminal property here."
+  },
+  "key_rule": "Property representing, in whole or part, a pecuniary advantage from criminal conduct such as tax evasion is criminal property where the person knows or suspects this (POCA 2002 s.340(3) and (6)).",
+  "authority": "Proceeds of Crime Act 2002 s.340(2), (3) and (6)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2002/29/section/340",
+  "tags": [
+   "money laundering",
+   "proceeds of crime act 2002",
+   "criminal property"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Money laundering: purpose and scope of anti-money laundering legislation",
+   "context_subject": "Legal Services",
+   "source_type": "legislation",
+   "source_quote": "If a person obtains a pecuniary advantage as a result of or in connection with conduct, he is to be taken to obtain ... a sum of money equal to the value of the pecuniary advantage.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "legislation.gov.uk lists 2026 c. 20 amendments yet to be applied to POCA, but none affects ss.327-340 (checked 16 Oct 2026)."
+  }
+ },
+ {
+  "id": "lib-ls-008",
+  "subject": "Legal Services",
+  "flk": "FLK1",
+  "difficulty": "hard",
+  "title": "Conducting and settling litigation is not a s.328 POCA arrangement (Bowman v Fels)",
+  "scenario": "Mehmet Arslan, a solicitor, acts for Daniela Ferreira in county court proceedings in England against her former business partner, Carl Royston, for her share of the proceeds of a property they jointly developed. Documents disclosed by Carl in the proceedings lead Mehmet to suspect that Carl under-declared VAT on the development, so that part of the money Carl will use to satisfy any judgment or settlement may be criminal property. Carl's solicitors now propose a settlement that, in Mehmet's view, genuinely reflects the merits of Daniela's claim. Daniela wants to accept it.",
+  "stem": "Which of the following best describes Mehmet's position under the Proceeds of Crime Act 2002?",
+  "options": {
+   "A": "He must make an authorised disclosure to the National Crime Agency and wait for consent or the end of the notice period before taking any further step in the proceedings.",
+   "B": "He may continue to conduct the proceedings and conclude the settlement without making a disclosure, because the ordinary conduct of litigation, including a genuine settlement of it, is not an arrangement within s.328.",
+   "C": "He may continue the proceedings but must not conclude the settlement until he has made an authorised disclosure, because a consensual settlement is an arrangement within s.328.",
+   "D": "He must explain his suspicion to the court and to Carl's solicitors before agreeing any settlement, so that the court can decide whether to approve it.",
+   "E": "He must cease acting for Daniela, because continuing would make him concerned in an arrangement facilitating the retention of criminal property."
+  },
+  "answer": "B",
+  "explanation": "In Bowman v Fels [2005] EWCA Civ 226 the Court of Appeal held that s.328 is not intended to cover or affect the ordinary conduct of litigation by legal professionals, from the issue of proceedings to final disposal by judgment. The court extended this to consensual steps, including a settlement, taken in an ordinary litigious context, because consensual resolution is an integral part of litigation. It distinguished a settlement that is a sham or mere pretext for dealing with criminal property. Here the proposed settlement genuinely reflects the merits of Daniela's claim, so Mehmet does not become concerned in a s.328 arrangement by conducting the claim or concluding the settlement, and he need not make an authorised disclosure or seek consent before doing so.",
+  "why_wrong": {
+   "A": "Bowman v Fels held s.328 does not apply to the ordinary conduct of litigation, so no disclosure and consent is needed before taking steps.",
+   "C": "The court held that consensual steps and genuine settlements within litigation are also outside s.328.",
+   "D": "There is no duty to tell the court or the opponent of his suspicion; doing so could also breach client confidentiality.",
+   "E": "Because s.328 does not bite on ordinary litigation, continuing to act does not involve him in an arrangement, so he need not cease acting."
+  },
+  "key_rule": "Section 328 POCA does not cover the ordinary conduct of litigation by legal professionals, including genuine consensual settlements, as distinct from sham settlements (Bowman v Fels [2005] EWCA Civ 226).",
+  "authority": "Proceeds of Crime Act 2002 s.328; Bowman v Fels [2005] EWCA Civ 226",
+  "verified_source_url": "https://www.bailii.org/ew/cases/EWCA/Civ/2005/226.html",
+  "tags": [
+   "money laundering",
+   "proceeds of crime act 2002",
+   "bowman v fels",
+   "litigation"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Money laundering: direct involvement and non-direct involvement offences, and defences to those offences under Proceeds of Crime Act 2002",
+   "context_subject": "Legal Services",
+   "source_type": "judgment",
+   "source_quote": "the proper interpretation of s 328 is that it is not intended to cover or affect the ordinary conduct of litigation by legal professionals.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "The settlement point is at paras 99-102 (consensual steps in a litigious context), stated with a caveat for sham settlements; the scenario states the settlement reflects the merits to keep within the holding."
+  }
+ },
+ {
+  "id": "lib-ls-009",
+  "subject": "Legal Services",
+  "flk": "FLK1",
+  "difficulty": "hard",
+  "title": "Failure to disclose (POCA s.330): no privilege for information given to further a crime",
+  "scenario": "Joanna Mazur, a solicitor at an SRA-authorised firm in Bristol, is acting for Kofi Mensah on his purchase of a house, a matter within the regulated sector. In a meeting at which she is advising him on the purchase, Kofi tells her that the deposit and the balance of the price will come from cash his brother made selling stolen goods, and asks her to complete quickly so the money is 'turned into bricks' before anyone asks questions. Joanna is the firm's fee-earner, not its nominated officer.",
+  "stem": "What is Joanna's obligation under s.330 of the Proceeds of Crime Act 2002?",
+  "options": {
+   "A": "She has no obligation to disclose, because the information came to her from her client in connection with the giving of legal advice and so is privileged.",
+   "B": "She has no obligation to disclose unless she actually knows, rather than merely suspects, that the money is the proceeds of crime.",
+   "C": "She may complete the purchase first and make a disclosure afterwards, provided she does so within 30 days.",
+   "D": "She must tell Kofi that she intends to report the matter, so that he has the chance to withdraw his instructions before she does.",
+   "E": "She must make a disclosure to the firm's nominated officer as soon as is practicable, because information communicated with the intention of furthering a criminal purpose does not come to her in privileged circumstances."
+  },
+  "answer": "E",
+  "explanation": "Section 330 makes it an offence for a person in the regulated sector who knows or suspects, or has reasonable grounds for knowing or suspecting, that another person is engaged in money laundering not to make the required disclosure to a nominated officer (or the NCA) as soon as is practicable. Joanna has at least suspicion and can identify the persons involved. Section 330(6)(b) and (10) give a professional legal adviser an exception where the information came to her in privileged circumstances, such as from a client in connection with legal advice. But s.330(11) disapplies that where the information is communicated with the intention of furthering a criminal purpose. Kofi told her about the source of funds so that she would complete the purchase and launder the money, so the exception is unavailable and she must report to the nominated officer.",
+  "why_wrong": {
+   "A": "Section 330(11) removes the privileged-circumstances protection where information is given with the intention of furthering a criminal purpose, as here.",
+   "B": "The s.330 test includes suspicion and reasonable grounds for knowing or suspecting, not only actual knowledge.",
+   "C": "The disclosure must be made as soon as is practicable; completing first would also risk a principal money laundering offence.",
+   "D": "Telling Kofi about a report is likely to prejudice an investigation and risks the tipping-off offence; there is no duty to warn him."
+  },
+  "key_rule": "A regulated-sector legal adviser who suspects money laundering must disclose to the nominated officer as soon as practicable; privilege does not protect information given to further a crime (POCA s.330).",
+  "authority": "Proceeds of Crime Act 2002 s.330(2)-(4), (6), (10) and (11)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2002/29/section/330",
+  "tags": [
+   "money laundering",
+   "proceeds of crime act 2002",
+   "failure to disclose",
+   "nominated officer"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Money laundering: circumstances where suspicion should be reported; the appropriate person, time and procedure for reports",
+   "context_subject": "Legal Services",
+   "source_type": "legislation",
+   "source_quote": "But subsection (10) does not apply to information or other matter which is communicated or given with the intention of furthering a criminal purpose.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Assumes s.330(3A) third condition met (she can identify the persons involved). Bowman v Fels para 94 suggests the intention is that of the communicator; Kofi's purpose here is explicit."
+  }
+ },
+ {
+  "id": "lib-ls-010",
+  "subject": "Legal Services",
+  "flk": "FLK1",
+  "difficulty": "hard",
+  "title": "Tipping off: telling a client of a report to dissuade an offence (POCA ss.333A and 333D(2))",
+  "scenario": "The money laundering reporting officer of Penrose Achebe LLP, an SRA-authorised firm in Birmingham, has made a suspicious activity report to the National Crime Agency about funds a client, Lukas Becker, wanted to use to buy shares in a private company. The firm did not proceed. A week later Lukas tells his solicitor, Grace Penrose, that he plans to put the same funds through a different purchase. Grace tells him: 'We have had to report our concerns about where this money came from. If you go ahead with this, you will be committing an offence.' She says this solely to persuade him not to go ahead.",
+  "stem": "Has Grace committed the offence of tipping off under s.333A of the Proceeds of Crime Act 2002?",
+  "options": {
+   "A": "Yes, because any disclosure to a client that a suspicious activity report has been made is an offence, whatever the purpose.",
+   "B": "Yes, unless the National Crime Agency had already given consent to the original share purchase.",
+   "C": "No, because a professional legal adviser does not commit the offence where the disclosure is to her client and is made to dissuade the client from engaging in conduct amounting to an offence.",
+   "D": "No, because tipping off can be committed only by the nominated officer who made the report, not by other staff.",
+   "E": "No, because tipping off applies only to disclosures made to third parties, not to the person who is the subject of the report."
+  },
+  "answer": "C",
+  "explanation": "Section 333A(1) makes it an offence, where information came to a person in the course of business in the regulated sector, to disclose that a disclosure has been made to the NCA or a nominated officer, where that is likely to prejudice any investigation. Grace's statement to Lukas reveals that a report was made, so on its face it is within s.333A. However, s.333D(2) provides that a professional legal adviser does not commit an offence under s.333A if the disclosure is to the adviser's client and is made for the purpose of dissuading the client from engaging in conduct amounting to an offence. Grace, a solicitor, spoke to her own client solely to persuade him not to launder the funds through another purchase, so the exception applies and she has not committed the offence.",
+  "why_wrong": {
+   "A": "Section 333D(2) creates a specific exception for a legal adviser's disclosure to her client to dissuade the client from an offence, so purpose matters.",
+   "B": "NCA consent to the original transaction is irrelevant to whether this disclosure falls within the s.333D(2) exception.",
+   "D": "Section 333A applies to any person who makes the disclosure, not only the nominated officer.",
+   "E": "Disclosure to the person under suspicion is the paradigm case s.333A catches; it is saved here only by s.333D(2)."
+  },
+  "key_rule": "A professional legal adviser does not commit tipping off by disclosing a report to her own client where the purpose is to dissuade the client from engaging in conduct amounting to an offence (POCA s.333D(2)).",
+  "authority": "Proceeds of Crime Act 2002 ss.333A and 333D(2)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2002/29/section/333D",
+  "tags": [
+   "money laundering",
+   "proceeds of crime act 2002",
+   "tipping off"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Money laundering: direct involvement and non-direct involvement offences, and defences to those offences under Proceeds of Crime Act 2002",
+   "context_subject": "Legal Services",
+   "source_type": "legislation",
+   "source_quote": "A professional legal adviser ... does not commit an offence under section 333A if the disclosure— (a) is to the adviser's client, and (b) is made for the purpose of dissuading the client from engaging in conduct amounting to an offence.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Assumes the original matter was regulated-sector business (share purchase) so s.333A is engaged; s.333A text also fetched (https://www.legislation.gov.uk/ukpga/2002/29/section/333A)."
+  }
+ },
+ {
+  "id": "lib-ls-011",
+  "subject": "Legal Services",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Deemed consent after a DAML: the seven working day notice period (POCA s.335)",
+  "scenario": "Hartfield Oduya, an SRA-authorised firm in London, acts for a seller of commercial property. The firm's nominated officer suspects that part of the buyer's funds may be criminal property. On Tuesday 3 March 2026 she makes an authorised disclosure to the National Crime Agency seeking consent for the firm to complete the sale. None of the days that follow is a bank holiday. The firm hears nothing at all from the NCA.",
+  "stem": "Assuming the NCA does not give notice refusing consent, from which date may the firm first treat itself as having the appropriate consent to complete?",
+  "options": {
+   "A": "Tuesday 10 March 2026.",
+   "B": "Thursday 12 March 2026.",
+   "C": "Friday 13 March 2026.",
+   "D": "Saturday 4 April 2026.",
+   "E": "Only once the NCA gives express written consent; silence is never treated as consent."
+  },
+  "answer": "C",
+  "explanation": "Under s.335(2)-(3) of the Proceeds of Crime Act 2002, a person who makes an authorised disclosure to a constable (which includes an NCA officer authorised under Part 7: s.340(13)) is treated as having the appropriate consent if, before the end of the notice period, he does not receive notice that consent is refused. Section 335(5) defines the notice period as seven working days starting with the first working day after the disclosure. Working days exclude weekends and bank holidays (s.335(7)). The disclosure was on Tuesday 3 March, so day one is Wednesday 4 March and the seven working days are 4, 5, 6, 9, 10, 11 and 12 March. The notice period ends at the end of Thursday 12 March. With no refusal received, the firm has deemed consent from Friday 13 March 2026 and may complete.",
+  "why_wrong": {
+   "A": "This counts seven calendar days; the notice period is seven working days and excludes the weekend.",
+   "B": "This wrongly counts the day of disclosure as day one; the period starts on the first working day after it, so 12 March is the last day of the notice period.",
+   "D": "The 31-day moratorium runs only if consent is refused within the notice period, which did not happen.",
+   "E": "Section 335(2)-(3) expressly treats silence until the end of the notice period as consent."
+  },
+  "key_rule": "After an authorised disclosure to the NCA, consent is deemed if no refusal is received within seven working days starting with the first working day after the disclosure (POCA s.335(2)-(5)).",
+  "authority": "Proceeds of Crime Act 2002 ss.335(2)-(7) and 340(13)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2002/29/section/335",
+  "tags": [
+   "money laundering",
+   "proceeds of crime act 2002",
+   "appropriate consent",
+   "time limits"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Money laundering: the appropriate person or body to whom suspicions should be reported, the appropriate time for such reports to be made and the appropriate procedure to be followed",
+   "context_subject": "Legal Services",
+   "source_type": "legislation",
+   "source_quote": "The notice period is the period of seven working days starting with the first working day after the person makes the disclosure.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Date arithmetic checked by script: 3 March 2026 is a Tuesday; working days 4-12 March 2026 inclusive. No bank holidays in that window in England and Wales; the scenario also states this."
+  }
+ },
+ {
+  "id": "lib-ls-012",
+  "subject": "Legal Services",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Domestic politically exposed persons: enhanced due diligence still required (MLR 2017 reg 35)",
+  "scenario": "Sandeep Gill, a serving member of the House of Commons, asks Wexley Thorne LLP, an SRA-authorised firm in England, to act on his purchase of a house in London for £1.2 million. The firm's risk-management systems identify him as a politically exposed person. Having assessed the risk, the firm finds no enhanced risk factors beyond his status as a domestic PEP and decides it is willing to act.",
+  "stem": "Under the Money Laundering Regulations 2017, what must the firm do in addition to its standard customer due diligence before establishing the business relationship?",
+  "options": {
+   "A": "Obtain approval from senior management, take adequate measures to establish the source of wealth and source of funds involved, and conduct enhanced ongoing monitoring of the relationship.",
+   "B": "Nothing further, because a domestic PEP with no enhanced risk factors is treated in the same way as any other client.",
+   "C": "Apply simplified due diligence, because a member of the UK Parliament presents a lower risk than an ordinary client.",
+   "D": "Make a suspicious activity report to the National Crime Agency before acting, because acting for a PEP is itself a reportable matter.",
+   "E": "Decline the instructions, because firms may not establish business relationships with PEPs in property transactions."
+  },
+  "answer": "A",
+  "explanation": "Regulation 35 of the Money Laundering Regulations 2017 requires a relevant person to have systems to identify PEPs and to manage the enhanced risks. Regulation 35(3A) provides that for a domestic PEP the starting point is that the client presents a lower level of risk than a non-domestic PEP, and if no enhanced risk factors are present the extent of enhanced due diligence is less. But it is still enhanced due diligence. Regulation 35(5) requires a relevant person who proposes to have a business relationship with a PEP, in addition to the measures in regulation 33, to obtain senior management approval, take adequate measures to establish the source of wealth and source of funds, and conduct enhanced ongoing monitoring. Mr Gill is a domestic PEP, so Wexley Thorne must take these steps, scaled to the lower risk.",
+  "why_wrong": {
+   "B": "Regulation 35(3A) lowers the extent of enhanced due diligence for domestic PEPs but does not remove it; reg 35(5) still applies.",
+   "C": "PEP status calls for enhanced, not simplified, due diligence.",
+   "D": "Being a PEP is not in itself grounds for knowledge or suspicion of money laundering, so no report is required merely because of his status.",
+   "E": "The Regulations permit relationships with PEPs subject to enhanced measures; they do not prohibit acting."
+  },
+  "key_rule": "Before a business relationship with a PEP (including a domestic PEP), a firm must obtain senior management approval, establish source of wealth and funds, and monitor the relationship more closely (MLR 2017 reg 35(5)).",
+  "authority": "Money Laundering, Terrorist Financing and Transfer of Funds (Information on the Payer) Regulations 2017, reg 35(3A) and (5)",
+  "verified_source_url": "https://www.legislation.gov.uk/uksi/2017/692/regulation/35",
+  "tags": [
+   "money laundering regulations 2017",
+   "enhanced due diligence",
+   "politically exposed persons"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Money laundering: due diligence requirements",
+   "context_subject": "Legal Services",
+   "source_type": "legislation",
+   "source_quote": "must, in addition to the measures required by regulation 33— (a) have approval from senior management for establishing or continuing the business relationship with that person; (b) take adequate measures to establish the source of wealth and source of funds",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Money Laundering and Terrorist Financing (Amendment) Regulations 2026 (SI 2026/621, made 9 June 2026) amend reg 33 and insert reg 34A (from 1 Feb 2027) but do not amend reg 35; reg 35 shown as up to date to 15 Oct 2026."
+  }
+ },
+ {
+  "id": "lib-ls-013",
+  "subject": "Legal Services",
+  "flk": "FLK1",
+  "difficulty": "easy",
+  "title": "Beneficial owners of a company client: individuals holding more than 25% (MLR 2017 reg 5)",
+  "scenario": "Brightwater Interiors Ltd, an unlisted company, instructs Fenwick Adeyemi, an SRA-authorised firm in England, to act on its purchase of a warehouse. The company's shares and voting rights are held by four individuals: Helena Novak 30%, Marcus Obi 25%, Saoirse Kelly 25% and Daniel Price 20%. Each holds directly, and no one exercises control over the company's management in any other way.",
+  "stem": "Which individual or individuals are beneficial owners of the company under the Money Laundering Regulations 2017?",
+  "options": {
+   "A": "All four shareholders, because every shareholder of a client company is a beneficial owner.",
+   "B": "Helena, Marcus and Saoirse, because each holds 25% or more of the shares.",
+   "C": "None of them, because no individual holds a majority of the shares.",
+   "D": "Helena only, because she is the only individual holding more than 25% of the shares and voting rights.",
+   "E": "Helena and Daniel, because the largest and smallest holders must both be identified."
+  },
+  "answer": "D",
+  "explanation": "Regulation 5(1) of the Money Laundering Regulations 2017 defines the beneficial owner of a body corporate (other than a listed company) as including any individual who ultimately owns or controls, directly or indirectly, more than 25% of the shares or voting rights, or who exercises ultimate control over its management or otherwise controls it. The threshold is 'more than 25%', not '25% or more'. Helena holds 30%, so she is a beneficial owner. Marcus and Saoirse hold exactly 25%, which is not more than 25%, and Daniel holds 20%. As no one controls the company in any other way, Helena is the only beneficial owner, and the firm's customer due diligence must identify her and take reasonable measures to verify her identity.",
+  "why_wrong": {
+   "A": "Only individuals meeting the reg 5 tests are beneficial owners; a 20% holding with no other control does not qualify.",
+   "B": "The threshold is more than 25%; holding exactly 25% does not meet it.",
+   "C": "A majority is not needed; any holding above 25% makes an individual a beneficial owner.",
+   "E": "There is no rule requiring the smallest shareholder to be identified as a beneficial owner."
+  },
+  "key_rule": "For an unlisted company, a beneficial owner includes any individual who ultimately owns or controls more than 25% of its shares or voting rights (MLR 2017 reg 5(1)(b)).",
+  "authority": "Money Laundering, Terrorist Financing and Transfer of Funds (Information on the Payer) Regulations 2017, reg 5(1)",
+  "verified_source_url": "https://www.legislation.gov.uk/uksi/2017/692/regulation/5",
+  "tags": [
+   "money laundering regulations 2017",
+   "customer due diligence",
+   "beneficial owner"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Money laundering: due diligence requirements",
+   "context_subject": "Legal Services",
+   "source_type": "legislation",
+   "source_quote": "any individual who ultimately owns or controls (in each case whether directly or indirectly), including through bearer share holdings or by other means, more than 25% of the shares or voting rights in the body corporate",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-ls-014",
+  "subject": "Legal Services",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Breach of the general prohibition: agreement unenforceable against the client (FSMA s.26)",
+  "scenario": "Corrigan Mbeki, an SRA-authorised firm in England that is not authorised by the FCA, agreed with a client, Elena Petrova, to arrange her purchase of a portfolio of listed shares as a stand-alone service for a fee of £4,000, unconnected with any other legal work for her. The arrangement did not fall within any exclusion, and the firm could not rely on the exemption for professional firms in Part 20 of FSMA because the service was not incidental to legal services. Elena has paid £2,000 and refuses to pay the balance.",
+  "stem": "Which of the following best describes the civil consequences of the agreement with Elena?",
+  "options": {
+   "A": "The agreement is valid and enforceable, because breach of the general prohibition carries only criminal and regulatory consequences.",
+   "B": "The agreement is unenforceable against Elena, and she is entitled to recover the £2,000 she paid and compensation for any loss she suffered as a result of parting with it.",
+   "C": "The agreement is void for both parties, but Elena cannot recover the £2,000, because she received the service she paid for.",
+   "D": "The agreement remains enforceable unless Elena shows she has suffered loss from the firm's lack of authorisation.",
+   "E": "The agreement becomes enforceable if the SRA retrospectively approves the firm's conduct of the activity."
+  },
+  "answer": "B",
+  "explanation": "Section 19 FSMA 2000 (the general prohibition) bars anyone from carrying on a regulated activity in the UK unless authorised or exempt. Arranging deals in shares is a regulated activity. The firm is not FCA-authorised and cannot use the Part 20 exemption, so it contravened the general prohibition, which is an offence under s.23. On the civil side, s.26(1) provides that an agreement made by a person in the course of carrying on a regulated activity in breach of the general prohibition is unenforceable against the other party. Under s.26(2) the other party is entitled to recover any money paid under the agreement and compensation for any loss sustained as a result of having parted with it. Elena therefore need not pay the balance and can recover the £2,000 she has paid.",
+  "why_wrong": {
+   "A": "Section 26 gives a civil consequence: the agreement is unenforceable against the other party.",
+   "C": "Section 26(2) expressly entitles the other party to recover money paid under the agreement.",
+   "D": "Unenforceability under s.26(1) does not depend on the client proving loss; loss is relevant only to compensation.",
+   "E": "The SRA has no power to ratify a breach of the general prohibition; unenforceability flows from the statute."
+  },
+  "key_rule": "An agreement made in the course of a regulated activity carried on in breach of the general prohibition is unenforceable against the other party, who may recover money paid and compensation (FSMA 2000 s.26).",
+  "authority": "Financial Services and Markets Act 2000 ss.19, 23 and 26",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2000/8/section/26",
+  "tags": [
+   "financial services",
+   "fsma 2000",
+   "general prohibition"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Financial services: the financial services regulatory framework including authorisation, and how it applies to solicitors' firms",
+   "context_subject": "Legal Services",
+   "source_type": "legislation",
+   "source_quote": "An agreement made by a person in the course of carrying on a regulated activity in contravention of the general prohibition is unenforceable against the other party.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "s.28 FSMA allows the court to enforce if just and equitable; not tested and no option relies on it. s.19 and s.23 also fetched."
+  }
+ },
+ {
+  "id": "lib-ls-015",
+  "subject": "Legal Services",
+  "flk": "FLK1",
+  "difficulty": "easy",
+  "title": "Recognising a specified investment: company shares v land and goods (RAO art 76)",
+  "scenario": "Monique Delacroix is the executor of her late father's estate in England and has instructed Ravensworth Hale, an SRA-authorised firm, to help administer it. The estate includes: a freehold house in Kent; a classic car; a painting by a minor Victorian artist; a long leasehold flat in Brighton; and 2,000 ordinary shares in a company listed on the London Stock Exchange. Monique asks which of these assets could bring the firm's work within the financial services regime if the firm arranged its sale.",
+  "stem": "Which asset is a specified investment for the purposes of the Financial Services and Markets Act 2000?",
+  "options": {
+   "A": "The freehold house in Kent.",
+   "B": "The classic car.",
+   "C": "The painting.",
+   "D": "The long leasehold flat in Brighton.",
+   "E": "The ordinary shares in the listed company."
+  },
+  "answer": "E",
+  "explanation": "A regulated activity under FSMA 2000 is a specified activity carried on by way of business in relation to a specified investment. The specified investments are listed in Part 3 of the Financial Services and Markets Act 2000 (Regulated Activities) Order 2001. Article 76 specifies shares or stock in the share capital of any body corporate, wherever incorporated. The listed company shares are therefore a specified investment, so arranging their sale could be a regulated activity, unless an exclusion or the Part 20 exemption for professional firms applies. Land, whether freehold or leasehold, and goods such as cars and paintings are not specified investments, so arranging their sale for the estate does not engage the financial services regime in that way.",
+  "why_wrong": {
+   "A": "Freehold land is not a specified investment, so selling the house is not a regulated activity on that basis.",
+   "B": "Goods such as a car are not specified investments.",
+   "C": "A painting is a chattel, not a specified investment.",
+   "D": "A leasehold interest in land is not a specified investment."
+  },
+  "key_rule": "Shares in the share capital of any body corporate are specified investments (RAO 2001 art 76); land and ordinary goods are not.",
+  "authority": "Financial Services and Markets Act 2000 (Regulated Activities) Order 2001, art 76; FSMA 2000 s.22",
+  "verified_source_url": "https://www.legislation.gov.uk/uksi/2001/544/article/76",
+  "tags": [
+   "financial services",
+   "specified investments",
+   "regulated activities order"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Financial services: recognition of relevant financial services issues, including the identification of specified investments, specified activities and relevant exemptions",
+   "context_subject": "Legal Services",
+   "source_type": "legislation",
+   "source_quote": "Shares or stock in the share capital of— (a) any body corporate (wherever incorporated)",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "legislation.gov.uk notes the RAO is to be revoked by FSMA 2023 Sch 1 Pt 5 at a future date; not in force at 16 Oct 2026, so the position as at 11 Sep 2026 stands. Negatives (land, goods not specified) are not quoted from the source."
+  }
+ },
+ {
+  "id": "lib-ls-016",
+  "subject": "Legal Services",
+  "flk": "FLK1",
+  "difficulty": "hard",
+  "title": "Introducing a client to an independent financial adviser: the introducing exclusion (RAO art 33)",
+  "scenario": "Wilhelmina Asante has inherited £300,000 and asks her solicitor, Rupert Hale of an SRA-authorised firm in York that is not FCA-authorised, what she should invest in. Rupert gives no view on any investment. Instead he refers her to Okafor Wealth, an independent financial adviser authorised by the FCA, so that it can give her independent advice on investments generally. Rupert's firm receives no fee or commission for the introduction.",
+  "stem": "Which of the following best describes whether Rupert's introduction is a regulated activity?",
+  "options": {
+   "A": "It is not a regulated activity, because arrangements for introducing a client to an authorised person with a view to independent advice on investments are excluded from 'making arrangements'.",
+   "B": "It is a regulated activity of advising on investments, because by recommending Okafor Wealth Rupert has effectively advised Wilhelmina to invest.",
+   "C": "It is a regulated activity of arranging deals in investments, which the firm may carry on only if it relies on the Part 20 exemption and accounts to Wilhelmina for any benefit.",
+   "D": "It is a regulated activity that requires the firm to be authorised by the FCA, because the sum involved exceeds the de minimis limit for introductions.",
+   "E": "It is not a regulated activity only because no commission is paid; if Rupert's firm received commission, the introduction would be a regulated activity."
+  },
+  "answer": "A",
+  "explanation": "Making arrangements with a view to transactions in investments is a specified activity under art 25(2) of the Regulated Activities Order 2001. Article 33 excludes from art 25(2) arrangements under which clients are introduced to another person, where that person is an authorised person (among others) and the introduction is made with a view to the provision of independent advice or the independent exercise of discretion in relation to investments generally. Okafor Wealth is FCA-authorised and the referral is so that it can give Wilhelmina independent advice on investments generally. Rupert expressed no view on the merits of any investment, so he has not advised on investments. The introduction is therefore excluded and is not a regulated activity, and the firm does not need FCA authorisation or the Part 20 exemption for it.",
+  "why_wrong": {
+   "B": "Recommending an adviser is not advice on the merits of buying or selling a particular investment, and Rupert gave no view on any investment.",
+   "C": "The art 33 exclusion takes the introduction outside art 25(2) altogether, so the Part 20 exemption is not needed for it.",
+   "D": "There is no monetary de minimis limit in art 33; the exclusion depends on who the client is introduced to and why.",
+   "E": "Article 33 does not depend on the absence of commission; commission matters instead for the Part 20 exemption's accounting condition."
+  },
+  "key_rule": "Introducing a client to an authorised person with a view to independent advice on investments is excluded from the arranging activity in art 25(2) (RAO 2001 art 33).",
+  "authority": "Financial Services and Markets Act 2000 (Regulated Activities) Order 2001, arts 25(2) and 33",
+  "verified_source_url": "https://www.legislation.gov.uk/uksi/2001/544/article/33",
+  "tags": [
+   "financial services",
+   "regulated activities order",
+   "exclusions",
+   "introducing"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Financial services: recognition of relevant financial services issues, including the identification of specified investments, specified activities and relevant exemptions",
+   "context_subject": "Legal Services",
+   "source_type": "legislation",
+   "source_quote": "(b) the person to whom introductions are to be made is— (i) an authorised person ... (c) the introduction is made with a view to the provision of independent advice",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Art 33(d) adds a condition that the arrangements are made with a view to a transaction not relating to a contract of insurance (or are of the art 33B type); the scenario concerns investments generally, so this is assumed satisfied. RAO prospective revocation by FSMA 2023 not in force."
+  }
+ },
+ {
+  "id": "lib-ls-017",
+  "subject": "Legal Services",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Commission and the Part 20 exemption: accounting to the client (FSMA 2000 s.327(3))",
+  "scenario": "Ainsley Brook, an SRA-authorised firm in England that is not authorised by the FCA, is administering an estate. As an incidental part of that work, and relying on the exemption in Part 20 of FSMA 2000, the firm arranges for the executors to sell the deceased's holding of listed shares through an FCA-authorised stockbroker. The stockbroker pays Ainsley Brook a commission of £1,150 for the business. The firm's practice manager suggests keeping the commission as general firm income.",
+  "stem": "What must the firm do with the commission if it is to continue to rely on the exemption for professional firms?",
+  "options": {
+   "A": "Nothing, provided the commission is below 10% of the firm's fees for the estate administration.",
+   "B": "Pay the commission to the SRA, which holds commissions received in exempt regulated activities.",
+   "C": "Account to its client for the commission, because a firm relying on s.327 must not receive any pecuniary reward from a third party for which it does not account to its client.",
+   "D": "Nothing, because commission from an FCA-authorised stockbroker is outside the conditions for the exemption.",
+   "E": "Disclose the commission on the firm's website, which is sufficient to satisfy the conditions for the exemption."
+  },
+  "answer": "C",
+  "explanation": "Section 327 FSMA 2000 disapplies the general prohibition for a member of a profession, or a firm controlled or managed by members of a profession, carrying on regulated activities if the conditions in s.327(2)-(7) are met. The SRA Financial Services (Scope) Rules require SRA-authorised firms relying on Part 20 to satisfy s.327(2) to (5). One condition, in s.327(3), is that the firm must not receive from a person other than its client any pecuniary reward or other advantage, arising out of the regulated activities, for which it does not account to its client. The stockbroker's commission is exactly such a reward. If Ainsley Brook keeps it as firm income without accounting to the executors, it falls outside the exemption and would be carrying on a regulated activity without authorisation.",
+  "why_wrong": {
+   "A": "Section 327(3) contains no percentage threshold; any unaccounted-for third-party reward breaches the condition.",
+   "B": "There is no requirement to pay commissions to the SRA; the duty is to account to the client.",
+   "D": "Section 327(3) applies to rewards from any person other than the client, including authorised stockbrokers.",
+   "E": "Publishing the commission is not accounting to the client for it, so the condition would not be met."
+  },
+  "key_rule": "A firm relying on the Part 20 exemption must not receive any pecuniary reward from a third party arising from the regulated activity for which it does not account to its client (FSMA 2000 s.327(3)).",
+  "authority": "Financial Services and Markets Act 2000 s.327(3); SRA Financial Services (Scope) Rules, rule 2.1(a)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2000/8/section/327",
+  "tags": [
+   "financial services",
+   "exempt professional firms",
+   "part 20",
+   "commission"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Financial services: application of the Financial Services and Markets Act 2000 and related secondary legislation to the work of a solicitor",
+   "context_subject": "Legal Services",
+   "source_type": "legislation",
+   "source_quote": "P must not receive from a person other than his client any pecuniary reward or other advantage, for which he does not account to his client, arising out of his carrying on of any of the activities.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Whether the client may agree to the firm keeping the commission (and whether that counts as 'accounting') is deliberately not offered as an option. SRA Scope Rules page also fetched (https://www.sra.org.uk/solicitors/standards-regulations/financial-services-scope-rules/)."
+  }
+ },
+ {
+  "id": "lib-ls-018",
+  "subject": "Legal Services",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "SRA Financial Services (Scope) Rules: acting as nominated adviser on an AIM admission is prohibited",
+  "scenario": "Kingsley Ruiz LLP is an SRA-authorised firm in London that is not authorised by the FCA. Its corporate department acts for Tidemark Robotics plc, which is seeking admission of its shares to the Alternative Investment Market (AIM) of the London Stock Exchange. The board asks the firm to take on several roles in the transaction.",
+  "stem": "Which role is Kingsley Ruiz LLP prohibited from taking by the SRA Financial Services (Scope) Rules?",
+  "options": {
+   "A": "Acting as nominated adviser to the issue of Tidemark's shares for admission to AIM.",
+   "B": "Advising Tidemark on amendments to its articles of association needed for the admission.",
+   "C": "Carrying out legal due diligence on Tidemark's material contracts for the admission document.",
+   "D": "Advising Tidemark's directors on their duties under the Companies Act 2006 as directors of a quoted company.",
+   "E": "Drafting Tidemark's board minutes and shareholder resolutions approving the admission."
+  },
+  "answer": "A",
+  "explanation": "The SRA Financial Services (Scope) Rules apply to SRA-authorised firms that are not regulated by the FCA. Rule 4 (corporate finance) provides that a firm must not act as sponsor to an issue of securities to be admitted for dealing on the London Stock Exchange, or as nominated adviser to an issue in respect of securities to be admitted for dealing on AIM. Kingsley Ruiz is not FCA-authorised, so it cannot act as Tidemark's nominated adviser, whatever other conditions it meets. The firm can still act as Tidemark's legal adviser on the admission: advising on the articles, carrying out legal due diligence, advising directors on their duties and preparing corporate approvals are professional legal services and are not prohibited by the Scope Rules.",
+  "why_wrong": {
+   "B": "Advising on articles of association is ordinary legal work and not prohibited by the Scope Rules.",
+   "C": "Legal due diligence is a professional legal service, not a prohibited corporate finance role.",
+   "D": "Advising directors on their statutory duties is legal advice and not within rule 4.",
+   "E": "Drafting board minutes and resolutions is legal work, not a prohibited role under the Scope Rules."
+  },
+  "key_rule": "An SRA firm not regulated by the FCA must not act as sponsor to a London Stock Exchange issue or as nominated adviser to an AIM issue (SRA Financial Services (Scope) Rules, rule 4.1).",
+  "authority": "SRA Financial Services (Scope) Rules, rules 1.1 and 4.1",
+  "verified_source_url": "https://www.sra.org.uk/solicitors/standards-regulations/financial-services-scope-rules/",
+  "tags": [
+   "financial services",
+   "sra financial services scope rules",
+   "exempt professional firms"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Financial services: application of the Financial Services and Markets Act 2000 and related secondary legislation to the work of a solicitor",
+   "context_subject": "Legal Services",
+   "source_type": "regulator-rules",
+   "source_quote": "You must not act as any of the following: ... (b) nominated adviser to an issue in respect of securities to be admitted for dealing on the Alternative Investment Market of the London Stock Exchange",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Brief excludes FCA/LSE market rules, but this tests the SRA Scope Rules, which are on point for 'application of FSMA to the work of a solicitor'. Reviewer may judge whether AIM context is too specialist for an NQ."
+  }
+ },
+ {
+  "id": "lib-ls-019",
+  "subject": "Legal Services",
+  "flk": "FLK1",
+  "difficulty": "hard",
+  "title": "Personal injury CFA: success fee capped at 25% of damages excluding future loss (2013 Order)",
+  "scenario": "Nadia Rahman instructed Pennington Lowe, an SRA-authorised firm in England, under a conditional fee agreement entered into in 2025 for her personal injury claim arising from an accident at work. The agreement provides for a success fee of 100% of base costs and caps it in accordance with the Conditional Fee Agreements Order 2013. The claim settles at first instance for: general damages for pain, suffering and loss of amenity £40,000; past loss of earnings £12,000; and future loss of earnings £80,000. Nothing is recoverable by the Compensation Recovery Unit. The firm's base costs are £30,000. Ignore VAT.",
+  "stem": "What is the maximum success fee the firm may charge Nadia?",
+  "options": {
+   "A": "£30,000.",
+   "B": "£33,000.",
+   "C": "£10,000.",
+   "D": "£13,000.",
+   "E": "Nothing, because a success fee in a personal injury claim can no longer be charged to the client."
+  },
+  "answer": "D",
+  "explanation": "Under s.58(4A)-(4B) Courts and Legal Services Act 1990 and arts 4-5 of the Conditional Fee Agreements Order 2013, in a personal injury claim at first instance the success fee must be capped at 25% of specified damages. The specified damages are general damages for pain, suffering and loss of amenity and damages for pecuniary loss other than future pecuniary loss, net of sums recoverable by the CRU. Nadia's relevant damages are £40,000 plus £12,000 past loss of earnings, a total of £52,000. Future loss of earnings (£80,000) is excluded. The cap is therefore 25% of £52,000, which is £13,000. The agreed success fee of 100% of base costs would be £30,000, so it is limited to £13,000, which the firm may charge Nadia (from her damages).",
+  "why_wrong": {
+   "A": "A 100% success fee of £30,000 exceeds the 25% cap on specified damages and cannot be charged in full.",
+   "B": "This applies 25% to all damages (£132,000), wrongly including future loss of earnings.",
+   "C": "This applies 25% to general damages only, wrongly excluding past pecuniary loss.",
+   "E": "A success fee remains chargeable to the client; what changed in 2013 was recovery from the losing party."
+  },
+  "key_rule": "In a personal injury CFA, the success fee at first instance is capped at 25% of general damages and past pecuniary loss, net of CRU recoverable sums (CFA Order 2013 art 5).",
+  "authority": "Courts and Legal Services Act 1990 s.58(4A)-(4B); Conditional Fee Agreements Order 2013 (SI 2013/689) arts 3-5",
+  "verified_source_url": "https://www.legislation.gov.uk/uksi/2013/689/made",
+  "tags": [
+   "conditional fee agreements",
+   "success fee",
+   "funding",
+   "personal injury"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Funding options for legal services: conditional fee agreements",
+   "context_subject": "Legal Services",
+   "source_type": "legislation",
+   "source_quote": "in proceedings at first instance, 25% ... (a) general damages for pain, suffering, and loss of amenity; and (b) damages for pecuniary loss, other than future pecuniary loss, net of any sums recoverable by the Compensation Recovery Unit",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "legislation.gov.uk holds the CFA Order 2013 only in its original (as made) format, so later amendments, if any, would not be shown; none known. s.58 CLSA checked: no outstanding effects."
+  }
+ },
+ {
+  "id": "lib-ls-020",
+  "subject": "Legal Services",
+  "flk": "FLK1",
+  "difficulty": "easy",
+  "title": "CFA success fees are not recoverable from the losing opponent (CLSA 1990 s.58A(6))",
+  "scenario": "Callum Fraser is considering bringing a High Court claim in England for breach of contract against a former supplier. His solicitor proposes a conditional fee agreement with a success fee of 50% of base costs, entered into now. Callum asks: 'If I win and the court orders the supplier to pay my costs, will the supplier also have to pay your success fee?'",
+  "stem": "Which of the following is the correct answer to Callum's question?",
+  "options": {
+   "A": "Yes, the success fee is recoverable as part of the costs order, provided it was reasonable.",
+   "B": "Yes, but only if Callum told the supplier about the conditional fee agreement before the claim was issued.",
+   "C": "No, because a costs order may not require one party to pay all or part of a success fee payable by another party under a conditional fee agreement; the success fee is payable by Callum.",
+   "D": "No, because success fees are prohibited in commercial claims, so the agreement cannot include one.",
+   "E": "Only half of it, because the success fee is shared equally between the client and the losing party."
+  },
+  "answer": "C",
+  "explanation": "Section 58A(6) of the Courts and Legal Services Act 1990, as substituted by the Legal Aid, Sentencing and Punishment of Offenders Act 2012, provides that a costs order made in proceedings may not include provision requiring the payment by one party of all or part of a success fee payable by another party under a conditional fee agreement. For an agreement entered into now, the success fee is therefore not recoverable from the supplier, even if Callum wins and obtains a costs order. Callum would remain liable to pay the success fee to his solicitor himself. In a contract claim the success fee is not subject to the personal injury damages cap, but it cannot exceed 100% of base costs, so a 50% success fee is permissible.",
+  "why_wrong": {
+   "A": "Since the 2012 reforms, a costs order cannot require the paying party to pay a success fee, however reasonable.",
+   "B": "Notice to the opponent no longer makes a success fee recoverable; s.58A(6) bars recovery outright.",
+   "D": "Success fees are permitted in commercial claims, up to 100% of base costs; the issue is only who pays.",
+   "E": "There is no sharing rule; none of the success fee is recoverable from the opponent."
+  },
+  "key_rule": "A costs order may not require one party to pay all or part of another party's CFA success fee; the client pays it (Courts and Legal Services Act 1990 s.58A(6)).",
+  "authority": "Courts and Legal Services Act 1990 s.58A(6) (substituted by LASPO 2012 s.44); Conditional Fee Agreements Order 2013 art 3",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1990/41/section/58A",
+  "tags": [
+   "conditional fee agreements",
+   "success fee",
+   "costs",
+   "funding"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Funding options for legal services: conditional fee agreements",
+   "context_subject": "Legal Services",
+   "source_type": "legislation",
+   "source_quote": "A costs order made in proceedings may not include provision requiring the payment by one party of all or part of a success fee payable by another party under a conditional fee agreement.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Transitional exceptions (mesothelioma, pre-2013 agreements) are irrelevant to a contract claim entered into now. The 100% ceiling is from CFA Order 2013 art 3 (fetched)."
+  }
+ },
+ {
+  "id": "lib-ls-021",
+  "subject": "Legal Services",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Damages-based agreements in employment claims: the 35% cap including VAT (DBA Regs reg 7)",
+  "scenario": "Aisha Bello brings an unfair dismissal and discrimination claim in the employment tribunal in England. She instructs Marlow Achterberg, an SRA-authorised firm, under a damages-based agreement made in 2025. The tribunal awards her £60,000, all of which she recovers from her former employer. The agreement provides for the firm's payment to be the maximum percentage of her recovery permitted by law.",
+  "stem": "What is the maximum payment the firm may receive from Aisha under the damages-based agreement?",
+  "options": {
+   "A": "£15,000, being 25% of the sum recovered.",
+   "B": "£21,000, being 35% of the sum recovered, including VAT.",
+   "C": "£25,200, being 35% of the sum recovered plus VAT.",
+   "D": "£30,000, being 50% of the sum recovered, including VAT.",
+   "E": "Nothing, because damages-based agreements cannot be used in employment tribunal claims."
+  },
+  "answer": "B",
+  "explanation": "The Damages-Based Agreements Regulations 2013 set caps on the payment a representative may take from a client's recovery. For employment matters, regulation 7 provides that a damages-based agreement must not provide for a payment above an amount which, including VAT, is equal to 35% of the sums ultimately recovered by the client. Aisha recovered £60,000, so the maximum payment is 35% of £60,000, which is £21,000, and that figure includes any VAT. The 25% cap in regulation 4(2) applies to personal injury claims, and the 50% cap in regulation 4(3) to other civil claims at first instance; neither applies to an employment matter.",
+  "why_wrong": {
+   "A": "25% is the cap for personal injury claims under reg 4(2), not employment matters.",
+   "C": "The 35% cap is inclusive of VAT, so VAT cannot be added on top.",
+   "D": "The 50% cap in reg 4(3) applies to other civil claims, not employment matters.",
+   "E": "DBAs are expressly permitted in employment matters, subject to the 35% cap in reg 7."
+  },
+  "key_rule": "In an employment matter, a damages-based agreement must not provide for a payment above 35% of the sums ultimately recovered, including VAT (DBA Regulations 2013 reg 7).",
+  "authority": "Damages-Based Agreements Regulations 2013 (SI 2013/609) regs 4 and 7",
+  "verified_source_url": "https://www.legislation.gov.uk/uksi/2013/609",
+  "tags": [
+   "damages based agreements",
+   "funding",
+   "employment tribunal"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Funding options for legal services: damages based agreements",
+   "context_subject": "Legal Services",
+   "source_type": "legislation",
+   "source_quote": "In an employment matter, a damages-based agreement must not provide for a payment above an amount which, including VAT, is equal to 35% of the sums ultimately recovered by the client in the claim or proceedings.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "legislation.gov.uk shows no outstanding effects for the DBA Regulations 2013 (checked 16 Oct 2026). Long-running reform proposals for DBAs and litigation funding (post-PACCAR) are not law as at 11 Sep 2026 so far as checked; reviewer may re-confirm."
+  }
+ },
+ {
+  "id": "lib-ls-022",
+  "subject": "Legal Services",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Civil legal aid scope: possession of the client's home v excluded services (LASPO Sch 1)",
+  "scenario": "Five people visit a legal aid drop-in clinic run by an SRA-authorised firm in Sheffield. Each would meet the financial eligibility and merits criteria if their matter is within scope. Jade wants to sue a supermarket after slipping and breaking her wrist. Rashid wants to defend a possession claim his landlord has issued against his home. Ewa wants to sue a neighbour for defamation. Thomas wants advice on a dispute about a family trust. Precious wants to sue a neighbour for trespass to land over a disputed boundary.",
+  "stem": "Whose matter is within the scope of civil legal aid under Part 1 of Schedule 1 to the Legal Aid, Sentencing and Punishment of Offenders Act 2012?",
+  "options": {
+   "A": "Jade's claim for her broken wrist.",
+   "B": "Precious's trespass to land claim.",
+   "C": "Ewa's defamation claim.",
+   "D": "Thomas's family trust dispute.",
+   "E": "Rashid's defence of the possession claim against his home."
+  },
+  "answer": "E",
+  "explanation": "Since LASPO 2012, civil legal aid is available only for services described in Part 1 of Schedule 1, and the client must also satisfy the means and merits tests. Paragraph 33(1) of Part 1 covers civil legal services provided to an individual in relation to court orders for sale or possession of the individual's home, or eviction from it. Rashid's defence of his landlord's possession claim falls within paragraph 33, so his matter is in scope. Part 2 of Schedule 1 lists excluded services, which are outside Part 1 unless Part 1 provides otherwise: personal injury (para 1), trespass to land (para 5), defamation (para 7) and matters of trust law (para 11). Jade, Precious, Ewa and Thomas therefore fall outside scope and would need other funding, such as a conditional fee agreement.",
+  "why_wrong": {
+   "A": "Personal injury claims are excluded services under Sch 1 Pt 2 para 1.",
+   "B": "Claims in tort for trespass to land are excluded under Sch 1 Pt 2 para 5.",
+   "C": "Defamation is an excluded service under Sch 1 Pt 2 para 7.",
+   "D": "Matters of trust law are excluded under Sch 1 Pt 2 para 11."
+  },
+  "key_rule": "Civil legal aid covers services listed in LASPO Sch 1 Pt 1, including defending possession of the client's home (para 33); excluded services in Pt 2 include personal injury, defamation, trespass to land and trust law.",
+  "authority": "Legal Aid, Sentencing and Punishment of Offenders Act 2012, Sch 1 Pt 1 para 33 and Pt 2 paras 1, 5, 7 and 11",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2012/10/schedule/1/paragraph/33",
+  "tags": [
+   "legal aid",
+   "laspo 2012",
+   "funding"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Funding options for legal services: eligibility for civil legal aid",
+   "context_subject": "Legal Services",
+   "source_type": "legislation",
+   "source_quote": "Civil legal services provided to an individual in relation to— ... (a) court orders for sale or possession of the individual's home",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Excluded services verified on https://www.legislation.gov.uk/ukpga/2012/10/schedule/1/part/2 (fetched). Exceptional case funding (s.10) is ignored, as the stem asks about Sch 1 Pt 1 scope only."
+  }
+ },
+ {
+  "id": "lib-ls-023",
+  "subject": "Legal Services",
+  "flk": "FLK1",
+  "difficulty": "easy",
+  "title": "Legal expenses insurance: checking for before-the-event cover at the outset (Sarwar v Alam)",
+  "scenario": "Oluwaseun Adebayo was injured when a car hit him while he was cycling in Nottingham. He consults Harrow Penney, an SRA-authorised firm, about a claim against the driver which he values at around £25,000. At the first meeting, the solicitor discusses how the claim might be funded.",
+  "stem": "Which step best reflects proper practice for the solicitor when considering funding at the outset?",
+  "options": {
+   "A": "Enter into a conditional fee agreement with after-the-event insurance immediately, because legal expenses insurance can never be used for personal injury claims.",
+   "B": "Apply for civil legal aid, because injured cyclists are a priority category for public funding.",
+   "C": "Advise that the only options are a private retainer or a damages-based agreement.",
+   "D": "Ask Oluwaseun to produce his motor, household and any stand-alone legal expenses insurance policies, to check whether he already has before-the-event cover for the claim.",
+   "E": "Make no enquiry about insurance, because Oluwaseun's freedom to choose his own solicitor would be lost if he used legal expenses insurance."
+  },
+  "answer": "D",
+  "explanation": "In Sarwar v Alam [2001] EWCA Civ 1401 the Court of Appeal said that proper modern practice dictates that a solicitor should normally invite a client to bring to the first interview any relevant motor insurance policy, household insurance policy and any stand-alone before-the-event (BTE) insurance policy. Such policies often include legal expenses insurance that may fund the claim. Checking for BTE cover is therefore an essential first step when advising on funding, alongside other options such as a conditional fee agreement, a damages-based agreement or a private retainer. The court stressed that the enquiry should be proportionate and that the guidance is not an inflexible code. Here, asking Oluwaseun to produce his policies is the step that best reflects that practice.",
+  "why_wrong": {
+   "A": "Legal expenses (BTE) insurance commonly covers personal injury claims, and its availability should be checked before other arrangements are made.",
+   "B": "Personal injury claims are excluded from civil legal aid under LASPO 2012 Sch 1 Pt 2 para 1.",
+   "C": "This ignores other options, including conditional fee agreements and legal expenses insurance.",
+   "E": "Concern about choice of solicitor does not remove the need to check whether BTE cover exists; the solicitor should still enquire."
+  },
+  "key_rule": "When advising on funding, a solicitor should normally ask the client to produce motor, household and any stand-alone BTE policies to check for legal expenses insurance (Sarwar v Alam [2001] EWCA Civ 1401).",
+  "authority": "Sarwar v Alam [2001] EWCA Civ 1401, paras 45-50",
+  "verified_source_url": "https://www.bailii.org/ew/cases/EWCA/Civ/2001/1401.html",
+  "tags": [
+   "legal expenses insurance",
+   "funding",
+   "client care"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Funding options for legal services: legal expenses insurance",
+   "context_subject": "Legal Services",
+   "source_type": "judgment",
+   "source_quote": "proper modern practice dictates that a solicitor should normally invite a client to bring to the first interview any relevant motor insurance policy, any household insurance policy and any stand-alone BTE insurance policy",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Sarwar was decided under the pre-2013 costs regime (recoverability of ATE premiums); the practice point about enquiring into BTE cover remains standard guidance. A £25,000 cycling claim is outside the RTA whiplash small claims regime. Reviewer may consider adding SRA Code para 8.7 as a supporting authority."
+  }
+ }
+]

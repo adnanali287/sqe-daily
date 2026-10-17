@@ -1,0 +1,1128 @@
+[
+ {
+  "id": "lib-eth-001",
+  "subject": "Ethics & Professional Conduct",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Joint clients forming a company who then disagree on a shareholders' agreement term (Code 6.2)",
+  "scenario": "Priya Raman and Tomasz Nowak ask Fenwick Hale LLP to incorporate a private company limited by shares for their new catering business. They have agreed to be equal shareholders and the only directors. The firm agreed to act for both on the basis that they had a substantially common interest, and both gave informed consent in writing. Two weeks later, while the firm is drafting a shareholders' agreement, Priya says she wants a clause allowing her to buy Tomasz's shares at nominal value if he leaves the business within three years. Tomasz strongly opposes the clause. Each now asks the firm to negotiate the best terms for them on this point.",
+  "stem": "Which of the following best describes the firm's position under the SRA Code of Conduct for Solicitors, RELs, RFLs and RSLs?",
+  "options": {
+   "A": "The firm may continue to act for both on every aspect, because the informed written consent they gave at the outset covers any later disagreement.",
+   "B": "The firm must stop acting for both clients on every part of the incorporation, because a conflict on one term automatically taints the whole matter.",
+   "C": "The firm may negotiate the disputed clause for both, provided it advises each of them at separate meetings.",
+   "D": "The firm has a conflict of interest on the disputed share-transfer terms and must not negotiate them for both clients; it may continue to act for both only on aspects where they still have a substantially common interest and the paragraph 6.2 conditions remain met.",
+   "E": "The firm may act for both on the disputed clause, provided it does not charge either of them for the time spent on it."
+  },
+  "answer": "D",
+  "explanation": "Paragraph 6.2 of the Code bars a solicitor from acting 'in relation to a matter or particular aspect of it' where there is a conflict of interest or a significant risk of one, unless an exception applies and its conditions are met. Setting up a business together is the SRA's own example of a substantially common interest, which is why the firm could properly accept instructions from both. That common interest has now broken down on one aspect: Priya and Tomasz want opposite outcomes on the share-transfer clause and each wants the firm to negotiate for them. The SRA's conflicts guidance says that where substantive negotiations between the clients are foreseen, the solicitor should not act unless an exception applies, and neither exception fits two clients negotiating against each other. The firm cannot advise both on that clause. At least one of them, in practice both, should be separately advised on it. The firm may continue with aspects where they remain in agreement, such as the incorporation filings, if it is still reasonable to act and the consent and safeguard conditions are still met.",
+  "why_wrong": {
+   "A": "Consent given when the clients' interests were aligned does not cover a new conflict on an aspect where they now want opposing outcomes; the exception must apply to that aspect.",
+   "B": "Paragraph 6.2 applies to 'a matter or particular aspect of it', so the conflict on one term does not automatically bar the firm from aspects where the clients' interests remain common.",
+   "C": "Separate meetings do not remove the conflict: the firm would still owe each client a duty to push for opposing outcomes on the same clause.",
+   "E": "Whether the firm charges is irrelevant to whether a conflict of interest exists under paragraph 6.2."
+  },
+  "key_rule": "A solicitor acting for joint clients under the substantially common interest exception must not act on any aspect where their interests now conflict, such as a term they are negotiating.",
+  "authority": "SRA Code of Conduct for Solicitors, RELs, RFLs and RSLs, para 6.2; SRA guidance, Conflicts of interest",
+  "verified_source_url": "https://www.sra.org.uk/solicitors/standards-regulations/code-conduct-solicitors/",
+  "tags": [
+   "conflict of interest",
+   "sra code of conduct",
+   "joint clients"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Ethics (pervasive; FLK assessment objective: act honestly and with integrity and in accordance with the SoSC, the SRA Principles and the Code of Conduct) — conflict of interests (Code 6.1-6.2)",
+   "context_subject": "Business Law & Practice",
+   "source_type": "regulator-rules",
+   "source_quote": "You do not act in relation to a matter or particular aspect of it if you have a conflict of interest or a significant risk of such a conflict in relation to that matter or aspect of it",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "The 'substantially common interest' example (setting up a business together) and the 'substantive negotiations' point come from the SRA conflicts guidance (https://www.sra.org.uk/solicitors/guidance/conflicts-interest/), also fetched 16 Oct 2026."
+  }
+ },
+ {
+  "id": "lib-eth-002",
+  "subject": "Ethics & Professional Conduct",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Client instructs solicitor to withhold and delete a damaging disclosable document (Code 1.4 and 2.1)",
+  "scenario": "Hannah Adeyemi, a solicitor, acts for the claimant, Orbis Packaging Ltd, in a multi-track breach of contract claim in the County Court. The court has ordered standard disclosure under CPR Part 31. The client's managing director shows Hannah an internal email in which one of its directors admits that the goods in dispute were damaged in Orbis's own warehouse. The email falls within standard disclosure and is not privileged. The managing director instructs Hannah to leave it out of the list of documents and says he will delete it from the company's server that evening.",
+  "stem": "What should Hannah do?",
+  "options": {
+   "A": "Explain to the client that the email must be disclosed and must not be destroyed; if the client refuses to allow proper disclosure, she must not continue on that basis and must cease to act.",
+   "B": "Follow the instruction, because a document harmful to the client is protected by her duty of confidentiality.",
+   "C": "Leave the email out of the list but tell the judge informally at the next hearing that there may be other relevant documents.",
+   "D": "Send the email to the defendant's solicitors at once without telling her client.",
+   "E": "Claim privilege over the email, because the client showed it to her when seeking legal advice."
+  },
+  "answer": "A",
+  "explanation": "Paragraph 1.4 of the Code prohibits a solicitor from misleading the court or others, either by her own acts or omissions or by allowing or being complicit in the acts or omissions of her client. Paragraph 2.1 prohibits misusing or tampering with evidence or attempting to do so. The email is within standard disclosure, so leaving it off the list of documents would give the court and the defendant a misleading picture. Deleting it would be tampering with evidence. Hannah must explain to the managing director that the company is obliged to disclose the email and must preserve it, and warn of the consequences of not doing so. She must keep the client's affairs confidential (para 6.3), so she should not reveal the email herself without the client's consent. If the client still refuses to give proper disclosure, she cannot continue: the SRA's paper on balancing duties in litigation says that if a client continues to mislead despite advice, the solicitor should cease to act. Her duties to the court and the administration of justice (Principle 1) take precedence over the client's wishes.",
+  "why_wrong": {
+   "B": "Confidentiality does not permit a solicitor to take part in withholding a disclosable document; doing so would mislead the court and the other side.",
+   "C": "A list of documents that knowingly omits the email misleads the court and the opponent; a vague remark to the judge does not cure that.",
+   "D": "She cannot unilaterally disclose her client's confidential documents; her proper course is to advise the client and, if it refuses, to stop acting.",
+   "E": "A pre-existing internal business email does not become privileged merely because it is later shown to a lawyer."
+  },
+  "key_rule": "A solicitor must not mislead the court or be complicit in a client withholding or destroying disclosable evidence; if the client refuses to give proper disclosure after advice, the solicitor must cease to act.",
+  "authority": "SRA Code of Conduct for Solicitors, RELs, RFLs and RSLs, paras 1.4, 2.1 and 6.3; SRA Principle 1",
+  "verified_source_url": "https://www.sra.org.uk/solicitors/standards-regulations/code-conduct-solicitors/",
+  "tags": [
+   "disclosure",
+   "misleading the court",
+   "sra code of conduct",
+   "duty to the court"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Ethics (pervasive; FLK assessment objective: act honestly and with integrity and in accordance with the SoSC, the SRA Principles and the Code of Conduct) — duty not to mislead the court; evidence (Code 1.4, 2.1)",
+   "context_subject": "Dispute Resolution",
+   "source_type": "regulator-rules",
+   "source_quote": "You do not mislead or attempt to mislead your clients, the court or others, either by your own acts or omissions or allowing or being complicit in the acts or omissions of others (including your client).",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "The 'cease to act' step is drawn from the SRA paper 'Balancing duties in litigation' (2018), fetched 16 Oct 2026 at https://www.sra.org.uk/globalassets/documents/solicitors/freedom-in-practice/balancing-duties-in-litigation.pdf; that paper predates the 2019 Codes but the point is unchanged."
+  }
+ },
+ {
+  "id": "lib-eth-003",
+  "subject": "Ethics & Professional Conduct",
+  "flk": "FLK1",
+  "difficulty": "easy",
+  "title": "Right-to-reply letter threatening a journalist with remedies unavailable in a civil claim (SLAPPs)",
+  "scenario": "Hollis Grant, a wealthy property developer, instructs Marlow Street Solicitors after a local journalist emails him under the 'right to reply' process. She plans to publish an article alleging that he concealed breaches of planning control. Mr Grant wants the firm to send her a letter, headed 'LEGAL NOTICE – NOT FOR PUBLICATION', warning that if she publishes she will face imprisonment and a large criminal fine, so that the article is dropped.",
+  "stem": "Which of the following best describes how the firm should respond to these instructions?",
+  "options": {
+   "A": "It may send the letter as instructed, because the duty to act in the client's best interests takes precedence over other duties.",
+   "B": "It may send the letter, provided it is marked 'without prejudice'.",
+   "C": "It must refuse to act for Mr Grant in any capacity, because any legal action against a journalist is a SLAPP.",
+   "D": "It may send the letter, because a defamation claim is always properly arguable until a court decides otherwise.",
+   "E": "It may respond on Mr Grant's behalf to the right-to-reply request, but must not threaten consequences that are not available on a civil claim, such as imprisonment or criminal fines, or use labels that falsely suggest the letter has court or legal authority."
+  },
+  "answer": "E",
+  "explanation": "The SRA's SLAPPs warning notice says solicitors must not bring or threaten unmeritorious claims or use intimidatory or oppressive tactics. It lists 'claiming consequences or remedies which are exaggerated, or which would not be available on the facts, such as fines or imprisonment upon a civil claim' as conduct likely to lead to regulatory action. Defamation is a civil wrong, so threatening the journalist with imprisonment and a criminal fine would mislead her (Code para 1.4) and take unfair advantage of her (para 1.2). The notice also warns against labels that give the appearance of court or legal authority where this is not warranted, such as 'Legal Notice'. The firm can still act for Mr Grant. A client is entitled to protect their reputation, and the firm may respond to the right-to-reply request, deny allegations on instructions and set out properly arguable legal positions. It must decline to act in the abusive way he proposes and advise him why.",
+  "why_wrong": {
+   "A": "Where they conflict, the duties to uphold the rule of law and the proper administration of justice take precedence over the client's interests.",
+   "B": "'Without prejudice' should be used only for a genuine attempt to settle a dispute, and the label would not cure exaggerated or misleading threats.",
+   "C": "The SRA recognises clients' legitimate right to protect their reputation; the firm may act, but only by proper means.",
+   "D": "Not every claim is properly arguable, and the threatened remedies here would not be available on a civil claim at all."
+  },
+  "key_rule": "When responding to a publisher for a client, a solicitor must not threaten remedies that are unavailable on a civil claim, such as imprisonment or fines, or use labels that falsely imply legal authority.",
+  "authority": "SRA warning notice: Strategic Lawsuits against Public Participation (SLAPPs) (updated 31 May 2024); SRA Code of Conduct, paras 1.2 and 1.4; SRA Principles 1, 2 and 5",
+  "verified_source_url": "https://www.sra.org.uk/solicitors/guidance/slapps-warning-notice/",
+  "tags": [
+   "slapps",
+   "professional conduct",
+   "sra code of conduct"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Ethics (pervasive; FLK assessment objective: act honestly and with integrity and in accordance with the SoSC, the SRA Principles and the Code of Conduct) — SLAPPs warning notice; conduct in disputes",
+   "context_subject": "Dispute Resolution",
+   "source_type": "official-guidance",
+   "source_quote": "Claiming consequences or remedies which are exaggerated, or which would not be available on the facts, such as fines or imprisonment upon a civil claim",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-eth-004",
+  "subject": "Ethics & Professional Conduct",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Sharing fees with an accountant who introduces company clients (Code 5.1)",
+  "scenario": "Cole & Bassi LLP agrees with Linwood Accountants that Linwood will introduce company clients needing share sale work, and that the firm will pay Linwood 10% of its profit costs on each matter introduced. The arrangement was agreed in a telephone call and nothing has been put in writing. Linwood has just introduced Ardent Tools Ltd, which has instructed the firm on the sale of its subsidiary. A partner asks what the SRA Code of Conduct requires.",
+  "stem": "Which of the following best describes what the Code requires in relation to this arrangement?",
+  "options": {
+   "A": "Nothing further is required, provided the 10% is not charged to Ardent as a disbursement.",
+   "B": "The fee sharing agreement must be in writing, and Ardent must be informed of the fee sharing arrangement and of any financial or other interest Linwood has in referring it to the firm.",
+   "C": "Fee sharing with an introducer is prohibited in all corporate work.",
+   "D": "Ardent's written consent to the fee sharing must be obtained, but it need not be told the percentage Linwood receives.",
+   "E": "The arrangement is permitted only if Linwood is itself regulated by the SRA."
+  },
+  "answer": "B",
+  "explanation": "Paragraph 5.1 of the Code applies where a third party introduces business to a solicitor or the solicitor shares fees with it. The solicitor must ensure that: clients are informed of any financial or other interest an introducer has in referring them (5.1(a)); clients are informed of any fee sharing arrangement relevant to their matter (5.1(b)); the fee sharing agreement is in writing (5.1(c)); no referral payments are made for clients who are the subject of criminal proceedings (5.1(d)); and the client was not acquired in a way that would breach the SRA's regulatory arrangements (5.1(e)). Linwood receives a share of the firm's fees on matters it introduces, so this is a fee sharing arrangement with an introducer. The oral agreement does not meet 5.1(c) and must be put in writing. Ardent must be told about the arrangement and Linwood's interest, so that it can judge the independence of the introduction and the advice. Corporate work is not one of the prohibited areas. The ban on referral fees in personal injury cases is not engaged, because this is not a personal injury matter.",
+  "why_wrong": {
+   "A": "Paragraph 5.1 requires a written fee sharing agreement and that the client is informed, however the payment is funded.",
+   "C": "Paragraph 5.1 regulates fee sharing and referral arrangements; the express prohibition in para 5.1(d) concerns clients who are the subject of criminal proceedings.",
+   "D": "The Code requires that the client is informed of the arrangement and the introducer's interest; it does not substitute a consent requirement for that information.",
+   "E": "The Code contemplates unregulated introducers; para 5.1(e) only requires that the client was not acquired in a way that would breach the SRA's rules if the introducer were regulated."
+  },
+  "key_rule": "Where a firm shares fees with an introducer, the fee sharing agreement must be in writing and the client must be told of the arrangement and of the introducer's interest in referring them.",
+  "authority": "SRA Code of Conduct for Solicitors, RELs, RFLs and RSLs, para 5.1; SRA Code of Conduct for Firms, para 7.1(b)",
+  "verified_source_url": "https://www.sra.org.uk/solicitors/standards-regulations/code-conduct-solicitors/",
+  "tags": [
+   "referral fees",
+   "fee sharing",
+   "sra code of conduct"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Ethics (pervasive; FLK assessment objective: act honestly and with integrity and in accordance with the SoSC, the SRA Principles and the Code of Conduct) — referrals, introductions and fee sharing (Code 5.1-5.3)",
+   "context_subject": "Business Law & Practice",
+   "source_type": "regulator-rules",
+   "source_quote": "(b) clients are informed of any fee sharing arrangement that is relevant to their matter; (c) the fee sharing agreement is in writing;",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "SRA Glossary definitions of 'introducer' and 'fee sharing' were not separately fetched; the analysis relies on the Code text."
+  }
+ },
+ {
+  "id": "lib-eth-005",
+  "subject": "Ethics & Professional Conduct",
+  "flk": "FLK1",
+  "difficulty": "easy",
+  "title": "Updating a litigation client when the costs estimate will be substantially exceeded (Code 8.7)",
+  "scenario": "Neha Kapoor instructs a firm to bring a breach of contract claim against a former supplier. The client care letter estimated the firm's total costs to trial at £18,000. Since then the defendant has served a counterclaim and an expert has had to be instructed. The fee earner now realises that the total costs to trial are likely to be about £35,000. He decides to tell Ms Kapoor only when he sends the final bill, because the client care letter clearly described the figure as an estimate.",
+  "stem": "Which of the following best describes the fee earner's obligation?",
+  "options": {
+   "A": "He has no obligation, because an estimate is not binding on the firm.",
+   "B": "He need only update the estimate if Ms Kapoor asks for an update.",
+   "C": "He must give Ms Kapoor updated information about the likely overall cost now, as the matter progresses, so that she can make informed decisions about how to proceed.",
+   "D": "He must cap the firm's charges at £18,000, because that was the estimate given at the outset.",
+   "E": "He may tell her at the end, provided the final bill itemises the extra work."
+  },
+  "answer": "C",
+  "explanation": "Paragraph 8.7 of the Code requires a solicitor to ensure that clients receive the best possible information about how their matter will be priced and about the likely overall cost of the matter and any costs incurred. This must be given both at the time of engagement and 'when appropriate as their matter progresses'. Paragraph 8.6 adds that clients must be put in a position to make informed decisions about how their matter will be handled and the options available to them. The likely cost has nearly doubled because of the counterclaim and the expert evidence. That is exactly when an update is appropriate: Ms Kapoor may want to reconsider settlement, funding or whether the claim is still worth pursuing. Waiting until the final bill defeats the purpose of the rule. Calling the original figure an estimate does not remove the duty to keep it up to date.",
+  "why_wrong": {
+   "A": "Whether or not the estimate is contractually binding, para 8.7 requires costs information to be updated when appropriate as the matter progresses.",
+   "B": "The duty under para 8.7 is the solicitor's own; it does not depend on the client asking.",
+   "D": "The Code does not turn an estimate into a fixed fee; it requires the best possible information, including updates.",
+   "E": "Telling her only at the end deprives her of the chance to make informed decisions while the costs are being incurred."
+  },
+  "key_rule": "Clients must receive the best possible information about likely overall cost at engagement and, when appropriate, as the matter progresses, including a prompt update when an estimate will be materially exceeded.",
+  "authority": "SRA Code of Conduct for Solicitors, RELs, RFLs and RSLs, paras 8.6 and 8.7",
+  "verified_source_url": "https://www.sra.org.uk/solicitors/standards-regulations/code-conduct-solicitors/",
+  "tags": [
+   "costs",
+   "client care",
+   "sra code of conduct"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Ethics (pervasive; FLK assessment objective: act honestly and with integrity and in accordance with the SoSC, the SRA Principles and the Code of Conduct) — client information and publicity (Code 8.6-8.11)",
+   "context_subject": "Dispute Resolution",
+   "source_type": "regulator-rules",
+   "source_quote": "both at the time of engagement and when appropriate as their matter progresses, about the likely overall cost of the matter and any costs incurred.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-eth-006",
+  "subject": "Ethics & Professional Conduct",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Undertaking to pay an expert's fee when the client has not put the firm in funds (Code 1.3)",
+  "scenario": "Gareth Price, a solicitor, acts for the claimant in a professional negligence claim. He writes to a consulting engineer on the firm's letterhead: 'We undertake to pay your fee of £4,500 within 30 days of receipt of your report.' The engineer delivers the report. The client has since gone into insolvent liquidation and never put the firm in funds for the fee. Thirty days after receiving the report, Gareth tells the engineer that she should claim the fee from the client's liquidator.",
+  "stem": "Which of the following best describes Gareth's position under the SRA Code of Conduct for Solicitors?",
+  "options": {
+   "A": "He is not bound, because the expert's fee is ultimately the client's liability.",
+   "B": "He is bound only if the firm held enough of the client's money in client account when he gave the undertaking.",
+   "C": "He is bound only if the engineer gave separate consideration for the undertaking.",
+   "D": "He can release himself by notifying the engineer promptly that the client is insolvent.",
+   "E": "He must perform the undertaking and pay the fee within the agreed 30 days, whether or not the client has put the firm in funds."
+  },
+  "answer": "E",
+  "explanation": "Paragraph 1.3 of the Code requires a solicitor to perform all undertakings given by them, within an agreed timescale or, if none is agreed, within a reasonable time. Gareth gave an unqualified written undertaking to pay the engineer's fee within 30 days of receiving the report. The engineer relied on it and did the work. Nothing in the undertaking made payment depend on the client putting the firm in funds. The client's insolvency is therefore Gareth's commercial risk, not the engineer's. To protect himself he could have limited the undertaking (for example, 'subject to receiving funds from our client') or obtained the money first. Having given it unconditionally, he must pay within the agreed time. Failing to do so breaches para 1.3 and is likely also to engage Principle 2 (public trust and confidence) and Principle 5 (integrity). Because the undertaking was given on the firm's letterhead, the firm is also bound under para 1.3 of the Code of Conduct for Firms.",
+  "why_wrong": {
+   "A": "The undertaking is Gareth's own promise; it binds him regardless of who is ultimately liable for the fee.",
+   "B": "Para 1.3 requires all undertakings to be performed; it contains no exception where the solicitor is not in funds.",
+   "C": "Professional conduct liability on an undertaking does not depend on contractual consideration.",
+   "D": "A solicitor cannot unilaterally withdraw from an undertaking once it has been given and relied on."
+  },
+  "key_rule": "A solicitor must perform an unconditional undertaking within the agreed time even if the client fails to provide the funds; protection must be built into the undertaking's wording before it is given.",
+  "authority": "SRA Code of Conduct for Solicitors, RELs, RFLs and RSLs, para 1.3; SRA Code of Conduct for Firms, para 1.3",
+  "verified_source_url": "https://www.sra.org.uk/solicitors/standards-regulations/code-conduct-solicitors/",
+  "tags": [
+   "undertakings",
+   "professional conduct",
+   "sra code of conduct"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S1",
+   "spec_topic": "Ethics (pervasive; FLK assessment objective: act honestly and with integrity and in accordance with the SoSC, the SRA Principles and the Code of Conduct) — undertakings (Code 1.3)",
+   "context_subject": "Dispute Resolution",
+   "source_type": "regulator-rules",
+   "source_quote": "You perform all undertakings given by you, and do so within an agreed timescale or if no timescale has been agreed then within a reasonable amount of time.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Distinct from bank q035 (oral undertaking and time for performance): this tests liability where the client has not put the firm in funds."
+  }
+ },
+ {
+  "id": "lib-eth-007",
+  "subject": "Ethics & Professional Conduct",
+  "flk": "FLK1",
+  "difficulty": "easy",
+  "title": "PI client's complaint unresolved after eight weeks: Legal Ombudsman information (Code 8.4)",
+  "scenario": "Ruth Okonjo instructs a firm to bring a personal injury claim after a road traffic accident. On 3 March she complains in writing to the firm about delays in her case. By 5 May the complaint has not been resolved to her satisfaction. The firm is still investigating and plans to write to her once it has finished.",
+  "stem": "What must the firm now do?",
+  "options": {
+   "A": "Inform Mrs Okonjo in writing of any right she has to complain to the Legal Ombudsman, the time frame for doing so and full details of how to contact the Legal Ombudsman.",
+   "B": "Nothing, until its internal complaints procedure has been completed.",
+   "C": "Refer the complaint to the SRA, because it has not been resolved within eight weeks.",
+   "D": "Offer Mrs Okonjo compensation, because a complaint not resolved within eight weeks is treated as upheld.",
+   "E": "Tell Mrs Okonjo by telephone that she may contact the Legal Ombudsman once the firm has finished its investigation."
+  },
+  "answer": "A",
+  "explanation": "Paragraph 8.4 of the Code requires that, where a client's complaint has not been resolved to the client's satisfaction within eight weeks of being made, the client is informed in writing of any right to complain to the Legal Ombudsman, the time frame for doing so and full details of how to contact the Legal Ombudsman. Mrs Okonjo complained on 3 March. By 5 May more than eight weeks have passed and she is not satisfied. The firm must therefore write to her now with that information, even though its own investigation continues. Under para 8.5 the firm must also continue to deal with the complaint promptly, fairly and free of charge. This duty sits alongside para 8.3, which required the firm to tell her in writing at the start of the retainer about her right to complain and how to do so.",
+  "why_wrong": {
+   "B": "Para 8.4 is triggered once eight weeks pass without a resolution satisfactory to the client, even if the firm's procedure has not finished.",
+   "C": "Service complaints go to the Legal Ombudsman, not the SRA; the firm's duty is to tell the client of her right to complain to the Ombudsman.",
+   "D": "The Code contains no such rule; the eight-week point triggers a duty to give information, not to pay compensation.",
+   "E": "The information must be given in writing and must include the time frame and full contact details; the Ombudsman route is not delayed until the firm finishes."
+  },
+  "key_rule": "If a complaint is not resolved to the client's satisfaction within eight weeks, the client must be told in writing of any Legal Ombudsman right, the time limit and full contact details.",
+  "authority": "SRA Code of Conduct for Solicitors, RELs, RFLs and RSLs, paras 8.3 to 8.5",
+  "verified_source_url": "https://www.sra.org.uk/solicitors/standards-regulations/code-conduct-solicitors/",
+  "tags": [
+   "complaints",
+   "client care",
+   "sra code of conduct"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Ethics (pervasive; FLK assessment objective: act honestly and with integrity and in accordance with the SoSC, the SRA Principles and the Code of Conduct) — complaints handling (Code 8.2-8.5)",
+   "context_subject": "Tort",
+   "source_type": "regulator-rules",
+   "source_quote": "if this has not been resolved to the client's satisfaction within 8 weeks following the making of a complaint they are informed, in writing: (a) of any right they have to complain to the Legal Ombudsman",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-eth-008",
+  "subject": "Ethics & Professional Conduct",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Duty to cite an adverse Court of Appeal decision the opponent has missed (Code 2.7)",
+  "scenario": "Daniel Mensah, a solicitor-advocate, represents the defendant in a County Court breach of contract claim. His client's defence depends on arguing that an exclusion clause printed on a delivery note was incorporated into the contract. While preparing for trial, Daniel finds a recent Court of Appeal decision on materially indistinguishable facts which holds that such a clause was not incorporated. The claimant is a litigant in person and has not cited it. The judge has not mentioned it.",
+  "stem": "Which of the following best describes what Daniel must do?",
+  "options": {
+   "A": "Say nothing about the decision, because it is for the claimant to find and cite the authorities that help him.",
+   "B": "Mention the decision only if the judge asks whether there are any authorities against his client.",
+   "C": "Tell the claimant privately about the decision and leave it to him to decide whether to rely on it.",
+   "D": "Draw the court's attention to the Court of Appeal decision, even though it is adverse to his client's case.",
+   "E": "Withdraw from the case, because he cannot both act for his client and cite authority against it."
+  },
+  "answer": "D",
+  "explanation": "Paragraph 2.7 of the Code requires a solicitor to draw the court's attention to relevant cases and statutory provisions of which they are aware and which are likely to have a material effect on the outcome of the proceedings. A recent Court of Appeal decision on materially indistinguishable facts binds the County Court and is likely to decide the incorporation issue, so Daniel must cite it. It does not matter that it harms his client, or that the opponent is a litigant in person who has missed it. The duty is owed to the court and supports Principle 1 (the proper administration of justice) and para 1.4 (not misleading the court, including by omission). Where a client's interests conflict with the duty to the court, the duty to the court prevails. Daniel may still put forward any properly arguable point (para 2.4), for example on why the clause should be treated differently, but he cannot keep the decision from the court.",
+  "why_wrong": {
+   "A": "Para 2.7 imposes a duty on the advocate to draw relevant cases to the court's attention, whichever side they help.",
+   "B": "The duty is proactive; it does not depend on the judge asking.",
+   "C": "Telling the opponent does not discharge Daniel's own duty to the court.",
+   "E": "Citing adverse authority is a normal part of an advocate's duty to the court and is not a reason to stop acting."
+  },
+  "key_rule": "A solicitor must draw the court's attention to relevant authorities likely to have a material effect on the outcome, even when they are adverse to the client and the opponent has missed them.",
+  "authority": "SRA Code of Conduct for Solicitors, RELs, RFLs and RSLs, para 2.7; SRA Principle 1",
+  "verified_source_url": "https://www.sra.org.uk/solicitors/standards-regulations/code-conduct-solicitors/",
+  "tags": [
+   "duty to the court",
+   "precedent",
+   "sra code of conduct"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Ethics (pervasive; FLK assessment objective: act honestly and with integrity and in accordance with the SoSC, the SRA Principles and the Code of Conduct) — dispute resolution and proceedings before courts (Code 2.1-2.7)",
+   "context_subject": "Contract",
+   "source_type": "regulator-rules",
+   "source_quote": "You draw the court's attention to relevant cases and statutory provisions, or procedural irregularities of which you are aware, and which are likely to have a material effect on the outcome of the proceedings.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-eth-009",
+  "subject": "Ethics & Professional Conduct",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Supervising partner's accountability for an unsupervised paralegal's work (Code 3.5)",
+  "scenario": "Sarah Whitlock, a partner in a personal injury firm, is the named supervisor of Liam, a paralegal who is not a solicitor. Sarah let Liam run a portfolio of road traffic accident claims with no file reviews and no checks on outgoing advice. Liam told one client that her claim was worth far less than it was, and she accepted a low offer on that basis. Sarah says she bears no responsibility because she did not do the work herself.",
+  "stem": "Which of the following best describes Sarah's position under the SRA Code of Conduct for Solicitors?",
+  "options": {
+   "A": "She has no responsibility, because Liam is not a solicitor and the Code does not apply to his work.",
+   "B": "She remains accountable for the work carried out through Liam and was required to supervise it effectively.",
+   "C": "Only the firm's compliance officer for legal practice (COLP) is accountable for the quality of Liam's work.",
+   "D": "She is responsible only for letters that she personally signed.",
+   "E": "She is responsible only if the client complains to the Legal Ombudsman."
+  },
+  "answer": "B",
+  "explanation": "Paragraph 3.5 of the Code provides that where a solicitor supervises or manages others providing legal services, (a) they remain accountable for the work carried out through them and (b) they must effectively supervise work being done for clients. Paragraph 3.6 adds that they must ensure the people they manage are competent and keep their knowledge and skills up to date. Sarah was Liam's supervisor but carried out no file reviews or checks. She cannot avoid accountability for the incorrect advice by pointing out that she did not do the work herself, or that Liam is not a solicitor. Her failure to supervise is itself a breach. The firm also has duties under the Code of Conduct for Firms, including to have an effective system for supervising clients' matters (para 4.4). Sarah and the firm must also be honest and open with the client about what went wrong (Code para 7.11).",
+  "why_wrong": {
+   "A": "Para 3.5 makes a supervising solicitor accountable for work carried out through those she supervises, whether or not they are solicitors.",
+   "C": "The COLP has firm-wide compliance duties, but that does not displace the supervising solicitor's own accountability under para 3.5.",
+   "D": "Accountability under para 3.5 extends to all the work carried out through the people she supervises.",
+   "E": "Regulatory accountability does not depend on a client complaint."
+  },
+  "key_rule": "A solicitor who supervises or manages others remains accountable for the work carried out through them and must supervise it effectively, whether or not those supervised are solicitors.",
+  "authority": "SRA Code of Conduct for Solicitors, RELs, RFLs and RSLs, paras 3.5 and 3.6; SRA Code of Conduct for Firms, para 4.4",
+  "verified_source_url": "https://www.sra.org.uk/solicitors/standards-regulations/code-conduct-solicitors/",
+  "tags": [
+   "supervision",
+   "competence",
+   "sra code of conduct"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Ethics (pervasive; FLK assessment objective: act honestly and with integrity and in accordance with the SoSC, the SRA Principles and the Code of Conduct) — service and competence (Code 3.2-3.6)",
+   "context_subject": "Tort",
+   "source_type": "regulator-rules",
+   "source_quote": "Where you supervise or manage others providing legal services: (a) you remain accountable for the work carried out through them; and (b) you effectively supervise work being done for clients.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-eth-010",
+  "subject": "Ethics & Professional Conduct",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Settlement NDA that would stop a claimant reporting an assault to the police (NDA warning notice)",
+  "scenario": "A firm acts for a gym operator defending a negligence claim by a member, Ms Tasha Greene, who was injured when a weights machine collapsed. Ms Greene also alleges that a member of staff assaulted her during the incident. The parties have agreed a settlement, and both are legally represented. The client wants the settlement agreement to include a clause that Ms Greene will not disclose the circumstances of the incident to anyone, 'including the police or any regulator', on pain of repaying the settlement sum.",
+  "stem": "Which of the following best describes whether the firm may include the clause?",
+  "options": {
+   "A": "Yes, because Ms Greene is legally represented and is free to refuse the clause.",
+   "B": "Yes, provided Ms Greene has received independent legal advice on the clause.",
+   "C": "No: an NDA must not be used to prevent, impede or deter a person from reporting an offence to a law enforcement agency or making reports to a regulator, and a claw-back must not be used to achieve that effect.",
+   "D": "Yes, because the SRA's concerns about NDAs apply only to employment settlements.",
+   "E": "No, because the SRA prohibits all confidentiality clauses in settlement agreements."
+  },
+  "answer": "C",
+  "explanation": "The SRA's warning notice on non-disclosure agreements confirms that NDAs are not prohibited. However, it treats an NDA as improperly used if it is used to prevent, impede or deter a person from cooperating with a criminal investigation, reporting an offence to a law enforcement agency, or reporting to a regulator, among other protected disclosures. Claw-back clauses must not be used in a way designed to, or having the effect of, improperly inhibiting such reporting. The notice applies whatever the context of the NDA, including negligence disputes, and even where every party is legally represented. A clause barring Ms Greene from telling the police about an alleged assault, backed by a duty to repay the settlement, is squarely within the SRA's concern. Drafting it would risk breaching Principles 1, 2 and 5 and para 7.5 of the Code. The firm should advise the client accordingly and may include only a confidentiality clause that expressly preserves permitted disclosures. If the client insists on the improper clause, the firm must consider whether it can continue to act.",
+  "why_wrong": {
+   "A": "The SRA warning notice applies even if all parties to the NDA are legally represented.",
+   "B": "Independent advice does not make it proper to use an NDA to stop a person reporting an offence or reporting to a regulator.",
+   "D": "The warning notice applies to NDAs in any context, including negligence claims and commercial transactions.",
+   "E": "The SRA does not prohibit NDAs; it prohibits their improper use, so a properly drafted confidentiality clause could be included."
+  },
+  "key_rule": "An NDA must not be used, including through claw-back clauses, to prevent or deter anyone from reporting an offence to the police or making reports to a regulator, even where all parties are represented.",
+  "authority": "SRA warning notice: Use of non-disclosure agreements (NDAs) (updated 6 August 2024); SRA Code of Conduct, paras 1.2 and 7.5; SRA Principles 1, 2, 3 and 5",
+  "verified_source_url": "https://www.sra.org.uk/solicitors/guidance/non-disclosure-agreements-ndas/",
+  "tags": [
+   "non-disclosure agreements",
+   "professional conduct",
+   "sra code of conduct"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Ethics (pervasive; FLK assessment objective: act honestly and with integrity and in accordance with the SoSC, the SRA Principles and the Code of Conduct) — NDAs warning notice",
+   "context_subject": "Tort",
+   "source_type": "official-guidance",
+   "source_quote": "We therefore consider that NDAs would be improperly used if you sought to use an NDA as a means of preventing, or seeking to impede or deter a person from: ... reporting an offence to a law enforcement agency",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-eth-011",
+  "subject": "Ethics & Professional Conduct",
+  "flk": "FLK1",
+  "difficulty": "medium",
+  "title": "Letter to unrepresented debtor discouraging legal advice and imposing a 24-hour deadline (Code 1.2)",
+  "scenario": "A firm acts for a supplier claiming £9,000 unpaid under a contract from Bilal Hussain, a sole trader. Mr Hussain has no solicitor and has told the firm that he struggles to read formal English. The supplier wants the firm to send him a settlement agreement admitting liability and agreeing to pay interest at 30% a year (the contract provides for 4%). The covering letter is to say that he must sign within 24 hours and that 'there is no need to involve a lawyer, as this is a standard form'.",
+  "stem": "Which of the following best describes the firm's position?",
+  "options": {
+   "A": "It may send them as instructed, because a solicitor owes professional duties only to their own client.",
+   "B": "It may send them, provided the letter is marked 'without prejudice'.",
+   "C": "It must stop acting for the supplier, because the opponent is unrepresented.",
+   "D": "It must not write to Mr Hussain at all; all communications must go through the court.",
+   "E": "It must not send the documents in that form, because doing so would take unfair advantage of an unrepresented and potentially vulnerable opponent and would mislead him."
+  },
+  "answer": "E",
+  "explanation": "Paragraph 1.2 of the Code prohibits a solicitor from abusing their position by taking unfair advantage of clients 'or others', which includes an opposing party. Paragraph 1.4 prohibits misleading clients, the court 'or others'. The proposed letter would tell an unrepresented sole trader, who has said he struggles with formal English, that he does not need a lawyer. It would impose an oppressive 24-hour deadline and ask him to accept interest far higher than the contract allows. SRA guidance gives discouraging an opponent from taking legal advice, oppressive and artificial time limits, and exploiting an opponent's lack of legal knowledge as examples of taking unfair advantage. It says that the obligation is heightened where the opponent is vulnerable or unrepresented. The firm may pursue the debt firmly and correspond with Mr Hussain directly. It must state the claim accurately, allow him a reasonable time to respond and not discourage him from seeking advice.",
+  "why_wrong": {
+   "A": "The Code expressly protects 'others': para 1.2 forbids taking unfair advantage of them and para 1.4 forbids misleading them.",
+   "B": "The label does not affect whether the content takes unfair advantage of, or misleads, the recipient.",
+   "C": "A solicitor may act against an unrepresented party; what matters is that the solicitor does not take unfair advantage of them.",
+   "D": "Nothing prevents a solicitor from corresponding directly with an unrepresented opponent, provided they do so fairly."
+  },
+  "key_rule": "A solicitor must not take unfair advantage of, or mislead, an opposing party; the duty is heightened where the opponent is unrepresented or vulnerable.",
+  "authority": "SRA Code of Conduct for Solicitors, RELs, RFLs and RSLs, paras 1.2 and 1.4; SRA Principles 2 and 5",
+  "verified_source_url": "https://www.sra.org.uk/solicitors/standards-regulations/code-conduct-solicitors/",
+  "tags": [
+   "unrepresented parties",
+   "professional conduct",
+   "sra code of conduct"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Ethics (pervasive; FLK assessment objective: act honestly and with integrity and in accordance with the SoSC, the SRA Principles and the Code of Conduct) — maintaining trust and acting fairly (Code 1.1-1.5)",
+   "context_subject": "Contract",
+   "source_type": "regulator-rules",
+   "source_quote": "You do not abuse your position by taking unfair advantage of clients or others.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "The examples of unfair advantage (discouraging legal advice, oppressive time limits, heightened duty to unrepresented parties) are taken from the SRA NDA warning notice (https://www.sra.org.uk/solicitors/guidance/non-disclosure-agreements-ndas/), fetched 16 Oct 2026, applied here by analogy to non-NDA correspondence."
+  }
+ },
+ {
+  "id": "lib-eth-012",
+  "subject": "Ethics & Professional Conduct",
+  "flk": "FLK1",
+  "difficulty": "hard",
+  "title": "COLP's duty to report suspected alteration of a signed witness statement (Code for Firms 9.1)",
+  "scenario": "Haverford Law LLP handles high volumes of personal injury claims. Its compliance officer for legal practice (COLP), Amina Yusuf, finds credible evidence during a file audit that an associate altered a client's witness statement after the client had signed it. The altered statement was then filed at court. The managing partner wants to wait for the outcome of an internal disciplinary hearing in three months' time before deciding whether to tell anyone outside the firm, to protect the firm's reputation.",
+  "stem": "What does the SRA Code of Conduct for Firms require of Amina?",
+  "options": {
+   "A": "She must take all reasonable steps to ensure that a prompt report is made to the SRA of the facts, which she reasonably believes are capable of amounting to a serious breach.",
+   "B": "She should wait for the internal disciplinary outcome, because a report is needed only once a serious breach has been proved.",
+   "C": "She need take no action, because reporting breaches by individuals is the responsibility of the compliance officer for finance and administration (COFA).",
+   "D": "She need only notify the court, because the misconduct concerns a document filed in proceedings.",
+   "E": "She need only report if the client complains about the altered statement."
+  },
+  "answer": "A",
+  "explanation": "Paragraph 9.1 of the SRA Code of Conduct for Firms requires a COLP to take all reasonable steps to ensure that a prompt report is made to the SRA of any facts or matters that they reasonably believe are capable of amounting to a serious breach of the SRA's regulatory arrangements by the firm, its managers or its employees. The test is not that a breach has been proved. It is a reasonable belief that the facts are capable of amounting to a serious breach. Credible evidence that a signed witness statement was altered and filed at court suggests possible dishonesty and misleading the court. That is capable of being a serious breach (Code for Solicitors paras 1.4 and 2.2; Principles 1, 4 and 5). Waiting three months for an internal process would not be 'prompt'. Concern for the firm's reputation is no reason to delay. The firm itself has parallel duties under paras 3.9 and 3.11, and must not subject anyone to detrimental treatment for reporting (para 3.12).",
+  "why_wrong": {
+   "B": "The trigger is a reasonable belief that facts are capable of amounting to a serious breach, not proof; delaying for three months would not be prompt.",
+   "C": "The COFA's reporting duty concerns the SRA Accounts Rules; reporting other serious breaches is the COLP's responsibility under para 9.1.",
+   "D": "Whatever steps are needed in the proceedings, the Code for Firms separately requires a prompt report to the SRA.",
+   "E": "The duty does not depend on any complaint by the client."
+  },
+  "key_rule": "A COLP must take all reasonable steps to ensure a prompt report to the SRA of facts reasonably believed capable of amounting to a serious breach; proof is not required first.",
+  "authority": "SRA Code of Conduct for Firms, paras 3.9, 3.12 and 9.1(d)",
+  "verified_source_url": "https://www.sra.org.uk/solicitors/standards-regulations/code-conduct-firms/",
+  "tags": [
+   "compliance officers",
+   "reporting",
+   "professional conduct"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK1-S2",
+   "spec_topic": "Ethics (pervasive; FLK assessment objective: act honestly and with integrity and in accordance with the SoSC, the SRA Principles and the Code of Conduct) — Code of Conduct for Firms: managers and compliance officers (paras 8.1, 9.1-9.2)",
+   "context_subject": "Tort",
+   "source_type": "regulator-rules",
+   "source_quote": "ensure that a prompt report is made to the SRA of any facts or matters that you reasonably believe are capable of amounting to a serious breach of ... the SRA's regulatory arrangements",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-eth-013",
+  "subject": "Ethics & Professional Conduct",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Client wants to leave a significant gift to the solicitor drafting the will (Code 6.1)",
+  "scenario": "Edwin Thorne, aged 81, is a long-standing client of Clara Jennings, a solicitor. He asks her to prepare a new will leaving her his holiday cottage, worth about £250,000, to thank her for years of help. His estate is worth about £900,000. Clara is not related to him. She has no doubts about his capacity, but he says he does not want 'any more lawyers involved'.",
+  "stem": "How should Clara proceed?",
+  "options": {
+   "A": "She may prepare the will, because Mr Thorne has capacity and his wishes are clear.",
+   "B": "She may prepare the will, provided another solicitor in her firm supervises its signing.",
+   "C": "She may prepare the will, provided it is witnessed by two independent people.",
+   "D": "She should satisfy herself that Mr Thorne has first taken independent legal advice about the gift; if he will not, she will usually need to cease acting on the will.",
+   "E": "She may prepare the will, provided she undertakes to disclaim the gift if his family objects after his death."
+  },
+  "answer": "D",
+  "explanation": "Paragraph 6.1 of the Code prohibits a solicitor from acting where there is an own interest conflict or a significant risk of one. There are no exceptions, so client consent cannot cure it. The SRA's guidance on drafting and preparing wills says that where a client wishes to make a gift of significant value to the solicitor (or a family member or colleague), the solicitor should satisfy themselves that the client has first taken independent legal advice about the gift. 'Significant value' covers a gift that is significant in itself or significant relative to the estate. A cottage worth £250,000 is significant on both measures. Clara's personal financial interest conflicts with her duty to advise Mr Thorne impartially. She should explain this and ask him to take independent advice from another firm. The guidance says that if the client does not agree to take independent advice, the solicitor will usually need to cease acting.",
+  "why_wrong": {
+   "A": "Capacity and clear wishes do not remove the own interest conflict created by a significant gift to the drafting solicitor.",
+   "B": "Supervision of execution by a colleague in the same firm is not independent legal advice and does not remove the conflict.",
+   "C": "Valid execution goes to the will's formal validity, not to whether Clara may act despite her own interest in the gift.",
+   "E": "A promise to disclaim later does not remove the conflict at the time she drafts the will and advises him."
+  },
+  "key_rule": "Before drafting a will containing a significant gift to themselves, a solicitor should be satisfied the client has taken independent legal advice; if the client refuses, they will usually need to stop acting.",
+  "authority": "SRA Code of Conduct for Solicitors, RELs, RFLs and RSLs, para 6.1; SRA guidance, Drafting and preparation of wills (updated 25 November 2019)",
+  "verified_source_url": "https://www.sra.org.uk/solicitors/guidance/drafting-preparation-wills/",
+  "tags": [
+   "wills",
+   "gifts",
+   "own interest conflict",
+   "sra code of conduct"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Ethics (pervasive; FLK assessment objective: act honestly and with integrity and in accordance with the SoSC, the SRA Principles and the Code of Conduct) — own interest conflict (Code 6.1)",
+   "context_subject": "Wills",
+   "source_type": "official-guidance",
+   "source_quote": "If you draft a will where the client wishes to make a gift of significant value to you ... you should satisfy yourself that the client has first taken independent legal advice with regard to making the gift.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-eth-014",
+  "subject": "Ethics & Professional Conduct",
+  "flk": "FLK2",
+  "difficulty": "hard",
+  "title": "Solicitor drafting a parent's will that leaves residue equally to the solicitor and siblings",
+  "scenario": "Jonah Feld, a solicitor, is asked by his widowed mother to prepare a new will. It will make the same main provision as her existing will, which another firm drafted: her residuary estate is to pass to her three children, including Jonah, in equal shares. There are no unusual gifts. His siblings know of their mother's wishes and agree with them. His mother has full capacity and does not want to pay another firm.",
+  "stem": "Which of the following best describes whether Jonah may draft the will without his mother first taking independent legal advice?",
+  "options": {
+   "A": "He must refuse, because a will that benefits the drafting solicitor always requires the client to take independent legal advice first.",
+   "B": "He may do so if, in the specific circumstances, he is satisfied that his financial interest and personal relationship do not undermine his ability to advise, and be seen to advise, impartially.",
+   "C": "He may do so, provided his two siblings act as the attesting witnesses.",
+   "D": "He may do so, because work for close relatives falls outside the SRA Code of Conduct.",
+   "E": "He may do so, but only if he removes his own share of residue from the will."
+  },
+  "answer": "B",
+  "explanation": "Paragraph 6.1 of the Code prohibits acting where there is an own interest conflict or a significant risk of one. The SRA's wills guidance says that a solicitor drafting a will containing a significant gift to themselves should normally ensure that the client has first taken independent legal advice. However, the guidance accepts that there may be exceptions where the solicitor can continue without independent advice. Its example is a solicitor drafting a surviving parent's will that leaves the residuary estate to the solicitor and their siblings in equal shares. That is Jonah's situation. The provision is the even-handed division his mother already chose with another firm, and there is nothing unusual about it. Whether it is appropriate still depends on the circumstances, and Jonah must consider whether his financial interest or relationship undermines his ability to advise, and be seen to advise, impartially. He should keep a record of that judgement. If anything in the instructions departed from equal treatment in his favour, the position would change.",
+  "why_wrong": {
+   "A": "SRA guidance recognises exceptions, giving this very example: a surviving parent leaving residue to the solicitor and siblings in equal shares.",
+   "C": "Witnessing would not address the conflict, and a gift to an attesting witness is generally void under s.15 Wills Act 1837.",
+   "D": "The Code applies to work for relatives; the guidance treats this as a possible exception on the facts, not an exemption from the Code.",
+   "E": "The guidance does not require him to forgo his share; the question is whether he can advise impartially in the circumstances."
+  },
+  "key_rule": "A solicitor may sometimes draft a parent's will leaving residue equally to the solicitor and siblings without independent advice, but only if their interest does not undermine their ability to advise impartially.",
+  "authority": "SRA Code of Conduct for Solicitors, RELs, RFLs and RSLs, para 6.1; SRA guidance, Drafting and preparation of wills",
+  "verified_source_url": "https://www.sra.org.uk/solicitors/guidance/drafting-preparation-wills/",
+  "tags": [
+   "wills",
+   "gifts",
+   "own interest conflict"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Ethics (pervasive; FLK assessment objective: act honestly and with integrity and in accordance with the SoSC, the SRA Principles and the Code of Conduct) — own interest conflict (Code 6.1)",
+   "context_subject": "Wills",
+   "source_type": "official-guidance",
+   "source_quote": "There may be some exceptions ... for example, if you draft wills for your parents and the surviving parent wishes to leave the residuary estate to you and your siblings in equal shares.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "The guidance frames this as a fact-sensitive exception ('whether it is appropriate to do so will depend upon the specific circumstances'); the correct option is worded to reflect that."
+  }
+ },
+ {
+  "id": "lib-eth-015",
+  "subject": "Ethics & Professional Conduct",
+  "flk": "FLK2",
+  "difficulty": "easy",
+  "title": "Deceased client's son asks for her will and instructions before probate (Code 6.3)",
+  "scenario": "Agnes Doyle has died. Her solicitors hold her will and their file of her instructions. Her executors are her two nieces. Her son, Patrick, who is not an executor, telephones the firm before probate has been granted. He asks for a copy of the will and an explanation of what his mother told the solicitor about why she left him only a small legacy.",
+  "stem": "What should the solicitor do?",
+  "options": {
+   "A": "Give Patrick a copy of the will, because as her son he is her next of kin.",
+   "B": "Refuse to give anything until the grant of probate, then send Patrick a full copy of the solicitor's file.",
+   "C": "Treat the will and the file as confidential and disclose them only with the executors' consent, or where disclosure is otherwise required or permitted by law.",
+   "D": "Give Patrick a brief summary of his mother's reasons, but not a copy of the will.",
+   "E": "Disclose what he asks for, because the duty of confidentiality ended when Mrs Doyle died."
+  },
+  "answer": "C",
+  "explanation": "Paragraph 6.3 of the Code requires a solicitor to keep the affairs of current and former clients confidential unless disclosure is required or permitted by law or the client consents. The SRA's confidentiality guidance confirms that the duty continues after the client dies, and the right to confidentiality then passes to the client's personal representatives. Mrs Doyle's executors, her nieces, now control whether her will and her instructions may be disclosed. Patrick is neither the client nor a personal representative. The solicitor must not give him a copy of the will or any account of his mother's reasons unless the executors consent or some legal requirement or permission applies, such as a court order. The solicitor can politely explain the position and suggest that Patrick contact the executors or take his own legal advice.",
+  "why_wrong": {
+   "A": "Being next of kin does not give Patrick any right to the deceased client's confidential information; the right passes to her personal representatives.",
+   "B": "The grant does not end confidentiality in the solicitor's file of instructions; disclosure still needs the personal representatives' consent or a legal basis.",
+   "D": "A summary of her instructions is itself disclosure of confidential information without consent.",
+   "E": "The duty continues after death; the right to confidentiality passes to the personal representatives."
+  },
+  "key_rule": "A solicitor's duty of confidentiality continues after a client's death; the right to confidentiality passes to the personal representatives, whose consent is needed for disclosure unless the law requires or permits it.",
+  "authority": "SRA Code of Conduct for Solicitors, RELs, RFLs and RSLs, para 6.3; SRA guidance, Confidentiality of client information (updated 30 June 2022)",
+  "verified_source_url": "https://www.sra.org.uk/solicitors/guidance/confidentiality-client-information/",
+  "tags": [
+   "confidentiality",
+   "wills",
+   "personal representatives"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Ethics (pervasive; FLK assessment objective: act honestly and with integrity and in accordance with the SoSC, the SRA Principles and the Code of Conduct) — confidentiality and disclosure (Code 6.3)",
+   "context_subject": "Wills",
+   "source_type": "official-guidance",
+   "source_quote": "It continues despite the end of the retainer or the death of the client when the right to confidentiality passes to the client's personal representatives.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Once a grant is issued the will itself becomes a public document obtainable from the Probate Registry; the question therefore asks about the position before the grant."
+  }
+ },
+ {
+  "id": "lib-eth-016",
+  "subject": "Ethics & Professional Conduct",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Joint owners selling: one co-owner's instruction to pay all the proceeds to her (Code 3.1 and 6.2)",
+  "scenario": "A firm acts for Dev Malhotra and Fiona Grey, the registered proprietors of a flat, on its sale. They hold the beneficial interest as tenants in common in equal shares under a declaration of trust. They have recently separated. The day before completion, Fiona emails the firm instructing it to pay the whole net proceeds of sale into her sole bank account, because Dev owes her money. Dev knows nothing about this instruction.",
+  "stem": "Which of the following best describes how the firm should proceed?",
+  "options": {
+   "A": "It should follow Fiona's instruction, because either joint client can give instructions that bind both.",
+   "B": "It should pay all the proceeds to Dev, to protect him because he is unaware of the instruction.",
+   "C": "It must pay the proceeds into court as soon as completion takes place.",
+   "D": "It should pay the proceeds in equal shares under the declaration of trust, without telling either client about the disagreement.",
+   "E": "It must not act on Fiona's instruction alone; it may deal with the proceeds only on instructions given or authorised by both clients and, as their interests now conflict over the proceeds, it must consider whether it can continue to act for both."
+  },
+  "answer": "E",
+  "explanation": "Paragraph 3.1 of the Code requires a solicitor to act only on instructions from the client, or from someone properly authorised to give instructions on their behalf. The firm's clients are Dev and Fiona jointly, and the proceeds are held for both of them. Fiona alone cannot authorise a payment that would defeat Dev's beneficial share. The firm must not follow her instruction without Dev's authority. Her email shows that the clients' interests now conflict over how the proceeds are distributed. Under para 6.2 the firm must not act on that aspect for both while there is a conflict or a significant risk of one. The 'substantially common interest' that justified acting for both in the sale does not extend to a dispute between them about the money. Each client is entitled to information material to their matter (para 6.4), so the firm should tell both of them about the position. It should hold the money pending joint instructions and consider whether it can continue to act for either or both.",
+  "why_wrong": {
+   "A": "Para 3.1 requires instructions from the client; where the firm acts for both co-owners, one cannot instruct it to act against the other.",
+   "B": "Dev has given no such instruction either, and the firm cannot simply prefer one joint client over the other.",
+   "C": "Payment into court is not the immediate step; the firm must first seek joint instructions and assess the conflict.",
+   "D": "Acting without instructions and keeping both clients in the dark fails the firm's duties to act on instructions and keep each client informed."
+  },
+  "key_rule": "Where a firm acts for joint clients, it must not act on one client's instructions against the other's interests; once they disagree on an aspect, the firm must not act for both on it.",
+  "authority": "SRA Code of Conduct for Solicitors, RELs, RFLs and RSLs, paras 3.1, 6.2 and 6.4",
+  "verified_source_url": "https://www.sra.org.uk/solicitors/standards-regulations/code-conduct-solicitors/",
+  "tags": [
+   "client instructions",
+   "conflict of interest",
+   "co-ownership"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Ethics (pervasive; FLK assessment objective: act honestly and with integrity and in accordance with the SoSC, the SRA Principles and the Code of Conduct) — client instructions; conflict between joint clients (Code 3.1, 6.2)",
+   "context_subject": "Land",
+   "source_type": "regulator-rules",
+   "source_quote": "You only act for clients on instructions from the client, or from someone properly authorised to provide instructions on their behalf.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Assumes completion monies are received into client account and held for both sellers; the Accounts Rules position is not tested."
+  }
+ },
+ {
+  "id": "lib-eth-017",
+  "subject": "Ethics & Professional Conduct",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Selling a house on the instructions of the owner's attorney under a registered LPA (Code 3.1)",
+  "scenario": "Iris Penhale, aged 89, has advanced dementia and lacks capacity to manage her property and affairs. Her daughter, Morwenna, is her attorney under a registered lasting power of attorney for property and financial affairs that contains no restrictions. Morwenna instructs a firm to sell her mother's house to pay care home fees. The firm has seen the registered LPA, and nothing suggests that Morwenna is acting other than in her mother's interests.",
+  "stem": "Which of the following best describes whether the firm may act on the sale?",
+  "options": {
+   "A": "It may act on Morwenna's instructions, because she is properly authorised to give instructions on her mother's behalf, while remaining subject to the overriding obligation to protect Mrs Penhale's best interests.",
+   "B": "It cannot act, because Mrs Penhale lacks capacity and so no one can give instructions for her.",
+   "C": "It cannot act until the Court of Protection has appointed a deputy.",
+   "D": "It may act only if Mrs Penhale signs the contract and transfer herself.",
+   "E": "It may act only if all of Mrs Penhale's children consent to the sale."
+  },
+  "answer": "A",
+  "explanation": "Paragraph 3.1 of the Code requires a solicitor to act only on instructions from the client 'or from someone properly authorised to provide instructions on their behalf'. Mrs Penhale lacks capacity, but Morwenna holds a registered lasting power of attorney for property and financial affairs with no restrictions. That gives her authority to deal with her mother's property, including selling the house to pay for care. The firm has checked the registered LPA and has no reason to suspect that the instructions do not reflect Mrs Penhale's interests. Mrs Penhale remains the client, so the firm acts for her through her attorney. Paragraph 3.1 also says that where a solicitor has legal authority to act although the client's own instructions cannot be obtained, the solicitor is subject to the overriding obligation to protect the client's best interests. If concerns arose, such as the proceeds being diverted to the attorney, the firm would have to act on them.",
+  "why_wrong": {
+   "B": "Para 3.1 expressly allows instructions from someone properly authorised to give them on the client's behalf, such as an attorney acting within an LPA.",
+   "C": "A deputy is not needed where a valid registered LPA for property and financial affairs already gives the attorney authority.",
+   "D": "A client who lacks capacity cannot validly sign; the attorney signs within the scope of the power.",
+   "E": "The authority to instruct belongs to the attorney under the LPA, not to the family collectively."
+  },
+  "key_rule": "A solicitor may act on instructions from someone properly authorised to give them, such as an attorney under a registered LPA, but must still protect the incapacitated client's best interests.",
+  "authority": "SRA Code of Conduct for Solicitors, RELs, RFLs and RSLs, para 3.1",
+  "verified_source_url": "https://www.sra.org.uk/solicitors/standards-regulations/code-conduct-solicitors/",
+  "tags": [
+   "client instructions",
+   "vulnerable clients",
+   "powers of attorney"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Ethics (pervasive; FLK assessment objective: act honestly and with integrity and in accordance with the SoSC, the SRA Principles and the Code of Conduct) — client instructions, capacity and third parties (Code 3.1)",
+   "context_subject": "Land",
+   "source_type": "regulator-rules",
+   "source_quote": "However, in circumstances where you have legal authority to act notwithstanding that it is not possible to obtain or ascertain the instructions of your client, then you are subject to the overriding obligation to protect your client's best interests.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "The attorney's authority to sell under an unrestricted property and financial affairs LPA is stated as an assumption in the facts; the Mental Capacity Act 2005 was not separately fetched. Distinct from bank q049 (an unauthorised relative giving will instructions)."
+  }
+ },
+ {
+  "id": "lib-eth-018",
+  "subject": "Ethics & Professional Conduct",
+  "flk": "FLK2",
+  "difficulty": "hard",
+  "title": "Firm's own error in a trust matter: openness and own interest conflict (Code 6.1, 7.11)",
+  "scenario": "A firm acts for the trustees of the Ashdown family trust. Two years ago the trustees instructed the firm to invest £400,000 of trust money in line with a written investment strategy. An associate forgot, and the money has sat in a non-interest-bearing account ever since, causing the trust a significant loss. The trustees have not noticed. The supervising partner suggests either saying nothing and quietly investing the money now, or telling the trustees and asking them to sign a consent letter so that the firm can keep acting on all trust matters, including any claim arising from the error.",
+  "stem": "Which of the following best describes what the firm should do?",
+  "options": {
+   "A": "Invest the money now and say nothing, because the trustees have not complained.",
+   "B": "Tell the trustees and continue to act on every aspect, including any claim against the firm, once they give informed written consent.",
+   "C": "Tell the trustees only if they later ask about the trust's investment returns.",
+   "D": "Be honest and open with the trustees, explaining fully and promptly what happened and its likely impact and putting matters right if possible; it must not act where its own interests conflict with theirs, and their consent cannot cure that.",
+   "E": "Write to the beneficiaries instead of the trustees, because the beneficiaries have suffered the loss."
+  },
+  "answer": "D",
+  "explanation": "Paragraph 7.11 of the Code requires a solicitor to be honest and open with clients if things go wrong. If a client suffers loss or harm as a result, the solicitor must put matters right if possible and explain fully and promptly what has happened and its likely impact. The firm must therefore tell the trustees about the uninvested money. Paragraph 6.1 prohibits acting where there is an own interest conflict or a significant risk of one. The SRA's conflicts guidance gives the firm's own conduct, such as wrong advice or the wrong action being taken, as an example. It says there are no exceptions: neither the client's consent nor telling the client to take independent advice changes the position. The firm cannot advise the trustees on a claim against itself, and it should recommend that they take independent advice on that. Whether it can keep acting on other trust work depends on whether its own interests create a significant risk of conflict on that work. Saying nothing and quietly investing the money would also breach Principles 4 and 5 (honesty and integrity).",
+  "why_wrong": {
+   "A": "The duty to be open when things go wrong does not depend on a complaint; concealment would also breach Principles 4 and 5.",
+   "B": "There are no exceptions to the own interest conflict rule, so client consent does not allow the firm to advise on a claim against itself.",
+   "C": "The firm must volunteer the information promptly, not wait to be asked.",
+   "E": "The clients are the trustees, and the duties of openness and confidentiality are owed to them."
+  },
+  "key_rule": "When a firm's error causes a client loss, it must be open and explain promptly; it cannot act where its own interests conflict with the client's, and consent does not cure an own interest conflict.",
+  "authority": "SRA Code of Conduct for Solicitors, RELs, RFLs and RSLs, paras 6.1 and 7.11; SRA guidance, Conflicts of interest",
+  "verified_source_url": "https://www.sra.org.uk/solicitors/guidance/conflicts-interest/",
+  "tags": [
+   "own interest conflict",
+   "conflict of interest",
+   "trustees",
+   "professional conduct"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Ethics (pervasive; FLK assessment objective: act honestly and with integrity and in accordance with the SoSC, the SRA Principles and the Code of Conduct) — own interest conflict; putting matters right (Code 6.1, 7.11)",
+   "context_subject": "Trusts",
+   "source_type": "official-guidance",
+   "source_quote": "When it comes to an 'own interest' conflict, there are no exceptions to the ban on acting. So, for example, obtaining your client's consent to act will not change the position.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "The SRA guidance 'Putting matters right when things go wrong, and own interest conflicts' was not separately fetched; para 7.11 is taken from the Code page (https://www.sra.org.uk/solicitors/standards-regulations/code-conduct-solicitors/)."
+  }
+ },
+ {
+  "id": "lib-eth-019",
+  "subject": "Ethics & Professional Conduct",
+  "flk": "FLK2",
+  "difficulty": "easy",
+  "title": "Commission received from an insurer on a restrictive covenant indemnity policy (Code 4.1)",
+  "scenario": "A firm acts for Leanne Choi on the sale of part of her land. The land is subject to an old restrictive covenant, and the buyer requires Ms Choi to provide a restrictive covenant indemnity insurance policy at her expense. The firm arranges the policy through a broker, and the insurer pays the firm £150 commission. The firm's client care letter says nothing about commissions.",
+  "stem": "What must the firm do with the £150 commission?",
+  "options": {
+   "A": "Keep it, because it was paid by the insurer and not by Ms Choi.",
+   "B": "Account to Ms Choi for it, unless she has agreed otherwise.",
+   "C": "Keep it, because it is below a de minimis threshold.",
+   "D": "Pay it to the buyer, because the buyer required the policy.",
+   "E": "Keep it, provided it is shown on the final bill."
+  },
+  "answer": "B",
+  "explanation": "Paragraph 4.1 of the Code requires a solicitor to properly account to clients for any financial benefit received as a result of their instructions, except where the client has agreed otherwise. Paragraph 5.1 of the Code of Conduct for Firms imposes the same duty on the firm. The £150 commission is a financial benefit that the firm received only because it arranged the indemnity policy on Ms Choi's instructions and at her expense. It does not matter that the insurer, not Ms Choi, paid it. The firm must pay it to Ms Choi, for example by crediting it against her bill, unless she has agreed that the firm may keep it. Her agreement would need to be informed, so she would have to be told about the commission. The client care letter is silent and there is no such agreement, so the firm must account to her.",
+  "why_wrong": {
+   "A": "Para 4.1 covers any financial benefit received as a result of the client's instructions, whoever pays it.",
+   "C": "Para 4.1 contains no de minimis threshold; the firm must account for any financial benefit unless the client has agreed otherwise.",
+   "D": "The commission arose from Ms Choi's instructions and the policy was at her expense; the buyer is not the firm's client.",
+   "E": "Showing it on a bill after the event is not the client agreeing that the firm may keep it."
+  },
+  "key_rule": "A solicitor must account to the client for any financial benefit, such as a commission, received as a result of the client's instructions, unless the client has agreed otherwise.",
+  "authority": "SRA Code of Conduct for Solicitors, RELs, RFLs and RSLs, para 4.1; SRA Code of Conduct for Firms, para 5.1",
+  "verified_source_url": "https://www.sra.org.uk/solicitors/standards-regulations/code-conduct-solicitors/",
+  "tags": [
+   "financial benefit",
+   "client money",
+   "sra code of conduct"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Ethics (pervasive; FLK assessment objective: act honestly and with integrity and in accordance with the SoSC, the SRA Principles and the Code of Conduct) — client money and assets (Code 4.1-4.3)",
+   "context_subject": "Land",
+   "source_type": "regulator-rules",
+   "source_quote": "You properly account to clients for any financial benefit you receive as a result of their instructions, except where they have agreed otherwise.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "The SRA Glossary definition of 'financial benefit' was not separately fetched; a commission is the standard example."
+  }
+ },
+ {
+  "id": "lib-eth-020",
+  "subject": "Ethics & Professional Conduct",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Acting for seller and buyer of a flat where terms are still to be negotiated (Code 6.2)",
+  "scenario": "Joy Baptiste wants to sell a buy-to-let flat to her long-standing tenant, Kofi Mensah. Both are existing clients of the same firm and want it to act for both of them to save costs. They have agreed a price of £240,000. They have not yet agreed who will pay for replacing a defective roof, how the tenancy deposit will be dealt with or the completion date, and they expect to negotiate these points.",
+  "stem": "Which of the following best describes whether the firm may act for both?",
+  "options": {
+   "A": "Yes, because a seller and buyer have a substantially common interest in getting the sale completed.",
+   "B": "Yes, provided both give informed consent, given or evidenced in writing.",
+   "C": "No: because substantive negotiations between them are foreseen there is a significant risk of conflict, and neither the 'substantially common interest' nor the 'competing for the same objective' exception applies to a seller and buyer negotiating against each other.",
+   "D": "Yes, provided different fee earners act for the seller and the buyer.",
+   "E": "Yes, because the conflict rules do not apply to conveyancing once the price has been agreed."
+  },
+  "answer": "C",
+  "explanation": "Paragraph 6.2 of the Code prohibits acting where there is a conflict of interest or a significant risk of one, unless the clients have a substantially common interest or are competing for the same objective, and the conditions on consent, safeguards and reasonableness are met. The SRA's conflicts guidance lists one client selling an asset to another client as a situation that can create a conflict. It says this does not mean you can never act, if on the facts there is no significant risk of conflict, for example where all the relevant terms are already agreed. However, if substantive negotiations between the clients are foreseen, the solicitor should not act unless an exception applies, because a conflict is likely. Ms Baptiste and Mr Mensah still have to negotiate the roof, the deposit and the completion date. A seller and buyer bargaining against each other are not competing for the same objective, and lack the strong consensus that a substantially common interest requires. The firm must act for only one of them, or for neither.",
+  "why_wrong": {
+   "A": "A substantially common interest requires a clear common purpose and strong consensus on how to achieve it; outstanding negotiations show there is no such consensus.",
+   "B": "Consent is only one condition of an exception; it cannot authorise acting where no exception applies.",
+   "D": "Separate fee earners may protect confidential information but do not create an exception to para 6.2.",
+   "E": "There is no such carve-out; the conflict rules apply to conveyancing as to any other matter."
+  },
+  "key_rule": "A firm should not act for both seller and buyer where substantive negotiations between them are foreseen; neither 6.2 exception fits parties bargaining against each other, and consent alone cannot cure this.",
+  "authority": "SRA Code of Conduct for Solicitors, RELs, RFLs and RSLs, para 6.2; SRA guidance, Conflicts of interest",
+  "verified_source_url": "https://www.sra.org.uk/solicitors/guidance/conflicts-interest/",
+  "tags": [
+   "conflict of interest",
+   "conveyancing",
+   "sra code of conduct"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Ethics (pervasive; FLK assessment objective: act honestly and with integrity and in accordance with the SoSC, the SRA Principles and the Code of Conduct) — conflict of interests (Code 6.2)",
+   "context_subject": "Property",
+   "source_type": "official-guidance",
+   "source_quote": "However, if you foresee the need for substantive negotiations between the clients, then you should not act unless one of the exceptions under paragraph 6.2 applies (see below). This is because it is likely that a conflict will arise.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Distinct from bank q006 (competing bidders, 'competing for the same objective')."
+  }
+ },
+ {
+  "id": "lib-eth-021",
+  "subject": "Ethics & Professional Conduct",
+  "flk": "FLK2",
+  "difficulty": "hard",
+  "title": "Acting for buyer and lender when the buyer hides a cash-back from the lender (Code 1.4, 6.2)",
+  "scenario": "A firm acts for Ollie Brennan on his purchase of a house for £300,000 and also for his mortgage lender. The lender's instructions, which the firm has accepted, require it to report any price reduction, cash-back or other incentive. Shortly before exchange, Ollie tells the solicitor that the seller has privately agreed to pay him £15,000 in cash after completion. The lender has been told only that the price is £300,000. Ollie says the solicitor must not tell the lender.",
+  "stem": "Which of the following best describes the solicitor's position?",
+  "options": {
+   "A": "She may continue, because a payment made after completion is a private matter between buyer and seller.",
+   "B": "She may continue to act for both and simply report the cash-back to the lender after completion.",
+   "C": "She may continue for both, provided Ollie gives informed written consent to her keeping the information from the lender.",
+   "D": "She should ask the seller's solicitor to inform the lender, so that she does not breach Ollie's confidentiality.",
+   "E": "She must advise Ollie that the arrangement has to be disclosed to the lender; if he refuses, she must not continue in a way that misleads the lender and must stop acting for the lender, and in practice for Ollie too, while considering her money laundering and fraud reporting obligations."
+  },
+  "answer": "E",
+  "explanation": "When acting for both buyer and lender, the solicitor owes each client duties. Under para 6.4 the lender is entitled to all information material to its matter, and its instructions expressly require price incentives to be reported. Ollie's information is confidential to him (para 6.3) and he refuses consent to disclosure. Paragraph 1.4 prohibits misleading clients 'or others', including by omission or by being complicit in a client's acts. Carrying on and reporting a £300,000 price to the lender would mislead it. A conflict has now arisen between the two clients, and no exception in para 6.2 applies. The solicitor must advise Ollie that the arrangement must be disclosed. If he still refuses, she cannot continue to act for the lender and, in practice, will have to stop acting for him as well. An undisclosed incentive concealed from a lender is a classic mortgage fraud warning sign, so she must also consider her money laundering and reporting obligations.",
+  "why_wrong": {
+   "A": "The lender has expressly required incentives to be reported; staying silent would mislead it about the true price.",
+   "B": "By then the lender will have advanced its money on a misleading basis; a report after completion does not prevent the lender being misled.",
+   "C": "Consent from one client cannot authorise misleading the other; the conflict between buyer and lender has no applicable exception.",
+   "D": "Using the other side to pass on the information does not resolve her own conflict or her duty not to mislead her lender client."
+  },
+  "key_rule": "A solicitor acting for buyer and lender must not mislead the lender about price incentives; if the buyer forbids disclosure, the solicitor must cease acting for the lender and, usually, the buyer.",
+  "authority": "SRA Code of Conduct for Solicitors, RELs, RFLs and RSLs, paras 1.4, 6.2, 6.3 and 6.4",
+  "verified_source_url": "https://www.sra.org.uk/solicitors/standards-regulations/code-conduct-solicitors/",
+  "tags": [
+   "conflict of interest",
+   "conveyancing",
+   "confidentiality",
+   "misleading"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Ethics (pervasive; FLK assessment objective: act honestly and with integrity and in accordance with the SoSC, the SRA Principles and the Code of Conduct) — acting for buyer and lender; confidentiality v disclosure (Code 1.4, 6.2-6.4)",
+   "context_subject": "Property",
+   "source_type": "regulator-rules",
+   "source_quote": "You do not mislead or attempt to mislead your clients, the court or others, either by your own acts or omissions or allowing or being complicit in the acts or omissions of others (including your client).",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "The lender's instructions (eg the UK Finance Mortgage Lenders' Handbook) were not fetched; the requirement to report incentives is stated as a fact in the scenario. The confidentiality guidance notes there is no confidence in information about a client's fraud, which could justify disclosure; the correct option is deliberately worded so that it does not depend on resolving that point."
+  }
+ },
+ {
+  "id": "lib-eth-022",
+  "subject": "Ethics & Professional Conduct",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Defending a client who has privately admitted guilt but wants to plead not guilty",
+  "scenario": "Danny Fitch is charged with stealing £2,000 from his employer's till. In a private conference he tells his solicitor that he took the money, but says he wants to plead not guilty because he thinks the CCTV evidence is poor quality.",
+  "stem": "Which of the following best describes how the solicitor may proceed?",
+  "options": {
+   "A": "She may continue to act on a not guilty plea and put the prosecution to proof of its case, but must not mislead the court, for example by advancing a positive defence she knows to be false or calling Danny to deny the theft on oath.",
+   "B": "She must stop acting immediately, because she cannot represent a client who has admitted guilt.",
+   "C": "She must inform the court of Danny's admission, because her duty to the court overrides her duty to her client.",
+   "D": "She may run an alibi defence if Danny can find witnesses to support it.",
+   "E": "She must enter a guilty plea on Danny's behalf, because she knows the truth."
+  },
+  "answer": "A",
+  "explanation": "It is a defendant's right to require the prosecution to prove its case, and the client cannot be prevented from pleading not guilty, even after admitting guilt to their solicitor. The SRA's paper on balancing duties in litigation confirms that the admission remains covered by confidentiality (Code para 6.3) and legal professional privilege. The solicitor may therefore continue to act. She can test the prosecution evidence, for example by challenging the identification from the CCTV, and argue that the evidence does not prove guilt to the criminal standard. She must not mislead the court (para 1.4) or put forward assertions that are not properly arguable (para 2.4). She cannot suggest that Danny did not take the money, run a positive defence she knows to be false, or call him to give evidence denying the theft. The SRA paper says that if a client continues to mislead the court despite advice, the solicitor should cease to act.",
+  "why_wrong": {
+   "B": "A client who has admitted guilt may still plead not guilty and require the prosecution to prove its case; the solicitor may act within limits.",
+   "C": "The admission is confidential and privileged; the duty not to mislead does not require her to disclose it.",
+   "D": "Advancing an alibi she knows to be false would mislead the court and could involve fabricating evidence.",
+   "E": "The plea is the client's decision; a solicitor cannot enter a plea against the client's instructions."
+  },
+  "key_rule": "A solicitor may defend a client who has admitted guilt by putting the prosecution to proof, but must not mislead the court by advancing a positive case or evidence known to be false.",
+  "authority": "SRA Code of Conduct for Solicitors, RELs, RFLs and RSLs, paras 1.4, 2.4 and 6.3; SRA, Balancing duties in litigation (2018)",
+  "verified_source_url": "https://www.sra.org.uk/globalassets/documents/solicitors/freedom-in-practice/balancing-duties-in-litigation.pdf",
+  "tags": [
+   "criminal defence",
+   "misleading the court",
+   "confidentiality",
+   "duty to the court"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Ethics (pervasive; FLK assessment objective: act honestly and with integrity and in accordance with the SoSC, the SRA Principles and the Code of Conduct) — duty not to mislead the court v duty to client (Code 1.4, 2.4)",
+   "context_subject": "Criminal",
+   "source_type": "official-guidance",
+   "source_quote": "Even where a defendant has informed their solicitor that they are guilty, the client cannot be prevented from pleading not guilty and their discussions with the solicitor are covered by the duty of confidentiality",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "The source is an SRA risk paper from 2018, predating the 2019 Codes; its statement of principle is consistent with Code paras 1.4/2.4. The detailed limits (no positive false case; client not to deny guilt on oath) are long-standing professional practice and are not spelled out word-for-word on an SRA page."
+  }
+ },
+ {
+  "id": "lib-eth-023",
+  "subject": "Ethics & Professional Conduct",
+  "flk": "FLK2",
+  "difficulty": "hard",
+  "title": "Sentencing where the prosecution wrongly states the client has no previous convictions",
+  "scenario": "Kyle Moran pleads guilty in the magistrates' court to criminal damage. At sentencing, the prosecutor tells the bench that he has no previous convictions, because his record from another police area has not been found. Earlier, Kyle told his solicitor in confidence that he has two previous convictions for similar offences. He instructs her to tell the magistrates in mitigation that he is a man of good character.",
+  "stem": "Which of the following best describes the solicitor's position?",
+  "options": {
+   "A": "She must tell the bench about the two convictions, even without Kyle's consent, because her duty to the court overrides confidentiality.",
+   "B": "She may follow Kyle's instructions, because the prosecution, not the defence, is responsible for the accuracy of the record.",
+   "C": "She may say that Kyle is of good character, provided she does not refer to the prosecution's statement.",
+   "D": "She must not tell the court that Kyle is of good character or otherwise mislead it; she may not reveal his convictions without his consent; and if he insists that she present him as of good character, she must cease to act.",
+   "E": "She must withdraw at once and tell the bench that she is doing so because her client has previous convictions."
+  },
+  "answer": "D",
+  "explanation": "Paragraph 1.4 of the Code prohibits a solicitor from misleading the court, whether by her own acts or by being complicit in her client's. Paragraph 6.3 requires her to keep her client's affairs confidential unless disclosure is required or permitted by law or the client consents. Telling the magistrates that Kyle is of good character, when she knows he has two similar convictions, would be a deliberate falsehood, so she must refuse. Her duty of confidentiality also means she must not reveal the convictions without his consent. She should advise Kyle of her position and explain the risk of the record later coming to light. She may still mitigate on matters that are true, such as the guilty plea, remorse or personal circumstances, without referring to his character. If Kyle insists that she present him as of good character, she cannot continue and must cease to act. She must not tell the court why she is withdrawing.",
+  "why_wrong": {
+   "A": "The information is confidential (para 6.3) and she may not disclose it without consent; her duty is not to mislead, not to inform against her client.",
+   "B": "Positively asserting good character that she knows to be false would mislead the court, whoever made the original error.",
+   "C": "Any assertion of good character she knows to be untrue misleads the court, however it is phrased.",
+   "E": "If she withdraws she must not reveal the confidential reason; and she need not withdraw if she can mitigate without misleading the court."
+  },
+  "key_rule": "A defence solicitor must not assert a client's good character knowing it to be false, nor disclose the client's convictions without consent; if the client insists on the falsehood, the solicitor must cease to act.",
+  "authority": "SRA Code of Conduct for Solicitors, RELs, RFLs and RSLs, paras 1.4 and 6.3; SRA Principle 1",
+  "verified_source_url": "https://www.sra.org.uk/solicitors/standards-regulations/code-conduct-solicitors/",
+  "tags": [
+   "criminal defence",
+   "misleading the court",
+   "confidentiality",
+   "sentencing"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Ethics (pervasive; FLK assessment objective: act honestly and with integrity and in accordance with the SoSC, the SRA Principles and the Code of Conduct) — duty not to mislead the court v confidentiality (Code 1.4, 6.3)",
+   "context_subject": "Criminal",
+   "source_type": "regulator-rules",
+   "source_quote": "You do not mislead or attempt to mislead your clients, the court or others, either by your own acts or omissions or allowing or being complicit in the acts or omissions of others (including your client).",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Whether a defence solicitor must correct a prosecution error (as opposed to not exploiting it) is not addressed expressly by the SRA; the question deliberately turns on the positive assertion of good character, which is clearly prohibited. A reviewer may wish to confirm the option wording leaves no arguable second answer."
+  }
+ },
+ {
+  "id": "lib-eth-024",
+  "subject": "Ethics & Professional Conduct",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Co-defendants whose accounts conflict: acting for both (Code 6.2 and 6.5)",
+  "scenario": "A firm represents Leon Carter and Mason Reid, who are jointly charged with robbery. At first both deny any involvement. In a later private consultation Leon tells the firm that Mason planned the robbery and carried the knife, and that he intends to say so in his defence statement and at trial. Mason maintains a complete denial and has given the firm confidential details of his own account.",
+  "stem": "Which of the following best describes the firm's position?",
+  "options": {
+   "A": "It may continue to act for both, because co-defendants have a substantially common interest in being acquitted.",
+   "B": "It must not continue to act for both; it may continue for one only if it holds no confidential information of the other material to the matter, or the paragraph 6.5 conditions are met; otherwise it must cease acting for both.",
+   "C": "It may continue to act for both if both give informed consent, given or evidenced in writing.",
+   "D": "It may continue to act for both, provided a different fee earner handles each client.",
+   "E": "It must continue to act for Mason, because he instructed the firm first."
+  },
+  "answer": "B",
+  "explanation": "Paragraph 6.2 of the Code prohibits acting where there is a conflict of interest or a significant risk of one, unless the clients have a substantially common interest or are competing for the same objective. Leon now intends to blame Mason, who denies everything. The firm would have to challenge Mason's account for Leon while defending Mason against Leon's allegations. That is a direct conflict, and neither exception applies. The firm cannot continue to act for both. Once it stops acting for one, that person becomes a former client whose confidential information the firm holds. Under para 6.5, the firm may then act for the other, whose interests are adverse, only if effective measures mean there is no real risk of the information being disclosed, or the former client gives informed written consent. Mason has given the firm confidential details of his account, and Leon's information is equally material, so the firm is likely to have to stop acting for both.",
+  "why_wrong": {
+   "A": "Their defences are now directly opposed: Leon's defence blames Mason, so there is no strong consensus on how to achieve their aims.",
+   "C": "Consent is only a condition of a para 6.2 exception, and no exception applies to defendants running defences against each other.",
+   "D": "Separate fee earners do not create an exception to the conflict; the firm would still be acting for clients with opposing interests.",
+   "E": "The order of instructions is irrelevant; the question is whether the firm can act for either without misusing the other's confidential information."
+  },
+  "key_rule": "A firm cannot act for co-defendants whose defences conflict; it may keep one only if it holds no material confidential information of the other or the para 6.5 conditions are met.",
+  "authority": "SRA Code of Conduct for Solicitors, RELs, RFLs and RSLs, paras 6.2, 6.3 and 6.5",
+  "verified_source_url": "https://www.sra.org.uk/solicitors/standards-regulations/code-conduct-solicitors/",
+  "tags": [
+   "conflict of interest",
+   "criminal defence",
+   "confidentiality",
+   "former clients"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Ethics (pervasive; FLK assessment objective: act honestly and with integrity and in accordance with the SoSC, the SRA Principles and the Code of Conduct) — conflict of interests; confidentiality (Code 6.2, 6.5)",
+   "context_subject": "Criminal",
+   "source_type": "regulator-rules",
+   "source_quote": "You do not act in relation to a matter or particular aspect of it if you have a conflict of interest or a significant risk of such a conflict in relation to that matter or aspect of it",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-eth-025",
+  "subject": "Ethics & Professional Conduct",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Privileged advice mistakenly sent by seller's solicitor: must the buyer be told? (Code 6.4(d))",
+  "scenario": "Zainab Ali, a solicitor, acts for the buyer of a commercial unit. The seller's solicitors email her a set of replies to enquiries and mistakenly attach a letter of advice from the seller's counsel. The letter discusses a serious flooding risk that is not mentioned in the replies. Zainab realises at once that it is a privileged document that was sent to her by mistake.",
+  "stem": "Under paragraph 6.4 of the SRA Code of Conduct for Solicitors, is Zainab obliged to tell her client what the letter says?",
+  "options": {
+   "A": "Yes, because she must make her client aware of all information material to the matter of which she has knowledge.",
+   "B": "Yes, but only if the client signs a written waiver of any claim against the seller first.",
+   "C": "No: the duty to make the client aware of all material information does not apply where the information is contained in a privileged document that she knows of only because it was mistakenly disclosed.",
+   "D": "Yes, but only after exchange of contracts, so that the transaction is not disrupted.",
+   "E": "Yes, but she may tell the client orally and must not send the letter itself."
+  },
+  "answer": "C",
+  "explanation": "Paragraph 6.4 of the Code requires a solicitor acting for a client to make the client aware of all information material to the matter of which the solicitor has knowledge, subject to limited exceptions. Paragraph 6.4(d) excludes information 'contained in a privileged document that you have knowledge of only because it has been mistakenly disclosed'. Counsel's advice to the seller is privileged. Zainab knows its contents only because it was attached by mistake, and she realised this at once. So para 6.4 does not oblige her to tell her client what it says. The exception reflects the importance the law attaches to legal professional privilege. In practice she should tell the seller's solicitors about the error and not use the document. She remains free to protect her client by proper means, for example by raising general enquiries and arranging searches and surveys about flood risk, as she would in any commercial purchase.",
+  "why_wrong": {
+   "A": "Para 6.4(d) creates an express exception for information in a privileged document known only because it was mistakenly disclosed.",
+   "B": "No such waiver features in para 6.4; the exception in 6.4(d) applies regardless.",
+   "D": "The timing is irrelevant; para 6.4(d) means there is no duty to pass on the contents at all.",
+   "E": "The method of passing on the information does not matter; the 6.4 duty does not arise for this information."
+  },
+  "key_rule": "The Code duty to tell the client all material information does not extend to information in a privileged document the solicitor knows of only because it was mistakenly disclosed.",
+  "authority": "SRA Code of Conduct for Solicitors, RELs, RFLs and RSLs, para 6.4(d)",
+  "verified_source_url": "https://www.sra.org.uk/solicitors/standards-regulations/code-conduct-solicitors/",
+  "tags": [
+   "confidentiality",
+   "privilege",
+   "conveyancing",
+   "sra code of conduct"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Ethics (pervasive; FLK assessment objective: act honestly and with integrity and in accordance with the SoSC, the SRA Principles and the Code of Conduct) — duty of disclosure v confidentiality (Code 6.3-6.5)",
+   "context_subject": "Property",
+   "source_type": "regulator-rules",
+   "source_quote": "(d) the information is contained in a privileged document that you have knowledge of only because it has been mistakenly disclosed.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "The question asks only about the Code 6.4 duty. The court's approach to inadvertently disclosed privileged documents (and any duty to return them) is case law that was not fetched, so the explanation refers to it only as practical guidance."
+  }
+ },
+ {
+  "id": "lib-eth-026",
+  "subject": "Ethics & Professional Conduct",
+  "flk": "FLK2",
+  "difficulty": "easy",
+  "title": "Paying an agency for referrals of defendants awaiting trial (Code 5.1(d))",
+  "scenario": "A criminal defence firm is approached by an agency that offers to refer defendants who have been charged and are awaiting trial in the Crown Court. The firm would pay the agency £100 for each client referred. The agency says the clients would be told about the payment and that the arrangement would be recorded in a written agreement.",
+  "stem": "May the firm enter into this arrangement?",
+  "options": {
+   "A": "Yes, provided each client is told about the payment.",
+   "B": "Yes, provided the arrangement is set out in a written agreement.",
+   "C": "Yes, provided the payments come from the firm's profit costs and not from legal aid funds.",
+   "D": "No, because the firm must not make payments to an introducer in respect of clients who are the subject of criminal proceedings.",
+   "E": "Yes, but only for clients who are paying privately."
+  },
+  "answer": "D",
+  "explanation": "Paragraph 5.1 of the Code regulates referrals and introductions. Generally, clients must be told about any financial interest an introducer has, and any fee sharing agreement must be in writing. Paragraph 5.1(d), however, is an outright prohibition: a solicitor must not receive payments relating to a referral, or make payments to an introducer, in respect of clients who are the subject of criminal proceedings. Defendants who have been charged and are awaiting trial in the Crown Court are clearly the subject of criminal proceedings. The proposed £100 per client would be a payment to an introducer for referring them. Transparency with clients, a written agreement and the source of funding do not matter, because the protections in paras 5.1(a) to (c) apply only to arrangements that are permitted in the first place. Paragraph 7.1(b) of the Code of Conduct for Firms applies the same rule to the firm itself.",
+  "why_wrong": {
+   "A": "Telling the client cannot make lawful a payment that para 5.1(d) prohibits outright in criminal cases.",
+   "B": "A written agreement is required for permitted fee sharing, but it does not authorise a referral payment that is prohibited.",
+   "C": "The prohibition in para 5.1(d) applies however the payment is funded.",
+   "E": "Para 5.1(d) covers all clients who are the subject of criminal proceedings, whether privately funded or legally aided."
+  },
+  "key_rule": "A solicitor or firm must not make or receive referral payments in respect of clients who are the subject of criminal proceedings, whatever disclosure or written terms are offered.",
+  "authority": "SRA Code of Conduct for Solicitors, RELs, RFLs and RSLs, para 5.1(d); SRA Code of Conduct for Firms, para 7.1(b)",
+  "verified_source_url": "https://www.sra.org.uk/solicitors/standards-regulations/code-conduct-solicitors/",
+  "tags": [
+   "referral fees",
+   "criminal defence",
+   "sra code of conduct"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Ethics (pervasive; FLK assessment objective: act honestly and with integrity and in accordance with the SoSC, the SRA Principles and the Code of Conduct) — referrals, introductions and separate businesses (Code 5.1-5.3)",
+   "context_subject": "Criminal",
+   "source_type": "regulator-rules",
+   "source_quote": "(d) you do not receive payments relating to a referral or make payments to an introducer in respect of clients who are the subject of criminal proceedings",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Scenario uses charged defendants to avoid any argument about whether a suspect detained at the police station is yet 'the subject of criminal proceedings'."
+  }
+ }
+]

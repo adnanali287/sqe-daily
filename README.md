@@ -26,6 +26,21 @@ Library availability is separate from the daily feature date. Exact-content appr
 
 See [the content contract](docs/practice-content-contract.md) for the release and mock schema and fingerprinted approval commands. Hark supplies and reviews content; owner approval is required before recording releases or mock approvals. Do not copy temporary QA approvals or synthetic mock fixtures into production. Draft content and private authoring metadata are excluded from the deployment package.
 
+### Integrated review preview
+
+New library-only questions live in `content/library.json`, with stable `lib-*` IDs, `L001`-style display numbers and independent `/q/lib-.../` URLs. Their negative internal numeric keys are reserved for library entries and never consume positive daily issue numbers. `publish_date` stays null. Existing questions retain their dates and URLs. `session` and `context_subject` carry the reviewed allocation; Accounts context is validated against each mock session.
+
+The additional mini-test pools include session mixes, combined Legal Systems and Ethics across both papers. Selection aims for the editorial subject allocation and difficulty mix, prefers questions outside the last 200 locally selected IDs, and avoids long runs of the same answer letter where possible. These are practice heuristics, not promises of official exam equivalence.
+
+```sh
+python3 scripts/preview_library.py ../work/library-integration-preview
+python3 -m http.server 8771 --directory ../work/library-integration-preview/_site
+```
+
+Open http://localhost:8771. This builds a local-only, fully populated review preview with temporary approvals outside the repository. It never records real approvals and must not be deployed. Proposed editorial replacements remain in `content/library-editorial-proposals.json`; they are not loaded by production generation. `python3 scripts/library_approval_batch.py` regenerates the exact review inventory. See `docs/library-review-findings.md` for content findings and the email reconciliation needed before launch.
+
+Additional checks: `python3 scripts/test_library_integration.py` and `node scripts/test_library_pools.cjs`. These test the real draft batch in isolated previews; none of the temporary approval state is written back to authoring files.
+
 ## Add questions
 
 Append valid objects to `content/questions.json`; keep all existing field names. Each question needs a unique id and integer number, ISO publish_date, subject, FLK1/FLK2, difficulty, title, scenario, stem, five A–E options, answer, explanation, key_rule, authority and verified HTTPS source URL. The subject must be one of the names in `SUBJECTS` in `scripts/generate.py`; anything else fails the build. Hark's workflow is unchanged: Hark maintains `content/questions.json` and pushes. Page copy lives separately in `content/pages.json` (see below), so question work and page work never touch the same file.

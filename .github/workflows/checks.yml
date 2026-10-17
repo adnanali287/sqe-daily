@@ -33,5 +33,11 @@ jobs:
         run: |
           python scripts/test_practice.py
           node scripts/test_test_core.cjs
+          python scripts/test_library_integration.py
+          node scripts/test_library_pools.cjs
+      - name: Build complete isolated review preview
+        run: python scripts/preview_library.py "$RUNNER_TEMP/library-preview"
       - name: HTML validation
-        run: npx --yes html-validate@11.16.2 '_site/**/*.html'
+        run: |
+          npx --yes html-validate@11.16.2 --config .htmlvalidate.json '_site/**/*.html'
+          npx --yes html-validate@11.16.2 --config .htmlvalidate.json "$RUNNER_TEMP/library-preview/_site/**/*.html"
