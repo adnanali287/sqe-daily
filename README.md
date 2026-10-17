@@ -11,10 +11,35 @@ python3 scripts/generate.py --package
 python3 scripts/test_site.py
 node scripts/test_dates.cjs
 node scripts/test_answers.cjs
+python3 scripts/test_practice.py
+node scripts/test_test_core.cjs
 python3 -m http.server 8766 --directory _site
 ```
 
 Open http://localhost:8766. Serve `_site`, not the repository root, to preview the exact deployed package. `--date YYYY-MM-DD` is available for generator testing; do not deploy a future-date preview.
+
+## Practice library and tests
+
+`/tests/` provides 10- or 20-question mini tests from the available library, filtered by paper and optionally subject, with timed and untimed modes. Full papers require an approved 170-question composition: two locked 85-question sessions, 153 minutes per timed session and a 60-minute break. Scores, flags, answers and timing stay in local storage on the visitor's device; there are no accounts or result submissions. A timed attempt continues while the tab is closed.
+
+Library availability is separate from the daily feature date. Exact-content approvals in `content/practice.json` can release a question early without changing its daily question or newsletter schedule. New library-only questions may use `publish_date: null`; they require a release approval and are never selected as the daily question. Existing question dates and locked URLs must not be changed. Unapproved, stale or incomplete mock compositions are not offered. The checked-in practice configuration intentionally contains no early releases or approved mocks.
+
+See [the content contract](docs/practice-content-contract.md) for the release and mock schema and fingerprinted approval commands. Hark supplies and reviews content; owner approval is required before recording releases or mock approvals. Do not copy temporary QA approvals or synthetic mock fixtures into production. Draft content and private authoring metadata are excluded from the deployment package.
+
+### Integrated review preview
+
+New library-only questions live in `content/library.json`, with stable `lib-*` IDs, `L001`-style display numbers and independent `/q/lib-.../` URLs. Their negative internal numeric keys are reserved for library entries and never consume positive daily issue numbers. `publish_date` stays null. Existing questions retain their dates and URLs. `session` and `context_subject` carry the reviewed allocation; Accounts context is validated against each mock session.
+
+The additional mini-test pools include session mixes, combined Legal Systems and Ethics across both papers. Selection aims for the editorial subject allocation and difficulty mix, prefers questions outside the last 200 locally selected IDs, and avoids long runs of the same answer letter where possible. These are practice heuristics, not promises of official exam equivalence.
+
+```sh
+python3 scripts/preview_library.py ../work/library-integration-preview
+python3 -m http.server 8771 --directory ../work/library-integration-preview/_site
+```
+
+Open http://localhost:8771. This builds a local-only, fully populated review preview with temporary approvals outside the repository. It never records real approvals and must not be deployed. Proposed editorial replacements remain in `content/library-editorial-proposals.json`; they are not loaded by production generation. `python3 scripts/library_approval_batch.py` regenerates the exact review inventory. See `docs/library-review-findings.md` for content findings and the email reconciliation needed before launch.
+
+Additional checks: `python3 scripts/test_library_integration.py` and `node scripts/test_library_pools.cjs`. These test the real draft batch in isolated previews; none of the temporary approval state is written back to authoring files.
 
 ## Add questions
 

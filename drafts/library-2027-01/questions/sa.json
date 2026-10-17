@@ -1,0 +1,303 @@
+[
+ {
+  "id": "lib-sa-001",
+  "subject": "Solicitors Accounts",
+  "flk": "FLK2",
+  "difficulty": "easy",
+  "title": "Interest on estate money held in client account during an administration (rule 7)",
+  "scenario": "Pemberton Hale LLP acts for the executors of the late Mrs Okafor. It has held £180,000 of estate money in its general client account for eight months while the house is sold and the estate administered. The firm's client care letter says nothing about interest. A partner suggests the firm should keep the interest earned on the money, because it is held in a pooled general client account rather than a separate deposit account.",
+  "stem": "Which of the following best describes the firm's obligation regarding interest?",
+  "options": {
+   "A": "The firm may keep the interest, because interest earned on a general client account belongs to the firm.",
+   "B": "The firm must account to the executors for a fair sum of interest, unless it has agreed a different arrangement with them in writing after giving them enough information to give informed consent.",
+   "C": "The firm need pay interest only if the amount due exceeds a fixed minimum set by the SRA Accounts Rules.",
+   "D": "The firm must pay interest only if the money is held in a separate designated deposit account.",
+   "E": "The firm may keep the interest, provided it tells the executors about this in the final estate accounts."
+  },
+  "answer": "B",
+  "explanation": "Rule 7.1 of the SRA Accounts Rules requires the firm to account to clients or third parties for a fair sum of interest on any client money held on their behalf. The estate money is client money held for the executors, and the rule applies whether the money sits in a general client account or a separate account. Under rule 7.2 the firm may, by written agreement, make a different arrangement as to interest, but it must give the client enough information to enable informed consent. The client care letter is silent, so no such agreement exists. The firm must therefore pay the executors a fair sum of interest for the eight months the money has been held. The Rules do not prescribe a de minimis amount; the firm's own interest policy should set out how it calculates a fair sum.",
+  "why_wrong": {
+   "A": "Rule 7.1 applies to all client money held, including money in a general client account.",
+   "C": "The current Rules require a 'fair sum' and contain no fixed de minimis threshold; any such limit must be in a fair policy or written agreement.",
+   "D": "Rule 7.1 is not limited to designated deposit accounts.",
+   "E": "Telling the client afterwards is not a written agreement made with informed consent under rule 7.2."
+  },
+  "key_rule": "A firm must account for a fair sum of interest on client money it holds, unless it agrees a different arrangement in writing with the client's informed consent.",
+  "authority": "SRA Accounts Rules, rules 7.1 and 7.2",
+  "verified_source_url": "https://www.sra.org.uk/solicitors/standards-regulations/accounts-rules/",
+  "tags": [
+   "interest",
+   "client account",
+   "sra accounts rules"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Interest: requirement to pay interest on client money",
+   "context_subject": "Wills",
+   "source_type": "regulator-rules",
+   "source_quote": "You account to clients or third parties for a fair sum of interest on any client money held by you on their behalf.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-sa-002",
+  "subject": "Solicitors Accounts",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Paying out more than is held for an estate client and replacing the shortfall (rules 5.3 and 6.1)",
+  "scenario": "Bryn & Adeyemi Solicitors acts for the executors of the late Mr Lindqvist. The client ledger for the estate shows £2,000 held in client account. At the fee earner's request, the cashier pays £3,500 from the general client account to settle an estate liability, because the fee earner expects £20,000 from the deceased's bank to arrive next week. The payment has been made. The firm's COFA discovers it the same day.",
+  "stem": "Which of the following best describes what the firm must now do?",
+  "options": {
+   "A": "Nothing until next week, because the estate funds will arrive and clear the overdrawn balance.",
+   "B": "Ask the executors to send £1,500 and make no entries until it arrives.",
+   "C": "Note the matter for the next accountant's report, which will deal with any breach.",
+   "D": "Immediately transfer £1,500 of the firm's own money from business account into client account to replace the shortfall.",
+   "E": "Transfer £3,500 from business account to client account and ask the creditor to return the payment."
+  },
+  "answer": "D",
+  "explanation": "Rule 5.3 of the SRA Accounts Rules permits a withdrawal of client money only if sufficient funds are held on behalf of that specific client to make the payment. Only £2,000 was held for the estate, so paying £3,500 used £1,500 belonging to other clients, which breaches rule 5.3. Rule 6.1 requires breaches to be corrected promptly on discovery, and 'any money improperly withheld or withdrawn from a client account must be immediately paid into the account or replaced as appropriate'. The firm must therefore transfer £1,500 of its own money from business account to client account at once, so that other clients' money is restored. Expected receipts do not excuse the breach. The firm should also consider whether the breach must be reported to the SRA under its regulatory reporting duties.",
+  "why_wrong": {
+   "A": "Rule 6.1 requires immediate replacement; waiting for expected estate funds leaves other clients' money used for this client.",
+   "B": "The firm must replace the shortfall immediately from its own money and record the transactions contemporaneously (rule 8.1); it cannot wait for the client.",
+   "C": "The accountant's report does not correct a breach; rule 6.1 requires prompt correction on discovery.",
+   "E": "Only the £1,500 shortfall needs replacing; the £2,000 held for the estate was properly used, and the liability was a genuine estate debt."
+  },
+  "key_rule": "Client money may be withdrawn only if enough is held for that client; any shortfall caused by a withdrawal must be replaced immediately from the firm's own money.",
+  "authority": "SRA Accounts Rules, rules 5.3, 6.1 and 8.1",
+  "verified_source_url": "https://www.sra.org.uk/solicitors/standards-regulations/accounts-rules/",
+  "tags": [
+   "breach",
+   "client account",
+   "sra accounts rules"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Breach of the SRA Accounts Rules: duty to correct breaches of SRA Accounts Rules promptly on discovery",
+   "context_subject": "Wills",
+   "source_type": "regulator-rules",
+   "source_quote": "You only withdraw client money from a client account if sufficient funds are held on behalf of that specific client or third party to make the payment.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "The reporting duty mentioned at the end of the explanation (SRA Code of Conduct for Firms) was not fetched; it is not needed for the answer."
+  }
+ },
+ {
+  "id": "lib-sa-003",
+  "subject": "Solicitors Accounts",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Residual balance of £500 or less after an estate is distributed: payment to charity",
+  "scenario": "Seven years ago Garside Mehta LLP finished administering an estate and accounted to all the beneficiaries. A tax refund of £120 later arrived for one residuary beneficiary, Mr Ferreira, and was paid into client account. The firm has written to his last known addresses, emailed and telephoned him, and searched online, without success. The ledger still shows £120 held for him. The firm spent £60 on a tracing search.",
+  "stem": "Which of the following best describes what the firm may do with the £120?",
+  "options": {
+   "A": "Pay the full £120 to a charity of its choice without SRA authorisation, keeping records of the tracing steps and a central register, provided it has taken reasonable steps to return the money.",
+   "B": "Transfer the £120 to its business account, because client money unclaimed for more than six years belongs to the firm.",
+   "C": "Deduct the £60 tracing cost, transfer that to business account and pay the remaining £60 to a charity.",
+   "D": "Keep the money in client account indefinitely, because any withdrawal of a residual balance needs the SRA's prior written authorisation.",
+   "E": "Pay the £120 to the Treasury Solicitor as bona vacantia."
+  },
+  "answer": "A",
+  "explanation": "Rule 5.1(c) of the SRA Accounts Rules allows client money to be withdrawn on the SRA's prior written authorisation 'or in prescribed circumstances'. The SRA's mandatory statement of prescribed circumstances permits a firm to withdraw a residual client balance of £500 or less on any one client matter without authorisation, provided the balance is paid to a charity of the firm's choice and the firm has taken reasonable steps to return the money to its rightful owner. The firm must record the steps taken and keep those records for at least six years, and keep a central register and the charity's receipt and indemnity. The statement also provides that the firm must not deduct from the residual balance any costs incurred in trying to trace the owner. The £120 is below the threshold and the firm's efforts appear reasonable for a small, old balance, so it may pay the full £120 to charity.",
+  "why_wrong": {
+   "B": "Client money never becomes the firm's money through the passage of time; that would breach rules 4.1 and 5.1.",
+   "C": "The prescribed circumstances forbid deducting tracing costs from the residual balance.",
+   "D": "SRA authorisation is needed only for balances over £500; for £500 or less the prescribed circumstances apply.",
+   "E": "Payment to the Treasury Solicitor applies to money of a dissolved company client; Mr Ferreira is an individual beneficiary."
+  },
+  "key_rule": "A residual client balance of £500 or less may be paid to a charity of the firm's choice without SRA authorisation if reasonable tracing steps are taken and recorded, with no deduction for tracing costs.",
+  "authority": "SRA Accounts Rules, rules 2.5 and 5.1(c); SRA statement 'The prescribed circumstances in which you can withdraw client money from client account to pay to a charity of your choice'",
+  "verified_source_url": "https://www.sra.org.uk/solicitors/standards-regulations/withdraw-client-money/",
+  "tags": [
+   "residual balances",
+   "withdrawals",
+   "sra accounts rules"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Client account: withdrawals and accounting entries required",
+   "context_subject": "Wills",
+   "source_type": "regulator-rules",
+   "source_quote": "You may withdraw residual client balances of £500 or less on any one client matter from a client account provided: the balance is paid to a charity of your choice",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "The bona vacantia point for dissolved companies is in the SRA guidance 'Granting authority to withdraw residual client balances' (seen in a search result, not fetched in full)."
+  }
+ },
+ {
+  "id": "lib-sa-004",
+  "subject": "Solicitors Accounts",
+  "flk": "FLK2",
+  "difficulty": "hard",
+  "title": "Estate money in a joint account with a lay executor: which Accounts Rules apply (rules 9 and 12)",
+  "scenario": "Sterling Acheampong LLP acts for Raj, the sole executor of his late aunt's estate. With Raj's agreement, £60,000 of estate money is placed in a deposit account opened in the joint names of the firm and Raj. Both must sign any withdrawal. The firm also holds other client money in its general client account. The firm's cashier asks which requirements of the SRA Accounts Rules apply to the joint account.",
+  "stem": "Which of the following best describes the firm's obligations in relation to the joint account?",
+  "options": {
+   "A": "The money is client money, so the firm must pay it promptly into its own client account rather than a joint account.",
+   "B": "All of Part 2 of the Rules applies to the joint account, exactly as for money in the firm's client account.",
+   "C": "The firm must obtain statements and reconcile the joint account at least every five weeks, as it would for a client's own account it operates as signatory.",
+   "D": "No requirements of the Rules apply, because money in a joint account is not held by the firm.",
+   "E": "Part 2 does not apply except that the firm must obtain statements at least every five weeks and keep its record of bills, and the account is relevant to its accountant's report obligation."
+  },
+  "answer": "E",
+  "explanation": "Rule 9.1 of the SRA Accounts Rules provides that if, when acting in a client's matter, the firm holds or receives money jointly with the client or a third party, Part 2 of the Rules does not apply except rule 8.2 (obtaining statements from banks and other financial institutions at least every five weeks) and rule 8.4 (keeping a central record of bills and other written notifications of costs). The joint account with Raj falls within rule 9, so the general client account duties, such as paying money promptly into a client account and the five-weekly three-way reconciliation, do not apply to it. However, rule 12.1 requires an accountant's report for any accounting period in which the firm has operated a joint account, and the balance of joint accounts counts toward the exemption thresholds in rule 12.3. This contrasts with rule 10, under which a firm operating a client's own account as signatory must also reconcile under rule 8.3.",
+  "why_wrong": {
+   "A": "Rule 9 recognises that money may properly be held jointly with the client, and disapplies the client account requirements of Part 2.",
+   "B": "Rule 9.1 expressly disapplies Part 2 save for rules 8.2 and 8.4.",
+   "C": "Five-weekly reconciliation under rule 8.3 is preserved for a client's own account operated as signatory (rule 10), not for joint accounts under rule 9.",
+   "D": "Rule 9.1 preserves rules 8.2 and 8.4, and rule 12.1 extends the accountant's report requirement to joint accounts."
+  },
+  "key_rule": "For money held jointly with a client or third party, Part 2 is disapplied except statements every five weeks (8.2) and the bills record (8.4); joint accounts still bring the firm within the accountant's report rule.",
+  "authority": "SRA Accounts Rules, rules 9.1, 10.1, 12.1 and 12.3",
+  "verified_source_url": "https://www.sra.org.uk/solicitors/standards-regulations/accounts-rules/",
+  "tags": [
+   "joint accounts",
+   "accounting records",
+   "sra accounts rules"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Operation of joint account; operation of a client's own account",
+   "context_subject": "Wills",
+   "source_type": "regulator-rules",
+   "source_quote": "If, when acting in a client's matter, you hold or receive money jointly with the client or a third party, Part 2 of these rules does not apply save for: rule 8.2",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Whether this particular arrangement is a 'joint account' within rule 9 is assumed from the facts (account in joint names of firm and client, both signing)."
+  }
+ },
+ {
+  "id": "lib-sa-005",
+  "subject": "Solicitors Accounts",
+  "flk": "FLK2",
+  "difficulty": "easy",
+  "title": "Deposit received as stakeholder on exchange is client money (rule 2.1(b))",
+  "scenario": "Hollis Nwosu LLP acts for Danuta on the sale of her house. Contracts are exchanged today. Under the contract, the buyer's solicitors send the 10% deposit of £45,000 to Hollis Nwosu LLP to hold 'as stakeholder' until completion. The firm's trainee asks how the money should be treated.",
+  "stem": "Which of the following best describes how the firm must treat the deposit?",
+  "options": {
+   "A": "As money belonging to the firm until completion, because it is held as stakeholder rather than for a client.",
+   "B": "As Danuta's money, which the firm may pay to her immediately on her instructions.",
+   "C": "As client money, which must be paid promptly into a client account and held there until it can properly be released.",
+   "D": "As money that may be held outside client account, because it belongs to neither party until completion.",
+   "E": "As money that must be paid into an account in the buyer's own name until completion."
+  },
+  "answer": "C",
+  "explanation": "Rule 2.1 of the SRA Accounts Rules defines client money to include money held or received by the firm 'on behalf of a third party in relation to regulated services delivered by you (such as money held as agent, stakeholder or held to the sender's order)'. A deposit received on exchange to be held as stakeholder is therefore client money. Under rule 2.3 the firm must ensure it is paid promptly into a client account, and rule 4.1 requires it to be kept separate from the firm's own money. As stakeholder, the firm holds the deposit for both parties and may release it only when the contract allows, usually to the seller on completion. It cannot simply pay it to Danuta on her instructions before then, because it is not held solely for her.",
+  "why_wrong": {
+   "A": "Stakeholder money is expressly client money under rule 2.1(b); it never belongs to the firm.",
+   "B": "A stakeholder holds for both parties and must not release the deposit to the seller before the contract entitles her to it.",
+   "D": "Rule 2.3 requires client money, including stakeholder money, to be paid promptly into a client account; none of the exceptions applies.",
+   "E": "The Rules require client money to be held in the firm's client account; there is no requirement to use an account in the buyer's name."
+  },
+  "key_rule": "Money held as stakeholder is client money under rule 2.1(b) and must be paid promptly into client account.",
+  "authority": "SRA Accounts Rules, rules 2.1(b), 2.3 and 4.1",
+  "verified_source_url": "https://www.sra.org.uk/solicitors/standards-regulations/accounts-rules/",
+  "tags": [
+   "client money",
+   "stakeholder",
+   "conveyancing"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Client money: definition; requirement to pay client money into a client account",
+   "context_subject": "Property",
+   "source_type": "regulator-rules",
+   "source_quote": "on behalf of a third party in relation to regulated services delivered by you (such as money held as agent, stakeholder or held to the sender's order);",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-sa-006",
+  "subject": "Solicitors Accounts",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Mixed payment from a buyer client covering completion money and a delivered bill (rule 4.2)",
+  "scenario": "Fenwick Rahman Solicitors acts for Jerome on his purchase of a flat. The firm has already delivered a bill of costs to Jerome for £1,200 including VAT, which is unpaid. Two days before completion Jerome sends a single bank transfer of £61,200 to the firm's general client account: £60,000 is the balance of the purchase money needed for completion, and £1,200 is to pay the bill.",
+  "stem": "Which of the following best describes how the firm should deal with the £61,200?",
+  "options": {
+   "A": "Keep the £60,000 in client account for completion and promptly transfer the £1,200 to business account.",
+   "B": "Keep the whole £61,200 in client account until completion, then transfer the £1,200 to business account.",
+   "C": "Transfer the whole £61,200 to business account, because part of the payment is for the firm's costs.",
+   "D": "Return the payment and ask Jerome to send two separate payments, because a mixed payment cannot be accepted.",
+   "E": "Transfer the £1,200 only after sending Jerome a further bill, because money received for costs must always be billed after receipt."
+  },
+  "answer": "A",
+  "explanation": "The SRA Glossary defines a mixed payment as a payment that includes both client money and non-client money. The £60,000 for completion is client money. Because the bill for £1,200 has already been delivered, money received to pay it is the firm's own money, not client money (rule 2.1(d) treats money for fees as client money only if received before delivery of a bill). Rule 4.1 requires client money to be kept separate from the firm's money, and rule 4.2 requires the firm to 'allocate promptly any funds from mixed payments you receive to the correct client account or business account'. The payment has properly been received into client account, so the firm should keep the £60,000 there and promptly transfer the £1,200 to business account. Leaving the firm's money in client account until completion would not be prompt allocation, and moving the completion money to business account would breach rules 2.3 and 4.1.",
+  "why_wrong": {
+   "B": "Rule 4.2 requires prompt allocation; holding the firm's own money in client account until completion mixes it with client money.",
+   "C": "The £60,000 is client money and must be kept in client account (rules 2.3 and 4.1).",
+   "D": "The Rules expressly contemplate mixed payments and require prompt allocation, not refusal.",
+   "E": "Rule 4.3 requires a bill before client money is used for costs; the bill has already been delivered, so no further bill is required."
+  },
+  "key_rule": "A mixed payment must be allocated promptly, with client money kept in client account and the firm's money (e.g. for a delivered bill) moved to business account.",
+  "authority": "SRA Accounts Rules, rules 2.1(d), 2.3, 4.1, 4.2 and 4.3; SRA Glossary ('mixed payments')",
+  "verified_source_url": "https://www.sra.org.uk/solicitors/standards-regulations/accounts-rules/",
+  "tags": [
+   "mixed payments",
+   "client account",
+   "costs"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Requirement to keep client money separate from money belonging to the authorised body",
+   "context_subject": "Property",
+   "source_type": "regulator-rules",
+   "source_quote": "You ensure that you allocate promptly any funds from mixed payments you receive to the correct client account or business account.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-sa-007",
+  "subject": "Solicitors Accounts",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Accountant's report exemption: both the average and maximum balance limits must be met (rule 12.2)",
+  "scenario": "Calder Osei, a small residential conveyancing firm, has an accounting period running from 1 May 2025 to 30 April 2026. It holds client money and reconciles its client accounts monthly. The average of its twelve reconciliation balances is £8,400. The highest reconciliation balance, at the end of a month in which several completions were pending, is £265,000. No client money came from the Legal Aid Agency. The firm's COFA believes the firm does not need an accountant's report for the period.",
+  "stem": "Which of the following best describes the firm's obligation for that accounting period?",
+  "options": {
+   "A": "No report is needed, because the average balance is below £10,000.",
+   "B": "A report must be obtained and delivered to the SRA within six months of the end of the period, whatever its content.",
+   "C": "A report must be obtained within twelve months of the end of the period, but need not be delivered to the SRA.",
+   "D": "A report must be obtained within six months of the end of the period, and delivered to the SRA only if it is qualified to show that client money is, has been or is likely to be placed at risk.",
+   "E": "No report is needed, because the balance exceeded £250,000 for only part of one month."
+  },
+  "answer": "D",
+  "explanation": "Rule 12.1 of the SRA Accounts Rules requires a firm that has held or received client money during an accounting period to obtain an accountant's report for that period within six months of its end. The report must be delivered to the SRA within that time only if it is qualified to show a failure to comply such that client money is, has been or is likely to be placed at risk. Rule 12.2(b) exempts a firm only if the statement balance of client money does not exceed both an average of £10,000 and a maximum of £250,000. SRA guidance explains that the average and maximum are taken from the reconciliation balances over the period. Calder Osei's average (£8,400) is within the limit, but its maximum reconciliation balance (£265,000) exceeds £250,000, so the exemption is not available. The firm must obtain a report by 31 October 2026 and deliver it only if it is qualified.",
+  "why_wrong": {
+   "A": "The exemption requires both the average and the maximum condition to be met; the maximum is exceeded.",
+   "B": "Only a qualified report (showing client money at risk) must be delivered to the SRA, unless the SRA requires otherwise.",
+   "C": "The report must be obtained within six months, not twelve, of the end of the accounting period.",
+   "E": "Rule 12.2 sets an absolute maximum; exceeding it at any reconciliation in the period removes the exemption, however briefly."
+  },
+  "key_rule": "An accountant's report is required within six months of the period end unless client balances stay within both an average of £10,000 and a maximum of £250,000; only qualified reports are delivered to the SRA.",
+  "authority": "SRA Accounts Rules, rules 12.1-12.3; SRA guidance 'Accountant's report and the exemption to obtain one'",
+  "verified_source_url": "https://www.sra.org.uk/solicitors/standards-regulations/accounts-rules/",
+  "tags": [
+   "accountants report",
+   "accounting records",
+   "sra accounts rules"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S2",
+   "spec_topic": "Obtaining and delivery of accountants' reports; storage and retention of accounting records",
+   "context_subject": "Property",
+   "source_type": "regulator-rules",
+   "source_quote": "in the accounting period , the statement or passbook balance of client money you have held or received does not exceed: an average of £10,000; and a maximum of £250,000",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "SRA guidance (https://www.sra.org.uk/solicitors/guidance/accountant-report-exemption-obtain-one/) states the average and maximum are calculated from reconciliation balances; scenario uses reconciliation balances to match."
+  }
+ }
+]

@@ -1,0 +1,3694 @@
+{
+ "items": [
+  {
+   "id": "q001",
+   "session": "FLK1-S1",
+   "group": "Business Law & Practice",
+   "difficulty": "medium",
+   "answer": "C",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q002",
+   "session": "FLK1-S1",
+   "group": "Dispute Resolution",
+   "difficulty": "medium",
+   "answer": "B",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q003",
+   "session": "FLK1-S2",
+   "group": "Contract",
+   "difficulty": "easy",
+   "answer": "D",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q004",
+   "session": "FLK1-S2",
+   "group": "Tort",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q005",
+   "session": "FLK1-S2",
+   "group": "Legal Systems",
+   "difficulty": "medium",
+   "answer": "E",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q006",
+   "session": "FLK2-S2",
+   "group": "Ethics & Professional Conduct",
+   "difficulty": "medium",
+   "answer": "B",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q007",
+   "session": "FLK2-S2",
+   "group": "Property Practice",
+   "difficulty": "medium",
+   "answer": "C",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q008",
+   "session": "FLK2-S1",
+   "group": "Wills & Administration of Estates",
+   "difficulty": "easy",
+   "answer": "A",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q009",
+   "session": "FLK2-S1",
+   "group": "Wills & Administration of Estates",
+   "difficulty": "hard",
+   "answer": "D",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q010",
+   "session": "FLK2-S2",
+   "group": "Accounts (Property)",
+   "difficulty": "medium",
+   "answer": "E",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q011",
+   "session": "FLK2-S1",
+   "group": "Land Law",
+   "difficulty": "medium",
+   "answer": "B",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q012",
+   "session": "FLK2-S1",
+   "group": "Trusts",
+   "difficulty": "hard",
+   "answer": "C",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q013",
+   "session": "FLK2-S2",
+   "group": "Criminal Law",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q014",
+   "session": "FLK2-S2",
+   "group": "Criminal Practice",
+   "difficulty": "medium",
+   "answer": "D",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q015",
+   "session": "FLK1-S1",
+   "group": "Business Law & Practice",
+   "difficulty": "medium",
+   "answer": "B",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q016",
+   "session": "FLK1-S1",
+   "group": "Dispute Resolution",
+   "difficulty": "medium",
+   "answer": "E",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q017",
+   "session": "FLK1-S2",
+   "group": "Contract",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q018",
+   "session": "FLK1-S2",
+   "group": "Tort",
+   "difficulty": "hard",
+   "answer": "C",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q019",
+   "session": "FLK1-S2",
+   "group": "Legal Systems",
+   "difficulty": "medium",
+   "answer": "D",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q020",
+   "session": "FLK1-S2",
+   "group": "Legal Systems",
+   "difficulty": "easy",
+   "answer": "B",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q021",
+   "session": "FLK1-S1",
+   "group": "Ethics & Professional Conduct",
+   "difficulty": "medium",
+   "answer": "E",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q022",
+   "session": "FLK2-S2",
+   "group": "Property Practice",
+   "difficulty": "medium",
+   "answer": "C",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q023",
+   "session": "FLK2-S1",
+   "group": "Wills & Administration of Estates",
+   "difficulty": "medium",
+   "answer": "E",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q024",
+   "session": "FLK2-S2",
+   "group": "Accounts (Property)",
+   "difficulty": "easy",
+   "answer": "A",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q025",
+   "session": "FLK2-S1",
+   "group": "Land Law",
+   "difficulty": "hard",
+   "answer": "D",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q026",
+   "session": "FLK2-S1",
+   "group": "Trusts",
+   "difficulty": "medium",
+   "answer": "B",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q027",
+   "session": "FLK2-S2",
+   "group": "Criminal Law",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q028",
+   "session": "FLK2-S2",
+   "group": "Criminal Practice",
+   "difficulty": "medium",
+   "answer": "E",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q029",
+   "session": "FLK1-S1",
+   "group": "Business Law & Practice",
+   "difficulty": "medium",
+   "answer": "D",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q030",
+   "session": "FLK1-S1",
+   "group": "Dispute Resolution",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q031",
+   "session": "FLK1-S2",
+   "group": "Contract",
+   "difficulty": "medium",
+   "answer": "C",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q032",
+   "session": "FLK1-S2",
+   "group": "Tort",
+   "difficulty": "medium",
+   "answer": "E",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q033",
+   "session": "FLK1-S2",
+   "group": "Legal Systems",
+   "difficulty": "medium",
+   "answer": "B",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q034",
+   "session": "FLK1-S2",
+   "group": "Legal Systems",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q035",
+   "session": "FLK2-S2",
+   "group": "Ethics & Professional Conduct",
+   "difficulty": "easy",
+   "answer": "D",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q036",
+   "session": "FLK2-S2",
+   "group": "Property Practice",
+   "difficulty": "medium",
+   "answer": "E",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q037",
+   "session": "FLK2-S1",
+   "group": "Wills & Administration of Estates",
+   "difficulty": "easy",
+   "answer": "B",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q038",
+   "session": "FLK2-S1",
+   "group": "Accounts (Wills)",
+   "difficulty": "easy",
+   "answer": "C",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q039",
+   "session": "FLK2-S1",
+   "group": "Land Law",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q040",
+   "session": "FLK2-S1",
+   "group": "Trusts",
+   "difficulty": "medium",
+   "answer": "D",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q041",
+   "session": "FLK2-S2",
+   "group": "Criminal Law",
+   "difficulty": "easy",
+   "answer": "B",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q042",
+   "session": "FLK2-S2",
+   "group": "Criminal Practice",
+   "difficulty": "medium",
+   "answer": "E",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q043",
+   "session": "FLK1-S1",
+   "group": "Business Law & Practice",
+   "difficulty": "medium",
+   "answer": "C",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q044",
+   "session": "FLK1-S1",
+   "group": "Dispute Resolution",
+   "difficulty": "medium",
+   "answer": "E",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q045",
+   "session": "FLK1-S2",
+   "group": "Contract",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q046",
+   "session": "FLK1-S2",
+   "group": "Tort",
+   "difficulty": "medium",
+   "answer": "B",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q047",
+   "session": "FLK1-S1",
+   "group": "Legal Services",
+   "difficulty": "easy",
+   "answer": "D",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q048",
+   "session": "FLK1-S2",
+   "group": "Legal Systems",
+   "difficulty": "medium",
+   "answer": "C",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "q049",
+   "session": "FLK2-S1",
+   "group": "Ethics & Professional Conduct",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": true
+  },
+  {
+   "id": "lib-blp-001",
+   "session": "FLK1-S1",
+   "group": "Business Law & Practice",
+   "difficulty": "easy",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-blp-002",
+   "session": "FLK1-S1",
+   "group": "Business Law & Practice",
+   "difficulty": "medium",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-blp-003",
+   "session": "FLK1-S1",
+   "group": "Business Law & Practice",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-blp-004",
+   "session": "FLK1-S1",
+   "group": "Business Law & Practice",
+   "difficulty": "medium",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-blp-005",
+   "session": "FLK1-S1",
+   "group": "Business Law & Practice",
+   "difficulty": "hard",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-blp-006",
+   "session": "FLK1-S1",
+   "group": "Business Law & Practice",
+   "difficulty": "easy",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-blp-007",
+   "session": "FLK1-S1",
+   "group": "Business Law & Practice",
+   "difficulty": "medium",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-blp-008",
+   "session": "FLK1-S1",
+   "group": "Business Law & Practice",
+   "difficulty": "hard",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-blp-009",
+   "session": "FLK1-S1",
+   "group": "Business Law & Practice",
+   "difficulty": "hard",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-blp-010",
+   "session": "FLK1-S1",
+   "group": "Business Law & Practice",
+   "difficulty": "medium",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-blp-011",
+   "session": "FLK1-S1",
+   "group": "Business Law & Practice",
+   "difficulty": "easy",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-blp-012",
+   "session": "FLK1-S1",
+   "group": "Business Law & Practice",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-blp-013",
+   "session": "FLK1-S1",
+   "group": "Business Law & Practice",
+   "difficulty": "easy",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-blp-014",
+   "session": "FLK1-S1",
+   "group": "Business Law & Practice",
+   "difficulty": "medium",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-blp-015",
+   "session": "FLK1-S1",
+   "group": "Business Law & Practice",
+   "difficulty": "medium",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-blp-016",
+   "session": "FLK1-S1",
+   "group": "Business Law & Practice",
+   "difficulty": "hard",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-blp-017",
+   "session": "FLK1-S1",
+   "group": "Business Law & Practice",
+   "difficulty": "medium",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-blp-018",
+   "session": "FLK1-S1",
+   "group": "Business Law & Practice",
+   "difficulty": "easy",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-blp-019",
+   "session": "FLK1-S1",
+   "group": "Business Law & Practice",
+   "difficulty": "medium",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-blp-020",
+   "session": "FLK1-S1",
+   "group": "Business Law & Practice",
+   "difficulty": "medium",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-blp-021",
+   "session": "FLK1-S1",
+   "group": "Business Law & Practice",
+   "difficulty": "medium",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-blp-022",
+   "session": "FLK1-S1",
+   "group": "Business Law & Practice",
+   "difficulty": "hard",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-blp-023",
+   "session": "FLK1-S1",
+   "group": "Business Law & Practice",
+   "difficulty": "hard",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-blp-024",
+   "session": "FLK1-S1",
+   "group": "Business Law & Practice",
+   "difficulty": "medium",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-blp-025",
+   "session": "FLK1-S1",
+   "group": "Business Law & Practice",
+   "difficulty": "easy",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-blp-026",
+   "session": "FLK1-S1",
+   "group": "Business Law & Practice",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-con-001",
+   "session": "FLK1-S2",
+   "group": "Contract",
+   "difficulty": "easy",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-con-002",
+   "session": "FLK1-S2",
+   "group": "Contract",
+   "difficulty": "medium",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-con-003",
+   "session": "FLK1-S2",
+   "group": "Contract",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-con-004",
+   "session": "FLK1-S2",
+   "group": "Contract",
+   "difficulty": "medium",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-con-005",
+   "session": "FLK1-S2",
+   "group": "Contract",
+   "difficulty": "easy",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-con-006",
+   "session": "FLK1-S2",
+   "group": "Contract",
+   "difficulty": "easy",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-con-007",
+   "session": "FLK1-S2",
+   "group": "Contract",
+   "difficulty": "medium",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-con-008",
+   "session": "FLK1-S2",
+   "group": "Contract",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-con-009",
+   "session": "FLK1-S2",
+   "group": "Contract",
+   "difficulty": "medium",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-con-010",
+   "session": "FLK1-S2",
+   "group": "Contract",
+   "difficulty": "hard",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-con-011",
+   "session": "FLK1-S2",
+   "group": "Contract",
+   "difficulty": "medium",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-con-012",
+   "session": "FLK1-S2",
+   "group": "Contract",
+   "difficulty": "medium",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-con-013",
+   "session": "FLK1-S2",
+   "group": "Contract",
+   "difficulty": "easy",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-con-014",
+   "session": "FLK1-S2",
+   "group": "Contract",
+   "difficulty": "medium",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-con-015",
+   "session": "FLK1-S2",
+   "group": "Contract",
+   "difficulty": "hard",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-con-016",
+   "session": "FLK1-S2",
+   "group": "Contract",
+   "difficulty": "easy",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-con-017",
+   "session": "FLK1-S2",
+   "group": "Contract",
+   "difficulty": "hard",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-con-018",
+   "session": "FLK1-S2",
+   "group": "Contract",
+   "difficulty": "hard",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-con-019",
+   "session": "FLK1-S2",
+   "group": "Contract",
+   "difficulty": "medium",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-con-020",
+   "session": "FLK1-S2",
+   "group": "Contract",
+   "difficulty": "hard",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-con-021",
+   "session": "FLK1-S2",
+   "group": "Contract",
+   "difficulty": "medium",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-con-022",
+   "session": "FLK1-S2",
+   "group": "Contract",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-con-023",
+   "session": "FLK1-S2",
+   "group": "Contract",
+   "difficulty": "medium",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-con-024",
+   "session": "FLK1-S2",
+   "group": "Contract",
+   "difficulty": "easy",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-con-025",
+   "session": "FLK1-S2",
+   "group": "Contract",
+   "difficulty": "medium",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crl-001",
+   "session": "FLK2-S2",
+   "group": "Criminal Law",
+   "difficulty": "medium",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crl-002",
+   "session": "FLK2-S2",
+   "group": "Criminal Law",
+   "difficulty": "easy",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crl-003",
+   "session": "FLK2-S2",
+   "group": "Criminal Law",
+   "difficulty": "easy",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crl-004",
+   "session": "FLK2-S2",
+   "group": "Criminal Law",
+   "difficulty": "medium",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crl-005",
+   "session": "FLK2-S2",
+   "group": "Criminal Law",
+   "difficulty": "medium",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crl-006",
+   "session": "FLK2-S2",
+   "group": "Criminal Law",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crl-007",
+   "session": "FLK2-S2",
+   "group": "Criminal Law",
+   "difficulty": "medium",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crl-008",
+   "session": "FLK2-S2",
+   "group": "Criminal Law",
+   "difficulty": "easy",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crl-009",
+   "session": "FLK2-S2",
+   "group": "Criminal Law",
+   "difficulty": "hard",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crl-010",
+   "session": "FLK2-S2",
+   "group": "Criminal Law",
+   "difficulty": "easy",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crl-011",
+   "session": "FLK2-S2",
+   "group": "Criminal Law",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crl-012",
+   "session": "FLK2-S2",
+   "group": "Criminal Law",
+   "difficulty": "medium",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crl-013",
+   "session": "FLK2-S2",
+   "group": "Criminal Law",
+   "difficulty": "hard",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crl-014",
+   "session": "FLK2-S2",
+   "group": "Criminal Law",
+   "difficulty": "medium",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crl-015",
+   "session": "FLK2-S2",
+   "group": "Criminal Law",
+   "difficulty": "hard",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crl-016",
+   "session": "FLK2-S2",
+   "group": "Criminal Law",
+   "difficulty": "medium",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crl-017",
+   "session": "FLK2-S2",
+   "group": "Criminal Law",
+   "difficulty": "easy",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crl-018",
+   "session": "FLK2-S2",
+   "group": "Criminal Law",
+   "difficulty": "medium",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crl-019",
+   "session": "FLK2-S2",
+   "group": "Criminal Law",
+   "difficulty": "medium",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crl-020",
+   "session": "FLK2-S2",
+   "group": "Criminal Law",
+   "difficulty": "easy",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crl-021",
+   "session": "FLK2-S2",
+   "group": "Criminal Law",
+   "difficulty": "medium",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crl-022",
+   "session": "FLK2-S2",
+   "group": "Criminal Law",
+   "difficulty": "hard",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crl-023",
+   "session": "FLK2-S2",
+   "group": "Criminal Law",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crl-024",
+   "session": "FLK2-S2",
+   "group": "Criminal Law",
+   "difficulty": "medium",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crl-025",
+   "session": "FLK2-S2",
+   "group": "Criminal Law",
+   "difficulty": "hard",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crp-001",
+   "session": "FLK2-S2",
+   "group": "Criminal Practice",
+   "difficulty": "easy",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crp-002",
+   "session": "FLK2-S2",
+   "group": "Criminal Practice",
+   "difficulty": "medium",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crp-003",
+   "session": "FLK2-S2",
+   "group": "Criminal Practice",
+   "difficulty": "medium",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crp-004",
+   "session": "FLK2-S2",
+   "group": "Criminal Practice",
+   "difficulty": "medium",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crp-005",
+   "session": "FLK2-S2",
+   "group": "Criminal Practice",
+   "difficulty": "easy",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crp-006",
+   "session": "FLK2-S2",
+   "group": "Criminal Practice",
+   "difficulty": "hard",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crp-007",
+   "session": "FLK2-S2",
+   "group": "Criminal Practice",
+   "difficulty": "medium",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crp-008",
+   "session": "FLK2-S2",
+   "group": "Criminal Practice",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crp-009",
+   "session": "FLK2-S2",
+   "group": "Criminal Practice",
+   "difficulty": "hard",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crp-010",
+   "session": "FLK2-S2",
+   "group": "Criminal Practice",
+   "difficulty": "easy",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crp-011",
+   "session": "FLK2-S2",
+   "group": "Criminal Practice",
+   "difficulty": "hard",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crp-012",
+   "session": "FLK2-S2",
+   "group": "Criminal Practice",
+   "difficulty": "medium",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crp-013",
+   "session": "FLK2-S2",
+   "group": "Criminal Practice",
+   "difficulty": "easy",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crp-014",
+   "session": "FLK2-S2",
+   "group": "Criminal Practice",
+   "difficulty": "medium",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crp-015",
+   "session": "FLK2-S2",
+   "group": "Criminal Practice",
+   "difficulty": "easy",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crp-016",
+   "session": "FLK2-S2",
+   "group": "Criminal Practice",
+   "difficulty": "medium",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crp-017",
+   "session": "FLK2-S2",
+   "group": "Criminal Practice",
+   "difficulty": "medium",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crp-018",
+   "session": "FLK2-S2",
+   "group": "Criminal Practice",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crp-019",
+   "session": "FLK2-S2",
+   "group": "Criminal Practice",
+   "difficulty": "medium",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crp-020",
+   "session": "FLK2-S2",
+   "group": "Criminal Practice",
+   "difficulty": "hard",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crp-021",
+   "session": "FLK2-S2",
+   "group": "Criminal Practice",
+   "difficulty": "medium",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crp-022",
+   "session": "FLK2-S2",
+   "group": "Criminal Practice",
+   "difficulty": "hard",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crp-023",
+   "session": "FLK2-S2",
+   "group": "Criminal Practice",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crp-024",
+   "session": "FLK2-S2",
+   "group": "Criminal Practice",
+   "difficulty": "medium",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-crp-025",
+   "session": "FLK2-S2",
+   "group": "Criminal Practice",
+   "difficulty": "easy",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-dr-001",
+   "session": "FLK1-S1",
+   "group": "Dispute Resolution",
+   "difficulty": "medium",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-dr-002",
+   "session": "FLK1-S1",
+   "group": "Dispute Resolution",
+   "difficulty": "medium",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-dr-003",
+   "session": "FLK1-S1",
+   "group": "Dispute Resolution",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-dr-004",
+   "session": "FLK1-S1",
+   "group": "Dispute Resolution",
+   "difficulty": "easy",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-dr-005",
+   "session": "FLK1-S1",
+   "group": "Dispute Resolution",
+   "difficulty": "hard",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-dr-006",
+   "session": "FLK1-S1",
+   "group": "Dispute Resolution",
+   "difficulty": "hard",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-dr-007",
+   "session": "FLK1-S1",
+   "group": "Dispute Resolution",
+   "difficulty": "easy",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-dr-008",
+   "session": "FLK1-S1",
+   "group": "Dispute Resolution",
+   "difficulty": "medium",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-dr-009",
+   "session": "FLK1-S1",
+   "group": "Dispute Resolution",
+   "difficulty": "medium",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-dr-010",
+   "session": "FLK1-S1",
+   "group": "Dispute Resolution",
+   "difficulty": "medium",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-dr-011",
+   "session": "FLK1-S1",
+   "group": "Dispute Resolution",
+   "difficulty": "medium",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-dr-012",
+   "session": "FLK1-S1",
+   "group": "Dispute Resolution",
+   "difficulty": "easy",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-dr-013",
+   "session": "FLK1-S1",
+   "group": "Dispute Resolution",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-dr-014",
+   "session": "FLK1-S1",
+   "group": "Dispute Resolution",
+   "difficulty": "easy",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-dr-015",
+   "session": "FLK1-S1",
+   "group": "Dispute Resolution",
+   "difficulty": "medium",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-dr-016",
+   "session": "FLK1-S1",
+   "group": "Dispute Resolution",
+   "difficulty": "medium",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-dr-017",
+   "session": "FLK1-S1",
+   "group": "Dispute Resolution",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-dr-018",
+   "session": "FLK1-S1",
+   "group": "Dispute Resolution",
+   "difficulty": "medium",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-dr-019",
+   "session": "FLK1-S1",
+   "group": "Dispute Resolution",
+   "difficulty": "hard",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-dr-020",
+   "session": "FLK1-S1",
+   "group": "Dispute Resolution",
+   "difficulty": "hard",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-dr-021",
+   "session": "FLK1-S1",
+   "group": "Dispute Resolution",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-dr-022",
+   "session": "FLK1-S1",
+   "group": "Dispute Resolution",
+   "difficulty": "easy",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-dr-023",
+   "session": "FLK1-S1",
+   "group": "Dispute Resolution",
+   "difficulty": "easy",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-dr-024",
+   "session": "FLK1-S1",
+   "group": "Dispute Resolution",
+   "difficulty": "hard",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-dr-025",
+   "session": "FLK1-S1",
+   "group": "Dispute Resolution",
+   "difficulty": "medium",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-dr-026",
+   "session": "FLK1-S1",
+   "group": "Dispute Resolution",
+   "difficulty": "medium",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-eth-001",
+   "session": "FLK1-S1",
+   "group": "Ethics & Professional Conduct",
+   "difficulty": "medium",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-eth-002",
+   "session": "FLK1-S1",
+   "group": "Ethics & Professional Conduct",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-eth-003",
+   "session": "FLK1-S1",
+   "group": "Ethics & Professional Conduct",
+   "difficulty": "easy",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-eth-004",
+   "session": "FLK1-S1",
+   "group": "Ethics & Professional Conduct",
+   "difficulty": "medium",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-eth-005",
+   "session": "FLK1-S1",
+   "group": "Ethics & Professional Conduct",
+   "difficulty": "easy",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-eth-006",
+   "session": "FLK1-S1",
+   "group": "Ethics & Professional Conduct",
+   "difficulty": "medium",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-eth-007",
+   "session": "FLK1-S2",
+   "group": "Ethics & Professional Conduct",
+   "difficulty": "easy",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-eth-008",
+   "session": "FLK1-S2",
+   "group": "Ethics & Professional Conduct",
+   "difficulty": "medium",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-eth-009",
+   "session": "FLK1-S2",
+   "group": "Ethics & Professional Conduct",
+   "difficulty": "medium",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-eth-010",
+   "session": "FLK1-S2",
+   "group": "Ethics & Professional Conduct",
+   "difficulty": "medium",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-eth-011",
+   "session": "FLK1-S2",
+   "group": "Ethics & Professional Conduct",
+   "difficulty": "medium",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-eth-012",
+   "session": "FLK1-S2",
+   "group": "Ethics & Professional Conduct",
+   "difficulty": "hard",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-eth-013",
+   "session": "FLK2-S1",
+   "group": "Ethics & Professional Conduct",
+   "difficulty": "medium",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-eth-014",
+   "session": "FLK2-S1",
+   "group": "Ethics & Professional Conduct",
+   "difficulty": "hard",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-eth-015",
+   "session": "FLK2-S1",
+   "group": "Ethics & Professional Conduct",
+   "difficulty": "easy",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-eth-016",
+   "session": "FLK2-S1",
+   "group": "Ethics & Professional Conduct",
+   "difficulty": "medium",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-eth-017",
+   "session": "FLK2-S1",
+   "group": "Ethics & Professional Conduct",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-eth-018",
+   "session": "FLK2-S1",
+   "group": "Ethics & Professional Conduct",
+   "difficulty": "hard",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-eth-019",
+   "session": "FLK2-S1",
+   "group": "Ethics & Professional Conduct",
+   "difficulty": "easy",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-eth-020",
+   "session": "FLK2-S2",
+   "group": "Ethics & Professional Conduct",
+   "difficulty": "medium",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-eth-021",
+   "session": "FLK2-S2",
+   "group": "Ethics & Professional Conduct",
+   "difficulty": "hard",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-eth-022",
+   "session": "FLK2-S2",
+   "group": "Ethics & Professional Conduct",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-eth-023",
+   "session": "FLK2-S2",
+   "group": "Ethics & Professional Conduct",
+   "difficulty": "hard",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-eth-024",
+   "session": "FLK2-S2",
+   "group": "Ethics & Professional Conduct",
+   "difficulty": "medium",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-eth-025",
+   "session": "FLK2-S2",
+   "group": "Ethics & Professional Conduct",
+   "difficulty": "medium",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-eth-026",
+   "session": "FLK2-S2",
+   "group": "Ethics & Professional Conduct",
+   "difficulty": "easy",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-lan-001",
+   "session": "FLK2-S1",
+   "group": "Land Law",
+   "difficulty": "easy",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-lan-002",
+   "session": "FLK2-S1",
+   "group": "Land Law",
+   "difficulty": "easy",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-lan-003",
+   "session": "FLK2-S1",
+   "group": "Land Law",
+   "difficulty": "medium",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-lan-004",
+   "session": "FLK2-S1",
+   "group": "Land Law",
+   "difficulty": "medium",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-lan-005",
+   "session": "FLK2-S1",
+   "group": "Land Law",
+   "difficulty": "medium",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-lan-006",
+   "session": "FLK2-S1",
+   "group": "Land Law",
+   "difficulty": "easy",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-lan-007",
+   "session": "FLK2-S1",
+   "group": "Land Law",
+   "difficulty": "hard",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-lan-008",
+   "session": "FLK2-S1",
+   "group": "Land Law",
+   "difficulty": "hard",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-lan-009",
+   "session": "FLK2-S1",
+   "group": "Land Law",
+   "difficulty": "medium",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-lan-010",
+   "session": "FLK2-S1",
+   "group": "Land Law",
+   "difficulty": "medium",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-lan-011",
+   "session": "FLK2-S1",
+   "group": "Land Law",
+   "difficulty": "hard",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-lan-012",
+   "session": "FLK2-S1",
+   "group": "Land Law",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-lan-013",
+   "session": "FLK2-S1",
+   "group": "Land Law",
+   "difficulty": "hard",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-lan-014",
+   "session": "FLK2-S1",
+   "group": "Land Law",
+   "difficulty": "easy",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-lan-015",
+   "session": "FLK2-S1",
+   "group": "Land Law",
+   "difficulty": "medium",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-lan-016",
+   "session": "FLK2-S1",
+   "group": "Land Law",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-lan-017",
+   "session": "FLK2-S1",
+   "group": "Land Law",
+   "difficulty": "easy",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-lan-018",
+   "session": "FLK2-S1",
+   "group": "Land Law",
+   "difficulty": "medium",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-lan-019",
+   "session": "FLK2-S1",
+   "group": "Land Law",
+   "difficulty": "hard",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-lan-020",
+   "session": "FLK2-S1",
+   "group": "Land Law",
+   "difficulty": "medium",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-lan-021",
+   "session": "FLK2-S1",
+   "group": "Land Law",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-lan-022",
+   "session": "FLK2-S1",
+   "group": "Land Law",
+   "difficulty": "medium",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-lan-023",
+   "session": "FLK2-S1",
+   "group": "Land Law",
+   "difficulty": "medium",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-lan-024",
+   "session": "FLK2-S1",
+   "group": "Land Law",
+   "difficulty": "medium",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-lan-025",
+   "session": "FLK2-S1",
+   "group": "Land Law",
+   "difficulty": "easy",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-ls-001",
+   "session": "FLK1-S1",
+   "group": "Legal Services",
+   "difficulty": "easy",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-ls-002",
+   "session": "FLK1-S1",
+   "group": "Legal Services",
+   "difficulty": "medium",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-ls-003",
+   "session": "FLK1-S1",
+   "group": "Legal Services",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-ls-004",
+   "session": "FLK1-S1",
+   "group": "Legal Services",
+   "difficulty": "medium",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-ls-005",
+   "session": "FLK1-S1",
+   "group": "Legal Services",
+   "difficulty": "medium",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-ls-006",
+   "session": "FLK1-S1",
+   "group": "Legal Services",
+   "difficulty": "easy",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-ls-007",
+   "session": "FLK1-S1",
+   "group": "Legal Services",
+   "difficulty": "medium",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-ls-008",
+   "session": "FLK1-S1",
+   "group": "Legal Services",
+   "difficulty": "hard",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-ls-009",
+   "session": "FLK1-S1",
+   "group": "Legal Services",
+   "difficulty": "hard",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-ls-010",
+   "session": "FLK1-S1",
+   "group": "Legal Services",
+   "difficulty": "hard",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-ls-011",
+   "session": "FLK1-S1",
+   "group": "Legal Services",
+   "difficulty": "medium",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-ls-012",
+   "session": "FLK1-S1",
+   "group": "Legal Services",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-ls-013",
+   "session": "FLK1-S1",
+   "group": "Legal Services",
+   "difficulty": "easy",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-ls-014",
+   "session": "FLK1-S1",
+   "group": "Legal Services",
+   "difficulty": "medium",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-ls-015",
+   "session": "FLK1-S1",
+   "group": "Legal Services",
+   "difficulty": "easy",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-ls-016",
+   "session": "FLK1-S1",
+   "group": "Legal Services",
+   "difficulty": "hard",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-ls-017",
+   "session": "FLK1-S1",
+   "group": "Legal Services",
+   "difficulty": "medium",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-ls-018",
+   "session": "FLK1-S1",
+   "group": "Legal Services",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-ls-019",
+   "session": "FLK1-S1",
+   "group": "Legal Services",
+   "difficulty": "hard",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-ls-020",
+   "session": "FLK1-S1",
+   "group": "Legal Services",
+   "difficulty": "easy",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-ls-021",
+   "session": "FLK1-S1",
+   "group": "Legal Services",
+   "difficulty": "medium",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-ls-022",
+   "session": "FLK1-S1",
+   "group": "Legal Services",
+   "difficulty": "medium",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-ls-023",
+   "session": "FLK1-S1",
+   "group": "Legal Services",
+   "difficulty": "easy",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-ppl-001",
+   "session": "FLK2-S2",
+   "group": "Property Practice",
+   "difficulty": "medium",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-ppl-002",
+   "session": "FLK2-S2",
+   "group": "Property Practice",
+   "difficulty": "medium",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-ppl-003",
+   "session": "FLK2-S2",
+   "group": "Property Practice",
+   "difficulty": "easy",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-ppl-004",
+   "session": "FLK2-S2",
+   "group": "Property Practice",
+   "difficulty": "medium",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-ppl-005",
+   "session": "FLK2-S2",
+   "group": "Property Practice",
+   "difficulty": "easy",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-ppl-006",
+   "session": "FLK2-S2",
+   "group": "Property Practice",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-ppl-007",
+   "session": "FLK2-S2",
+   "group": "Property Practice",
+   "difficulty": "easy",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-ppl-008",
+   "session": "FLK2-S2",
+   "group": "Property Practice",
+   "difficulty": "hard",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-ppl-009",
+   "session": "FLK2-S2",
+   "group": "Property Practice",
+   "difficulty": "easy",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-ppl-010",
+   "session": "FLK2-S2",
+   "group": "Property Practice",
+   "difficulty": "medium",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-ppl-011",
+   "session": "FLK2-S2",
+   "group": "Property Practice",
+   "difficulty": "medium",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-ppl-012",
+   "session": "FLK2-S2",
+   "group": "Property Practice",
+   "difficulty": "easy",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-ppl-013",
+   "session": "FLK2-S2",
+   "group": "Property Practice",
+   "difficulty": "medium",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-ppl-014",
+   "session": "FLK2-S2",
+   "group": "Property Practice",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-ppl-015",
+   "session": "FLK2-S2",
+   "group": "Property Practice",
+   "difficulty": "hard",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-ppl-016",
+   "session": "FLK2-S2",
+   "group": "Property Practice",
+   "difficulty": "medium",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-ppl-017",
+   "session": "FLK2-S2",
+   "group": "Property Practice",
+   "difficulty": "medium",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-ppl-018",
+   "session": "FLK2-S2",
+   "group": "Property Practice",
+   "difficulty": "medium",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-ppl-019",
+   "session": "FLK2-S2",
+   "group": "Property Practice",
+   "difficulty": "hard",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-ppl-020",
+   "session": "FLK2-S2",
+   "group": "Property Practice",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-ppl-021",
+   "session": "FLK2-S2",
+   "group": "Property Practice",
+   "difficulty": "hard",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-sa-001",
+   "session": "FLK2-S1",
+   "group": "Accounts (Wills)",
+   "difficulty": "easy",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-sa-002",
+   "session": "FLK2-S1",
+   "group": "Accounts (Wills)",
+   "difficulty": "medium",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-sa-003",
+   "session": "FLK2-S1",
+   "group": "Accounts (Wills)",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-sa-004",
+   "session": "FLK2-S1",
+   "group": "Accounts (Wills)",
+   "difficulty": "hard",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-sa-005",
+   "session": "FLK2-S2",
+   "group": "Accounts (Property)",
+   "difficulty": "easy",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-sa-006",
+   "session": "FLK2-S2",
+   "group": "Accounts (Property)",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-sa-007",
+   "session": "FLK2-S2",
+   "group": "Accounts (Property)",
+   "difficulty": "medium",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-sys-001",
+   "session": "FLK1-S2",
+   "group": "Legal Systems",
+   "difficulty": "hard",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-sys-002",
+   "session": "FLK1-S2",
+   "group": "Legal Systems",
+   "difficulty": "easy",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-sys-003",
+   "session": "FLK1-S2",
+   "group": "Legal Systems",
+   "difficulty": "medium",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-sys-004",
+   "session": "FLK1-S2",
+   "group": "Legal Systems",
+   "difficulty": "medium",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-sys-005",
+   "session": "FLK1-S2",
+   "group": "Legal Systems",
+   "difficulty": "hard",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-sys-006",
+   "session": "FLK1-S2",
+   "group": "Legal Systems",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-sys-007",
+   "session": "FLK1-S2",
+   "group": "Legal Systems",
+   "difficulty": "medium",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-sys-008",
+   "session": "FLK1-S2",
+   "group": "Legal Systems",
+   "difficulty": "easy",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-sys-009",
+   "session": "FLK1-S2",
+   "group": "Legal Systems",
+   "difficulty": "easy",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-sys-010",
+   "session": "FLK1-S2",
+   "group": "Legal Systems",
+   "difficulty": "hard",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-sys-011",
+   "session": "FLK1-S2",
+   "group": "Legal Systems",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-sys-012",
+   "session": "FLK1-S2",
+   "group": "Legal Systems",
+   "difficulty": "medium",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-sys-013",
+   "session": "FLK1-S2",
+   "group": "Legal Systems",
+   "difficulty": "medium",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-sys-014",
+   "session": "FLK1-S2",
+   "group": "Legal Systems",
+   "difficulty": "easy",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-sys-015",
+   "session": "FLK1-S2",
+   "group": "Legal Systems",
+   "difficulty": "medium",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-sys-016",
+   "session": "FLK1-S2",
+   "group": "Legal Systems",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-sys-017",
+   "session": "FLK1-S2",
+   "group": "Legal Systems",
+   "difficulty": "hard",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-sys-018",
+   "session": "FLK1-S2",
+   "group": "Legal Systems",
+   "difficulty": "medium",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-sys-019",
+   "session": "FLK1-S2",
+   "group": "Legal Systems",
+   "difficulty": "easy",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-sys-020",
+   "session": "FLK1-S2",
+   "group": "Legal Systems",
+   "difficulty": "medium",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tor-001",
+   "session": "FLK1-S2",
+   "group": "Tort",
+   "difficulty": "medium",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tor-002",
+   "session": "FLK1-S2",
+   "group": "Tort",
+   "difficulty": "easy",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tor-003",
+   "session": "FLK1-S2",
+   "group": "Tort",
+   "difficulty": "hard",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tor-004",
+   "session": "FLK1-S2",
+   "group": "Tort",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tor-005",
+   "session": "FLK1-S2",
+   "group": "Tort",
+   "difficulty": "medium",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tor-006",
+   "session": "FLK1-S2",
+   "group": "Tort",
+   "difficulty": "hard",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tor-007",
+   "session": "FLK1-S2",
+   "group": "Tort",
+   "difficulty": "hard",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tor-008",
+   "session": "FLK1-S2",
+   "group": "Tort",
+   "difficulty": "hard",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tor-009",
+   "session": "FLK1-S2",
+   "group": "Tort",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tor-010",
+   "session": "FLK1-S2",
+   "group": "Tort",
+   "difficulty": "medium",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tor-011",
+   "session": "FLK1-S2",
+   "group": "Tort",
+   "difficulty": "medium",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tor-012",
+   "session": "FLK1-S2",
+   "group": "Tort",
+   "difficulty": "easy",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tor-013",
+   "session": "FLK1-S2",
+   "group": "Tort",
+   "difficulty": "easy",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tor-014",
+   "session": "FLK1-S2",
+   "group": "Tort",
+   "difficulty": "easy",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tor-015",
+   "session": "FLK1-S2",
+   "group": "Tort",
+   "difficulty": "hard",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tor-016",
+   "session": "FLK1-S2",
+   "group": "Tort",
+   "difficulty": "medium",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tor-017",
+   "session": "FLK1-S2",
+   "group": "Tort",
+   "difficulty": "medium",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tor-018",
+   "session": "FLK1-S2",
+   "group": "Tort",
+   "difficulty": "medium",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tor-019",
+   "session": "FLK1-S2",
+   "group": "Tort",
+   "difficulty": "easy",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tor-020",
+   "session": "FLK1-S2",
+   "group": "Tort",
+   "difficulty": "medium",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tor-021",
+   "session": "FLK1-S2",
+   "group": "Tort",
+   "difficulty": "easy",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tor-022",
+   "session": "FLK1-S2",
+   "group": "Tort",
+   "difficulty": "easy",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tor-023",
+   "session": "FLK1-S2",
+   "group": "Tort",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tor-024",
+   "session": "FLK1-S2",
+   "group": "Tort",
+   "difficulty": "medium",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tor-025",
+   "session": "FLK1-S2",
+   "group": "Tort",
+   "difficulty": "medium",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tru-001",
+   "session": "FLK2-S1",
+   "group": "Trusts",
+   "difficulty": "medium",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tru-002",
+   "session": "FLK2-S1",
+   "group": "Trusts",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tru-003",
+   "session": "FLK2-S1",
+   "group": "Trusts",
+   "difficulty": "easy",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tru-004",
+   "session": "FLK2-S1",
+   "group": "Trusts",
+   "difficulty": "medium",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tru-005",
+   "session": "FLK2-S1",
+   "group": "Trusts",
+   "difficulty": "medium",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tru-006",
+   "session": "FLK2-S1",
+   "group": "Trusts",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tru-007",
+   "session": "FLK2-S1",
+   "group": "Trusts",
+   "difficulty": "medium",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tru-008",
+   "session": "FLK2-S1",
+   "group": "Trusts",
+   "difficulty": "hard",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tru-009",
+   "session": "FLK2-S1",
+   "group": "Trusts",
+   "difficulty": "easy",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tru-010",
+   "session": "FLK2-S1",
+   "group": "Trusts",
+   "difficulty": "easy",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tru-011",
+   "session": "FLK2-S1",
+   "group": "Trusts",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tru-012",
+   "session": "FLK2-S1",
+   "group": "Trusts",
+   "difficulty": "easy",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tru-013",
+   "session": "FLK2-S1",
+   "group": "Trusts",
+   "difficulty": "hard",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tru-014",
+   "session": "FLK2-S1",
+   "group": "Trusts",
+   "difficulty": "medium",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tru-015",
+   "session": "FLK2-S1",
+   "group": "Trusts",
+   "difficulty": "medium",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tru-016",
+   "session": "FLK2-S1",
+   "group": "Trusts",
+   "difficulty": "easy",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tru-017",
+   "session": "FLK2-S1",
+   "group": "Trusts",
+   "difficulty": "medium",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tru-018",
+   "session": "FLK2-S1",
+   "group": "Trusts",
+   "difficulty": "medium",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tru-019",
+   "session": "FLK2-S1",
+   "group": "Trusts",
+   "difficulty": "medium",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tru-020",
+   "session": "FLK2-S1",
+   "group": "Trusts",
+   "difficulty": "medium",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tru-021",
+   "session": "FLK2-S1",
+   "group": "Trusts",
+   "difficulty": "easy",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tru-022",
+   "session": "FLK2-S1",
+   "group": "Trusts",
+   "difficulty": "hard",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tru-023",
+   "session": "FLK2-S1",
+   "group": "Trusts",
+   "difficulty": "hard",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tru-024",
+   "session": "FLK2-S1",
+   "group": "Trusts",
+   "difficulty": "medium",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-tru-025",
+   "session": "FLK2-S1",
+   "group": "Trusts",
+   "difficulty": "hard",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-wil-001",
+   "session": "FLK2-S1",
+   "group": "Wills & Administration of Estates",
+   "difficulty": "easy",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-wil-002",
+   "session": "FLK2-S1",
+   "group": "Wills & Administration of Estates",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-wil-003",
+   "session": "FLK2-S1",
+   "group": "Wills & Administration of Estates",
+   "difficulty": "medium",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-wil-004",
+   "session": "FLK2-S1",
+   "group": "Wills & Administration of Estates",
+   "difficulty": "easy",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-wil-005",
+   "session": "FLK2-S1",
+   "group": "Wills & Administration of Estates",
+   "difficulty": "hard",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-wil-006",
+   "session": "FLK2-S1",
+   "group": "Wills & Administration of Estates",
+   "difficulty": "medium",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-wil-007",
+   "session": "FLK2-S1",
+   "group": "Wills & Administration of Estates",
+   "difficulty": "hard",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-wil-008",
+   "session": "FLK2-S1",
+   "group": "Wills & Administration of Estates",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-wil-009",
+   "session": "FLK2-S1",
+   "group": "Wills & Administration of Estates",
+   "difficulty": "medium",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-wil-010",
+   "session": "FLK2-S1",
+   "group": "Wills & Administration of Estates",
+   "difficulty": "medium",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-wil-011",
+   "session": "FLK2-S1",
+   "group": "Wills & Administration of Estates",
+   "difficulty": "easy",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-wil-012",
+   "session": "FLK2-S1",
+   "group": "Wills & Administration of Estates",
+   "difficulty": "hard",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-wil-013",
+   "session": "FLK2-S1",
+   "group": "Wills & Administration of Estates",
+   "difficulty": "medium",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-wil-014",
+   "session": "FLK2-S1",
+   "group": "Wills & Administration of Estates",
+   "difficulty": "medium",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-wil-015",
+   "session": "FLK2-S1",
+   "group": "Wills & Administration of Estates",
+   "difficulty": "easy",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-wil-016",
+   "session": "FLK2-S1",
+   "group": "Wills & Administration of Estates",
+   "difficulty": "easy",
+   "answer": "C",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-wil-017",
+   "session": "FLK2-S1",
+   "group": "Wills & Administration of Estates",
+   "difficulty": "medium",
+   "answer": "A",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-wil-018",
+   "session": "FLK2-S1",
+   "group": "Wills & Administration of Estates",
+   "difficulty": "medium",
+   "answer": "E",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-wil-019",
+   "session": "FLK2-S1",
+   "group": "Wills & Administration of Estates",
+   "difficulty": "hard",
+   "answer": "B",
+   "status": "ready",
+   "existing": false
+  },
+  {
+   "id": "lib-wil-020",
+   "session": "FLK2-S1",
+   "group": "Wills & Administration of Estates",
+   "difficulty": "medium",
+   "answer": "D",
+   "status": "ready",
+   "existing": false
+  }
+ ],
+ "mocks": {
+  "FLK1-S1": [
+   "lib-blp-017",
+   "lib-dr-002",
+   "lib-ls-015",
+   "lib-eth-003",
+   "lib-ls-017",
+   "lib-ls-011",
+   "lib-dr-016",
+   "lib-dr-001",
+   "lib-eth-001",
+   "lib-blp-024",
+   "q021",
+   "lib-blp-026",
+   "lib-ls-016",
+   "lib-blp-006",
+   "lib-dr-008",
+   "lib-blp-007",
+   "lib-blp-008",
+   "lib-dr-025",
+   "lib-ls-008",
+   "lib-dr-003",
+   "lib-dr-026",
+   "lib-blp-014",
+   "lib-ls-010",
+   "lib-dr-020",
+   "lib-eth-004",
+   "lib-dr-010",
+   "lib-ls-021",
+   "lib-blp-005",
+   "lib-blp-010",
+   "lib-blp-021",
+   "lib-dr-024",
+   "lib-eth-006",
+   "lib-ls-014",
+   "lib-blp-004",
+   "q047",
+   "lib-ls-012",
+   "lib-dr-006",
+   "q044",
+   "lib-blp-016",
+   "lib-ls-001",
+   "lib-ls-022",
+   "lib-ls-013",
+   "lib-dr-009",
+   "lib-eth-002",
+   "lib-blp-018",
+   "lib-ls-018",
+   "lib-dr-014",
+   "lib-eth-005",
+   "q002",
+   "lib-blp-011",
+   "lib-dr-012",
+   "lib-dr-023",
+   "q001",
+   "lib-dr-022",
+   "q029",
+   "lib-blp-003",
+   "lib-ls-003",
+   "lib-blp-001",
+   "lib-blp-019",
+   "lib-ls-020",
+   "lib-blp-020",
+   "lib-dr-011",
+   "q043",
+   "lib-dr-021",
+   "lib-ls-019",
+   "lib-ls-004",
+   "lib-dr-019",
+   "lib-blp-025",
+   "lib-dr-007",
+   "lib-dr-015",
+   "lib-blp-023",
+   "lib-dr-018",
+   "lib-dr-013",
+   "q015",
+   "lib-blp-009",
+   "lib-dr-004",
+   "lib-blp-015",
+   "lib-ls-009",
+   "lib-blp-012",
+   "lib-blp-022",
+   "lib-ls-023",
+   "q016",
+   "lib-ls-006",
+   "lib-ls-002",
+   "lib-dr-017"
+  ],
+  "FLK1-S2": [
+   "lib-tor-004",
+   "lib-con-005",
+   "lib-con-004",
+   "lib-sys-004",
+   "q017",
+   "lib-con-017",
+   "lib-con-006",
+   "lib-con-001",
+   "lib-eth-007",
+   "lib-tor-010",
+   "lib-con-008",
+   "lib-tor-001",
+   "lib-sys-014",
+   "lib-eth-012",
+   "lib-sys-005",
+   "lib-tor-024",
+   "lib-tor-021",
+   "lib-con-002",
+   "lib-con-015",
+   "lib-con-014",
+   "lib-con-007",
+   "q034",
+   "lib-tor-017",
+   "q005",
+   "lib-tor-009",
+   "lib-tor-018",
+   "q048",
+   "lib-con-003",
+   "lib-con-013",
+   "lib-sys-013",
+   "lib-con-022",
+   "lib-tor-015",
+   "q018",
+   "q032",
+   "q045",
+   "lib-sys-008",
+   "lib-con-019",
+   "lib-tor-023",
+   "lib-con-023",
+   "lib-sys-009",
+   "lib-tor-006",
+   "lib-tor-002",
+   "lib-eth-008",
+   "lib-sys-018",
+   "lib-con-012",
+   "lib-eth-009",
+   "lib-sys-019",
+   "lib-con-011",
+   "lib-eth-011",
+   "lib-sys-006",
+   "lib-con-024",
+   "lib-sys-012",
+   "lib-tor-013",
+   "lib-sys-002",
+   "lib-con-025",
+   "lib-tor-011",
+   "lib-tor-025",
+   "q003",
+   "lib-tor-014",
+   "q019",
+   "q033",
+   "q020",
+   "lib-con-020",
+   "lib-tor-020",
+   "lib-sys-017",
+   "q004",
+   "lib-tor-005",
+   "lib-sys-007",
+   "lib-tor-016",
+   "q031",
+   "lib-tor-012",
+   "lib-sys-001",
+   "lib-tor-008",
+   "lib-tor-022",
+   "lib-tor-007",
+   "lib-tor-003",
+   "lib-con-016",
+   "lib-sys-016",
+   "lib-con-018",
+   "lib-con-009",
+   "lib-sys-011",
+   "lib-sys-020",
+   "lib-con-010",
+   "lib-sys-010",
+   "lib-eth-010"
+  ],
+  "FLK2-S1": [
+   "lib-lan-002",
+   "lib-wil-011",
+   "q038",
+   "lib-tru-021",
+   "lib-lan-011",
+   "lib-sa-001",
+   "lib-tru-024",
+   "q039",
+   "lib-sa-003",
+   "lib-wil-014",
+   "lib-lan-023",
+   "lib-eth-014",
+   "q011",
+   "lib-lan-007",
+   "lib-tru-013",
+   "lib-eth-019",
+   "lib-lan-004",
+   "lib-tru-023",
+   "lib-tru-008",
+   "lib-tru-010",
+   "lib-wil-019",
+   "lib-lan-009",
+   "lib-wil-012",
+   "lib-lan-013",
+   "lib-eth-013",
+   "lib-wil-018",
+   "lib-wil-017",
+   "q009",
+   "lib-tru-001",
+   "lib-wil-009",
+   "q026",
+   "lib-tru-014",
+   "q023",
+   "lib-eth-018",
+   "lib-wil-004",
+   "lib-lan-017",
+   "lib-tru-007",
+   "lib-tru-005",
+   "lib-lan-001",
+   "lib-lan-010",
+   "lib-tru-011",
+   "lib-wil-013",
+   "lib-eth-015",
+   "lib-wil-005",
+   "lib-lan-021",
+   "lib-wil-010",
+   "lib-tru-018",
+   "lib-tru-015",
+   "lib-lan-006",
+   "lib-wil-008",
+   "lib-lan-014",
+   "q049",
+   "lib-tru-020",
+   "lib-lan-020",
+   "lib-tru-016",
+   "lib-tru-004",
+   "lib-tru-003",
+   "lib-wil-002",
+   "q025",
+   "q012",
+   "lib-lan-024",
+   "lib-wil-015",
+   "q008",
+   "lib-wil-003",
+   "lib-lan-012",
+   "q037",
+   "lib-tru-006",
+   "lib-lan-008",
+   "lib-lan-005",
+   "lib-lan-022",
+   "lib-sa-002",
+   "lib-lan-016",
+   "lib-wil-016",
+   "lib-lan-015",
+   "lib-lan-025",
+   "lib-tru-019",
+   "lib-tru-002",
+   "lib-wil-020",
+   "lib-wil-001",
+   "lib-eth-017",
+   "lib-tru-022",
+   "lib-lan-003",
+   "lib-tru-017",
+   "lib-tru-009",
+   "lib-tru-025"
+  ],
+  "FLK2-S2": [
+   "lib-crp-015",
+   "lib-crl-004",
+   "lib-crl-024",
+   "lib-ppl-016",
+   "lib-crl-023",
+   "lib-crp-001",
+   "lib-crl-007",
+   "lib-eth-024",
+   "lib-crl-006",
+   "lib-eth-022",
+   "lib-crp-002",
+   "lib-crl-021",
+   "lib-sa-007",
+   "q041",
+   "lib-ppl-009",
+   "lib-ppl-002",
+   "lib-crl-001",
+   "q022",
+   "lib-ppl-008",
+   "lib-crp-003",
+   "lib-crp-016",
+   "lib-crp-011",
+   "lib-ppl-012",
+   "lib-ppl-001",
+   "lib-crp-019",
+   "lib-crp-018",
+   "lib-crl-012",
+   "lib-crl-025",
+   "q010",
+   "lib-crp-012",
+   "lib-crp-010",
+   "q013",
+   "lib-ppl-021",
+   "lib-crl-018",
+   "lib-eth-021",
+   "lib-crp-013",
+   "lib-ppl-004",
+   "lib-crp-021",
+   "lib-crl-022",
+   "lib-crp-008",
+   "lib-crl-016",
+   "lib-ppl-011",
+   "lib-eth-026",
+   "lib-ppl-020",
+   "lib-crp-017",
+   "q007",
+   "lib-crp-024",
+   "lib-crp-025",
+   "lib-sa-005",
+   "lib-crl-005",
+   "lib-crp-009",
+   "lib-ppl-014",
+   "lib-crp-022",
+   "lib-crl-013",
+   "lib-crp-005",
+   "lib-eth-023",
+   "lib-crp-020",
+   "lib-crl-008",
+   "lib-ppl-010",
+   "lib-ppl-015",
+   "lib-crl-015",
+   "lib-crl-002",
+   "lib-ppl-019",
+   "q036",
+   "lib-crl-014",
+   "lib-crp-014",
+   "lib-ppl-018",
+   "lib-ppl-017",
+   "lib-ppl-006",
+   "lib-crl-009",
+   "lib-crp-004",
+   "lib-crl-003",
+   "lib-sa-006",
+   "lib-crl-010",
+   "q014",
+   "lib-ppl-003",
+   "lib-ppl-005",
+   "q028",
+   "lib-eth-025",
+   "lib-crl-019",
+   "lib-crp-006",
+   "lib-crl-011",
+   "lib-crp-007",
+   "lib-crl-020",
+   "q035"
+  ]
+ },
+ "alloc": {
+  "FLK1-S1": {
+   "Business Law & Practice": 28,
+   "Dispute Resolution": 28,
+   "Legal Services": 22,
+   "Ethics & Professional Conduct": 7
+  },
+  "FLK1-S2": {
+   "Contract": 28,
+   "Tort": 27,
+   "Legal Systems": 24,
+   "Ethics & Professional Conduct": 6
+  },
+  "FLK2-S1": {
+   "Wills & Administration of Estates": 22,
+   "Accounts (Wills)": 4,
+   "Trusts": 26,
+   "Land Law": 26,
+   "Ethics & Professional Conduct": 7
+  },
+  "FLK2-S2": {
+   "Property Practice": 22,
+   "Accounts (Property)": 4,
+   "Criminal Law": 26,
+   "Criminal Practice": 26,
+   "Ethics & Professional Conduct": 7
+  }
+ }
+}

@@ -78,11 +78,11 @@
       "title": "Editorial standards: how SQE Daily questions are written",
       "meta_description": "How SQE Daily writes its SQE1 practice questions, links every answer to its source, records changes and corrects errors.",
       "h1": "Editorial standards",
-      "intro": "SQE Daily publishes one free SQE1 practice question a day. This page explains how those questions are put together, what the dates on the site mean, and how to tell us about a mistake.",
+      "intro": "SQE Daily is a free library of SQE1 practice questions, with one featured question each day, mini tests and full mock papers. This page explains how the questions are put together, what the dates on the site mean, and how to tell us about a mistake.",
       "sections": [
         {
           "heading": "Original questions",
-          "body": "Every question is written for SQE Daily in the single best answer format the SRA uses for SQE1: a short scenario, a question and five options, one of which is the best answer. Each question is assigned to an SQE1 subject and to FLK1 or FLK2, following the SRA's [SQE1 assessment specification](https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification). We do not reproduce questions from the SRA or from training providers. Each question is checked against the source it relies on before it is scheduled for publication."
+          "body": "Every question is written for SQE Daily in the single best answer format the SRA uses for SQE1: a short scenario, a question and five options, one of which is the best answer. Each question is assigned to an SQE1 subject and to FLK1 or FLK2, following the SRA's [SQE1 assessment specification](https://sqe.sra.org.uk/assessments/sqe1-assessments/sqe1-specification). We do not reproduce questions from the SRA or from training providers. Each question is checked against the source it relies on before it is published."
         },
         {
           "heading": "Every answer links to its source",
@@ -93,8 +93,12 @@
           "body": "Our checks compare each question with the wording of its linked source. Questions are not reviewed by a practising solicitor or barrister, and they are not a substitute for your course materials. If an answer and its source seem to disagree, rely on the source and tell us."
         },
         {
+          "heading": "Mini tests and mock papers",
+          "body": "Our mini tests and mock papers are our own practice design. Each full mock follows the format the SRA has published for the sitting it targets: 170 questions in two sessions of 85, each lasting 2 hours 33 minutes, with the SRA's subject groupings for each session. The mix of subjects and the difficulty labels are our editorial choices. They are not the SRA's question selection, and they do not reproduce the real assessment's difficulty. A score on our tests does not predict an SQE1 result."
+        },
+        {
           "heading": "What the dates mean",
-          "body": "Each question shows the date it was published. A “Checked against primary source” date appears only when a question has actually been checked against its source, and shows when that check happened. When we change the content of a published question, the change appears on the same page and web address, and the date of the change is recorded for search engines."
+          "body": "Each question shows the date it was first published on the site. A source-check date appears only when a question has actually been checked against its source, and shows when that check happened. When we change the content of a published question, the change appears on the same page and web address, and the date of the change is recorded for search engines."
         },
         {
           "heading": "Corrections",
@@ -102,7 +106,7 @@
         },
         {
           "heading": "The law at a point in time",
-          "body": "The law changes. Each question reflects the law as stated in its linked source when the question was written. If you notice a change in the law that affects a question, please let us know."
+          "body": "The law changes. Each question reflects the law as stated in its linked source when the question was written. If you notice a change in the law that affects a question, please let us know. Each mock paper states the law as at the SRA's examinable law cut-off date for the sitting it targets: for January 2027, 11 September 2026."
         },
         {
           "heading": "Independent",
@@ -116,13 +120,13 @@
         }
       ],
       "approved": true,
-      "approved_hash": "fea860e819ebdf0439d34bc9d15f6deb5e9e84eed2994095aad8867590a2f344"
+      "approved_hash": "3a81e317315018dc354df3cdef451ea4b530f814877c80014b571e5b903966ea"
     },
     "sqe1-practice-questions": {
       "title": "Free SQE1 practice questions with worked answers",
       "meta_description": "Free SQE1 practice questions in the single best answer format, with worked answers, rules to remember and linked sources, by paper and subject.",
       "h1": "Free SQE1 practice questions",
-      "intro": "SQE Daily publishes one original SQE1 practice question every day, with a worked answer, the rule to remember and a link to the source behind the answer. This page brings the questions together by paper and subject, so you can practise the areas you need most.",
+      "intro": "SQE Daily has a free library of original SQE1 practice questions, each with a worked answer, the rule to remember and a link to the source behind the answer. One question is featured each day. This page brings the questions together by paper and subject, so you can practise the areas you need most.",
       "sections": [
         {
           "heading": "How the questions work",
@@ -148,7 +152,7 @@
         }
       ],
       "approved": true,
-      "approved_hash": "ca8ba56809c0d868f594c336c981749bb036a40d87f2cff443e7b675cbca9292"
+      "approved_hash": "5e33d83b7e9375e742565b557f3e9172f15bc7c11f92692658c7aea82f74a736"
     },
     "flk1": {
       "title": "FLK1 practice questions for SQE1 (free, with answers)",

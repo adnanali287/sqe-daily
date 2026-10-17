@@ -1,0 +1,1075 @@
+[
+ {
+  "id": "lib-tru-001",
+  "subject": "Trusts",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Certainty of subject matter: unallocated generic goods (Re Goldcorp)",
+  "scenario": "Sterling Vault Ltd, an online dealer in England, sold silver coins to members of the public on an 'unallocated' basis. Its terms said the coins were 'stored and insured on your behalf', but no coins were ever set aside or identified for any customer, and the company remained free to buy coins from any source to meet delivery requests. The company is now insolvent and its bank holds a valid floating charge over all its assets, which has crystallised. Its remaining stock of silver coins is far smaller than the total quantity customers paid for. The customers argue that the company holds its remaining coins on trust for them.",
+  "stem": "Which of the following best describes the customers' position in respect of the remaining coins?",
+  "options": {
+   "A": "They each have a proportionate beneficial share in all the coins held at the date of insolvency, because the company told them the coins were stored on their behalf.",
+   "B": "They have an equitable lien over all the company's assets for the price they paid, ranking ahead of the bank.",
+   "C": "They have no proprietary interest in any of the coins, because no coins were ever identified as theirs, so any trust failed for want of certain subject matter.",
+   "D": "The customers who paid first take the remaining coins in priority to those who paid later.",
+   "E": "They hold the beneficial interest in the coins because the company was a fiduciary, given the trust and confidence the customers placed in it."
+  },
+  "answer": "C",
+  "explanation": "An express trust needs certainty of subject matter: it must be possible to identify the property the trust attaches to. In Re Goldcorp the Privy Council held that buyers of unallocated bullion acquired no proprietary interest, legal or equitable, because no bullion had ever been ascertained and appropriated to their contracts. The seller's freedom to source the goods anywhere meant the sales were of generic goods, not goods from an identified bulk. Even assuming the company intended a trust, there was never a separate stock to which it could attach, and the remaining stock was simply another company asset. Applied here, no coins were set aside for any customer and Sterling Vault could meet orders from any source. The promise that coins were 'stored on your behalf' cannot create a title to goods nobody can identify. The customers are therefore unsecured creditors with personal claims only, and the bank's crystallised charge takes priority over the remaining coins.",
+  "why_wrong": {
+   "A": "A proportionate share in a shifting stock is exactly what Goldcorp rejected: the contracts were for generic goods, not a share of an identified bulk.",
+   "B": "The Board refused to impose a lien or remedial proprietary right to defeat the bank's valid security.",
+   "D": "Order of payment is irrelevant where no customer ever acquired any proprietary interest in the coins.",
+   "E": "Calling the company a fiduciary adds nothing: a fiduciary relationship cannot create a proprietary interest where there is no identifiable property."
+  },
+  "key_rule": "A trust of goods requires certain subject matter: where goods are unascertained and never appropriated to the buyer, no legal or equitable proprietary interest arises.",
+  "authority": "Re Goldcorp Exchange Ltd [1994] UKPC 3, [1995] 1 AC 74",
+  "verified_source_url": "https://www.bailii.org/uk/cases/UKPC/1994/3.html",
+  "tags": [
+   "three certainties",
+   "express trusts",
+   "certainty of subject matter"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Creation and requirements of express trusts: the three certainties of intention, subject matter and objects",
+   "context_subject": "Trusts",
+   "source_type": "judgment",
+   "source_quote": "There never was a separate and sufficient stock of bullion in which a proprietary interest could be created.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-tru-002",
+  "subject": "Trusts",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Certainty of objects for a discretionary trust: the 'is or is not' test",
+  "scenario": "By a trust deed made in England in 2023, Rosalind Achebe transferred £900,000 to trustees directing that they 'shall each year distribute the income among such of the employees and former employees of Brightwater Logistics Ltd, and their spouses and dependants, as the trustees in their absolute discretion select'. The class is likely to exceed 4,000 people. The company's records of former employees are incomplete, so it is impossible to draw up a complete list of everyone in the class. The words used in the deed are clear in meaning. Rosalind has died and her executors argue that the trust is void.",
+  "stem": "Which of the following best describes the validity of the trust?",
+  "options": {
+   "A": "It is valid, because it can be said with certainty whether any given individual is or is not a member of the class.",
+   "B": "It is void, because a discretionary trust is valid only if a complete list of all the objects can be drawn up.",
+   "C": "It is valid, but only as a mere power, so the trustees are under no duty to distribute the income.",
+   "D": "It is valid, but if the trustees fail to act the court can only order equal division among every member of the class.",
+   "E": "It is void as administratively unworkable, because any class of more than a few hundred people is too wide to be a class at all."
+  },
+  "answer": "A",
+  "explanation": "The clause uses mandatory language ('shall distribute'), so it creates a discretionary trust rather than a mere power. In McPhail v Doulton the House of Lords discarded the earlier rule that a discretionary trust is valid only if a complete list of objects can be compiled. Lord Wilberforce held that the test is the same as for powers: the trust is valid if it can be said with certainty that any given individual is or is not a member of the class. Difficulty in tracing members of a class is an evidential problem the court can deal with by directions, not a ground of invalidity. Here the description 'employees and former employees ... and their spouses and dependants' is conceptually clear, so for any person it can be determined whether they fall within it. The incomplete records do not matter. The class, though large, is a coherent class connected with one company, unlike the hopelessly wide example of 'all the residents of Greater London'.",
+  "why_wrong": {
+   "B": "The complete list test from IRC v Broadway Cottages Trust was discarded for discretionary trusts in McPhail v Doulton.",
+   "C": "The mandatory 'shall distribute' creates a trust, and the same certainty test now applies to trusts and powers anyway.",
+   "D": "Lord Wilberforce said the court may execute a discretionary trust in the way best calculated to give effect to the settlor's intention, not only by equal division.",
+   "E": "Size alone does not make a trust unworkable; an employee class of a single company is nothing like 'all the residents of Greater London'."
+  },
+  "key_rule": "A discretionary trust is valid if it can be said with certainty whether any given individual is or is not a member of the class of objects (McPhail v Doulton).",
+  "authority": "McPhail v Doulton [1970] UKHL 1, [1971] AC 424",
+  "verified_source_url": "https://www.bailii.org/uk/cases/UKHL/1970/1.html",
+  "tags": [
+   "three certainties",
+   "certainty of objects",
+   "discretionary trusts"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Creation and requirements of express trusts: the three certainties of intention, subject matter and objects (discretionary trusts)",
+   "context_subject": "Trusts",
+   "source_type": "judgment",
+   "source_quote": "the trust is valid if it can be said with certainty that any given individual is or is not a member of the class.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-tru-003",
+  "subject": "Trusts",
+  "flk": "FLK2",
+  "difficulty": "easy",
+  "title": "Oral declaration of trust of land: LPA 1925 s.53(1)(b)",
+  "scenario": "Owen Fairweather is the sole registered proprietor of a buy-to-let flat in Leeds, England. Over dinner he tells his adult sister Beatrix, 'From today I hold the flat on trust for you.' Nothing is put in writing. Beatrix has paid nothing towards the flat and has not changed her position in reliance on what Owen said. A year later Owen tells Beatrix he has changed his mind and intends to keep the flat.",
+  "stem": "Can Beatrix enforce the trust against Owen?",
+  "options": {
+   "A": "Yes, because writing is required only for dispositions of existing equitable interests, not for declarations of trust.",
+   "B": "Yes, because the oral declaration takes effect as a constructive trust, which needs no writing.",
+   "C": "No, because a declaration of trust of land is effective only if it is made by deed.",
+   "D": "No, because a declaration of trust of land must be manifested and proved by writing signed by a person able to declare the trust, and Owen has signed nothing.",
+   "E": "Yes, provided Beatrix now signs a written note recording what Owen said."
+  },
+  "answer": "D",
+  "explanation": "Section 53(1)(b) of the Law of Property Act 1925 provides that a declaration of trust respecting any land or any interest in land must be manifested and proved by some writing signed by some person who is able to declare such trust, or by his will. The person able to declare the trust here is Owen, as the owner of the flat. His declaration was purely oral and he has signed nothing, so it cannot be proved in the way the section requires and Beatrix cannot enforce it. The writing does not have to be contemporaneous, so a later signed note by Owen would have sufficed, but he refuses. Section 53(2) preserves resulting, implied and constructive trusts, but nothing on these facts gives rise to one: Beatrix provided no money and did not act to her detriment. As a volunteer relying only on an oral declaration of trust of land, she has no enforceable claim.",
+  "why_wrong": {
+   "A": "Section 53(1)(b) specifically governs declarations of trust of land; s.53(1)(c) is the separate rule for dispositions.",
+   "B": "Section 53(2) preserves constructive trusts, but there is no detrimental reliance or other basis here for imposing one.",
+   "C": "The section requires signed writing, not a deed.",
+   "E": "The writing must be signed by the person able to declare the trust (Owen), not by the beneficiary."
+  },
+  "key_rule": "A declaration of trust of land must be manifested and proved by writing signed by the person able to declare the trust, or by will (LPA 1925 s.53(1)(b)).",
+  "authority": "Law of Property Act 1925, s.53(1)(b) and s.53(2)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/Geo5/15-16/20/section/53",
+  "tags": [
+   "express trusts",
+   "formalities",
+   "land"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Creation and requirements of express trusts: formalities to create express inter vivos trusts",
+   "context_subject": "Trusts",
+   "source_type": "legislation",
+   "source_quote": "a declaration of trust respecting any land or any interest therein must be manifested and proved by some writing signed by some person who is able to declare such trust or by his will;",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-tru-004",
+  "subject": "Trusts",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Oral direction to trustees to hold for another: s.53(1)(c) LPA 1925",
+  "scenario": "Kemal Arslan and Ruth Okafor hold 20,000 shares in a listed company on bare trust for Dalia Haddad absolutely. Dalia telephones the trustees and tells them that from now on they are to hold her interest in the shares on trust for her adult son, Idris. The trustees agree. Nothing is put in writing and the legal title to the shares stays with Kemal and Ruth. Dalia later dies. Her valid will leaves her whole estate to a cancer research charity.",
+  "stem": "Who is beneficially entitled to the shares?",
+  "options": {
+   "A": "Idris, because the writing requirement for dispositions of equitable interests applies only to interests in land.",
+   "B": "Dalia's estate, and so the charity, because a disposition of a subsisting equitable interest must be in writing signed by the person disposing of it, and Dalia's oral direction was therefore ineffective.",
+   "C": "Idris, because a beneficiary who is absolutely entitled may give binding oral instructions to bare trustees about the trust property.",
+   "D": "Idris, because the trustees agreed to the arrangement and are therefore estopped from denying it.",
+   "E": "Kemal and Ruth beneficially, because Dalia abandoned her equitable interest when she told them to hold it for someone else."
+  },
+  "answer": "B",
+  "explanation": "Section 53(1)(c) of the Law of Property Act 1925 requires that a disposition of an equitable interest or trust subsisting at the time of the disposition must be in writing signed by the person disposing of it, or by a lawfully authorised agent, or by will. Dalia had a subsisting equitable interest in the shares. Directing the trustees to hold that interest for Idris in future is a disposition of it: the beneficial interest was to move from Dalia to Idris while the legal title stayed where it was. Because the direction was oral and nothing was signed, it was ineffective and Dalia kept her equitable interest. The subsection is not limited to land; it applies to equitable interests in any property, including shares. This is not a case where the trustees transferred the legal title to a third party on her instructions, so no argument that the legal transfer carried the beneficial interest with it arises. Dalia's interest passes under her will to the charity.",
+  "why_wrong": {
+   "A": "Section 53(1)(c) applies to equitable interests in any kind of property, not only land.",
+   "C": "An absolutely entitled beneficiary can call for the property, but a disposition of her equitable interest itself still needs signed writing.",
+   "D": "The trustees' agreement cannot dispense with a statutory formality, and Idris gave nothing and relied on nothing.",
+   "E": "Directing a gift to Idris is the opposite of abandonment; Dalia's interest remained hers because the disposition failed."
+  },
+  "key_rule": "A disposition of a subsisting equitable interest in any property must be in writing signed by the person disposing of it or their authorised agent, or by will (LPA 1925 s.53(1)(c)).",
+  "authority": "Law of Property Act 1925, s.53(1)(c); Grey v IRC [1960] AC 1",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/Geo5/15-16/20/section/53",
+  "tags": [
+   "express trusts",
+   "formalities",
+   "equitable interests"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Creation and requirements of express trusts: formalities to create express inter vivos trusts",
+   "context_subject": "Trusts",
+   "source_type": "legislation",
+   "source_quote": "a disposition of an equitable interest or trust subsisting at the time of the disposition, must be in writing signed by the person disposing of the same, or by his agent thereunto lawfully authorised in writing or by will.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Grey v IRC is named as the usual case label but was not fetched; the answer rests on the statutory text."
+  }
+ },
+ {
+  "id": "lib-tru-005",
+  "subject": "Trusts",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Imperfect gift of shares not saved as a declaration of trust (Milroy v Lord)",
+  "scenario": "Geraldine Moss owned 500 shares in Arden Fabrics Ltd, a private company registered in England. She wrote and signed a letter to her godson, Felix Mensah, saying 'I give you my 500 shares in Arden Fabrics', and posted it to him. She never signed a stock transfer form, kept the share certificate in her desk, and continued to receive the dividends. She died six months later. Her will appoints her solicitor as executor and leaves her residuary estate, which includes the shares, to her brother. Felix argues that Geraldine held the shares on trust for him.",
+  "stem": "Which of the following best describes Felix's position?",
+  "options": {
+   "A": "Felix is entitled, because Geraldine did everything within her power to transfer the shares by signing the letter.",
+   "B": "Felix is entitled, because the court will treat Geraldine's words of gift as a declaration that she held the shares on trust for him.",
+   "C": "Felix is entitled, because the letter shows a clear and unconditional intention to make an immediate gift.",
+   "D": "Felix is entitled, because the company could have registered him as shareholder on the strength of the letter.",
+   "E": "The gift fails and the shares pass under Geraldine's will, because the gift was incomplete and equity will not convert a failed outright gift into a declaration of trust."
+  },
+  "answer": "E",
+  "explanation": "A gift is perfected either by transferring the property to the donee or by the donor declaring herself trustee of it. For an outright gift, the donor must have done everything necessary that was within her own power to transfer the asset. Otherwise the gift is incomplete, because a volunteer donee has no equity to perfect an imperfect gift (Milroy v Lord, as restated in Choithram v Pagarani). Geraldine never signed a stock transfer form or handed over the share certificate, both steps within her power, so the legal transfer was not completed. Nor can her letter be rescued as a declaration of trust. She intended an outright gift, and the court will not give a benevolent construction treating ineffective words of gift as if she had declared herself trustee. Felix is a volunteer and Geraldine's executor is her solicitor, so no exception applies. The shares remained Geraldine's and pass under her will to her brother.",
+  "why_wrong": {
+   "A": "Re Rose applies only where the donor has done all she can; Geraldine had not signed a transfer form or handed over the certificate.",
+   "B": "Milroy v Lord forbids treating ineffective words of outright gift as a declaration of trust.",
+   "C": "Clear donative intention alone does not complete a gift; the necessary steps to transfer title must also be taken.",
+   "D": "A letter of gift is not a share transfer, so the company had nothing it could properly register."
+  },
+  "key_rule": "Equity will not perfect an imperfect gift for a volunteer, and an ineffective outright gift will not be treated as a declaration of trust (Milroy v Lord).",
+  "authority": "Milroy v Lord (1862) 4 De G F & J 264; T Choithram International SA v Pagarani [2000] UKPC 46, [2001] 1 WLR 1",
+  "verified_source_url": "https://www.bailii.org/uk/cases/UKPC/2000/46.html",
+  "tags": [
+   "express trusts",
+   "constitution of trusts",
+   "equity will not assist a volunteer"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Creation and requirements of express trusts: constitution of express inter vivos trusts",
+   "context_subject": "Trusts",
+   "source_type": "judgment",
+   "source_quote": "the court will not give a benevolent construction so as to treat ineffective words of outright gift as taking effect as if the donor had declared himself a trustee for the donee: Milroy v. Lord",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Milroy v Lord itself was not fetched; the principle is taken from the Privy Council's restatement in Choithram (para 30)."
+  }
+ },
+ {
+  "id": "lib-tru-006",
+  "subject": "Trusts",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "The rule in Re Rose: donor has done everything in their power",
+  "scenario": "Tomasz Nowak owned 1,000 shares in Vistula Joinery Ltd, a private company registered in England. Intending an immediate gift, he signed a valid stock transfer form in favour of his niece, Ana Kowalczyk, and handed it with the share certificate to the company secretary for registration. The articles give the directors no power to refuse to register a transfer. Before the next board meeting at which the transfer would have been registered, Tomasz died suddenly. His will leaves his residuary estate to his son, Piotr. The company has not yet registered Ana.",
+  "stem": "Who is entitled in equity to the shares?",
+  "options": {
+   "A": "Ana, because Tomasz had done everything within his own power to transfer the shares, so the gift was complete in equity even though legal title had not passed.",
+   "B": "Piotr, because legal title to shares passes only on registration and equity will not assist a volunteer.",
+   "C": "Ana, but only if the company registers the transfer before probate is granted.",
+   "D": "Tomasz's estate, on resulting trust, because the transfer was incomplete at his death.",
+   "E": "Ana, because the court will treat Tomasz's signed transfer as a declaration that he held the shares on trust for her."
+  },
+  "answer": "A",
+  "explanation": "Equity will not perfect an imperfect gift, but a gift is not imperfect where the donor has done everything necessary that was within his own power to do to transfer the asset. This principle comes from In re Rose and was restated by the Privy Council in Choithram v Pagarani. The only remaining step was registration by the company, which Tomasz could not do himself. He had executed a valid transfer and delivered it, with the certificate, to the company for registration. At that point the gift was complete in equity, and pending registration he held the legal title for Ana. His death before registration does not undo this. His personal representatives take the legal title subject to Ana's equitable interest and must allow the registration to proceed. The case does not depend on treating his words as a declaration of trust. It rests on the gift being complete in equity because he had done all that he could.",
+  "why_wrong": {
+   "B": "Piotr takes only Tomasz's bare legal title; equity regards the gift as complete because Tomasz had done all he could.",
+   "C": "The timing of registration relative to probate is irrelevant; Ana's equitable entitlement arose when Tomasz did all that was in his power.",
+   "D": "No resulting trust arises; Tomasz had parted with the beneficial interest to Ana.",
+   "E": "Re Rose does not rest on a declaration of trust; equity treats the outright gift itself as complete."
+  },
+  "key_rule": "Where a donor has done everything within their own power to transfer property, the gift is complete in equity even though a third party has not yet completed the legal transfer (Re Rose).",
+  "authority": "In re Rose; Rose v IRC [1952] Ch 499; T Choithram International SA v Pagarani [2000] UKPC 46, [2001] 1 WLR 1",
+  "verified_source_url": "https://www.bailii.org/uk/cases/UKPC/2000/46.html",
+  "tags": [
+   "express trusts",
+   "constitution of trusts",
+   "re rose"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Creation and requirements of express trusts: exceptions to the rule that equity will not assist a volunteer (the rule in Re Rose)",
+   "context_subject": "Trusts",
+   "source_type": "judgment",
+   "source_quote": "the donor has to have done everything necessary to be done which is within his own power to do in order to transfer the gifted asset to the donee. If the donor has not done so, the gift is incomplete",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Re Rose [1952] Ch 499 itself was not fetched; Choithram (para 30) cites it for the 'everything within his power' test. Choithram's para 30 is phrased negatively; the positive application is standard doctrine."
+  }
+ },
+ {
+  "id": "lib-tru-007",
+  "subject": "Trusts",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Imperfect gift perfected by appointment as executor (Strong v Bird)",
+  "scenario": "In 2022 Wilfred Abara, who lived in Bristol, England, told his close friend Marta Silva: 'My Steinway piano is yours now, it's a present.' He meant this as an immediate gift, but the piano stayed in his house because Marta had no room for it, and no deed of gift was made. Until his death in 2026 Wilfred regularly told visitors that the piano belonged to Marta, and he never suggested he had changed his mind. His valid will appoints Marta as his sole executor and leaves his residuary estate to his cousin, Desmond. Marta has obtained a grant of probate.",
+  "stem": "Who is entitled to the piano?",
+  "options": {
+   "A": "Desmond, because the gift was never completed by delivery or deed, and equity will not assist a volunteer.",
+   "B": "Marta, but only if she pays the estate the value of the piano.",
+   "C": "Marta, because Wilfred's intention to make an immediate gift continued until his death and the legal title vested in her as his executor, perfecting the gift.",
+   "D": "Desmond, because an executor may never take a benefit from the estate she is administering.",
+   "E": "Marta, but only under proprietary estoppel, because she relied on Wilfred's statements."
+  },
+  "answer": "C",
+  "explanation": "A gift of a chattel needs delivery or a deed, so Wilfred's words alone did not transfer the piano. However, under the rule in Strong v Bird an imperfect gift is perfected where the intended donee becomes the donor's executor (or administrator) and so acquires the legal title, provided the donor had a present intention to give that continued unchanged until death. In Day v Harris the Court of Appeal applied the rule to an incomplete gift of manuscripts, holding that it became a complete gift on the donor's death when the donee became an executor. Here Wilfred intended an immediate gift, the only defect was the lack of delivery, and his intention plainly continued: he kept telling people the piano was Marta's. Marta is his executor and now holds the legal title, so the gift is perfected and she takes the piano beneficially. It does not form part of the residue passing to Desmond.",
+  "why_wrong": {
+   "A": "Strong v Bird is an exception to the volunteer rule and applies precisely where the gift failed for lack of delivery.",
+   "B": "The rule perfects a gift; the donee gives no value and pays nothing.",
+   "D": "Becoming executor is the very event that perfects the gift; the rule against executors profiting does not prevent it.",
+   "E": "Marta suffered no detriment, so estoppel is unavailable, and it is not needed because Strong v Bird applies."
+  },
+  "key_rule": "An imperfect lifetime gift is perfected if the donor's intention to make an immediate gift continued until death and the donee acquires legal title as the donor's executor or administrator (Strong v Bird).",
+  "authority": "Strong v Bird (1874) LR 18 Eq 315; Day v Harris [2013] EWCA Civ 191",
+  "verified_source_url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2013/191",
+  "tags": [
+   "constitution of trusts",
+   "equity will not assist a volunteer",
+   "strong v bird"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Creation and requirements of express trusts: exceptions to the rule that equity will not assist a volunteer (the rule in Strong v Bird)",
+   "context_subject": "Trusts",
+   "source_type": "judgment",
+   "source_quote": "It could not be fully effective without delivery of the manuscripts, but it became a complete gift, by virtue of Strong v Bird , on Sir Malcolm’s death when Mr Day became an executor.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Day v Harris does not itself state the continuing-intention requirement; it is stated in Osborne v Osborne [2025] EWHC 455 (Ch) para 27 (https://caselaw.nationalarchives.gov.uk/ewhc/ch/2025/455), quoting Williams, Mortimer & Sunnucks: 'the intention must remain unchanged until the settlor’s death'."
+  }
+ },
+ {
+  "id": "lib-tru-008",
+  "subject": "Trusts",
+  "flk": "FLK2",
+  "difficulty": "hard",
+  "title": "Gift to a trust where the donor is one of several trustees (Choithram v Pagarani)",
+  "scenario": "Helena Brandt executed a trust deed creating the Brandt Family Trust for her grandchildren, naming herself and her two adult sons, Lukas and Max, as the trustees. Immediately after signing, in front of all three, she said: 'I now give my investment portfolio to the Brandt Family Trust.' She intended this to take effect at once. The portfolio stayed registered in Helena's sole name, and she signed no transfer to the three trustees. She died a month later. Her next of kin, who take her estate on intestacy, argue that the gift is incomplete.",
+  "stem": "Which of the following best describes the status of the portfolio?",
+  "options": {
+   "A": "It forms part of Helena's estate, because the gift was not complete until the portfolio was transferred into the names of all three trustees.",
+   "B": "It is held on the trusts of the Brandt Family Trust, because Helena was herself one of the trustees, so her conscience was bound and her estate must transfer the portfolio into the names of all the trustees.",
+   "C": "It forms part of Helena's estate, because she used words of outright gift and the court cannot treat them as a declaration of trust.",
+   "D": "It is held on the trusts of the Brandt Family Trust only if Lukas and Max had given value for it.",
+   "E": "It is held on resulting trust for Helena's estate, because a trust cannot be constituted while the settlor retains legal title."
+  },
+  "answer": "B",
+  "explanation": "Ordinarily a gift on trust is complete only when the property is vested in the trustees, and ineffective words of outright gift will not be read as a declaration of trust (Milroy v Lord). In Choithram v Pagarani the Privy Council held that this does not defeat a gift where the donor is herself one of the trustees. Words of gift 'to the trust' can only mean a gift to the trustees to hold on the trusts of the deed. The Board said there is no distinction in principle between a donor who declares herself sole trustee and one who declares herself one of several trustees: in both cases her conscience is affected and it would be unconscionable to let her resile. Where one of a body of trustees has the property vested in her, she is bound by the trust and must transfer it into the names of all the trustees. Helena made an immediate, unconditional gift to a trust of which she was a trustee, so her estate holds the portfolio on the trusts of the deed and must vest it in the trustees.",
+  "why_wrong": {
+   "A": "Choithram holds that vesting in one of the trustees, the donor, is enough; transfer to all trustees can be compelled afterwards.",
+   "C": "In context 'I give to the trust' means a gift to the trustees on the trusts of the deed, so Milroy v Lord is not breached.",
+   "D": "Beneficiaries of a constituted trust can enforce it even though they are volunteers; no value is needed.",
+   "E": "Retaining the legal title as one of the trustees does not prevent constitution; no resulting trust arises."
+  },
+  "key_rule": "A donor who makes an immediate gift to a trust of which they are one of the trustees is bound by it and must vest the property in all the trustees (Choithram).",
+  "authority": "T Choithram International SA v Pagarani [2000] UKPC 46, [2001] 1 WLR 1",
+  "verified_source_url": "https://www.bailii.org/uk/cases/UKPC/2000/46.html",
+  "tags": [
+   "constitution of trusts",
+   "express trusts",
+   "equity will not assist a volunteer"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Creation and requirements of express trusts: exceptions to the rule that equity will not assist a volunteer (Choithram v Pagarani)",
+   "context_subject": "Trusts",
+   "source_type": "judgment",
+   "source_quote": "There can in principle be no distinction between the case where the donor declares himself to be sole trustee ... and the case where he declares himself to be one of the Trustees for that donee or purpose.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-tru-009",
+  "subject": "Trusts",
+  "flk": "FLK2",
+  "difficulty": "easy",
+  "title": "Charitable purposes: identifying a valid charitable trust (Charities Act 2011)",
+  "scenario": "Gordon Pryce, who lives in Hull, England, is preparing his will. He asks you which of several proposed gifts would take effect as a valid charitable trust. Assume each gift is otherwise properly drafted, takes effect in England and Wales, and that there is no other evidence about public benefit beyond what is stated.",
+  "stem": "Which proposed gift is most likely to be a valid charitable trust?",
+  "options": {
+   "A": "£40,000 to provide an annual holiday for his four grandchildren.",
+   "B": "£60,000 to maintain the private garden at his former home, which will be closed to the public.",
+   "C": "£25,000 to pay for annual dinners for the members of his private dining club.",
+   "D": "£50,000 to preserve his late father's collection of racing cars for viewing by family members only.",
+   "E": "£80,000 to provide free coaching and equipment for a community football club open to all young people in Hull."
+  },
+  "answer": "E",
+  "explanation": "Under section 2(1) of the Charities Act 2011 a charitable purpose is one that falls within the list of descriptions in section 3(1) and is for the public benefit. Section 4(2) provides that it is not to be presumed that a purpose of a particular description is for the public benefit, so public benefit must actually be shown. Section 3(1)(g) lists 'the advancement of amateur sport', and section 3(2)(d) defines sport as sports or games which promote health by involving physical or mental skill or exertion. Free football coaching and equipment for a community club open to all young people in Hull falls squarely within that head. Because it benefits a section of the public rather than named individuals, it satisfies the public benefit requirement. Each of the other gifts benefits only Gordon's family or a private group, or serves a purely private purpose. None of those benefits the public, so none is charitable. As non-charitable purpose trusts or private gifts they would also lack the special advantages of charitable status.",
+  "why_wrong": {
+   "A": "A benefit confined to four named relatives is private, not for the public benefit.",
+   "B": "Maintaining a garden closed to the public serves no public benefit.",
+   "C": "Dinners for members of a private club benefit a private group, and the purpose falls under no s.3(1) head.",
+   "D": "A collection viewable only by family members provides no public benefit, even if heritage could otherwise be a charitable head."
+  },
+  "key_rule": "A charitable purpose must fall within a description in s.3(1) of the Charities Act 2011 and be for the public benefit, which is not presumed (ss.2 and 4).",
+  "authority": "Charities Act 2011, ss.2(1), 3(1)(g) and 4(2)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2011/25/section/3",
+  "tags": [
+   "charitable trusts",
+   "purpose trusts",
+   "public benefit"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "The distinction between charitable trusts and non-charitable purpose trusts",
+   "context_subject": "Trusts",
+   "source_type": "legislation",
+   "source_quote": "(g) the advancement of amateur sport; ... “ sport ” means sports or games which promote health by involving physical or mental skill or exertion,",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Sections 2 and 4 were also fetched and checked (https://www.legislation.gov.uk/ukpga/2011/25/section/2 and /section/4); no outstanding changes listed."
+  }
+ },
+ {
+  "id": "lib-tru-010",
+  "subject": "Trusts",
+  "flk": "FLK2",
+  "difficulty": "easy",
+  "title": "Automatic resulting trust where express trusts do not exhaust the beneficial interest",
+  "scenario": "In 2019 Lucas Varga transferred £200,000 to two trustees by a deed which directed them 'to pay the income to my partner Nadia for the rest of her life'. The deed said nothing about who was to take the capital after Nadia's death, and there is no evidence that Lucas intended to give up any remaining interest in the fund. Nadia has just died. Lucas is alive.",
+  "stem": "Who is beneficially entitled to the £200,000 capital?",
+  "options": {
+   "A": "Nadia's estate, because she was the only beneficiary named in the deed.",
+   "B": "The trustees beneficially, because the deed gave them the legal title and named no one else.",
+   "C": "The Crown as bona vacantia, because no one is entitled under the deed after Nadia's death.",
+   "D": "Lucas, because the express trusts did not exhaust the whole beneficial interest, so the capital is held on resulting trust for him.",
+   "E": "A charity chosen by the trustees, applied cy-près, because the trust has failed."
+  },
+  "answer": "D",
+  "explanation": "In Westdeutsche Landesbank v Islington LBC Lord Browne-Wilkinson identified two situations in which a resulting trust arises. One is where A transfers property to B on express trusts, but the trusts declared do not exhaust the whole beneficial interest. That is this case. Lucas declared a trust of income for Nadia's life but made no provision for the capital after her death, so the beneficial interest in remainder was never disposed of. The trustees cannot keep it for themselves, because they took the property as trustees, not as donees. The undisposed-of interest therefore results to Lucas, the settlor. Lord Browne-Wilkinson noted that if a settlor has expressly or by necessary implication abandoned any beneficial interest, there is no resulting trust and the property goes to the Crown as bona vacantia. Here there is no evidence of abandonment, so that exception does not apply. Nadia's estate is not entitled, because her interest ended on her death.",
+  "why_wrong": {
+   "A": "Nadia had only a life interest, which ended on her death; her estate has no claim to capital.",
+   "B": "Trustees hold for others, not for themselves; a gap in the trusts benefits the settlor, not the trustees.",
+   "C": "Bona vacantia arises only where the settlor has abandoned his beneficial interest, and there is no evidence of that.",
+   "E": "Cy-près applies to charitable trusts, and this was a private trust."
+  },
+  "key_rule": "Where property is transferred on express trusts that do not exhaust the whole beneficial interest, the undisposed-of interest is held on resulting trust for the transferor (Westdeutsche).",
+  "authority": "Westdeutsche Landesbank Girozentrale v Islington LBC [1996] UKHL 12, [1996] AC 669",
+  "verified_source_url": "https://www.bailii.org/uk/cases/UKHL/1996/12.html",
+  "tags": [
+   "resulting trusts",
+   "automatic resulting trust"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Resulting trusts: automatic resulting trusts",
+   "context_subject": "Trusts",
+   "source_type": "judgment",
+   "source_quote": "Where A transfers property to B on express trusts, but the trusts declared do not exhaust the whole beneficial interest",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-tru-011",
+  "subject": "Trusts",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Presumed resulting trust: purchase money provided by another",
+  "scenario": "Hamid Rahimi paid the whole £300,000 price of a buy-to-let flat in Manchester, England, which was registered in the sole name of his business associate, Sean Doyle, because Hamid was abroad on a long work posting when the purchase had to be completed. They are not related, are not in a personal relationship, and neither has ever lived in the flat. There is no written declaration of trust and no evidence either way about whether Hamid intended a gift. Sean now claims that the flat is his.",
+  "stem": "Which of the following best describes the beneficial ownership of the flat?",
+  "options": {
+   "A": "Sean holds the flat on resulting trust for Hamid, because Hamid provided all the purchase money and nothing rebuts the presumption that he did not intend a gift.",
+   "B": "Sean owns the flat outright, because he is the registered proprietor and equity follows the law.",
+   "C": "Hamid has no interest, because a trust of land is unenforceable without writing signed by Sean.",
+   "D": "Hamid and Sean own the flat in equal shares, because they acquired it as part of a joint business relationship.",
+   "E": "Hamid has only a personal claim against Sean to repayment of £300,000 as a loan."
+  },
+  "answer": "A",
+  "explanation": "In Westdeutsche Landesbank v Islington LBC Lord Browne-Wilkinson described the first type of resulting trust. Where A pays wholly or in part for property vested in B alone, there is a presumption that A did not intend a gift, and the property is held on trust for A in proportion to his contribution. The presumption can be rebutted by evidence that A intended an outright transfer, but there is no such evidence here. Hamid paid the entire price for a flat registered in Sean's name, so Sean holds it on resulting trust for Hamid absolutely. This is an investment property bought by business associates, not a family home, so the common intention approach in Stack v Dowden and Jones v Kernott is not the starting point. No signed writing is needed. Section 53(2) of the Law of Property Act 1925 provides that s.53 does not affect the creation or operation of resulting trusts.",
+  "why_wrong": {
+   "B": "'Equity follows the law' gives way to the presumption of resulting trust where someone else provided the purchase money.",
+   "C": "Section 53(2) LPA 1925 exempts resulting trusts from the writing requirements.",
+   "D": "Equal shares would ignore that Hamid alone provided the price; shares follow contributions under a resulting trust.",
+   "E": "Nothing suggests a loan; the presumption gives Hamid a proprietary interest in the flat itself."
+  },
+  "key_rule": "Where A pays for property put in B's name, B is presumed to hold it on resulting trust for A in proportion to A's contribution, unless an intention to give is shown.",
+  "authority": "Westdeutsche Landesbank Girozentrale v Islington LBC [1996] UKHL 12, [1996] AC 669; Law of Property Act 1925, s.53(2)",
+  "verified_source_url": "https://www.bailii.org/uk/cases/UKHL/1996/12.html",
+  "tags": [
+   "resulting trusts",
+   "presumed resulting trust",
+   "land"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Resulting trusts: presumed resulting trusts",
+   "context_subject": "Trusts",
+   "source_type": "judgment",
+   "source_quote": "there is a presumption that A did not intend to make a gift to B: the money or property is held on trust for A (if he is the sole provider of the money)",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "The facts avoid any relationship that could raise the presumption of advancement (Equality Act 2010 s.199, which would abolish it, has not been brought into force)."
+  }
+ },
+ {
+  "id": "lib-tru-012",
+  "subject": "Trusts",
+  "flk": "FLK2",
+  "difficulty": "easy",
+  "title": "Family home in joint names: the starting point (Stack v Dowden; Jones v Kernott)",
+  "scenario": "Ifeoma and Callum, an unmarried couple, bought a house in Nottingham, England, as their family home in 2014. It was transferred into their joint names, and both are liable on the mortgage. The transfer contains no declaration of their beneficial interests. Ifeoma provided 70% of the deposit. For twelve years they pooled their earnings in a joint account from which all household bills and mortgage payments were made. They have now separated, and Ifeoma claims a 70% share.",
+  "stem": "What is the starting point for deciding how the beneficial interest in the house is shared?",
+  "options": {
+   "A": "A presumption of resulting trust, so the shares follow each party's contribution to the purchase price.",
+   "B": "Equity follows the law, so they are presumed to be joint tenants in equity, and Ifeoma must show a different common intention to displace that.",
+   "C": "The court divides the beneficial interest in whatever shares it considers fair, without any presumption.",
+   "D": "Ifeoma is entitled to 70%, because a larger deposit contribution automatically gives a larger share.",
+   "E": "Only payments towards the mortgage capital are relevant, so household bills paid from the joint account must be ignored."
+  },
+  "answer": "B",
+  "explanation": "In Jones v Kernott the Supreme Court summarised the principles where a family home is bought in the joint names of a cohabiting couple who are both responsible for the mortgage, with no express declaration of their beneficial interests. The starting point is that equity follows the law and they are joint tenants both in law and in equity. That presumption can be displaced by showing that they had a different common intention when they acquired the home, or later formed one, deduced objectively from their conduct. Stack v Dowden described this as a heavy burden on the party asserting unequal shares. Lady Hale and Lord Walker also said the resulting trust presumption is not appropriate to the family home. So the starting point is beneficial joint tenancy, and Ifeoma bears the burden of proving a different common intention. On these facts, with twelve years of pooled finances, a larger deposit contribution is unlikely to be enough.",
+  "why_wrong": {
+   "A": "Jones v Kernott (para 53) said resulting trust assumptions are not appropriate to beneficial interests in a family home.",
+   "C": "Fairness comes in only to quantify shares once the joint tenancy presumption is displaced and actual intention cannot be found.",
+   "D": "Unequal contributions do not automatically override the presumption of joint beneficial ownership.",
+   "E": "The court considers the whole course of dealing; financial contributions are relevant but not the only factor."
+  },
+  "key_rule": "Where a family home is in joint names with no express declaration, the starting point is beneficial joint tenancy, displaced only by proof of a different common intention.",
+  "authority": "Jones v Kernott [2011] UKSC 53, [2012] 1 AC 776, para 51; Stack v Dowden [2007] UKHL 17, [2007] 2 AC 432",
+  "verified_source_url": "https://caselaw.nationalarchives.gov.uk/uksc/2011/53",
+  "tags": [
+   "co-ownership",
+   "common intention constructive trust",
+   "family home"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Trusts of the family home: establishment of a common intention constructive trust (legal title in the name of both parties)",
+   "context_subject": "Trusts",
+   "source_type": "judgment",
+   "source_quote": "(1) The starting point is that equity follows the law and they are joint tenants both in law and in equity. (2) That presumption can be displaced by showing (a) that the parties had a different common intention",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Stack v Dowden was not fetched separately; Jones v Kernott paras 51 and 60 restate its reasoning, including the 'heavy burden'."
+  }
+ },
+ {
+  "id": "lib-tru-013",
+  "subject": "Trusts",
+  "flk": "FLK2",
+  "difficulty": "hard",
+  "title": "Quantifying shares after a change of intention: the 'fair share' rule (Jones v Kernott)",
+  "scenario": "Sunita and Gareth bought a house in Swindon, England, in joint names in 2006 as their family home, with no declaration of trust. They separated in 2011, when Gareth moved out. From then on Sunita alone paid the mortgage, insurance and repairs, and brought up their children in the house. Gareth stopped contributing and used his savings to buy a flat of his own. The court finds that, after the separation, the couple came to intend that their shares in the house would no longer be equal. However, there is no evidence, direct or by inference, of what proportions they intended.",
+  "stem": "How should the court decide the parties' beneficial shares?",
+  "options": {
+   "A": "In equal shares, because a house in joint names is always held equally unless there is an express declaration of trust.",
+   "B": "Strictly in proportion to each party's financial contributions, calculated as for a resulting trust.",
+   "C": "In equal shares, because the court may infer an intention but may never impute one.",
+   "D": "In the shares in which they held it on purchase in 2006, because beneficial interests are fixed at acquisition.",
+   "E": "Each party is entitled to the share the court considers fair, having regard to the whole course of dealing between them in relation to the property."
+  },
+  "answer": "E",
+  "explanation": "In Jones v Kernott the Supreme Court held that the presumption of beneficial joint tenancy can be displaced by showing that the parties later formed a common intention that their shares would change. Where it is clear that they changed their original intention, but it is not possible to ascertain by direct evidence or inference what shares they intended, each is entitled to the share the court considers fair having regard to the whole course of dealing between them in relation to the property. That phrase is given a broad meaning. Financial contributions are relevant, but so are many other factors. That is the situation here. The finding that the couple came to intend unequal shares displaces equality, but no actual proportions can be found. The court must therefore quantify the shares by reference to what is fair over their whole course of dealing. That includes Sunita's sole payment of the outgoings since 2011 and Gareth's investment in his own home. The result is likely to favour Sunita substantially.",
+  "why_wrong": {
+   "A": "The presumption of equality can be displaced by a common intention, original or later, without an express declaration.",
+   "B": "Jones v Kernott rejected resulting trust arithmetic for the family home; contributions are only one factor.",
+   "C": "At the quantification stage the court may impute a fair share where actual intention cannot be found.",
+   "D": "The parties may later form a common intention that their shares will change, as they did here."
+  },
+  "key_rule": "Where a changed intention to hold unequally is shown but its proportions cannot be found, each party takes the share the court thinks fair, having regard to the whole course of dealing.",
+  "authority": "Jones v Kernott [2011] UKSC 53, [2012] 1 AC 776, para 51(4)",
+  "verified_source_url": "https://caselaw.nationalarchives.gov.uk/uksc/2011/53",
+  "tags": [
+   "co-ownership",
+   "common intention constructive trust",
+   "family home"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Trusts of the family home: establishment of a common intention constructive trust (legal title in the name of both parties)",
+   "context_subject": "Trusts",
+   "source_type": "judgment",
+   "source_quote": "“the answer is that each is entitled to that share which the court considers fair having regard to the whole course of dealing between them in relation to the property”",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-tru-014",
+  "subject": "Trusts",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Family home in one party's sole name: is there any beneficial interest at all?",
+  "scenario": "Rhys bought a house in Bristol, England, in his sole name in 2015, funding it with his savings and a mortgage in his sole name. His partner, Amara, moved in with him in 2017. Since then she has paid for some groceries and the occasional utility bill, but she contributed nothing to the purchase price or the mortgage. They never discussed who owned the house. They have now separated and Amara claims a half share. There is no written declaration of trust.",
+  "stem": "Which of the following best describes how the court will approach Amara's claim?",
+  "options": {
+   "A": "Amara is presumed to own half the beneficial interest, because they lived together in the house as a couple.",
+   "B": "Amara is entitled under a resulting trust to a share proportionate to the bills she paid.",
+   "C": "There is no presumption of joint beneficial ownership; Amara must first show a common intention, deduced objectively from their conduct, that she was to have a beneficial interest at all, and only then will the size of her share be considered.",
+   "D": "Amara cannot have any interest, because a trust of land must be evidenced by writing signed by Rhys.",
+   "E": "The starting point is that they own the house equally, and Rhys must prove a contrary intention."
+  },
+  "answer": "C",
+  "explanation": "Jones v Kernott explains that where a family home is in the name of one party only, the starting point differs from the joint names case. The first issue is whether the parties intended the other party to have any beneficial interest in the property at all. Only if so does the second issue, the size of that interest, arise. There is no presumption of joint beneficial ownership. The common intention must be deduced objectively from the parties' conduct, and if a common intention to share is shown but the shares are not, the court quantifies them under the fair share approach. Amara, as the non-owner, therefore bears the burden of establishing a common intention constructive trust. Paying for groceries and occasional bills, with no discussion of ownership and no contribution to the price or mortgage, may well not be enough. No signed writing is needed, because s.53(2) of the Law of Property Act 1925 preserves constructive trusts.",
+  "why_wrong": {
+   "A": "Cohabitation alone raises no presumption of beneficial ownership in a sole-name case.",
+   "B": "Resulting trust reasoning is not the approach to the family home, and household bills are not contributions to the price.",
+   "D": "Common intention constructive trusts need no writing because of s.53(2) LPA 1925.",
+   "E": "Equality is the starting point only where the home is in joint names."
+  },
+  "key_rule": "In a sole-name family home case there is no presumption of shared ownership: the claimant must first prove a common intention to share beneficially, and only then is the share quantified.",
+  "authority": "Jones v Kernott [2011] UKSC 53, [2012] 1 AC 776, para 52",
+  "verified_source_url": "https://caselaw.nationalarchives.gov.uk/uksc/2011/53",
+  "tags": [
+   "common intention constructive trust",
+   "family home",
+   "co-ownership"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Trusts of the family home: establishment of a common intention constructive trust (legal title in the name of a sole party; direct and indirect contributions)",
+   "context_subject": "Trusts",
+   "source_type": "judgment",
+   "source_quote": "The first issue is whether it was intended that the other party have any beneficial interest in the property at all. If he does, the second issue is what that interest is. There is no presumption of joint beneficial ownership.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-tru-015",
+  "subject": "Trusts",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Requirements of proprietary estoppel: assurance, reliance and detriment",
+  "scenario": "Over fifteen years Bryn Hughes, who farmed in Herefordshire, England, repeatedly told his nephew Owain, 'Stick with me and this farm will be yours when I'm gone.' Relying on this, Owain worked full time on the farm for well below the going wage and turned down two better-paid jobs elsewhere. Nothing was ever put in writing and there was no contract. Shortly before he died, Bryn made a new will leaving the farm to a neighbour. Owain consults you.",
+  "stem": "Which of the following best describes Owain's position?",
+  "options": {
+   "A": "He has no claim, because a promise relating to land is unenforceable unless it is in a signed written contract.",
+   "B": "He can sue Bryn's estate for breach of contract, because his work was consideration for the promise.",
+   "C": "He has no claim, because a person is always free to change their will until they die.",
+   "D": "He may have a claim in proprietary estoppel, because Bryn gave him an assurance about the farm on which he reasonably relied to his detriment, and the court may grant a remedy to prevent Bryn's estate going back on it.",
+   "E": "He is entitled as of right to have the whole farm transferred to him, because the court must always give effect to the promised expectation exactly."
+  },
+  "answer": "D",
+  "explanation": "Proprietary estoppel allows equity to intervene where a person makes a promise or assurance about property and the other relies on it to his detriment. Lord Briggs in Guest v Guest explained that a promise is not enforceable unless it is part of a contract, and a person is free to change his will until he dies. Even so, equity may give the promisee a remedy if a promise to confer property in the future was made and he acted to his detriment in reliance on it. Thorner v Major identifies the elements as an assurance, reasonable reliance and resulting detriment. Owain received repeated assurances that the farm would be his, and he worked for low wages and gave up better jobs in reliance on them. Those facts can satisfy each element, so an equity may arise against Bryn's estate. The remedy is for the court to decide in the light of all the circumstances, and is not guaranteed to be the whole farm.",
+  "why_wrong": {
+   "A": "Proprietary estoppel operates outside contract, so the absence of a signed written contract does not bar it.",
+   "B": "There was no contract: Bryn's words were an informal family assurance, and a contract to dispose of land would in any case need signed writing.",
+   "C": "That is the general rule, but equity intervenes where the promisee has relied on the assurance to his detriment.",
+   "E": "Expectation is the usual starting point, but the remedy is discretionary and the court is not bound to give effect to the promise exactly."
+  },
+  "key_rule": "Proprietary estoppel arises where an assurance about property is reasonably relied on to the claimant's detriment, making it unconscionable for the promisor to go back on it.",
+  "authority": "Guest v Guest [2022] UKSC 27, [2024] AC 833, para 4; Thorner v Major [2009] UKHL 18, [2009] 1 WLR 776",
+  "verified_source_url": "https://caselaw.nationalarchives.gov.uk/uksc/2022/27",
+  "tags": [
+   "proprietary estoppel",
+   "family home",
+   "land"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Trusts of the family home: requirements to establish proprietary estoppel",
+   "context_subject": "Trusts",
+   "source_type": "judgment",
+   "source_quote": "equity may in such circumstances provide the promisee ... with a remedy if a promise has been made to confer property upon him in the future, ... in reliance upon which he has acted to his detriment.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Thorner v Major was not fetched separately; the three-element formulation is taken from Guest v Guest, where Lord Leggatt (para 108, dissenting on remedy) attributes it to Thorner. The report citation [2024] AC 833 was not checked; the neutral citation is verified. Option B also relies on s.2 Law of Property (Miscellaneous Provisions) Act 1989 (signed writing for contracts for the sale or other disposition of land), which was not fetched."
+  }
+ },
+ {
+  "id": "lib-tru-016",
+  "subject": "Trusts",
+  "flk": "FLK2",
+  "difficulty": "easy",
+  "title": "Who can be a trustee: appointment of a minor is void (LPA 1925 s.20)",
+  "scenario": "By her will, Precious Ndlovu, who died in England in 2025, left her investment portfolio to 'my brother Tendai and my daughter Rudo as trustees' on trust for her grandchildren. When Precious died, Tendai was 45 and Rudo was 16. Tendai asks what effect Rudo's age has on the trust.",
+  "stem": "Which of the following best describes the position?",
+  "options": {
+   "A": "Rudo's appointment as trustee is void, but the trust takes effect with Tendai as trustee, and a new trustee may be appointed to fill the vacancy.",
+   "B": "Rudo is validly appointed but cannot act until she reaches 18, so no trustee decisions can be made until then.",
+   "C": "The whole trust fails, because one of the named trustees could not lawfully act.",
+   "D": "Rudo's appointment is valid if her surviving parent consents on her behalf.",
+   "E": "A minor may be a trustee of personal property such as investments, but not of land, so Rudo's appointment is valid."
+  },
+  "answer": "A",
+  "explanation": "Section 20 of the Law of Property Act 1925 provides that the appointment of an infant (a person under 18) as a trustee in relation to any settlement or trust is void. The section applies to any settlement or trust, not only trusts of land, so it covers a portfolio of investments. It expressly preserves the power to appoint a new trustee to fill the vacancy. Rudo's appointment is therefore void. The trust does not fail, because equity does not allow a trust to fail for want of a trustee, and in any case Tendai has been validly appointed and can act. A replacement trustee may be appointed under the statutory power in section 36 of the Trustee Act 1925, which lists being an infant among the grounds for replacing a trustee. Once Rudo turns 18 she could be appointed afresh if that is wanted.",
+  "why_wrong": {
+   "B": "Section 20 makes the appointment void, not suspended until majority.",
+   "C": "The trust survives: Tendai is a valid trustee and the vacancy can be filled.",
+   "D": "Parental consent cannot validate an appointment the statute declares void.",
+   "E": "Section 20 applies to 'any settlement or trust', whatever the property."
+  },
+  "key_rule": "The appointment of a person under 18 as trustee of any settlement or trust is void, without affecting the power to appoint a new trustee (LPA 1925 s.20).",
+  "authority": "Law of Property Act 1925, s.20; Trustee Act 1925, s.36(1)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/Geo5/15-16/20/section/20",
+  "tags": [
+   "appointment of trustees",
+   "trustee powers"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Trustees: who can be a trustee; appointment, removal and retirement of trustees",
+   "context_subject": "Trusts",
+   "source_type": "legislation",
+   "source_quote": "The appointment of an infant to be a trustee in relation to any settlement or trust shall be void, but without prejudice to the power to appoint a new trustee to fill the vacancy.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Section 36 TA 1925 was also fetched (https://www.legislation.gov.uk/ukpga/Geo5/15-16/19/section/36); it lists 'is an infant' as a ground for appointing a replacement. LPA 1925 shows an outstanding change (s.52(2)(dc),(dd) from 2016 c.22), which does not affect s.20."
+  }
+ },
+ {
+  "id": "lib-tru-017",
+  "subject": "Trusts",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Trustees' duties when investing: standard investment criteria and proper advice (TA 2000)",
+  "scenario": "Femi Adeyemi and Gwen Price are unpaid lay trustees of a £600,000 family trust in England. The trust deed contains no investment clause and does not exclude any statutory duty. They plan to invest the whole fund in the shares of a single technology company that was recommended in a friend's investment newsletter. They do not intend to take any advice, because they consider the opportunity too good to miss.",
+  "stem": "Which of the following best describes the trustees' duties?",
+  "options": {
+   "A": "They have no particular duties, because the general power of investment lets them make any investment they could make if absolutely entitled to the fund.",
+   "B": "They must have regard to the suitability of the investment and the need for diversification, and must obtain and consider proper advice unless they reasonably conclude that in all the circumstances it is unnecessary or inappropriate.",
+   "C": "They may invest only in government securities and bank deposits unless the beneficiaries agree otherwise.",
+   "D": "They may make the investment only with the written consent of all the adult beneficiaries.",
+   "E": "They must obtain advice only because they are lay trustees; professional trustees are exempt from the duty to take advice."
+  },
+  "answer": "B",
+  "explanation": "Under section 3 of the Trustee Act 2000 a trustee may make any kind of investment he could make if absolutely entitled to the trust assets, but this is subject to the rest of Part II. Section 4 requires a trustee exercising any power of investment to have regard to the standard investment criteria. These are the suitability to the trust of investments of that kind and of the particular investment, and the need for diversification so far as appropriate to the trust's circumstances. Section 5 requires a trustee, before exercising any power of investment, to obtain and consider proper advice about how the power should be exercised in the light of those criteria. The only exception is where the trustee reasonably concludes that in all the circumstances advice is unnecessary or inappropriate. Putting a £600,000 fund into one company's shares on the strength of a newsletter ignores diversification. Their reason for skipping advice is not a reasonable conclusion that it is unnecessary. The statutory duty of care under section 1 also applies to these investment functions.",
+  "why_wrong": {
+   "A": "The general power under s.3 is expressly subject to the duties in ss.4 and 5 and to the statutory duty of care.",
+   "C": "Restriction to narrow-range investments reflects the repealed regime; the 2000 Act gives a general power of investment.",
+   "D": "The Act requires regard to the criteria and to advice, not beneficiary consent.",
+   "E": "Section 5 applies to every trustee; expertise may at most support a reasonable conclusion that advice is unnecessary."
+  },
+  "key_rule": "Trustees investing must consider suitability and diversification and must obtain and consider proper advice, unless they reasonably conclude it is unnecessary or inappropriate (TA 2000 ss.4 and 5).",
+  "authority": "Trustee Act 2000, ss.1, 3, 4 and 5 and Sch 1 para 1",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/2000/29/section/5",
+  "tags": [
+   "trustee investment",
+   "duty of care",
+   "trustee powers"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Trustees: trustees’ duty to invest (and powers in relation to investment); trustees’ duty of care",
+   "context_subject": "Trusts",
+   "source_type": "legislation",
+   "source_quote": "a trustee must (unless the exception applies) obtain and consider proper advice ... a trustee need not obtain such advice if he reasonably concludes that in all the circumstances it is unnecessary or inappropriate to do so.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Sections 1, 3 and 4 and Sch 1 were also fetched (no outstanding effects listed)."
+  }
+ },
+ {
+  "id": "lib-tru-018",
+  "subject": "Trusts",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Statutory maintenance: contingent beneficiary entitled to income at 18 (TA 1925 s.31)",
+  "scenario": "Harriet Quaye died in 2020. Her will left her residuary estate on trust for her grandson Zane 'if he attains the age of 25'. No one has a prior interest. The gift carries the intermediate income, and the will does not exclude or vary section 31 of the Trustee Act 1925. While Zane was a minor the trustees used part of the income for his school fees and accumulated the rest. Zane has just turned 18.",
+  "stem": "What is the trustees' position regarding the income of the trust fund from now on?",
+  "options": {
+   "A": "They must continue to accumulate all the income until Zane reaches 25, when the accumulations and capital will vest in him together.",
+   "B": "They have a continuing discretion until Zane reaches 25 to pay him as much or as little of the income as they think fit.",
+   "C": "They must now transfer the capital to Zane, because he has reached the age of majority.",
+   "D": "They must pay the income to Zane's parent or guardian until he reaches 21.",
+   "E": "They must now pay the income to Zane until he reaches 25, dies, or his interest otherwise fails, even though his interest in the capital is still contingent."
+  },
+  "answer": "E",
+  "explanation": "Section 31(1)(i) of the Trustee Act 1925 gives trustees a discretion during a beneficiary's minority to apply income for his maintenance, education or benefit. Any income not applied must be accumulated under section 31(2). Once the beneficiary reaches 18, section 31(1)(ii) applies. If he has not then got a vested interest in the income, the trustees 'shall thenceforth pay the income' to him until he attains a vested interest, dies, or his interest fails. Under section 31(3) this applies to a contingent interest only if the gift carries the intermediate income, which the facts confirm. Zane's interest in capital is still contingent on reaching 25, but he is 18, so the trustees' discretion has ended. They must now pay him the income as of right. The amendments made by the Inheritance and Trustees' Powers Act 2014 changed the trustees' discretion during minority, not this rule at 18. The capital vests only if Zane reaches 25.",
+  "why_wrong": {
+   "A": "Compulsory accumulation under s.31(2) applies only during minority; from 18 the income must be paid to Zane.",
+   "B": "The discretion in s.31(1)(i) lasts only during infancy; at 18 the duty in s.31(1)(ii) takes over.",
+   "C": "Zane's entitlement to capital remains contingent on reaching 25; s.31 deals with income only.",
+   "D": "The age of majority is 18, and from 18 income is paid to the beneficiary himself."
+  },
+  "key_rule": "Under TA 1925 s.31(1)(ii), a beneficiary with a contingent interest that carries intermediate income becomes entitled to the income at 18, until the interest vests or fails.",
+  "authority": "Trustee Act 1925, s.31(1)(ii), (2) and (3), as amended by the Inheritance and Trustees' Powers Act 2014",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/Geo5/15-16/19/section/31",
+  "tags": [
+   "power of maintenance",
+   "contingent interest",
+   "trustee powers"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Trustees: trustees’ statutory powers of maintenance and advancement",
+   "context_subject": "Trusts",
+   "source_type": "legislation",
+   "source_quote": "if such person on attaining the age of [ F2 eighteen years ] has not a vested interest in such income, the trustees shall thenceforth pay the income ... to him, until he either attains a vested interest therein",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Whether a contingent residuary gift carries intermediate income (LPA 1925 s.175) is stated as an assumption rather than tested."
+  }
+ },
+ {
+  "id": "lib-tru-019",
+  "subject": "Trusts",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Self-dealing rule: trustee buying trust property",
+  "scenario": "Mairead Flynn and Colin Tate are the trustees of a will trust in England. The trust owns a holiday cottage in Cornwall. Mairead wants to buy the cottage herself. The trustees obtain an independent valuation, and Colin agrees to sell the cottage to Mairead at the full valuation figure. The will contains no clause authorising a trustee to buy trust property, the beneficiaries are not told, and the court's approval is not sought. A year later one of the adult beneficiaries learns of the sale and objects.",
+  "stem": "Which of the following best describes the validity of the sale?",
+  "options": {
+   "A": "The sale is unimpeachable, because Mairead paid the full independent valuation.",
+   "B": "The sale is valid, because the other trustee approved it.",
+   "C": "The sale is voidable at the instance of any beneficiary, however fair the price, because Mairead sold trust property to herself without authority or the beneficiaries' fully informed consent.",
+   "D": "The sale is automatically void, so legal title never passed to Mairead.",
+   "E": "The sale can be set aside only if the beneficiary proves that Mairead took advantage of her position."
+  },
+  "answer": "C",
+  "explanation": "The self-dealing rule, stated by Megarry V-C in Tito v Waddell (No 2) and applied in Barnsley v Noble, is that if a trustee sells trust property to himself, the sale is voidable by any beneficiary ex debito justitiae, however fair the transaction. The rule reflects the fiduciary's duty not to place himself in a position where his interest and duty conflict. As Barnsley v Noble records, it applies unless the fiduciary has obtained the principal's fully informed consent, or the transaction is authorised by the trust instrument or the court. Mairead, as trustee, was on both sides of the transaction, and none of those safeguards was present. The fairness of the price and the co-trustee's agreement are therefore beside the point. The objecting beneficiary can have the sale set aside as of right. This is different from the fair-dealing rule, which governs a trustee buying a beneficiary's own beneficial interest.",
+  "why_wrong": {
+   "A": "The self-dealing rule applies however fair the price; a full valuation is no defence.",
+   "B": "A co-trustee cannot authorise a conflicting transaction; the beneficiaries' informed consent or other authority is needed.",
+   "D": "The transaction is voidable, not void, so it stands until a beneficiary elects to set it aside.",
+   "E": "Proof of no advantage taken is the test under the fair-dealing rule, which governs purchases of a beneficiary's interest."
+  },
+  "key_rule": "A sale of trust property to a trustee is voidable by any beneficiary as of right, however fair the price, unless authorised or made with fully informed consent (self-dealing rule).",
+  "authority": "Tito v Waddell (No 2) [1977] Ch 106, 241; Barnsley v Noble [2016] EWCA Civ 799",
+  "verified_source_url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2016/799",
+  "tags": [
+   "conflict of interest",
+   "fiduciary duties",
+   "self-dealing"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "The fiduciary relationship and its obligations: trustees not to purchase trust property",
+   "context_subject": "Trusts",
+   "source_type": "judgment",
+   "source_quote": "the transaction was voidable by any beneficiary ex debito justitiae , however fair the transaction ... such a transaction is in breach of the rule unless the fiduciary has obtained his principal’s fully informed consent",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "The quoted passage in Barnsley v Noble (para 15) is the Court of Appeal recording the trial judge's summary; Tito v Waddell (No 2) itself was not fetched. Authorisation by the trust instrument or the court is standard doctrine, not stated in the quoted passage."
+  }
+ },
+ {
+  "id": "lib-tru-020",
+  "subject": "Trusts",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Secret commission received by a trustee is held on trust (FHR European Ventures v Cedar)",
+  "scenario": "Oskar Lind, a trustee of a family trust in England, placed £400,000 of trust money with an investment manager. Without telling his co-trustees or the beneficiaries, he accepted a £15,000 'introduction commission' from the manager. He used the £15,000 to buy shares in his own name, which are now worth £25,000. The trust investment itself has performed well and the trust has suffered no loss. Oskar is now insolvent.",
+  "stem": "Which of the following best describes the beneficiaries' rights in respect of the commission?",
+  "options": {
+   "A": "They have no claim, because the trust suffered no loss from the investment.",
+   "B": "They have only a personal claim against Oskar for £15,000, ranking with his other unsecured creditors.",
+   "C": "Oskar may keep the commission, because the investment he made for the trust was a good one.",
+   "D": "Oskar held the commission on trust for the trust from the moment he received it, so the beneficiaries can trace into the shares and claim them, now worth £25,000, ahead of his unsecured creditors.",
+   "E": "They have a claim only if they can prove that Oskar acted dishonestly in accepting the commission."
+  },
+  "answer": "D",
+  "explanation": "A fiduciary must not make a profit out of his trust or place himself in a position where his duty and interest may conflict. In FHR European Ventures v Cedar Capital Partners the Supreme Court held that a bribe or secret commission accepted by an agent is held on trust for his principal. The principal therefore has a proprietary claim, not merely a claim to equitable compensation for its value. The court explained that a proprietary claim gives priority over the fiduciary's unsecured creditors and allows the principal to trace and follow the money in equity. A trustee is the clearest example of a fiduciary. Oskar's £15,000 commission was received through his position and without informed consent, so he held it on trust from receipt. The beneficiaries can trace it into the shares bought with it and claim those shares, including their increase in value, ahead of his unsecured creditors. Liability to account does not depend on the trust having suffered loss or on proof of dishonesty.",
+  "why_wrong": {
+   "A": "The no-profit rule does not depend on loss to the trust; the profit itself must be given up.",
+   "B": "FHR rejected the view that the principal has only a personal claim; the commission is held on trust.",
+   "C": "A good outcome for the trust does not excuse an unauthorised profit made from the fiduciary position.",
+   "E": "Liability to account for an unauthorised profit is strict and does not require dishonesty."
+  },
+  "key_rule": "A secret commission or bribe received by a fiduciary is held on trust for the principal, giving a proprietary claim that can be traced into its proceeds (FHR v Cedar).",
+  "authority": "FHR European Ventures LLP v Cedar Capital Partners LLC [2014] UKSC 45, [2015] AC 250",
+  "verified_source_url": "https://caselaw.nationalarchives.gov.uk/uksc/2014/45",
+  "tags": [
+   "fiduciary duties",
+   "conflict of interest",
+   "secret profits"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "The fiduciary relationship and its obligations: duty not to profit from fiduciary position",
+   "context_subject": "Trusts",
+   "source_type": "judgment",
+   "source_quote": "if the principal has a proprietary claim to the bribe or commission, he can trace and follow it in equity",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "FHR concerned an agent; its application to trustees as fiduciaries is orthodox but inferred. The claim to the increase in value follows from the proprietary characterisation and tracing; FHR does not decide that point on its own facts."
+  }
+ },
+ {
+  "id": "lib-tru-021",
+  "subject": "Trusts",
+  "flk": "FLK2",
+  "difficulty": "easy",
+  "title": "Relief from liability for breach of trust: Trustee Act 1925 s.61",
+  "scenario": "Agnes Kirby, an unpaid lay trustee of a small family trust in England, distributed £30,000 to a beneficiary in reliance on written advice from the trust's solicitors that the beneficiary was entitled. The advice was wrong and the payment was a breach of trust. Agnes acted in good faith, followed the advice carefully, and had no reason to doubt it. The trust deed contains no exemption clause. The other beneficiaries now sue her.",
+  "stem": "On what basis may the court relieve Agnes from personal liability?",
+  "options": {
+   "A": "She is automatically excused, because unpaid trustees are not liable for breaches of trust committed in good faith.",
+   "B": "The court may relieve her wholly or partly if she acted honestly and reasonably and ought fairly to be excused for the breach and for failing to obtain the court's directions.",
+   "C": "The court may relieve her only if all the beneficiaries consent.",
+   "D": "The court cannot relieve her, because only an exemption clause in the trust deed can excuse a breach of trust.",
+   "E": "The court may relieve her if she acted honestly, even if she acted unreasonably."
+  },
+  "answer": "B",
+  "explanation": "Section 61 of the Trustee Act 1925 gives the court a discretion where a trustee is or may be personally liable for a breach of trust. If the trustee has acted honestly and reasonably, and ought fairly to be excused for the breach and for omitting to obtain the court's directions, the court may relieve him either wholly or partly from personal liability. Agnes acted in good faith and reasonably: she took and carefully followed professional advice and had no reason to doubt it. She is also an unpaid lay trustee, a factor courts take into account. These facts make her a strong candidate for relief, in whole or in part. Relief is discretionary, however, and depends on all three elements being met. It is not automatic, and honesty alone is not enough. The trust's rights against the solicitors who gave the wrong advice are a separate matter.",
+  "why_wrong": {
+   "A": "Being unpaid is relevant to the discretion but gives no automatic immunity; trustees' liability for breach is strict.",
+   "C": "Section 61 relief is a matter for the court, not for the beneficiaries' consent.",
+   "D": "Section 61 operates whether or not the deed has an exemption clause.",
+   "E": "The section requires the trustee to have acted honestly and reasonably; both are needed."
+  },
+  "key_rule": "The court may relieve a trustee wholly or partly from liability for breach of trust if they acted honestly and reasonably and ought fairly to be excused (TA 1925 s.61).",
+  "authority": "Trustee Act 1925, s.61",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/Geo5/15-16/19/section/61",
+  "tags": [
+   "breach of trust",
+   "protection of trustees",
+   "trustee liability"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Trustees’ liability: protection of trustees",
+   "context_subject": "Trusts",
+   "source_type": "legislation",
+   "source_quote": "has acted honestly and reasonably, and ought fairly to be excused for the breach of trust ... then the court may relieve him either wholly or partly from personal liability",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": ""
+  }
+ },
+ {
+  "id": "lib-tru-022",
+  "subject": "Trusts",
+  "flk": "FLK2",
+  "difficulty": "hard",
+  "title": "Limitation for breach of trust: future interests and s.21(3) Limitation Act 1980",
+  "scenario": "A trust in England gives Pearl a life interest, with remainder to Quentin absolutely. In March 2017 the trustee, Rupert, honestly but negligently made an unauthorised investment, which lost much of its value. The loss was reported to both beneficiaries in June 2018. Rupert did not keep or receive any of the trust money himself, there was no fraud, and nothing was concealed. Pearl died in January 2025. In March 2026 Quentin issued proceedings against Rupert for the loss to the capital.",
+  "stem": "Is Quentin's claim time-barred?",
+  "options": {
+   "A": "No, because time did not start to run against Quentin's future interest until it fell into possession on Pearl's death in January 2025, and he has six years from then.",
+   "B": "Yes, because the six-year period ran from the breach in March 2017 and expired in March 2023.",
+   "C": "Yes, because the six-year period ran from discovery of the loss in June 2018 and expired in June 2024.",
+   "D": "No, because there is no limitation period for any claim for breach of trust.",
+   "E": "No, because the limitation period for breach of trust is twelve years from the breach."
+  },
+  "answer": "A",
+  "explanation": "Section 21(3) of the Limitation Act 1980 provides a six-year limitation period for an action by a beneficiary to recover trust property or in respect of any breach of trust, running from when the right of action accrued. It also provides that a right of action is not treated as accruing to a beneficiary entitled to a future interest until that interest falls into possession. Section 21(1) removes any limitation period only for fraud or fraudulent breach of trust, or to recover trust property from a trustee who holds or received it and converted it to his use. Neither applies, because Rupert was merely negligent and kept nothing. Quentin's remainder fell into possession on Pearl's death in January 2025. His six years therefore run from then, until January 2031, and his March 2026 claim is in time. A claim by Pearl, had she sued in 2026, would have been out of time, but her interest ended on her death.",
+  "why_wrong": {
+   "B": "Running time from the breach ignores the s.21(3) rule postponing accrual for future interests until they fall into possession.",
+   "C": "Discovery is not the starting point under s.21(3), absent fraud, concealment or mistake under s.32, none of which arose.",
+   "D": "Section 21(1) removes the limitation period only for fraud or recovery of trust property from the trustee, not for honest negligence.",
+   "E": "The period under s.21(3) is six years, not twelve."
+  },
+  "key_rule": "Claims for breach of trust must be brought within six years, but time does not run against a beneficiary with a future interest until it falls into possession (LA 1980 s.21(3)).",
+  "authority": "Limitation Act 1980, s.21(1) and (3)",
+  "verified_source_url": "https://www.legislation.gov.uk/ukpga/1980/58/section/21",
+  "tags": [
+   "time limits",
+   "breach of trust",
+   "limitation"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Trustees’ liability: limitation period",
+   "context_subject": "Trusts",
+   "source_type": "legislation",
+   "source_quote": "six years from the date on which the right of action accrued ... shall not be treated as having accrued to any beneficiary entitled to a future interest in the trust property until the interest fell into possession.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "legislation.gov.uk lists 'Act applied by 2024 c. 13 s. 234(4)' as an outstanding effect on s.21; it does not alter the text. Section 32 was not fetched; it is mentioned only in a wrong-option explanation."
+  }
+ },
+ {
+  "id": "lib-tru-023",
+  "subject": "Trusts",
+  "flk": "FLK2",
+  "difficulty": "hard",
+  "title": "Tracing into a mixed bank account: the lowest intermediate balance rule",
+  "scenario": "Victor Mensah, a trustee, had £5,000 of his own money in his personal bank account. In breach of trust he paid in £20,000 of trust money, making a balance of £25,000. He then spent £22,000 from the account on a holiday and living expenses, leaving £3,000. A month later he paid £10,000 of his own salary into the account, bringing the balance to £13,000. He did not intend the salary payment to replace the trust money. Victor is now bankrupt and the beneficiaries wish to make a proprietary claim to the money in the account.",
+  "stem": "What is the maximum amount the beneficiaries can claim from the account by tracing?",
+  "options": {
+   "A": "£20,000, because that is the amount of trust money paid into the account.",
+   "B": "£13,000, because the whole current balance is treated as representing the trust money.",
+   "C": "£3,000, because the trust money traceable in the account cannot exceed the lowest balance the account fell to after the trust money was paid in.",
+   "D": "£10,000, because the later payment in is treated as repaying the trust.",
+   "E": "Nothing, because once trust money is mixed with the trustee's own money it can no longer be traced."
+  },
+  "answer": "C",
+  "explanation": "Tracing in equity follows property through a mixed fund, but it cannot go further than the trust money actually surviving. In Federal Republic of Brazil v Durant the Privy Council explained that if the money in an account has dwindled from £1,000 to £1, only the remaining £1 is capable of being substituted by something else, because the rest has ceased to exist. That explains the lowest intermediate balance rule in James Roscoe (Bolton) Ltd v Winder, whose correctness the Board did not doubt. When Victor spent £22,000, the balance fell to £3,000. Whichever money is treated as spent first, no more than £3,000 of trust money can have survived in the account. His later payment of his own £10,000 salary is not treated as replacing the trust money, because he had no intention to repay the trust and there was no coordinated transaction linking it to the misappropriation. The beneficiaries' proprietary claim to the account is therefore capped at £3,000. Any shortfall is a personal claim in Victor's bankruptcy.",
+  "why_wrong": {
+   "A": "Most of the £20,000 was dissipated; tracing cannot reach money that no longer exists.",
+   "B": "Later deposits of the trustee's own money are not presumed to replace trust money.",
+   "D": "The £10,000 was Victor's own money, paid in with no intention to repay the trust.",
+   "E": "Equity can trace into a mixed account; mixing alone does not end the right to trace."
+  },
+  "key_rule": "A claimant tracing into a mixed account can claim no more than the lowest balance the account reached after the trust money went in, absent an intention to replace it (Roscoe v Winder).",
+  "authority": "Federal Republic of Brazil v Durant International Corp [2015] UKPC 35, [2016] AC 297; James Roscoe (Bolton) Ltd v Winder [1915] 1 Ch 62",
+  "verified_source_url": "https://caselaw.nationalarchives.gov.uk/ukpc/2015/35",
+  "tags": [
+   "tracing",
+   "equitable remedies",
+   "breach of trust"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "The nature of equitable remedies and the availability of tracing in equity",
+   "context_subject": "Trusts",
+   "source_type": "judgment",
+   "source_quote": "If the money in a bank account has dwindled from £1,000 to £1, only the remaining £1 is capable of being substituted by something else; the £999 has ceased to exist. This explains “the lowest intermediate balance” principle.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Durant (para 40) allows 'backwards tracing' where there is a coordinated transaction; the scenario expressly excludes any intention to replace, so the cap applies. The [2016] AC 297 report citation was not checked."
+  }
+ },
+ {
+  "id": "lib-tru-024",
+  "subject": "Trusts",
+  "flk": "FLK2",
+  "difficulty": "medium",
+  "title": "Dishonest assistance: the trustee's honesty is irrelevant (Royal Brunei Airlines v Tan)",
+  "scenario": "Celia Osei, a trustee, honestly but wrongly believed that the trust deed allowed her to lend £150,000 of trust money to a property developer. She asked her accountant, Darius Webb, to arrange the transfer. Darius knew the loan was plainly outside the trustee's powers and knew that Celia mistakenly thought otherwise, but he said nothing and arranged the transfer. He received none of the trust money. The developer became insolvent and the money was lost. The beneficiaries sue Darius.",
+  "stem": "Which of the following best describes Darius's liability?",
+  "options": {
+   "A": "He is not liable, because accessory liability requires a dishonest and fraudulent design on the part of the trustee, and Celia was honest.",
+   "B": "He is not liable, because he received none of the trust property.",
+   "C": "He is liable only if he was negligent, because the test is whether he ought to have known of the breach.",
+   "D": "He is liable only if he himself regarded his conduct as dishonest by his own standards.",
+   "E": "He is liable to make good the loss as a dishonest assistant, because he dishonestly assisted in the breach of trust; Celia's honesty does not matter."
+  },
+  "answer": "E",
+  "explanation": "In Royal Brunei Airlines v Tan the Privy Council held that dishonesty is both a necessary and a sufficient ingredient of accessory liability. A person who dishonestly procures or assists in a breach of trust is liable to make good the resulting loss, and it is not necessary that the trustee was also acting dishonestly. Lord Nicholls gave the example of a solicitor who knows that a trustee is mistakenly making a payment in plain breach of trust and dishonestly leaves him under that misapprehension. Dishonesty here means not acting as an honest person would in the circumstances. That is an objective standard, assessed in the light of what the defendant actually knew. Darius knew the loan was outside the trustee's powers and knew Celia was mistaken, yet he arranged the transfer without telling her. An honest person would not do that. He is liable for the £150,000 loss even though he received nothing.",
+  "why_wrong": {
+   "A": "Royal Brunei rejected any requirement that the trustee be dishonest; what matters is the accessory's state of mind.",
+   "B": "Receipt is required for knowing receipt, not for accessory liability, which does not depend on receiving trust property.",
+   "C": "Negligence is not enough; dishonesty is the touchstone of accessory liability.",
+   "D": "The standard of honesty is objective; individuals cannot set their own standards."
+  },
+  "key_rule": "A person who dishonestly assists in a breach of trust is liable for the loss, whether or not the trustee was dishonest; dishonesty is judged objectively (Royal Brunei v Tan).",
+  "authority": "Royal Brunei Airlines Sdn Bhd v Tan [1995] UKPC 4, [1995] 2 AC 378",
+  "verified_source_url": "https://www.bailii.org/uk/cases/UKPC/1995/4.html",
+  "tags": [
+   "dishonest assistance",
+   "third party liability",
+   "dishonesty"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Liability of strangers to the trust: dishonest assistance",
+   "context_subject": "Trusts",
+   "source_type": "judgment",
+   "source_quote": "A liability in equity to make good resulting loss attaches to a person who dishonestly procures or assists in a breach of trust or fiduciary obligation. It is not necessary that, in addition the trustee or fiduciary was acting dishonestly",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Later cases (Twinsectra; Barlow Clowes; Ivey v Genting) refined how dishonesty is assessed but do not affect this answer."
+  }
+ },
+ {
+  "id": "lib-tru-025",
+  "subject": "Trusts",
+  "flk": "FLK2",
+  "difficulty": "hard",
+  "title": "Knowing receipt: no liability for a bona fide purchaser who later learns of the breach",
+  "scenario": "In breach of trust, Lionel Grant, the sole trustee of a family trust in England, sold 5,000 trust shares to Imogen Clarke for their full market value. Imogen acted in good faith and had no notice, actual or constructive, that the sale was a breach of trust. Eighteen months later a beneficiary tells Imogen about the breach. She still holds the shares. The beneficiaries claim that she is now personally liable in knowing receipt.",
+  "stem": "Is Imogen liable in knowing receipt?",
+  "options": {
+   "A": "Yes, because she learned of the breach of trust while she still held the shares.",
+   "B": "Yes, because liability for receiving trust property transferred in breach of trust is strict.",
+   "C": "Yes, if the court considers it unconscionable for her to keep the shares now that she knows of the breach.",
+   "D": "No, because as a bona fide purchaser for value without notice she took free of the beneficiaries' interest, and her later knowledge of the breach gives rise to no liability in knowing receipt.",
+   "E": "No, but only because liability in knowing receipt requires the recipient to have acted dishonestly."
+  },
+  "answer": "D",
+  "explanation": "Knowing receipt is a personal liability that can arise where trust property is transferred in breach of trust to a recipient who, with the necessary knowledge, deals with it while the beneficiaries still have an equitable interest in it. In Byers v Saudi National Bank the Supreme Court held that the claim depends on the claimant retaining an equitable proprietary interest in the property when it reaches the defendant. Lord Briggs said it is clear that where trust property is transferred in breach of trust to equity's darling, a bona fide purchaser for value without notice, the transferee's later acquisition of knowledge of the breach gives rise to no liability in knowing receipt. Imogen paid full value in good faith without notice, so she took the shares free of the beneficiaries' interest. Learning of the breach eighteen months later cannot revive a claim against her. The beneficiaries' remedy lies against Lionel personally, and in tracing into the sale proceeds he received.",
+  "why_wrong": {
+   "A": "Later knowledge matters for a volunteer recipient, not for a bona fide purchaser who took free of the trust.",
+   "B": "Knowing receipt is fault-based and in any case never reaches a bona fide purchaser for value without notice.",
+   "C": "Whatever the knowledge test, once the interest is defeated by sale to equity's darling, no unconscionability inquiry arises.",
+   "E": "Dishonesty is the test for dishonest assistance, not knowing receipt; Imogen escapes because she took free of the interest."
+  },
+  "key_rule": "Knowing receipt requires the beneficiaries' equitable interest to subsist when the property is received; a bona fide purchaser without notice who later learns of the breach is not liable.",
+  "authority": "Byers v Saudi National Bank [2023] UKSC 51, [2024] AC 1191; BCCI (Overseas) Ltd v Akindele [2001] Ch 437",
+  "verified_source_url": "https://caselaw.nationalarchives.gov.uk/uksc/2023/51",
+  "tags": [
+   "knowing receipt",
+   "third party liability",
+   "bona fide purchaser"
+  ],
+  "last_reviewed": "2026-10-16",
+  "_draft": {
+   "session": "FLK2-S1",
+   "spec_topic": "Liability of strangers to the trust: knowing receipt",
+   "context_subject": "Trusts",
+   "source_type": "judgment",
+   "source_quote": "it is I think clear that after such a transfer, the subsequent acquisition by the transferee D of knowledge that the transfer had involved a breach of trust by T gives rise to no liability in knowing receipt.",
+   "status": "ready",
+   "hold_reason": "",
+   "uncertainty": "Byers para 23 is in Lord Briggs' judgment; the court's single holding (para 9) concerns the need for a subsisting equitable interest. The precise knowledge test for knowing receipt (Akindele's unconscionability test) was questioned in Byers (paras 82, 101), so this question deliberately avoids testing it. Option B is wrong as stated; strict receipt-based liability is debated academically but is not English law. The [2024] AC 1191 report citation was not checked."
+  }
+ }
+]
