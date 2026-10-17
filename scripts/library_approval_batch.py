@@ -33,5 +33,5 @@ lines += ['## Additional functional copy for approval', '',
 for entry in json.loads((g.ROOT/'docs/library-email-impact.json').read_text()):
     lines.append(f'| {entry["id"]} | {entry["publish_date"]} | {", ".join(entry["fields"])} |')
 lines += ['', 'Final Hark campaign inspection identifies 14 email bodies needing edits (31 unchanged). The 17-row table above counts question changes, not emails. See library-email-reconciliation.md for the proposed campaign list and deployment-before-editing sequence. No email edit is approved or applied by this batch.', '']
-(g.ROOT/'docs/library-approval-batch.md').write_text('\n'.join(lines)+'\n')
+(g.ROOT/'docs/library-approval-batch.md').write_text('\n'.join(lines).rstrip()+'\n')
 print('Wrote review batch; no approvals recorded.')

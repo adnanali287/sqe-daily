@@ -539,4 +539,3 @@ Do not change send dates or send anything. The content audit changes the fields 
 | q044 | 2026-11-25 | key_rule |
 
 Final Hark campaign inspection identifies 14 email bodies needing edits (31 unchanged). The 17-row table above counts question changes, not emails. See library-email-reconciliation.md for the proposed campaign list and deployment-before-editing sequence. No email edit is approved or applied by this batch.
-
