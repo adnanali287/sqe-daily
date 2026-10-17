@@ -3,6 +3,7 @@ import html
 import json
 import os
 import re
+import struct
 import subprocess
 import tempfile
 from datetime import date, datetime
@@ -17,7 +18,7 @@ import generate
 class Document(HTMLParser):
     def __init__(self):
         super().__init__(convert_charrefs=True)
-        self.ids = set(); self.links = []; self.headings = 0
+        self.ids = set(); self.links = []; self.headings = 0; self.icons = []
         self.title = ''; self.description = None; self.noindex = False; self.json_ld = []; self._capture = None
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
@@ -25,6 +26,7 @@ class Document(HTMLParser):
             assert a['id'] not in self.ids, f'Duplicate id: {a["id"]}'
             self.ids.add(a['id'])
         if tag == 'h1': self.headings += 1
+        if tag == 'link' and a.get('rel') == 'icon': self.icons.append(a)
         if tag == 'title': self._capture = 'title'
         if tag == 'script' and a.get('type') == 'application/ld+json': self._capture = 'json'; self.json_ld.append('')
         if tag == 'meta' and a.get('name') == 'description': self.description = a.get('content')
@@ -42,6 +44,9 @@ def iso(value):
     return date.fromisoformat(value)
 
 def check_package(root, today, repo):
+    favicon = (root / 'assets/favicon.png').read_bytes()
+    assert favicon[:8] == b'\x89PNG\r\n\x1a\n', 'Raster favicon must be a real PNG'
+    assert struct.unpack('>II', favicon[16:24]) == (96, 96), 'Favicon must match its declared square size'
     bank = json.loads((root / 'content/questions.json').read_text())
     assert all(q.get('available_from', q['publish_date']) <= today for q in bank)
     routes = {q['id']: q['route'] for q in bank}
@@ -54,6 +59,8 @@ def check_package(root, today, repo):
         document = Document(); document.feed(text); docs[path] = document
         assert document.headings == 1, f'Expected one h1: {path}'
         assert 'rel="canonical"' in text
+        assert any(icon.get('href') == '/assets/favicon.png' and icon.get('type') == 'image/png' and icon.get('sizes') == '96x96' for icon in document.icons), f'Missing Google-compatible favicon: {path}'
+        assert any(icon.get('href') == '/assets/favicon.svg' and icon.get('sizes') == 'any' for icon in document.icons), f'Missing SVG browser favicon: {path}'
         assert '"Person"' not in text, f'No Person entity may be published: {path}'
         for block in document.json_ld:
             data = json.loads(block)
