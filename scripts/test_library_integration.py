@@ -24,6 +24,9 @@ original = json.loads((g.ROOT/'docs/library-daily-baseline.json').read_text())
 daily = json.loads((g.ROOT/'content/questions.json').read_text())
 assert [(q['id'],q['number'],q['publish_date']) for q in original] == [(q['id'],q['number'],q['publish_date']) for q in daily[:len(original)]]
 assert all(q['answer'] == before['answer'] for q,before in zip(daily,original))
+rules = {q['id']:q['key_rule'] for q in daily}
+assert 'superintendent or above' in rules['q042'] and 'within 24 hours' in rules['q042']
+assert 'acknowledgment of service or defence' in rules['q044'] and 'against a party' in rules['q044']
 assert not any('_draft' in q or 'source_quote' in q or 'uncertainty' in q for q in bank)
 next_issue = max(q['number'] for q in bank)+1
 future_daily = {**bank[0],'id':'future-daily-issue-fixture','number':next_issue,'publish_date':'2099-01-01','title':'Future daily issue numbering fixture'}

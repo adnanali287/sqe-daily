@@ -250,7 +250,7 @@
     {
       "id": "q042",
       "available_from": "2026-10-17",
-      "question_hash": "6486c4d9afba24afa6de382bf553d39c74ec1a262d5945c37ebdf873e3b0a3f0",
+      "question_hash": "ffc13c4643150653a6f3fba31e005f7aabfd88bb18bc636a7824020759e933a6",
       "approved": false
     },
     {
@@ -262,7 +262,7 @@
     {
       "id": "q044",
       "available_from": "2026-10-17",
-      "question_hash": "9c9011e17bd2ace6e2a7cb194321587943fc7385de77b376f66b96508008fd51",
+      "question_hash": "6d2c2f1f9c0323c47fc481f2c904137a60ebb56da645c81e4296b5845589013b",
       "approved": false
     },
     {
@@ -2412,7 +2412,7 @@
         "q033": "6b8077709360fbd7798a265ea5e98a9fb0b891b1aa5955f9c9a662f744ed75ae",
         "q034": "0332aa4318d942ebeb27bfca3f65bc9d05eb8365197d9e24ba9e80809f82adca",
         "q043": "d14ade8f1264e6424f6c6ecf876e56ef0afd7c34b953fdb58f273c9fc76d7085",
-        "q044": "9c9011e17bd2ace6e2a7cb194321587943fc7385de77b376f66b96508008fd51",
+        "q044": "6d2c2f1f9c0323c47fc481f2c904137a60ebb56da645c81e4296b5845589013b",
         "q045": "2dea97c12243e2ee07a365866b5db9fcd495107baf1ad4c51753ffa3981add0f",
         "q047": "8ec693e2f2dc7d96d276b87ef377d12183905cdc416bf5819ee297518a5f2184",
         "q048": "324b23368ab80c1caea3d77a22f31d905d870b1ea152b9cf2b11497341e3cd9c",

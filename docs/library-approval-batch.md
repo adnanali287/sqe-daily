@@ -49,9 +49,9 @@ Fingerprints cover exact imported content and composition. Planned release dates
 | q039 | 39 | Land Law | `9f50e683985929a43c262b81ce8b84df2c0af4ee11d9450121c03b10b41e6d3a` |
 | q040 | 40 | Trusts | `a37ea7a1ea57e52b4079a4bc41c24889382a5abbb12390536b5150a39e05d41e` |
 | q041 | 41 | Criminal Law | `9b718e2aa6391f215a5d8b850035920074b8ecbd64aadcd295cddcb63dd41da7` |
-| q042 | 42 | Criminal Practice | `01f4843e411351e083c94163ff8517cb36b66aecd3120496d4b847ecd4092eef` |
+| q042 | 42 | Criminal Practice | `889779c768f9dbf0af13d756142e62fa9dd3cb620a30464e97097d2aca1ef658` |
 | q043 | 43 | Business Law & Practice | `bbac2a46c813d885636f7dfe555d3cc3ac8a61669fc6afd2c956c707f867b415` |
-| q044 | 44 | Dispute Resolution | `6498c50783c949222743150c109d4638fb91a788c3b5c7ae50a85cf1c0267bb7` |
+| q044 | 44 | Dispute Resolution | `9651fec67e1004412d26d22b3ad968f37b5f9f2320432712f8a6f513e2a108a1` |
 | q045 | 45 | Contract | `3d06a5be0d8d47012042ff4b99b7bffa7071f3d53ccc9b40c0c227912fa5bfe0` |
 | q046 | 46 | Tort | `44ef4b033afd72d7b8c64b3eb683578c926955f7bd2ac50430952e18a3f729ea` |
 | q047 | 47 | Legal Services | `a249d7228814ba047876e093ae77583faa06bf2a2a64c7e2ef948be72b469946` |
@@ -383,7 +383,7 @@ Exact question text is in content/questions.json (existing daily bank) and conte
 
 ### FLK1 mock · January 2027
 
-Fingerprint: `2c5eadee46d1aedad3caf489b6b52123e736266da26fbae57188e1d91c630e21`
+Fingerprint: `f9c59c5459d6002f6a200e801367b2f01f0267f3862ef6751a8d9e4c66b10319`
 
 Law cutoff: 2026-09-11. Source: https://sqe.sra.org.uk/news-item/2026/09/10/important-changes-to-sqe1-for-january-2027-onwards
 
@@ -537,3 +537,6 @@ Do not change send dates or send anything. The content audit changes the fields 
 | q040 | 2026-11-21 | key_rule |
 | q042 | 2026-11-23 | key_rule |
 | q044 | 2026-11-25 | key_rule |
+
+Final Hark campaign inspection identifies 14 email bodies needing edits (31 unchanged). The 17-row table above counts question changes, not emails. See library-email-reconciliation.md for the proposed campaign list and deployment-before-editing sequence. No email edit is approved or applied by this batch.
+

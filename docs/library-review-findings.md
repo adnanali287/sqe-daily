@@ -80,3 +80,23 @@ emails, changed recipients or altered send dates in this integration.
   first publication day; do not backdate a later launch to this preview date.
 
 No PR has been merged and no production content approval has been recorded.
+
+## Final Hark review: follow-up corrections
+
+Hark confirmed the two library corrections and reported that the 319 drafts and
+both mock compositions match its intended January-cutoff bank. Its final review
+also found two shortened daily key rules needing repair. Both are now prepared
+in the draft, with the same IDs, dates, answers and URLs:
+
+- q042 restores "or above" to the authorising officer's rank. Verified against
+  [PACE s.42](https://www.legislation.gov.uk/ukpga/1984/60/section/42/data.xml).
+- q044 restores the claimant's application timing and removes the ambiguous
+  "that party". Verified against [CPR 24.3 and 24.4](https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part24).
+
+Their release hashes and all affected mock hashes are refreshed; every new
+approval remains false. Regression checks preserve these two important details.
+
+Hark reports that 14 scheduled campaign bodies need updates, rather than 17:
+the earlier list counted question fields, not campaign bodies. Its campaign
+inspection is not independently repeated by Codex. See
+library-email-reconciliation.md for the exact plan and deployment timing rule.

@@ -28,6 +28,13 @@ def main():
     first = audited[0]
     first['why_wrong'] = dict(re.findall(r'^([A-E]) is wrong:\s*(.+)$', first['explanation'], re.M))
     assert set(first['why_wrong']) == set('ABCDE') - {first['answer']}
+    rule_corrections = {
+        'q042': 'A superintendent or above responsible for the station may extend detention without charge for an indictable (including either-way) offence to 36 hours from the relevant time, after the second review and within 24 hours.',
+        'q044': 'A claimant may apply for summary judgment once the defendant files an acknowledgment of service or defence; it is given against a party with no real prospect of success and no other compelling reason for trial.',
+    }
+    for q in audited:
+        if q['id'] in rule_corrections:
+            q['key_rule'] = rule_corrections[q['id']]
     draft_questions = sorted([q for path in sorted((source / 'questions').glob('*.json')) for q in json.loads(path.read_text())], key=lambda q: q['id'])
     old = {q['id']: q for q in json.loads((ROOT / 'content/library.json').read_text())} if (ROOT / 'content/library.json').exists() else {}
     next_number = max([q['library_number'] for q in old.values()] + [0])
